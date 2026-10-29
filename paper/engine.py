@@ -16,7 +16,8 @@ import numpy as np, pandas as pd
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); P=os.path.join(ROOT,'paper'); DATA=os.path.join(ROOT,'data')
 LIVE_FROM='2026-10-29'; LOT=65; R=0.065; IST=dt.timezone(dt.timedelta(hours=5,minutes=30))
 SYMS=[f[:-4] for f in os.listdir(DATA) if f.endswith('.csv') and f not in ('latest.csv',)]
-STOCKS=[s for s in SYMS if s not in ('NIFTY','INDIAVIX')]
+_EX=os.path.join(ROOT,'symbols_extra.txt'); EXTRA={l.split(',')[0].strip() for l in open(_EX) if ',' in l and not l.startswith('#')} if os.path.exists(_EX) else set()
+STOCKS=[s for s in SYMS if s not in ('NIFTY','INDIAVIX') and s not in EXTRA]   # paper book = Nifty-50 only; extra symbols are for study
 def load(s):
     d=pd.read_csv(os.path.join(DATA,f'{s}.csv'),parse_dates=['date']).dropna(subset=['close']).drop_duplicates('date').set_index('date').sort_index()
     return d[['open','high','low','close']]
