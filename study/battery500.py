@@ -9,7 +9,10 @@ For every stock (real data AND once on shuffled daily moves = chance control):
 Costs: 0.05% per switch (trend), 0.1% per trade (return)."""
 import sys, os, math, itertools, numpy as np, pandas as pd
 U, MASTER, K, N, OUT = sys.argv[1], sys.argv[2], int(sys.argv[3]), int(sys.argv[4]), sys.argv[5]
-L = pd.read_csv(os.path.join(U, 'nifty500.csv')); master = pd.to_datetime(pd.read_csv(MASTER).date)
+_lf = os.path.join(U, 'list1000.csv') if os.path.exists(os.path.join(U, 'list1000.csv')) else os.path.join(U, 'nifty500.csv')
+L = pd.read_csv(_lf); master = pd.to_datetime(pd.read_csv(MASTER).date)
+if os.environ.get('SKIP_FILE'):   # symbols already studied (e.g. Nifty 500 results) are skipped
+    L = L[~L.symbol.isin(set(pd.read_csv(os.environ['SKIP_FILE']).symbol))]
 HJ = pd.read_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'hijri_tbla.csv'), parse_dates=['date']).set_index('date').hijri
 TYPES = ['SMA', 'EMA', 'WMA', 'HMA']
 LENS = np.r_[np.arange(2, 21), np.arange(22, 61, 2), np.arange(65, 121, 5), np.arange(130, 321, 10)]
