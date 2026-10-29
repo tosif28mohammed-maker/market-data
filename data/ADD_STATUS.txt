@@ -1,0 +1,1 @@
+added: ['IRCTC (IRCTC.NS) 2019-10-14 -> 2026-10-29, 1745 days', 'BANKNIFTY (^NSEBANK) 2007-09-17 -> 2026-10-29, 4705 days']; failed: []
