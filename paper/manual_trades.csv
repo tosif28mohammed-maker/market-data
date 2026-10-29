@@ -1,0 +1,2 @@
+id,date_time,strategy,legs,entry_credit_pts,lots,lot_size,max_profit_rs,max_loss_rs,pop,rules,status,exit_date,exit_pts,pnl_rs,note
+M001,2026-10-29 11:54 IST,Iron condor (Nifty 03 Nov),B 21900PE @6.25 | S 22200PE @14.5 | S 23300CE @18.55 | B 23600CE @3.75,23.05,1,65,1498,-18002,0.84,"book at +800-900 Rs; close if Nifty touches 23150 or 22350; consider closing Mon 2 Nov afternoon",open,,,,"virtual only (user avoided: risk 1:12). Real Sensibull prices. Nifty 22853 at entry."
