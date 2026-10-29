@@ -17,7 +17,7 @@ for name, tk in TICKERS.items():
     if isinstance(df.columns, pd.MultiIndex): df.columns=df.columns.get_level_values(0)
     df=df.reset_index().rename(columns={'Date':'date','Open':'open','High':'high','Low':'low','Close':'close','Adj Close':'adj','Volume':'volume'})
     df=df[['date','open','high','low','close','adj','volume']].dropna(subset=['close']); df['date']=pd.to_datetime(df.date).dt.tz_localize(None).dt.normalize()
-    if old is not None: df=pd.concat([old[old.date<df.date.min()], df])
+    if old is not None: df=pd.concat([old, df])   # keep every old day; newer download wins on the same date
     df=df.drop_duplicates('date', keep='last').sort_values('date'); df.to_csv(path, index=False, float_format='%.4f')
     r=df.iloc[-1]; last.append(dict(symbol=name, date=r.date.date(), open=r.open, high=r.high, low=r.low, close=r.close, volume=r.volume))
     time.sleep(1)
