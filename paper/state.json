@@ -1,5 +1,5 @@
 {
- "last": "2026-10-28",
+ "last": "2026-10-29",
  "open": [
   {
    "id": "T00094",
@@ -13,7 +13,7 @@
    "note": "dist -3.6% (limit -3.2%)",
    "entry_date": "2026-10-21",
    "entry_price": 2865.0,
-   "days": 6
+   "days": 7
   },
   {
    "id": "T00095",
@@ -27,7 +27,7 @@
    "note": "dist -2.9% (limit -2.6%)",
    "entry_date": "2026-10-21",
    "entry_price": 1753.0,
-   "days": 6
+   "days": 7
   },
   {
    "id": "T00100",
@@ -41,7 +41,7 @@
    "note": "dist -4.2% (limit -3.2%)",
    "entry_date": "2026-10-23",
    "entry_price": 366.0,
-   "days": 4
+   "days": 5
   },
   {
    "id": "T00102",
@@ -55,7 +55,7 @@
    "note": "dist -6.6% (limit -5.5%)",
    "entry_date": "2026-10-26",
    "entry_price": 264.2,
-   "days": 3
+   "days": 4
   },
   {
    "id": "T00103",
@@ -69,7 +69,7 @@
    "note": "dist -4.9% (limit -4.2%)",
    "entry_date": "2026-10-26",
    "entry_price": 167.67,
-   "days": 3
+   "days": 4
   },
   {
    "id": "T00108",
@@ -95,11 +95,11 @@
     ]
    ],
    "expiry": "2026-11-03",
-   "days": 1,
+   "days": 2,
    "sl": null,
    "target": null,
    "note": "credit 74.3 pts, VIX 16.4",
-   "mark": 1517.0
+   "mark": 2626.0
   },
   {
    "id": "T00109",
@@ -137,25 +137,27 @@
     ]
    ],
    "expiry": "2026-11-03",
-   "days": 1,
+   "days": 2,
    "sl": null,
    "target": null,
    "note": "credit 50.5 pts, VIX 16.4",
-   "mark": 943.0
-  }
- ],
- "pending": [
+   "mark": 1328.0
+  },
   {
    "id": "T00111",
    "strategy": "EQ_DIP",
    "symbol": "COALINDIA",
    "side": "Buy",
-   "qty": 0,
+   "qty": 254,
    "signal_date": "2026-10-28",
    "sl": 379.51,
    "target": 408.68,
-   "note": "dist -3.8% (limit -3.4%)"
+   "note": "dist -3.8% (limit -3.4%)",
+   "entry_date": "2026-10-29",
+   "entry_price": 393.1,
+   "days": 1
   }
  ],
- "seq": 111
+ "pending": [],
+ "seq": 112
 }
