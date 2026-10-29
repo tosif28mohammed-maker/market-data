@@ -9,6 +9,9 @@ Strategies (Hindi names in the report):
   HEDGE_IC   same but iron condor (wings 300 points further): hedged option selling.
   OPT_BUY_EXP buy ATM call at Tuesday close, sell Wednesday close.
   OPT_BUY_DIP buy ATM call (expiry >= 7 days) when FUT_DIP fires; exit Nifty >= EMA20, -50% premium, or 5 days.
+EQ_FOCUS   23 Top-1000 focus stocks: each stock's own MA rule from 2021-Oct23 (buy when distance below its 10% level, fresh) -> next open,
+             exit at the first close at/above that MA (or 60 days), stop 3 ATR; Rs 1 lakh, max 2 new/day, 6 open. Signals from 30 Oct 2026 close (entries from 2 Nov).
+Reports add a technical snapshot (RSI, MACD, Bollinger, 50/200 SMA, 52-week range, volume, 20-day support/resistance) as context.
 Options: Black-Scholes, volatility = India VIX x skew (0.973 - 5.36 ln(K/S)), time in trading days/252, fitted to real Sensibull prices on 29 Oct 2026 (estimate).
 Usage: python paper/engine.py [--start YYYY-MM-DD]   (state in paper/state.json; first run replays from --start)"""
 import os, sys, json, math, datetime as dt
@@ -53,6 +56,49 @@ def tyears(day,exp): return max(int(np.busday_count(day.date(),exp.date())),0)/2
 def ivol(S,K,vix): return vix/100*min(1.6,max(0.6,SKEW_A+SKEW_B*math.log(K/S)))
 def opt_val(legs,S,day,vix):
     return sum(q*bs(S,k,tyears(day,exp),ivol(S,k,vix),cp) for (cp,k,q,exp) in legs)   # q>0 long, q<0 short (points)
+
+# ---------- focus stocks (Top-1000 study, rule from latest era 2021-Oct23 -> Nov23-now) ----------
+def _wma(p,n):
+    w=np.arange(1,n+1,dtype=float); o=np.full(len(p),np.nan)
+    if len(p)>=n: o[n-1:]=np.convolve(p,w[::-1],'valid')/w.sum()
+    return o
+def ma_any(T,p,n):
+    if T=='SMA': return pd.Series(p).rolling(n).mean().to_numpy()
+    if T=='EMA': e=pd.Series(p).ewm(span=n,adjust=False).mean().to_numpy(copy=True); e[:n]=np.nan; return e
+    if T=='WMA': return _wma(p,n)
+    h=_wma(2*np.nan_to_num(_wma(p,max(n//2,1)),nan=p[0])-np.nan_to_num(_wma(p,n),nan=p[0]),max(int(round(np.sqrt(n))),1)); h[:n]=np.nan; return h
+FR=os.path.join(P,'focus_rules.csv'); FOCUS=pd.read_csv(FR).set_index('symbol').to_dict('index') if os.path.exists(FR) else {}
+FIND={}
+def find(s):
+    if s in FIND: return FIND[s]
+    d=DAY[s].copy(); r=FOCUS[s]; d['fma']=ma_any(r['type'],d.close.values,int(r['L'])); d['fdist']=d.close/d.fma-1
+    c=d.close; tr=pd.concat([d.high-d.low,(d.high-c.shift()).abs(),(d.low-c.shift()).abs()],axis=1).max(axis=1); d['atr']=tr.rolling(14).mean()
+    FIND[s]=d; return d
+def tech(s,day):
+    """Technical snapshot (context only, not a tested rule): RSI14, MACD, Bollinger %B, 50/200 SMA, 52-week range, volume, 20-day support/resistance."""
+    d=DAY[s][:day]
+    if len(d)<60: return ''
+    c=d.close; dl=c.diff(); up=dl.clip(lower=0).ewm(alpha=1/14,adjust=False).mean(); dn=(-dl.clip(upper=0)).ewm(alpha=1/14,adjust=False).mean(); rsi=100-100/(1+up.iloc[-1]/max(dn.iloc[-1],1e-9))
+    macd=c.ewm(span=12,adjust=False).mean()-c.ewm(span=26,adjust=False).mean(); sig=macd.ewm(span=9,adjust=False).mean(); h=macd-sig
+    m20=c.rolling(20).mean(); sd=c.rolling(20).std(); pb=(c.iloc[-1]-(m20.iloc[-1]-2*sd.iloc[-1]))/(4*sd.iloc[-1]) if sd.iloc[-1]>0 else np.nan
+    s50=c.rolling(50).mean().iloc[-1]; s200=c.rolling(200).mean().iloc[-1] if len(c)>=200 else np.nan
+    hi52=d.high[-252:].max(); lo52=d.low[-252:].min(); sup=d.low[-20:].min(); res=d.high[-20:].max()
+    vol=''
+    v=DAYV.get(s)
+    if v is not None:
+        vv=v[:day]
+        if len(vv)>=21 and vv.iloc[-21:-1].mean()>0: vol=f", volume {vv.iloc[-1]/vv.iloc[-21:-1].mean():.1f}x"
+    t=[f"RSI {rsi:.0f}"+(' (oversold)' if rsi<30 else ' (overbought)' if rsi>70 else ''),
+       'MACD '+('ऊपर' if h.iloc[-1]>0 else 'नीचे')+(' (मुड़ रहा)' if np.sign(h.iloc[-1])!=np.sign(h.iloc[-2]) else ''),
+       f"BB %B {pb:.2f}", ('50 SMA ऊपर' if c.iloc[-1]>s50 else '50 SMA नीचे')+(', 200 SMA ऊपर' if c.iloc[-1]>s200 else ', 200 SMA नीचे' if s200==s200 else ''),
+       f"52w high से {(c.iloc[-1]/hi52-1)*100:.0f}%", f"support {sup:.1f} / resistance {res:.1f}"]
+    return '; '.join(t)+vol
+def _vol(s):
+    f=os.path.join(DATA,f'{s}.csv')
+    try:
+        x=pd.read_csv(f,parse_dates=['date'],usecols=['date','volume']).drop_duplicates('date').set_index('date').volume.sort_index(); return x
+    except Exception: return None
+DAYV={s:_vol(s) for s in SYMS}
 # ---------- state ----------
 SF=os.path.join(P,'state.json'); JF=os.path.join(P,'journal.csv')
 state=json.load(open(SF)) if os.path.exists(SF) else {'last':None,'open':[],'pending':[],'seq':0}
@@ -76,13 +122,25 @@ for day in todo:
         d=DAY[o['symbol']]
         if day not in d.index: continue
         px=float(d.open[day]); p=dict(o); p.update(entry_date=str(day.date()),entry_price=round(px,2),days=0)
-        if o['strategy']=='EQ_DIP': p['qty']=int(100000//px)
+        if o['strategy'] in ('EQ_DIP','EQ_FOCUS'): p['qty']=int(100000//px)
         state['open'].append(p)
     state['pending']=[o for o in state['pending'] if o['symbol'] in DAY and day not in DAY[o['symbol']].index]
     # 2) manage swing positions (equity, FUT_DIP) with 5-min bars when available
     keep=[]
     for p in state['open']:
         st=p['strategy']
+        if st=='EQ_FOCUS':
+            d=DAY[p['symbol']]
+            if day not in d.index: keep.append(p); continue
+            p['days']+=1; fd=find(p['symbol']); i=fd.index.get_loc(day); tgt=float(fd.fma.iloc[i]); done=None
+            b=bars(p['symbol'],day)
+            path=[(r.high,r.low) for r in b.itertuples()] if b is not None and len(b) else [(float(d.high[day]),float(d.low[day]))]
+            if min(lo for hi,lo in path)<=p['sl']: done=(min(p['sl'],float(d.open[day])),'SL 3 ATR')
+            elif float(d.close[day])>=float(fd.fma.iloc[i]): done=(float(d.close[day]),'Close MA के ऊपर')   # same exit as the study: first close at/above the MA
+            elif p['days']>=60: done=(float(d.close[day]),'60 दिन')
+            if done: close_pos(p,day,done[0],done[1],(done[0]-p['entry_price'])*p['qty']-0.0025*p['qty']*p['entry_price'])
+            else: p['target']=round(tgt,2); p['mark']=round((float(d.close[day])-p['entry_price'])*p['qty'],0); keep.append(p)
+            continue
         if st in ('EQ_DIP','FUT_DIP'):
             d=DAY[p['symbol']]
             if day not in d.index: keep.append(p); continue
@@ -169,11 +227,24 @@ for day in todo:
         elif n_eq+new<6 and new<3:
             state['pending'].append(dict(id=nid(),strategy='EQ_DIP',symbol=s,side='Buy',qty=0,signal_date=str(day.date()),sl=round(x.close-1.5*x.atr,2),target=round(x.ema,2),note=f'dist {x.dist*100:.1f}% (limit {x.thr*100:.1f}%)'))
             new+=1
+    if str(day.date())>='2026-10-30':
+        held={p['symbol'] for p in state['open']}|{o['symbol'] for o in state['pending']}
+        nf=sum(1 for p in state['open'] if p['strategy']=='EQ_FOCUS'); new=0
+        for s_,rule in FOCUS.items():
+            if s_ not in DAY or s_ in held or nf+new>=6 or new>=2: continue
+            fd=find(s_)
+            if day not in fd.index: continue
+            i=fd.index.get_loc(day)
+            if i<1: continue
+            x=fd.iloc[i]; y=fd.iloc[i-1]
+            if pd.notna(x.fdist) and x.fdist<=rule['thr'] and y.fdist>rule['thr'] and pd.notna(x.atr):
+                state['pending'].append(dict(id=nid(),strategy='EQ_FOCUS',symbol=s_,side='Buy',qty=0,signal_date=str(day.date()),sl=round(x.close-3*x.atr,2),target=round(x.fma,2),
+                    note=f"{rule['type']} {rule['L']}: दूरी {x.fdist*100:.1f}% (सीमा {rule['thr']*100:.1f}%); 2021-26 जीत {rule['r1r2_win']:.0%}; {tech(s_,day)}")); new+=1
     state['last']=str(day.date()); REPORTS.append((day,TODAY_CLOSED,S,vix))
 # ---------- save ----------
 J=pd.DataFrame(journal); J.to_csv(JF,index=False)
 json.dump(state,open(SF,'w'),ensure_ascii=False,indent=1,default=str)
-NAME={'EQ_DIP':'Equity swing (dip)','FUT_DIP':'Nifty future (dip)','FUT_EXP':'Nifty future (expiry के बाद)','INTRA_ORB':'Intraday Nifty ORB',
+NAME={'EQ_DIP':'Equity swing (dip)','EQ_FOCUS':'Focus शेयर (Top-1000 नियम)','FUT_DIP':'Nifty future (dip)','FUT_EXP':'Nifty future (expiry के बाद)','INTRA_ORB':'Intraday Nifty ORB',
       'OPT_SELL':'Option sell (naked strangle)','HEDGE_IC':'Hedge: Iron condor','OPT_BUY_EXP':'Option buy (expiry के बाद CE)','OPT_BUY_DIP':'Option buy (dip CE)'}
 def summary(J):
     rows=[]
@@ -193,6 +264,13 @@ for day,closed,S,vix in REPORTS[-5:]:
     L+=[f"- {NAME[c['strategy']]}: {c['symbol']} {c['side']} {c['entry_price']} -> {c['exit_price']} ({c['exit_reason']}) = Rs {c['pnl_rs']:+,.0f}" for c in closed] or ['- कोई नहीं']
     L+=['','## खुले trade']+([f"- {NAME[p['strategy']]}: {p['symbol']} {p['side']} @ {p['entry_price']} (SL {p.get('sl')}, target {p.get('target')}, अभी Rs {p.get('mark','-')})" for p in state['open']] or ['- कोई नहीं'])
     L+=['','## कल open पर (pending)']+([f"- {NAME[o['strategy']]}: {o['symbol']} खरीद, SL {o['sl']}, target {o['target']} ({o['note']})" for o in state['pending']] or ['- कोई नहीं'])
+    near=[]
+    for s_,rule in FOCUS.items():
+        if s_ in DAY and day in DAY[s_].index:
+            fd=find(s_); x=fd.loc[day]
+            if pd.notna(x.fdist) and x.fdist<=rule['thr']*0.6+0.0 and x.fdist>rule['thr']: near.append(f"- {s_} ({rule['type']} {rule['L']}): दूरी {x.fdist*100:.1f}%, zone {rule['thr']*100:.1f}% पर ({x.fma*(1+rule['thr']):.1f}); {tech(s_,day)}")
+    L+=['','## Focus शेयर zone के पास (अभी entry नहीं)']+(near or ['- कोई नहीं'])
+    L+=['','## खुले/pending equity का technical हाल']+[f"- {o['symbol']}: {tech(o['symbol'],day)}" for o in state['open']+state['pending'] if o['strategy'] in ('EQ_DIP','EQ_FOCUS') and o['symbol'] in DAY]
     open(os.path.join(P,'reports',f'{day.date()}.md'),'w').write('\n'.join(L)+'\n')
 print('processed',len(todo),'days; last',state['last'],'; journal',len(J),'; open',len(state['open']),'; pending',len(state['pending']))
 if len(J): print(summary(J[J['mode']=='replay']).to_string(index=False)); print(summary(J[J['mode']=='live']).to_string(index=False))
