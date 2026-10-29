@@ -1,0 +1,23 @@
+name: daily-market-data
+on:
+  schedule:
+    - cron: '30 11 * * 1-5'   # 11:30 UTC = 5:00 PM India, Monday-Friday (after market close)
+  workflow_dispatch: {}        # also a "Run workflow" button for manual runs
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install yfinance pandas
+      - run: PYTHONPATH=scripts python scripts/fetch.py
+      - run: |
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git commit -m "data $(date -u +%Y-%m-%d)" || echo "no change"
+          git pull --rebase || true
+          git push

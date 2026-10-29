@@ -1,0 +1,24 @@
+name: intraday-5min
+on:
+  schedule:
+    - cron: '*/15 3-10 * * 1-5'   # every 15 min, 03:00-10:59 UTC = 8:30 AM-4:29 PM India, Mon-Fri (GitHub may run a few minutes late)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: { group: intraday, cancel-in-progress: false }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install yfinance pandas
+      - run: PYTHONPATH=scripts python scripts/intraday.py
+      - run: |
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git commit -m "intraday $(date -u +%H:%M)" || echo "no change"
+          git pull --rebase || true
+          git push
