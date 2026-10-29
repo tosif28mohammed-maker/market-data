@@ -5,7 +5,8 @@ from fetch_list import TICKERS
 os.makedirs('data/intraday', exist_ok=True)
 for name, tk in TICKERS.items():
     try:
-        df = yf.download(tk, period='5d', interval='5m', auto_adjust=False, progress=False, threads=False)
+        first = not os.path.exists(f'data/intraday/{name}_5m.csv')
+        df = yf.download(tk, period='60d' if first else '5d', interval='5m', auto_adjust=False, progress=False, threads=False)
     except Exception as e:
         print(name, e); continue
     if df is None or not len(df): continue
