@@ -7,3 +7,13 @@ TICKERS = {'NIFTY':'^NSEI','INDIAVIX':'^INDIAVIX','RELIANCE':'RELIANCE.NS','HDFC
  'CIPLA':'CIPLA.NS','DRREDDY':'DRREDDY.NS','EICHERMOT':'EICHERMOT.NS','HDFCLIFE':'HDFCLIFE.NS','SBILIFE':'SBILIFE.NS','SHRIRAMFIN':'SHRIRAMFIN.NS',
  'TATACONSUM':'TATACONSUM.NS','TMPV':'TMPV.NS','TRENT':'TRENT.NS','BEL':'BEL.NS','INDIGO':'INDIGO.NS','JIOFIN':'JIOFIN.NS','ETERNAL':'ETERNAL.NS',
  'MAXHEALTH':'MAXHEALTH.NS','BSE':'BSE.NS'}
+
+# Extra symbols added on request (scripts/add_symbols.py writes symbols_extra.txt: NAME,YAHOO_TICKER per line)
+import os as _os
+INDEX_MAP = {'BANKNIFTY':'^NSEBANK','NIFTYBANK':'^NSEBANK','FINNIFTY':'NIFTY_FIN_SERVICE.NS','MIDCPNIFTY':'NIFTY_MID_SELECT.NS',
+             'NIFTYIT':'^CNXIT','NIFTYMIDCAP100':'^CNXMIDCAP','SENSEX':'^BSESN','NIFTYNEXT50':'^NSMIDCP'}
+_extra = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), 'symbols_extra.txt')
+if _os.path.exists(_extra):
+    for _line in open(_extra):
+        _p = [x.strip() for x in _line.split(',')]
+        if len(_p) == 2 and _p[0] and not _p[0].startswith('#'): TICKERS.setdefault(_p[0], _p[1])
