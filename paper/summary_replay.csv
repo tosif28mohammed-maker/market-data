@@ -1,0 +1,9 @@
+strategy,trades,win_pct,pnl_rs,avg_rs,best,worst,max_dd
+Equity swing (dip),26,23,-47005,-1807,5735,-5606,-55430
+Nifty future (dip),4,25,-23800,-5950,34191,-22161,-40200
+Nifty future (expiry के बाद),8,25,-36362,-4545,7557,-13334,-27632
+Intraday Nifty ORB,39,54,58221,1492,17606,-11248,-26806
+Option sell (naked strangle),7,57,-6738,-962,4229,-8328,-13638
+Hedge: Iron condor,7,71,292,41,3146,-7680,-10473
+Option buy (expiry के बाद CE),8,25,-21525,-2690,3076,-5711,-16442
+Option buy (dip CE),4,25,-1396,-349,29063,-10879,-19580

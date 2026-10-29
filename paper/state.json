@@ -1,0 +1,161 @@
+{
+ "last": "2026-10-28",
+ "open": [
+  {
+   "id": "T00094",
+   "strategy": "EQ_DIP",
+   "symbol": "GRASIM",
+   "side": "Buy",
+   "qty": 34,
+   "signal_date": "2026-10-19",
+   "sl": 2778.98,
+   "target": 2988.03,
+   "note": "dist -3.6% (limit -3.2%)",
+   "entry_date": "2026-10-21",
+   "entry_price": 2865.0,
+   "days": 6
+  },
+  {
+   "id": "T00095",
+   "strategy": "EQ_DIP",
+   "symbol": "SUNPHARMA",
+   "side": "Buy",
+   "qty": 57,
+   "signal_date": "2026-10-19",
+   "sl": 1691.86,
+   "target": 1794.2,
+   "note": "dist -2.9% (limit -2.6%)",
+   "entry_date": "2026-10-21",
+   "entry_price": 1753.0,
+   "days": 6
+  },
+  {
+   "id": "T00100",
+   "strategy": "EQ_DIP",
+   "symbol": "BEL",
+   "side": "Buy",
+   "qty": 273,
+   "signal_date": "2026-10-22",
+   "sl": 352.33,
+   "target": 380.54,
+   "note": "dist -4.2% (limit -3.2%)",
+   "entry_date": "2026-10-23",
+   "entry_price": 366.0,
+   "days": 4
+  },
+  {
+   "id": "T00102",
+   "strategy": "EQ_DIP",
+   "symbol": "TMPV",
+   "side": "Buy",
+   "qty": 378,
+   "signal_date": "2026-10-23",
+   "sl": 253.17,
+   "target": 283.27,
+   "note": "dist -6.6% (limit -5.5%)",
+   "entry_date": "2026-10-26",
+   "entry_price": 264.2,
+   "days": 3
+  },
+  {
+   "id": "T00103",
+   "strategy": "EQ_DIP",
+   "symbol": "TATASTEEL",
+   "side": "Buy",
+   "qty": 596,
+   "signal_date": "2026-10-23",
+   "sl": 161.06,
+   "target": 176.4,
+   "note": "dist -4.9% (limit -4.2%)",
+   "entry_date": "2026-10-26",
+   "entry_price": 167.67,
+   "days": 3
+  },
+  {
+   "id": "T00108",
+   "strategy": "OPT_SELL",
+   "symbol": "NIFTY 22200PE/23300CE",
+   "side": "Sell",
+   "qty": 65,
+   "entry_date": "2026-10-27",
+   "entry_price": 76.6,
+   "entry_val": -76.59652935402619,
+   "legs": [
+    [
+     "C",
+     23300,
+     -1,
+     "2026-11-03"
+    ],
+    [
+     "P",
+     22200,
+     -1,
+     "2026-11-03"
+    ]
+   ],
+   "expiry": "2026-11-03",
+   "days": 1,
+   "sl": null,
+   "target": null,
+   "note": "credit 76.6 pts, VIX 16.4",
+   "mark": 1232.0
+  },
+  {
+   "id": "T00109",
+   "strategy": "HEDGE_IC",
+   "symbol": "NIFTY 22200PE/23300CE +wings",
+   "side": "Sell",
+   "qty": 65,
+   "entry_date": "2026-10-27",
+   "entry_price": 54.61,
+   "entry_val": -54.6084302140539,
+   "legs": [
+    [
+     "C",
+     23300,
+     -1,
+     "2026-11-03"
+    ],
+    [
+     "P",
+     22200,
+     -1,
+     "2026-11-03"
+    ],
+    [
+     "C",
+     23600,
+     1,
+     "2026-11-03"
+    ],
+    [
+     "P",
+     21900,
+     1,
+     "2026-11-03"
+    ]
+   ],
+   "expiry": "2026-11-03",
+   "days": 1,
+   "sl": null,
+   "target": null,
+   "note": "credit 54.6 pts, VIX 16.4",
+   "mark": 694.0
+  }
+ ],
+ "pending": [
+  {
+   "id": "T00111",
+   "strategy": "EQ_DIP",
+   "symbol": "COALINDIA",
+   "side": "Buy",
+   "qty": 0,
+   "signal_date": "2026-10-28",
+   "sl": 379.51,
+   "target": 408.68,
+   "note": "dist -3.8% (limit -3.4%)"
+  }
+ ],
+ "seq": 111
+}
