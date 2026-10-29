@@ -78,8 +78,8 @@
    "side": "Sell",
    "qty": 65,
    "entry_date": "2026-10-27",
-   "entry_price": 76.6,
-   "entry_val": -76.59652935402619,
+   "entry_price": 74.28,
+   "entry_val": -74.27502364850625,
    "legs": [
     [
      "C",
@@ -98,8 +98,8 @@
    "days": 1,
    "sl": null,
    "target": null,
-   "note": "credit 76.6 pts, VIX 16.4",
-   "mark": 1232.0
+   "note": "credit 74.3 pts, VIX 16.4",
+   "mark": 1517.0
   },
   {
    "id": "T00109",
@@ -108,8 +108,8 @@
    "side": "Sell",
    "qty": 65,
    "entry_date": "2026-10-27",
-   "entry_price": 54.61,
-   "entry_val": -54.6084302140539,
+   "entry_price": 50.48,
+   "entry_val": -50.48186003038211,
    "legs": [
     [
      "C",
@@ -140,8 +140,8 @@
    "days": 1,
    "sl": null,
    "target": null,
-   "note": "credit 54.6 pts, VIX 16.4",
-   "mark": 694.0
+   "note": "credit 50.5 pts, VIX 16.4",
+   "mark": 943.0
   }
  ],
  "pending": [

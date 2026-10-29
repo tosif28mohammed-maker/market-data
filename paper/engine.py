@@ -9,7 +9,7 @@ Strategies (Hindi names in the report):
   HEDGE_IC   same but iron condor (wings 300 points further): hedged option selling.
   OPT_BUY_EXP buy ATM call at Tuesday close, sell Wednesday close.
   OPT_BUY_DIP buy ATM call (expiry >= 7 days) when FUT_DIP fires; exit Nifty >= EMA20, -50% premium, or 5 days.
-Options are priced with Black-Scholes using India VIX as volatility (estimate: real premiums differ, no skew).
+Options: Black-Scholes, volatility = India VIX x skew (0.973 - 5.36 ln(K/S)), time in trading days/252, fitted to real Sensibull prices on 29 Oct 2026 (estimate).
 Usage: python paper/engine.py [--start YYYY-MM-DD]   (state in paper/state.json; first run replays from --start)"""
 import os, sys, json, math, datetime as dt
 import numpy as np, pandas as pd
@@ -48,8 +48,11 @@ def next_tuesday(day,min_days=1):
     t=day+pd.Timedelta(days=min_days)
     while t.dayofweek!=1: t+=pd.Timedelta(days=1)
     return t
+SKEW_A,SKEW_B=0.973,-5.36   # IV = VIX x (A + B*ln(K/S)); fitted 29 Oct 2026 on real Sensibull prices (puts dearer, calls cheaper)
+def tyears(day,exp): return max(int(np.busday_count(day.date(),exp.date())),0)/252   # trading days to expiry
+def ivol(S,K,vix): return vix/100*min(1.6,max(0.6,SKEW_A+SKEW_B*math.log(K/S)))
 def opt_val(legs,S,day,vix):
-    return sum(q*bs(S,k,max((exp-day).days,0)/365,vix/100,cp) for (cp,k,q,exp) in legs)   # q>0 long, q<0 short (points)
+    return sum(q*bs(S,k,tyears(day,exp),ivol(S,k,vix),cp) for (cp,k,q,exp) in legs)   # q>0 long, q<0 short (points)
 # ---------- state ----------
 SF=os.path.join(P,'state.json'); JF=os.path.join(P,'journal.csv')
 state=json.load(open(SF)) if os.path.exists(SF) else {'last':None,'open':[],'pending':[],'seq':0}
@@ -135,8 +138,8 @@ for day in todo:
     is_exp=day.dayofweek==1
     if is_exp:
         state['open'].append(dict(id=nid(),strategy='FUT_EXP',symbol='NIFTY',side='Long',qty=LOT,entry_date=str(day.date()),entry_price=round(S,2),sl=None,target=None,days=0,note='expiry-day close'))
-        nexp=next_tuesday(day); T=(nexp-day).days/365
-        atm=round(S/50)*50; prem=bs(S,atm,T,vix/100,'C')
+        nexp=next_tuesday(day); T=tyears(day,nexp)
+        atm=round(S/50)*50; prem=bs(S,atm,T,ivol(S,atm,vix),'C')
         state['open'].append(dict(id=nid(),strategy='OPT_BUY_EXP',symbol=f'NIFTY {atm} CE',side='Buy',qty=LOT,entry_date=str(day.date()),entry_price=round(prem,2),entry_val=prem,
             legs=[('C',atm,1,str(nexp.date()))],expiry=str(nexp.date()),days=0,sl=None,target=None,note=f'VIX {vix:.1f}'))
         if 11<=vix<=22:
@@ -160,7 +163,7 @@ for day in todo:
         if s in held: continue
         if s=='NIFTY':
             state['pending'].append(dict(id=nid(),strategy='FUT_DIP',symbol='NIFTY',side='Long',qty=LOT,signal_date=str(day.date()),sl=round(x.close-1.5*x.atr,2),target=round(x.ema,2),note=f'dist {x.dist*100:.1f}%'))
-            nexp=next_tuesday(day,7); atm=round(S/50)*50; prem=bs(S,atm,(nexp-day).days/365,vix/100,'C')
+            nexp=next_tuesday(day,7); atm=round(S/50)*50; prem=bs(S,atm,tyears(day,nexp),ivol(S,atm,vix),'C')
             state['open'].append(dict(id=nid(),strategy='OPT_BUY_DIP',symbol=f'NIFTY {atm} CE',side='Buy',qty=LOT,entry_date=str(day.date()),entry_price=round(prem,2),entry_val=prem,
                 legs=[('C',atm,1,str(nexp.date()))],expiry=str(nexp.date()),days=0,sl=None,target=None,note=f'VIX {vix:.1f}'))
         elif n_eq+new<6 and new<3:
