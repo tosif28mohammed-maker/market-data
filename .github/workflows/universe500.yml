@@ -1,0 +1,53 @@
+name: universe-500-download
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests pandas
+      - run: python universe/get_list.py
+      - uses: actions/upload-artifact@v4
+        with: { name: list, path: universe/nifty500.csv }
+  download:
+    needs: list
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: { chunk: [0,1,2,3,4,5,6,7,8,9] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install yfinance pandas
+      - uses: actions/download-artifact@v4
+        with: { name: list, path: universe }
+      - run: python universe/download.py ${{ matrix.chunk }} 10
+      - uses: actions/upload-artifact@v4
+        with:
+          name: daily-${{ matrix.chunk }}
+          path: out
+  commit:
+    needs: download
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/download-artifact@v4
+        with: { path: art }
+      - run: |
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin universe500; then git checkout universe500; else git checkout --orphan universe500; git rm -rf . -q; fi
+          mkdir -p u500/daily
+          cp art/list/nifty500.csv u500/
+          for d in art/daily-*; do cp $d/daily/*.csv.gz u500/daily/ 2>/dev/null || true; cat $d/bad_*.txt >> u500/failed.txt 2>/dev/null || true; done
+          echo "updated $(date -u +%Y-%m-%d) files $(ls u500/daily | wc -l)" > u500/STATUS.txt
+          git add u500
+          git commit -m "Nifty 500 daily history $(date -u +%Y-%m-%d)" || echo "no change"
+          git push origin universe500
