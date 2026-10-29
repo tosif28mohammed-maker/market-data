@@ -1,0 +1,55 @@
+name: universe-1000-download
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests pandas
+      - run: python universe/get_list_all.py
+      - uses: actions/upload-artifact@v4
+        with: { name: list, path: universe/all_eq.csv }
+  download:
+    needs: list
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: { chunk: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install yfinance pandas
+      - uses: actions/download-artifact@v4
+        with: { name: list, path: universe }
+      - run: python universe/download_all.py ${{ matrix.chunk }} 20
+      - uses: actions/upload-artifact@v4
+        with:
+          name: daily-${{ matrix.chunk }}
+          path: out
+  commit:
+    needs: download
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install pandas
+      - uses: actions/download-artifact@v4
+        with: { path: art }
+      - run: python universe/pick1000.py art u1000_new
+      - run: |
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout universe500
+          rm -rf u1000 && mv u1000_new u1000
+          echo "updated $(date -u +%Y-%m-%d) files $(ls u1000/daily | wc -l)" > u1000/STATUS.txt
+          git add u1000
+          git commit -m "Top 1000 by turnover $(date -u +%Y-%m-%d)" || echo "no change"
+          git push origin universe500
