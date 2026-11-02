@@ -13,6 +13,13 @@ s = api.generateSession(E['ANGEL_CLIENT_ID'], E['ANGEL_PIN'], pyotp.TOTP(E['ANGE
 ok = bool(s and s.get('status'))
 status = [f"{dt.datetime.utcnow():%Y-%m-%d %H:%M} UTC login {'OK' if ok else 'FAILED: ' + str(s.get('message') if s else s)}"]
 if not ok: open(f'{OUT}/STATUS.txt', 'w').write('\n'.join(status) + '\n'); sys.exit(0)
+for nm, fn in (('ltpData NIFTY index', lambda: api.ltpData('NSE', 'Nifty 50', '99926000')),
+               ('getCandleData NIFTY', lambda: api.getCandleData({'exchange': 'NSE', 'symboltoken': '99926000', 'interval': 'ONE_DAY', 'fromdate': '2026-10-26 09:15', 'todate': '2026-10-30 15:30'})),
+               ('getProfile', lambda: api.getProfile(s['data']['refreshToken']))):
+    try:
+        r = fn(); r = json.loads(r) if isinstance(r, (str, bytes)) else r
+        status.append(f"test {nm}: status={r.get('status', r.get('success'))} msg={str(r.get('message'))[:60]} code={r.get('errorcode', r.get('errorCode'))}")
+    except Exception as e: status.append(f'test {nm}: {type(e).__name__} {str(e)[:120]}')
 M = pd.DataFrame(requests.get('https://margincalculator.angelbroking.com/OpenAPI_File/files/OpenAPIScripMaster.json', timeout=60).json())
 M = M[M.exch_seg == 'NFO']; M['expiry_d'] = pd.to_datetime(M.expiry, format='%d%b%Y', errors='coerce'); M['strike_r'] = pd.to_numeric(M.strike, errors='coerce') / 100
 unds = sys.argv[1:] or ['NIFTY', 'BANKNIFTY']
