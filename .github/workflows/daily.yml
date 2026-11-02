@@ -14,6 +14,7 @@ jobs:
         with: { python-version: '3.11' }
       - run: pip install yfinance pandas
       - run: PYTHONPATH=scripts python scripts/fetch.py
+      - run: python scripts/gapday.py || echo 'gapday failed'
       - run: python paper/engine.py
       - run: |
           git config user.name "market-data-bot"

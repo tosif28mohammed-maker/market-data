@@ -11,6 +11,9 @@ Strategies (Hindi names in the report):
   OPT_BUY_DIP buy ATM call (expiry >= 7 days) when FUT_DIP fires; exit Nifty >= EMA20, -50% premium, or 5 days.
 EQ_FOCUS   23 Top-1000 focus stocks: each stock's own MA rule from 2021-Oct23 (buy when distance below its 10% level, fresh) -> next open,
              exit at the first close at/above that MA (or 60 days), stop 3 ATR; Rs 1 lakh, max 2 new/day, 6 open. Signals from 30 Oct 2026 close (entries from 2 Nov).
+INTRA_GAPFADE (user OK 2 Nov 2026, study f47): stocks of liquidity A/B (paper/gap_universe.csv, never D) that open 2%+ above the previous
+             close -> intraday SHORT at 9:20 (close of the first 5-min candle), stop 0.5% above that candle's high, exit 15:15; Rs 1 lakh each,
+             max 5 per day (largest gaps first), cost 0.12%. Data: data/gapday/<date>.csv.gz (scripts/gapday.py). Replay 7 Aug-28 Oct 2026, live from 29 Oct.
 Reports add a technical snapshot (RSI, MACD, Bollinger, 50/200 SMA, 52-week range, volume, 20-day support/resistance) as context.
 Options: Black-Scholes, volatility = India VIX x skew (0.973 - 5.36 ln(K/S)), time in trading days/252, fitted to real Sensibull prices on 29 Oct 2026 (estimate).
 Usage: python paper/engine.py [--start YYYY-MM-DD]   (state in paper/state.json; first run replays from --start)"""
@@ -242,11 +245,38 @@ for day in todo:
                 state['pending'].append(dict(id=nid(),strategy='EQ_FOCUS',symbol=s_,side='Buy',qty=0,signal_date=str(day.date()),sl=round(x.close-3*x.atr,2),target=round(x.fma,2),
                     note=f"{rule['type']} {rule['L']}: दूरी {x.fdist*100:.1f}% (सीमा {rule['thr']*100:.1f}%); 2021-26 जीत {rule['r1r2_win']:.0%}; {tech(s_,day)}")); new+=1
     state['last']=str(day.date()); REPORTS.append((day,TODAY_CLOSED,S,vix))
+# ---------- INTRA_GAPFADE: gap-up 2%+ short at 9:20 (independent of the daily loop; one file per day) ----------
+GD=os.path.join(DATA,'gapday'); GU=pd.read_csv(os.path.join(P,'gap_universe.csv')).set_index('symbol') if os.path.exists(os.path.join(P,'gap_universe.csv')) else pd.DataFrame()
+GAP_TODAY={}
+if os.path.isdir(GD) and len(GU):
+    for fn in sorted(f for f in os.listdir(GD) if f.endswith('.csv.gz')):
+        gday=fn[:10]
+        if state.get('gap_last') and gday<=state['gap_last']: continue
+        X=pd.read_csv(os.path.join(GD,fn),parse_dates=['time']); cands=[]
+        for sym,z in X.groupby('symbol'):
+            if sym in AVOID or sym not in GU.index: continue
+            z=z.sort_values('time').reset_index(drop=True)
+            if len(z)<60 or z.time.iloc[0].strftime('%H:%M')!='09:15': continue
+            gap=z.open.iloc[0]/z.prev_close.iloc[0]-1
+            if gap>=0.02: cands.append((gap,sym,z))
+        cands.sort(key=lambda c:-c[0]); done_today=[]
+        for gap,sym,z in cands[:5]:
+            entry=float(z.close.iloc[0]); stop=float(z.high.iloc[0])*1.005; qty=int(100000//entry); ex=None
+            for r in z.iloc[1:].itertuples():
+                if r.time.strftime('%H:%M')>'15:15': break
+                if r.high>=stop: ex=(stop,'SL (5-मिनट high+0.5%)'); break
+                if r.time.strftime('%H:%M')=='15:15': ex=(float(r.close),'15:15 बंद'); break
+            if ex is None: ex=(float(z[z.time.dt.strftime('%H:%M')<='15:15'].close.iloc[-1]),'15:15 बंद')
+            pnl=(entry-ex[0])*qty-0.0012*qty*entry
+            p=dict(id=nid(),strategy='INTRA_GAPFADE',symbol=sym,side='Short',qty=qty,entry_date=gday,entry_price=round(entry,2),sl=round(stop,2),target=None,
+                   note=f"gap {gap*100:.1f}%, liquidity {GU.loc[sym,'liq']}{', F&O' if GU.loc[sym,'fo'] else ''}")
+            j=dict(p); j.update(exit_date=gday,exit_price=round(ex[0],2),exit_reason=ex[1],pnl_rs=round(pnl,0),mode='live' if gday>=LIVE_FROM else 'replay'); journal.append(j); done_today.append(j)
+        GAP_TODAY[gday]=done_today; state['gap_last']=gday
 # ---------- save ----------
 J=pd.DataFrame(journal); J.to_csv(JF,index=False)
 json.dump(state,open(SF,'w'),ensure_ascii=False,indent=1,default=str)
 NAME={'EQ_DIP':'Equity swing (dip)','EQ_FOCUS':'Focus शेयर (Top-1000 नियम)','FUT_DIP':'Nifty future (dip)','FUT_EXP':'Nifty future (expiry के बाद)','INTRA_ORB':'Intraday Nifty ORB',
-      'OPT_SELL':'Option sell (naked strangle)','HEDGE_IC':'Hedge: Iron condor','OPT_BUY_EXP':'Option buy (expiry के बाद CE)','OPT_BUY_DIP':'Option buy (dip CE)'}
+      'OPT_SELL':'Option sell (naked strangle)','HEDGE_IC':'Hedge: Iron condor','OPT_BUY_EXP':'Option buy (expiry के बाद CE)','OPT_BUY_DIP':'Option buy (dip CE)','INTRA_GAPFADE':'Intraday gap-up 2%+ short (9:20)'}
 def summary(J):
     rows=[]
     for st in NAME:
@@ -263,6 +293,8 @@ os.makedirs(os.path.join(P,'reports'),exist_ok=True)
 for day,closed,S,vix in REPORTS[-5:]:
     L=[f'# Paper trading रिपोर्ट {day.date()} (कोई असली पैसा नहीं)',f'Nifty {S:.0f}, VIX {vix:.2f}','','## आज बंद हुए trade']
     L+=[f"- {NAME[c['strategy']]}: {c['symbol']} {c['side']} {c['entry_price']} -> {c['exit_price']} ({c['exit_reason']}) = Rs {c['pnl_rs']:+,.0f}" for c in closed] or ['- कोई नहीं']
+    g_=GAP_TODAY.get(str(day.date()),[])
+    L+=['','## Gap-up 2%+ short (9:20 पर, intraday)']+([f"- {c['symbol']} {c['note']}: {c['entry_price']} -> {c['exit_price']} ({c['exit_reason']}) = Rs {c['pnl_rs']:+,.0f}" for c in g_] or ['- कोई नहीं / डेटा नहीं'])
     L+=['','## खुले trade']+([f"- {NAME[p['strategy']]}: {p['symbol']} {p['side']} @ {p['entry_price']} (SL {p.get('sl')}, target {p.get('target')}, अभी Rs {p.get('mark','-')})" for p in state['open']] or ['- कोई नहीं'])
     L+=['','## कल open पर (pending)']+([f"- {NAME[o['strategy']]}: {o['symbol']} खरीद, SL {o['sl']}, target {o['target']} ({o['note']})" for o in state['pending']] or ['- कोई नहीं'])
     near=[]
