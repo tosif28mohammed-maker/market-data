@@ -9,3 +9,4 @@ Hedge: Iron condor,0,,,,,,
 Option buy (expiry के बाद CE),0,,,,,,
 Option buy (dip CE),0,,,,,,
 Intraday gap-up 2%+ short (9:20),15,47.0,-8833.0,-588.0,6267.0,-4865.0,-16225.0
+Index: America के बड़े दिन के बाद उल्टा,2,100.0,18952.0,9476.0,14102.0,4850.0,0.0

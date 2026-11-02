@@ -14,6 +14,10 @@ EQ_FOCUS   23 Top-1000 focus stocks: each stock's own MA rule from 2021-Oct23 (b
 INTRA_GAPFADE (user OK 2 Nov 2026, study f47): stocks of liquidity A/B (paper/gap_universe.csv, never D) that open 2%+ above the previous
              close -> intraday SHORT at 9:20 (close of the first 5-min candle), stop 0.5% above that candle's high, exit 15:15; Rs 1 lakh each,
              max 5 per day (largest gaps first), cost 0.12%. Data: data/gapday/<date>.csv.gz (scripts/gapday.py). Replay 7 Aug-28 Oct 2026, live from 29 Oct.
+IDX_USFADE (user OK 2 Nov 2026, study f51): after a big US night (S&P 500 move in its top/bottom 10% of 2013-20 days, ex-crisis) the
+             Indian index gaps the same way and tends to reverse in the day -> BankNifty futures (index as proxy), 1 lot (30), opposite
+             to the US move at the 9:15 open, exit 15:15 (close), stop 1% against; Nifty futures (65) same rule as a second line. Cost Rs 100.
+             Replay from 1 Jan 2026, live from 29 Oct 2026.
 Reports add a technical snapshot (RSI, MACD, Bollinger, 50/200 SMA, 52-week range, volume, 20-day support/resistance) as context.
 Options: Black-Scholes, volatility = India VIX x skew (0.973 - 5.36 ln(K/S)), time in trading days/252, fitted to real Sensibull prices on 29 Oct 2026 (estimate).
 Usage: python paper/engine.py [--start YYYY-MM-DD]   (state in paper/state.json; first run replays from --start)"""
@@ -272,11 +276,33 @@ if os.path.isdir(GD) and len(GU):
                    note=f"gap {gap*100:.1f}%, liquidity {GU.loc[sym,'liq']}{', F&O' if GU.loc[sym,'fo'] else ''}")
             j=dict(p); j.update(exit_date=gday,exit_price=round(ex[0],2),exit_reason=ex[1],pnl_rs=round(pnl,0),mode='live' if gday>=LIVE_FROM else 'replay'); journal.append(j); done_today.append(j)
         GAP_TODAY[gday]=done_today; state['gap_last']=gday
+# ---------- IDX_USFADE: fade the index after a big US night ----------
+USF=os.path.join(DATA,'global','US_SP500.csv'); USFADE_TODAY={}
+if os.path.exists(USF) and 'BANKNIFTY' in DAY:
+    us=pd.read_csv(USF,parse_dates=['date']).dropna(subset=['close']).drop_duplicates('date').set_index('date').sort_index().close
+    mv=us.pct_change(); base=mv[(mv.index>='2013-01-01')&(mv.index<='2020-12-31')&~((mv.index>='2020-02-15')&(mv.index<='2020-06-30'))].dropna()
+    lo_t,hi_t=base.quantile(0.1),base.quantile(0.9)
+    for sym,lot in (('BANKNIFTY',30),('NIFTY',65)):
+        d=DAY[sym]; key=f'usfade_last_{sym}'; start=state.get(key) or '2025-12-31'
+        for day in [x for x in d.index if str(x.date())>start]:
+            if dates and day>dates[-1]: break
+            prev_us=mv[mv.index<day]
+            if not len(prev_us) or (day-prev_us.index[-1]).days>4: state[key]=str(day.date()); continue
+            m=float(prev_us.iloc[-1]); side=-1 if m>=hi_t else (1 if m<=lo_t else 0)
+            if side:
+                o,h,l,c=(float(d.loc[day,k]) for k in ('open','high','low','close')); stop=o*(1-0.01*side)
+                hit=(side==1 and l<=stop) or (side==-1 and h>=stop); ex=stop if hit else c
+                pnl=side*(ex-o)*lot-100
+                j=dict(id=nid(),strategy='IDX_USFADE',symbol=f'{sym} FUT',side='Long' if side==1 else 'Short',qty=lot,entry_date=str(day.date()),entry_price=round(o,2),sl=round(stop,2),target=None,
+                       note=f"S&P {m*100:+.2f}% (सीमा {lo_t*100:.2f}/{hi_t*100:.2f}%)",exit_date=str(day.date()),exit_price=round(ex,2),exit_reason='SL 1%' if hit else '15:15 बंद',pnl_rs=round(pnl,0),
+                       mode='live' if str(day.date())>=LIVE_FROM else 'replay')
+                journal.append(j); USFADE_TODAY.setdefault(str(day.date()),[]).append(j)
+            state[key]=str(day.date())
 # ---------- save ----------
 J=pd.DataFrame(journal); J.to_csv(JF,index=False)
 json.dump(state,open(SF,'w'),ensure_ascii=False,indent=1,default=str)
 NAME={'EQ_DIP':'Equity swing (dip)','EQ_FOCUS':'Focus शेयर (Top-1000 नियम)','FUT_DIP':'Nifty future (dip)','FUT_EXP':'Nifty future (expiry के बाद)','INTRA_ORB':'Intraday Nifty ORB',
-      'OPT_SELL':'Option sell (naked strangle)','HEDGE_IC':'Hedge: Iron condor','OPT_BUY_EXP':'Option buy (expiry के बाद CE)','OPT_BUY_DIP':'Option buy (dip CE)','INTRA_GAPFADE':'Intraday gap-up 2%+ short (9:20)'}
+      'OPT_SELL':'Option sell (naked strangle)','HEDGE_IC':'Hedge: Iron condor','OPT_BUY_EXP':'Option buy (expiry के बाद CE)','OPT_BUY_DIP':'Option buy (dip CE)','INTRA_GAPFADE':'Intraday gap-up 2%+ short (9:20)','IDX_USFADE':'Index: America के बड़े दिन के बाद उल्टा'}
 def summary(J):
     rows=[]
     for st in NAME:
@@ -295,6 +321,8 @@ for day,closed,S,vix in REPORTS[-5:]:
     L+=[f"- {NAME[c['strategy']]}: {c['symbol']} {c['side']} {c['entry_price']} -> {c['exit_price']} ({c['exit_reason']}) = Rs {c['pnl_rs']:+,.0f}" for c in closed] or ['- कोई नहीं']
     g_=GAP_TODAY.get(str(day.date()),[])
     L+=['','## Gap-up 2%+ short (9:20 पर, intraday)']+([f"- {c['symbol']} {c['note']}: {c['entry_price']} -> {c['exit_price']} ({c['exit_reason']}) = Rs {c['pnl_rs']:+,.0f}" for c in g_] or ['- कोई नहीं / डेटा नहीं'])
+    u_=USFADE_TODAY.get(str(day.date()),[])
+    L+=['','## America के बड़े दिन के बाद index उल्टा (BankNifty/Nifty future)']+([f"- {c['symbol']} {c['side']} {c['note']}: {c['entry_price']} -> {c['exit_price']} ({c['exit_reason']}) = Rs {c['pnl_rs']:+,.0f}" for c in u_] or ['- आज signal नहीं'])
     L+=['','## खुले trade']+([f"- {NAME[p['strategy']]}: {p['symbol']} {p['side']} @ {p['entry_price']} (SL {p.get('sl')}, target {p.get('target')}, अभी Rs {p.get('mark','-')})" for p in state['open']] or ['- कोई नहीं'])
     L+=['','## कल open पर (pending)']+([f"- {NAME[o['strategy']]}: {o['symbol']} खरीद, SL {o['sl']}, target {o['target']} ({o['note']})" for o in state['pending']] or ['- कोई नहीं'])
     near=[]
