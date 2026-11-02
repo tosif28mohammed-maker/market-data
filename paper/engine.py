@@ -67,6 +67,7 @@ def ma_any(T,p,n):
     if T=='EMA': e=pd.Series(p).ewm(span=n,adjust=False).mean().to_numpy(copy=True); e[:n]=np.nan; return e
     if T=='WMA': return _wma(p,n)
     h=_wma(2*np.nan_to_num(_wma(p,max(n//2,1)),nan=p[0])-np.nan_to_num(_wma(p,n),nan=p[0]),max(int(round(np.sqrt(n))),1)); h[:n]=np.nan; return h
+AV=os.path.join(P,'avoid_liquidity_D.txt'); AVOID={l.strip() for l in open(AV) if l.strip() and not l.startswith('#')} if os.path.exists(AV) else set()   # user rule: never trade liquidity class D
 FR=os.path.join(P,'focus_rules.csv'); FOCUS=pd.read_csv(FR).set_index('symbol').to_dict('index') if os.path.exists(FR) else {}
 FIND={}
 def find(s):
@@ -218,7 +219,7 @@ for day in todo:
         if pd.notna(x.thr) and x.dist<=x.thr and y.dist>x.thr and pd.notna(x.atr): cands.append((x.dist/x.thr,s,x))
     cands.sort(key=lambda c:-c[0]); n_eq=sum(1 for p in state['open'] if p['strategy']=='EQ_DIP'); new=0
     for _,s,x in cands:
-        if s in held: continue
+        if s in held or s in AVOID: continue
         if s=='NIFTY':
             state['pending'].append(dict(id=nid(),strategy='FUT_DIP',symbol='NIFTY',side='Long',qty=LOT,signal_date=str(day.date()),sl=round(x.close-1.5*x.atr,2),target=round(x.ema,2),note=f'dist {x.dist*100:.1f}%'))
             nexp=next_tuesday(day,7); atm=round(S/50)*50; prem=bs(S,atm,tyears(day,nexp),ivol(S,atm,vix),'C')
@@ -231,7 +232,7 @@ for day in todo:
         held={p['symbol'] for p in state['open']}|{o['symbol'] for o in state['pending']}
         nf=sum(1 for p in state['open'] if p['strategy']=='EQ_FOCUS'); new=0
         for s_,rule in FOCUS.items():
-            if s_ not in DAY or s_ in held or nf+new>=6 or new>=2: continue
+            if s_ not in DAY or s_ in held or s_ in AVOID or nf+new>=6 or new>=2: continue
             fd=find(s_)
             if day not in fd.index: continue
             i=fd.index.get_loc(day)
