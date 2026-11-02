@@ -1,0 +1,55 @@
+name: universe-extra-download
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: universe500 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install pandas
+      - uses: actions/checkout@v4
+        with: { ref: main, path: mainrepo }
+      - run: python mainrepo/universe/pick_extra.py u1000/all_ranked.csv all_eq.csv
+      - uses: actions/upload-artifact@v4
+        with: { name: list, path: all_eq.csv }
+  download:
+    needs: list
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: { chunk: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install yfinance pandas
+      - uses: actions/download-artifact@v4
+        with: { name: list, path: universe }
+      - run: python universe/download_all.py ${{ matrix.chunk }} 20
+      - uses: actions/upload-artifact@v4
+        with:
+          name: daily-${{ matrix.chunk }}
+          path: out
+  commit:
+    needs: download
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: universe500, fetch-depth: 1 }
+      - uses: actions/download-artifact@v4
+        with: { path: art }
+      - run: |
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p u2000/daily
+          cp art/list/all_eq.csv u2000/list_extra.csv
+          for d in art/daily-*; do cp $d/daily/*.csv.gz u2000/daily/ 2>/dev/null || true; cat $d/stats_*.csv >> u2000/stats_raw.csv 2>/dev/null || true; done
+          echo "updated $(date -u +%Y-%m-%d) files $(ls u2000/daily | wc -l)" > u2000/STATUS.txt
+          git add u2000
+          git commit -m "Liquid stocks beyond top 1000 (turnover >= Rs 25 lakh) $(date -u +%Y-%m-%d)" || echo "no change"
+          git push origin universe500
