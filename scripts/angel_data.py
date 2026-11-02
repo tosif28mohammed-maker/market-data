@@ -23,12 +23,20 @@ for u in unds:
         exp = opt[opt.expiry_d >= today].expiry_d.min(); opt = opt[opt.expiry_d == exp]
         fut = M[(M.name == u) & M.instrumenttype.isin(['FUTIDX', 'FUTSTK'])].sort_values('expiry_d')
         ftok = fut[fut.expiry_d >= today].token.iloc[0]
-        fq = api.getMarketData('LTP', {'NFO': [ftok]}); spot = fq['data']['fetched'][0]['ltp']
+        fq = api.getMarketData('LTP', {'NFO': [str(ftok)]})
+        if isinstance(fq, (str, bytes)):
+            try: fq = json.loads(fq)
+            except Exception: raise RuntimeError('LTP reply: ' + str(fq)[:200])
+        if not fq.get('status'): raise RuntimeError('LTP reply: ' + str(fq)[:200])
+        spot = fq['data']['fetched'][0]['ltp']
         strikes = sorted(opt.strike_r.unique()); near = sorted(strikes, key=lambda k: abs(k - spot))[:30]
         sel = opt[opt.strike_r.isin(near)]; rows = []
         toks = sel.token.tolist()
         for i in range(0, len(toks), 50):
-            r = api.getMarketData('FULL', {'NFO': toks[i:i + 50]})
+            r = api.getMarketData('FULL', {'NFO': [str(t) for t in toks[i:i + 50]]})
+            if isinstance(r, (str, bytes)):
+                try: r = json.loads(r)
+                except Exception: raise RuntimeError('FULL reply: ' + str(r)[:200])
             for q in (r.get('data') or {}).get('fetched', []): rows.append(q)
             time.sleep(1)
         Q = pd.DataFrame(rows).merge(sel[['token', 'strike_r', 'symbol']], left_on='symbolToken', right_on='token')
