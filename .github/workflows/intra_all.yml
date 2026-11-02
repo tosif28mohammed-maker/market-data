@@ -1,0 +1,43 @@
+name: intraday-history-all
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        chunk: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install yfinance pandas
+      - run: python universe/intra_all.py ${{ matrix.chunk }} 20
+      - uses: actions/upload-artifact@v4
+        with:
+          name: intra-${{ matrix.chunk }}
+          path: out
+  commit:
+    needs: download
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: art
+      - run: |
+          mkdir -p intra/h1 intra/m15 intra/m5
+          for d in art/intra-*; do for s in h1 m15 m5; do [ -d "$d/$s" ] && cp $d/$s/* intra/$s/ 2>/dev/null || true; done; done
+          echo "updated $(date -u +%Y-%m-%d) h1=$(ls intra/h1 | wc -l) m15=$(ls intra/m15 | wc -l) m5=$(ls intra/m5 | wc -l)" > intra/STATUS.txt
+          cat intra/STATUS.txt
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout --orphan intraday_hist
+          git rm -rq --cached . || true
+          git add intra
+          git commit -qm "Intraday history (1h 730d, 15m/5m 60d) $(date -u +%Y-%m-%d)"
+          git push -f origin intraday_hist
