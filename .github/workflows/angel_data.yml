@@ -1,0 +1,33 @@
+name: angel-data
+on:
+  workflow_dispatch:
+    inputs:
+      symbols:
+        description: 'Underlyings, space separated'
+        required: false
+        default: 'NIFTY BANKNIFTY'
+  schedule:
+    - cron: '50 3-9 * * 1-5'   # every hour at :50 UTC = 9:20 AM ... 3:20 PM IST, Mon-Fri
+permissions:
+  contents: write
+jobs:
+  get:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install smartapi-python pyotp logzero websocket-client pandas requests
+      - run: python scripts/angel_data.py ${{ github.event.inputs.symbols || 'NIFTY BANKNIFTY' }}
+        env:
+          ANGEL_API_KEY: ${{ secrets.ANGEL_API_KEY }}
+          ANGEL_CLIENT_ID: ${{ secrets.ANGEL_CLIENT_ID }}
+          ANGEL_PIN: ${{ secrets.ANGEL_PIN }}
+          ANGEL_TOTP_SECRET: ${{ secrets.ANGEL_TOTP_SECRET }}
+      - run: |
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/angel
+          git commit -m "angel data $(date -u +%Y-%m-%d_%H%M)" || echo none
+          git pull --rebase origin main && git push origin main
