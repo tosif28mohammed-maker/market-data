@@ -41,21 +41,23 @@ for res, folder, slots in (('5m', 'm5', ['09:15', '09:20', '09:25', '09:30', '09
                 q = z[z.hm == t]
                 if len(q): rec[f'open_to_{t}'] = q.open.iloc[0] / o - 1
             out['index'].append(rec); prev_close = c
-# ---- stocks (1-hour, long only)
-L = pd.read_csv(os.path.join(ROOT, 'study/results/liq_all.csv')).set_index('symbol'); ok = set(L.index[L.liquidity.str[0].isin(['A', 'B'])])
+# ---- stocks (1-hour, long only) -- F&O stocks, vectorised
+fo = pd.read_csv(os.path.join(ROOT, 'universe/fo_list.csv')); fo.columns = [c_.strip() for c_ in fo.columns]; FO = set(fo.SYMBOL.str.strip())
 slots = ['09:15', '10:15', '11:15', '12:15', '13:15', '14:15']
 for f in sorted(glob.glob(f'{I}/h1/*.csv.gz')):
     s = os.path.basename(f)[:-7]
-    if s not in ok: continue
-    d = day_table(f, slots); prev_close = None
-    for day, z in d.groupby('day'):
-        z = z.sort_values('time').reset_index(drop=True)
-        if len(z) < 6 or z.hm.iloc[0] != '09:15': prev_close = z.close.iloc[-1] if len(z) else prev_close; continue
-        sg, m = signal(day); o = z.open.iloc[0]; c = z.close.iloc[-1]
-        rec = dict(stock=s, day=day, sig=sg, gap=(o / prev_close - 1) if prev_close else np.nan, low_slot=z.hm[z.low.idxmin()], high_slot=z.hm[z.high.idxmax()])
-        for t in slots:
-            q = z[z.hm == t]
-            if len(q): rec[f'ret_{t}'] = c / q.open.iloc[0] - 1
-        out['stock'].append(rec); prev_close = c
+    if s not in FO: continue
+    d = day_table(f, slots)
+    Op = d.pivot_table(index='day', columns='hm', values='open', aggfunc='first').reindex(columns=slots)
+    Lo = d.pivot_table(index='day', columns='hm', values='low', aggfunc='min').reindex(columns=slots)
+    Hi = d.pivot_table(index='day', columns='hm', values='high', aggfunc='max').reindex(columns=slots)
+    Cl = d.pivot_table(index='day', columns='hm', values='close', aggfunc='last')
+    ok = Op.notna().all(axis=1) & Cl.notna().any(axis=1); Op, Lo, Hi, Cl = Op[ok], Lo[ok], Hi[ok], Cl[ok]
+    close = Cl.ffill(axis=1).iloc[:, -1]
+    T = pd.DataFrame({'stock': s, 'day': Op.index, 'gap': (Op['09:15'] / close.shift() - 1).values}, index=Op.index)
+    T['sig'] = [signal(x)[0] for x in Op.index]
+    T['low_slot'] = Lo.idxmin(axis=1).values; T['high_slot'] = Hi.idxmax(axis=1).values
+    for t in slots: T[f'ret_{t}'] = (close / Op[t] - 1).values
+    out['stock'] += T.to_dict('records')
     print(s, flush=True)
 pd.to_pickle({k: pd.DataFrame(v) for k, v in out.items()} | {'thr': (LO, HI)}, OUT); print('done')
