@@ -4,7 +4,7 @@ Universe: liquidity A/B stocks (today's list -> survivorship bias, results flatt
 Strategies:
  DIP   : stock's 52-week trend >= +30%, close below its own 10th-percentile distance from EMA20 (learned on the trailing 3 years), fresh;
          buy at close; sell at first close >= EMA20 (or +12% stop below, or 20 days). Up to 10 positions, 10% each.
- MOM   : month-end: top 10 by 12-1 month return among stocks above their 200 DMA; hold 1 month; only when Nifty > 200 DMA (else cash).
+ MOM   : month-end: top 10 by 12-1 month return among stocks above their 200 DMA; hold 1 month; only when the equal-weight basket of all liquid stocks > its 200 DMA (else cash).
  BLEND : 50% DIP + 50% MOM.
 Benchmarks: Nifty buy & hold.  Reports CAGR, max drawdown, by period (2005-12, 2013-20, 2021-26) and the 1-lakh path.
 python study/portfolio_bt.py out.pkl dir1 [dir2]"""
@@ -26,6 +26,7 @@ cov = P.notna().sum(1); P = P[P.index <= cov[cov >= 0.7 * cov.max()].index.max()
 P = P.ffill(limit=5)   # short gaps: carry last price for marking
 nifty = pd.read_csv(os.path.join(ROOT, 'data/NIFTY.csv'), parse_dates=['date']).drop_duplicates('date').set_index('date').close.sort_index().reindex(P.index).ffill()
 R = P.pct_change(fill_method=None).clip(-0.3, 0.3)
+BASK = (1 + R.mean(1).fillna(0)).cumprod()   # equal-weight all liquid stocks (same survivorship bias as the strategies)
 E20 = P.ewm(span=20, adjust=False).mean(); dist = P / E20 - 1
 thr = dist.rolling(750, min_periods=250).quantile(0.10).shift(1)
 tr52 = P / P.shift(250) - 1; ma200 = P.rolling(200).mean()
@@ -59,14 +60,14 @@ def run_dip(start, slots=10):
 def run_mom(start, n=10):
     me = P.index.to_series().groupby(P.index.to_period('M')).last()
     me = me[me >= start]; curve = []; val = 1.0; hold = []
-    nma = nifty.rolling(200).mean()
+    reg = BASK; nma = reg.rolling(200).mean()
     idx = P.index[P.index >= start]; mpos = 0
     rebal = set(me.values)
     for i, t in enumerate(idx):
         if i > 0 and hold:
             r = R.loc[t, hold].fillna(0).mean(); val *= 1 + r
         if t in rebal:
-            if nifty[t] > nma[t]:
+            if reg[t] > nma[t]:
                 mom = P.loc[t] / P.shift(250).loc[t] - P.loc[t] / P.shift(21).loc[t] * 0 - 1
                 mom = (P.shift(21).loc[t] / P.shift(250).loc[t] - 1)
                 ok = (P.loc[t] > ma200.loc[t]) & mom.notna()
@@ -81,8 +82,8 @@ res = {}
 start = pd.Timestamp('2005-06-30')
 dipc, dipt = run_dip(start); momc = run_mom(start)
 bl = 0.5 * dipc / dipc.iloc[0] + 0.5 * momc / momc.iloc[0]
-nf = nifty[nifty.index >= start]; nf = nf / nf.iloc[0]
-curves = pd.DataFrame({'DIP (मज़बूत trend में गिरावट पर खरीद)': dipc / dipc.iloc[0], 'MOM (महीने के top-10 momentum, Nifty 200 DMA filter)': momc / momc.iloc[0], 'BLEND (आधा-आधा)': bl, 'Nifty खरीदकर रखो': nf})
+nf = nifty[nifty.index >= start].dropna(); nf = nf / nf.iloc[0]; bk = BASK[BASK.index >= start]; bk = bk / bk.iloc[0]
+curves = pd.DataFrame({'DIP (मज़बूत trend में गिरावट पर खरीद)': dipc / dipc.iloc[0], 'MOM (महीने के top-10 momentum, Nifty 200 DMA filter)': momc / momc.iloc[0], 'BLEND (आधा-आधा)': bl, 'सब liquid शेयर बराबर (वही bias)': bk, 'Nifty खरीदकर रखो (2007-09 से)': nf})
 def stats(s):
     yrs = (s.index[-1] - s.index[0]).days / 365.25; cagr = (s.iloc[-1] / s.iloc[0]) ** (1 / yrs) - 1; dd = (s / s.cummax() - 1).min()
     return pd.Series({'सालाना बढ़त (CAGR) %': cagr * 100, 'सबसे बड़ी गिरावट %': dd * 100, '₹1 लाख बना (₹)': 100000 * s.iloc[-1] / s.iloc[0]})
