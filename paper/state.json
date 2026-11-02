@@ -1,20 +1,6 @@
 {
- "last": "2026-10-30",
+ "last": "2026-11-02",
  "open": [
-  {
-   "id": "T00094",
-   "strategy": "EQ_DIP",
-   "symbol": "GRASIM",
-   "side": "Buy",
-   "qty": 34,
-   "signal_date": "2026-10-19",
-   "sl": 2778.98,
-   "target": 2988.03,
-   "note": "dist -3.6% (limit -3.2%)",
-   "entry_date": "2026-10-21",
-   "entry_price": 2865.0,
-   "days": 8
-  },
   {
    "id": "T00100",
    "strategy": "EQ_DIP",
@@ -27,7 +13,7 @@
    "note": "dist -4.2% (limit -3.2%)",
    "entry_date": "2026-10-23",
    "entry_price": 366.0,
-   "days": 6
+   "days": 7
   },
   {
    "id": "T00102",
@@ -41,21 +27,7 @@
    "note": "dist -6.6% (limit -5.5%)",
    "entry_date": "2026-10-26",
    "entry_price": 264.2,
-   "days": 5
-  },
-  {
-   "id": "T00103",
-   "strategy": "EQ_DIP",
-   "symbol": "TATASTEEL",
-   "side": "Buy",
-   "qty": 596,
-   "signal_date": "2026-10-23",
-   "sl": 161.06,
-   "target": 176.4,
-   "note": "dist -4.9% (limit -4.2%)",
-   "entry_date": "2026-10-26",
-   "entry_price": 167.67,
-   "days": 5
+   "days": 6
   },
   {
    "id": "T00108",
@@ -81,53 +53,11 @@
     ]
    ],
    "expiry": "2026-11-03",
-   "days": 3,
+   "days": 4,
    "sl": null,
    "target": null,
    "note": "credit 74.3 pts, VIX 16.4",
-   "mark": 2548.0
-  },
-  {
-   "id": "T00109",
-   "strategy": "HEDGE_IC",
-   "symbol": "NIFTY 22200PE/23300CE +wings",
-   "side": "Sell",
-   "qty": 65,
-   "entry_date": "2026-10-27",
-   "entry_price": 50.48,
-   "entry_val": -50.48186003038211,
-   "legs": [
-    [
-     "C",
-     23300,
-     -1,
-     "2026-11-03"
-    ],
-    [
-     "P",
-     22200,
-     -1,
-     "2026-11-03"
-    ],
-    [
-     "C",
-     23600,
-     1,
-     "2026-11-03"
-    ],
-    [
-     "P",
-     21900,
-     1,
-     "2026-11-03"
-    ]
-   ],
-   "expiry": "2026-11-03",
-   "days": 3,
-   "sl": null,
-   "target": null,
-   "note": "credit 50.5 pts, VIX 16.4",
-   "mark": 1164.0
+   "mark": -7070.0
   },
   {
    "id": "T00111",
@@ -141,21 +71,21 @@
    "note": "dist -3.8% (limit -3.4%)",
    "entry_date": "2026-10-29",
    "entry_price": 393.1,
-   "days": 2
+   "days": 3
   }
  ],
  "pending": [
   {
-   "id": "T00114",
+   "id": "T00116",
    "strategy": "EQ_FOCUS",
-   "symbol": "CHAMBLFERT",
+   "symbol": "V2RETAIL",
    "side": "Buy",
    "qty": 0,
-   "signal_date": "2026-10-30",
-   "sl": 320.54,
-   "target": 359.8,
-   "note": "SMA 2: दूरी -1.6% (सीमा -1.3%); 2021-26 जीत 76%; RSI 27 (oversold); MACD नीचे; BB %B 0.09; 50 SMA नीचे, 200 SMA नीचे; 52w high से -29%; support 350.0 / resistance 411.2, volume 1.7x"
+   "signal_date": "2026-11-02",
+   "sl": 131.56,
+   "target": 165.86,
+   "note": "HMA 2: दूरी -2.8% (सीमा -1.5%); 2021-26 जीत 65%; RSI 41; MACD ऊपर (मुड़ रहा); BB %B 0.47; 50 SMA नीचे, 200 SMA नीचे; 52w high से -38%; support 145.3 / resistance 184.0, volume 1.2x"
   }
  ],
- "seq": 114
+ "seq": 116
 }
