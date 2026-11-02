@@ -1,0 +1,4 @@
+2026-11-02 13:39 UTC login OK
+NIFTY: error TypeError: string indices must be integers, not 'str'
+BANKNIFTY: error TypeError: string indices must be integers, not 'str'
+RELIANCE: error TypeError: string indices must be integers, not 'str'
