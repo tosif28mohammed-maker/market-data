@@ -22,5 +22,5 @@ for f in files:
     for a, b in zip(slots[:-1], slots[1:]): T[f'slot_{b}'] = C[b] / C[a] - 1
     T['next_on'] = T.on.shift(-1)
     T = T[(T.on.abs() < 0.15) & (T.day.abs() < 0.2)]
-    T['stock'] = s; rows.append(T.reset_index())
+    T['stock'] = s; rows.append(T.rename_axis('date').reset_index())
 pd.concat(rows).to_pickle(OUT); print('days', sum(len(r) for r in rows), 'stocks', len(rows))
