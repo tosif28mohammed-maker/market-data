@@ -2,7 +2,7 @@
 Names: US_ / JP_ / CN_ / HK_ / EU_ / ADR_ / ETF_ / CMD_ / FX_ prefixes so they never clash with Indian symbols."""
 import os, time, pandas as pd, yfinance as yf
 G = {
- 'US_SP500': '^GSPC', 'US_NASDAQ': '^IXIC', 'US_DOW': '^DJI', 'US_RUSSELL2000': '^RUT', 'US_VIX': '^VIX', 'US_SOX': '^SOX', 'US_10Y': '^TNX',
+ 'IN_SENSEX': '^BSESN', 'IN_GIFT_NIFTY_PROXY_INDA': 'INDA', 'US_SP500': '^GSPC', 'US_NASDAQ': '^IXIC', 'US_DOW': '^DJI', 'US_RUSSELL2000': '^RUT', 'US_VIX': '^VIX', 'US_SOX': '^SOX', 'US_10Y': '^TNX',
  'JP_NIKKEI': '^N225', 'CN_SHANGHAI': '000001.SS', 'CN_SHENZHEN': '399001.SZ', 'HK_HANGSENG': '^HSI', 'KR_KOSPI': '^KS11', 'TW_TAIEX': '^TWII', 'SG_STI': '^STI',
  'EU_FTSE': '^FTSE', 'EU_DAX': '^GDAXI', 'EU_STOXX50': '^STOXX50E',
  'CMD_CRUDE_WTI': 'CL=F', 'CMD_BRENT': 'BZ=F', 'CMD_GOLD': 'GC=F', 'CMD_SILVER': 'SI=F', 'CMD_COPPER': 'HG=F', 'CMD_NATGAS': 'NG=F', 'CMD_ALUMINIUM': 'ALI=F',
