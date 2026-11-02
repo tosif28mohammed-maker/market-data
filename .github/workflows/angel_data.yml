@@ -6,8 +6,6 @@ on:
         description: 'Underlyings, space separated'
         required: false
         default: 'NIFTY BANKNIFTY'
-  schedule:
-    - cron: '50 3-9 * * 1-5'   # every hour at :50 UTC = 9:20 AM ... 3:20 PM IST, Mon-Fri
 permissions:
   contents: write
 jobs:
