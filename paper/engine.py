@@ -18,6 +18,8 @@ IDX_USFADE (user OK 2 Nov 2026, study f51): after a big US night (S&P 500 move i
              Indian index gaps the same way and tends to reverse in the day -> BankNifty futures (index as proxy), 1 lot (30), opposite
              to the US move at the 9:15 open, exit 15:15 (close), stop 1% against; Nifty futures (65) same rule as a second line. Cost Rs 100.
              Replay from 1 Jan 2026, live from 29 Oct 2026.
+MOM_MONTHLY (user OK 2 Nov 2026, study f55): separate script scripts/mom_paper.py (monthly top-10 momentum, Rs 1 lakh book,
+             files paper/mom_*.csv/json), runs right after this engine in daily.yml.
 Reports add a technical snapshot (RSI, MACD, Bollinger, 50/200 SMA, 52-week range, volume, 20-day support/resistance) as context.
 Options: Black-Scholes, volatility = India VIX x skew (0.973 - 5.36 ln(K/S)), time in trading days/252, fitted to real Sensibull prices on 29 Oct 2026 (estimate).
 Usage: python paper/engine.py [--start YYYY-MM-DD]   (state in paper/state.json; first run replays from --start)"""
