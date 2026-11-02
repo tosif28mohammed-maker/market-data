@@ -1,4 +1,5 @@
-2026-11-02 13:40 UTC login OK
+2026-11-02 13:42 UTC login OK
+test ltpData NIFTY index: status=False msg=Invalid API Key code=AG8004
+test getCandleData NIFTY: status=False msg=Invalid API Key code=AG8004
+test getProfile: status=True msg=SUCCESS code=
 NIFTY: error RuntimeError: LTP reply: {'success': False, 'message': 'Invalid API Key', 'errorCode': 'AG8004', 'data': ''}
-BANKNIFTY: error RuntimeError: LTP reply: {'success': False, 'message': 'Invalid API Key', 'errorCode': 'AG8004', 'data': ''}
-RELIANCE: error RuntimeError: LTP reply: {'success': False, 'message': 'Invalid API Key', 'errorCode': 'AG8004', 'data': ''}
