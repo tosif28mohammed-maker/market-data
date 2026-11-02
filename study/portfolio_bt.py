@@ -22,6 +22,8 @@ for f in files:
     if len(bad): d = d.iloc[bad[-1]:]
     if len(d) > 300: C[s] = d
 P = pd.DataFrame(C).sort_index(); P = P[P.index >= '2004-01-01']
+cov = P.notna().sum(1); P = P[P.index <= cov[cov >= 0.7 * cov.max()].index.max()]   # stop where most stocks still have data
+P = P.ffill(limit=5)   # short gaps: carry last price for marking
 nifty = pd.read_csv(os.path.join(ROOT, 'data/NIFTY.csv'), parse_dates=['date']).drop_duplicates('date').set_index('date').close.sort_index().reindex(P.index).ffill()
 R = P.pct_change(fill_method=None).clip(-0.3, 0.3)
 E20 = P.ewm(span=20, adjust=False).mean(); dist = P / E20 - 1
