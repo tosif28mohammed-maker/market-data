@@ -2,6 +2,7 @@ name: news
 on:
   schedule:
     - cron: '20 0 * * *'    # 5:50 AM India, every day (before market; after US close)
+    - cron: '10 7 * * 1-5'  # 12:40 PM India, weekdays (mid-session)
     - cron: '40 10 * * 1-5' # 4:10 PM India, weekdays (after market close)
   workflow_dispatch: {}
 permissions:

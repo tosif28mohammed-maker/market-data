@@ -1,0 +1,26 @@
+name: fundamentals
+on:
+  schedule:
+    - cron: '30 3 * * 6'   # Saturday 9:00 AM India, weekly
+  workflow_dispatch:
+    inputs:
+      limit: { description: 'only first N stocks (test)', required: false, default: '' }
+permissions:
+  contents: write
+jobs:
+  fund:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install yfinance pandas
+      - run: LIMIT='${{ github.event.inputs.limit }}' python scripts/fetch_fundamentals.py
+      - run: |
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/fund
+          git commit -m "fundamentals $(date -u +%Y-%m-%d)" || echo "no change"
+          git pull --rebase || true
+          git push

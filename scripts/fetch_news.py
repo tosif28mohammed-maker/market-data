@@ -6,7 +6,7 @@ import os, csv, time, html, urllib.parse, urllib.request, datetime as dt, xml.et
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); D = os.path.join(ROOT, 'data', 'news'); os.makedirs(D, exist_ok=True)
 MARKET = {
     'India market': ['Sensex Nifty today', 'FII DII flows India equities', 'RBI policy repo rate', 'India inflation GDP data', 'SEBI new rule F&O',
-                     'Q2 results today India', 'rupee dollar India', 'शेयर बाज़ार आज सेंसेक्स निफ्टी'],
+                     'Q2 results today India', 'rupee dollar India', 'Nirmala Sitharaman tax cut GST', 'India government policy reform budget', 'India US trade deal tariff', 'शेयर बाज़ार आज सेंसेक्स निफ्टी'],
     'World': ['Wall Street stocks close', 'Federal Reserve interest rates', 'crude oil prices Brent', 'US China trade tariffs', 'Iran Israel US oil Hormuz',
               'Japan Nikkei China stocks', 'US jobs inflation data', 'gold price dollar index'],
 }
