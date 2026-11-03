@@ -20,6 +20,7 @@ jobs:
           cp paper/gap_universe.csv /tmp/gap_universe.csv; cp scripts/archive_5m.py /tmp/archive_5m.py
           git checkout intraday_hist
           mkdir -p paper && cp /tmp/gap_universe.csv paper/gap_universe.csv
+          [ -d intra/m5_all ] || cp -r intra/m5 intra/m5_all
           python /tmp/archive_5m.py intra/m5_all
           rm -rf paper
           git config user.name "market-data-bot"
