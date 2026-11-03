@@ -1,0 +1,7 @@
+asset,last,price_inr,vs_200dma,vs_50dma,ret_1m,ret_12m,from_52w_high,signal_SMA10M,signal_MOM12
+Nifty50,2026-11-02,23440.8,-2.4,0.9,3.6,-9.1,-11.0,False,False
+Gold,2026-11-02,375757.37,-11.7,-8.0,-6.2,6.1,-23.2,False,False
+Silver,2026-11-02,4773.25,-28.2,-18.5,-17.3,12.2,-54.7,False,False
+Nasdaq,2026-11-02,2388223.9,0.9,-5.8,-8.7,13.6,-10.2,True,True
+Copper,2026-11-02,618.78,5.6,-1.4,-0.9,37.8,-4.5,True,True
+USD,2026-11-02,94.9,0.5,-0.6,-1.4,7.3,-2.0,True,True
