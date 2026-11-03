@@ -1,12 +1,12 @@
 strategy,trades,win_pct,pnl_rs,avg_rs,best,worst,max_dd
-Equity swing (dip),0,,,,,,
+Equity swing (dip),1,100.0,3708.0,3708.0,3708.0,3708.0,0.0
 Focus शेयर (Top-1000 नियम),1,100.0,3181.0,3181.0,3181.0,3181.0,0.0
 Nifty future (dip),0,,,,,,
 Nifty future (expiry के बाद),0,,,,,,
-Intraday Nifty ORB,3,33.0,1133.0,377.0,11450.0,-5638.0,-10317.0
+Intraday Nifty ORB,4,50.0,7305.0,1826.0,11450.0,-5638.0,-10317.0
 Option sell (naked strangle),0,,,,,,
 Hedge: Iron condor,0,,,,,,
 Option buy (expiry के बाद CE),0,,,,,,
 Option buy (dip CE),0,,,,,,
-Intraday gap-up 2%+ short (9:20),15,47.0,-8833.0,-588.0,6267.0,-4865.0,-16225.0
+Intraday gap-up 2%+ short (9:20),20,55.0,-8500.0,-425.0,6267.0,-4865.0,-18005.0
 Index: America के बड़े दिन के बाद उल्टा,2,100.0,18952.0,9476.0,14102.0,4850.0,0.0

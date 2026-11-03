@@ -1,20 +1,6 @@
 {
- "last": "2026-11-02",
+ "last": "2026-11-03",
  "open": [
-  {
-   "id": "T00100",
-   "strategy": "EQ_DIP",
-   "symbol": "BEL",
-   "side": "Buy",
-   "qty": 273,
-   "signal_date": "2026-10-22",
-   "sl": 352.33,
-   "target": 380.54,
-   "note": "dist -4.2% (limit -3.2%)",
-   "entry_date": "2026-10-23",
-   "entry_price": 366.0,
-   "days": 7
-  },
   {
    "id": "T00102",
    "strategy": "EQ_DIP",
@@ -27,68 +13,133 @@
    "note": "dist -6.6% (limit -5.5%)",
    "entry_date": "2026-10-26",
    "entry_price": 264.2,
-   "days": 6
+   "days": 7
   },
-  {
-   "id": "T00108",
-   "strategy": "OPT_SELL",
-   "symbol": "NIFTY 22200PE/23300CE",
-   "side": "Sell",
-   "qty": 65,
-   "entry_date": "2026-10-27",
-   "entry_price": 74.28,
-   "entry_val": -74.27502364850625,
-   "legs": [
-    [
-     "C",
-     23300,
-     -1,
-     "2026-11-03"
-    ],
-    [
-     "P",
-     22200,
-     -1,
-     "2026-11-03"
-    ]
-   ],
-   "expiry": "2026-11-03",
-   "days": 4,
-   "sl": null,
-   "target": null,
-   "note": "credit 74.3 pts, VIX 16.4",
-   "mark": -7070.0
-  },
-  {
-   "id": "T00111",
-   "strategy": "EQ_DIP",
-   "symbol": "COALINDIA",
-   "side": "Buy",
-   "qty": 254,
-   "signal_date": "2026-10-28",
-   "sl": 379.51,
-   "target": 408.68,
-   "note": "dist -3.8% (limit -3.4%)",
-   "entry_date": "2026-10-29",
-   "entry_price": 393.1,
-   "days": 3
-  }
- ],
- "pending": [
   {
    "id": "T00116",
    "strategy": "EQ_FOCUS",
    "symbol": "V2RETAIL",
    "side": "Buy",
-   "qty": 0,
+   "qty": 624,
    "signal_date": "2026-11-02",
    "sl": 131.56,
-   "target": 165.86,
-   "note": "HMA 2: दूरी -2.8% (सीमा -1.5%); 2021-26 जीत 65%; RSI 41; MACD ऊपर (मुड़ रहा); BB %B 0.47; 50 SMA नीचे, 200 SMA नीचे; 52w high से -38%; support 145.3 / resistance 184.0, volume 1.2x"
+   "target": 165.74,
+   "note": "HMA 2: दूरी -2.8% (सीमा -1.5%); 2021-26 जीत 65%; RSI 41; MACD ऊपर (मुड़ रहा); BB %B 0.47; 50 SMA नीचे, 200 SMA नीचे; 52w high से -38%; support 145.3 / resistance 184.0, volume 1.2x",
+   "entry_date": "2026-11-03",
+   "entry_price": 160.14,
+   "days": 1,
+   "mark": 2796.0
+  },
+  {
+   "id": "T00505",
+   "strategy": "FUT_EXP",
+   "symbol": "NIFTY",
+   "side": "Long",
+   "qty": 65,
+   "entry_date": "2026-11-03",
+   "entry_price": 23810.85,
+   "sl": null,
+   "target": null,
+   "days": 0,
+   "note": "expiry-day close"
+  },
+  {
+   "id": "T00506",
+   "strategy": "OPT_BUY_EXP",
+   "symbol": "NIFTY 23800 CE",
+   "side": "Buy",
+   "qty": 65,
+   "entry_date": "2026-11-03",
+   "entry_price": 226.46,
+   "entry_val": 226.45550052359795,
+   "legs": [
+    [
+     "C",
+     23800,
+     1,
+     "2026-11-10"
+    ]
+   ],
+   "expiry": "2026-11-10",
+   "days": 0,
+   "sl": null,
+   "target": null,
+   "note": "VIX 15.7"
+  },
+  {
+   "id": "T00507",
+   "strategy": "OPT_SELL",
+   "symbol": "NIFTY 23250PE/24350CE",
+   "side": "Sell",
+   "qty": 65,
+   "entry_date": "2026-11-03",
+   "entry_price": 75.19,
+   "entry_val": -75.18858047036429,
+   "legs": [
+    [
+     "C",
+     24350,
+     -1,
+     "2026-11-10"
+    ],
+    [
+     "P",
+     23250,
+     -1,
+     "2026-11-10"
+    ]
+   ],
+   "expiry": "2026-11-10",
+   "days": 0,
+   "sl": null,
+   "target": null,
+   "note": "credit 75.2 pts, VIX 15.7"
+  },
+  {
+   "id": "T00508",
+   "strategy": "HEDGE_IC",
+   "symbol": "NIFTY 23250PE/24350CE +wings",
+   "side": "Sell",
+   "qty": 65,
+   "entry_date": "2026-11-03",
+   "entry_price": 51.69,
+   "entry_val": -51.693518159103746,
+   "legs": [
+    [
+     "C",
+     24350,
+     -1,
+     "2026-11-10"
+    ],
+    [
+     "P",
+     23250,
+     -1,
+     "2026-11-10"
+    ],
+    [
+     "C",
+     24650,
+     1,
+     "2026-11-10"
+    ],
+    [
+     "P",
+     22950,
+     1,
+     "2026-11-10"
+    ]
+   ],
+   "expiry": "2026-11-10",
+   "days": 0,
+   "sl": null,
+   "target": null,
+   "note": "credit 51.7 pts, VIX 15.7"
   }
  ],
- "seq": 503,
- "gap_last": "2026-11-02",
- "usfade_last_BANKNIFTY": "2026-11-02",
- "usfade_last_NIFTY": "2026-11-02"
+ "pending": [],
+ "seq": 513,
+ "gap_last": "2026-11-03",
+ "usfade_last_BANKNIFTY": "2026-11-03",
+ "usfade_last_NIFTY": "2026-11-03"
 }
