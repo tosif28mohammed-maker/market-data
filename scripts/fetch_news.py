@@ -31,7 +31,7 @@ f = os.path.join(D, f'{day}.csv'); seen = set()
 if os.path.exists(f):
     with open(f, encoding='utf-8') as fh: seen = {r['link'] for r in csv.DictReader(fh)}
 rows = []
-jobs = [(g, q) for g, qs in MARKET.items() for q in qs] + [('Stock: ' + w.split('|')[0].strip(), w.split('|')[-1].strip() + ' share') for w in WATCH]
+jobs = [(g, q) for g, qs in MARKET.items() for q in qs] + [('Stock: ' + w.split('|')[0].strip(), '"' + w.split('|')[-1].strip() + '"') for w in WATCH]
 for g, q in jobs:
     hl, ceid = ('hi', 'IN:hi') if any('ऀ' <= ch <= 'ॿ' for ch in q) else ('en-IN', 'IN:en')
     for it in fetch(q, hl=hl, ceid=ceid)[:20]:
