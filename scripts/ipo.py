@@ -24,8 +24,9 @@ for it in items:
     time.sleep(1)
     try:
         for c in (j or {}).get('dataList', []):
+            if c.get('srNo') == 'Sr.No.': continue
             rows.append(dict(run=tag, symbol=sym, company=it.get('companyName'), series=it.get('series'), issue_start=it.get('issueStartDate'), issue_end=it.get('issueEndDate'),
-                             price_band=it.get('issuePrice'), size=it.get('issueSize'), category=c.get('category'), offered=c.get('noOfShareOffered'),
+                             price_band=it.get('issuePrice'), size=it.get('issueSize'), total_times=it.get('noOfTime'), category=c.get('category'), offered=c.get('noOfShareOffered'),
                              bid=c.get('noOfSharesBid'), times=c.get('noOfTotalMeant')))
     except Exception as e: print('parse', sym, e)
 if rows:
