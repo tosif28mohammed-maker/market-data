@@ -1,0 +1,32 @@
+# SYMBOL | Google News search name  (user holdings first; add more lines any time)
+LTFOODS | LT Foods
+COALINDIA | Coal India
+MINDACORP | Minda Corporation
+SUNFLAG | Sunflag Iron
+KERNEX | Kernex Microsystems
+FORTIS | Fortis Healthcare
+PCJEWELLER | PC Jeweller
+RELIANCE | Reliance Industries
+HDFCBANK | HDFC Bank
+ICICIBANK | ICICI Bank
+SBIN | SBI State Bank of India
+INFY | Infosys
+TCS | TCS Tata Consultancy
+ITC | ITC Ltd
+LT | Larsen Toubro
+BHARTIARTL | Bharti Airtel
+KOTAKBANK | Kotak Mahindra Bank
+AXISBANK | Axis Bank
+BAJFINANCE | Bajaj Finance
+MARUTI | Maruti Suzuki
+TMPV | Tata Motors
+TATASTEEL | Tata Steel
+ADANIENT | Adani Enterprises
+BEL | Bharat Electronics
+NTPC | NTPC
+ONGC | ONGC
+SUNPHARMA | Sun Pharma
+HINDUNILVR | Hindustan Unilever
+BSE | BSE Ltd
+SUZLON | Suzlon
+IRCTC | IRCTC
