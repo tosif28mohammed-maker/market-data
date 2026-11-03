@@ -1,0 +1,53 @@
+[
+ {
+  "companyName": "Bombay Coated and Special Steels Limited",
+  "issueEndDate": "02-Nov-2026",
+  "issuePrice": "Rs.78 to Rs.82",
+  "issueSize": "16533012",
+  "issueStartDate": "29-Oct-2026",
+  "series": "EQ",
+  "status": "Closed",
+  "symbol": "BCSSL",
+  "category": "Total",
+  "noOfSharesOffered": "1.6533012E7",
+  "noOfTime": "32.733611395189214",
+  "noOfsharesBid": "5.4118519E8",
+  "srNo": null
+ },
+ {
+  "companyName": "Vedant Poly Fabs Limited",
+  "isBse": "1",
+  "issueEndDate": "04-Nov-2026",
+  "issueStartDate": "02-Nov-2026",
+  "series": "SME",
+  "status": "Active",
+  "symbol": "VPFL",
+  "noOfsharesBid": "5272800",
+  "noOfSharesOffered": "6030000",
+  "noOfTime": "0.87"
+ },
+ {
+  "companyName": "Maxwell Engineering Solutions Limited",
+  "isBse": "1",
+  "issueEndDate": "03-Nov-2026",
+  "issueStartDate": "30-Oct-2026",
+  "series": "SME",
+  "status": "Active",
+  "symbol": "MAXENGS",
+  "noOfsharesBid": "1289392800",
+  "noOfSharesOffered": "2624000",
+  "noOfTime": "491.38"
+ },
+ {
+  "companyName": "HGS (India) Limited",
+  "isBse": "1",
+  "issueEndDate": "03-Nov-2026",
+  "issueStartDate": "30-Oct-2026",
+  "series": "SME",
+  "status": "Active",
+  "symbol": "HGSINDIALT",
+  "noOfsharesBid": "477715200",
+  "noOfSharesOffered": "2066400",
+  "noOfTime": "231.18"
+ }
+]

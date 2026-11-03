@@ -1,46 +1,109 @@
-run,symbol,company,series,issue_start,issue_end,price_band,size,category,offered,bid,times
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Qualified Institutional Buyers(QIBs),0,68400,0.00
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Foreign Institutional Investors(FIIs),,68400,
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0,
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Mutual funds,,0,
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0,
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors,0,2262000,0.00
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0,1400400,0.00
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0,
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1400400,
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0,
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0,861600,0.00
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0,
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,721200,
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,140400,
-2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Total,0.0,2330400.0,0.00
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Qualified Institutional Buyers(QIBs),0,62188800,0.00
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Foreign Institutional Investors(FIIs),,18511200,
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,8756400,
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Mutual funds,,1333200,
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,33588000,
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors,0,168264000,0.00
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0,129825600,0.00
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,1911600,
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,126325200,
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,1588800,
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0,38438400,0.00
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,561600,
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,36852000,
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,1024800,
-2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Total,0.0,2.304528E8,0.00
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Qualified Institutional Buyers(QIBs),0,127448000,0.00
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Foreign Institutional Investors(FIIs),,30538400,
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,10816800,
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Mutual funds,,1962400,
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,84130400,
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors,0,418524000,0.00
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0,334772000,0.00
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,2966400,
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,329111200,
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,2694400,
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0,83752000,0.00
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,693600,
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,82124800,
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,933600,
-2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Total,0.0,5.45972E8,0.00
+run,symbol,company,series,issue_start,issue_end,price_band,size,category,offered,bid,times,total_times
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Qualified Institutional Buyers(QIBs),0.0,68400.0,0.0,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Foreign Institutional Investors(FIIs),,68400.0,,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0.0,,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Mutual funds,,0.0,,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0.0,,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors,0.0,2262000.0,0.0,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0.0,1400400.0,0.0,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0.0,,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1400400.0,,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0.0,,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0.0,861600.0,0.0,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0.0,,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,721200.0,,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,140400.0,,
+2026-11-03_1527,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Total,0.0,2330400.0,0.0,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Qualified Institutional Buyers(QIBs),0.0,62188800.0,0.0,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Foreign Institutional Investors(FIIs),,18511200.0,,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,8756400.0,,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Mutual funds,,1333200.0,,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,33588000.0,,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors,0.0,168264000.0,0.0,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0.0,129825600.0,0.0,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,1911600.0,,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,126325200.0,,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,1588800.0,,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0.0,38438400.0,0.0,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,561600.0,,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,36852000.0,,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,1024800.0,,
+2026-11-03_1527,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Total,0.0,230452800.0,0.0,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Qualified Institutional Buyers(QIBs),0.0,127448000.0,0.0,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Foreign Institutional Investors(FIIs),,30538400.0,,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,10816800.0,,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Mutual funds,,1962400.0,,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,84130400.0,,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors,0.0,418524000.0,0.0,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0.0,334772000.0,0.0,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,2966400.0,,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,329111200.0,,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,2694400.0,,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0.0,83752000.0,0.0,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,693600.0,,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,82124800.0,,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,933600.0,,
+2026-11-03_1527,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Total,0.0,545972000.0,0.0,
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Qualified Institutional Buyers(QIBs),4798588,170330524,35.49596756379168,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Foreign Institutional Investors(FIIs),,36768550,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,41213900,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Mutual funds,,121940,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Others,,92226134,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Non Institutional Investors,3520327,557336598,158.31955326877303,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),2346885,430709916,183.52408234745204,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Corporates,,3219034,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Individuals(Other than RIIs),,415566970,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Others,,11923912,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),1173442,126626682,107.91047363227156,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Corporates,,191100,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Individuals(Other than RIIs),,122785936,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Others,,3649646,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Retail Individual Investors(RIIs),8214097,277083898,33.73272777275457,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Cut Off,,246585794,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Price bids,,30498104,,32.733611395189214
+2026-11-03_1807,BCSSL,Bombay Coated and Special Steels Limited,EQ,29-Oct-2026,02-Nov-2026,Rs.78 to Rs.82,16533012,Total,1.6533012E7,1.00475102E9,60.772412189624006,32.733611395189214
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Qualified Institutional Buyers(QIBs),0,68400,0.00,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Foreign Institutional Investors(FIIs),,68400,,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0,,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Mutual funds,,0,,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0,,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors,0,2432400,0.00,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0,1432800,0.00,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0,,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1432800,,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0,,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0,999600,0.00,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0,,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,830400,,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,169200,,0.87
+2026-11-03_1807,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Total,0.0,2500800.0,0.00,0.87
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Qualified Institutional Buyers(QIBs),0,177255200,0.00,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Foreign Institutional Investors(FIIs),,31908000,,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,13287200,,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Mutual funds,,2721600,,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,129338400,,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors,0,444827200,0.00,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0,354195200,0.00,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,3005600,,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,348463200,,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,2726400,,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0,90632000,0.00,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,795200,,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,88885600,,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,951200,,491.38
+2026-11-03_1807,MAXENGS,Maxwell Engineering Solutions Limited,SME,30-Oct-2026,03-Nov-2026,,,Total,0.0,6.220824E8,0.00,491.38
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Qualified Institutional Buyers(QIBs),0,75469200,0.00,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Foreign Institutional Investors(FIIs),,18511200,,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,10788000,,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Mutual funds,,1333200,,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,44836800,,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors,0,175959600,0.00,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0,135073200,0.00,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,1936800,,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,131530800,,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,1605600,,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0,40886400,0.00,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Corporates,,651600,,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,39198000,,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,1036800,,231.18
+2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Total,0.0,2.514288E8,0.00,231.18
