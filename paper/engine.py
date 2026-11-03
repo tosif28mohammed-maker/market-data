@@ -5,7 +5,8 @@ Strategies (Hindi names in the report):
   FUT_DIP    Nifty futures (index as proxy) same dip rule, 1 lot (65).
   FUT_EXP    Nifty futures: buy at weekly expiry-day close (Tuesday), sell next day close (day-after-expiry effect).
   INTRA_ORB  Nifty intraday: 9:15-9:30 range; first 5-min close above/below -> long/short, SL other side, target 2x range, exit 15:15.
-  OPT_SELL   naked short strangle at +-1 sigma (from VIX) for next weekly expiry, entered Tuesday close if 11 <= VIX <= 22, stop 2x credit.
+  OPT_SELL   naked short strangle at +-1 sigma (from VIX) for next weekly expiry, entered Tuesday close if 11 <= VIX <= 22, stop 2x credit
+             (from 3 Nov 2026, user OK: stop checked at the 9:15 open and on every Nifty 5-min bar, not only at the close; also for HEDGE_IC).
   HEDGE_IC   same but iron condor (wings 300 points further): hedged option selling.
   OPT_BUY_EXP buy ATM call at Tuesday close, sell Wednesday close.
   OPT_BUY_DIP buy ATM call (expiry >= 7 days) when FUT_DIP fires; exit Nifty >= EMA20, -50% premium, or 5 days.
@@ -63,6 +64,26 @@ def next_tuesday(day,min_days=1):
 SKEW_A,SKEW_B=0.973,-5.36   # IV = VIX x (A + B*ln(K/S)); fitted 29 Oct 2026 on real Sensibull prices (puts dearer, calls cheaper)
 def tyears(day,exp): return max(int(np.busday_count(day.date(),exp.date())),0)/252   # trading days to expiry
 def ivol(S,K,vix): return vix/100*min(1.6,max(0.6,SKEW_A+SKEW_B*math.log(K/S)))
+def opt_val_t(legs,S,day,vix,frac):   # value during the day: frac = part of today's session still left (0 at close)
+    return sum(q*bs(S,k,(max(int(np.busday_count(day.date(),exp.date())),0)+frac)/252,ivol(S,k,vix),cp) for (cp,k,q,exp) in legs)
+def sell_stop_intraday(p,legs,day):
+    """Option-sell stop (loss >= 2x credit) checked at the 9:15 open, then each Nifty 5-min bar (worst of bar high/low),
+    VIX = that day's VIX open. Returns (value, reason) at the first breach, else None. Close check stays in the main loop."""
+    n=DAY['NIFTY']; v=DAY['INDIAVIX']
+    vo=float(v.open[day]) if day in v.index and v.open[day]==v.open[day] else float(v.close[:day].iloc[-1])
+    lim=-2*abs(p['entry_val']); b=bars('NIFTY',day)
+    def mins(t): return (dt.datetime.combine(dt.date.today(),dt.time(15,30))-dt.datetime.combine(dt.date.today(),t)).seconds/60
+    pts=[(float(n.open[day]),1.0,'SL 2x (open)')]
+    if b is not None and len(b):
+        b=b[(b.time.dt.time>=dt.time(9,15))&(b.time.dt.time<dt.time(15,30))]
+        for r in b.itertuples():
+            f=max(mins(r.time.time())-5,0)/375
+            pts+=[(float(r.high),f,'SL 2x (5-min)'),(float(r.low),f,'SL 2x (5-min)')]
+    else: pts+=[(float(n.high[day]),0.5,'SL 2x (दिन का high/low)'),(float(n.low[day]),0.5,'SL 2x (दिन का high/low)')]
+    for S_,f,why in pts:
+        val=opt_val_t(legs,S_,day,vo,f)
+        if val-p['entry_val']<=lim: return val,why
+    return None
 def opt_val(legs,S,day,vix):
     return sum(q*bs(S,k,tyears(day,exp),ivol(S,k,vix),cp) for (cp,k,q,exp) in legs)   # q>0 long, q<0 short (points)
 
@@ -170,7 +191,11 @@ for day in todo:
         elif st in ('OPT_SELL','HEDGE_IC','OPT_BUY_EXP','OPT_BUY_DIP'):
             legs=[tuple(l[:2])+(l[2],pd.Timestamp(l[3])) for l in p['legs']]; val=opt_val(legs,S,day,vix)   # current value (points, + = we own)
             pnl_pts=val-p['entry_val']; p['days']+=1; exp=pd.Timestamp(p['expiry']); reason=None
-            if day>=exp: reason='Expiry'
+            if st in ('OPT_SELL','HEDGE_IC'):   # user OK 3 Nov 2026: 2x-credit stop also checked at the open and on every 5-min bar
+                hit=sell_stop_intraday(p,legs,day)
+                if hit: val,reason=hit; pnl_pts=val-p['entry_val']
+            if reason: pass
+            elif day>=exp: reason='Expiry'
             elif st in ('OPT_SELL','HEDGE_IC') and pnl_pts<=-2*abs(p['entry_val']): reason='SL 2x'
             elif st=='OPT_BUY_EXP': reason='अगले दिन close'
             elif st=='OPT_BUY_DIP':
