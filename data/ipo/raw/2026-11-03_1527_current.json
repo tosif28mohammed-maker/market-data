@@ -1,0 +1,38 @@
+[
+ {
+  "companyName": "Vedant Poly Fabs Limited",
+  "isBse": "1",
+  "issueEndDate": "04-Nov-2026",
+  "issueStartDate": "02-Nov-2026",
+  "series": "SME",
+  "status": "Active",
+  "symbol": "VPFL",
+  "noOfsharesBid": "4557600",
+  "noOfSharesOffered": "6030000",
+  "noOfTime": "0.76"
+ },
+ {
+  "companyName": "HGS (India) Limited",
+  "isBse": "1",
+  "issueEndDate": "03-Nov-2026",
+  "issueStartDate": "30-Oct-2026",
+  "series": "SME",
+  "status": "Active",
+  "symbol": "HGSINDIALT",
+  "noOfsharesBid": "433711200",
+  "noOfSharesOffered": "2066400",
+  "noOfTime": "209.89"
+ },
+ {
+  "companyName": "Maxwell Engineering Solutions Limited",
+  "isBse": "1",
+  "issueEndDate": "03-Nov-2026",
+  "issueStartDate": "30-Oct-2026",
+  "series": "SME",
+  "status": "Active",
+  "symbol": "MAXENGS",
+  "noOfsharesBid": "1150840800",
+  "noOfSharesOffered": "2624000",
+  "noOfTime": "438.58"
+ }
+]

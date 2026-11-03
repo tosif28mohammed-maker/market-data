@@ -1,0 +1,119 @@
+{
+ "dataList": [
+  {
+   "category": "Category",
+   "noOfShareOffered": "No.of shares offered/reserved",
+   "noOfSharesBid": "No. of shares bid for",
+   "noOfTotalMeant": "No. of times of total meant for the category",
+   "srNo": "Sr.No."
+  },
+  {
+   "category": "Qualified Institutional Buyers(QIBs)",
+   "noOfShareOffered": "0",
+   "noOfSharesBid": "127448000",
+   "noOfTotalMeant": "0.00",
+   "srNo": "1"
+  },
+  {
+   "category": "Foreign Institutional Investors(FIIs)",
+   "noOfShareOffered": "",
+   "noOfSharesBid": "30538400",
+   "noOfTotalMeant": "",
+   "srNo": "1(a)"
+  },
+  {
+   "category": "Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies)",
+   "noOfShareOffered": "",
+   "noOfSharesBid": "10816800",
+   "noOfTotalMeant": "",
+   "srNo": "1(b)"
+  },
+  {
+   "category": "Mutual funds",
+   "noOfShareOffered": "",
+   "noOfSharesBid": "1962400",
+   "noOfTotalMeant": "",
+   "srNo": "1(c)"
+  },
+  {
+   "category": "Others",
+   "noOfShareOffered": "",
+   "noOfSharesBid": "84130400",
+   "noOfTotalMeant": "",
+   "srNo": "1(d)"
+  },
+  {
+   "category": "Non Institutional Investors",
+   "noOfShareOffered": "0",
+   "noOfSharesBid": "418524000",
+   "noOfTotalMeant": "0.00",
+   "srNo": "2"
+  },
+  {
+   "category": "Non Institutional Investors(Bid amount of more than Ten Lakh Rupees)",
+   "noOfShareOffered": "0",
+   "noOfSharesBid": "334772000",
+   "noOfTotalMeant": "0.00",
+   "srNo": "2.1"
+  },
+  {
+   "category": "Corporates",
+   "noOfShareOffered": "",
+   "noOfSharesBid": "2966400",
+   "noOfTotalMeant": "",
+   "srNo": "2.1(a)"
+  },
+  {
+   "category": "Individuals(Other than RIIs)",
+   "noOfShareOffered": "",
+   "noOfSharesBid": "329111200",
+   "noOfTotalMeant": "",
+   "srNo": "2.1(b)"
+  },
+  {
+   "category": "Others",
+   "noOfShareOffered": "",
+   "noOfSharesBid": "2694400",
+   "noOfTotalMeant": "",
+   "srNo": "2.1(c)"
+  },
+  {
+   "category": "Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees)",
+   "noOfShareOffered": "0",
+   "noOfSharesBid": "83752000",
+   "noOfTotalMeant": "0.00",
+   "srNo": "2.2"
+  },
+  {
+   "category": "Corporates",
+   "noOfShareOffered": "",
+   "noOfSharesBid": "693600",
+   "noOfTotalMeant": "",
+   "srNo": "2.2(a)"
+  },
+  {
+   "category": "Individuals(Other than RIIs)",
+   "noOfShareOffered": "",
+   "noOfSharesBid": "82124800",
+   "noOfTotalMeant": "",
+   "srNo": "2.2(b)"
+  },
+  {
+   "category": "Others",
+   "noOfShareOffered": "",
+   "noOfSharesBid": "933600",
+   "noOfTotalMeant": "",
+   "srNo": "2.2(c)"
+  },
+  {
+   "category": "Total",
+   "noOfShareOffered": "0.0",
+   "noOfSharesBid": "5.45972E8",
+   "noOfTotalMeant": "0.00",
+   "srNo": null
+  }
+ ],
+ "heading": null,
+ "symbol": null,
+ "updateTime": "Updated as on 03-Nov-2026 15:24:00"
+}
