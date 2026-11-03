@@ -1,0 +1,19 @@
+name: ipo
+on:
+  schedule:
+    - cron: '0 6 * * 1-5'    # 11:30 AM India
+    - cron: '50 11 * * 1-5'  # 5:20 PM India (final day-wise subscription)
+  workflow_dispatch: {}
+permissions: { contents: write }
+jobs:
+  ipo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests pandas
+      - run: python scripts/ipo.py
+      - run: |
+          git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/ipo; git commit -m "ipo $(date -u +%Y-%m-%d_%H%M)" || true; git pull --rebase || true; git push
