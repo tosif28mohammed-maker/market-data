@@ -17,6 +17,7 @@ jobs:
       - run: python scripts/gapday.py || echo 'gapday failed'
       - run: python paper/engine.py
       - run: python scripts/mom_paper.py || echo 'mom failed'
+      - run: python scripts/breadth_paper.py || echo 'breadth failed'
       - run: |
           git config user.name "market-data-bot"
           git config user.email "actions@users.noreply.github.com"
