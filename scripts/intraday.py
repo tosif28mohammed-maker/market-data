@@ -1,5 +1,5 @@
 """Runs on GitHub every 15 minutes during Indian market hours: 5-minute candles (Yahoo, ~delayed) for Nifty, VIX and the
-Nifty-50 stocks -> data/intraday/<SYMBOL>_5m.csv (keeps the last 60 days). Claude reads with git clone."""
+Nifty-50 stocks -> data/intraday/<SYMBOL>_5m.csv (keeps ALL history from now on - user 3 Nov 2026: build long 5-min history for 75/125-minute studies). Claude reads with git clone."""
 import os, time, pandas as pd, yfinance as yf
 from fetch_list import TICKERS
 os.makedirs('data/intraday', exist_ok=True)
@@ -17,6 +17,5 @@ for name, tk in TICKERS.items():
     path = f'data/intraday/{name}_5m.csv'
     if os.path.exists(path): df = pd.concat([pd.read_csv(path, parse_dates=['time']), df])
     df = df.drop_duplicates('time', keep='last').sort_values('time')
-    df = df[df.time >= df.time.max() - pd.Timedelta(days=60)]
     df.to_csv(path, index=False, float_format='%.4f'); time.sleep(0.5)
 open('data/intraday/STATUS.txt','w').write(f'updated {pd.Timestamp.now(tz="Asia/Kolkata"):%Y-%m-%d %H:%M} IST\n')

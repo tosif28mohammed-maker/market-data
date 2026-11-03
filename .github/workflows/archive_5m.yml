@@ -1,0 +1,29 @@
+name: archive-5min
+on:
+  schedule:
+    - cron: '30 13 * * 5'   # Friday 7 PM IST
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install yfinance pandas
+      - run: |
+          cp paper/gap_universe.csv /tmp/gap_universe.csv; cp scripts/archive_5m.py /tmp/archive_5m.py
+          git checkout intraday_hist
+          mkdir -p paper && cp /tmp/gap_universe.csv paper/gap_universe.csv
+          python /tmp/archive_5m.py intra/m5_all
+          rm -rf paper
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add intra/m5_all
+          git commit -m "5-min archive $(date -u +%Y-%m-%d)" || echo none
+          git push origin intraday_hist
