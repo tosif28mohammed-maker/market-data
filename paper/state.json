@@ -1,5 +1,5 @@
 {
- "last": "2026-11-03",
+ "last": "2026-11-04",
  "open": [
   {
    "id": "T00102",
@@ -13,58 +13,7 @@
    "note": "dist -6.6% (limit -5.5%)",
    "entry_date": "2026-10-26",
    "entry_price": 264.2,
-   "days": 7
-  },
-  {
-   "id": "T00116",
-   "strategy": "EQ_FOCUS",
-   "symbol": "V2RETAIL",
-   "side": "Buy",
-   "qty": 624,
-   "signal_date": "2026-11-02",
-   "sl": 131.56,
-   "target": 165.74,
-   "note": "HMA 2: दूरी -2.8% (सीमा -1.5%); 2021-26 जीत 65%; RSI 41; MACD ऊपर (मुड़ रहा); BB %B 0.47; 50 SMA नीचे, 200 SMA नीचे; 52w high से -38%; support 145.3 / resistance 184.0, volume 1.2x",
-   "entry_date": "2026-11-03",
-   "entry_price": 160.14,
-   "days": 1,
-   "mark": 2796.0
-  },
-  {
-   "id": "T00505",
-   "strategy": "FUT_EXP",
-   "symbol": "NIFTY",
-   "side": "Long",
-   "qty": 65,
-   "entry_date": "2026-11-03",
-   "entry_price": 23810.85,
-   "sl": null,
-   "target": null,
-   "days": 0,
-   "note": "expiry-day close"
-  },
-  {
-   "id": "T00506",
-   "strategy": "OPT_BUY_EXP",
-   "symbol": "NIFTY 23800 CE",
-   "side": "Buy",
-   "qty": 65,
-   "entry_date": "2026-11-03",
-   "entry_price": 226.46,
-   "entry_val": 226.45550052359795,
-   "legs": [
-    [
-     "C",
-     23800,
-     1,
-     "2026-11-10"
-    ]
-   ],
-   "expiry": "2026-11-10",
-   "days": 0,
-   "sl": null,
-   "target": null,
-   "note": "VIX 15.7"
+   "days": 8
   },
   {
    "id": "T00507",
@@ -90,10 +39,11 @@
     ]
    ],
    "expiry": "2026-11-10",
-   "days": 0,
+   "days": 1,
    "sl": null,
    "target": null,
-   "note": "credit 75.2 pts, VIX 15.7"
+   "note": "credit 75.2 pts, VIX 15.7",
+   "mark": 1031.0
   },
   {
    "id": "T00508",
@@ -131,15 +81,39 @@
     ]
    ],
    "expiry": "2026-11-10",
-   "days": 0,
+   "days": 1,
    "sl": null,
    "target": null,
-   "note": "credit 51.7 pts, VIX 15.7"
+   "note": "credit 51.7 pts, VIX 15.7",
+   "mark": 288.0
   }
  ],
- "pending": [],
- "seq": 513,
- "gap_last": "2026-11-03",
- "usfade_last_BANKNIFTY": "2026-11-03",
- "usfade_last_NIFTY": "2026-11-03"
+ "pending": [
+  {
+   "id": "T00514",
+   "strategy": "EQ_FOCUS",
+   "symbol": "PCJEWELLER",
+   "side": "Buy",
+   "qty": 0,
+   "signal_date": "2026-11-04",
+   "sl": 11.58,
+   "target": 16.2,
+   "note": "HMA 2: दूरी -2.3% (सीमा -1.5%); 2021-26 जीत 56%; RSI 55; MACD नीचे; BB %B 0.51; 50 SMA ऊपर, 200 SMA ऊपर; 52w high से -21%; support 12.9 / resistance 20.1, volume 1.4x"
+  },
+  {
+   "id": "T00515",
+   "strategy": "EQ_FOCUS",
+   "symbol": "KERNEX",
+   "side": "Buy",
+   "qty": 0,
+   "signal_date": "2026-11-04",
+   "sl": 1472.93,
+   "target": 1729.67,
+   "note": "HMA 2: दूरी -2.1% (सीमा -1.6%); 2021-26 जीत 53%; RSI 52; MACD ऊपर (मुड़ रहा); BB %B 0.56; 50 SMA नीचे, 200 SMA ऊपर; 52w high से -34%; support 1523.6 / resistance 1818.7, volume 1.1x"
+  }
+ ],
+ "seq": 520,
+ "gap_last": "2026-11-04",
+ "usfade_last_BANKNIFTY": "2026-11-04",
+ "usfade_last_NIFTY": "2026-11-04"
 }
