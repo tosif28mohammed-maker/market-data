@@ -1,0 +1,2 @@
+id,date_ist,source,instrument,type,symbol,expiry,strike,opt,lots_or_qty,lot_size,reco_low,reco_high,target,sl,price_when_seen,underlying_when_seen,reason,my_verdict,my_note
+T001,2026-11-04 11:42,Angel One research,INDIGO 23-NOV-26 5100 CE,OPT,INDIGO,2026-11-23,5100,CE,1,150,143,145,190,115,157.5,5118,Swing breakout on underlying,SKIP,"seen +63% above reco; RR 32.5 up vs 42.5 down; flat underlying -> ~125 in 7d (theta); option buying failed in our tests; underlying 7% above SMA20"
