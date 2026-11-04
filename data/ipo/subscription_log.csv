@@ -107,18 +107,33 @@ run,symbol,company,series,issue_start,issue_end,price_band,size,category,offered
 2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Individuals(Other than RIIs),,39198000.0,,231.18
 2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Others,,1036800.0,,231.18
 2026-11-03_1807,HGSINDIALT,HGS (India) Limited,SME,30-Oct-2026,03-Nov-2026,,,Total,0.0,251428800.0,0.0,231.18
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Qualified Institutional Buyers(QIBs),0,68400,0.00,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Foreign Institutional Investors(FIIs),,68400,,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0,,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Mutual funds,,0,,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0,,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors,0,3105600,0.00,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0,1888800,0.00,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,304800,,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1584000,,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0,,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0,1216800,0.00,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0,,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1047600,,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,169200,,1.47
-2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Total,0.0,3174000.0,0.00,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Qualified Institutional Buyers(QIBs),0.0,68400.0,0.0,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Foreign Institutional Investors(FIIs),,68400.0,,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0.0,,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Mutual funds,,0.0,,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0.0,,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors,0.0,3105600.0,0.0,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0.0,1888800.0,0.0,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,304800.0,,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1584000.0,,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0.0,,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0.0,1216800.0,0.0,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0.0,,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1047600.0,,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,169200.0,,1.47
+2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Total,0.0,3174000.0,0.0,1.47
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Qualified Institutional Buyers(QIBs),0,68400,0.00,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Foreign Institutional Investors(FIIs),,68400,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Mutual funds,,0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors,0,3432000,0.00,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0,1996800,0.00,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,304800,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1692000,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0,1435200,0.00,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1262400,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,172800,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Total,0.0,3500400.0,0.00,1.85
