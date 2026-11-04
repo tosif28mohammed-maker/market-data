@@ -34,6 +34,8 @@ def eq_bars(sym, start):
 today = pd.Timestamp(dt.datetime.now(dt.timezone(dt.timedelta(hours=5, minutes=30))).date())
 out = []
 for _, t in T.iterrows():
+    if t.type not in ('EQ', 'FUT', 'OPT'):
+        out.append(dict(id=t.id, source=t.source, instrument=t.instrument, date=t.date_ist, my_verdict=t.my_verdict, result='RECORD_ONLY (multi-leg)')); continue
     d0 = pd.Timestamp(t.date_ist[:10]); lo, hi = float(t.reco_low or 0), float(t.reco_high or 0); seen = float(t.price_when_seen or hi)
     entry = seen if (seen > hi or seen < lo) else hi; tgt, sl = float(t.target), float(t.sl)
     try:

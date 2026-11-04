@@ -1,2 +1,13 @@
 id,date_ist,source,instrument,type,symbol,expiry,strike,opt,lots_or_qty,lot_size,reco_low,reco_high,target,sl,price_when_seen,underlying_when_seen,reason,my_verdict,my_note
 T001,2026-11-04 11:42,Angel One research,INDIGO 23-NOV-26 5100 CE,OPT,INDIGO,2026-11-23,5100,CE,1,150,143,145,190,115,157.5,5118,Swing breakout on underlying,SKIP,"seen +63% above reco; RR 32.5 up vs 42.5 down; flat underlying -> ~125 in 7d (theta); option buying failed in our tests; underlying 7% above SMA20"
+T002,2026-11-04 13:25,Moneycontrol (Manish Shah),GMRAIRPORT,EQ,GMRAIRPORT,,,,,,93,94.5,101,89.5,94.25,,,SKIP,"quality 3/9, PE 222, below falling 200 DMA, 52w flat, +5% above SMA20 after 6-day bounce"
+T003,2026-11-04 11:22,Moneycontrol (Weekend Investing),MARICO,EQ,MARICO,,,,,,888,888,1000,850,888.5,,,WAIT,"quality 9, 52w +23%, results gap; but 12% above SMA20 (stretched) - buy only on pullback 860-870, SL 850"
+T004,2026-11-04 09:43,Moneycontrol (BK Training),CROMPTON,EQ,CROMPTON,,,,,,198,204,210,195,202.84,,,SKIP,"52w -28%, 18% below falling 200 DMA, quality 2/9; target only +3.5%"
+T005,2026-11-03 15:22,Moneycontrol (Weekend Investing),ITC,EQ,ITC,,,,,,272.9,272.9,299,260,280.45,,,SKIP,"52w -33%, below falling 200 DMA; from 280 target +6.6% vs SL -7.3%"
+T006,2026-11-03 12:26,Moneycontrol (Manish Shah),DLF,EQ,DLF,,,,,,705,710,770,660,719.1,,,WAIT,"above 200 DMA, Q2 profit +71%; 7% above SMA20, SL 8% away - pullback 690-700"
+T007,2026-11-03 14:22,Moneycontrol (Santosh Pasi),PFC short iron condor 23-NOV 300/310PE 335/345CE,IC,PFC,2026-11-23,,,1,1300,,,,,322.2,322.2,credit 5720 per lot,SKIP,"max gain 5720 vs max loss 7280; P(inside 310-335) ~45-51%, P(beyond wings) ~22-29% -> about breakeven after costs"
+T008,2026-11-02 14:01,Moneycontrol (Santosh Pasi),ITC short iron condor 23-NOV 250/260PE 270/280CE,IC,ITC,2026-11-23,,,1,,,,,,,,credit 7072.5,NA,"seen 4 Nov at -4657 (ITC rallied to 280)"
+T009,2026-11-02 12:05,Moneycontrol (Manish Shah),TATAPOWER,EQ,TATAPOWER,,,,,,353,355,376,340,,,,NA,"history (seen 4 Nov, +1.3%)"
+T010,2026-11-02 10:01,Moneycontrol (BK Training),COFORGE,EQ,COFORGE,,,,,,2000,2100,2200,1950,,,,NA,"history (seen 4 Nov, -0.56%)"
+T011,2026-10-30 12:55,Moneycontrol (Weekend Investing),MAXHEALTH,EQ,MAXHEALTH,,,,,,866.15,866.15,920,850,,,,NA,"history (seen 4 Nov, +6.47%)"
+T012,2026-10-30 09:32,Moneycontrol (Manish Shah),TCS,EQ,TCS,,,,,,2495,2510,2610,2375,,,,NA,"history (seen 4 Nov, -2.83%)"
