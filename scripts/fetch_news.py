@@ -11,6 +11,9 @@ MARKET = {
                          'India defence stocks orders', 'PSU bank stocks outlook', 'metal stocks India steel prices', 'pharma stocks US FDA India',
                          'auto sales India monthly', 'semiconductor data center India investment', 'renewable energy solar India stocks', 'Trump tariff India statement',
                          'Supreme Court verdict company shares', 'SEBI order company'],
+    'Experts': ['Raamdeo Agrawal market view', 'Vijay Kedia stock', 'Samir Arora India market', 'Saurabh Mukherjea Marcellus', 'Nilesh Shah Kotak market',
+                'Prashant Jain 3P market', 'Sunil Singhania Abakkus', 'Basant Maheshwari', 'Shankar Sharma market', 'Warren Buffett Berkshire',
+                'Howard Marks memo', 'Stanley Druckenmiller', 'brokerage top picks India stocks'],
     'World': ['Wall Street stocks close', 'Federal Reserve interest rates', 'crude oil prices Brent', 'US China trade tariffs', 'Iran Israel US oil Hormuz',
               'Japan Nikkei China stocks', 'US jobs inflation data', 'gold price dollar index'],
 }
