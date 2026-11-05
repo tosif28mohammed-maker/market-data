@@ -21,6 +21,7 @@ jobs:
       - run: python scripts/mom_paper.py || echo 'mom failed'
       - run: python scripts/breadth_paper.py || echo 'breadth failed'
       - run: python scripts/tips_tracker.py || echo 'tips failed'
+      - run: python scripts/div_paper.py || echo 'div paper failed'
       - run: |
           git config user.name "market-data-bot"
           git config user.email "actions@users.noreply.github.com"
