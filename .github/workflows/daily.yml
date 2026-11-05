@@ -16,6 +16,7 @@ jobs:
       - run: PYTHONPATH=scripts python scripts/fetch.py
       - run: python scripts/gapday.py || echo 'gapday failed'
       - run: pip install requests && python scripts/fii_dii.py || echo 'fii failed'
+      - run: python scripts/corp_actions.py || echo 'corp failed'
       - run: python paper/engine.py
       - run: python scripts/mom_paper.py || echo 'mom failed'
       - run: python scripts/breadth_paper.py || echo 'breadth failed'
