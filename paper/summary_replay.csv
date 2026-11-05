@@ -1,5 +1,5 @@
 strategy,trades,win_pct,pnl_rs,avg_rs,best,worst,max_dd
-Equity swing (dip),30,33.0,-32294.0,-1076.0,5735.0,-5606.0,-55430.0
+Equity swing (dip),31,35.0,-25335.0,-817.0,6959.0,-5606.0,-55430.0
 Focus शेयर (Top-1000 नियम),0,,,,,,
 Nifty future (dip),4,25.0,-23800.0,-5950.0,34191.0,-22161.0,-40200.0
 Nifty future (expiry के बाद),8,25.0,-36362.0,-4545.0,7557.0,-13334.0,-27632.0
