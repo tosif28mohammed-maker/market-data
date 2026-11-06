@@ -205,6 +205,9 @@ if PART == 'factor':
 
 if PART == 'dualmom':
     nf = idx_series('NIFTY_50_TRI.csv')
+    if nf is None:  # niftyindices API dead from Actions (6 Nov 2026): price index + ~1.3%/yr dividend approx
+        z = pd.read_csv(os.path.join(R, 'data', 'NIFTY.csv'), parse_dates=['date']).set_index('date').close.dropna().sort_index()
+        nf = z * (1 + 0.013 / 252) ** np.arange(len(z)); md('Note: Nifty TRI nahi mila, price + 1.3% dividend approx use kiya.')
     gs = idx_series('NIFTY_10_YR_BENCHMARK_G_SEC_TRI.csv')
     gold = (gl('CMD_GOLD') * gl('FX_USDINR').reindex(gl('CMD_GOLD').index).ffill()).dropna()
     M = pd.DataFrame({'nifty': nf.resample('ME').last() if nf is not None else None, 'gold': gold.resample('ME').last(),

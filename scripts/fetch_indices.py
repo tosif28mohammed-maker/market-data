@@ -16,7 +16,7 @@ except Exception as e: print('home', e)
 
 def call(ep, name, a, b):
     body = {'cinfo': json.dumps({'name': name, 'startDate': a.strftime('%d-%b-%Y'), 'endDate': b.strftime('%d-%b-%Y'), 'indexName': name}).replace('"', "'")}
-    for k in range(3):
+    for k in range(2):
         try:
             r = S.post(f'https://www.niftyindices.com/Backpage.aspx/{ep}', data=json.dumps(body), timeout=60)
             d = r.json().get('d'); return json.loads(d) if isinstance(d, str) else (d or [])
@@ -27,6 +27,8 @@ def call(ep, name, a, b):
 
 def hist(ep, name, start=1999):
     rows = []
+    if not call(ep, name, dt.date(2020, 1, 1), dt.date(2020, 12, 31)):
+        print('endpoint dead', ep, name); return pd.DataFrame()
     for y in range(start, dt.date.today().year + 1):
         rows += call(ep, name, dt.date(y, 1, 1), min(dt.date(y, 12, 31), dt.date.today())); time.sleep(0.6)
     return pd.DataFrame(rows)

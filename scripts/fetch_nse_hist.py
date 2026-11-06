@@ -14,15 +14,20 @@ try: S.get('https://www.nseindia.com', timeout=20)
 except Exception: pass
 
 
+FAILS = [0]
+
+
 def get(url):
-    for a in range(3):
-        try:
-            r = S.get(url, timeout=40)
-            if r.status_code == 200 and len(r.content) > 200: return r.content
-            if r.status_code == 404: return None
-        except Exception:
-            pass
-        time.sleep(2 + 3 * a)
+    # Actions IPs: nsearchives.* times out for old files; archives.* works (probe 6 Nov 2026)
+    for u in (url.replace('nsearchives.nseindia.com', 'archives.nseindia.com'), url):
+        for a in range(2):
+            try:
+                r = S.get(u, timeout=15)
+                if r.status_code == 200 and len(r.content) > 200: return r.content
+                if r.status_code in (403, 404): break
+            except Exception:
+                time.sleep(2)
+    FAILS[0] += 1
     return None
 
 
@@ -67,6 +72,7 @@ for d in days:
         g['date'] = d.date(); g.index.name = 'symbol'
         frames.append(g.reset_index()); ok += 1
     time.sleep(0.4)
+    if ok == 0 and FAILS[0] >= 25: print('aborting: nothing reachable'); break
     if ok and ok % 50 == 0: print(kind, year, d.date(), ok, flush=True)
 print(kind, year, 'days ok', ok, 'of', len(days))
 if frames:
