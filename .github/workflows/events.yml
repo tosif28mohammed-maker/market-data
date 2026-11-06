@@ -1,0 +1,34 @@
+name: events
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix: { group: [daily, hourly, m15, m5] }
+    steps:
+      - uses: actions/checkout@v4
+      - if: matrix.group == 'daily'
+        uses: actions/checkout@v4
+        with: { ref: universe500, path: u500, sparse-checkout: "u1000\nu2000" }
+      - if: matrix.group == 'hourly'
+        uses: actions/checkout@v4
+        with: { ref: intraday_hist, path: ih, sparse-checkout: intra/h1 }
+      - if: matrix.group == 'm15'
+        uses: actions/checkout@v4
+        with: { ref: intraday_hist, path: ih, sparse-checkout: intra/m15 }
+      - if: matrix.group == 'm5'
+        uses: actions/checkout@v4
+        with: { ref: intraday_hist, path: ih, sparse-checkout: intra/m5_all }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install pandas numpy yfinance
+      - run: python study/events.py ${{ matrix.group }}
+        env: { U500: "${{ github.workspace }}/u500", INTRA: "${{ github.workspace }}/ih" }
+      - run: |
+          git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
+          git add study/results/events_*
+          git commit -m "events ${{ matrix.group }}" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && break; sleep $((RANDOM % 20 + 5)); done
