@@ -101,7 +101,8 @@ for h in Hd.itertuples():
     if p <= h.stop: act = f'🔴 SELL — close {p:.2f} stop {h.stop} से नीचे: अगले दिन 2:15-3:25 PM बेचो'
     elif not pd.isna(h.target) and p >= h.target: act = f'🟢 SELL/BOOK — target {h.target} छुआ: LIMIT SELL {h.qty} @{p:.2f}+, सुबह gap-up हो तो पहले 15 मिनट'
     else:
-        act = f'🟡 HOLD — LIMIT SELL {h.qty} @{h.target} (day order, TPIN), stop {h.stop} close पर'
+        act = (f'🟡 HOLD — LIMIT SELL {h.qty} @{h.target} (day order, TPIN), stop {h.stop} close पर' if not pd.isna(h.target)
+               else f'🟡 HOLD (तेज़ी trade, fixed target नहीं) — stop {h.stop} close पर; 20 दिन पर review')
         if days >= 20: act += f'; {days} दिन हुए — review'
     if h.symbol in BALL: act += f' | ⚠️ bonus/split ex {BALL[h.symbol]}: ex से पहले (cum दिन) बेचो — बाद में ~-6% (f71)'
     res = soon.get(h.symbol); act += (f' | ⚠️ नतीजे {res:%d %b}' if res is not None and not pd.isna(res) else '')
