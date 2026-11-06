@@ -1,15 +1,25 @@
 name: probe
-on: { workflow_dispatch: {} }
-permissions: { contents: write }
+on: workflow_dispatch
 jobs:
   p:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
-      - run: pip install requests
-      - run: python scripts/probe_fii.py
       - run: |
-          git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
-          git add data/probe; git commit -m "probe" || true; git pull --rebase || true; git push
+          pip install -q requests
+          python - <<'PY'
+          import requests, time, json
+          S=requests.Session(); S.headers.update({'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36','Accept':'*/*','Referer':'https://www.nseindia.com/'})
+          for u in ['https://www.nseindia.com','https://nsearchives.nseindia.com/archives/equities/mto/MTO_05112026.DAT','https://nsearchives.nseindia.com/archives/equities/mto/MTO_03012012.DAT',
+                    'https://nsearchives.nseindia.com/content/historical/DERIVATIVES/2015/JAN/fo05JAN2015bhav.csv.zip','https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261105_F_0000.csv.zip',
+                    'https://archives.nseindia.com/archives/equities/mto/MTO_03012012.DAT','https://www.niftyindices.com/reports/historical-data']:
+              t=time.time()
+              try: r=S.get(u,timeout=20); print(r.status_code,len(r.content),round(time.time()-t,1),u)
+              except Exception as e: print('ERR',type(e).__name__,round(time.time()-t,1),u)
+          h={'Content-Type':'application/json; charset=UTF-8','X-Requested-With':'XMLHttpRequest','Origin':'https://www.niftyindices.com','Referer':'https://www.niftyindices.com/reports/historical-data'}
+          b={'cinfo':json.dumps({'name':'NIFTY 50','startDate':'01-Jan-2010','endDate':'31-Dec-2010','indexName':'NIFTY 50'}).replace('"',"'")}
+          for ep in ['getpepbHistoricaldataDBtoString','getTotalReturnIndexString']:
+              t=time.time()
+              try: r=S.post('https://www.niftyindices.com/Backpage.aspx/'+ep,data=json.dumps(b),headers=h,timeout=20); print(ep,r.status_code,len(r.content),round(time.time()-t,1),r.text[:150])
+              except Exception as e: print('ERR',ep,type(e).__name__,round(time.time()-t,1))
+          PY
