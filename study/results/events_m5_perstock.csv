@@ -1,0 +1,3 @@
+tf,dir,stocks,corr_half1_half2,chance_corr_p95,both_positive,expected_by_chance
+5m,UP,1628,0.21,0.042,172,145.0
+5m,DOWN,1623,0.286,0.038,791,759.8
