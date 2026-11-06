@@ -1,0 +1,3 @@
+tf,stocks,pct_broke_green_record,pct_broke_red_record,at_green_record_n,p_continue_at_green_record,p_continue_green_room_left,at_red_record_n,p_continue_at_red_record,p_continue_red_room_left,ret_after_red_record,ret_after_red_room,ret_after_green_record,ret_after_green_room
+1W,1491,37.6,40.9,1992,44.2,46.3,2036,53.6,53.1,-0.085,-0.159,0.142,0.1
+1D,1491,33.7,37.4,2175,41.3,42.7,2158,59.5,57.4,-0.053,-0.051,0.065,0.088
