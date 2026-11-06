@@ -1,33 +1,33 @@
-strategy,era
-Nifty buy&hold,ALL
-Nifty buy&hold,2004-12
-Nifty buy&hold,2013-20
-Nifty buy&hold,2021-26
-Sona buy&hold,ALL
-Sona buy&hold,2004-12
-Sona buy&hold,2013-20
-Sona buy&hold,2021-26
-50/50 Nifty+Sona,ALL
-50/50 Nifty+Sona,2004-12
-50/50 Nifty+Sona,2013-20
-50/50 Nifty+Sona,2021-26
-Dual momentum 3 mahine,ALL
-Dual momentum 3 mahine,2004-12
-Dual momentum 3 mahine,2013-20
-Dual momentum 3 mahine,2021-26
-Dual momentum 6 mahine,ALL
-Dual momentum 6 mahine,2004-12
-Dual momentum 6 mahine,2013-20
-Dual momentum 6 mahine,2021-26
-Dual momentum 9 mahine,ALL
-Dual momentum 9 mahine,2004-12
-Dual momentum 9 mahine,2013-20
-Dual momentum 9 mahine,2021-26
-Dual momentum 12 mahine,ALL
-Dual momentum 12 mahine,2004-12
-Dual momentum 12 mahine,2013-20
-Dual momentum 12 mahine,2021-26
-Nifty 10-mahine SMA (warna G-sec),ALL
-Nifty 10-mahine SMA (warna G-sec),2004-12
-Nifty 10-mahine SMA (warna G-sec),2013-20
-Nifty 10-mahine SMA (warna G-sec),2021-26
+strategy,era,CAGR,vol,maxDD,sharpe,years
+Nifty buy&hold,ALL,12.0,19.2,-29.1,0.69,18.2
+Nifty buy&hold,2004-12,4.4,29.7,-54.6,0.29,5.2
+Nifty buy&hold,2013-20,12.8,17.2,-29.1,0.79,8.0
+Nifty buy&hold,2021-26,11.4,13.5,-14.4,0.87,5.9
+Sona buy&hold,ALL,13.2,17.4,-25.4,0.8,18.2
+Sona buy&hold,2004-12,24.2,20.8,-13.1,1.15,5.2
+Sona buy&hold,2013-20,5.3,16.5,-25.4,0.39,8.0
+Sona buy&hold,2021-26,18.9,16.0,-22.3,1.16,5.9
+50/50 Nifty+Sona,ALL,13.6,12.7,-14.8,1.07,18.2
+50/50 Nifty+Sona,2004-12,15.7,18.1,-27.0,0.9,5.2
+50/50 Nifty+Sona,2013-20,10.0,10.4,-11.7,0.97,8.0
+50/50 Nifty+Sona,2021-26,15.6,10.7,-14.8,1.42,5.9
+Dual momentum 3 mahine,ALL,12.8,17.2,-28.1,0.79,18.2
+Dual momentum 3 mahine,2004-12,8.9,24.2,-36.0,0.47,5.2
+Dual momentum 3 mahine,2013-20,5.6,14.1,-28.1,0.45,8.0
+Dual momentum 3 mahine,2021-26,18.9,14.3,-18.9,1.29,5.9
+Dual momentum 6 mahine,ALL,12.9,15.9,-21.2,0.85,18.2
+Dual momentum 6 mahine,2004-12,5.4,19.1,-21.2,0.37,5.2
+Dual momentum 6 mahine,2013-20,12.6,14.1,-16.8,0.92,8.0
+Dual momentum 6 mahine,2021-26,18.5,14.9,-19.8,1.22,5.9
+Dual momentum 9 mahine,ALL,15.5,15.6,-19.8,1.01,18.2
+Dual momentum 9 mahine,2004-12,15.9,19.3,-13.1,0.86,5.2
+Dual momentum 9 mahine,2013-20,13.4,12.7,-11.0,1.05,8.0
+Dual momentum 9 mahine,2021-26,16.6,15.4,-19.8,1.08,5.9
+Dual momentum 12 mahine,ALL,11.3,15.9,-22.3,0.76,18.2
+Dual momentum 12 mahine,2004-12,14.5,18.1,-13.3,0.84,5.2
+Dual momentum 12 mahine,2013-20,8.8,13.4,-15.2,0.7,8.0
+Dual momentum 12 mahine,2021-26,11.1,15.8,-22.3,0.75,5.9
+Nifty 10-mahine SMA (warna G-sec),ALL,10.2,13.6,-18.0,0.79,18.2
+Nifty 10-mahine SMA (warna G-sec),2004-12,12.5,17.3,-18.0,0.76,5.2
+Nifty 10-mahine SMA (warna G-sec),2013-20,9.3,11.4,-13.5,0.84,8.0
+Nifty 10-mahine SMA (warna G-sec),2021-26,9.0,11.3,-14.4,0.82,5.9
