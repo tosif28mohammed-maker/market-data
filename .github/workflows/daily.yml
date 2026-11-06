@@ -24,6 +24,10 @@ jobs:
       - run: python scripts/div_paper.py || echo 'div paper failed'
       - run: python scripts/tf_scan.py || echo 'tf scan failed'
       - run: python scripts/daily_checklist.py || echo 'checklist failed'
+      - run: pip install requests && python scripts/decision.py || echo 'decision failed'
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT: ${{ secrets.TELEGRAM_CHAT }}
       - run: |
           git config user.name "market-data-bot"
           git config user.email "actions@users.noreply.github.com"

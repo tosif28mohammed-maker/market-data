@@ -1,0 +1,212 @@
+symbol,liq,score,families,fam,close,entry,stop,target,qty,plan,why,results,ret52
+UFBL,B,6,4,dailydip+pullback+tfdip+trend,519.1,519.1,467.2,636.8,28,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","uptrend में 2-3 दिन गिरावट, RSI2 1 (f52); 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -18%; 52w +156% (f43/f58)",,156
+MOREPENLAB,A,6,4,dailydip+pullback+tfdip+trend,97.1,96.1,86.5,119.8,156,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","uptrend में 2-3 दिन गिरावट, RSI2 1 (f52); 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -19%; 52w +102% (f43/f58)",,102
+EBGNG,A,6,3,momentum+tfdip+trend,729.55,640.1,576.1,696.9,23,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",सबसे मज़बूत RS + 52w high पास (f62); 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +117% (f43/f58),,117
+HFCL,A,5,3,dailydip+tfdip+trend,221.74,212.2,191.0,246.4,70,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -10%; 52w +186% (f43/f58),,186
+GANDHAR,A,5,3,dailydip+tfdip+trend,254.2,252.1,226.9,285.0,59,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -11%; 52w +90% (f43/f58),,90
+ANTELOPUS,A,5,3,dailydip+pullback+tfdip,883.1,883.1,794.8,1044.5,16,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","uptrend में 2-3 दिन गिरावट, RSI2 1 (f52); 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -15%",,53
+KINGFA,B,5,2,momentum+tfdip,6789.5,6346.8,5712.1,6680.7,2,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",सबसे मज़बूत RS + 52w high पास (f62); 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,48
+ROLEXRINGS,A,4,3,breakout+momentum+trend,205.67,205.7,189.2,,72,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); breakaway gap (f52); 52w +67% (f43/f58),,67
+TDPOWERSYS,A,4,3,dailydip+tfdip+trend,669.2,638.7,574.8,727.9,23,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -8%; 52w +64% (f43/f58); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,64
+UNIVCABLES,A,4,3,dailydip+tfdip+trend,1175.1,1144.5,1030.0,1380.9,13,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -15%; 52w +62% (f43/f58); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,62
+AEROFLEX,A,4,2,tfdip+trend,540.3,496.4,446.8,528.9,30,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +185% (f43/f58),,185
+RPTECH,A,4,2,tfdip+trend,867.05,776.7,699.0,845.5,19,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +163% (f43/f58),,163
+BODALCHEM,B,4,2,tfdip+trend,161.81,155.6,140.0,166.7,96,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +161% (f43/f58),,161
+WELCORP,A,4,2,tfdip+trend,2385.6,2253.5,2028.2,2506.8,6,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +150% (f43/f58),,150
+SETL,A,4,2,tfdip+trend,396.75,378.5,340.7,399.8,39,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +118% (f43/f58),,118
+VINDHYATEL,A,4,2,tfdip+trend,2641.2,2505.8,2255.2,2739.3,5,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +90% (f43/f58),,90
+HAPPYFORGE,A,4,2,tfdip+trend,1882.7,1708.6,1537.7,1841.9,8,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +86% (f43/f58),,86
+MARINE,A,4,2,tfdip+trend,442.45,393.8,354.4,430.7,38,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +84% (f43/f58),,84
+APARINDS,A,4,2,tfdip+trend,15613.0,14673.6,13206.2,16123.4,1,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +83% (f43/f58),,83
+WSTCSTPAPR,A,4,2,tfdip+trend,831.65,776.3,698.7,815.7,19,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +83% (f43/f58),,83
+AVALON,A,4,2,tfdip+trend,2100.0,1931.8,1738.6,2097.5,7,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +77% (f43/f58),,77
+PANAMAPET,A,4,2,tfdip+trend,446.2,439.4,395.5,476.1,34,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +64% (f43/f58),,64
+DIVGIITTS,A,4,2,pullback+tfdip,912.4,891.8,802.6,953.0,16,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","uptrend में 2-3 दिन गिरावट, RSI2 9 (f52); 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56)",,46
+RAIN,A,4,2,dailydip+tfdip,188.32,181.8,163.6,208.1,82,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -9%,,36
+INDSWFTLAB,A,3,2,tfdip+trend,356.75,348.9,314.0,365.0,42,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); 52w +249% (f43/f58); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,249
+GCSL,A,3,2,momentum+trend,782.75,782.8,720.1,,19,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +233% (f43/f58),,233
+MENONBE,B,3,2,momentum+trend,348.8,348.8,320.9,,43,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +198% (f43/f58),,198
+SPECTRUM,B,3,2,momentum+trend,4246.7,4246.7,3907.0,,3,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +188% (f43/f58),,188
+SBC,A,3,2,momentum+trend,66.79,66.8,61.4,,224,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +178% (f43/f58),,178
+MACPOWER,A,3,2,momentum+trend,2291.6,2291.6,2108.3,,6,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +178% (f43/f58),,178
+SGMART,A,3,2,tfdip+trend,898.05,857.8,772.0,887.7,17,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 52w +168% (f43/f58),,168
+WHEELS,A,3,2,momentum+trend,2404.4,2404.4,2212.0,,6,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +162% (f43/f58),,162
+KRISHANA,A,3,2,momentum+trend,245.47,245.5,225.8,,61,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +144% (f43/f58),,144
+RATNAVEER,A,3,2,momentum+trend,373.15,373.1,343.3,,40,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +142% (f43/f58),,142
+SSWL,A,3,2,momentum+trend,531.35,531.4,488.8,,28,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +131% (f43/f58),,131
+TFCILTD,A,3,2,momentum+trend,161.25,161.2,148.3,,93,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +131% (f43/f58),,131
+BLUSPRING,A,3,2,momentum+trend,166.01,166.0,152.7,,90,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +112% (f43/f58),,112
+AVADHSUGAR,B,3,2,tfdip+trend,878.55,828.0,745.2,900.6,18,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 52w +105% (f43/f58),,105
+RAYMOND,A,3,2,tfdip+trend,1130.7,1081.6,973.4,1136.1,13,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 52w +97% (f43/f58),,97
+LUMAXTECH,A,3,2,momentum+trend,2255.8,2255.8,2075.3,,6,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +95% (f43/f58),,95
+WELSPUNLIV,A,3,2,momentum+trend,253.33,253.3,233.1,,59,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +93% (f43/f58),,93
+SMSPHARMA,A,3,2,momentum+trend,516.7,516.7,475.4,,29,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +83% (f43/f58),,83
+UNIMECH,A,3,2,momentum+trend,1806.9,1806.9,1662.3,,8,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +78% (f43/f58),,78
+INOXINDIA,A,3,2,tfdip+trend,1996.4,1871.2,1684.1,1959.0,8,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 52w +67% (f43/f58),,67
+KROSS,A,3,2,momentum+trend,294.45,294.4,270.9,,50,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62); 52w +63% (f43/f58),,63
+AZAD,A,3,1,tfdip,2582.9,2443.2,2198.9,2664.2,6,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,56
+ACMESOLAR,A,3,1,tfdip,407.9,395.1,355.6,412.4,37,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,50
+AEROENTER,A,3,1,tfdip,130.06,119.9,107.9,126.0,125,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,50
+FINCABLES,A,3,1,tfdip,1174.3,1097.1,987.4,1251.7,13,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,47
+REDINGTON,A,3,1,tfdip,356.4,328.1,295.3,366.8,45,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,41
+JNKINDIA,A,3,1,tfdip,395.5,371.1,334.0,402.4,40,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,37
+VADILALIND,A,3,1,tfdip,7123.5,7076.8,6369.1,7372.9,2,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,34
+SANGAMIND,B,3,1,tfdip,592.3,584.5,526.1,607.7,25,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,34
+SCHNEIDER,A,3,1,tfdip,1135.8,1064.1,957.7,1150.8,14,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,32
+RATEGAIN,A,3,1,tfdip,819.45,753.3,678.0,815.7,19,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,21
+AXISCADES,A,3,1,tfdip,1887.9,1783.3,1605.0,1985.6,8,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,20
+CARBORUNIV,A,3,1,tfdip,1084.6,1043.8,939.4,1110.4,14,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,19
+ICICIBANK,A,3,1,breakout,1500.0,1500.0,1380.0,,10,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)","नया ~2 साल high, 6 महीने बाद (f43); breakaway gap (f52)",,11
+SUPRIYA,A,3,1,tfdip,869.6,781.9,703.7,856.3,19,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,11
+IKS,A,3,1,tfdip,1757.2,1655.7,1490.1,1725.0,9,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,7
+MARKOLINES,B,3,1,tfdip,172.32,167.8,151.0,174.6,89,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,6
+EMIL,A,3,1,tfdip,156.14,146.8,132.1,168.6,102,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,5
+UTLSOLAR,A,3,1,tfdip,387.5,352.8,317.5,383.1,42,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,0
+GKSL,A,3,1,tfdip,158.21,156.2,140.6,176.7,96,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,0
+GARFIBRES,B,3,1,tfdip,731.2,717.1,645.4,753.2,20,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,-4
+ADVANCE,B,3,1,tfdip,125.25,120.5,108.4,136.7,124,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56),,-9
+LAURUSLABS,A,2,2,quality+trend,2346.0,2346.0,2158.3,,6,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48); 52w +141% (f43/f58),,141
+TMB,A,2,2,quality+trend,822.55,822.5,756.7,,18,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48); 52w +65% (f43/f58),,65
+CONFIPET,A,2,2,dailydip+tfdip,63.52,60.7,54.6,73.0,247,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); daily 20 DMA से -13%; ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,53
+NRBBEARING,A,2,1,tfdip,442.95,434.5,391.0,476.0,34,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,58
+THELEELA,A,2,1,momentum,689.75,689.8,634.6,,21,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62),,58
+CHENNPETRO,A,2,1,tfdip,1418.5,1418.5,1276.7,1516.6,10,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,49
+SAMBHV,A,2,1,momentum,168.47,168.5,155.0,,89,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62),,48
+DATAPATTNS,A,2,1,tfdip,3959.9,3777.3,3399.6,3992.3,3,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56),,44
+NELCAST,B,2,1,momentum,166.1,166.1,152.8,,90,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62),,44
+OPTIEMUS,A,2,1,tfdip,831.0,750.1,675.1,794.0,19,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56),,42
+ORIENTHOT,A,2,1,momentum,172.71,172.7,158.9,,86,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62),,40
+EIMCOELECO,B,2,1,momentum,2517.1,2517.1,2315.7,,5,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62),,40
+TCPLPACK,B,2,1,momentum,4558.6,4558.6,4193.9,,3,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62),,37
+GESHIP,A,2,1,tfdip,1460.0,1460.0,1314.0,1547.0,10,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,35
+SHRINGARMS,A,2,1,momentum,312.05,312.1,287.1,,48,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62),,34
+PVRINOX,A,2,1,momentum,1581.4,1581.4,1454.9,,9,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62),,31
+VALIANTORG,B,2,1,tfdip,369.35,369.4,332.5,439.9,40,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,21
+TASTYBITE,B,2,1,tfdip,10726.5,9933.8,8940.4,10224.5,1,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56),,20
+ADFFOODS,B,2,1,tfdip,263.95,244.1,219.7,260.4,61,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56),,19
+SHANTIGOLD,A,2,1,tfdip,277.0,272.2,245.0,352.6,55,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,13
+ETERNAL,A,2,1,breakout,358.3,358.3,329.6,,41,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)","नया ~2 साल high, 6 महीने बाद (f43)",,11
+HNDFDS,B,2,1,tfdip,581.0,551.4,496.3,563.7,27,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56),,9
+AARTIPHARM,A,2,1,momentum,928.3,928.3,854.0,,16,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62),,8
+MANAKCOAT,B,2,1,momentum,154.83,154.8,142.4,,96,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",सबसे मज़बूत RS + 52w high पास (f62),,-5
+TNPETRO,B,2,1,tfdip,116.67,112.8,101.5,117.9,132,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56),,-6
+GMMPFAUDLR,A,2,1,tfdip,1194.2,1166.0,1049.4,1279.4,12,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,-8
+CRISIL,A,2,1,tfdip,4428.5,4403.6,3963.2,4556.0,3,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56),,-9
+MANYAVAR,A,2,1,tfdip,505.7,474.0,426.6,496.2,31,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",4H अपने MA से बहुत नीचे (f56),,-21
+ELLEN,A,2,1,tfdip,312.8,293.0,263.7,327.8,51,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,-33
+SYRMA,A,1,2,tfdip+trend,1515.0,1469.8,1322.8,1583.4,10,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","1H अपने MA से बहुत नीचे (f56); 52w +92% (f43/f58); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,92
+CUPID,A,1,1,trend,341.25,341.2,313.9,,43,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +598% (f43/f58),,598
+BLISSGVS,A,1,1,trend,632.45,632.5,581.9,,23,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +307% (f43/f58),,307
+TBZ,A,1,1,trend,607.15,607.1,558.6,,24,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +234% (f43/f58),,234
+VENUSREM,A,1,1,trend,1449.9,1449.9,1333.9,,10,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +227% (f43/f58),,227
+SHREEJISPG,A,1,1,trend,863.85,863.9,794.7,,17,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +217% (f43/f58),,217
+CPPLUS,A,1,1,trend,4170.5,4170.5,3836.9,,3,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +215% (f43/f58),,215
+KABRAEXTRU,A,1,1,trend,736.5,736.5,677.6,,20,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +198% (f43/f58),,198
+SANSERA,A,1,1,trend,4431.8,4431.8,4077.3,,3,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +184% (f43/f58),,184
+SAKAR,A,1,1,trend,1015.9,1015.9,934.6,,14,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +173% (f43/f58),,173
+RUBICON,A,1,1,trend,1740.6,1740.6,1601.4,,8,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +166% (f43/f58),,166
+SKYGOLD,A,1,1,trend,949.05,949.0,873.1,,15,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +165% (f43/f58),,165
+ATHERENERG,A,1,1,trend,1778.6,1778.6,1636.3,,8,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +157% (f43/f58),,157
+DIACABS,A,1,1,trend,388.45,388.4,357.4,,38,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +152% (f43/f58),,152
+SHILPAMED,A,1,1,trend,921.8,921.8,848.1,,16,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +151% (f43/f58),,151
+MBAPL,A,1,1,trend,194.24,194.2,178.7,,77,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +138% (f43/f58),,138
+DEEDEV,A,1,1,trend,603.05,603.0,554.8,,24,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +133% (f43/f58),,133
+KMEW,A,1,1,trend,3143.3,3143.3,2891.8,,4,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +133% (f43/f58),,133
+GRWRHITECH,A,1,1,trend,7630.5,7630.5,7020.1,,1,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +121% (f43/f58),,121
+ROSSTECH,A,1,1,trend,1421.6,1421.6,1307.9,,10,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +121% (f43/f58),,121
+PREMIERPOL,B,1,1,trend,93.37,93.4,85.9,,160,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +117% (f43/f58),,117
+ACUTAAS,A,1,1,trend,3770.8,3770.8,3469.1,,3,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +108% (f43/f58),,108
+AHCL,A,1,1,trend,27.99,28.0,25.8,,535,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +107% (f43/f58),,107
+SBCL,A,1,1,trend,998.1,998.1,918.3,,15,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +106% (f43/f58),,106
+PAISALO,A,1,1,trend,76.66,76.7,70.5,,195,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +104% (f43/f58),,104
+AETHER,A,1,1,trend,1552.3,1552.3,1428.1,,9,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +104% (f43/f58),,104
+PGIL,A,1,1,trend,1338.8,1338.8,1231.7,,11,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +103% (f43/f58),,103
+OMAXAUTO,B,1,1,trend,199.5,199.5,183.5,,75,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +102% (f43/f58),,102
+RPEL,A,1,1,trend,1764.1,1764.1,1623.0,,8,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +101% (f43/f58),,101
+YASHO,A,1,1,trend,3360.4,3360.4,3091.6,,4,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +101% (f43/f58),,101
+NITINSPIN,A,1,1,trend,663.1,663.1,610.1,,22,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +101% (f43/f58),,101
+IOLCP,A,1,1,trend,189.08,189.1,174.0,,79,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +100% (f43/f58),,100
+MANINDS,A,1,1,trend,796.0,796.0,732.3,,18,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +99% (f43/f58),,99
+SPORTKING,A,1,1,trend,197.12,197.1,181.4,,76,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +99% (f43/f58),,99
+CNL,B,1,1,trend,1388.3,1388.3,1277.2,,10,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +98% (f43/f58),,98
+SONACOMS,A,1,1,trend,915.25,915.2,842.0,,16,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +90% (f43/f58),,90
+PRECWIRE,A,1,1,trend,422.5,422.5,388.7,,35,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +88% (f43/f58),,88
+SWARAJ,B,1,1,trend,365.5,365.5,336.3,,41,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +87% (f43/f58),,87
+NGLFINE,B,1,1,trend,2860.2,2860.2,2631.4,,5,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +86% (f43/f58),,86
+SGFIN,A,1,1,trend,701.65,701.6,645.5,,21,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +83% (f43/f58),,83
+KTKBANK,A,1,1,trend,323.65,323.6,297.8,,46,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +82% (f43/f58),,82
+KAPSTON,B,1,1,trend,529.1,529.1,486.8,,28,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +82% (f43/f58),,82
+PARAS,A,1,1,trend,1264.5,1264.5,1163.3,,11,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +81% (f43/f58),,81
+IRISDOREME,B,1,1,trend,59.32,59.3,54.6,,252,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +80% (f43/f58),,80
+MAWANASUG,B,1,1,trend,155.2,155.2,142.8,,96,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +78% (f43/f58),,78
+MCX,A,1,1,trend,3366.0,3366.0,3096.7,,4,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +77% (f43/f58),,77
+CYIENTDLM,A,1,1,trend,813.75,813.8,748.6,,18,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +77% (f43/f58),,77
+BHAGERIA,B,1,1,trend,369.7,369.7,340.1,,40,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +76% (f43/f58),,76
+ICIL,A,1,1,trend,501.1,501.1,461.0,,29,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +74% (f43/f58),,74
+MWL,B,1,1,trend,38.87,38.9,35.8,,385,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +74% (f43/f58),,74
+SAILIFE,A,1,1,trend,1594.5,1594.5,1466.9,,9,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +73% (f43/f58),,73
+GNA,A,1,1,trend,556.45,556.5,511.9,,26,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +73% (f43/f58),,73
+ARFIN,A,1,1,trend,95.32,95.3,87.7,,157,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +73% (f43/f58),,73
+HONASA,A,1,1,trend,481.75,481.8,443.2,,31,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +73% (f43/f58),,73
+STEELCAS,B,1,1,trend,367.55,367.6,338.1,,40,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +73% (f43/f58),,73
+SOTL,A,1,1,trend,669.25,669.2,615.7,,22,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +71% (f43/f58),,71
+RAMRAT,A,1,1,trend,526.15,526.1,484.1,,28,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +70% (f43/f58),,70
+DBOL,B,1,1,trend,135.83,135.8,125.0,,110,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +70% (f43/f58),,70
+APOLLOPIPE,A,1,1,trend,517.2,517.2,475.8,,29,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +69% (f43/f58),,69
+EMCURE,A,1,1,trend,2245.0,2245.0,2065.4,,6,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +69% (f43/f58),,69
+SATIN,A,1,1,trend,261.04,261.0,240.2,,57,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +69% (f43/f58),,69
+MMFL,B,1,1,trend,524.7,524.7,482.7,,28,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +68% (f43/f58),,68
+INDOBORAX,B,1,1,trend,436.1,436.1,401.2,,34,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +68% (f43/f58),,68
+CENTUM,A,1,1,trend,4105.5,4105.5,3777.1,,3,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +67% (f43/f58),,67
+FCL,A,1,1,trend,53.56,53.6,49.3,,279,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +67% (f43/f58),,67
+MARKSANS,A,1,1,trend,313.75,313.8,288.7,,47,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +65% (f43/f58),,65
+NEOGEN,A,1,1,trend,2408.0,2408.0,2215.4,,6,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +64% (f43/f58),,64
+GHCLTEXTIL,A,1,1,trend,130.62,130.6,120.2,,114,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +64% (f43/f58),,64
+ALIVUS,A,1,1,trend,1497.2,1497.2,1377.4,,10,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +63% (f43/f58),,63
+RISHABH,A,1,1,trend,651.95,652.0,599.8,,23,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +62% (f43/f58),,62
+SHRIPISTON,A,1,1,trend,4302.3,4302.3,3958.1,,3,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +61% (f43/f58),,61
+DYNAMATECH,A,1,1,trend,12929.0,12929.0,11894.7,,1,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +61% (f43/f58),,61
+COMSYN,B,1,1,trend,247.18,247.2,227.4,,60,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",52w +60% (f43/f58),,60
+NAVINFLUOR,A,1,1,quality,8845.0,8845.0,8137.4,,1,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,50
+ADANIENSOL,A,1,1,breakout,1446.7,1446.7,1331.0,,10,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,45
+TIPSMUSIC,A,1,1,pullback,763.5,763.5,687.1,735.1,19,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","uptrend में 2-3 दिन गिरावट, RSI2 8 (f52)",,45
+KARURVYSYA,A,1,1,quality,360.5,360.5,331.7,,41,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,43
+FEDERALBNK,A,1,1,quality,338.5,338.5,311.4,,44,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,42
+NYKAA,A,1,1,quality,350.3,350.3,322.3,,42,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,40
+APCOTEXIND,A,1,1,dailydip,489.8,489.8,440.8,538.4,30,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",daily 20 DMA से -9%,,39
+GRANULES,A,1,1,pullback,794.45,794.5,715.1,814.8,18,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","uptrend में 2-3 दिन गिरावट, RSI2 5 (f52)",,38
+PRICOLLTD,A,1,1,breakout,727.9,727.9,669.7,,20,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,35
+VOLTAMP,A,1,1,tfdip,9939.0,9738.4,8764.6,10219.0,1,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन",1H अपने MA से बहुत नीचे (f56),,33
+TORNTPHARM,A,1,1,quality,4710.0,4710.0,4333.2,,3,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,30
+ADANIGREEN,A,1,1,breakout,1414.9,1414.9,1301.7,,10,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,28
+TVSMOTOR,A,1,1,quality,4450.0,4450.0,4094.0,,3,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,27
+UNIONBANK,A,1,1,quality,188.0,188.0,173.0,,79,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,25
+DCBBANK,A,1,1,quality,198.58,198.6,182.7,,75,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,25
+CUB,A,1,1,quality,218.6,218.6,201.1,,68,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,23
+SASKEN,A,1,1,tfdip,1685.0,1647.5,1482.8,1762.5,9,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,23
+MANAPPURAM,A,1,1,quality,326.0,326.0,299.9,,46,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,22
+PHOENIXLTD,A,1,1,breakout,2126.0,2126.0,1955.9,,7,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,22
+ASHOKLEY,A,1,1,breakout,170.21,170.2,156.6,,88,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,22
+INDHOTEL,A,1,1,breakout,875.0,875.0,805.0,,17,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,17
+RBLBANK,A,1,1,quality,372.4,372.4,342.6,,40,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,13
+SKMEGGPROD,A,1,1,breakout,238.79,238.8,219.7,,62,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,12
+EICHERMOT,A,1,1,quality,7713.0,7713.0,7096.0,,1,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",steady riser (f48),,10
+UNOMINDA,A,1,1,breakout,1335.0,1335.0,1228.2,,11,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,6
+GMRAIRPORT,A,1,1,breakout,99.3,99.3,91.4,,151,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,6
+PIDILITIND,A,1,1,breakout,1553.6,1553.6,1429.3,,9,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,6
+RPGLIFE,B,1,1,tfdip,2595.7,2575.7,2318.1,2753.7,5,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,6
+PDSL,B,1,1,breakout,402.1,402.1,369.9,,37,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,6
+BALKRISIND,A,1,1,breakout,2401.9,2401.9,2209.7,,6,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,5
+ULTRACEMCO,A,1,1,breakout,12250.0,12250.0,11270.0,,1,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,3
+BAJFINANCE,A,1,1,breakout,1070.0,1070.0,984.4,,14,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,3
+CHOLAFIN,A,1,1,breakout,1760.0,1760.0,1619.2,,8,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,2
+PRINCEPIPE,B,1,1,breakout,318.25,318.2,292.8,,47,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,-2
+DLF,A,1,1,breakout,745.2,745.2,685.6,,20,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,-4
+BERGEPAINT,A,1,1,breakout,505.0,505.0,464.6,,29,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,-6
+PRESTIGE,A,1,1,breakout,1643.0,1643.0,1511.6,,9,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,-8
+BEML,A,1,1,tfdip,1990.9,1952.2,1757.0,2036.0,7,"dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन","4H अपने MA से बहुत नीचे (f56); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)",,-9
+HYUNDAI,A,1,1,breakout,2121.0,2121.0,1951.3,,7,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,-13
+BANCOINDIA,A,1,1,breakout,618.8,618.8,569.3,,24,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,-16
+HARIOMPIPE,B,1,1,breakout,376.5,376.5,346.4,,39,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,-16
+KANSAINER,B,1,1,breakout,204.24,204.2,187.9,,73,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,-18
+GODREJPROP,A,1,1,breakout,1815.0,1815.0,1669.8,,8,"तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)",breakaway gap (f52),,-21

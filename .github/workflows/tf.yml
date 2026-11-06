@@ -12,6 +12,10 @@ jobs:
       - run: pip install yfinance pandas numpy
       - run: python scripts/tf_scan.py
       - run: python scripts/daily_checklist.py
+      - run: pip install requests && python scripts/decision.py
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT: ${{ secrets.TELEGRAM_CHAT }}
       - run: |
           git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
-          git add data/tf_scan.csv data/tf_zone.csv data/checklist.md; git commit -m "tf $(date -u +%Y-%m-%d_%H%M)" || true; git pull --rebase || true; git push
+          git add data/tf_scan.csv data/tf_zone.csv data/checklist.md data/decision.md data/decision.csv; git commit -m "tf $(date -u +%Y-%m-%d_%H%M)" || true; git pull --rebase || true; git push

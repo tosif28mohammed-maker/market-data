@@ -106,3 +106,16 @@ cand['rule'] = np.where(cand.yield_pct >= 4, 'f64 strong (4%+)', 'f64 (2-4%)')
 cand[cols + ['stop', 'rule']].to_csv(os.path.join(D, 'div_candidates.csv'), index=False)
 print('dividends ahead', len(div), 'candidates', len(cand))
 print(cand[['symbol', 'div_rs', 'yield_pct', 'ex_date', 'buy_from', 'sell_on_cum']].to_string())
+
+
+# ---- board meetings (results dates) next 10 days: no new buy before results (d05 rule) ----
+try:
+    s2 = requests.Session(); s2.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36',
+                                                'Referer': 'https://www.nseindia.com/companies-listing/corporate-filings-board-meetings'})
+    s2.get('https://www.nseindia.com', timeout=20); time.sleep(1)
+    f = today.strftime('%d-%m-%Y'); t = (today + dt.timedelta(days=14)).strftime('%d-%m-%Y')
+    j = s2.get(f'https://www.nseindia.com/api/corporate-board-meetings?index=equities&from_date={f}&to_date={t}', timeout=40).json()
+    bm = pd.DataFrame([dict(symbol=x.get('bm_symbol'), date=x.get('bm_date'), purpose=x.get('bm_purpose')) for x in (j if isinstance(j, list) else [])])
+    bm.to_csv(os.path.join(D, 'board_meetings.csv'), index=False); print('board meetings', len(bm))
+except Exception as e:
+    print('board meetings failed', e)

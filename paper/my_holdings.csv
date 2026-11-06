@@ -1,0 +1,3 @@
+symbol,qty,avg,stop,target,buy_date,bucket,note
+COALINDIA,50,393.70,373,405,2026-10-28,dip,ex-div 4 Nov done; 200 DMA ke neeche - nayi kharid nahi
+MINDACORP,10,632.49,655,735,2026-10-20,dip,target paar; trailing stop 655
