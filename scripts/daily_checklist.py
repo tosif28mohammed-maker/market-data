@@ -127,6 +127,38 @@ w('- **Steady risers (f48, लंबा core)** — ' + ', '.join(f'{s} ({(c[s].
 t60 = r250[(r250 >= 0.6) & up200].sort_values(ascending=False)
 w(f'- 52w trend 60%+ वाले {len(t60)} शेयर (अगले 6-12 महीने बाज़ार से +3..5%, f43/f58) — ऊपर की सूचियों को इनसे मिलाओ')
 
+# ---------- 3b. short timeframes (f56: 4H/1H dip below own MA zone) ----------
+zf = os.path.join(R, 'data', 'tf_zone.csv')
+w('\n## 3b. छोटे timeframe (1H / 2H / 3H / 4H) — अपने MA से बहुत नीचे = खरीद ज़ोन (f56)')
+if os.path.exists(zf):
+    Z = pd.read_csv(zf)
+    Z = Z[Z.ret52 >= 0]
+    inz = Z[Z.in_zone]
+    agg = inz.groupby('symbol').agg(tfs=('tf', lambda x: '+'.join(sorted(set(x)))), n=('tf', 'nunique'), close=('close', 'first'),
+                                    target=('ma_val', 'max'), ret52=('ret52', 'first')).sort_values(['n', 'ret52'], ascending=False)
+    w(f'- अभी ज़ोन में (200 DMA ऊपर, 52w ≥0): {len(agg)} शेयर. सबसे ज़्यादा timeframe एक साथ:')
+    for s, r in agg.head(12).iterrows():
+        w(f'  - {s}: {r.tfs} | भाव {r.close} | बेच (MA) ~{r.target} | 52w {r.ret52:+.0f}%')
+    near = Z[~Z.in_zone & Z.status.ne('जाँच बाकी')].sort_values('gap_to_zone', ascending=False).drop_duplicates('symbol').head(10)
+    w('- ज़ोन के पास (2% के अंदर) — यहाँ LIMIT BUY लगा सकते हो: ' + '; '.join(f'{r.symbol} {r.tf} {r.ma} @{r.zone_price}' for r in near.itertuples()))
+    w('- नियम: 4H SMA20 और 1H EMA50 पक्के (2021-26 + Nov23 दोनों में); 2H/3H अभी जाँच बाकी. बेच = उस MA पर, या 20 कारोबारी दिन; stop -8%. MA को ऊपर पार करना (cross) = फेल, उस पर नहीं खरीदना.')
+else:
+    w('- tf_zone.csv अभी नहीं बना')
+
+# ---------- 3c. options / futures (safe zone only) ----------
+w('\n## 3c. Option / Future — सिर्फ़ सुरक्षित (defined-risk)')
+dte = len([d for d in pd.bdate_range(T, exp_this) if td(d.date())])
+sig = n * v / 100 * np.sqrt(max(dte, 1) / 252)
+ok_ic = 12 <= v <= 20 and 8 <= dte <= 25 and n10 < 5 and br < 20
+w(f'- अगली monthly expiry {exp_this:%d %b} ({dte} कारोबारी दिन). VIX {v:.1f} से 1.5σ दायरा ±{1.5 * sig:,.0f} अंक (91% बार अंदर, f30)')
+if ok_ic:
+    lo_, hi_ = int((n - 1.5 * sig) // 50 * 50), int(-(-(n + 1.5 * sig) // 50) * 50)
+    w(f'- 🟢 Iron condor (paper/सीखने के लिए): SELL {lo_} PE + SELL {hi_} CE, BUY {lo_ - 200} PE + BUY {hi_ + 200} CE (1 lot). बाहर: 50% मुनाफ़ा या नुकसान = 2× credit, और expiry से 5 दिन पहले हर हाल में बंद')
+else:
+    why = 'तेज़ी का धक्का (एक तरफ़ा चाल का जोखिम)' if n10 >= 5 else 'breadth घबराहट' if br >= 20 else f'VIX {v:.1f} दायरे (12-20) से बाहर' if not 12 <= v <= 20 else f'expiry {dte} दिन (8-25 चाहिए)'
+    w(f'- 🔴 आज iron condor नहीं — {why}')
+w('- नहीं करना: naked option बेचना, option खरीदना (study फेल), future (आपकी पूँजी के हिसाब से margin/जोखिम बड़ा). Paper में अब तक: naked strangle -₹10.5k, iron condor -₹7.1k (1-1 सौदा) — असली पैसा 10+ paper सौदों के बाद ही')
+
 # ---------- 4. dip bucket ----------
 s20 = c.rolling(20).mean().iloc[-1]; dist = (c.iloc[-1] / s20 - 1) * 100
 dips = dist[(dist <= -8) & up200 & (r250 > 0.3)].sort_values()

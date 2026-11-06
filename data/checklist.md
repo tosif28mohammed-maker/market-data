@@ -18,6 +18,14 @@
 - **Steady risers (f48, लंबा core)** — TVSMOTOR (+9% 20DMA से), EICHERMOT (+7% 20DMA से), LAURUSLABS (+10% 20DMA से), UNIONBANK (+5% 20DMA से), FEDERALBNK (+0% 20DMA से), TORNTPHARM (+2% 20DMA से), RBLBANK (+1% 20DMA से), NYKAA (+3% 20DMA से), AUBANK (+1% 20DMA से), MANAPPURAM (+6% 20DMA से), NAVINFLUOR (+6% 20DMA से), KARURVYSYA (+4% 20DMA से), CUB (-1% 20DMA से), DCBBANK (-1% 20DMA से), TMB (-1% 20DMA से)
 - 52w trend 60%+ वाले 116 शेयर (अगले 6-12 महीने बाज़ार से +3..5%, f43/f58) — ऊपर की सूचियों को इनसे मिलाओ
 
+## 3b. छोटे timeframe (1H / 2H / 3H / 4H) — अपने MA से बहुत नीचे = खरीद ज़ोन (f56)
+- tf_zone.csv अभी नहीं बना
+
+## 3c. Option / Future — सिर्फ़ सुरक्षित (defined-risk)
+- अगली monthly expiry 23 Nov (11 कारोबारी दिन). VIX 15.6 से 1.5σ दायरा ±1,198 अंक (91% बार अंदर, f30)
+- 🔴 आज iron condor नहीं — तेज़ी का धक्का (एक तरफ़ा चाल का जोखिम)
+- नहीं करना: naked option बेचना, option खरीदना (study फेल), future (आपकी पूँजी के हिसाब से margin/जोखिम बड़ा). Paper में अब तक: naked strangle -₹10.5k, iron condor -₹7.1k (1-1 सौदा) — असली पैसा 10+ paper सौदों के बाद ही
+
 ## 4. Dip वाले (20 DMA से 8%+ नीचे, पर लंबा uptrend; f41/f58)
 - MOREPENLAB (-19%), UFBL (-18%), ANTELOPUS (-15%), UNIVCABLES (-15%), CONFIPET (-13%), GANDHAR (-11%), HFCL (-10%), RAIN (-9%), APCOTEXIND (-9%), MMP (-8%), TDPOWERSYS (-8%) — breadth <20%: छोटा size
 
