@@ -1,0 +1,73 @@
+name: world
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  idx:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests pandas
+      - run: python scripts/fetch_indices.py
+      - run: |
+          git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/indices; git commit -m "indices history" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && break; sleep 10; done
+  nse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 12
+      matrix:
+        job: [mto-2008, mto-2009, mto-2010, mto-2011, mto-2012, mto-2013, mto-2014, mto-2015, mto-2016, mto-2017, mto-2018, mto-2019, mto-2020, mto-2021, mto-2022, mto-2023, mto-2024, mto-2025, mto-2026,
+              fo-2010, fo-2011, fo-2012, fo-2013, fo-2014, fo-2015, fo-2016, fo-2017, fo-2018, fo-2019, fo-2020, fo-2021, fo-2022, fo-2023, fo-2024, fo-2025, fo-2026]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests pandas
+      - run: |
+          K=${{ matrix.job }}; python scripts/fetch_nse_hist.py ${K%-*} ${K#*-}
+      - uses: actions/upload-artifact@v4
+        with: { name: "nse-${{ matrix.job }}", path: nse_hist, if-no-files-found: warn, retention-days: 30 }
+  store:
+    needs: nse
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { pattern: "nse-*", path: nse_hist, merge-multiple: true }
+      - run: |
+          ls -R nse_hist | head -60; du -sh nse_hist
+          git init -q s && cd s && git checkout -q --orphan nse_hist && cp -r ../nse_hist/* . && git add . 
+          git -c user.name="market-data-bot" -c user.email="actions@users.noreply.github.com" commit -qm "NSE delivery + F&O history"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" nse_hist
+  study:
+    needs: [idx, store]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix: { part: [pe, delivery, oi, factor, dualmom, volsize, benner_world, benner_india, global] }
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - run: git pull -q origin main
+      - uses: actions/checkout@v4
+        with: { ref: universe500, path: u500, sparse-checkout: "u1000\nu2000" }
+      - if: matrix.part == 'delivery' || matrix.part == 'oi'
+        uses: actions/download-artifact@v4
+        with: { pattern: "nse-*", path: nse_hist, merge-multiple: true }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install pandas numpy scipy
+      - run: python study/world6.py ${{ matrix.part }}
+        env: { U500: "${{ github.workspace }}/u500", NSE_HIST: "${{ github.workspace }}/nse_hist", NI_CACHE: "/tmp/ni_panel.pkl" }
+      - if: always()
+        run: |
+          git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
+          git add study/results/w6_* || true; git commit -m "world6 ${{ matrix.part }}" || exit 0
+          for i in 1 2 3 4 5 6; do git pull --rebase -X theirs && git push && break; sleep $((RANDOM % 25 + 5)); done
