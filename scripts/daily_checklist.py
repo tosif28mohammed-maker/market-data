@@ -95,6 +95,15 @@ if n10 >= 5: modes.append('🚀 **तेज़ी mode (f62)**: Nifty 10 दि�
 if br >= 20: modes.append(f'🛒 **घबराहट/dip mode (f57/f58)**: breadth {br:.0f}% ≥20% → लंबे uptrend वाले शेयरों के dip खरीदो')
 if v > 25: modes.append('😨 **डर mode (f31)**: VIX>25 → Nifty अगले 20 दिन औसत +4.8% (73% ऊपर) — index/ETF किश्तें')
 if dd3m <= -8: modes.append('📉 Nifty 3 महीने high से -8%+ (f27) → अगले 20 दिन औसत +3.7%')
+nd = (nf.iloc[-1] / nf.iloc[-2] - 1) * 100; n3 = (nf.iloc[-1] / nf.iloc[-4] - 1) * 100
+if nd >= 2 or n3 >= 4: modes.append(f'⚡ **बाज़ार-भर का अच्छा झटका (f71)**: Nifty आज {nd:+.1f}%, 3 दिन {n3:+.1f}% → इतिहास में सब-शेयर टोकरी अगले 5 दिन +2.3..2.9% (2013 से 77-90% बार), 20 दिन +3.8..5.4%; Nifty +0.8..1.3%. आज 2:15-3:25 पर मज़बूत/ETF खरीदो, 5-20 दिन रखो')
+if nd <= -2: modes.append(f'🧯 Nifty आज {nd:+.1f}% (f71): अगले दिनों गिरावट जारी नहीं रहती (2013 से 5 दिन +0.8..1.2%) — घबराकर मत बेचो, put मत खरीदो; अच्छे शेयर धीरे खरीदो')
+try:
+    spx = pd.read_csv(os.path.join(R, 'data', 'global', 'US_SP500.csv'), parse_dates=['date']).set_index('date').close.dropna()
+    sd_ = (spx.iloc[-1] / spx.iloc[-2] - 1) * 100
+    if sd_ <= -2.5: modes.append(f'🇺🇸 S&P500 कल रात {sd_:+.1f}% (f71): India अगला दिन ~-0.5% पर 5 दिन +1.0% (2013 से 79%) → सुबह मत बेचो, दोपहर में खरीदो')
+except Exception:
+    pass
 if not modes: modes.append('😐 शांत mode: न तेज़ी का धक्का, न घबराहट — core लंबा (d06) + Connors/breakout सूची + dividend')
 w('\n'.join(f'- {x}' for x in modes))
 w(f'- Breadth (गहरे dip वाले शेयर) {br:.1f}%; पिछले 5: ' + ', '.join(f'{x * 100:.0f}%' for x in bh.breadth.iloc[-5:]))
@@ -177,6 +186,12 @@ dc = os.path.join(R, 'data', 'corp', 'div_candidates.csv')
 w('\n## 6. Dividend run-up (f64)')
 dcd = pd.read_csv(dc) if os.path.exists(dc) else pd.DataFrame()
 w('- ' + ('; '.join(f"{r.symbol} ₹{r.div_rs} ({r.yield_pct}%), ex {r.ex_date}, खरीद {r.buy_from} से, बेच {r.sell_on_cum}, stop {r.stop}" for r in dcd.itertuples()) if len(dcd) else 'आज कोई नहीं (yield 2%+ वाला dividend नहीं)'))
+
+bu = os.path.join(R, 'data', 'corp', 'bonus_upcoming.csv')
+w('\n## 6b. Bonus / Split (f71)')
+bud = pd.read_csv(bu) if os.path.exists(bu) else pd.DataFrame()
+bud = bud[~bud.liq_D] if len(bud) else bud
+w('- ' + ('; '.join(f"{r.symbol} {r.type} ex {r.ex_date}: खरीद {r.buy_from} से (ex से 10 दिन पहले), बेच {r.sell_on_cum} (cum), stop {r.stop}" for r in bud.itertuples()) if len(bud) else 'आज कोई नहीं') + ' — ex के बाद कभी मत खरीदो (20 दिन में ~-6%)')
 
 # ---------- 7. timing (always) ----------
 w('\n## 7. समय के नियम (हमेशा, f45/f46/f54)')

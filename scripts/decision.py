@@ -41,6 +41,8 @@ bmf = os.path.join(R, 'data', 'corp', 'board_meetings.csv'); BM = pd.read_csv(bm
 BM['d'] = pd.to_datetime(BM.date, errors='coerce', dayfirst=True)
 soon = BM[(BM.d.dt.date >= last) & (BM.d.dt.date <= last + dt.timedelta(days=10))].set_index('symbol').d
 
+bf = os.path.join(R, 'data', 'corp', 'bonus_upcoming.csv'); BU = pd.read_csv(bf) if os.path.exists(bf) else pd.DataFrame(columns=['symbol', 'tdays_to_ex', 'ex_date'])
+BUP = dict(zip(BU[BU.tdays_to_ex.between(2, 10)].symbol, BU[BU.tdays_to_ex.between(2, 10)].ex_date)); BALL = dict(zip(BU.symbol, BU.ex_date))
 rows = []
 for s in AB:
     if pd.isna(c[s].iloc[-1]) or not up200.get(s, False):
@@ -62,6 +64,7 @@ for s in AB:
     if s in STEADY: sc += 1; fam.add('quality'); why.append('steady riser (f48)')
     if r250.get(s, 0) >= 0.6: sc += 1; fam.add('trend'); why.append(f'52w {r250[s] * 100:+.0f}% (f43/f58)')
     if s in set(DV.symbol): sc += 2; fam.add('dividend'); why.append('dividend run-up (f64)')
+    if s in BUP: sc += 2; fam.add('bonus'); why.append(f'bonus/split ex {BUP[s]} से पहले की चढ़ाई (f71)')
     if pd.Timestamp(last).weekday() == 4 and r1.get(s, 0) >= 2: sc += 1; fam.add('friday'); why.append('शुक्रवार 2%+ चढ़ा (f49)')
     if pd.Timestamp(last).weekday() == 4 and r1.get(s, 0) <= -2: sc -= 2; why.append('शुक्रवार 2%+ गिरा — सोमवार तक रुको (f49)')
     if newscrash.get(s, False) and fam & {'tfdip', 'dailydip', 'pullback'}:
@@ -100,6 +103,7 @@ for h in Hd.itertuples():
     else:
         act = f'🟡 HOLD — LIMIT SELL {h.qty} @{h.target} (day order, TPIN), stop {h.stop} close पर'
         if days >= 20: act += f'; {days} दिन हुए — review'
+    if h.symbol in BALL: act += f' | ⚠️ bonus/split ex {BALL[h.symbol]}: ex से पहले (cum दिन) बेचो — बाद में ~-6% (f71)'
     res = soon.get(h.symbol); act += (f' | ⚠️ नतीजे {res:%d %b}' if res is not None and not pd.isna(res) else '')
     hl.append(f'- **{h.symbol}** {h.qty} @{h.avg} → {p:.2f} ({pnl:+.1f}%): {act}')
 

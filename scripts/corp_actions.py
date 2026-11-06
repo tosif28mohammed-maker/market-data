@@ -104,6 +104,16 @@ cand = div[(div.yield_pct >= 2) & (~div.liq_D) & div.tdays_to_ex.between(2, 12)]
 cand['stop'] = (cand.last_close * 0.94).round(2)
 cand['rule'] = np.where(cand.yield_pct >= 4, 'f64 strong (4%+)', 'f64 (2-4%)')
 cand[cols + ['stop', 'rule']].to_csv(os.path.join(D, 'div_candidates.csv'), index=False)
+# bonus / split (f71): run-up before ex (last 10 days median +2.2% vs market), after ex -6% in 20 days
+bs = A[A.subject.fillna('').str.contains('bonus|split|sub-division', case=False) & A.exd.notna()].copy()
+bs = bs[bs.exd > today]
+bs['type'] = np.where(bs.subject.str.contains('bonus', case=False), 'BONUS', 'SPLIT')
+bs['last_close'] = bs.symbol.map(last); bs['liq_D'] = bs.symbol.isin(bad)
+bs['tdays_to_ex'] = bs.exd.apply(lambda d: tdays(today, d))
+bs['buy_from'] = bs.exd.apply(lambda d: shift_td(d, -10)); bs['sell_on_cum'] = bs.exd.apply(lambda d: shift_td(d, -1))
+bs['stop'] = (bs.last_close * 0.93).round(2)
+bs.sort_values('exd')[['symbol', 'company', 'type', 'subject', 'ex_date', 'record_date', 'tdays_to_ex', 'buy_from', 'sell_on_cum', 'last_close', 'stop', 'liq_D']].to_csv(os.path.join(D, 'bonus_upcoming.csv'), index=False)
+print('bonus/split ahead', len(bs))
 print('dividends ahead', len(div), 'candidates', len(cand))
 print(cand[['symbol', 'div_rs', 'yield_pct', 'ex_date', 'buy_from', 'sell_on_cum']].to_string())
 
