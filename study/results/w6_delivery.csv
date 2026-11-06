@@ -1,0 +1,91 @@
+study,h,era,n,dates,excess,excess_med,win_vs_mkt,raw,raw_net,raw_win,t_dates,placebo_excess,vs_placebo
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),5,ALL,27431,4162,0.4,-0.55,45.3,1.43,1.18,50.9,9.29,-0.06,0.46
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),5,2003-12,4465,991,0.03,-0.55,44.8,1.81,1.56,51.9,2.87,-0.1,0.13
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),5,2013-20,10686,1823,0.58,-0.46,46.3,1.52,1.27,50.9,6.64,0.02,0.56
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),5,2021-26,12280,1348,0.39,-0.62,44.7,1.21,0.96,50.5,6.39,-0.11,0.5
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),5,Nov23-now,6842,688,0.13,-0.68,43.8,0.69,0.44,47.7,1.75,-0.17,0.3
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),5,ex-crisis,25293,3822,0.37,-0.57,45.0,1.21,0.96,50.4,8.11,-0.06,0.43
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),20,ALL,27357,4153,0.37,-1.35,44.4,3.22,2.97,53.6,6.22,-0.08,0.45
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),20,2003-12,4472,993,-0.11,-1.02,45.8,3.22,2.97,54.4,1.78,-0.17,0.06
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),20,2013-20,10686,1823,0.5,-1.38,44.4,3.39,3.14,53.8,4.26,0.04,0.46
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),20,2021-26,12199,1337,0.43,-1.42,43.8,3.07,2.82,53.1,4.48,-0.14,0.57
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),20,Nov23-now,6761,677,-0.02,-1.51,43.1,1.92,1.67,50.7,0.82,-0.15,0.13
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),20,ex-crisis,25219,3813,0.35,-1.37,44.1,2.84,2.59,53.0,5.69,-0.08,0.43
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),60,ALL,26973,4113,0.16,-3.07,42.8,7.45,7.2,55.7,3.91,-0.34,0.5
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),60,2003-12,4458,992,-0.39,-1.9,45.2,4.99,4.74,51.3,1.42,-0.58,0.19
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),60,2013-20,10686,1823,0.26,-3.02,43.2,8.2,7.95,56.4,2.99,-0.11,0.37
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),60,2021-26,11829,1298,0.27,-3.58,41.6,7.7,7.45,56.6,2.19,-0.44,0.71
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),60,Nov23-now,6393,638,-0.35,-3.38,41.5,4.43,4.18,51.3,0.53,-0.45,0.1
+ACCUMULATION: up 1.5%+ & delivery high (z>=1.5),60,ex-crisis,24835,3773,0.08,-3.13,42.7,6.48,6.23,55.1,3.0,-0.28,0.36
+DISTRIBUTION: down 1.5%+ & delivery high,5,ALL,43389,4340,-0.04,-0.48,45.2,0.11,-0.14,46.6,-0.19,0.08,-0.12
+DISTRIBUTION: down 1.5%+ & delivery high,5,2003-12,6376,1046,0.13,-0.18,47.9,-0.17,-0.42,45.5,1.08,0.14,-0.01
+DISTRIBUTION: down 1.5%+ & delivery high,5,2013-20,16573,1879,-0.08,-0.5,45.2,-0.04,-0.29,46.3,-0.7,0.07,-0.15
+DISTRIBUTION: down 1.5%+ & delivery high,5,2021-26,20440,1415,-0.05,-0.55,44.4,0.32,0.07,47.1,-0.56,0.07,-0.12
+DISTRIBUTION: down 1.5%+ & delivery high,5,Nov23-now,11971,724,-0.04,-0.52,44.5,0.11,-0.14,45.5,-0.8,0.05,-0.09
+DISTRIBUTION: down 1.5%+ & delivery high,5,ex-crisis,40679,3985,-0.02,-0.48,45.1,0.28,0.03,47.3,0.06,0.08,-0.1
+DISTRIBUTION: down 1.5%+ & delivery high,20,ALL,43140,4325,-0.21,-1.44,43.3,1.35,1.1,50.1,-3.48,0.02,-0.23
+DISTRIBUTION: down 1.5%+ & delivery high,20,2003-12,6360,1046,-0.25,-1.07,45.3,-0.18,-0.43,47.6,-1.31,0.02,-0.27
+DISTRIBUTION: down 1.5%+ & delivery high,20,2013-20,16573,1879,-0.22,-1.35,44.2,1.16,0.91,50.4,-2.23,0.05,-0.27
+DISTRIBUTION: down 1.5%+ & delivery high,20,2021-26,20207,1400,-0.2,-1.62,42.1,1.99,1.74,50.6,-2.56,-0.01,-0.19
+DISTRIBUTION: down 1.5%+ & delivery high,20,Nov23-now,11738,709,-0.25,-1.54,41.9,1.04,0.79,47.2,-2.31,-0.01,-0.24
+DISTRIBUTION: down 1.5%+ & delivery high,20,ex-crisis,40430,3970,-0.19,-1.43,43.3,1.62,1.37,50.5,-3.2,0.01,-0.2
+DISTRIBUTION: down 1.5%+ & delivery high,60,ALL,42432,4285,-0.76,-3.65,40.9,5.12,4.87,52.5,-5.44,-0.28,-0.48
+DISTRIBUTION: down 1.5%+ & delivery high,60,2003-12,6391,1046,-0.89,-2.9,42.6,1.61,1.36,46.6,-2.33,-0.42,-0.47
+DISTRIBUTION: down 1.5%+ & delivery high,60,2013-20,16573,1879,-0.91,-3.59,40.9,4.98,4.73,52.3,-3.82,-0.15,-0.76
+DISTRIBUTION: down 1.5%+ & delivery high,60,2021-26,19468,1360,-0.58,-3.97,40.4,6.4,6.15,54.5,-3.19,-0.35,-0.23
+DISTRIBUTION: down 1.5%+ & delivery high,60,Nov23-now,11003,669,-0.38,-3.56,41.4,3.89,3.64,49.9,-2.57,-0.37,-0.01
+DISTRIBUTION: down 1.5%+ & delivery high,60,ex-crisis,39722,3930,-0.81,-3.69,40.8,4.88,4.63,52.5,-5.87,-0.26,-0.55
+SPECULATIVE UP: up 1.5%+ & delivery low,5,ALL,92476,4569,-0.57,-1.38,38.3,0.11,-0.14,43.3,-21.09,-0.06,-0.51
+SPECULATIVE UP: up 1.5%+ & delivery low,5,2003-12,15002,1173,-0.85,-1.53,37.3,-0.38,-0.63,41.1,-12.45,-0.1,-0.75
+SPECULATIVE UP: up 1.5%+ & delivery low,5,2013-20,35445,1962,-0.67,-1.51,37.8,0.1,-0.15,42.8,-13.15,0.02,-0.69
+SPECULATIVE UP: up 1.5%+ & delivery low,5,2021-26,42029,1434,-0.39,-1.21,39.1,0.3,0.05,44.5,-11.5,-0.11,-0.28
+SPECULATIVE UP: up 1.5%+ & delivery low,5,Nov23-now,23868,734,-0.36,-1.07,39.9,0.14,-0.11,43.7,-8.2,-0.17,-0.19
+SPECULATIVE UP: up 1.5%+ & delivery low,5,ex-crisis,86611,4164,-0.54,-1.35,38.3,0.13,-0.12,43.4,-20.25,-0.06,-0.48
+SPECULATIVE UP: up 1.5%+ & delivery low,20,ALL,91951,4554,-0.8,-2.41,39.7,1.45,1.2,48.3,-15.55,-0.08,-0.72
+SPECULATIVE UP: up 1.5%+ & delivery low,20,2003-12,15031,1173,-1.18,-2.35,40.0,0.76,0.51,46.2,-9.47,-0.17,-1.01
+SPECULATIVE UP: up 1.5%+ & delivery low,20,2013-20,35446,1962,-0.9,-2.45,39.6,1.4,1.15,48.9,-9.07,0.04,-0.94
+SPECULATIVE UP: up 1.5%+ & delivery low,20,2021-26,41474,1419,-0.57,-2.41,39.7,1.74,1.49,48.6,-8.81,-0.14,-0.43
+SPECULATIVE UP: up 1.5%+ & delivery low,20,Nov23-now,23314,719,-0.51,-2.17,40.5,0.95,0.7,46.2,-6.95,-0.15,-0.36
+SPECULATIVE UP: up 1.5%+ & delivery low,20,ex-crisis,86086,4149,-0.76,-2.4,39.6,1.41,1.16,48.3,-14.85,-0.08,-0.68
+SPECULATIVE UP: up 1.5%+ & delivery low,60,ALL,90632,4515,-1.11,-4.38,39.7,5.43,5.18,52.2,-11.75,-0.34,-0.77
+SPECULATIVE UP: up 1.5%+ & delivery low,60,2003-12,15031,1174,-1.57,-3.53,41.4,3.42,3.17,48.8,-7.17,-0.58,-0.99
+SPECULATIVE UP: up 1.5%+ & delivery low,60,2013-20,35446,1962,-1.03,-4.29,40.1,5.73,5.48,53.0,-5.64,-0.11,-0.92
+SPECULATIVE UP: up 1.5%+ & delivery low,60,2021-26,40155,1379,-1.0,-4.79,38.8,5.92,5.67,52.7,-8.39,-0.44,-0.56
+SPECULATIVE UP: up 1.5%+ & delivery low,60,Nov23-now,21998,679,-0.99,-4.22,39.5,3.08,2.83,48.1,-7.18,-0.45,-0.54
+SPECULATIVE UP: up 1.5%+ & delivery low,60,ex-crisis,84767,4110,-1.03,-4.33,39.7,4.98,4.73,51.9,-10.59,-0.28,-0.75
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,5,ALL,7260,3231,0.23,-0.55,45.2,0.95,0.7,48.9,1.09,-0.1,0.33
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,5,2003-12,1844,824,0.2,-0.48,47.1,1.04,0.79,51.0,0.16,-0.11,0.31
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,5,2013-20,3176,1443,0.27,-0.54,45.4,0.91,0.66,47.8,1.39,-0.13,0.4
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,5,2021-26,2240,964,0.21,-0.64,43.4,0.92,0.67,48.8,0.11,-0.06,0.27
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,5,Nov23-now,904,442,0.01,-0.48,43.8,0.26,0.01,45.7,-0.51,-0.08,0.09
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,5,ex-crisis,6807,2995,0.26,-0.54,45.2,0.92,0.67,49.0,1.54,-0.09,0.35
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,20,ALL,7251,3224,0.56,-1.07,45.5,2.8,2.55,53.3,1.73,-0.11,0.67
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,20,2003-12,1844,822,0.48,-0.34,48.3,2.05,1.8,52.4,0.26,-0.18,0.66
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,20,2013-20,3176,1443,0.49,-1.06,45.6,2.62,2.37,53.0,0.69,-0.16,0.65
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,20,2021-26,2231,959,0.74,-1.67,43.1,3.7,3.45,54.5,1.87,-0.05,0.79
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,20,Nov23-now,895,437,0.51,-1.06,45.3,2.31,2.06,50.6,1.1,-0.05,0.56
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,20,ex-crisis,6798,2988,0.66,-1.06,45.5,2.89,2.64,53.6,2.43,-0.09,0.75
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,60,ALL,7201,3200,0.87,-2.28,44.6,7.64,7.39,56.0,1.82,-0.22,1.09
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,60,2003-12,1845,823,1.09,-0.76,48.0,6.04,5.79,53.3,1.23,-0.3,1.39
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,60,2013-20,3176,1443,0.79,-2.29,44.8,7.53,7.28,56.4,1.27,-0.07,0.86
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,60,2021-26,2180,934,0.8,-3.62,41.3,9.15,8.9,57.8,0.68,-0.32,1.12
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,60,Nov23-now,844,412,1.01,-2.57,43.2,5.27,5.02,50.0,1.4,-0.27,1.28
+DELIVERY TREND: 20d avg 8+ pts above 60d & above 50DMA,60,ex-crisis,6748,2964,1.1,-2.21,44.7,7.31,7.06,56.1,2.59,-0.14,1.24
+"QUIET ACCUMULATION: delivery z>=2, price flat",5,ALL,31199,4370,0.11,-0.39,45.7,0.53,0.28,47.8,3.55,0.0,0.11
+"QUIET ACCUMULATION: delivery z>=2, price flat",5,2003-12,3856,1036,0.21,-0.27,47.2,0.6,0.35,49.3,1.89,0.07,0.14
+"QUIET ACCUMULATION: delivery z>=2, price flat",5,2013-20,11262,1911,0.16,-0.33,46.5,0.53,0.28,47.5,3.35,0.01,0.15
+"QUIET ACCUMULATION: delivery z>=2, price flat",5,2021-26,16081,1423,0.04,-0.47,44.8,0.51,0.26,47.8,0.35,-0.02,0.06
+"QUIET ACCUMULATION: delivery z>=2, price flat",5,Nov23-now,9006,728,0.11,-0.35,46.0,0.32,0.07,46.1,0.8,-0.03,0.14
+"QUIET ACCUMULATION: delivery z>=2, price flat",5,ex-crisis,30346,4054,0.09,-0.41,45.5,0.55,0.3,47.9,3.38,0.0,0.09
+"QUIET ACCUMULATION: delivery z>=2, price flat",20,ALL,31061,4354,-0.11,-1.32,43.4,1.72,1.47,51.5,-0.51,-0.09,-0.02
+"QUIET ACCUMULATION: delivery z>=2, price flat",20,2003-12,3854,1036,0.2,-0.65,47.0,1.47,1.22,52.8,0.8,0.01,0.19
+"QUIET ACCUMULATION: delivery z>=2, price flat",20,2013-20,11262,1911,-0.0,-1.15,44.8,1.76,1.51,52.5,-0.18,-0.05,0.05
+"QUIET ACCUMULATION: delivery z>=2, price flat",20,2021-26,15945,1407,-0.26,-1.56,41.7,1.75,1.5,50.5,-2.18,-0.17,-0.09
+"QUIET ACCUMULATION: delivery z>=2, price flat",20,Nov23-now,8870,712,-0.11,-1.39,42.7,0.89,0.64,46.8,-0.86,-0.09,-0.02
+"QUIET ACCUMULATION: delivery z>=2, price flat",20,ex-crisis,30208,4038,-0.1,-1.33,43.4,1.8,1.55,51.6,-0.22,-0.09,-0.01
+"QUIET ACCUMULATION: delivery z>=2, price flat",60,ALL,30577,4316,-0.83,-3.3,41.2,4.58,4.33,53.0,-5.58,-0.4,-0.43
+"QUIET ACCUMULATION: delivery z>=2, price flat",60,2003-12,3852,1037,-0.27,-1.66,44.7,2.24,1.99,50.4,-0.66,-0.24,-0.03
+"QUIET ACCUMULATION: delivery z>=2, price flat",60,2013-20,11262,1911,-0.96,-3.16,41.7,4.42,4.17,53.3,-5.34,-0.26,-0.7
+"QUIET ACCUMULATION: delivery z>=2, price flat",60,2021-26,15463,1368,-0.88,-3.81,40.0,5.27,5.02,53.4,-3.87,-0.59,-0.29
+"QUIET ACCUMULATION: delivery z>=2, price flat",60,Nov23-now,8391,673,-0.47,-3.13,41.4,2.34,2.09,46.9,-1.11,-0.38,-0.09
+"QUIET ACCUMULATION: delivery z>=2, price flat",60,ex-crisis,29724,4000,-0.83,-3.31,41.1,4.53,4.28,53.0,-5.7,-0.37,-0.46
