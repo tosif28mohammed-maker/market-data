@@ -1,6 +1,6 @@
 symbol,qty,avg,stop,target,buy_date,bucket,note
 COALINDIA,50,393.70,373,405,2026-10-28,dip,ex-div 4 Nov done; 200 DMA ke neeche - nayi kharid nahi
 MINDACORP,10,632.49,655,735,2026-10-20,dip,target paar; trailing stop 655
-NAVINFLUOR,1,8710.00,8013,,2026-11-06,thrust,tezi basket; stop -8%; review 8 Dec (20 din)
-SHYAMMETL,8,1250.00,1150,,2026-11-06,thrust,tezi basket; stop -8%; review 8 Dec
-SANSERA,2,4267.10,3926,,2026-11-06,thrust,tezi basket; stop -8%; review 8 Dec
+NAVINFLUOR,1,8710.00,8414,,2026-11-06,thrust,tezi basket; stop close basis; review ~4 Dec
+SHYAMMETL,8,1250.00,1161,,2026-11-06,thrust,tezi basket; stop close basis; review ~4 Dec
+SANSERA,2,4267.10,4156,,2026-11-06,thrust,tezi basket; stop close basis; review ~4 Dec
