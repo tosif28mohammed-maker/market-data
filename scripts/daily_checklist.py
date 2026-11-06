@@ -104,6 +104,16 @@ try:
     if sd_ <= -2.5: modes.append(f'🇺🇸 S&P500 कल रात {sd_:+.1f}% (f71): India अगला दिन ~-0.5% पर 5 दिन +1.0% (2013 से 79%) → सुबह मत बेचो, दोपहर में खरीदो')
 except Exception:
     pass
+try:  # f72 world: US VIX>30 -> S&P 6 months +13% (83% up); gold/silver ratio z>1.5 -> silver beats gold 6m +9%
+    uv = pd.read_csv(os.path.join(R, 'data', 'global', 'US_VIX.csv'), parse_dates=['date']).set_index('date').close.dropna()
+    if uv.iloc[-1] > 30: modes.append(f'🇺🇸 US VIX {uv.iloc[-1]:.0f} >30 (f72): S&P500 अगले 6 महीने औसत +13% (83% बार ऊपर) → international खाते में S&P ETF किश्त')
+    g_ = pd.read_csv(os.path.join(R, 'data', 'global', 'CMD_GOLD.csv'), parse_dates=['date']).set_index('date').close
+    s_ = pd.read_csv(os.path.join(R, 'data', 'global', 'CMD_SILVER.csv'), parse_dates=['date']).set_index('date').close
+    gr = (g_ / s_).dropna().resample('ME').last(); gz = ((gr - gr.rolling(60).mean()) / gr.rolling(60).std()).iloc[-1]
+    if gz >= 1.5: modes.append(f'🥈 Gold/Silver ratio z {gz:.1f} (f72): अगले 6 महीने चाँदी सोने से ~9% आगे → सोने की जगह चाँदी ETF')
+    if gz <= -1.5: modes.append(f'🥇 Gold/Silver ratio z {gz:.1f} (f72): चाँदी महँगी → चाँदी की जगह सोना')
+except Exception:
+    pass
 if not modes: modes.append('😐 शांत mode: न तेज़ी का धक्का, न घबराहट — core लंबा (d06) + Connors/breakout सूची + dividend')
 w('\n'.join(f'- {x}' for x in modes))
 w(f'- Breadth (गहरे dip वाले शेयर) {br:.1f}%; पिछले 5: ' + ', '.join(f'{x * 100:.0f}%' for x in bh.breadth.iloc[-5:]))

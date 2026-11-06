@@ -31,6 +31,14 @@ r1 = (c.iloc[-1] / c.iloc[-2] - 1) * 100
 vr = (V[AB] / V[AB].rolling(50, min_periods=40).median().shift(1)).iloc[-5:]
 rr = (c.pct_change(fill_method=None) * 100).iloc[-5:]
 newscrash = ((vr >= 2) & (rr <= -5)).any()
+# f72: up 1.5%+ on LOW delivery (z<=-1 vs own 60 days) underperforms market -> penalty
+DZ = pd.Series(dtype=float)
+try:
+    _d = pd.read_csv(os.path.join(R, 'data', 'deliv_recent.csv.gz'), parse_dates=['date']).pivot_table(index='date', columns='symbol', values='deliv_pct')
+    if len(_d) >= 41 and _d.index[-1].date() == pd.Timestamp(last).date():
+        DZ = (_d.iloc[-1] - _d.iloc[-61:-1].mean()) / _d.iloc[-61:-1].std()
+except Exception as e:
+    print('delivery file', e)
 STEADY = {'TVSMOTOR', 'EICHERMOT', 'LAURUSLABS', 'UNIONBANK', 'FEDERALBNK', 'TORNTPHARM', 'RBLBANK', 'NYKAA', 'AUBANK',
           'MANAPPURAM', 'NAVINFLUOR', 'KARURVYSYA', 'CUB', 'DCBBANK', 'TMB'}
 rs_ok = r63[up200].dropna(); rs_cut = rs_ok.quantile(0.9)
@@ -69,6 +77,8 @@ for s in AB:
     if pd.Timestamp(last).weekday() == 4 and r1.get(s, 0) <= -2: sc -= 2; why.append('शुक्रवार 2%+ गिरा — सोमवार तक रुको (f49)')
     if newscrash.get(s, False) and fam & {'tfdip', 'dailydip', 'pullback'}:
         sc -= 1; why.append('⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)')
+    if r1.get(s, 0) >= 1.5 and DZ.get(s, 0) <= -1:
+        sc -= 1; why.append(f'⚠️ आज की चढ़ाई कम delivery पर (z {DZ[s]:.1f}) = सट्टा, आगे बाज़ार से पीछे (f72)')
     if sc <= 0: continue
     res = soon.get(s)
     px = float(c[s].iloc[-1])
