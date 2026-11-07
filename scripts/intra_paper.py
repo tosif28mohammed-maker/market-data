@@ -261,7 +261,7 @@ def write_live(rows, day, note=''):
     for r in rows:
         st = 'KHULA' if r['reason'] == 'OPEN' else f"band {r['exit_time']} ({r['reason']})"
         L.append(f"- **{r['strat']}** {r['sym']} {'BUY' if r['side'] == 1 else ('SELL' if r['side'] == -1 else 'IC')} {r['qty']} @{r['entry']:.2f} "
-                 f"{r['entry_time']} | stop {r['stop'] if r['stop'] else '-'} | {st} | P&L Rs {r['pnl_rs']:+,.0f} — {r['why']}")
+                 f"{r['entry_time']} | stop {round(r['stop'], 2) if r['stop'] else '-'} | {st} | P&L Rs {r['pnl_rs']:+,.0f} — {r['why']}")
     open(LIVE, 'w').write('\n'.join(L) + '\n')
 
 
