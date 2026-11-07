@@ -302,13 +302,18 @@ def report():
 # ---------------- modes ----------------
 def live(end_hm):
     IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
+    TEST = os.environ.get('INTRA_TEST')  # weekend smoke test: last session, as if 15:26, files not saved to journal
     day = dt.datetime.now(IST).date()
-    if day.weekday() >= 5 or day in HOL: print('market band'); return
+    if TEST:
+        day -= dt.timedelta(days=1)
+        while day.weekday() >= 5 or day in HOL: day -= dt.timedelta(days=1)
+        global J, LIVE; J, LIVE = '/tmp/intra_test_journal.csv', '/tmp/intra_test_live.md'
+    elif day.weekday() >= 5 or day in HOL: print('market band'); return
     prev, nprev, n20, spx = daily_ctx(day)
     core = core_list(); U = pd.read_csv(os.path.join(R, 'paper', 'gap_universe.csv')); A = U[U.liq == 'A'].symbol.tolist()
     watch = set(); last_push = time.time()
     while True:
-        now = dt.datetime.now(IST); hm = now.strftime('%H%M')
+        now = dt.datetime.now(IST) if not TEST else dt.datetime.combine(day, dt.time(15, 26), IST); hm = now.strftime('%H%M')
         if hm < '0916': time.sleep(30); continue
         tick = {'^NSEI': 'NIFTY', '^INDIAVIX': 'VIX'}
         tk = ['^NSEI', '^INDIAVIX'] + list(core.values()) + [f'{s}.NS' for s in watch]
@@ -335,7 +340,8 @@ def live(end_hm):
         write_live(rows, day, f'S&P raat {spx:+.2f}%, Nifty 20 din {n20:+.1f}%, gap watch {len(watch)} shares')
         save_journal(rows, day); print(now.strftime('%H:%M'), len(rows), 'trades')
         if final or hm >= end_hm:
-            if final: report()
+            if final and not TEST: report()
+            if TEST: print(open(LIVE).read())
             return
         if time.time() - last_push > 1500: os.system('bash scripts/push_paper.sh "intraday paper live" || true'); last_push = time.time()
         time.sleep(max(60, 300 - (time.time() % 300) + 20))

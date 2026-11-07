@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       end: { description: 'stop at HHMM IST', default: '1530' }
+      test: { description: 'weekend smoke test (1 = replay last session once)', default: '' }
 permissions:
   contents: write
 concurrency: { group: intrapaper, cancel-in-progress: false }
@@ -24,6 +25,6 @@ jobs:
           H=$(TZ=Asia/Kolkata date +%H%M)
           END=${{ github.event.inputs.end }}
           if [ -z "$END" ]; then if [ "$H" -lt 1200 ]; then END=1230; else END=1530; fi; fi
-          python scripts/intra_paper.py live $END || echo 'intra failed'
+          INTRA_TEST=${{ github.event.inputs.test }} python scripts/intra_paper.py live $END || echo 'intra failed'
       - if: always()
         run: bash scripts/push_paper.sh "intraday paper $(TZ=Asia/Kolkata date +%d%b-%H:%M)"
