@@ -1,0 +1,29 @@
+name: intraday-paper
+# Intraday PAPER trading robot (user 7 Nov 2026). Two shifts because a GitHub job may run max 6 hours.
+# GitHub often starts scheduled runs late; the loop just begins when it starts and re-plays the day from 9:15.
+on:
+  schedule:
+    - cron: '30 3 * * 1-5'   # 9:00 IST  -> morning shift until 12:30
+    - cron: '50 6 * * 1-5'   # 12:20 IST -> afternoon shift until close (queues behind the morning one)
+  workflow_dispatch:
+    inputs:
+      end: { description: 'stop at HHMM IST', default: '1530' }
+permissions:
+  contents: write
+concurrency: { group: intrapaper, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -q yfinance pandas numpy
+      - run: |
+          H=$(TZ=Asia/Kolkata date +%H%M)
+          END=${{ github.event.inputs.end }}
+          if [ -z "$END" ]; then if [ "$H" -lt 1200 ]; then END=1230; else END=1530; fi; fi
+          python scripts/intra_paper.py live $END || echo 'intra failed'
+      - if: always()
+        run: bash scripts/push_paper.sh "intraday paper $(TZ=Asia/Kolkata date +%d%b-%H:%M)"
