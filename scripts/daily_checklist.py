@@ -72,6 +72,11 @@ if bd and 0 < (bd - T).days <= 8:
     cal.append('🔴 Budget से पहले का हफ़्ता — कमज़ोर (2013 से 17-25% बार ऊपर, f67): नई खरीद धीमी')
 if T.month == 1:
     cal.append('🟠 जनवरी — Nifty का कमज़ोर महीना (f09)')
+_md = T.month * 100 + T.day  # f79 ritu: Shishir (15 Jan-14 Mar) weakest in every era, Hemant (15 Nov-14 Jan) strong
+if _md >= 115 and _md < 315:
+    cal.append('🔴 शिशिर ऋतु (15 Jan-14 Mar) — साल का सबसे कमज़ोर मौसम, ख़ासकर small/mid cap (सब शेयर औसत -0.17%/दिन, हर दौर में, f79): नई खरीद कम, मुनाफ़ा बुक करो')
+elif _md >= 1115 or _md < 115:
+    cal.append('🟢 हेमंत ऋतु (15 Nov-14 Jan) — मज़बूत मौसम (सब शेयर +0.2%/दिन, हर दौर, f79)')
 if T.weekday() == 0 and last.weekday() == 4:
     cal.append('ℹ️ सोमवार: शुक्रवार को 2%+ चढ़े शेयर सोमवार और चढ़ते (+0.2..0.7%), 2%+ गिरे फिर गिरते (f49) — नीचे सूची')
 w(f'# रोज़ की checklist — {T:%a %d %b %Y} के लिए (डेटा {last})\n')
