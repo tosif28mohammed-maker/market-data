@@ -77,6 +77,15 @@ if _md >= 115 and _md < 315:
     cal.append('🔴 शिशिर ऋतु (15 Jan-14 Mar) — साल का सबसे कमज़ोर मौसम, ख़ासकर small/mid cap (सब शेयर औसत -0.17%/दिन, हर दौर में, f79): नई खरीद कम, मुनाफ़ा बुक करो')
 elif _md >= 1115 or _md < 115:
     cal.append('🟢 हेमंत ऋतु (15 Nov-14 Jan) — मज़बूत मौसम (सब शेयर +0.2%/दिन, हर दौर, f79)')
+try:  # f82: all-share average of the month's first 5 trading days up -> rest of month +1.1% (61% up), down -> -0.6% (48%) [broad/midcap, not Nifty]
+    _c = rd('close.csv.gz').ffill(limit=3); _r = _c.pct_change(fill_method=None).clip(-0.4, 0.4).mean(axis=1)
+    _m = _r[(_r.index.year == last.year) & (_r.index.month == last.month)]
+    if len(_m) >= 5 and T.month == last.month:
+        _w = ((1 + _m.iloc[:5]).prod() - 1) * 100
+        cal.append((f'🟢 इस महीने का पहला हफ़्ता (सब शेयर औसत) {_w:+.1f}% ऊपर → बाकी महीना आम तौर पर +1.1% (61% बार ऊपर), mid/small cap के लिए ठीक (f82)' if _w > 0
+                    else f'🟠 इस महीने का पहला हफ़्ता (सब शेयर औसत) {_w:+.1f}% नीचे → बाकी महीना आम तौर पर -0.6% (48% बार ऊपर): mid/small cap में नई खरीद कम (f82)'))
+except Exception as e:
+    print('f82', e)
 if T.weekday() == 0 and last.weekday() == 4:
     cal.append('ℹ️ सोमवार: शुक्रवार को 2%+ चढ़े शेयर सोमवार और चढ़ते (+0.2..0.7%), 2%+ गिरे फिर गिरते (f49) — नीचे सूची')
 w(f'# रोज़ की checklist — {T:%a %d %b %Y} के लिए (डेटा {last})\n')
