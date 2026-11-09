@@ -33,8 +33,13 @@ rr = (c.pct_change(fill_method=None) * 100).iloc[-5:]
 newscrash = ((vr >= 2) & (rr <= -5)).any()
 try:
     _F = pd.read_csv(os.path.join(R, 'data', 'fund', 'summary.csv')).set_index('symbol'); FQ = _F.quality_score.dropna(); FL = _F.loss_years.fillna(0)
-except Exception:
-    FQ = FL = pd.Series(dtype=float)
+    # f73: industries in the bottom 20% by 6m (skip 1m) median return lag the market ~0.8%/month (2013-20, 2021-26 t -4)
+    _C = rd('close.csv.gz').ffill(); _m = (_C.iloc[-22] / _C.iloc[-148] - 1)
+    _g = pd.DataFrame({'m': _m, 'ind': _F.industry.reindex(_m.index)}).dropna()
+    _im = _g.groupby('ind').m.median()[_g.groupby('ind').size() >= 5]
+    COLD = set(_g[_g.ind.isin(_im[_im <= _im.quantile(0.2)].index)].index); IND = _F.industry
+except Exception as e:
+    print('fund', e); FQ = FL = pd.Series(dtype=float); COLD = set(); IND = pd.Series(dtype=str)
 # f72: up 1.5%+ on LOW delivery (z<=-1 vs own 60 days) underperforms market -> penalty
 DZ = pd.Series(dtype=float)
 try:
@@ -85,6 +90,8 @@ for s in AB:
         sc -= 1; why.append(f'⚠️ आज की चढ़ाई कम delivery पर (z {DZ[s]:.1f}) = सट्टा, आगे बाज़ार से पीछे (f72)')
     if s in FQ.index and (FQ.get(s, 9) <= 3 or FL.get(s, 0) >= 2):  # 9 Nov: weak business (quality <=3/9 or 2+ loss years) -> penalty
         sc -= 2; why.append(f'⚠️ fundamentals kamzor (quality {FQ.get(s, 0):.0f}/9, ghaate ke saal {FL.get(s, 0):.0f})')
+    if s in COLD:
+        sc -= 1; why.append(f'⚠️ industry ({IND.get(s, "")}) sabse kamzor 20% mein — aisi industry ke shares baazaar se ~0.8%/mahina peeche (f73)')
     if sc <= 0: continue
     res = soon.get(s)
     px = float(c[s].iloc[-1])
