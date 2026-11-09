@@ -67,7 +67,7 @@ COND = {  # name: (family, bool frame)
     'breadth < 30% (ghabrahat)': ('mkt', rowb(breadth < 0.3)), 'breadth > 70%': ('mkt', rowb(breadth > 0.7)),
 }
 COND = {k: (f, m.fillna(False).values) for k, (f, m) in COND.items()}
-valid = A.notna().values
+valid = (A.notna() & ((H - L) > 0.002 * C)).values  # circuit-locked days (H=L) cannot be bought -> excluded (fake +5%/5d found in run 1)
 NAMED = {
     'EXPERT: Minervini trend template': ['200 DMA ke upar', '50 DMA > 200 DMA', '200 DMA chadh rahi', '52w high ke 5% paas', '1 saal top 20%'],
     'EXPERT: Weinstein stage-2 breakout': ['200 DMA chadh rahi', '55 din breakout', 'volume 3x'],
