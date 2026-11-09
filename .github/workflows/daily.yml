@@ -25,6 +25,7 @@ jobs:
       - run: python scripts/tf_scan.py || echo 'tf scan failed'
       - run: python scripts/daily_checklist.py || echo 'checklist failed'
       - run: pip install requests && python scripts/deliv_daily.py || echo 'delivery failed'
+      - run: pip install requests && python scripts/movers_review.py || echo 'movers failed'
       - run: pip install requests && python scripts/decision.py || echo 'decision failed'
       - run: python scripts/why_card.py || echo 'why failed'
         env:

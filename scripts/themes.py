@@ -135,6 +135,18 @@ for r in T.head(5).itertuples():
     m = [s for s in r.members if a200.get(s, False) and F.quality_score.get(s, 0) >= 6]
     top = sorted(m, key=lambda s: -r63.get(s, -999))[:5]
     L.append(f'- **{r.theme}**: ' + ', '.join(f'{s} ({r63[s]:+.0f}% 3m, Q{F.quality_score[s]:.0f})' for s in top))
+# value chain (f74): anchor basket strong last month -> suppliers next month (auto/power held in all eras, ~+1%/month vs weak months)
+try:
+    VC = pd.read_csv(os.path.join(R, 'data', 'chain', 'value_chain.csv')); r21 = C.pct_change(21).iloc[-1] * 100; mk = r21.median()
+    L += ['', '## Value chain (ग्राहक कंपनी मज़बूत → सप्लायर पीछे से चलते हैं; auto/power में असर, telecom में नहीं)']
+    for ch, g in VC.groupby('chain'):
+        an = [s for s in g[g.role == 'anchor'].symbol if s in r21]; su = [s for s in g[g.role == 'supplier'].symbol if s in r21]
+        ax = r21[an].median() - mk
+        good = [s for s in su if a200.get(s, False) and F.quality_score.get(s, 0) >= 6]
+        lag = sorted(good, key=lambda s: r21[s])[:5]
+        L.append(f"- **{ch}**: ग्राहक (anchor) पिछला महीना बाज़ार से {ax:+.1f}% → " + ('मज़बूत: पीछे रहे अच्छे सप्लायर देखो: ' + ', '.join(f'{s} ({r21[s]:+.0f}%)' for s in lag) if ax >= 2 else 'अभी कोई chain signal नहीं'))
+except Exception as e:
+    print('chain', e)
 L += ['', '## आज की चर्चा के नमूने']
 for r in T.head(8).itertuples():
     L += [f'- {r.theme}: ' + ' | '.join(h[:110] for h in heads.get(r.theme, []))]

@@ -148,6 +148,16 @@ M += ['## Aaj ka sabak',
       f"- Wajah ginti (40 shares): " + ', '.join(f'{k} {v}' for k, v in df.cause.value_counts().items()),
       f"- Gire shares jo robot ki list mein the (galti): {', '.join(df[(df.side == 'DOWN') & (df.score_yday >= 3)].symbol) or 'koi nahi'}", '']
 open(os.path.join(D, f'{day}.md'), 'w').write('\n'.join(M) + '\n'); open(os.path.join(D, 'latest.md'), 'w').write('\n'.join(M) + '\n')
+# weekly view (user: 'hafte ka top gainer/loser bhi'): 5-day movers + what they looked like 5 days ago
+w = (c.iloc[-1] / c.iloc[-6] - 1) * 100; w = w.dropna()
+p5 = c.iloc[:-5]; a200w = p5.rolling(200, min_periods=150).mean().iloc[-1]; rs = (p5.iloc[-1] / p5.iloc[-64] - 1).rank(pct=True)
+vw = V[AB].iloc[:-5]; vsw = vw.iloc[-5:].mean() / vw.iloc[-55:-5].mean()
+W = ['## Hafte ke (5 din) top 15 chadhe / gire — 5 din pehle kaise dikhte the']
+for side, ser in (('chadhe', w.nlargest(15)), ('gire', w.nsmallest(15))):
+    W.append(f'- **{side}**: ' + '; '.join(f"{s} {v:+.0f}% (RS {rs.get(s, np.nan) * 100:.0f}, 200DMA {'upar' if p5[s].iloc[-1] > a200w.get(s, np.inf) else 'neeche'}, vol {vsw.get(s, np.nan):.1f}x)" for s, v in ser.items()))
+W += ['- Study (f74): bade chadhne aur bade girne wale dono se pehle wahi ishaare hote hain (kal ki badi chaal, RS top, volume) = ye ishaare DISHA nahi, sirf HALCHAL batate hain.', '']
+M += W
+open(os.path.join(D, f'{day}.md'), 'w').write('\n'.join(M) + '\n'); open(os.path.join(D, 'latest.md'), 'w').write('\n'.join(M) + '\n')
 # running summary + sources we lacked
 a = allv.copy(); a['dark'] = a.verdict.astype(str).str.startswith('NAHI')
 S = [f'# Movers review — {a.date.nunique()} din ka hisaab', '',
