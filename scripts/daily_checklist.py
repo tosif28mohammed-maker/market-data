@@ -166,17 +166,31 @@ else:
 
 # ---------- 3c. options / futures (safe zone only) ----------
 w('\n## 3c. Option / Future — सिर्फ़ सुरक्षित (defined-risk)')
-dte = len([d for d in pd.bdate_range(T, exp_this) if td(d.date())])
-sig = n * v / 100 * np.sqrt(max(dte, 1) / 252)
-ok_ic = 12 <= v <= 20 and 8 <= dte <= 25 and n10 < 5 and br < 20
-w(f'- अगली monthly expiry {exp_this:%d %b} ({dte} कारोबारी दिन). VIX {v:.1f} से 1.5σ दायरा ±{1.5 * sig:,.0f} अंक (91% बार अंदर, f30)')
-if ok_ic:
-    lo_, hi_ = int((n - 1.5 * sig) // 50 * 50), int(-(-(n + 1.5 * sig) // 50) * 50)
-    w(f'- 🟢 Iron condor (paper/सीखने के लिए): SELL {lo_} PE + SELL {hi_} CE, BUY {lo_ - 200} PE + BUY {hi_ + 200} CE (1 lot). बाहर: 50% मुनाफ़ा या नुकसान = 2× credit, और expiry से 5 दिन पहले हर हाल में बंद')
+# f75 (9 Nov 2026, real NSE option prices 2010-26): Nifty weekly iron condor / bull put spread entered at the close of the LAST
+# trading day before weekly expiry, short strikes 1 sigma (1 day), wings 2%, only VIX 14-22 -> 2018-26 win ~87-91%, avg +2..2.8% of width;
+# entries 5 days before expiry LOSE (that is why the old 8-25 day rule lost in paper). VIX < 14 tiny, VIX > 22 loses. Stock options: avoid.
+# weekly expiry = Tuesday; holiday -> previous trading day
+tue = pd.Timestamp(T) + pd.Timedelta(days=(1 - pd.Timestamp(T).weekday()) % 7)
+wexp = tue
+while not td(wexp.date()): wexp -= pd.Timedelta(days=1)
+if wexp < pd.Timestamp(T): 
+    tue += pd.Timedelta(days=7); wexp = tue
+    while not td(wexp.date()): wexp -= pd.Timedelta(days=1)
+nxt = pd.Timestamp(T) + pd.Timedelta(days=1)
+while not td(nxt.date()): nxt += pd.Timedelta(days=1)
+entry_day = nxt == wexp  # T is the last trading day before weekly expiry
+sig1 = n * v / 100 * np.sqrt(1 / 252)
+w(f'- Weekly expiry {wexp:%a %d %b}. VIX {v:.1f}. 1 दिन का 1σ = ±{sig1:,.0f} अंक')
+if entry_day and 14 <= v <= 22 and br < 20:
+    lo_, hi_ = int((n - sig1) // 50 * 50), int(-(-(n + sig1) // 50) * 50); wg = int(round(n * 0.02 / 50) * 50)
+    w(f'- 🟢 **Nifty iron condor (f75)** आज 3:15-3:25 PM: SELL {lo_} PE + SELL {hi_} CE, BUY {lo_ - wg} PE + BUY {hi_ + wg} CE, 1 lot (65). '
+      f'Expiry तक रखो; stop = नुकसान 2× credit. इतिहास 2018-26: ~87-91% बार मुनाफ़ा, औसत छोटा (~₹300-700/lot), पर कभी-कभी पूरा नुकसान (~₹30k/lot) — 1 lot से ज़्यादा नहीं.')
+    w(f'- विकल्प: सिर्फ़ BULL PUT SPREAD (SELL {lo_} PE + BUY {lo_ - wg} PE) — Nifty ऊपर की ओर झुकता है, bear call अकेला ~0 कमाता है.')
+elif entry_day:
+    w(f'- 🔴 आज iron condor नहीं — ' + (f'VIX {v:.1f} (14-22 चाहिए; 22+ पर इतिहास में नुकसान, 14 से नीचे premium बहुत कम)' if not 14 <= v <= 22 else 'breadth घबराहट'))
 else:
-    why = 'तेज़ी का धक्का (एक तरफ़ा चाल का जोखिम)' if n10 >= 5 else 'breadth घबराहट' if br >= 20 else f'VIX {v:.1f} दायरे (12-20) से बाहर' if not 12 <= v <= 20 else f'expiry {dte} दिन (8-25 चाहिए)'
-    w(f'- 🔴 आज iron condor नहीं — {why}')
-w('- नहीं करना: naked option बेचना, option खरीदना (study फेल), future (आपकी पूँजी के हिसाब से margin/जोखिम बड़ा). Paper में अब तक: naked strangle -₹10.5k, iron condor -₹7.1k (1-1 सौदा) — असली पैसा 10+ paper सौदों के बाद ही')
+    w(f'- आज option का दिन नहीं — iron condor सिर्फ़ weekly expiry से ठीक पहले वाले दिन की closing पर (f75: 5 दिन पहले लेने पर घाटा)')
+w('- नहीं करना: naked option बेचना, option खरीदना (study फेल), future (आपकी पूँजी के हिसाब से margin/जोखिम बड़ा). share के options (spread भी) नहीं — study में bull put/iron condor घाटे में. Paper में पुराना नियम (8-25 दिन): naked strangle -₹10.5k, iron condor -₹7.1k')
 
 # ---------- 4. dip bucket ----------
 s20 = c.rolling(20).mean().iloc[-1]; dist = (c.iloc[-1] / s20 - 1) * 100
