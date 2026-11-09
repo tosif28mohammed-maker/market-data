@@ -14,15 +14,16 @@ Tests (python study/weather.py fetch | study):
 """
 import os, sys, json, time, datetime as dt, urllib.request, urllib.parse, numpy as np, pandas as pd
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); WD = os.path.join(R, 'data', 'weather'); os.makedirs(WD, exist_ok=True)
-CITIES = {'Mumbai': (19.08, 72.88), 'Delhi': (28.61, 77.21), 'Kolkata': (22.57, 88.36), 'Chennai': (13.08, 80.27), 'Bengaluru': (12.97, 77.59),
-          'Hyderabad': (17.39, 78.49), 'Nagpur': (21.15, 79.09), 'Bhopal': (23.26, 77.41), 'Lucknow': (26.85, 80.95), 'Jaipur': (26.91, 75.79),
-          'Ahmedabad': (23.02, 72.57), 'Patna': (25.59, 85.14), 'Srinagar': (34.08, 74.80), 'NewYork': (40.71, -74.01), 'Reykjavik': (64.15, -21.94)}
+CITIES = {'Mumbai': (19.08, 72.88), 'Delhi': (28.61, 77.21), 'Kolkata': (22.57, 88.36), 'Chennai': (13.08, 80.27), 'Nagpur': (21.15, 79.09),
+          'Lucknow': (26.85, 80.95), 'Srinagar': (34.08, 74.80), 'NewYork': (40.71, -74.01), 'Reykjavik': (64.15, -21.94)}
+# Open-Meteo free limit (~5,000 weighted calls/hour): 9 cities x 6 variables x ~30 years fits; one city per ~70 s; files kept, re-runs skip them
 part = sys.argv[1] if len(sys.argv) > 1 else 'study'
 
 if part == 'fetch':
     for c, (la, lo) in CITIES.items():
-        q = urllib.parse.urlencode({'latitude': la, 'longitude': lo, 'start_date': '1990-01-01', 'end_date': str(dt.date.today() - dt.timedelta(days=7)),
-                                    'daily': 'temperature_2m_max,temperature_2m_min,precipitation_sum,snowfall_sum,wind_speed_10m_max,sunshine_duration,cloud_cover_mean',
+        if os.path.exists(os.path.join(WD, f'{c}.csv.gz')): print('have', c); continue
+        q = urllib.parse.urlencode({'latitude': la, 'longitude': lo, 'start_date': '1990-01-01' if c in ('NewYork', 'Reykjavik') else '1996-01-01', 'end_date': str(dt.date.today() - dt.timedelta(days=7)),
+                                    'daily': 'temperature_2m_max,temperature_2m_min,precipitation_sum,snowfall_sum,wind_speed_10m_max,sunshine_duration',
                                     'timezone': 'auto'})
         for a in range(4):
             try:
@@ -30,8 +31,8 @@ if part == 'fetch':
                     j = json.load(r_)
                 d = pd.DataFrame(j['daily']); d.to_csv(os.path.join(WD, f'{c}.csv.gz'), index=False); print(c, len(d)); break
             except Exception as e:
-                print('retry', c, e); time.sleep(20 + 20 * a)
-        time.sleep(3)
+                print('retry', c, e); time.sleep(90 + 60 * a)
+        time.sleep(70)
     sys.exit()
 
 MD = []
@@ -75,8 +76,8 @@ for city, mkt, mname, plc in (('Mumbai', SX, 'Sensex', 'Reykjavik'), ('NewYork',
             if city == 'NewYork': show('barf 5cm+', src.snowfall_sum >= 5, src)
 
 # ---- monsoon ----
-md('\n## Monsoon (June-Sept, 12 shehron ki baarish ka normal se fark) -> Oct-Mar')
-rain = pd.concat({c: W(c).precipitation_sum for c in CITIES if c not in ('Srinagar', 'NewYork', 'Reykjavik')}, axis=1)
+md('\n## Monsoon (June-Sept, 6 shehron ki baarish ka normal se fark) -> Oct-Mar')
+rain = pd.concat({c: W(c).precipitation_sum for c in CITIES if c not in ('Srinagar', 'NewYork', 'Reykjavik') and os.path.exists(os.path.join(WD, f'{c}.csv.gz'))}, axis=1)
 jjas = rain[rain.index.month.isin([6, 7, 8, 9])].groupby(lambda d: d.year).sum().mean(axis=1)
 anom = (jjas / jjas.mean() - 1) * 100
 rows = []

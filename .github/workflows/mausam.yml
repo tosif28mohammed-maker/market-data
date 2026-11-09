@@ -9,7 +9,7 @@ concurrency: { group: mausam, cancel-in-progress: false }
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 200
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -23,5 +23,5 @@ jobs:
       - if: always()
         run: |
           git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
-          git add data/weather study/results/weather* && git commit -qm "weather study" || exit 0
+          git add -A data/weather study/results; git commit -qm "weather study" || exit 0
           for i in 1 2 3 4 5; do git pull -q --rebase -X theirs && git push -q && exit 0; sleep 7; done
