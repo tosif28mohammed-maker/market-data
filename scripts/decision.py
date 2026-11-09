@@ -31,6 +31,10 @@ r1 = (c.iloc[-1] / c.iloc[-2] - 1) * 100
 vr = (V[AB] / V[AB].rolling(50, min_periods=40).median().shift(1)).iloc[-5:]
 rr = (c.pct_change(fill_method=None) * 100).iloc[-5:]
 newscrash = ((vr >= 2) & (rr <= -5)).any()
+try:
+    _F = pd.read_csv(os.path.join(R, 'data', 'fund', 'summary.csv')).set_index('symbol'); FQ = _F.quality_score.dropna(); FL = _F.loss_years.fillna(0)
+except Exception:
+    FQ = FL = pd.Series(dtype=float)
 # f72: up 1.5%+ on LOW delivery (z<=-1 vs own 60 days) underperforms market -> penalty
 DZ = pd.Series(dtype=float)
 try:
@@ -79,6 +83,8 @@ for s in AB:
         sc -= 1; why.append('⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)')
     if r1.get(s, 0) >= 1.5 and DZ.get(s, 0) <= -1:
         sc -= 1; why.append(f'⚠️ आज की चढ़ाई कम delivery पर (z {DZ[s]:.1f}) = सट्टा, आगे बाज़ार से पीछे (f72)')
+    if s in FQ.index and (FQ.get(s, 9) <= 3 or FL.get(s, 0) >= 2):  # 9 Nov: weak business (quality <=3/9 or 2+ loss years) -> penalty
+        sc -= 2; why.append(f'⚠️ fundamentals kamzor (quality {FQ.get(s, 0):.0f}/9, ghaate ke saal {FL.get(s, 0):.0f})')
     if sc <= 0: continue
     res = soon.get(s)
     px = float(c[s].iloc[-1])
