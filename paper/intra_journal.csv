@@ -1,4 +1,4 @@
 date,strat,sym,instr,side,qty,entry_time,entry,stop,target,exit_time,exit,reason,prem_in,prem_out,pnl_rs,R,mfe_pct,mae_pct,nifty_move,why,lesson
 2026-11-09,GAPFADE,POWERMECH,EQ,-1,35,09:30,2381.800048828125,2409.81,2325.780146484375,11:55,2409.81,STOP,,,-1064.0,-1.0,1.36,-1.48,-0.04,"gap +5.9%, pehle 15 min laal, Nifty gap +0.17%",
 2026-11-09,GAPBOUNCE,VOLTAS,EQ,1,56,09:30,1032.800048828125,1014.966,1068.468146484375,13:35,1068.468146484375,TARGET,,,1940.0,2.0,3.66,-1.52,-0.21,"gap -6.1%, pehle 15 min hara, Nifty gap +0.17%",
-2026-11-09,TRENDDAY,TATASTEEL,EQ,-1,532,10:20,187.6300048828125,189.5063049316406,,,,OPEN,,,746.0,0.85,1.69,-0.12,0.23,"10:15 tak Nifty -0.54%, 21% core shares open se upar; sabse mazboot TATASTEEL -2.5%",
+2026-11-09,TRENDDAY,TATASTEEL,EQ,-1,532,10:20,187.6300048828125,189.5063049316406,,,,OPEN,,,900.0,1.0,1.69,-0.12,0.18,"10:15 tak Nifty -0.54%, 21% core shares open se upar; sabse mazboot TATASTEEL -2.5%",
