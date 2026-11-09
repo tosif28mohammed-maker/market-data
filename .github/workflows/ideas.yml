@@ -22,8 +22,10 @@ jobs:
       - run: pip install pandas numpy
       - run: python study/idea_factory.py
         env: { U500: "${{ github.workspace }}/u500", NI_CACHE: "/tmp/ni_panel.pkl", IDEAS_N: "${{ github.event.inputs.n || '150' }}", PYTHONUNBUFFERED: '1' }
+      - run: python scripts/seasonal_table.py || echo 'seasonal failed'
+        env: { U500: "${{ github.workspace }}/u500", NI_CACHE: "/tmp/ni_panel.pkl" }
       - if: always()
         run: |
           git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
-          git add study/results/idea_ledger.csv data/ideas.md && git commit -qm "idea factory run" || exit 0
+          git add study/results/idea_ledger.csv data/ideas.md data/seasonal && git commit -qm "idea factory run" || exit 0
           for i in 1 2 3 4 5; do git pull -q --rebase -X theirs && git push -q && exit 0; sleep 7; done

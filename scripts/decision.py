@@ -31,6 +31,11 @@ r1 = (c.iloc[-1] / c.iloc[-2] - 1) * 100
 vr = (V[AB] / V[AB].rolling(50, min_periods=40).median().shift(1)).iloc[-5:]
 rr = (c.pct_change(fill_method=None) * 100).iloc[-5:]
 newscrash = ((vr >= 2) & (rr <= -5)).any()
+try:  # f81 same-calendar-month seasonality (table rebuilt weekly by ideas.yml)
+    _s = pd.read_csv(os.path.join(R, 'data', 'seasonal', 'same_month.csv')); _s = _s[_s.month == (pd.Timestamp(last) + pd.offsets.BDay(1)).month]
+    SEAS = {a: (b, c, d) for a, b, c, d in zip(_s.symbol, _s['rank'], _s.avg5, _s.up_years)}
+except Exception as e:
+    print('seasonal', e); SEAS = {}
 try:
     _F = pd.read_csv(os.path.join(R, 'data', 'fund', 'summary.csv')).set_index('symbol'); FQ = _F.quality_score.dropna(); FL = _F.loss_years.fillna(0)
     # f73: industries in the bottom 20% by 6m (skip 1m) median return lag the market ~0.8%/month (2013-20, 2021-26 t -4)
@@ -56,7 +61,7 @@ Zin = Z[Z.in_zone == True]
 dv = os.path.join(R, 'data', 'corp', 'div_candidates.csv'); DV = pd.read_csv(dv) if os.path.exists(dv) else pd.DataFrame(columns=['symbol'])
 bmf = os.path.join(R, 'data', 'corp', 'board_meetings.csv'); BM = pd.read_csv(bmf) if os.path.exists(bmf) else pd.DataFrame(columns=['symbol', 'date'])
 BM['d'] = pd.to_datetime(BM.date, errors='coerce', dayfirst=True)
-soon = BM[(BM.d.dt.date >= last) & (BM.d.dt.date <= last + dt.timedelta(days=10))].set_index('symbol').d
+soon = BM[(BM.d.dt.date >= last) & (BM.d.dt.date <= last + dt.timedelta(days=10))].sort_values('d').drop_duplicates('symbol').set_index('symbol').d  # dedupe: a share with 2 meetings crashed the robot
 
 bf = os.path.join(R, 'data', 'corp', 'bonus_upcoming.csv'); BU = pd.read_csv(bf) if os.path.exists(bf) else pd.DataFrame(columns=['symbol', 'tdays_to_ex', 'ex_date'])
 BUP = dict(zip(BU[BU.tdays_to_ex.between(2, 10)].symbol, BU[BU.tdays_to_ex.between(2, 10)].ex_date)); BALL = dict(zip(BU.symbol, BU.ex_date))
@@ -92,6 +97,9 @@ for s in AB:
         sc -= 2; why.append(f'⚠️ fundamentals kamzor (quality {FQ.get(s, 0):.0f}/9, ghaate ke saal {FL.get(s, 0):.0f})')
     if s in COLD:
         sc -= 1; why.append(f'⚠️ industry ({IND.get(s, "")}) sabse kamzor 20% mein — aisi industry ke shares baazaar se ~0.8%/mahina peeche (f73)')
+    sm = SEAS.get(s)
+    if sm is not None and sm[0] >= 0.9: sc += 1; fam.add('seasonal'); why.append(f'is mahine ka apna mausam: pichhle 5 saal isi mahine bazaar se ausat {sm[1]:+.1f}%, {sm[2]}/5 saal upar (f81)')
+    if sm is not None and sm[0] <= 0.1: sc -= 1; why.append(f'⚠️ is mahine ye share aam taur par kamzor (5 saal ausat {sm[1]:+.1f}%, f81)')
     if sc <= 0: continue
     res = soon.get(s)
     px = float(c[s].iloc[-1])
