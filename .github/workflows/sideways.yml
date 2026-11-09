@@ -1,0 +1,42 @@
+name: sideways-study
+# user 9 Nov 2026: shaant/sideways bazaar mein option spreads (iron condor, bull put, bear call) — asli NSE option bhaav 2010-26.
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 17
+      matrix:
+        job: [opt-2010, opt-2011, opt-2012, opt-2013, opt-2014, opt-2015, opt-2016, opt-2017, opt-2018, opt-2019, opt-2020, opt-2021, opt-2022, opt-2023, opt-2024, opt-2025, opt-2026]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests pandas
+      - run: MJ=${{ matrix.job }}; OUTDIR=nse_opt python scripts/fetch_nse_hist.py opt ${MJ#opt-}
+        env: { PYTHONUNBUFFERED: '1' }
+      - uses: actions/upload-artifact@v4
+        with: { name: "opt-${{ matrix.job }}", path: nse_opt, if-no-files-found: warn, retention-days: 30 }
+  study:
+    needs: fetch
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install pandas numpy
+      - uses: actions/download-artifact@v4
+        with: { pattern: "opt-*", path: nse_opt, merge-multiple: true }
+      - run: ls -la nse_opt/opt; du -sh nse_opt
+      - run: python study/sideways.py regime
+      - run: NSE_OPT=nse_opt python study/sideways.py options
+      - run: |
+          git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
+          git add study/results/sw_* && git commit -qm "sideways / option spreads study" || exit 0
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && exit 0; sleep 5; done

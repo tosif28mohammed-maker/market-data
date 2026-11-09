@@ -6,7 +6,8 @@ Weekdays are tried; holidays just 404. Polite delay. Never needs credentials.
 """
 import os, sys, io, time, zipfile, datetime as dt, requests, pandas as pd
 kind, year = sys.argv[1], int(sys.argv[2])
-OUT = os.environ.get('OUTDIR', 'nse_hist'); os.makedirs(f'{OUT}/{"deliv" if kind == "mto" else "fo"}', exist_ok=True)
+SUB = {'mto': 'deliv', 'fo': 'fo', 'opt': 'opt'}[kind]
+OUT = os.environ.get('OUTDIR', 'nse_hist'); os.makedirs(f'{OUT}/{SUB}', exist_ok=True)
 S = requests.Session()
 S.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36',
                   'Accept': '*/*', 'Referer': 'https://www.nseindia.com/'})
@@ -58,7 +59,8 @@ for d in days:
             continue
         if new:
             x = x.rename(columns={'FinInstrmTp': 'INSTRUMENT', 'TckrSymb': 'SYMBOL', 'XpryDt': 'EXPIRY_DT', 'OptnTp': 'OPTION_TYP',
-                                  'ClsPric': 'CLOSE', 'OpnIntrst': 'OPEN_INT'})
+                                  'ClsPric': 'CLOSE', 'OpnIntrst': 'OPEN_INT', 'StrkPric': 'STRIKE_PR', 'OpnPric': 'OPEN', 'HghPric': 'HIGH',
+                                  'LwPric': 'LOW', 'SttlmPric': 'SETTLE_PR', 'TtlTradgVol': 'CONTRACTS'})
             x['INSTRUMENT'] = x.INSTRUMENT.map({'STF': 'FUTSTK', 'IDF': 'FUTIDX', 'STO': 'OPTSTK', 'IDO': 'OPTIDX'})
         x.columns = [c.strip() for c in x.columns]
         x['EXP'] = pd.to_datetime(x.EXPIRY_DT, errors='coerce', dayfirst=not new)
@@ -68,12 +70,26 @@ for d in days:
         opt = x[x.INSTRUMENT.isin(['OPTSTK', 'OPTIDX'])]
         ce = opt[opt.OPTION_TYP.astype(str).str.upper().str.startswith('C')].groupby('SYMBOL').OPEN_INT.sum()
         pe = opt[opt.OPTION_TYP.astype(str).str.upper().str.startswith('P')].groupby('SYMBOL').OPEN_INT.sum()
-        g = pd.DataFrame({'fut_close': near.CLOSE, 'fut_oi': f_oi, 'ce_oi': ce, 'pe_oi': pe}).dropna(subset=['fut_close'])
-        g['date'] = d.date(); g.index.name = 'symbol'
-        frames.append(g.reset_index()); ok += 1
+        if kind == 'opt':  # option prices (user 9 Nov: sideways / spreads study): index near 2 expiries +-12%, stocks near expiry +-20%
+            o = opt.copy(); o['fut'] = o.SYMBOL.map(near.CLOSE); o = o[o.fut.notna() & ((pd.to_numeric(o.CONTRACTS, errors='coerce') > 0) | (pd.to_numeric(o.SETTLE_PR, errors='coerce') > 0))]
+            o['K'] = pd.to_numeric(o.STRIKE_PR, errors='coerce'); o['m'] = o.K / o.fut - 1
+            idx = o.INSTRUMENT == 'OPTIDX'
+            o['er'] = o.groupby('SYMBOL').EXP.rank(method='dense')
+            keep_i = idx & (o.er <= 2) & (o.m.abs() <= 0.12)
+            nexp = o[~idx].groupby('SYMBOL').EXP.min()
+            keep_s = (~idx) & (o.EXP == o.SYMBOL.map(nexp)) & (o.m.abs() <= 0.15)
+            o = o[keep_i | keep_s]
+            g = pd.DataFrame({'date': d.date(), 'symbol': o.SYMBOL, 'exp': o.EXP.dt.date, 'K': o.K, 'type': o.OPTION_TYP.astype(str).str[0],
+                              'open': o.OPEN, 'high': o.HIGH, 'low': o.LOW, 'close': o.CLOSE, 'settle': o.SETTLE_PR, 'oi': o.OPEN_INT,
+                              'contracts': o.CONTRACTS, 'fut': o.fut})
+            frames.append(g); ok += 1
+        else:
+            g = pd.DataFrame({'fut_close': near.CLOSE, 'fut_oi': f_oi, 'ce_oi': ce, 'pe_oi': pe}).dropna(subset=['fut_close'])
+            g['date'] = d.date(); g.index.name = 'symbol'
+            frames.append(g.reset_index()); ok += 1
     time.sleep(0.4)
     if ok == 0 and FAILS[0] >= 25: print('aborting: nothing reachable'); break
     if ok and ok % 50 == 0: print(kind, year, d.date(), ok, flush=True)
 print(kind, year, 'days ok', ok, 'of', len(days))
 if frames:
-    pd.concat(frames).to_csv(f'{OUT}/{"deliv" if kind == "mto" else "fo"}/{year}.csv.gz', index=False)
+    pd.concat(frames).to_csv(f'{OUT}/{SUB}/{year}.csv.gz', index=False)

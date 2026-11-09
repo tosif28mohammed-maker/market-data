@@ -1,0 +1,47 @@
+feature,level,n,p_quiet,lift,first_half,second_half,holds
+VIX,12-14,715,57.5,1.48,55.7,58.0,True
+VIX,14-16,803,53.7,1.39,50.4,56.2,True
+VIX,16-18,659,37.9,0.98,36.1,40.4,False
+VIX,18-22,851,28.6,0.74,29.4,27.6,True
+VIX,22-30,642,16.2,0.42,14.5,19.6,True
+VIX,30+,432,2.3,0.06,2.4,1.6,True
+VIX,<12,419,72.6,1.87,86.2,70.1,True
+VIX 5d badla,+15%+,383,23.8,0.61,18.2,30.5,True
+VIX 5d badla,+5..15,918,37.4,0.96,24.5,48.6,False
+VIX 5d badla,-15%+,249,35.7,0.92,25.4,48.6,False
+VIX 5d badla,-5..-15,1104,39.0,1.01,31.1,46.3,False
+VIX 5d badla,flat,1867,42.8,1.1,35.2,50.1,False
+10d realised vol,beech,932,38.9,1.0,36.3,42.0,False
+10d realised vol,kam,936,51.4,1.33,48.6,53.1,True
+10d realised vol,sabse kam,936,60.6,1.56,60.6,60.6,True
+10d realised vol,sabse zyada,820,10.2,0.26,6.3,19.6,True
+10d realised vol,zyada,897,28.9,0.74,23.5,37.1,False
+NR7 (7 din ki sabse chhoti range),haan,711,39.5,1.02,27.8,50.1,False
+NR7 (7 din ki sabse chhoti range),nahi,3810,38.6,1.0,30.4,46.7,False
+Bollinger squeeze (20% sabse patla),haan,1067,45.3,1.17,34.0,57.5,False
+Bollinger squeeze (20% sabse patla),nahi,3454,36.8,0.95,28.6,44.3,False
+din,Fri,892,39.7,1.02,31.5,47.6,False
+din,Mon,905,38.9,1.0,30.9,46.6,False
+din,Thu,903,39.1,1.01,29.2,48.6,False
+din,Tue,910,37.9,0.98,29.2,46.3,False
+din,Wed,910,38.2,0.99,29.1,47.1,False
+expiry tak din,1-2,444,31.3,0.81,21.6,40.7,False
+expiry tak din,11+,2083,40.1,1.03,30.5,49.3,False
+expiry tak din,3-5,666,36.9,0.95,29.4,44.2,False
+expiry tak din,6-10,1106,42.0,1.08,34.7,49.0,False
+expiry tak din,expiry din,222,30.8,0.79,20.2,41.1,False
+tareekh,1-3,425,40.7,1.05,32.2,48.8,False
+tareekh,11-24,2094,39.9,1.03,33.0,46.6,False
+tareekh,25-31,941,33.6,0.87,22.8,44.0,False
+tareekh,4-10,1061,40.4,1.04,29.3,50.9,False
+aaj ki chaal,0.3-0.8,1542,43.3,1.12,34.0,50.4,False
+aaj ki chaal,0.8-1.5,1009,36.1,0.93,27.2,45.0,False
+aaj ki chaal,<0.3%,1299,46.0,1.19,38.8,52.0,False
+aaj ki chaal,>1.5%,671,18.5,0.48,15.2,25.0,True
+20 DMA se,+-1%,1362,42.6,1.1,32.8,49.9,False
+20 DMA se,+1..3,1256,50.5,1.3,45.4,54.6,True
+20 DMA se,+3%+,651,37.8,0.98,32.0,46.6,False
+20 DMA se,-1..-3,796,30.7,0.79,18.4,41.7,False
+20 DMA se,-3%+,456,10.7,0.28,8.4,15.8,True
+results season,haan,1765,40.4,1.04,31.0,49.1,False
+results season,nahi,2756,37.8,0.97,29.3,46.0,False
