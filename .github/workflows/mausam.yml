@@ -1,8 +1,11 @@
-name: weather-study
-# user 9 Nov 2026: mausam / toofan / barf / desh ke halaat vs bazaar (study/weather.py). Manual run.
-on: workflow_dispatch
+name: mausam-study
+on:
+  workflow_dispatch:
+    inputs:
+      note: { description: 'note', default: 'run' }
 permissions:
   contents: write
+concurrency: { group: mausam, cancel-in-progress: false }
 jobs:
   run:
     runs-on: ubuntu-latest
