@@ -318,14 +318,20 @@ def live(end_hm):
         tick = {'^NSEI': 'NIFTY', '^INDIAVIX': 'VIX'}
         tk = ['^NSEI', '^INDIAVIX'] + list(core.values()) + [f'{s}.NS' for s in watch]
         if not watch and hm >= '0931':  # one-time gap scan over all A stocks
-            allb = yf_5m([f'{s}.NS' for s in A])
+            allb = yf_5m([f'{s}.NS' for s in A], '5d')
             for t_, x in allb.items():
-                s = t_[:-3]
+                s = t_[:-3]; p0 = x[x.time.dt.date < day]
+                if len(p0): prev[s] = float(p0.close.iloc[-1])  # prev close from Yahoo itself (daily file can be stale)
+                x = x[x.time.dt.date == day].reset_index(drop=True)
                 if s in prev and len(x) and x.time.iloc[0].strftime('%H:%M') == '09:15':
                     g = (x.open.iloc[0] / prev[s] - 1) * 100
                     if g >= 1.5 or g <= -2: watch.add(s)
             print('gap watch', len(watch)); tk += [f'{s}.NS' for s in watch]
-        B = yf_5m(sorted(set(tk)))
+        B = yf_5m(sorted(set(tk)), '5d')
+        for t_, x in B.items():  # previous session close straight from the 5-min data (fix 9 Nov: daily robot had failed on 6 Nov)
+            p0 = x[x.time.dt.date < day]
+            if len(p0) and t_ not in ('^NSEI', '^INDIAVIX'): prev[t_[:-3]] = float(p0.close.iloc[-1])
+            if len(p0) and t_ == '^NSEI': nprev = float(p0.close.iloc[-1])
         N = B.pop('^NSEI', None); V = B.pop('^INDIAVIX', None)
         cut = pd.Timestamp(now.replace(tzinfo=None)) - pd.Timedelta(minutes=5)  # only finished candles
         N = N[N.time <= cut].reset_index(drop=True) if N is not None else None
