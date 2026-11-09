@@ -1,0 +1,40 @@
+AARTIDRUGS | Aarti Drugs
+AHLUCONT | Ahluwalia Contracts ()
+ANDHRSUGAR | The Andhra Sugars
+ASTEC | Astec LifeSciences
+BAJAJCON | Bajaj Consumer Care
+BANCOINDIA | Banco Products (I)
+BHAGERIA | Bhageria
+CHEMPLASTS | Chemplast Sanmar
+CONCORDBIO | Concord Biotech
+DIVISLAB | Divi's Laboratories
+EBGNG | GNG Electronics
+ENTERO | Entero Healthcare Solutions
+FINCABLES | Finolex Cables
+GUFICBIO | Gufic Biosciences
+HBLENGINE | HBL Engineering
+INDOBORAX | Indo Borax & Chemicals
+IOLCP | IOL Chemicals and Pharmaceuticals
+IRMENERGY | IRM Energy
+IVALUE | Ivalue Infosolutions
+JUBLFOOD | Jubilant Foodworks
+JYOTISTRUC | Jyoti Structures
+KPEL | K.P. Energy
+KPIGREEN | KPI Green Energy
+OMNI | Omnitech Engineering
+RAIN | Rain
+REPCOHOME | Repco Home Finance
+RPTECH | Rashi Peripherals
+SALZERELEC | Salzer Electronics
+SAMHI | Samhi Hotels
+SCODATUBES | Scoda Tubes
+SETL | Standard Engineering Technology
+SOUTHWEST | South West Pinnacle Exploration
+SPMLINFRA | SPML Infra
+STLNETWORK | STL Networks
+SUPRIYA | Supriya Lifescience
+SURYAROSNI | Surya Roshni
+THELEELA | Leela Palaces Hotels & Resorts
+TIMETECHNO | Time Technoplast
+WSTCSTPAPR | West Coast Paper Mills
+ZEEL | Zee Entertainment Enterprises
