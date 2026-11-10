@@ -128,6 +128,13 @@ try:  # f72 world: US VIX>30 -> S&P 6 months +13% (83% up); gold/silver ratio z>
     if gz <= -1.5: modes.append(f'🥇 Gold/Silver ratio z {gz:.1f} (f72): चाँदी महँगी → चाँदी की जगह सोना')
 except Exception:
     pass
+try:  # f84: monthly ROC(18) of Sensex. -10..+10 -> next 12 months +20% (89% up, both halves); 45+ -> weak in recent half / S&P
+    _sx = pd.read_csv(os.path.join(R, 'data', 'global', 'IN_SENSEX.csv'), parse_dates=['date']).set_index('date').close.dropna().resample('ME').last()
+    _roc = (_sx.iloc[-1] / _sx.iloc[-19] - 1) * 100
+    if -10 <= _roc <= 10: modes.append(f'🟢 Sensex 18-महीने ROC {_roc:+.0f}% (−10..+10 = लंबी खरीद का अच्छा zone: इतिहास में अगले 12 महीने औसत +20%, 89% बार ऊपर, f84) → core/ETF किश्तें जारी')
+    elif _roc >= 45: modes.append(f'🟠 Sensex 18-महीने ROC {_roc:+.0f}% (45+ = बहुत गरम: हाल के दौर में अगले 12 महीने ~0, f84) → नई लंबी खरीद कम, मुनाफ़ा बुक')
+except Exception:
+    pass
 if not modes: modes.append('😐 शांत mode: न तेज़ी का धक्का, न घबराहट — core लंबा (d06) + Connors/breakout सूची + dividend')
 w('\n'.join(f'- {x}' for x in modes))
 w(f'- Breadth (गहरे dip वाले शेयर) {br:.1f}%; पिछले 5: ' + ', '.join(f'{x * 100:.0f}%' for x in bh.breadth.iloc[-5:]))
