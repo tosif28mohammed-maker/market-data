@@ -35,7 +35,7 @@
   - WSTCSTPAPR: 1H+2H+3H+4H | भाव 705.0 | बेच (MA) ~800.13 | 52w +56%
   - INDOBORAX: 1H+2H+3H+4H | भाव 375.7 | बेच (MA) ~421.92 | 52w +53%
   - KINGFA: 1H+2H+3H+4H | भाव 6166.0 | बेच (MA) ~6645.2 | 52w +37%
-- ज़ोन के पास (2% के अंदर) — यहाँ LIMIT BUY लगा सकते हो: AEROFLEX 4H SMA20 @484.36; VADILALIND 1H SMA50 @7029.76; MWL 4H EMA10 @38.04; UNIVCABLES 1H SMA50 @1129.27; NRBBEARING 4H EMA10 @433.12; REDINGTON 1H EMA50 @328.18; KOLTEPATIL 1H EMA50 @442.72; CASTROLIND 4H EMA10 @190.22; SEAMECLTD 4H SMA20 @1521.71; SUPRAJIT 1H EMA50 @462.55
+- ज़ोन के पास (2% के अंदर) — यहाँ LIMIT BUY लगा सकते हो: UNIVCABLES 1H SMA50 @1129.88; VADILALIND 1H SMA50 @7031.29; NRBBEARING 4H EMA10 @433.4; REDINGTON 1H EMA50 @328.28; KOLTEPATIL 1H EMA50 @442.8; CASTROLIND 4H EMA10 @190.25; SEAMECLTD 4H SMA20 @1522.96; MWL 1H EMA50 @37.92; SUPRAJIT 1H EMA50 @462.6; UFBL 4H EMA10 @526.66
 - नियम: 4H SMA20 और 1H EMA50 पक्के (2021-26 + Nov23 दोनों में); 2H/3H अभी जाँच बाकी. बेच = उस MA पर, या 20 कारोबारी दिन; stop -8%. MA को ऊपर पार करना (cross) = फेल, उस पर नहीं खरीदना.
 
 ## 3c. Option / Future — सिर्फ़ सुरक्षित (defined-risk)

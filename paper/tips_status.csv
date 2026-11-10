@@ -1,5 +1,5 @@
 id,source,instrument,date,entry,target,sl,my_verdict,result,exit_date,exit_price,ret_pct,last,open_pct
-T001,Angel One research,INDIGO 23-NOV-26 5100 CE,2026-11-04 11:42,157.5,190.0,115.0,SKIP,SL,2026-11-04,115.0,-27.0,399.9,
+T001,Angel One research,INDIGO 23-NOV-26 5100 CE,2026-11-04 11:42,157.5,190.0,115.0,SKIP,SL,2026-11-04,115.0,-27.0,374.55,
 T002,Moneycontrol (Manish Shah),GMRAIRPORT,2026-11-04 13:25,94.5,101.0,89.5,SKIP,OPEN,,,,99.4000015258789,5.2
 T003,Moneycontrol (Weekend Investing),MARICO,2026-11-04 11:22,888.5,1000.0,850.0,WAIT,OPEN,,,,902.0,1.5
 T004,Moneycontrol (BK Training),CROMPTON,2026-11-04 09:43,204.0,210.0,195.0,SKIP,TARGET,2026-11-06,210.0,2.9,218.89999389648438,
