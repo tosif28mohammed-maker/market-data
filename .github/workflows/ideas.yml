@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       n: { description: 'new ideas this run', default: '150' }
+      focus: { description: 'families every idea must include (comma)', default: '' }
 permissions:
   contents: write
 concurrency: { group: ideas, cancel-in-progress: false }
@@ -21,7 +22,7 @@ jobs:
         with: { python-version: '3.11' }
       - run: pip install pandas numpy
       - run: python study/idea_factory.py
-        env: { U500: "${{ github.workspace }}/u500", NI_CACHE: "/tmp/ni_panel.pkl", IDEAS_N: "${{ github.event.inputs.n || '150' }}", PYTHONUNBUFFERED: '1' }
+        env: { U500: "${{ github.workspace }}/u500", NI_CACHE: "/tmp/ni_panel.pkl", IDEAS_N: "${{ github.event.inputs.n || '150' }}", IDEAS_FOCUS: "${{ github.event.inputs.focus }}", PYTHONUNBUFFERED: '1' }
       - run: python scripts/seasonal_table.py || echo 'seasonal failed'
         env: { U500: "${{ github.workspace }}/u500", NI_CACHE: "/tmp/ni_panel.pkl" }
       - if: always()

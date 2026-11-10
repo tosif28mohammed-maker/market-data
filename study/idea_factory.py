@@ -66,7 +66,24 @@ COND = {  # name: (family, bool frame)
     'bazaar 5 din -4%': ('mkt', rowb((mk_lvl / mk_lvl.shift(5) - 1) <= -0.04)), 'bazaar 10 din +5%': ('mkt', rowb((mk_lvl / mk_lvl.shift(10) - 1) >= 0.05)),
     'breadth < 30% (ghabrahat)': ('mkt', rowb(breadth < 0.3)), 'breadth > 70%': ('mkt', rowb(breadth > 0.7)),
 }
+# ---- season conditions (user OK 10 Nov 2026): ritu, month's first week, share's own month (f79, f81, f82) — all known at the close ----
+_md = idx.month * 100 + idx.day
+_rit = np.where((_md >= 315) & (_md < 515), 0, np.where((_md >= 515) & (_md < 715), 1, np.where((_md >= 715) & (_md < 915), 2,
+        np.where((_md >= 915) & (_md < 1115), 3, np.where((_md >= 1115) | (_md < 115), 4, 5)))))
+for _k, _n in enumerate(['Vasant', 'Grishma', 'Varsha', 'Sharad', 'Hemant', 'Shishir']):
+    COND[f'ritu {_n}'] = ('ritu', rowb(pd.Series(_rit == _k, index=idx)))
+_ym = pd.Series(idx.year * 100 + idx.month, index=idx); _dn = _ym.groupby(_ym).cumcount()  # trading day number in month (0-based)
+_w1 = (1 + mkt.fillna(0)).groupby(_ym).cumprod().where(_dn == 4).groupby(_ym).transform('max') - 1  # first-5-day return of that month
+COND['mahine ka pehla hafta upar (5ve din ke baad)'] = ('mstart', rowb((_w1 > 0) & (_dn >= 4)))
+COND['mahine ka pehla hafta neeche (5ve din ke baad)'] = ('mstart', rowb((_w1 <= 0) & (_dn >= 4)))
+_M = A.resample('ME').last(); _mr = _M.pct_change(fill_method=None).clip(-0.6, 1.5); _mr = _mr.sub(_mr.mean(axis=1), axis=0)
+_own = sum(_mr.shift(12 * k) for k in range(1, 6)) / 5          # avg of the SAME calendar month in the previous 5 years (past only)
+_ork = _own.rank(axis=1, pct=True); _ork.index = _ork.index.year * 100 + _ork.index.month
+_ork_d = _ork.reindex(_ym.values); _ork_d.index = idx
+COND['apna mahina top 10% (pichhle 5 saal isi mahine)'] = ('ownmonth', _ork_d >= 0.9)
+COND['apna mahina neeche 10%'] = ('ownmonth', _ork_d <= 0.1)
 COND = {k: (f, m.fillna(False).values) for k, (f, m) in COND.items()}
+FOCUS = [f for f in os.environ.get('IDEAS_FOCUS', '').split(',') if f]
 valid = (A.notna() & ((H - L) > 0.002 * C)).values  # circuit-locked days (H=L) cannot be bought -> excluded (fake +5%/5d found in run 1)
 NAMED = {
     'EXPERT: Minervini trend template': ['200 DMA ke upar', '50 DMA > 200 DMA', '200 DMA chadh rahi', '52w high ke 5% paas', '1 saal top 20%'],
@@ -78,6 +95,10 @@ NAMED = {
     'EXPERT: Pocket pivot type (volume + trend)': ['50 DMA ke upar', 'volume 3x', 'close din ke top 10% par'],
     'EXPERT: Connors 3 din gira, uptrend': ['200 DMA ke upar', '3 din lagatar gira'],
     'EXPERT: Bollinger/NR7 squeeze breakout': ['NR7', '20 din breakout'],
+    'MAUSAM: apna mahina top 10% (akela)': ['apna mahina top 10% (pichhle 5 saal isi mahine)'],
+    'MAUSAM: apna mahina top + 200 DMA upar': ['apna mahina top 10% (pichhle 5 saal isi mahine)', '200 DMA ke upar'],
+    'MAUSAM: apna mahina top + 12-1 momentum': ['apna mahina top 10% (pichhle 5 saal isi mahine)', '12-1 momentum top 10%'],
+    'MAUSAM: apna mahina neeche 10% (akela)': ['apna mahina neeche 10%'],
 }
 
 fwd = {}
@@ -132,9 +153,10 @@ for nm, conds in NAMED.items():
 rng_ = np.random.default_rng(1000 + run_no)
 names = list(COND); fams = {n: COND[n][0] for n in names}
 tries = 0
-while len([t for t in todo if not t[0].startswith('EXPERT')]) < NEW_PER_RUN and tries < 20000:
+while len([t for t in todo if t[0].startswith('NEW')]) < NEW_PER_RUN and tries < 20000:
     tries += 1; k_ = int(rng_.choice([2, 3], p=[0.6, 0.4])); pick = list(rng_.choice(names, k_, replace=False))
     if len({fams[p] for p in pick}) < k_: continue
+    if FOCUS and not any(fams[p] in FOCUS for p in pick): continue
     key = ' & '.join(sorted(pick))
     if key in done or key in {' & '.join(sorted(c)) for _, c in todo}: continue
     todo.append((f'NEW #{run_no}-{len(todo) + 1}', pick))
@@ -160,7 +182,7 @@ for title, df in (('## Is run ke PASS', new[new.verdict.str.startswith('PASS')])
     for x in df.sort_values('hold20', ascending=False).itertuples():
         L.append(f'- **{x.name}**: {x.key} → {x.verdict}; 2017-26: 5 din {x.hold5:+.2f}% (t {x.hold5_t}), 20 din {x.hold20:+.2f}% (t {x.hold20_t}); roz ~{x.per_day} shares; daur {x.eras}')
     L.append('')
-ex = new[new.name.str.startswith('EXPERT')]
+ex = new[new.name.str.startswith(('EXPERT', 'MAUSAM'))]
 if len(ex):
     L.append('## Mashhoor experts ki public strategies (pehli baar jaanchi)')
     for x in ex.itertuples(): L.append(f'- {x.name} ({x.key}): {x.verdict}; 2017-26 5d {x.hold5:+.2f}% / 20d {x.hold20:+.2f}%')
