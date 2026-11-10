@@ -98,8 +98,8 @@ for s in AB:
     if s in COLD:
         sc -= 1; why.append(f'⚠️ industry ({IND.get(s, "")}) sabse kamzor 20% mein — aisi industry ke shares baazaar se ~0.8%/mahina peeche (f73)')
     sm = SEAS.get(s)
-    if sm is not None and sm[0] >= 0.9: sc += 1; fam.add('seasonal'); why.append(f'is mahine ka apna mausam: pichhle 5 saal isi mahine bazaar se ausat {sm[1]:+.1f}%, {sm[2]}/5 saal upar (f81)')
-    if sm is not None and sm[0] <= 0.1: sc -= 1; why.append(f'⚠️ is mahine ye share aam taur par kamzor (5 saal ausat {sm[1]:+.1f}%, f81)')
+    if sm is not None and sm[0] >= 0.9: why.append('(sirf jaankari, score nahi: kharcha ke baad 2017-26 mein +0.3..0.5%/m, t<2) ' + f'is mahine ka apna mausam: pichhle 5 saal isi mahine bazaar se ausat {sm[1]:+.1f}%, {sm[2]}/5 saal upar (f81)')
+    if sm is not None and sm[0] <= 0.1: sc -= 1; why.append(f'⚠️ is mahine ye share aam taur par kamzor (5 saal ausat {sm[1]:+.1f}%; aise shares har daur mein bazaar se 0.4-1%/mahina peeche, f81)')
     if sc <= 0: continue
     res = soon.get(s)
     px = float(c[s].iloc[-1])
