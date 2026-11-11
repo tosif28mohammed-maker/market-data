@@ -1,25 +1,21 @@
 {
- "last": "2026-11-09",
- "open": [
+ "last": "2026-11-11",
+ "open": [],
+ "pending": [
   {
-   "id": "T00532",
+   "id": "T00547",
    "strategy": "EQ_FOCUS",
-   "symbol": "FACT",
+   "symbol": "V2RETAIL",
    "side": "Buy",
-   "qty": 132,
-   "signal_date": "2026-11-06",
-   "sl": 668.0,
-   "target": 759.09,
-   "note": "HMA 6: दूरी -2.7% (सीमा -2.5%); 2021-26 जीत 68%; RSI 56; MACD ऊपर; BB %B 0.80; 50 SMA नीचे, 200 SMA नीचे; 52w high से -29%; support 658.8 / resistance 795.0, volume 0.3x",
-   "entry_date": "2026-11-09",
-   "entry_price": 752.9,
-   "days": 1,
-   "mark": -594.0
+   "qty": 0,
+   "signal_date": "2026-11-11",
+   "sl": 147.4,
+   "target": 186.14,
+   "note": "HMA 2: दूरी -2.3% (सीमा -1.5%); 2021-26 जीत 65%; RSI 56; MACD ऊपर; BB %B 1.00; 50 SMA नीचे, 200 SMA नीचे; 52w high से -30%; support 145.3 / resistance 184.6, volume 2.9x"
   }
  ],
- "pending": [],
- "seq": 545,
- "gap_last": "2026-11-09",
- "usfade_last_BANKNIFTY": "2026-11-09",
- "usfade_last_NIFTY": "2026-11-09"
+ "seq": 552,
+ "gap_last": "2026-11-11",
+ "usfade_last_BANKNIFTY": "2026-11-11",
+ "usfade_last_NIFTY": "2026-11-11"
 }

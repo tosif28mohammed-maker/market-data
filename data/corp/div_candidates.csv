@@ -1,2 +1,1 @@
 symbol,company,subject,div_rs,last_close,yield_pct,ex_date,record_date,tdays_to_ex,buy_from,sell_on_cum,liq_D,src,stop,rule
-ONGC,Oil & Natural Gas Corporation Limited,Interim Dividend - Rs 8 Per Share,8.0,233.5,3.43,12-Nov-2026,12-Nov-2026,2,2026-11-03,2026-11-11,False,NSE,219.49,f64 (2-4%)

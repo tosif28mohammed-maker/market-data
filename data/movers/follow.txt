@@ -1,40 +1,77 @@
 AARTIDRUGS | Aarti Drugs
+AGARIND | Agarwal Industrial
 AHLUCONT | Ahluwalia Contracts ()
+ALEMBICLTD | Alembic
 ANDHRSUGAR | The Andhra Sugars
+ANTELOPUS | Antelopus Selan Energy
+APOLLO | Apollo Micro Systems
+ASHOKA | Ashoka Buildcon
 ASTEC | Astec LifeSciences
+AVALON | Avalon Technologies
+AVANTEL | Avantel
 BAJAJCON | Bajaj Consumer Care
+BALAJITELE | Balaji Telefilms
+BALMLAWRIE | Balmer Lawrie
 BANCOINDIA | Banco Products (I)
+BANSALWIRE | Bansal Wire
 BHAGERIA | Bhageria
 CHEMPLASTS | Chemplast Sanmar
+CNL | Creative Newtech
+COCHINSHIP | Cochin Shipyard
 CONCORDBIO | Concord Biotech
+CORONA | CORONA Remedies
 DIVISLAB | Divi's Laboratories
 EBGNG | GNG Electronics
 ENTERO | Entero Healthcare Solutions
+FACT | Fertilizers and Chemicals Travancore
 FINCABLES | Finolex Cables
+GALLANTT | Gallantt Ispat
 GUFICBIO | Gufic Biosciences
 HBLENGINE | HBL Engineering
+HCG | Healthcare Global Enterprises
+HINDOILEXP | Hindustan Oil Exploration
+HIRECT | Hirect
+HUBTOWN | Hubtown
 INDOBORAX | Indo Borax & Chemicals
 IOLCP | IOL Chemicals and Pharmaceuticals
 IRMENERGY | IRM Energy
 IVALUE | Ivalue Infosolutions
+IZMO | IZMO
+JSLL | Jeena Sikho Lifecare
 JUBLFOOD | Jubilant Foodworks
 JYOTISTRUC | Jyoti Structures
+KALYANKJIL | Kalyan Jewellers
 KPEL | K.P. Energy
 KPIGREEN | KPI Green Energy
+KRISHANA | Krishana Phoschem
+MENONBE | Menon Bearings
+MMFL | MM Forgings
+MSTCLTD | Mstc
+NELCAST | Nelcast
 OMNI | Omnitech Engineering
+PFOCUS | Prime Focus
+PRIVISCL | Privi Speciality Chemicals
 RAIN | Rain
 REPCOHOME | Repco Home Finance
 RPTECH | Rashi Peripherals
+SALASAR | Salasar Techno Engineering
 SALZERELEC | Salzer Electronics
 SAMHI | Samhi Hotels
 SCODATUBES | Scoda Tubes
 SETL | Standard Engineering Technology
+SHAKTIPUMP | Shakti Pumps ()
 SOUTHWEST | South West Pinnacle Exploration
 SPMLINFRA | SPML Infra
 STLNETWORK | STL Networks
+STOVEKRAFT | Stove Kraft
+SUDARSCHEM | Sudarshan Chemical
 SUPRIYA | Supriya Lifescience
 SURYAROSNI | Surya Roshni
+TCPLPACK | TCPL Packaging
 THELEELA | Leela Palaces Hotels & Resorts
 TIMETECHNO | Time Technoplast
+VERANDA | Veranda Learning Solutions
+VIDYAWIRES | Vidya Wires
+VIJAYA | Vijaya Diagnostic Centre
 WSTCSTPAPR | West Coast Paper Mills
 ZEEL | Zee Entertainment Enterprises
