@@ -2,21 +2,22 @@
 
 Asli paisa nahi. Stocks kharcha 0.1%, options Rs 60/leg + 0.5 pt. Option bhaav andaza (BS + VIX).
 
-## LIVE (asli din, robot ne us din chalaya): 2 din
+## LIVE (asli din, robot ne us din chalaya): 3 din
 ```
            trades  win_pct  total_rs   avg_rs  avg_R
 strat                                               
 GAPBOUNCE       2       50    1834.0   917.00   0.96
-GAPFADE         1        0   -1064.0 -1064.00  -1.00
-TRENDDAY        1      100    1353.0  1353.00   1.45
-KUL             4       50    2123.0   530.75   0.59
+GAPFADE         2       50    -701.0  -350.50  -0.30
+TRENDDAY        2      100    1622.0   811.00   0.90
+USNIGHT         1      100    2079.0  2079.00   0.17
+KUL             7       71    4834.0   690.57   0.47
 ```
 Galtiyon ki ginti:
 ```
 lesson
-Nifty ulti disha mein chala                                      1
+Nifty ulti disha mein chala                                      2
+din bhar kuch nahi hua = setup kamzor                            2
 target ke 75% tak gaya phir palta = trailing stop chahiye tha    1
-din bhar kuch nahi hua = setup kamzor                            1
 ```
 ## REPLAY (pichhle data par wahi niyam — shuruaati andaza): 55 din
 ```
@@ -36,6 +37,8 @@ Nifty ulti disha mein chala                                      12
 stop 15 min mein = entry jaldi/galat jagah                        9
 target ke 75% tak gaya phir palta = trailing stop chahiye tha     8
 ```
-## Aakhri din 2026-11-11
+## Aakhri din 2026-11-12
 
-- GAPBOUNCE HIRECT 09:30->15:10 TIME: Rs -106 (-0.08R). gap -5.0%, pehle 15 min hara, Nifty gap +1.17%. Seekh: Nifty ulti disha mein chala; target ke 75% tak gaya phir palta = trailing stop chahiye tha; din bhar kuch nahi hua = setup kamzor
+- GAPFADE HINDCOPPER 09:30->15:10 TIME: Rs +363 (+0.40R). gap +5.8%, pehle 15 min laal, Nifty gap -0.16%. 
+- USNIGHT NIFTY 25300PE 17Nov 09:20->12:15 TIME: Rs +2,079 (+0.17R). S&P raat +1.3% -> India subah kamzor (f54). Seekh: din bhar kuch nahi hua = setup kamzor
+- TRENDDAY BAJFINANCE 10:20->15:10 TIME: Rs +269 (+0.36R). 10:15 tak Nifty +0.55%, 70% core shares open se upar; sabse mazboot BAJFINANCE +2.9%. Seekh: Nifty ulti disha mein chala
