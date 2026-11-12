@@ -1,40 +1,31 @@
 symbol,company,subject,div_rs,last_close,yield_pct,ex_date,record_date,tdays_to_ex,buy_from,sell_on_cum,liq_D,src
-BAYERCROP,Bayer Cropscience Limited,Interim Dividend - Rs 90 Per Share,90.0,3603.8,2.5,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-HINDUNILVR,Hindustan Unilever Limited,Interim Dividend - Rs 19 Per Share,19.0,2022.4,0.94,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-NLCINDIA,NLC India Limited,Interim Dividend - Rs 1.50 Per Share,1.5,248.73,0.6,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-IRB,IRB Infrastructure Developers Limited,Interim Dividend - Re 0.05 Per Share,0.05,18.76,0.27,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-INSECTICID,Insecticides (India) Limited,Interim Dividend - Rs 5 Per Share,5.0,545.25,0.92,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-IMFA,Indian Metals & Ferro Alloys Limited,Interim Dividend - Rs 5 Per Share,5.0,1120.7,0.45,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-ONGC,Oil & Natural Gas Corporation Limited,Interim Dividend - Rs 8 Per Share,8.0,234.8,3.41,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-GPTHEALTH,GPT Healthcare Limited,Interim Dividend - Re 1 Per Share,1.0,144.06,0.69,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-GPPL,Gujarat Pipavav Port Limited,Interim Dividend - Rs 3 Per Share,3.0,169.83,1.77,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-GODFRYPHLP,Godfrey Phillips India Limited,Interim Dividend - Rs 10 Per Share,10.0,1820.5,0.55,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-GAJA,Gaja Alternative Asset Management Limited,Interim Dividend - Re 0.50 Per Share,0.5,,,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-CITIUSINVT,Citius TransNet Investment Trust,Distribution - Rs 5.0185 Per Unit Consists Of Rs 2.4686 Per Unit As Interest/ Re 0.0213 Per Unit As Repayment Of Debt/ Rs 0.6943 Per Unit As Dividend/ Rs 1.8343 Per Unit As Other Income,10.037,,,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-SAFARI,Safari Industries (India) Limited,Interim Dividend - Rs 2 Per Share,2.0,1306.7,0.15,12-Nov-2026,12-Nov-2026,1,2026-11-03,2026-11-11,False,NSE
-PGIL,Pearl Global Industries Limited,Interim Dividend - Rs 5 Per Share,5.0,1391.8,0.36,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-TRANSWORLD,TRANSWORLD SHIPPING LINES LIMITED,Interim Dividend - Rs 11 Per Share,11.0,,,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-STARCEMENT,Star Cement Limited,Interim Dividend - Re 1 Per Share,1.0,174.99,0.57,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-SOMANYCERA,Somany Ceramics Limited,Interim Dividend - Rs 6 Per Share,6.0,549.35,1.09,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-SBCL,Shivalik Bimetal Controls Limited,Interim Dividend - Rs 2 Per Share,2.0,1044.1,0.19,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-REPCOHOME,Repco Home Finance Limited,Interim Dividend - Rs 5 Per Share,5.0,395.1,1.27,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-RAIN,Rain Industries Limited,Interim Dividend - Re 0.50 Per Share,0.5,167.4,0.3,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-PRECWIRE,Precision Wires India Limited,Interim Dividend - Re 0.35 Per Share,0.35,408.7,0.09,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-PPAP,PPAP Automotive Limited,Interim Dividend - Rs 1.50 Per Share,1.5,,,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-ORIENTTECH,Orient Technologies Limited,Interim Dividend - Rs 2 Per Share,2.0,208.03,0.96,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-GESHIP,The Great Eastern Shipping Company Limited,Interim Dividend - Rs 14.40 Per Share,14.4,1435.3,1.0,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-IGPL,IG Petrochemicals Limited,Interim Dividend - Rs 10 Per Share,10.0,586.05,1.71,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-GOLDIAM,Goldiam International Limited,Interim Dividend - Rs 2 Per Share,2.0,317.15,0.63,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-EMAMILTD,Emami Limited,Interim Dividend - Rs 5 Per Share,5.0,410.95,1.22,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-DYNAMATECH,Dynamatic Technologies Limited,Interim Dividend - Rs 2 Per Share,2.0,12816.0,0.02,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-CAMS,Computer Age Management Services Limited,Interim Dividend - Rs 3.25 Per Share,3.25,723.5,0.45,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-BMWVENTLTD,BMW Ventures Limited,Interim Dividend - Rs 1.50 Per Share,1.5,,,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-ASTRAL,Astral Limited,Interim Dividend - Rs 1.50 Per Share,1.5,1276.0,0.12,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-APTUS,Aptus Value Housing Finance India Limited,Interim Dividend - Rs 2 Per Share,2.0,175.62,1.14,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-OCCLLTD,OCCL Limited,Interim Dividend - Rs 2 Per Share,2.0,,,13-Nov-2026,13-Nov-2026,2,2026-11-04,2026-11-12,False,NSE
-COCHINSHIP,Cochin Shipyard Limited,Interim Dividend - Rs 3 Per Share,3.0,1202.0,0.25,16-Nov-2026,16-Nov-2026,3,2026-11-05,2026-11-13,False,NSE
-SCI,Shipping Corporation Of India Limited,Interim Dividend - Rs 4 Per Share,4.0,266.68,1.5,16-Nov-2026,16-Nov-2026,3,2026-11-05,2026-11-13,False,NSE
-MRF,MRF Limited,Interim Dividend - Rs 3 Per Share,3.0,127125.0,0.0,17-Nov-2026,17-Nov-2026,4,2026-11-06,2026-11-16,False,NSE
-PFC,Power Finance Corporation Limited,Interim Dividend - Rs 4.10 Per Share,4.1,344.45,1.19,17-Nov-2026,17-Nov-2026,4,2026-11-06,2026-11-16,False,NSE
-INGERRAND,Ingersoll Rand (India) Limited,Interim Dividend - Rs 20 Per Share,20.0,4131.2,0.48,19-Nov-2026,19-Nov-2026,6,2026-11-11,2026-11-18,False,NSE
-VENUSPIPES,Venus Pipes & Tubes Limited,Interim Dividend - Re 0.50 Per Share,0.5,1844.7,0.03,20-Nov-2026,20-Nov-2026,7,2026-11-12,2026-11-19,False,NSE
+RAIN,Rain Industries Limited,Interim Dividend - Re 0.50 Per Share,0.5,166.47,0.3,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+REPCOHOME,Repco Home Finance Limited,Interim Dividend - Rs 5 Per Share,5.0,389.55,1.28,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+PRECWIRE,Precision Wires India Limited,Interim Dividend - Re 0.35 Per Share,0.35,401.95,0.09,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+PPAP,PPAP Automotive Limited,Interim Dividend - Rs 1.50 Per Share,1.5,,,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+PGIL,Pearl Global Industries Limited,Interim Dividend - Rs 5 Per Share,5.0,1375.2,0.36,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+ORIENTTECH,Orient Technologies Limited,Interim Dividend - Rs 2 Per Share,2.0,214.61,0.93,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+OCCLLTD,OCCL Limited,Interim Dividend - Rs 2 Per Share,2.0,,,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+MAFATIND,Mafatlal Industries Limited,Interim Dividend - Re 1 Per Share,1.0,,,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+IGPL,IG Petrochemicals Limited,Interim Dividend - Rs 10 Per Share,10.0,581.7,1.72,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+GESHIP,The Great Eastern Shipping Company Limited,Interim Dividend - Rs 14.40 Per Share,14.4,1449.5,0.99,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+EMAMILTD,Emami Limited,Interim Dividend - Rs 5 Per Share,5.0,412.65,1.21,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+GOLDIAM,Goldiam International Limited,Interim Dividend - Rs 2 Per Share,2.0,318.75,0.63,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+CAMS,Computer Age Management Services Limited,Interim Dividend - Rs 3.25 Per Share,3.25,743.0,0.44,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+PREMCO,Premco Global Limited,Interim Dividend - Rs 10 Per Share,10.0,,,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+SBCL,Shivalik Bimetal Controls Limited,Interim Dividend - Rs 2 Per Share,2.0,1036.7,0.19,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+DYNAMATECH,Dynamatic Technologies Limited,Interim Dividend - Rs 2 Per Share,2.0,13202.0,0.02,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+STARCEMENT,Star Cement Limited,Interim Dividend - Re 1 Per Share,1.0,176.21,0.57,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+TAALTECH,Taal Tech Limited,Interim Dividend - Rs 5 Per Share,5.0,,,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+SOMANYCERA,Somany Ceramics Limited,Interim Dividend - Rs 6 Per Share,6.0,541.8,1.11,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+APTUS,Aptus Value Housing Finance India Limited,Interim Dividend - Rs 2 Per Share,2.0,176.15,1.14,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+ASTRAL,Astral Limited,Interim Dividend - Rs 1.50 Per Share,1.5,1275.0,0.12,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+BMWVENTLTD,BMW Ventures Limited,Interim Dividend - Rs 1.50 Per Share,1.5,,,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+TRANSWORLD,TRANSWORLD SHIPPING LINES LIMITED,Interim Dividend - Rs 11 Per Share,11.0,,,13-Nov-2026,13-Nov-2026,1,2026-11-04,2026-11-12,False,NSE
+COCHINSHIP,Cochin Shipyard Limited,Interim Dividend - Rs 3 Per Share,3.0,1196.0,0.25,16-Nov-2026,16-Nov-2026,2,2026-11-05,2026-11-13,False,NSE
+SCI,Shipping Corporation Of India Limited,Interim Dividend - Rs 4 Per Share,4.0,269.18,1.49,16-Nov-2026,16-Nov-2026,2,2026-11-05,2026-11-13,False,NSE
+PFC,Power Finance Corporation Limited,Interim Dividend - Rs 4.10 Per Share,4.1,339.0,1.21,17-Nov-2026,17-Nov-2026,3,2026-11-06,2026-11-16,False,NSE
+MRF,MRF Limited,Interim Dividend - Rs 3 Per Share,3.0,128600.0,0.0,17-Nov-2026,17-Nov-2026,3,2026-11-06,2026-11-16,False,NSE
+INGERRAND,Ingersoll Rand (India) Limited,Interim Dividend - Rs 20 Per Share,20.0,4014.5,0.5,19-Nov-2026,19-Nov-2026,5,2026-11-11,2026-11-18,False,NSE
+VENUSPIPES,Venus Pipes & Tubes Limited,Interim Dividend - Re 0.50 Per Share,0.5,1880.2,0.03,20-Nov-2026,20-Nov-2026,6,2026-11-12,2026-11-19,False,NSE
+PASHUPATI,Pashupati Cotspin Limited,Interim Dividend - Re 0.02 Per Share,0.02,,,23-Nov-2026,23-Nov-2026,7,2026-11-13,2026-11-20,True,NSE

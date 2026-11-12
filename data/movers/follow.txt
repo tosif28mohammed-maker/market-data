@@ -1,4 +1,6 @@
 AARTIDRUGS | Aarti Drugs
+AARTIPHARM | Aarti Pharmalabs
+ABREL | Aditya Birla Real Estate
 AGARIND | Agarwal Industrial
 AHLUCONT | Ahluwalia Contracts ()
 ALEMBICLTD | Alembic
@@ -9,67 +11,101 @@ ASHOKA | Ashoka Buildcon
 ASTEC | Astec LifeSciences
 AVALON | Avalon Technologies
 AVANTEL | Avantel
+AVANTIFEED | Avanti Feeds
 BAJAJCON | Bajaj Consumer Care
 BALAJITELE | Balaji Telefilms
 BALMLAWRIE | Balmer Lawrie
 BANCOINDIA | Banco Products (I)
 BANSALWIRE | Bansal Wire
+BAYERCROP | Bayer Cropscience
+BDL | Bharat Dynamics
 BHAGERIA | Bhageria
+BLKASHYAP | B. L. Kashyap and Sons
+CANHLIFE | Canara HSBC Life Insurance
+CAPLIPOINT | Caplin Point Laboratories
+CCAVENUE | AvenuesAI
 CHEMPLASTS | Chemplast Sanmar
 CNL | Creative Newtech
 COCHINSHIP | Cochin Shipyard
 CONCORDBIO | Concord Biotech
 CORONA | CORONA Remedies
+CUPID | Cupid
+DCXINDIA | DCX Systems
 DIVISLAB | Divi's Laboratories
 EBGNG | GNG Electronics
 ENTERO | Entero Healthcare Solutions
 FACT | Fertilizers and Chemicals Travancore
 FINCABLES | Finolex Cables
+GABRIEL | Gabriel
 GALLANTT | Gallantt Ispat
+GODREJIND | Godrej
 GUFICBIO | Gufic Biosciences
 HBLENGINE | HBL Engineering
 HCG | Healthcare Global Enterprises
 HINDOILEXP | Hindustan Oil Exploration
+HINDWAREAP | Hindware Home Innovation
 HIRECT | Hirect
 HUBTOWN | Hubtown
+INDGN | Indegene
+INDNIPPON | Nippon Electricals
 INDOBORAX | Indo Borax & Chemicals
 IOLCP | IOL Chemicals and Pharmaceuticals
 IRMENERGY | IRM Energy
 IVALUE | Ivalue Infosolutions
 IZMO | IZMO
+JARO | Jaro Institute of Technology Management and Research
 JSLL | Jeena Sikho Lifecare
 JUBLFOOD | Jubilant Foodworks
 JYOTISTRUC | Jyoti Structures
+KABRAEXTRU | Kabra Extrusion Technik
 KALYANKJIL | Kalyan Jewellers
+KIRLOSIND | Kirloskar
+KMEW | Knowledge Marine & Engineering Works
 KPEL | K.P. Energy
 KPIGREEN | KPI Green Energy
 KRISHANA | Krishana Phoschem
 MENONBE | Menon Bearings
 MMFL | MM Forgings
 MSTCLTD | Mstc
+MUKANDLTD | Mukand
 NELCAST | Nelcast
 OMNI | Omnitech Engineering
+ONGC | Oil & Natural Gas
+PAGEIND | Page
 PFOCUS | Prime Focus
+POLICYBZR | PB Fintech
+PREMEXPLN | Premier Explosives
 PRIVISCL | Privi Speciality Chemicals
 RAIN | Rain
+RANEHOLDIN | Rane Holdings
+RAYMONDREL | Raymond Realty
 REPCOHOME | Repco Home Finance
+ROTO | Roto Pumps
 RPTECH | Rashi Peripherals
 SALASAR | Salasar Techno Engineering
 SALZERELEC | Salzer Electronics
 SAMHI | Samhi Hotels
+SANGHVIMOV | Sanghvi Movers
 SCODATUBES | Scoda Tubes
+SEPC | SEPC
 SETL | Standard Engineering Technology
 SHAKTIPUMP | Shakti Pumps ()
+SHREEPUSHK | Shree Pushkar Chemicals & Fertilisers
 SOUTHWEST | South West Pinnacle Exploration
 SPMLINFRA | SPML Infra
 STLNETWORK | STL Networks
 STOVEKRAFT | Stove Kraft
 SUDARSCHEM | Sudarshan Chemical
 SUPRIYA | Supriya Lifescience
+SURAKSHA | Suraksha Diagnostic
 SURYAROSNI | Surya Roshni
+TAJGVK | Taj GVK Hotels & Resorts
+TARSONS | Tarsons Products
+TASTYBITE | Tasty Bite Eatables
 TCPLPACK | TCPL Packaging
 THELEELA | Leela Palaces Hotels & Resorts
 TIMETECHNO | Time Technoplast
+UGROCAP | Ugro Capital
 VERANDA | Veranda Learning Solutions
 VIDYAWIRES | Vidya Wires
 VIJAYA | Vijaya Diagnostic Centre

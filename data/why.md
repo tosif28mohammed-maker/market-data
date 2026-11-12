@@ -5,25 +5,14 @@
 - 🟢 Diwali/Muhurat के बाद 5 दिन — Nifty औसत +1.2% (f67)
 - 🟢 इस महीने का पहला हफ़्ता (सब शेयर औसत) +4.8% ऊपर → बाकी महीना आम तौर पर +1.1% (61% बार ऊपर), mid/small cap के लिए ठीक (f82)
 - अगली monthly expiry: Mon 23 Nov → अगला दिन Wed 25 Nov (Up दिन). छुट्टियाँ: 24 Nov, 25 Dec
-- Nifty 25,255: 200 DMA 23,994 से +5.3% (ऊपर — पूरा size); 10 दिन +11.0%; 52w high से -4.1%; 10-महीने SMA ऊपर (ETF रखो)
-- VIX 17.6 → Nifty अगले 20 दिन ±5% में रहने का मौका ~80% (f29); असल हलचल VIX से कम ~79% बार (f30)
+- Nifty 25,299: 200 DMA 23,992 से +5.4% (ऊपर — पूरा size); 10 दिन +11.5%; 52w high से -3.9%; 10-महीने SMA ऊपर (ETF रखो)
+- VIX 16.6 → Nifty अगले 20 दिन ±5% में रहने का मौका ~80% (f29); असल हलचल VIX से कम ~79% बार (f30)
 - 🚀 **तेज़ी mode (f62)**: Nifty 10 दिन +5%+ → बाज़ार आम तौर पर और चढ़ता (20 दिन 67-80% ऊपर). सबसे मज़बूत शेयर (RS top) खरीदो, 8-10 में बाँटकर, stop -8%, 20 दिन review, अच्छे 60 दिन
 - 🟢 Sensex 18-महीने ROC -0% (−10..+10 = लंबी खरीद का अच्छा zone: इतिहास में अगले 12 महीने औसत +20%, 89% बार ऊपर, f84) → core/ETF किश्तें जारी
-- Breadth (गहरे dip वाले शेयर) 2.3%; पिछले 5: 4%, 3%, 5%, 3%, 2%
+- Breadth (गहरे dip वाले शेयर) 1.8%; पिछले 5: 3%, 5%, 3%, 2%, 2%
 
 ## Khareed ke kaaran
-### SETL — score 6, signal: uptrend में 2-3 दिन गिरावट, RSI2 3 (f52); 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -10%; 52w +96% (f43/f58)
-- **Plan**: dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन
-- 200 DMA 234.2 se +48.9% (200 DMA khud chadh rahi)
-- 20 DMA se -5.2%
-- 52w high se -25.5%, 1 saal +113%
-- 3 mahine ki taakat (RS): 100 mein 88 (100 = sabse mazboot)
-- kaam: Specialty Industrial Machinery
-- bikri 1 saal +26%, munafa 1 saal +24%, pichhli timahi munafa +26%, ROE 11%, karz/equity 0.10, PE 88, quality 7/9
-- ⚠️ bahut mehnga (PE 80+)
-- aaj ki khabron mein naam nahi (koi bada jhatka nahi dikha)
-
-### WELCORP — score 5, signal: 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -9%; 52w +144% (f43/f58); (sirf jaankari, score nahi: kharcha ke baad 2017-26 mein +0.3..0.5%/m, t<2) is mahine ka apna mausam: pichhle 5 saal isi mahine bazaar se ausat +9.4%, 4/5 saal upar (f81)
+### WELCORP — score 6, signal: uptrend में 2-3 दिन गिरावट, RSI2 9 (f52); 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -10%; 52w +136% (f43/f58); (sirf jaankari, score nahi: kharcha ke baad 2017-26 mein +0.3..0.5%/m, t<2) is mahine ka apna mausam: pichhle 5 saal isi mahine bazaar se ausat +9.4%, 4/5 saal upar (f81)
 - **Plan**: dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन
 - 200 DMA 1,587.6 se +35.8% (200 DMA khud chadh rahi)
 - 20 DMA se -10.4% (tez giravat — dip zone, f41)
@@ -33,7 +22,7 @@
 - bikri 1 saal +22%, munafa 1 saal -15%, pichhli timahi munafa +42%, ROE 19%, karz/equity 0.26, PE 25, quality 8/9
 - aaj ki khabron mein naam nahi (koi bada jhatka nahi dikha)
 
-### MOREPENLAB — score 5, signal: 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -16%; 52w +106% (f43/f58); (sirf jaankari, score nahi: kharcha ke baad 2017-26 mein +0.3..0.5%/m, t<2) is mahine ka apna mausam: pichhle 5 saal isi mahine bazaar se ausat +7.2%, 3/5 saal upar (f81)
+### MOREPENLAB — score 5, signal: 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -16%; 52w +104% (f43/f58); (sirf jaankari, score nahi: kharcha ke baad 2017-26 mein +0.3..0.5%/m, t<2) is mahine ka apna mausam: pichhle 5 saal isi mahine bazaar se ausat +7.2%, 3/5 saal upar (f81)
 - **Plan**: dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन
 - 200 DMA 67.2 se +41.1% (200 DMA khud chadh rahi)
 - 20 DMA se -16.2% (tez giravat — dip zone, f41)
@@ -43,18 +32,7 @@
 - bikri 1 saal -0%, munafa 1 saal -20%, pichhli timahi munafa +117%, ROE 8%, karz/equity 0.17, PE 27, quality 4/9
 - aaj ki khabron mein naam nahi (koi bada jhatka nahi dikha)
 
-### LAURUSLABS — score 4, signal: सबसे मज़बूत RS + 52w high पास (f62); steady riser (f48); 52w +147% (f43/f58)
-- **Plan**: तेज़ी: 3:00-3:25 PM LTP के पास LIMIT; कोई fixed target नहीं, 20 दिन review (अच्छे 60 दिन)
-- 200 DMA 1,501.6 se +59.8% (200 DMA khud chadh rahi)
-- 20 DMA se +8.7%
-- 52w high se -3.5%, 1 saal +140%
-- 3 mahine ki taakat (RS): 100 mein 95 (100 = sabse mazboot)
-- kaam: Drug Manufacturers - Specialty & Generic
-- bikri 1 saal +22%, munafa 1 saal +148%, pichhli timahi munafa +171%, ROE 18%, karz/equity 0.48, PE 94, quality 9/9
-- ⚠️ bahut mehnga (PE 80+)
-- aaj ki khabron mein naam nahi (koi bada jhatka nahi dikha)
-
-### RPTECH — score 4, signal: 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -15%; 52w +109% (f43/f58); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)
+### RPTECH — score 4, signal: 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -13%; 52w +114% (f43/f58); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)
 - **Plan**: dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन
 - 200 DMA 628.5 se +11.0% (200 DMA khud chadh rahi)
 - 20 DMA se -13.5% (tez giravat — dip zone, f41)
@@ -62,6 +40,27 @@
 - 3 mahine ki taakat (RS): 100 mein 9 (100 = sabse mazboot)
 - kaam: Electronics & Computer Distribution
 - bikri 1 saal +15%, munafa 1 saal +33%, pichhli timahi munafa +68%, ROE 15%, karz/equity 0.50, PE 16, quality 7/9
+- aaj ki khabron mein naam nahi (koi bada jhatka nahi dikha)
+
+### EBGNG — score 4, signal: 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -15%; 52w +68% (f43/f58); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)
+- **Plan**: dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन
+- 200 DMA 502.5 se +13.8% (200 DMA khud chadh rahi)
+- 20 DMA se -14.9% (tez giravat — dip zone, f41)
+- 52w high se -26.3%, 1 saal +68%
+- 3 mahine ki taakat (RS): 100 mein 63 (100 = sabse mazboot)
+- kaam: Computer Hardware
+- bikri 1 saal +34%, munafa 1 saal +91%, pichhli timahi munafa +73%, ROE 27%, karz/equity 0.59, PE 40, quality 7/9
+- aaj ki khabron mein naam nahi (koi bada jhatka nahi dikha)
+
+### WSTCSTPAPR — score 4, signal: 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -10%; 52w +62% (f43/f58); ⚠️ 5 दिन में volume 2x के साथ -5%+ गिरा = खबर वाली गिरावट, खबर जाँचो (f41)
+- **Plan**: dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन
+- 200 DMA 555.2 se +29.7% (200 DMA khud chadh rahi)
+- 20 DMA se -10.2% (tez giravat — dip zone, f41)
+- 52w high se -26.3%, 1 saal +62%
+- 3 mahine ki taakat (RS): 100 mein 90 (100 = sabse mazboot)
+- aaj volume 20 din ke ausat ka 0.2x
+- kaam: Paper & Paper Products
+- bikri 1 saal +6%, munafa 1 saal -52%, pichhli timahi munafa +145%, ROE 4%, karz/equity 0.10, PE 21, quality 5/9
 - aaj ki khabron mein naam nahi (koi bada jhatka nahi dikha)
 
 ## Holdings — rakhna ya bechna kyun
