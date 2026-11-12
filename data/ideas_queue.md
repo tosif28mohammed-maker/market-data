@@ -12,3 +12,4 @@ Status: [ ] baaki, [x] jaancha (f-number)
 - [ ] Tezi ke dauran (Nifty 10 din +5%) call option vs share vs ETF — kaun zyada deta, jokhim kitna
 - [ ] FII/DII kharid-bikri ke lagatar din -> Nifty aage
 - [ ] Results ke din gap -> agle 5/20 din (results drift)
+- [ ] Sasta + achha + trend chhaanti (scripts/value_list.py, 12 Nov): abhi sirf chhaanti hai. data/value.csv roz jamaa ho raha — 6-12 mahine baad jaancho ki 'khareed layak' list bazaar se aage rahi ya nahi; downtrend wale naam uptrend shuru hone par kaise chale

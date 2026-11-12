@@ -84,4 +84,7 @@ if os.path.exists(hp):
         L += [f'### {h.symbol} {h.qty} @{h.avg} → {p:.2f} ({(p / h.avg - 1) * 100:+.1f}%) | stop {h.stop} | target {h.target if not pd.isna(h.target) else "nahi (tezi trade)"}']
         L += [f'- {x}' for x in tech(h.symbol) + fund(h.symbol) + news(h.symbol)]
         L.append('')
+vp = os.path.join(R, 'data', 'value.md')
+if os.path.exists(vp):  # user 12 Nov: sasta + achha + trend list is part of every briefing
+    L += [''] + open(vp).read().splitlines()
 open(os.path.join(R, 'data', 'why.md'), 'w').write('\n'.join(L) + '\n'); print('\n'.join(L))
