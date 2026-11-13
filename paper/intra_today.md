@@ -1,8 +1,7 @@
-# Intraday paper — 2026-11-12 (update 15:25 IST)
+# Intraday paper — 2026-11-13 (update 10:25 IST)
 
 Paper hai, asli paisa/order nahi. Option bhaav Black-Scholes + India VIX se andaza (robot ke paas live option bhaav nahi).
-S&P raat +1.31%, Nifty 20 din +12.9%, gap watch 41 shares
+S&P raat -0.35%, Nifty 20 din +11.3%, gap watch 38 shares
 
-- **GAPFADE** HINDCOPPER SELL 72 @453.25 09:30 | stop 467.13 | band 15:10 (TIME) | P&L Rs +363 — gap +5.8%, pehle 15 min laal, Nifty gap -0.16%
-- **USNIGHT** NIFTY 25300PE 17Nov SELL 65 @25303.05 09:20 | stop 25454.87 | band 12:15 (TIME) | P&L Rs +2,079 — S&P raat +1.3% -> India subah kamzor (f54)
-- **TRENDDAY** BAJFINANCE BUY 83 @1109.75 10:20 | stop 1097.75 | band 15:10 (TIME) | P&L Rs +269 — 10:15 tak Nifty +0.55%, 70% core shares open se upar; sabse mazboot BAJFINANCE +2.9%
+- **GAPFADE** PNGSREVA SELL 66 @653.05 09:30 | stop 667.98 | KHULA | P&L Rs +333 — gap +5.4%, pehle 15 min laal, Nifty gap -0.39%
+- **GAPBOUNCE** YATRA BUY 723 @77.10 09:30 | stop 75.72 | KHULA | P&L Rs +472 — gap -6.0%, pehle 15 min hara, Nifty gap -0.39%
