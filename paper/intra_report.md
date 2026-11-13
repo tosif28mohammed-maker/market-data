@@ -2,15 +2,15 @@
 
 Asli paisa nahi. Stocks kharcha 0.1%, options Rs 60/leg + 0.5 pt. Option bhaav andaza (BS + VIX).
 
-## LIVE (asli din, robot ne us din chalaya): 3 din
+## LIVE (asli din, robot ne us din chalaya): 4 din
 ```
            trades  win_pct  total_rs   avg_rs  avg_R
 strat                                               
-GAPBOUNCE       2       50    1834.0   917.00   0.96
-GAPFADE         2       50    -701.0  -350.50  -0.30
+GAPBOUNCE       3       67    2711.0   903.67   0.95
+GAPFADE         3       67     738.0   246.00   0.30
 TRENDDAY        2      100    1622.0   811.00   0.90
 USNIGHT         1      100    2079.0  2079.00   0.17
-KUL             7       71    4834.0   690.57   0.47
+KUL             9       78    7150.0   794.44   0.64
 ```
 Galtiyon ki ginti:
 ```
@@ -37,8 +37,7 @@ Nifty ulti disha mein chala                                      12
 stop 15 min mein = entry jaldi/galat jagah                        9
 target ke 75% tak gaya phir palta = trailing stop chahiye tha     8
 ```
-## Aakhri din 2026-11-12
+## Aakhri din 2026-11-13
 
-- GAPFADE HINDCOPPER 09:30->15:10 TIME: Rs +363 (+0.40R). gap +5.8%, pehle 15 min laal, Nifty gap -0.16%. 
-- USNIGHT NIFTY 25300PE 17Nov 09:20->12:15 TIME: Rs +2,079 (+0.17R). S&P raat +1.3% -> India subah kamzor (f54). Seekh: din bhar kuch nahi hua = setup kamzor
-- TRENDDAY BAJFINANCE 10:20->15:10 TIME: Rs +269 (+0.36R). 10:15 tak Nifty +0.55%, 70% core shares open se upar; sabse mazboot BAJFINANCE +2.9%. Seekh: Nifty ulti disha mein chala
+- GAPFADE PNGSREVA 09:30->12:15 TARGET: Rs +1,439 (+1.50R). gap +5.4%, pehle 15 min laal, Nifty gap -0.39%. 
+- GAPBOUNCE YATRA 09:30->15:10 TIME: Rs +877 (+0.93R). gap -6.0%, pehle 15 min hara, Nifty gap -0.39%. 
