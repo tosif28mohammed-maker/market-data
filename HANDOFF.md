@@ -47,6 +47,11 @@ Har study: poora itihaas, daur-war, 2008/COVID hata kar, placebo, look-ahead nah
 Nayi seekh d04-master + findings mein. Password/PIN/TOTP/API key kabhi chat mein nahi; Claude order nahi lagata. Tips par raay do, sirf kaam ke paper/tips.csv mein.
 Paid data (Tickertape) repo mein mat daalo (repo public).
 
+## Holdings 13 Nov (screenshot)
+MINDACORP 10 @632.49 (735 sell, stop 655), NAVINFLUOR 1 @8730.62 (stop 8414), SHYAMMETL 8 @1252.96 (stop 1161), SANSERA 2 @4277.04 (stop 4156),
+WELCORP 13 @2182.62 (stop 1991, 2370 par 7 bech, aur nahi jodna), AJANTPHARM 10 @3321.67 (stop 3200, target 3590), HFCL 40 @205 (naya 13 Nov; stop 189 close, target ~230, 20 din). GTT BUY MCX 10 @3185.
+Laga ~Rs 1.03 lakh; steel+pharma ~69%.
+
 ## Khule kaam (12 Nov)
 - User OK baaki: (a) paper mein purana iron condor niyam hata kar weekly (f75) daalna; (b) base-breakout + IPO-base ko paper strategy banana;
   (c) "kam delivery -1" paper mein; (d) Tickertape se sirf haan/na flags repo mein ya nahi; (e) har share mein kitni rakam (robot Rs 15k maanta, user Rs 28-33k lagata).
