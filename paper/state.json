@@ -1,25 +1,9 @@
 {
- "last": "2026-11-12",
- "open": [
-  {
-   "id": "T00547",
-   "strategy": "EQ_FOCUS",
-   "symbol": "V2RETAIL",
-   "side": "Buy",
-   "qty": 546,
-   "signal_date": "2026-11-11",
-   "sl": 147.4,
-   "target": 187.54,
-   "note": "HMA 2: दूरी -2.3% (सीमा -1.5%); 2021-26 जीत 65%; RSI 56; MACD ऊपर; BB %B 1.00; 50 SMA नीचे, 200 SMA नीचे; 52w high से -30%; support 145.3 / resistance 184.6, volume 2.9x",
-   "entry_date": "2026-11-12",
-   "entry_price": 183.0,
-   "days": 1,
-   "mark": 1698.0
-  }
- ],
+ "last": "2026-11-13",
+ "open": [],
  "pending": [],
- "seq": 560,
- "gap_last": "2026-11-12",
- "usfade_last_BANKNIFTY": "2026-11-12",
- "usfade_last_NIFTY": "2026-11-12"
+ "seq": 566,
+ "gap_last": "2026-11-13",
+ "usfade_last_BANKNIFTY": "2026-11-13",
+ "usfade_last_NIFTY": "2026-11-13"
 }

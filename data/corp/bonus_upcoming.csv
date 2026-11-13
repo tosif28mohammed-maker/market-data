@@ -1,2 +1,2 @@
 symbol,company,type,subject,ex_date,record_date,tdays_to_ex,buy_from,sell_on_cum,last_close,stop,liq_D
-PASHUPATI,Pashupati Cotspin Limited,BONUS,Bonus 3:2,13-Nov-2026,13-Nov-2026,1,2026-10-29,2026-11-12,,,True
+BNAGROCHEM,BN Agrochem Limited,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,16-Nov-2026,16-Nov-2026,1,2026-10-30,2026-11-13,,,False
