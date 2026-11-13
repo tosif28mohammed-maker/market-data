@@ -28,6 +28,7 @@ jobs:
       - run: pip install requests && python scripts/movers_review.py || echo 'movers failed'
       - run: pip install requests && python scripts/decision.py || echo 'decision failed'
       - run: python scripts/value_list.py || echo 'value failed'
+      - run: pip install requests && python scripts/rare_setup.py || echo 'rare setup failed'
       - run: python scripts/why_card.py || echo 'why failed'
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}

@@ -52,6 +52,13 @@ MINDACORP 10 @632.49 (735 sell, stop 655), NAVINFLUOR 1 @8730.62 (stop 8414), SH
 WELCORP 13 @2182.62 (stop 1991, 2370 par 7 bech, aur nahi jodna), AJANTPHARM 10 @3321.67 (stop 3200, target 3590), HFCL 40 @205 (naya 13 Nov; stop 189 close, target ~230, 20 din). GTT BUY MCX 10 @3185.
 Laga ~Rs 1.03 lakh; steel+pharma ~69%.
 
+## Faisla 13 Nov: intraday/futures ROZ nahi
+SEBI FY25: 91% F&O traders ghaate mein; futures intraday se zyada khatarnaak (leverage). Roz ka kaam = share khareed (decision.md).
+Sirf kabhi-kabhar BADA MAUKA (A+): scripts/rare_setup.py (daily.yml) -> data/rare_setup.md + paper/rare_fut_journal.csv (futures PAPER,
+asli NSE lot size data/fo_lots.csv, cash se tulna). Shart: score>=6, 3+ family, A + F&O, koi warning nahi, nateeje door, Nifty 200 DMA upar + tezi/ghabrahat mode,
+R:R>=1.5; discipline: 1 khula, mahine 2, 2 haar -> 10 din band. Briefing mein batao; mauka aaye to khabar jaancho. Asli paisa sirf user OK + 2-3 mahine paper ke baad.
+Intraday paper robot study ke liye chalta rahega (experts ke discipline niyam + leverage study = agla kaam, user OK).
+
 ## Khule kaam (12 Nov)
 - User OK baaki: (a) paper mein purana iron condor niyam hata kar weekly (f75) daalna; (b) base-breakout + IPO-base ko paper strategy banana;
   (c) "kam delivery -1" paper mein; (d) Tickertape se sirf haan/na flags repo mein ya nahi; (e) har share mein kitni rakam (robot Rs 15k maanta, user Rs 28-33k lagata).
