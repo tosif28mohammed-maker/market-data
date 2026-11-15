@@ -20,6 +20,24 @@ BFUTILITIE, KENNAMET, AUTOAXLES, ANUP, POWERINDIA, V2RETAIL, JARO, DCXINDIA, ABR
 - GIRAVAT: 73 share, ausat -2.0%
 - KAMZOR : 147 share, ausat -5.0%
 
+## Halchal alert — kuch bada ho sakta hai (disha PATA NAHI), 19 share
+- STYLEBAAZA (A) score 5: kal_+5%, RS_top10%, vol_5d_1.8x, 52w_high_paas, nateeje_10din
+- MSTCLTD (A) score 4: kal_+5%, RS_top10%, vol_5d_1.8x, 52w_high_paas
+- APOLLO (A) score 4: kal_+5%, RS_top10%, vol_5d_1.8x, 52w_high_paas
+- ALICON (B) score 4: kal_+5%, RS_top10%, vol_5d_1.8x, 52w_high_paas
+- DHANBANK (B) score 4: kal_+5%, RS_top10%, vol_5d_1.8x, 52w_high_paas ⚠️AVOID list
+- DIVISLAB (A) score 3: RS_top10%, vol_5d_1.8x, 52w_high_paas
+- SAILIFE (A) score 3: RS_top10%, vol_5d_1.8x, 52w_high_paas
+- SHREEJISPG (A) score 3: RS_top10%, 52w_high_paas, nateeje_10din
+- TANLA (A) score 3: RS_top10%, vol_5d_1.8x, 52w_high_paas
+- MOTILALOFS (A) score 3: RS_top10%, vol_5d_1.8x, 52w_high_paas
+- KRISHANA (A) score 3: RS_top10%, 52w_high_paas, nateeje_10din
+- GCSL (A) score 3: kal_+5%, RS_top10%, 52w_high_paas
+- KMEW (A) score 3: RS_top10%, vol_5d_1.8x, 52w_high_paas
+- APLLTD (A) score 3: RS_top10%, vol_5d_1.8x, 52w_high_paas
+- ALGOQUANT (A) score 3: RS_top10%, 52w_high_paas, nateeje_10din
+- Live jaanch: 5 din baad se shuru
+
 ## Mahine (21 din) ka hisaab — A/B
 Top 10 chadhe: JYOTISTRUC +46%, RAMKY +43%, IGIL +38%, SSWL +37%, TANLA +37%, MANAKCOAT +35%, CNL +34%, SAILIFE +32%, SAREGAMA +30%, ATHERENERG +30%
 Top 10 gire: EMUDHRA -35%, SHANTIGOLD -33%, SUPRIYA -28%, DMCC -28%, RAIN -26%, GENCON -26%, KRN -26%, GENESYS -25%, RRKABEL -24%, ASTEC -24%

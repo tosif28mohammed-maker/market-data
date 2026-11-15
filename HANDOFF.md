@@ -56,7 +56,8 @@ Laga ~Rs 1.03 lakh; steel+pharma ~69%.
 Kal ke +10% vol-3x gainer ka peechha = FAIL (200 DMA neeche wala 60 din mein bazaar se -4%, har daur); breakaway (52w high, uptrend) = ~0.
 -10% vol-3x giravat = 60 din bazaar se -3.4% (uptrend wala -4.1%) -> dip mat kharido, holding ho to bechne par socho. Mahine ke gire 20 aage bhi -2.7%/60d.
 Robot scripts/shock_watch.py (daily.yml) -> data/shock_watch.md + data/shock_avoid.csv (60 din AVOID, holdings alert, mahine ke top/bottom, live paper jaanch).
-Briefing mein: holdings alert + naye share AVOID list mein to mat suggest karo. decision.py score mein -2 jodna = user OK baaki.
+Briefing mein: holdings alert + naye share AVOID list mein to mat suggest karo. decision.py -2 score: user ne MANA kiya (15 Nov) — sirf dikhana.
+HALCHAL alert (user 15 Nov: disha nahi par 'kuch bada hoga' bhi kaam ka): shock_watch.py -> data/shock_watch.md + data/halchal_log.csv (live 5 din jaanch). 'Halchal -> disha' badi study ideas_queue mein, AI-robot/API credit milne par pehli.
 
 ## User 15 Nov: PAPER mein jo sahi lage bina poochhe daalo (asli paisa/asli niyam = OK zaroori)
 Lakshya: 1-2 mahine paper se seekh kar intraday/futures mein roz guide karna. Naya paper:

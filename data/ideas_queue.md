@@ -13,3 +13,5 @@ Status: [ ] baaki, [x] jaancha (f-number)
 - [ ] FII/DII kharid-bikri ke lagatar din -> Nifty aage
 - [ ] Results ke din gap -> agle 5/20 din (results drift)
 - [ ] Sasta + achha + trend chhaanti (scripts/value_list.py, 12 Nov): abhi sirf chhaanti hai. data/value.csv roz jamaa ho raha — 6-12 mahine baad jaancho ki 'khareed layak' list bazaar se aage rahi ya nahi; downtrend wale naam uptrend shuru hone par kaise chale
+- [x] Top gainers/losers ke BAAD peechha / dip (f86) — robot scripts/shock_watch.py
+- [ ] HALCHAL -> DISHA (user 15 Nov, badi study, AI-robot/API credit milne par pehli): halchal alert (data/halchal_log.csv: kal +5%, RS top, volume 1.8x, 52w high, nateeje paas) mein se kaun upar/neeche jaata — khabar ka mood, pichhle nateejon ka surprise, delivery %, promoter/FII badlaav, sector ki chaal, options OI milakar disha dhundho. Live log 2-3 mahine jamne do.
