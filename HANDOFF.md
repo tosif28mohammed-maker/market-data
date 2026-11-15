@@ -52,6 +52,14 @@ NAVINFLUOR 1 @8730.62 (stop 8414), SHYAMMETL 8 @1252.96 (stop 1161), SANSERA 2 @
 WELCORP 13 @2182.62 (stop 1991, 2370 par 7 bech, aur nahi jodna), AJANTPHARM 10 @3321.67 (stop 3200, target 3590), HFCL 40 @205 (naya 13 Nov; stop 189 close, target ~230, 20 din). GTT BUY MCX 10 @3185.
 Laga ~Rs 1.03 lakh; steel+pharma ~69%.
 
+## f88 (15 Nov): SASTE SHARE (bhaav <100) — study/penny_hist.py + robot scripts/penny_watch.py
+Itihaas 2003-26 (12 mahine, bazaar se): <Rs20 ausat +14% par MEDIAN -13%, sirf 41% jeete = lottery (+survivor bias, asli aur bura).
+Har bhaav-band mein UPTREND (200 DMA upar + 52w high ke 10% andar) kaafi behtar: <20 +27 (median ~0), 20-50 +11, 50-100 +7.
+'Bahut gira' (high se 50%+ neeche) 20-500 band mein -7..-13 = door raho. Nov23-ab saste kamzor (<20 sab -7.8).
+Robot (daily.yml): A/B <Rs100 ko fundamentals (quality, ghaata, karz, bikri/munafa, ROE, cash, promoter, PE) + trend + AVOID + andaza se
+ACHHA SASTA / NAZAR MEIN / DOOR RAHO; kaam + MD/chairman Yahoo se (30 din cache) -> data/penny.md, penny.csv, penny_profiles.json.
+Niyam: sirf ACHHA SASTA, chhota paisa (portfolio max ~5%), stop -15% close, 6-12 mahine. 13 Nov: MAHABANK, ALGOQUANT, ROTO.
+
 ## f87 (15 Nov): MILA-JULA ANDAZA (study/combo_model.py, results/combo_model.md)
 20 ishaare (chaal, 12-1 momentum, DMA, 52w, volume, volatility, f86 jhatke, industry) -> gradient boosting, walk-forward 2008-26.
 Top 10% andaza: 20 din bazaar se +0.30% net (t 3.8), ex-crisis +0.46, 2013-20 +0.53, 2021-26 +0.48, Nov23 +0.75; 2003-12 ~0. Placebo -0.4.
