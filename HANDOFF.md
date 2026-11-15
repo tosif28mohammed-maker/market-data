@@ -52,6 +52,15 @@ NAVINFLUOR 1 @8730.62 (stop 8414), SHYAMMETL 8 @1252.96 (stop 1161), SANSERA 2 @
 WELCORP 13 @2182.62 (stop 1991, 2370 par 7 bech, aur nahi jodna), AJANTPHARM 10 @3321.67 (stop 3200, target 3590), HFCL 40 @205 (naya 13 Nov; stop 189 close, target ~230, 20 din). GTT BUY MCX 10 @3185.
 Laga ~Rs 1.03 lakh; steel+pharma ~69%.
 
+## f87 (15 Nov): MILA-JULA ANDAZA (study/combo_model.py, results/combo_model.md)
+20 ishaare (chaal, 12-1 momentum, DMA, 52w, volume, volatility, f86 jhatke, industry) -> gradient boosting, walk-forward 2008-26.
+Top 10% andaza: 20 din bazaar se +0.30% net (t 3.8), ex-crisis +0.46, 2013-20 +0.53, 2021-26 +0.48, Nov23 +0.75; 2003-12 ~0. Placebo -0.4.
+AKELA 12-1 momentum lagbhag utna hi (ex-crisis +0.63) -> milaane ka fayda chhota, khaaskar kamzor share pehchanne mein (bottom -1.2 vs -0.7).
+Calibration: andaza 45-55% ke beech hi rehta; '60%' kaha to 52% hua (zyada bharosa mat karo). 'Bahut gira hai to wapas aayega' = ULTA (52w high ke paas behtar).
+Bazaar model: andaza >=60% -> Nifty 20 din +1.3% (66% upar) vs <45% -> +0.2%. Macro akele: S&P 20 din bahut chadha -> Nifty aage kamzor (har daur);
+US VIX ooncha (dar) -> Nifty aage behtar; US yield tez chadha -> kamzor; sona/crude ka asar daur ke hisaab se badalta (2021-26: sona/crude gira = Nifty +).
+Robot scripts/andaza.py (daily.yml) -> data/andaza.md, andaza_today.csv, andaza_log.csv (LIVE calibration 20 din baad). Briefing mein holdings + sujhav ka andaza dikhao.
+
 ## f86 (15 Nov): top gainers/losers ke BAAD (study/movers_after.py, 2003-26)
 Kal ke +10% vol-3x gainer ka peechha = FAIL (200 DMA neeche wala 60 din mein bazaar se -4%, har daur); breakaway (52w high, uptrend) = ~0.
 -10% vol-3x giravat = 60 din bazaar se -3.4% (uptrend wala -4.1%) -> dip mat kharido, holding ho to bechne par socho. Mahine ke gire 20 aage bhi -2.7%/60d.

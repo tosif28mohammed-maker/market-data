@@ -30,6 +30,7 @@ jobs:
       - run: python scripts/value_list.py || echo 'value failed'
       - run: pip install requests && python scripts/rare_setup.py || echo 'rare setup failed'
       - run: python scripts/shock_watch.py || echo 'shock watch failed'
+      - run: pip install scikit-learn==1.9.1 joblib && python scripts/andaza.py || echo 'andaza failed'
       - run: python scripts/why_card.py || echo 'why failed'
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
