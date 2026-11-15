@@ -52,6 +52,12 @@ NAVINFLUOR 1 @8730.62 (stop 8414), SHYAMMETL 8 @1252.96 (stop 1161), SANSERA 2 @
 WELCORP 13 @2182.62 (stop 1991, 2370 par 7 bech, aur nahi jodna), AJANTPHARM 10 @3321.67 (stop 3200, target 3590), HFCL 40 @205 (naya 13 Nov; stop 189 close, target ~230, 20 din). GTT BUY MCX 10 @3185.
 Laga ~Rs 1.03 lakh; steel+pharma ~69%.
 
+## f86 (15 Nov): top gainers/losers ke BAAD (study/movers_after.py, 2003-26)
+Kal ke +10% vol-3x gainer ka peechha = FAIL (200 DMA neeche wala 60 din mein bazaar se -4%, har daur); breakaway (52w high, uptrend) = ~0.
+-10% vol-3x giravat = 60 din bazaar se -3.4% (uptrend wala -4.1%) -> dip mat kharido, holding ho to bechne par socho. Mahine ke gire 20 aage bhi -2.7%/60d.
+Robot scripts/shock_watch.py (daily.yml) -> data/shock_watch.md + data/shock_avoid.csv (60 din AVOID, holdings alert, mahine ke top/bottom, live paper jaanch).
+Briefing mein: holdings alert + naye share AVOID list mein to mat suggest karo. decision.py score mein -2 jodna = user OK baaki.
+
 ## User 15 Nov: PAPER mein jo sahi lage bina poochhe daalo (asli paisa/asli niyam = OK zaroori)
 Lakshya: 1-2 mahine paper se seekh kar intraday/futures mein roz guide karna. Naya paper:
 - WEEKLY_IC + WEEKLY_IC_NS (paper/engine.py): expiry se pehle din close, VIX 14-22, +-1 sigma, 2% wings; ek stop 2x credit, ek bina stop. Replay Sep-Nov 6 sauda: -16.7k / -9.2k (tezi bazaar, chhota sample).
