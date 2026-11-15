@@ -65,23 +65,26 @@ mode_ok = above200 and (thrust or panic)
 JF = P('paper', 'rare_fut_journal.csv')
 cols = ['open_date', 'symbol', 'lot', 'lot_src', 'entry', 'stop', 'target', 'margin', 'status', 'close_date', 'exit', 'days',
         'fut_pnl', 'fut_pct_margin', 'cash_pnl', 'why']
-J = pd.read_csv(JF) if os.path.exists(JF) else pd.DataFrame(columns=cols)
-for i, t in J[J.status == 'OPEN'].iterrows():
-    s = t.symbol
-    if s not in C.columns: continue
-    after = C.index[C.index > pd.Timestamp(t.open_date)]
-    ex = None
-    for k, d in enumerate(after, 1):
-        h, c = H.at[d, s], C.at[d, s]
-        if pd.notna(h) and h >= t.target: ex = (d, max(t.target, O.at[d, s]) if pd.notna(O.at[d, s]) else t.target, 'TARGET', k); break
-        if pd.notna(c) and c <= t.stop: ex = (d, c, 'STOP', k); break
-        if k >= MAX_DAYS and pd.notna(c): ex = (d, c, 'TIME', k); break
-    if ex:
-        d, px, why, k = ex; notional = t.lot * t.entry
-        fp = t.lot * (px - t.entry) - COST * notional
-        qty_cash = int(t.margin // t.entry); cp = qty_cash * (px - t.entry) - COST_CASH * qty_cash * t.entry
-        J.loc[i, ['status', 'close_date', 'exit', 'days', 'fut_pnl', 'fut_pct_margin', 'cash_pnl']] = [
-            why, d.date().isoformat(), round(px, 2), k, round(fp), round(fp / t.margin * 100, 1), round(cp)]
+def load_update(JF):
+    J = pd.read_csv(JF) if os.path.exists(JF) else pd.DataFrame(columns=cols)
+    for i, t in J[J.status == 'OPEN'].iterrows():
+        s = t.symbol
+        if s not in C.columns: continue
+        after = C.index[C.index > pd.Timestamp(t.open_date)]
+        ex = None
+        for k, d in enumerate(after, 1):
+            h, c = H.at[d, s], C.at[d, s]
+            if pd.notna(h) and h >= t.target: ex = (d, max(t.target, O.at[d, s]) if pd.notna(O.at[d, s]) else t.target, 'TARGET', k); break
+            if pd.notna(c) and c <= t.stop: ex = (d, c, 'STOP', k); break
+            if k >= MAX_DAYS and pd.notna(c): ex = (d, c, 'TIME', k); break
+        if ex:
+            d, px, why, k = ex; notional = t.lot * t.entry
+            fp = t.lot * (px - t.entry) - COST * notional
+            qty_cash = int(t.margin // t.entry); cp = qty_cash * (px - t.entry) - COST_CASH * qty_cash * t.entry
+            J.loc[i, ['status', 'close_date', 'exit', 'days', 'fut_pnl', 'fut_pct_margin', 'cash_pnl']] = [
+                why, d.date().isoformat(), round(px, 2), k, round(fp), round(fp / t.margin * 100, 1), round(cp)]
+    return J
+J = load_update(JF)
 
 # ---- discipline gates ----
 closed = J[J.status != 'OPEN'].sort_values('close_date')
@@ -111,6 +114,35 @@ if mode_ok and len(cand) and open_n == 0 and month_n < 2 and not pause:
                why=f'score {r.score}, {r.families} family: {r.fam}')
     J = pd.concat([J, pd.DataFrame([new])], ignore_index=True)
 J.to_csv(JF, index=False)
+
+# ---- SEEKHNE wali futures kitaab (user 15 Nov: "zyada se zyada future paper trading karo, seekho") ----
+# A+ se dheeli: (a) decision.csv khareed (score>=3, 2+ family) ya (b) tezi list (RS top 10% + 52w high ke 5% andar, f62),
+# sirf F&O + liquidity A, koi warning nahi, nateeje door. 1 lot paper, stop -8% close (ya decision stop), target +12% (ya decision),
+# 20 din. Discipline: max 4 khule, din mein 1 naya, ek share ek baar, lagatar 3 haar -> 5 din band.
+LF = P('paper', 'fut_learn_journal.csv'); JL = load_update(LF)
+liqA = pd.read_csv(P('study', 'results', 'liq_all.csv')).set_index('symbol').liquidity.astype(str).str[0]
+FA = [x for x in C.columns if x in fo and liqA.get(x) == 'A']
+c_ = C[FA]; up200_ = c_.iloc[-1] > c_.rolling(200, min_periods=180).mean().iloc[-1]
+r63_ = c_.iloc[-1] / c_.iloc[-64] - 1; near_hi = c_.iloc[-1] >= 0.95 * c_.iloc[-250:].max()
+rs_cut = (C.iloc[-1] / C.iloc[-64] - 1)[C.iloc[-1] > C.rolling(200, min_periods=180).mean().iloc[-1]].quantile(0.9)
+tezi = [x for x in FA if up200_.get(x, False) and near_hi.get(x, False) and r63_.get(x, -1) >= rs_cut]
+lc = []
+for r in D[(D.score >= 3) & (D.families >= 2) & D.symbol.isin(FA) & ~D.why.str.contains('⚠') & D.results.isna()].itertuples():
+    lc.append((r.symbol, r.entry, r.stop, r.target if pd.notna(r.target) else round(r.entry * 1.12, 2), f'decision score {r.score}: {r.fam}'))
+for x in sorted(tezi, key=lambda z: -r63_[z]):
+    px = float(c_[x].iloc[-1]); lc.append((x, px, round(px * 0.92, 2), round(px * 1.12, 2), f'tezi list: 3m {r63_[x] * 100:+.0f}%, 52w high paas'))
+op_l = JL[JL.status == 'OPEN']; cl_l = JL[JL.status != 'OPEN'].sort_values('close_date'); pause_l = False
+if len(cl_l) >= 3 and (cl_l.fut_pnl.tail(3) < 0).all():
+    pause_l = len(C.index[C.index > pd.Timestamp(cl_l.close_date.iloc[-1])]) < 5
+new_l = None
+if mode_ok and not pause_l and len(op_l) < 4 and not (JL.open_date == today.date().isoformat()).any():
+    for sym, en, stp, tg, why_ in lc:
+        if sym in set(JL.symbol): continue
+        lot, real = lot_of(sym, en)
+        new_l = dict(open_date=today.date().isoformat(), symbol=sym, lot=lot, lot_src='NSE' if real else 'andaza', entry=en, stop=stp,
+                     target=tg, margin=round(MARGIN * lot * en), status='OPEN', why=why_)
+        JL = pd.concat([JL, pd.DataFrame([new_l])], ignore_index=True); break
+JL.to_csv(LF, index=False)
 
 # ---- report ----
 o = [f'# Bada mauka (A+ setup) + futures PAPER — {today:%d %b %Y} ka data', '',
@@ -142,6 +174,14 @@ cl = J[J.status != 'OPEN']
 if len(cl):
     o += [f"## Hisaab ({len(cl)} band sauda)", f"- Futures: kul ₹{cl.fut_pnl.sum():+,.0f}, jeet {(cl.fut_pnl > 0).mean() * 100:.0f}%, sabse bura ₹{cl.fut_pnl.min():+,.0f} (margin ka {cl.fut_pct_margin.min():.0f}%)",
           f"- Wahi margin cash share mein: kul ₹{cl.cash_pnl.sum():+,.0f}", '']
+o += ['## Seekhne wali futures kitaab (paper, roz max 1 naya)']
+if new_l: o += [f"- Aaj naya: {new_l['symbol']} 1 lot ({new_l['lot']}) @ {new_l['entry']} | stop {new_l['stop']} | target {new_l['target']} — {new_l['why']}"]
+for t in JL[JL.status == 'OPEN'].itertuples():
+    if t.symbol in C.columns: o += [f'- Khula: {t.symbol} {t.lot} @ {t.entry} | aaj {C[t.symbol].iloc[-1]:.2f} → ₹{t.lot * (C[t.symbol].iloc[-1] - t.entry):+,.0f} (margin ~₹{t.margin:,.0f})']
+cl2 = JL[JL.status != 'OPEN']
+if len(cl2): o += [f"- Band {len(cl2)}: futures kul ₹{cl2.fut_pnl.sum():+,.0f}, jeet {(cl2.fut_pnl > 0).mean() * 100:.0f}%, sabse bura ₹{cl2.fut_pnl.min():+,.0f} (margin ka {cl2.fut_pct_margin.min():.0f}%) | wahi margin cash mein ₹{cl2.cash_pnl.sum():+,.0f}"]
+if pause_l: o += ['- Lagatar 3 haar → 5 din band (discipline)']
+o += ['']
 o += [f'Lot size source: {LOTSRC}. Kharcha andaza: futures 0.06%, cash 0.25%. 2-3 mahine baad faisla: rakhna ya hatana.']
 open(P('data', 'rare_setup.md'), 'w').write('\n'.join(o) + '\n')
 print('\n'.join(o))

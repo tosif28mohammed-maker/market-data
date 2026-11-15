@@ -52,6 +52,12 @@ MINDACORP 10 @632.49 (735 sell, stop 655), NAVINFLUOR 1 @8730.62 (stop 8414), SH
 WELCORP 13 @2182.62 (stop 1991, 2370 par 7 bech, aur nahi jodna), AJANTPHARM 10 @3321.67 (stop 3200, target 3590), HFCL 40 @205 (naya 13 Nov; stop 189 close, target ~230, 20 din). GTT BUY MCX 10 @3185.
 Laga ~Rs 1.03 lakh; steel+pharma ~69%.
 
+## User 15 Nov: PAPER mein jo sahi lage bina poochhe daalo (asli paisa/asli niyam = OK zaroori)
+Lakshya: 1-2 mahine paper se seekh kar intraday/futures mein roz guide karna. Naya paper:
+- WEEKLY_IC + WEEKLY_IC_NS (paper/engine.py): expiry se pehle din close, VIX 14-22, +-1 sigma, 2% wings; ek stop 2x credit, ek bina stop. Replay Sep-Nov 6 sauda: -16.7k / -9.2k (tezi bazaar, chhota sample).
+- Seekhne wali futures kitaab (scripts/rare_setup.py -> paper/fut_learn_journal.csv): decision/tezi list ke F&O A shares, 1 lot, stop -8%, target +12%, 20 din, max 4 khule, roz 1. Pehla: DIVISLAB 100 @11442 (13 Nov).
+- Intraday discipline niyam D1-D5 (scripts/intra_paper.py, report mein tulna). 59 din replay (f85): D2 R:R>=1.5 = same paisa, 35% kam trade (halka pass); D3 breakeven stop = FAIL (-3.4k); D4 Nifty disha = neutral; D1/D5 lage hi nahi; sab ek saath = bura. Base niyam nahi badle.
+
 ## Faisla 13 Nov: intraday/futures ROZ nahi
 SEBI FY25: 91% F&O traders ghaate mein; futures intraday se zyada khatarnaak (leverage). Roz ka kaam = share khareed (decision.md).
 Sirf kabhi-kabhar BADA MAUKA (A+): scripts/rare_setup.py (daily.yml) -> data/rare_setup.md + paper/rare_fut_journal.csv (futures PAPER,

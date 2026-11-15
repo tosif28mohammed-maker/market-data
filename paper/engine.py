@@ -8,6 +8,7 @@ Strategies (Hindi names in the report):
   OPT_SELL   naked short strangle at +-1 sigma (from VIX) for next weekly expiry, entered Tuesday close if 11 <= VIX <= 22, stop 2x credit
              (from 3 Nov 2026, user OK: stop checked at the 9:15 open and on every Nifty 5-min bar, not only at the close; also for HEDGE_IC).
   HEDGE_IC   same but iron condor (wings 300 points further): hedged option selling.
+  WEEKLY_IC  (15 Nov 2026, f75) day before weekly expiry at close, VIX 14-22, +-1 sigma shorts, 2% wings, stop 2x credit.
   OPT_BUY_EXP buy ATM call at Tuesday close, sell Wednesday close.
   OPT_BUY_DIP buy ATM call (expiry >= 7 days) when FUT_DIP fires; exit Nifty >= EMA20, -50% premium, or 5 days.
 EQ_FOCUS   23 Top-1000 focus stocks: each stock's own MA rule from 2021-Oct23 (buy when distance below its 10% level, fresh) -> next open,
@@ -27,7 +28,7 @@ Usage: python paper/engine.py [--start YYYY-MM-DD]   (state in paper/state.json;
 import os, sys, json, math, datetime as dt
 import numpy as np, pandas as pd
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); P=os.path.join(ROOT,'paper'); DATA=os.path.join(ROOT,'data')
-LIVE_FROM='2026-10-29'; LOT=65; R=0.065; IST=dt.timezone(dt.timedelta(hours=5,minutes=30))
+LIVE_FROM='2026-10-29'; WEEKLY_HOL={pd.Timestamp(x) for x in ('2026-11-24','2026-12-25')}; LOT=65; R=0.065; IST=dt.timezone(dt.timedelta(hours=5,minutes=30))
 SYMS=[f[:-4] for f in os.listdir(DATA) if f.endswith('.csv') and f not in ('latest.csv','fii_dii.csv') and open(os.path.join(DATA,f)).readline().startswith('date')]   # only OHLC price files (decision/tf_scan csv excluded, fix 9 Nov)
 _EX=os.path.join(ROOT,'symbols_extra.txt'); EXTRA={l.split(',')[0].strip() for l in open(_EX) if ',' in l and not l.startswith('#')} if os.path.exists(_EX) else set()
 STOCKS=[s for s in SYMS if s not in ('NIFTY','INDIAVIX') and s not in EXTRA]   # paper book = Nifty-50 only; extra symbols are for study
@@ -188,15 +189,15 @@ for day in todo:
             else: keep.append(p)
         elif st=='FUT_EXP':
             close_pos(p,day,S,'अगले दिन close',(S-p['entry_price'])*LOT-100)
-        elif st in ('OPT_SELL','HEDGE_IC','OPT_BUY_EXP','OPT_BUY_DIP'):
+        elif st in ('OPT_SELL','HEDGE_IC','WEEKLY_IC','WEEKLY_IC_NS','OPT_BUY_EXP','OPT_BUY_DIP'):
             legs=[tuple(l[:2])+(l[2],pd.Timestamp(l[3])) for l in p['legs']]; val=opt_val(legs,S,day,vix)   # current value (points, + = we own)
             pnl_pts=val-p['entry_val']; p['days']+=1; exp=pd.Timestamp(p['expiry']); reason=None
-            if st in ('OPT_SELL','HEDGE_IC'):   # user OK 3 Nov 2026: 2x-credit stop also checked at the open and on every 5-min bar
+            if st in ('OPT_SELL','HEDGE_IC','WEEKLY_IC'):   # user OK 3 Nov 2026: 2x-credit stop also checked at the open and on every 5-min bar
                 hit=sell_stop_intraday(p,legs,day)
                 if hit: val,reason=hit; pnl_pts=val-p['entry_val']
             if reason: pass
             elif day>=exp: reason='Expiry'
-            elif st in ('OPT_SELL','HEDGE_IC') and pnl_pts<=-2*abs(p['entry_val']): reason='SL 2x'
+            elif st in ('OPT_SELL','HEDGE_IC','WEEKLY_IC') and pnl_pts<=-2*abs(p['entry_val']): reason='SL 2x'
             elif st=='OPT_BUY_EXP': reason='अगले दिन close'
             elif st=='OPT_BUY_DIP':
                 if pnl_pts<=-0.5*p['entry_val']: reason='SL -50%'
@@ -241,6 +242,20 @@ for day in todo:
                 v=opt_val(legs,S,day,vix)
                 state['open'].append(dict(id=nid(),strategy=st,symbol=f'NIFTY {pk}PE/{ck}CE'+(' +wings' if st=='HEDGE_IC' else ''),side='Sell',qty=LOT,entry_date=str(day.date()),
                     entry_price=round(-v,2),entry_val=v,legs=[(a,k,q,str(e.date())) for a,k,q,e in legs],expiry=str(nexp.date()),days=0,sl=None,target=None,note=f'credit {-v:.1f} pts, VIX {vix:.1f}'))
+    # WEEKLY_IC (f75; user 15 Nov: paper mein jo sahi lage daalo): day before weekly expiry, close (~3:15-3:25 proxy), VIX 14-22,
+    # short strikes +-1 sigma to expiry, wings 2% further, 1 lot, stop 2x credit (open + every 5-min bar), else hold to expiry.
+    _e=next_tuesday(day)
+    if _e in WEEKLY_HOL: _e-=pd.Timedelta(days=1)
+    _n=day+pd.offsets.BDay(1)
+    while _n in WEEKLY_HOL: _n+=pd.offsets.BDay(1)
+    if _n==_e and 14<=vix<=22:
+        sig=S*vix/100*math.sqrt(max((_e-day).days,1)/365); w=max(50,round(S*0.02/50)*50)
+        ck=math.ceil((S+sig)/50)*50; pk=math.floor((S-sig)/50)*50
+        legs=[('C',ck,-1,_e),('P',pk,-1,_e),('C',ck+w,1,_e),('P',pk-w,1,_e)]; v=opt_val(legs,S,day,vix)
+        for _st in ('WEEKLY_IC','WEEKLY_IC_NS'):   # _NS = no stop, wings = max risk, hold to expiry (tulna: stop madad karta hai ya nahi)
+            state['open'].append(dict(id=nid(),strategy=_st,symbol=f'NIFTY {pk}PE/{ck}CE +-{w} wings',side='Sell',qty=LOT,entry_date=str(day.date()),
+                entry_price=round(-v,2),entry_val=v,legs=[(a,k,q,str(e.date())) for a,k,q,e in legs],expiry=str(_e.date()),days=0,sl=None,target=None,
+                note=f'credit {-v:.1f} pts, VIX {vix:.1f}, f75 weekly'+(' (no stop)' if _st.endswith('NS') else ' (stop 2x)')))
     # dip signals (equity + Nifty) -> pending for next open
     held={p['symbol'] for p in state['open']}|{o['symbol'] for o in state['pending']}
     cands=[]
@@ -329,7 +344,7 @@ if os.path.exists(USF) and 'BANKNIFTY' in DAY:
 J=pd.DataFrame(journal); J.to_csv(JF,index=False)
 json.dump(state,open(SF,'w'),ensure_ascii=False,indent=1,default=str)
 NAME={'EQ_DIP':'Equity swing (dip)','EQ_FOCUS':'Focus शेयर (Top-1000 नियम)','FUT_DIP':'Nifty future (dip)','FUT_EXP':'Nifty future (expiry के बाद)','INTRA_ORB':'Intraday Nifty ORB',
-      'OPT_SELL':'Option sell (naked strangle)','HEDGE_IC':'Hedge: Iron condor','OPT_BUY_EXP':'Option buy (expiry के बाद CE)','OPT_BUY_DIP':'Option buy (dip CE)','INTRA_GAPFADE':'Intraday gap-up 2%+ short (9:20)','IDX_USFADE':'Index: America के बड़े दिन के बाद उल्टा'}
+      'OPT_SELL':'Option sell (naked strangle)','HEDGE_IC':'Hedge: Iron condor','WEEKLY_IC':'Weekly iron condor (expiry se pehle din, f75)','WEEKLY_IC_NS':'Weekly iron condor bina stop (wings tak risk)','OPT_BUY_EXP':'Option buy (expiry के बाद CE)','OPT_BUY_DIP':'Option buy (dip CE)','INTRA_GAPFADE':'Intraday gap-up 2%+ short (9:20)','IDX_USFADE':'Index: America के बड़े दिन के बाद उल्टा'}
 def summary(J):
     rows=[]
     for st in NAME:

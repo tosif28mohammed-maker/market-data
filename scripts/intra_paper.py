@@ -75,6 +75,18 @@ def manage(tr, bars, i0, exitT, opt=None):
     return None, None, 'OPEN', mfe, mae
 
 
+def manage_be(tr, bars, i0, exitT):
+    """DISCIPLINE D3 (experts: 'pehle apna paisa bachao'): +1R ke baad stop entry par (breakeven). Sirf tulna ke liye."""
+    st, r1, moved = tr['stop'], abs(tr['entry'] - tr['stop']), False
+    for j in range(i0, len(bars)):
+        b = bars.iloc[j]; t = b.time.strftime('%H:%M'); sd = tr['side']
+        if (b.low <= st) if sd == 1 else (b.high >= st): return st
+        if tr.get('target') and ((b.high >= tr['target']) if sd == 1 else (b.low <= tr['target'])): return tr['target']
+        if not moved and ((b.high - tr['entry']) if sd == 1 else (tr['entry'] - b.low)) >= r1: st, moved = tr['entry'], True
+        if t >= exitT: return b.close
+    return bars.close.iloc[-1]
+
+
 def run_day(day, S, prev, N, Nprev, V, spx, n20, final):
     """S: {sym: today's 5m bars}, prev: {sym: prev close}, N: Nifty 5m today (or None), V: VIX 5m (or None)."""
     trades = []
@@ -171,6 +183,9 @@ def run_day(day, S, prev, N, Nprev, V, spx, n20, final):
             last = px if px is not None else b.close.iloc[-1]
             row['pnl_rs'] = round(t['side'] * (last - t['entry']) * t['qty'] - SCOST * t['entry'] * t['qty'], 0)
             row['R'] = round(t['side'] * (last - t['entry']) / abs(t['entry'] - t['stop']), 2)
+            pb = manage_be(t, b, t['i0'], t['exitT']) if (j is not None or final) else last
+            row['pnl_be'] = round(t['side'] * (pb - t['entry']) * t['qty'] - SCOST * t['entry'] * t['qty'], 0)
+            row['rr'] = round(abs(t['target'] - t['entry']) / abs(t['entry'] - t['stop']), 2) if t.get('target') else np.nan
         elif t['instr'] == 'OPT':
             j, px, why, mfe, mae = manage(dict(t, ref=t['entry']), b, t['i0'], t['exitT'])
             if j is None and final: j, why = len(b) - 1, 'TIME'
@@ -198,6 +213,10 @@ def run_day(day, S, prev, N, Nprev, V, spx, n20, final):
             row.update(exit_time=b.time.iloc[jj].strftime('%H:%M') if done else '', exit=round(S1, 1), reason=('STOP' if stop_j is not None else 'TIME') if done else 'OPEN',
                        prem_in=round(c0, 1), prem_out=round(c1, 1), mfe_pct=np.nan, mae_pct=np.nan)
             row['pnl_rs'] = round((c0 - c1) * LOT - 4 * OCOST, 0); row['R'] = round((c0 - c1) / 100, 2)
+        # Nifty open se entry tak (D4: Nifty ki disha ke khilaaf entry?)
+        if N is not None and len(N) and t['instr'] == 'EQ':
+            z0 = N[N.time < b.time.iloc[t['i0']]]
+            row['nifty_at_entry'] = round((z0.close.iloc[-1] / N.open.iloc[0] - 1) * 100, 2) if len(z0) and pd.notna(z0.close.iloc[-1]) else np.nan
         # Nifty direction during the trade (for 'against market' lesson)
         if N is not None and len(N) and t['instr'] == 'EQ':
             a = N[N.time >= b.time.iloc[t['i0']]]; z = a[a.time <= pd.Timestamp(f"{day} {row['exit_time'] or '15:30'}")]
@@ -271,9 +290,39 @@ def save_journal(rows, day):
     old = pd.read_csv(J) if os.path.exists(J) else pd.DataFrame()
     if len(old): old = old[old.date != str(day)]
     keep = ['date', 'strat', 'sym', 'instr', 'side', 'qty', 'entry_time', 'entry', 'stop', 'target', 'exit_time', 'exit', 'reason',
-            'prem_in', 'prem_out', 'pnl_rs', 'R', 'mfe_pct', 'mae_pct', 'nifty_move', 'why', 'lesson']
+            'prem_in', 'prem_out', 'pnl_rs', 'R', 'mfe_pct', 'mae_pct', 'nifty_move', 'pnl_be', 'rr', 'nifty_at_entry', 'why', 'lesson']
     df = df.reindex(columns=keep) if len(df) else pd.DataFrame(columns=keep)
     pd.concat([old, df]).to_csv(J, index=False)
+
+
+RULES = {'D1 din mein 2 haar ya -Rs2,000 -> band': 'd1', 'D2 R:R >= 1.5 warna skip': 'd2', 'D3 +1R ke baad stop entry par': 'd3',
+         'D4 Nifty ki disha ke khilaaf entry nahi': 'd4', 'D5 din +Rs3,000 -> band (lalach nahi)': 'd5'}
+def discipline(d, on):
+    """Experts ke niyam (Van Tharp/Douglas/Raschke/Minervini) — user 13+15 Nov. Base trades par lagao, P&L dobara gino. on = set of rule codes."""
+    out = []
+    for day, g in d.sort_values(['date', 'entry_time']).groupby('date'):
+        done, cum, losses = [], 0.0, 0
+        for r in g.itertuples():
+            # pehle ke jo trade is entry se pehle band ho chuke unka hisaab
+            for q in [q for q in done if isinstance(q[0], str) and q[0] <= r.entry_time]:
+                cum += q[1]; losses += q[1] < 0; done.remove(q)
+            skip = ('d1' in on and (losses >= 2 or cum <= -2000)) or ('d5' in on and cum >= 3000)
+            if r.instr == 'EQ':
+                if 'd2' in on and pd.notna(getattr(r, 'rr', np.nan)) and r.rr < 1.5: skip = True
+                if 'd4' in on and pd.notna(getattr(r, 'nifty_at_entry', np.nan)) and r.side * r.nifty_at_entry < -0.2: skip = True
+            if skip: continue
+            p = r.pnl_be if ('d3' in on and r.instr == 'EQ' and pd.notna(getattr(r, 'pnl_be', np.nan))) else r.pnl_rs
+            out.append(p); done.append((r.exit_time if isinstance(r.exit_time, str) else '99:99', p))
+    o = pd.Series(out, dtype=float)
+    return len(o), o.sum(), (o > 0).mean() * 100 if len(o) else 0, o.min() if len(o) else 0
+
+
+def disc_table(d):
+    rows = [('Bina niyam (base)', *discipline(d, set()))]
+    for k, c in RULES.items(): rows.append((k + ' (akela)', *discipline(d, {c})))
+    rows.append(('SAB niyam ek saath', *discipline(d, set(RULES.values()))))
+    t = pd.DataFrame(rows, columns=['niyam', 'trades', 'total_rs', 'win_pct', 'sabse_bura']).set_index('niyam').round(0)
+    return t
 
 
 def report():
@@ -290,6 +339,8 @@ def report():
         if 'lesson' in d:
             ls = d.lesson.dropna().str.split('; ').explode(); ls = ls[ls != '']
             if len(ls): L += ['Galtiyon ki ginti:', '```', ls.value_counts().to_string(), '```']
+        if 'pnl_be' in d.columns or 'rr' in d.columns:
+            L += ['Discipline niyam ki jaanch (base vs har niyam; jo base se behtar ho wahi rakhenge):', '```', disc_table(d).to_string(), '```']
     if os.path.exists(J):
         d = pd.read_csv(J); last = d.date.max() if len(d) else None
         if last:
