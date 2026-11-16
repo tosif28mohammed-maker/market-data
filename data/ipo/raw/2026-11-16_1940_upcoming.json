@@ -1,0 +1,28 @@
+[
+ {
+  "companyName": "Crystal Crop Protection Limited",
+  "issueEndDate": "20-Nov-2026",
+  "issuePrice": "Rs.259 to Rs.272",
+  "issueSize": "17419685",
+  "issueStartDate": "18-Nov-2026",
+  "orderEndDate": "2026-11-20 00:00:00",
+  "orderStartDate": "2026-11-18 00:00:00",
+  "segment": null,
+  "series": "Equity",
+  "status": "Forthcoming",
+  "symbol": "CRYSTALCP"
+ },
+ {
+  "companyName": "Watrana Rentals Limited",
+  "issueEndDate": "23-Nov-2026",
+  "issuePrice": "Rs.232 to Rs.245",
+  "issueSize": "4902000",
+  "issueStartDate": "19-Nov-2026",
+  "orderEndDate": "2026-11-23 00:00:00",
+  "orderStartDate": "2026-11-19 00:00:00",
+  "segment": null,
+  "series": "SME",
+  "status": "Forthcoming",
+  "symbol": "WATRANA"
+ }
+]
