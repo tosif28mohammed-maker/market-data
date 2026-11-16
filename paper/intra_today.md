@@ -1,4 +1,4 @@
-# Intraday paper — 2026-11-16 (update 12:30 IST)
+# Intraday paper — 2026-11-16 (update 15:25 IST)
 
 Paper hai, asli paisa/order nahi. Option bhaav Black-Scholes + India VIX se andaza (robot ke paas live option bhaav nahi).
 S&P raat -0.40%, Nifty 20 din +11.1%, gap watch 67 shares
