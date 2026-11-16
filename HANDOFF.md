@@ -48,7 +48,7 @@ Nayi seekh d04-master + findings mein. Password/PIN/TOTP/API key kabhi chat mein
 Paid data (Tickertape) repo mein mat daalo (repo public).
 
 ## Holdings 16 Nov (screenshot): MINDACORP 10 BIK GAYA ~735 (13 Nov). KARURVYSYA 40 @379 BHARA (13 Nov; stop 350, target 420). HERO nahi bhara.
-HFCL avg 205.49. Laga Rs1,12,278; steel+pharma ~64%.
+HFCL avg 205.49. GCSL 40 @827 (16 Nov; stop 757 close, 20 din). Laga Rs1,45,358; steel+pharma ~49%.
 NAVINFLUOR 1 @8730.62 (stop 8414), SHYAMMETL 8 @1252.96 (stop 1161), SANSERA 2 @4277.04 (stop 4156),
 WELCORP 13 @2182.62 (stop 1991, 2370 par 7 bech, aur nahi jodna), AJANTPHARM 10 @3321.67 (stop 3200, target 3590), HFCL 40 @205 (naya 13 Nov; stop 189 close, target ~230, 20 din). GTT BUY MCX 10 @3185.
 Laga ~Rs 1.03 lakh; steel+pharma ~69%.
