@@ -478,5 +478,29 @@
   "website": "https://www.nhpcindia.com",
   "city": "Faridabad",
   "employees": 4634
+ },
+ "MCLOUD": {
+  "as_of": "2026-11-17",
+  "kaam": "",
+  "log": [],
+  "website": "",
+  "city": "",
+  "employees": null
+ },
+ "MMTC": {
+  "as_of": "2026-11-17",
+  "kaam": "",
+  "log": [],
+  "website": "",
+  "city": "",
+  "employees": null
+ },
+ "AHCL": {
+  "as_of": "2026-11-17",
+  "kaam": "",
+  "log": [],
+  "website": "",
+  "city": "",
+  "employees": null
  }
 }

@@ -1,9 +1,142 @@
 {
- "last": "2026-11-13",
- "open": [],
- "pending": [],
- "seq": 566,
- "gap_last": "2026-11-13",
- "usfade_last_BANKNIFTY": "2026-11-13",
- "usfade_last_NIFTY": "2026-11-13"
+ "last": "2026-11-17",
+ "open": [
+  {
+   "id": "T00570",
+   "strategy": "EQ_DIP",
+   "symbol": "TMPV",
+   "side": "Buy",
+   "qty": 381,
+   "signal_date": "2026-11-16",
+   "sl": 249.11,
+   "target": 281.96,
+   "note": "dist -6.9% (limit -5.5%)",
+   "entry_date": "2026-11-17",
+   "entry_price": 262.4,
+   "days": 1
+  },
+  {
+   "id": "T00573",
+   "strategy": "FUT_EXP",
+   "symbol": "NIFTY",
+   "side": "Long",
+   "qty": 65,
+   "entry_date": "2026-11-17",
+   "entry_price": 25387.4,
+   "sl": null,
+   "target": null,
+   "days": 0,
+   "note": "expiry-day close"
+  },
+  {
+   "id": "T00574",
+   "strategy": "OPT_BUY_EXP",
+   "symbol": "NIFTY 25400 CE",
+   "side": "Buy",
+   "qty": 65,
+   "entry_date": "2026-11-17",
+   "entry_price": 224.98,
+   "entry_val": 224.97642053975687,
+   "legs": [
+    [
+     "C",
+     25400,
+     1,
+     "2026-11-24"
+    ]
+   ],
+   "expiry": "2026-11-24",
+   "days": 0,
+   "sl": null,
+   "target": null,
+   "note": "VIX 15.5"
+  },
+  {
+   "id": "T00575",
+   "strategy": "OPT_SELL",
+   "symbol": "NIFTY 24800PE/25950CE",
+   "side": "Sell",
+   "qty": 65,
+   "entry_date": "2026-11-17",
+   "entry_price": 80.23,
+   "entry_val": -80.22602068552806,
+   "legs": [
+    [
+     "C",
+     25950,
+     -1,
+     "2026-11-24"
+    ],
+    [
+     "P",
+     24800,
+     -1,
+     "2026-11-24"
+    ]
+   ],
+   "expiry": "2026-11-24",
+   "days": 0,
+   "sl": null,
+   "target": null,
+   "note": "credit 80.2 pts, VIX 15.5"
+  },
+  {
+   "id": "T00576",
+   "strategy": "HEDGE_IC",
+   "symbol": "NIFTY 24800PE/25950CE +wings",
+   "side": "Sell",
+   "qty": 65,
+   "entry_date": "2026-11-17",
+   "entry_price": 53.77,
+   "entry_val": -53.769433246962194,
+   "legs": [
+    [
+     "C",
+     25950,
+     -1,
+     "2026-11-24"
+    ],
+    [
+     "P",
+     24800,
+     -1,
+     "2026-11-24"
+    ],
+    [
+     "C",
+     26250,
+     1,
+     "2026-11-24"
+    ],
+    [
+     "P",
+     24500,
+     1,
+     "2026-11-24"
+    ]
+   ],
+   "expiry": "2026-11-24",
+   "days": 0,
+   "sl": null,
+   "target": null,
+   "note": "credit 53.8 pts, VIX 15.5"
+  }
+ ],
+ "pending": [
+  {
+   "id": "T00577",
+   "strategy": "EQ_FOCUS",
+   "symbol": "NHPC",
+   "side": "Buy",
+   "qty": 0,
+   "signal_date": "2026-11-17",
+   "sl": 68.09,
+   "target": 77.08,
+   "note": "WMA 20: दूरी -3.0% (सीमा -2.8%); 2021-26 जीत 74%; RSI 46; MACD नीचे; BB %B 0.42; 50 SMA नीचे, 200 SMA नीचे; 52w high से -14%; support 68.8 / resistance 83.5, volume 0.6x"
+  }
+ ],
+ "seq": 589,
+ "gap_last": "2026-11-17",
+ "usfade_last_BANKNIFTY": "2026-11-17",
+ "usfade_last_NIFTY": "2026-11-17"
 }
