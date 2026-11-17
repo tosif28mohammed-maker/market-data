@@ -29,7 +29,7 @@ import os, sys, json, math, datetime as dt
 import numpy as np, pandas as pd
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); P=os.path.join(ROOT,'paper'); DATA=os.path.join(ROOT,'data')
 LIVE_FROM='2026-10-29'; WEEKLY_HOL={pd.Timestamp(x) for x in ('2026-11-24','2026-12-25')}; LOT=65; R=0.065; IST=dt.timezone(dt.timedelta(hours=5,minutes=30))
-SYMS=[f[:-4] for f in os.listdir(DATA) if f.endswith('.csv') and f not in ('latest.csv','fii_dii.csv') and open(os.path.join(DATA,f)).readline().startswith('date')]   # only OHLC price files (decision/tf_scan csv excluded, fix 9 Nov)
+SYMS=[f[:-4] for f in os.listdir(DATA) if f.endswith('.csv') and f not in ('latest.csv','fii_dii.csv') and (lambda h: h.startswith('date') and ',close' in h and ',open' in h)(open(os.path.join(DATA,f)).readline())]   # sirf OHLC (andaza/halchal log jaisi 'date,...' files nahi)   # only OHLC price files (decision/tf_scan csv excluded, fix 9 Nov)
 _EX=os.path.join(ROOT,'symbols_extra.txt'); EXTRA={l.split(',')[0].strip() for l in open(_EX) if ',' in l and not l.startswith('#')} if os.path.exists(_EX) else set()
 STOCKS=[s for s in SYMS if s not in ('NIFTY','INDIAVIX') and s not in EXTRA]   # paper book = Nifty-50 only; extra symbols are for study
 def load(s):
