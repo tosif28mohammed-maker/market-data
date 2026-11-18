@@ -58,6 +58,14 @@ STEADY = {'TVSMOTOR', 'EICHERMOT', 'LAURUSLABS', 'UNIONBANK', 'FEDERALBNK', 'TOR
 rs_ok = r63[up200].dropna(); rs_cut = rs_ok.quantile(0.9)
 Z = pd.read_csv(os.path.join(R, 'data', 'tf_zone.csv')) if os.path.exists(os.path.join(R, 'data', 'tf_zone.csv')) else pd.DataFrame(columns=['symbol', 'tf', 'ma', 'in_zone', 'zone_price', 'ma_val', 'status'])
 Zin = Z[Z.in_zone == True]
+_ttf = os.path.join(R, 'data', 'tt_flags.csv')  # 18 Nov: Tickertape haan/na flags (sirf jaankari, score nahi)
+TT = pd.read_csv(_ttf).set_index('symbol') if os.path.exists(_ttf) else pd.DataFrame()
+_TTN = {'girvi': '⚠️ promoter girvi 10%+', 'promoter_bech': '⚠️ promoter bech raha (3m)', 'fii_bech': 'FII bech rahe (3m)',
+        'insider_bech': 'insider bikri (3m)', 'analyst_kam': 'analyst kam', 'mf_khareed': '✅ MF khareed rahe (3m)'}
+def ttnote(s):
+    if s not in TT.index: return ''
+    r = TT.loc[s]; f = [v for k, v in _TTN.items() if k in r.index and int(r[k]) == 1]
+    return f' | Tickertape ({r.asof}): ' + ', '.join(f) if f else ''
 dv = os.path.join(R, 'data', 'corp', 'div_candidates.csv'); DV = pd.read_csv(dv) if os.path.exists(dv) else pd.DataFrame(columns=['symbol'])
 bmf = os.path.join(R, 'data', 'corp', 'board_meetings.csv'); BM = pd.read_csv(bmf) if os.path.exists(bmf) else pd.DataFrame(columns=['symbol', 'date'])
 BM['d'] = pd.to_datetime(BM.date, errors='coerce', dayfirst=True)
@@ -101,6 +109,7 @@ for s in AB:
     if sm is not None and sm[0] >= 0.9: why.append('(sirf jaankari, score nahi: kharcha ke baad 2017-26 mein +0.3..0.5%/m, t<2) ' + f'is mahine ka apna mausam: pichhle 5 saal isi mahine bazaar se ausat {sm[1]:+.1f}%, {sm[2]}/5 saal upar (f81)')
     if sm is not None and sm[0] <= 0.1: sc -= 1; why.append(f'⚠️ is mahine ye share aam taur par kamzor (5 saal ausat {sm[1]:+.1f}%; aise shares har daur mein bazaar se 0.4-1%/mahina peeche, f81)')
     if sc <= 0: continue
+    if ttnote(s): why.append('(sirf jaankari, score nahi)' + ttnote(s))
     res = soon.get(s)
     px = float(c[s].iloc[-1])
     # entry / exit plan
@@ -137,6 +146,7 @@ for h in Hd.itertuples():
         if days >= 20: act += f'; {days} दिन हुए — review'
     if h.symbol in BALL: act += f' | ⚠️ bonus/split ex {BALL[h.symbol]}: ex से पहले (cum दिन) बेचो — बाद में ~-6% (f71)'
     res = soon.get(h.symbol); act += (f' | ⚠️ नतीजे {res:%d %b}' if res is not None and not pd.isna(res) else '')
+    act += ttnote(h.symbol)
     hl.append(f'- **{h.symbol}** {h.qty} @{h.avg} → {p:.2f} ({pnl:+.1f}%): {act}')
 
 T = pd.Timestamp(last) + pd.offsets.BDay(1)
