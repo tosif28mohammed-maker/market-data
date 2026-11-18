@@ -1,51 +1,51 @@
-# Themes / बड़े रुझान — 2026-11-17
+# Themes / बड़े रुझान — 2026-11-18
 
-दाम (India टोकरी, सब शेयरों के median से फ़र्क) + चर्चा (7 दिन की ख़बरें). चर्चा का इतिहास 9 दिन — 6-8 हफ़्ते बाद "बढ़ती चर्चा" भरोसेमंद होगी.
+दाम (India टोकरी, सब शेयरों के median से फ़र्क) + चर्चा (7 दिन की ख़बरें). चर्चा का इतिहास 10 दिन — 6-8 हफ़्ते बाद "बढ़ती चर्चा" भरोसेमंद होगी.
 
 | Theme | Stage | 3m vs बाज़ार | 6m vs बाज़ार | 200 DMA ऊपर | ख़बरें 7d | चर्चा/औसत |
 |---|---|---|---|---|---|---|
-| Pharma & CDMO | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +6.2% | +12.4% | 74% | 35 | 0.89 |
-| Oil & gas | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +4.6% | +4.8% | 64% | 79 | 0.84 |
-| Tourism & travel | चल रहा (दाम + चर्चा दोनों) | +4.7% | +4.0% | 50% | 57 | 1.13 |
-| EV & auto | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +1.8% | +7.6% | 61% | 79 | 0.82 |
-| Shipping & ports | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +2.8% | +6.3% | 55% | 87 | 0.95 |
-| Capital markets | चल रहा (दाम + चर्चा दोनों) | +3.2% | +2.5% | 55% | 53 | 1.14 |
-| Consumption & FMCG | चल रहा (दाम + चर्चा दोनों) | +4.8% | -7.9% | 43% | 27 | 1.06 |
-| Healthcare services | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +1.1% | +1.9% | 62% | 41 | 0.77 |
-| Defence | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +0.3% | +4.0% | 59% | 50 | 0.86 |
-| Semiconductors & electronics mfg | चल रहा (दाम + चर्चा दोनों) | -2.3% | +12.6% | 50% | 68 | 1.28 |
-| Banks & credit | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | +1.6% | -0.9% | 41% | 41 | 1.15 |
-| AI & data centres | ठंडा | -2.5% | +2.6% | 46% | 105 | 0.78 |
-| Real estate & housing | ठंडा | -0.9% | -4.5% | 46% | 56 | 1.03 |
-| Copper & metals | ठंडा | +1.0% | -12.0% | 39% | 40 | 0.61 |
-| Chemicals | ठंडा | -3.5% | -2.6% | 39% | 7 | 0.47 |
-| Railways & infra | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -2.7% | -11.7% | 28% | 66 | 1.08 |
-| Power demand & grid | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -4.9% | -7.6% | 27% | 88 | 1.18 |
-| Water & agri | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -5.1% | -15.7% | 20% | 21 | 1.26 |
-| Solar & renewables | ठंडा | -10.0% | -22.9% | 12% | 64 | 0.97 |
-| Nuclear energy | सिर्फ़ चर्चा (दाम साथ नहीं = hype) | +nan% | +nan% | nan% | 59 | 1.04 |
-| Gold & silver | ठंडा | +nan% | +nan% | nan% | 85 | 0.77 |
+| Pharma & CDMO | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +5.7% | +12.3% | 75% | 31 | 0.8 |
+| Tourism & travel | चल रहा (दाम + चर्चा दोनों) | +5.6% | +4.8% | 55% | 56 | 1.09 |
+| Capital markets | चल रहा (दाम + चर्चा दोनों) | +5.5% | +4.2% | 64% | 53 | 1.12 |
+| Oil & gas | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +3.3% | +7.0% | 68% | 76 | 0.83 |
+| EV & auto | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +2.1% | +10.0% | 64% | 86 | 0.91 |
+| Shipping & ports | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +4.1% | +4.5% | 59% | 90 | 0.99 |
+| Defence | ठंडा | -1.7% | +8.2% | 59% | 48 | 0.84 |
+| Semiconductors & electronics mfg | सिर्फ़ चर्चा (दाम साथ नहीं = hype) | -2.7% | +13.7% | 50% | 71 | 1.3 |
+| Consumption & FMCG | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | +4.4% | -8.4% | 42% | 31 | 1.21 |
+| Banks & credit | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | +2.3% | +0.0% | 46% | 46 | 1.27 |
+| Healthcare services | ठंडा | +0.3% | +1.7% | 58% | 46 | 0.89 |
+| AI & data centres | सिर्फ़ चर्चा (दाम साथ नहीं = hype) | -0.3% | +2.0% | 48% | 149 | 1.13 |
+| Real estate & housing | ठंडा | +0.3% | -3.5% | 48% | 55 | 1.01 |
+| Copper & metals | ठंडा | +1.6% | -10.0% | 34% | 66 | 1.05 |
+| Chemicals | ठंडा | -4.5% | -1.1% | 41% | 3 | 0.21 |
+| Railways & infra | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -3.9% | -10.7% | 28% | 66 | 1.07 |
+| Power demand & grid | ठंडा | -6.8% | -7.6% | 25% | 81 | 1.06 |
+| Water & agri | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -5.7% | -17.2% | 20% | 20 | 1.17 |
+| Solar & renewables | ठंडा | -11.9% | -21.7% | 12% | 53 | 0.8 |
+| Nuclear energy | सिर्फ़ चर्चा (दाम साथ नहीं = hype) | +nan% | +nan% | nan% | 67 | 1.17 |
+| Gold & silver | ठंडा | +nan% | +nan% | nan% | 87 | 0.81 |
 
 ## सबसे मज़बूत themes के अच्छे शेयर (A/B, quality ≥6/9, 200 DMA ऊपर, 3m ताकत से)
-- **Pharma & CDMO**: AHCL (+81% 3m, Q8), KOPRAN (+48% 3m, Q6), SYNCOMF (+39% 3m, Q7), SMSPHARMA (+33% 3m, Q8), DIVISLAB (+30% 3m, Q9)
-- **Oil & gas**: PETRONET (+17% 3m, Q7), ANTELOPUS (+11% 3m, Q9), GANDHAR (+8% 3m, Q7), CHENNPETRO (+6% 3m, Q8), RELIANCE (+2% 3m, Q7)
-- **Tourism & travel**: ORIENTHOT (+42% 3m, Q8), INDHOTEL (+23% 3m, Q9), LEMONTREE (+14% 3m, Q7), CHALET (+1% 3m, Q8), TBOTEK (-2% 3m, Q7)
-- **EV & auto**: SSWL (+84% 3m, Q6), WHEELS (+72% 3m, Q7), MENONBE (+51% 3m, Q9), KROSS (+39% 3m, Q7), SANSERA (+26% 3m, Q8)
-- **Shipping & ports**: SHREEJISPG (+40% 3m, Q8), KMEW (+31% 3m, Q9), GESHIP (+18% 3m, Q8), GPPL (+16% 3m, Q9), ADANIPORTS (+14% 3m, Q7)
+- **Pharma & CDMO**: AHCL (+77% 3m, Q8), KOPRAN (+43% 3m, Q6), SYNCOMF (+40% 3m, Q7), SMSPHARMA (+35% 3m, Q8), DIVISLAB (+32% 3m, Q9)
+- **Tourism & travel**: ORIENTHOT (+44% 3m, Q8), INDHOTEL (+25% 3m, Q9), LEMONTREE (+13% 3m, Q7), IXIGO (+1% 3m, Q7), CHALET (-0% 3m, Q8)
+- **Capital markets**: GCSL (+60% 3m, Q8), ALGOQUANT (+32% 3m, Q6), MCX (+27% 3m, Q9), GROWW (+16% 3m, Q7), BSE (+12% 3m, Q9)
+- **Oil & gas**: PETRONET (+16% 3m, Q7), ANTELOPUS (+12% 3m, Q9), GANDHAR (+8% 3m, Q7), CHENNPETRO (+7% 3m, Q8), IOC (+4% 3m, Q7)
+- **EV & auto**: SSWL (+78% 3m, Q6), WHEELS (+63% 3m, Q7), MENONBE (+49% 3m, Q9), KROSS (+32% 3m, Q7), LUMAXTECH (+19% 3m, Q8)
 
 ## Value chain (ग्राहक कंपनी मज़बूत → सप्लायर पीछे से चलते हैं; auto/power में असर, telecom में नहीं)
-- **auto**: ग्राहक (anchor) पिछला महीना बाज़ार से +11.6% → मज़बूत: पीछे रहे अच्छे सप्लायर देखो: VARROC (-0%), CRAFTSMAN (+1%), MOTHERSON (+2%), CEATLTD (+4%), GABRIEL (+5%)
-- **defence**: ग्राहक (anchor) पिछला महीना बाज़ार से +2.9% → मज़बूत: पीछे रहे अच्छे सप्लायर देखो: PARAS (-0%), ASTRAMICRO (+1%), DATAPATTNS (+1%)
-- **housing**: ग्राहक (anchor) पिछला महीना बाज़ार से +14.8% → मज़बूत: पीछे रहे अच्छे सप्लायर देखो: KAJARIACER (-4%), ASIANPAINT (+10%), SHREECEM (+12%), ULTRACEMCO (+14%)
-- **power**: ग्राहक (anchor) पिछला महीना बाज़ार से +5.5% → मज़बूत: पीछे रहे अच्छे सप्लायर देखो: APARINDS (-17%), BHEL (-7%), SIEMENS (-5%), ABB (-1%), POWERINDIA (+2%)
-- **telecom**: ग्राहक (anchor) पिछला महीना बाज़ार से +11.4% → मज़बूत: पीछे रहे अच्छे सप्लायर देखो: 
+- **auto**: ग्राहक (anchor) पिछला महीना बाज़ार से +9.0% → मज़बूत: पीछे रहे अच्छे सप्लायर देखो: VARROC (+2%), CRAFTSMAN (+2%), MOTHERSON (+2%), GABRIEL (+5%), LUMAXIND (+6%)
+- **defence**: ग्राहक (anchor) पिछला महीना बाज़ार से +1.3% → अभी कोई chain signal नहीं
+- **housing**: ग्राहक (anchor) पिछला महीना बाज़ार से +14.5% → मज़बूत: पीछे रहे अच्छे सप्लायर देखो: KAJARIACER (-4%), SHREECEM (+12%), ASIANPAINT (+12%), ULTRACEMCO (+13%)
+- **power**: ग्राहक (anchor) पिछला महीना बाज़ार से +3.7% → मज़बूत: पीछे रहे अच्छे सप्लायर देखो: APARINDS (-16%), BHEL (-1%), ABB (+2%), POWERINDIA (+6%), GVT&D (+9%)
+- **telecom**: ग्राहक (anchor) पिछला महीना बाज़ार से +7.4% → मज़बूत: पीछे रहे अच्छे सप्लायर देखो: 
 
 ## आज की चर्चा के नमूने
-- Pharma & CDMO: Mankind Pharma enters into in-licensing agreement with Betta Pharmaceuticals for Ensartinib - Express Pharma | Mankind licenses Lung cancer drug ensartinib from China’s Betta Pharmaceuticals - pharma.economictimes.indiati | India’s Pharma Exports To Reach US$ 50 Bn By ’30 - https://www.fintechbiznews.com/
-- Oil & gas: Oil Market Report - November 2026 - IEA - International Energy Agency | OPEC crude production rises by nearly 2 million bpd in October - Anadolu Ajansı | SunSirs: OPEC Maintains Forecast for Global Crude Oil Demand Growth in 2027 - ChemNet News
-- Tourism & travel: Bharatiya Vayuyan Niyam, 2026: A Modern Rulebook for India’s Skies - www.pib.gov.in | IndiGo leads Indian domestic and international markets; Air India remains second - Indian Aviation News Net | India - Aviation Laws and Regulations 2026 - ICLG
+- Pharma & CDMO: Mankind Pharma enters into in-licensing agreement with Betta Pharmaceuticals for Ensartinib - Express Pharma | India’s Pharma Exports To Reach US$ 50 Bn By ’30 - https://www.fintechbiznews.com/ | Biocon bags FDA nod for Perjeta biosimilar - pharma.economictimes.indiatimes.com
+- Tourism & travel: Bharatiya Vayuyan Niyam, 2026: A Modern Rulebook for India’s Skies - www.pib.gov.in | US air travel expected to recover by Sunday after nationwide shutdown sparks chaos - India Today | Coimbatore airport records highest single-day passenger traffic in recent years - The New Indian Express
+- Capital markets: Highlights - AMFI Mutual Fund Industry Monthly Data October 2026 - EquityBulls | India's 3rd-largest mutual fund house enters SIF space: Check long-short hybrid NFO details; how existing sche | Who are the biggest distributors of the top five AMCs? - Cafemutual
+- Oil & gas: Oil Market Report - November 2026 - IEA - International Energy Agency | SunSirs: OPEC Maintains Forecast for Global Crude Oil Demand Growth in 2027 - ChemNet News | OPEC’s Oil Production Nears Prewar Levels on Saudi Rebound - WSJ
 - EV & auto: Annual EV sales cross 3 lakh mark for the first time in 2026 - Autocar India | India's annual EV car sales cross 3 lakh units for the first time - Team-BHP | Global EV sales reach 2.09 million units in October 2026 - HT Auto
-- Shipping & ports: Manufacturing Momentum:Building a Self-Reliant India - www.pib.gov.in | Sarbananda Sonowal invites global investors to tap India’s $10 billion shipbuilding opportunity - DD News | Bharat’s Shipbuilding Capability - SP's Naval Forces
-- Capital markets: Highlights - AMFI Mutual Fund Industry Monthly Data October 2026 - EquityBulls | Equity mutual fund inflows fall 14% to Rs 32,994 crore in October; debt funds see sharp rebound - Moneycontrol | India's Angel One weighs active funds launch, expansion of securities-backed loans, executive says - Reuters
-- Consumption & FMCG: FMCG companies see demand revival; weak monsoon, rising costs cloud outlook - Forbes India | PATANJALI: Record H1 revenue, with oil and FMCG growth offset by inflation and muted rural demand - TradingVie | Rural economy: Resilient but uneven; next few quarters key - Forbes India
-- Healthcare services: Aster DM Quality Care to open 300-bed Hyderabad hospital in March 2027 - www.expresshealthcare.in | Aster DM Quality Care injects Rs 500 Cr to open 300-Bed hospital in Hyderabad - BioSpectrum India | Aster DM Quality Care to open ₹500-crore, 300-bed Kondapur hospital in 2027 - The Times of India
+- Shipping & ports: Sarbananda Sonowal Pitches $10 Billion Shipbuilding Opportunity to Global Maritime Leaders - www.pib.gov.in | Sarbananda Sonowal invites global investors to tap India’s $10 billion shipbuilding opportunity - DD News | India targets $10 bn investment in five greenfield shipbuilding clusters - Indian Transport & Logistics
+- Defence: India's Defence Strength Powering National Security through Self-Reliance - pib.gov.in | Apollo Micro Systems hands over indigenous SDD to Indian Navy - scanx.trade | Cyient DLM Signs MoU With Hindustan Shipyard For Maritime And Defence Electronics - Sahi
+- Semiconductors & electronics mfg: Semiconductor and AI Revolution - pib.gov.in | Rs1.24 TRN Outlay In 6 Semicon Projects In Guj - https://www.fintechbiznews.com/ | Visakhapatnam's semiconductor SEZ: Can India move beyond assembly to advanced chip packaging? - ET Government
