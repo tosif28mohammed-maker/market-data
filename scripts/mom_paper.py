@@ -43,7 +43,7 @@ if len(closes):
     last_day = closes.index.max()
     if last_day.date() != today.date() and now.hour < 23: print('no data for today yet', last_day);
 px = closes.ffill().iloc[-1] if len(closes) else pd.Series(dtype=float)
-journal = pd.read_csv(JF).to_dict('records') if os.path.exists(JF) else []
+journal = pd.read_csv(JF).to_dict('records') if os.path.exists(JF) and os.path.getsize(JF) > 5 else []   # khaali file par crash nahi
 lines = []
 def value():
     return state['cash'] + sum(p['units'] * float(px.get(s, p['entry'])) for s, p in state['pos'].items())

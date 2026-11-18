@@ -31,7 +31,7 @@ rd = lambda f: pd.read_csv(os.path.join(ROOT, 'data', 'daily_all', f), index_col
 C, L, O = rd('close.csv.gz'), rd('low.csv.gz'), rd('open.csv.gz')
 day = C.index[-1]; today = day.date()
 state = json.load(open(SF)) if os.path.exists(SF) else {'cash': 500000.0, 'pos': {}, 'done': [], 'start': str(today), 'last_day': None}
-journal = pd.read_csv(JF).to_dict('records') if os.path.exists(JF) else []
+journal = pd.read_csv(JF).to_dict('records') if os.path.exists(JF) and os.path.getsize(JF) > 5 else []   # khaali file par crash nahi
 lines = []
 if state['last_day'] == str(today):
     print('already ran for', today)
