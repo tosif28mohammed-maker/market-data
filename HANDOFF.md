@@ -1,3 +1,16 @@
+# >>> HANDOFF 18 Nov 2026 (subah) — naya chat yahan se shuru kare <<<
+Holdings (Angel, maa ka account): WELCORP 13 @2182.62 (stop 1991; 7 @2370, 6 @2434), SHYAMMETL 8 @1252.96 (stop 1161), SANSERA 2 @4277.04 (stop 4156),
+NAVINFLUOR 1 @8730.62 (stop 8414), KARURVYSYA 40 @379.89 (stop 350, target 420), HFCL 40 @205.49 (17 Nov close 188.19 < stop 189 -> 18 Nov 2:15-3:25 BECHNA),
+GCSL 40 @828.57 (stop 757), AJANTPHARM 10 @3321.67 (stop 3200, target 3590); GTT BUY MCX 10 @3185. Laga ~Rs1.45 lakh. Sab stop CLOSE par.
+18 Nov salaah: HFCL bech; MAHABANK 100 @96.5 (stop 82, saste share niyam) optional; HERO 3 @5280 sirf agar 5262 upar.
+DDPI 17 Nov successful par Angel web abhi 'Non-POA' bol raha tha -> logout/login ya agle din; phir OCO GTT (table n42 17 Nov).
+Robot galtiyan (meri) theek: 16 Nov engine ne log files ko share samjha; 17 Nov holdings note mein comma -> decision fail. NIYAM: paper/my_holdings.csv ke note mein COMMA kabhi nahi; data/ top-level mein 'date,' se shuru hone wali non-OHLC csv nahi (engine filter ab ',open'+',close' maangta).
+Naye robots (daily.yml): rare_setup.py (A+ + futures seekhne ki kitaab), shock_watch.py (f86 AVOID + halchal), andaza.py (f87 mila-jula andaza + live calibration), penny_watch.py (f88 saste share).
+Findings f85-f88 notebook mein. User OK: paper mein jo sahi lage bina poochhe daalo. Baaki OK: (c) Tickertape haan/na flags, (d) per-trade rakam (user ~Rs30k lagata, robot Rs15k maanta) — DONO poochne baaki.
+Agla kaam: base-breakout + IPO-base paper strategy; GAPFADE hatana socho; 2-3 hafte baad intraday/futures paper ka nateeja.
+User: Kuwait mein NRI, apna account nahi (maa ka Angel). Sujhav diye: gift route, apna NRO non-PIS + NRI demat, Zerodha (delivery Rs0) — faisla user ka.
+Briefing format (user ki memory): khabar kram — duniya (sabse detail), world economy, India, Rajasthan, Banswara, Kuwait, Gulf, phir bazaar asar; jawab detail mein, kai options ke saath.
+
 # HANDOFF — naye chat ke liye (Tosif ki share market study) — 12 Nov 2026
 
 Saari yaad do jagah hai:
