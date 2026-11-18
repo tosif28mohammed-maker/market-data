@@ -122,18 +122,39 @@ run,symbol,company,series,issue_start,issue_end,price_band,size,category,offered
 2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1047600.0,,1.47
 2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,169200.0,,1.47
 2026-11-04_1230,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Total,0.0,3174000.0,0.0,1.47
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Qualified Institutional Buyers(QIBs),0,68400,0.00,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Foreign Institutional Investors(FIIs),,68400,,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0,,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Mutual funds,,0,,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0,,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors,0,3432000,0.00,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0,1996800,0.00,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,304800,,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1692000,,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0,,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0,1435200,0.00,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0,,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1262400,,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,172800,,1.85
-2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Total,0.0,3500400.0,0.00,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Qualified Institutional Buyers(QIBs),0.0,68400.0,0.0,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Foreign Institutional Investors(FIIs),,68400.0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0.0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Mutual funds,,0.0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0.0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors,0.0,3432000.0,0.0,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0.0,1996800.0,0.0,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,304800.0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1692000.0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,0.0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0.0,1435200.0,0.0,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Corporates,,0.0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Individuals(Other than RIIs),,1262400.0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Others,,172800.0,,1.85
+2026-11-04_1802,VPFL,Vedant Poly Fabs Limited,SME,02-Nov-2026,04-Nov-2026,,,Total,0.0,3500400.0,0.0,1.85
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Qualified Institutional Buyers(QIBs),3406814,735295,0.21583068520911328,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Foreign Institutional Investors(FIIs),,735295,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Mutual funds,,0,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Others,,0,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Non Institutional Investors,2596928,775005,0.29843145439534713,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),1731286,351835,0.20322176694087515,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Corporates,,0,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Individuals(Other than RIIs),,348095,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Others,,3740,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),865642,423170,0.4888510492790322,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Corporates,,1540,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Individuals(Other than RIIs),,417395,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Others,,4235,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Retail Individual Investors(RIIs),6059497,4667300,0.7702454510663179,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Cut Off,,4383115,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Price bids,,284185,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Employees,106837,208725,1.9536770968859103,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Cut Off,,185955,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Price Bids,,22770,,
+2026-11-18_1236,CRYSTALCP,Crystal Crop Protection Limited,Equity,18-Nov-2026,20-Nov-2026,Rs.259 to Rs.272,12170076,Total,1.2170076E7,6386325.0,0.5247563778566379,
