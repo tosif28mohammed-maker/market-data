@@ -1,18 +1,19 @@
 {
- "cash": 450031.0,
+ "cash": 448348.9275,
  "pos": {
-  "ONGC_2026-11-12": {
-   "symbol": "ONGC",
-   "ex_date": "2026-11-12",
-   "yield_pct": 3.43,
-   "entry": 233.5,
-   "entry_date": "2026-11-09",
-   "units": 214
+  "BFINVEST_2026-11-20": {
+   "symbol": "BFINVEST",
+   "ex_date": "2026-11-20",
+   "yield_pct": 4.06,
+   "entry": 492.15,
+   "entry_date": "2026-11-18",
+   "units": 101
   }
  },
  "done": [
-  "ONGC_2026-11-12"
+  "ONGC_2026-11-12",
+  "BFINVEST_2026-11-20"
  ],
  "start": "2026-11-09",
- "last_day": "2026-11-09"
+ "last_day": "2026-11-18"
 }

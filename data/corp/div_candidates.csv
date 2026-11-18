@@ -1,2 +1,2 @@
 symbol,company,subject,div_rs,last_close,yield_pct,ex_date,record_date,tdays_to_ex,buy_from,sell_on_cum,liq_D,src,stop,rule
-BFINVEST,BF Investment Limited,Interim Dividend - Rs 20 Per Share,20.0,488.0,4.1,20-Nov-2026,20-Nov-2026,3,2026-11-12,2026-11-19,False,NSE,458.72,f64 strong (4%+)
+BFINVEST,BF Investment Limited,Interim Dividend - Rs 20 Per Share,20.0,492.15,4.06,20-Nov-2026,20-Nov-2026,2,2026-11-12,2026-11-19,False,NSE,462.62,f64 strong (4%+)
