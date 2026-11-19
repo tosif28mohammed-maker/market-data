@@ -1,2 +1,3 @@
 symbol,ex_date,yield_pct,entry_date,entry,exit_date,exit,why,ret_pct,pnl
 ONGC,2026-11-12,3.43,2026-11-09,233.5,2026-11-18,225.0,cum दिन,-3.89,-1944
+BFINVEST,2026-11-20,4.06,2026-11-18,492.15,2026-11-19,487.25,cum दिन,-1.25,-619

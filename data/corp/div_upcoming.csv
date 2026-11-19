@@ -1,13 +1,15 @@
 symbol,company,subject,div_rs,last_close,yield_pct,ex_date,record_date,tdays_to_ex,buy_from,sell_on_cum,liq_D,src
-INGERRAND,Ingersoll Rand (India) Limited,Interim Dividend - Rs 20 Per Share,20.0,3902.5,0.51,19-Nov-2026,19-Nov-2026,1,2026-11-11,2026-11-18,False,NSE
-NATCOPHARM,Natco Pharma Limited,Interim Dividend - Rs 1.25 Per Share,1.25,820.6,0.15,19-Nov-2026,19-Nov-2026,1,2026-11-11,2026-11-18,False,NSE
-VGCL,Vibrant Global Capital Limited,Interim Dividend - Re 1 Per Share,1.0,,,19-Nov-2026,19-Nov-2026,1,2026-11-11,2026-11-18,False,NSE
-ASHOKLEY,Ashok Leyland Limited,Interim Dividend - Re 1 Per Share,1.0,162.45,0.62,20-Nov-2026,20-Nov-2026,2,2026-11-12,2026-11-19,False,NSE
-TALBROAUTO,Talbros Automotive Components Limited,Interim Dividend - Re 0.30 Per Share,0.3,406.95,0.07,20-Nov-2026,20-Nov-2026,2,2026-11-12,2026-11-19,False,NSE
-OIL,Oil India Limited,Interim Dividend - Rs 7 Per Share,7.0,435.5,1.61,20-Nov-2026,20-Nov-2026,2,2026-11-12,2026-11-19,False,NSE
-VENUSPIPES,Venus Pipes & Tubes Limited,Interim Dividend - Re 0.50 Per Share,0.5,1804.5,0.03,20-Nov-2026,20-Nov-2026,2,2026-11-12,2026-11-19,False,NSE
-JAMNAAUTO,Jamna Auto Industries Limited,Interim Dividend - Re 1 Per Share,1.0,136.3,0.73,20-Nov-2026,20-Nov-2026,2,2026-11-12,2026-11-19,False,NSE
-BFINVEST,BF Investment Limited,Interim Dividend - Rs 20 Per Share,20.0,492.15,4.06,20-Nov-2026,20-Nov-2026,2,2026-11-12,2026-11-19,False,NSE
-SKYWAYS,Skyways Air Services Limited,Interim Dividend - Re 0.40 Per Share,0.4,,,20-Nov-2026,20-Nov-2026,2,2026-11-12,2026-11-19,False,NSE
-POLYPLEX,Polyplex Corporation Limited,Interim Dividend - Rs 12 Per Share,12.0,987.1,1.22,20-Nov-2026,20-Nov-2026,2,2026-11-12,2026-11-19,False,NSE
-PASHUPATI,Pashupati Cotspin Limited,Interim Dividend - Re 0.02 Per Share,0.02,,,23-Nov-2026,23-Nov-2026,3,2026-11-13,2026-11-20,True,NSE
+BFINVEST,BF Investment Limited,Interim Dividend - Rs 20 Per Share,20.0,487.25,4.1,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+JAMNAAUTO,Jamna Auto Industries Limited,Interim Dividend - Re 1 Per Share,1.0,140.69,0.71,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+MARSONS,Marsons Limited,Interim Dividend - Re 0.05 Per Share,0.05,154.83,0.03,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+OIL,Oil India Limited,Interim Dividend - Rs 7 Per Share,7.0,437.9,1.6,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+POLYPLEX,Polyplex Corporation Limited,Interim Dividend - Rs 12 Per Share,12.0,989.3,1.21,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+RAMAPHO,Rama Phosphates Limited,Interim Dividend - Re 0.50 Per Share,0.5,,,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+SKYWAYS,Skyways Air Services Limited,Interim Dividend - Re 0.40 Per Share,0.4,,,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+STEELCAS,Steelcast Limited,Interim Dividend - Re 0.45 Per Share,0.45,387.55,0.12,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+ASHOKLEY,Ashok Leyland Limited,Interim Dividend - Re 1 Per Share,1.0,166.15,0.6,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+TALBROAUTO,Talbros Automotive Components Limited,Interim Dividend - Re 0.30 Per Share,0.3,404.05,0.07,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+VENUSPIPES,Venus Pipes & Tubes Limited,Interim Dividend - Re 0.50 Per Share,0.5,1768.8,0.03,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+ALUFLUOR,Alufluoride Limited,Interim Dividend - Rs 2.50 Per Share,2.5,,,20-Nov-2026,20-Nov-2026,1,2026-11-12,2026-11-19,False,NSE
+PASHUPATI,Pashupati Cotspin Limited,Interim Dividend - Re 0.02 Per Share,0.02,,,23-Nov-2026,23-Nov-2026,2,2026-11-13,2026-11-20,True,NSE
+VRAJ,Vraj Iron and Steel Limited,Interim Dividend - Re 0.60 Per Share,0.6,,,25-Nov-2026,25-Nov-2026,3,2026-11-16,2026-11-23,False,NSE

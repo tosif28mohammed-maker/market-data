@@ -1,19 +1,10 @@
 {
- "cash": 448348.9275,
- "pos": {
-  "BFINVEST_2026-11-20": {
-   "symbol": "BFINVEST",
-   "ex_date": "2026-11-20",
-   "yield_pct": 4.06,
-   "entry": 492.15,
-   "entry_date": "2026-11-18",
-   "units": 101
-  }
- },
+ "cash": 497436.909625,
+ "pos": {},
  "done": [
   "ONGC_2026-11-12",
   "BFINVEST_2026-11-20"
  ],
  "start": "2026-11-09",
- "last_day": "2026-11-18"
+ "last_day": "2026-11-19"
 }

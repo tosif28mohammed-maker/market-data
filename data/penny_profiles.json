@@ -502,5 +502,17 @@
   "website": "",
   "city": "",
   "employees": null
+ },
+ "WEBELSOLAR": {
+  "as_of": "2026-11-19",
+  "kaam": "Websol Energy System Limited manufactures and sells solar photovoltaic (PV) cells and modules in India and internationally. It serves solar module manufacturers. The company was formerly known as Websol Energy Systems Ltd. and changed its name to Websol Energy System Limited in October 2011. The company was incorporated in 1990 and is based in Kolkata, India.",
+  "log": [
+   "Mr. Sohan Lal Agarwal (Chairman, CEO & MD)",
+   "Mr. Amrit  Daga (Chief Financial Officer)",
+   "Ms. Vasanthi  Sreeram (Chief Technical Officer)"
+  ],
+  "website": "https://www.websolenergy.com",
+  "city": "Kolkata",
+  "employees": 655
  }
 }
