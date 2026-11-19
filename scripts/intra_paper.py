@@ -92,6 +92,7 @@ def run_day(day, S, prev, N, Nprev, V, spx, n20, final):
     trades = []
     def add(**k):
         if len(trades) < MAXT and k['strat'] not in {t['strat'] for t in trades}: trades.append(k)
+    DISABLED = {'GAPFADE'}  # 19 Nov 2026: paper se hataya (Claude, user ki paper-chhoot)
     first15 = lambda x: x[x.time.dt.strftime('%H:%M') <= '09:25']
     ngap = (N.open.iloc[0] / Nprev - 1) * 100 if N is not None and len(N) and Nprev else np.nan
     # --- GAPFADE / GAPBOUNCE (signal at 9:25 bar close, fill 9:30 open) ---
@@ -104,6 +105,7 @@ def run_day(day, S, prev, N, Nprev, V, spx, n20, final):
         if 1.5 <= g <= 6 and red and (np.isnan(ngap) or ngap < 0.3): fade.append((g, s))
         if -8 <= g <= -2 and not red and n20 > -6: bounce.append((-g, s))
     for lst, strat, side in ((sorted(fade, reverse=True), 'GAPFADE', -1), (sorted(bounce, reverse=True), 'GAPBOUNCE', 1)):
+        if strat in DISABLED: continue  # 19 Nov: GAPFADE band (live 6 trade ~-2.1k, replay 38 ~0, f85)
         if not lst: continue
         g, s = lst[0]; x = S[s]; f = first15(x); i0 = len(f)
         if i0 >= len(x): continue
