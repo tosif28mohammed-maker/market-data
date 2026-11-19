@@ -1,6 +1,7 @@
-# Intraday paper — 2026-11-18 (update 15:25 IST)
+# Intraday paper — 2026-11-19 (update 10:25 IST)
 
 Paper hai, asli paisa/order nahi. Option bhaav Black-Scholes + India VIX se andaza (robot ke paas live option bhaav nahi).
-S&P raat -1.03%, Nifty 20 din +9.7%, gap watch 34 shares
+S&P raat -0.23%, Nifty 20 din +10.2%, gap watch 32 shares
 
-- **USNIGHT** NIFTY 25250CE 23Nov BUY 65 @25266.35 10:20 | stop 25114.75 | band 15:10 (TIME) | P&L Rs -1,901 — S&P raat -1.0% -> 10:15 ke baad Nifty sambhalta (f54)
+- **GAPFADE** PWL SELL 479 @131.15 09:30 | stop 133.24 | KHULA | P&L Rs -393 — gap +3.2%, pehle 15 min laal, Nifty gap -0.16%
+- **GAPBOUNCE** VERANDA BUY 3644 @27.44 09:30 | stop 27.39 | KHULA | P&L Rs -100 — gap -5.0%, pehle 15 min hara, Nifty gap -0.16%
