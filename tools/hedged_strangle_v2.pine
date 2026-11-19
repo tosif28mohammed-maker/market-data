@@ -1,0 +1,345 @@
+//@version=6
+// ═════════════════════════════════════════════════════════════════════════════
+// Hedged Short Strangle (Iron Condor) — v2 (19 Nov 2026, Tosif ke dost ke code ka sudhara roop)
+//
+// v1 se kya badla:
+//   1. Expiry ka din tareekh se: 1 Sep 2025 se pehle THURSDAY, uske baad TUESDAY (v1 hamesha Tuesday maanta tha).
+//   2. Entry = expiry ke AGLE trading din ki pehli candle (v1: fixed Wednesday). Thursday-daur mein ye Friday banta hai.
+//   3. Holiday ki wajah se badli expiry (jaise Monday) ki list input mein — asli NSE data 2019-2026 se nikali.
+//      Naya holiday aaye to list mein tareekh jod do.
+//   4. Stoploss candle ke HIGH/LOW par bhi check (v1 sirf close). Gap ho to SL open ke bhaav par (zyada nuksaan).
+//   5. Model IV ko asli bhaav ke hisaab se ghataya: Call IV = VIX × 0.85, Put IV = (VIX+2) × 0.84.
+//      (Asli NSE bhaav par jaanch: v1 ka model credit asli se ~1.6 guna tha. Median: asli 32 pt, model 53 pt.)
+//   6. P&L points mein bhi dikhaya. ₹ hamesha "aaj ke lot size" par (puraana lot 75/50 tha; points asli hain).
+//   7. Monthly mode: entry monthly expiry ke agle din (v1 har hafte entry le leta tha).
+//
+// ⚠️ ASLI NSE OPTION BHAAV PAR TEST (2019-2026, 344 trades, repo study/cf_condor_friend.md):
+//    Dost ki exact settings NUKSAAN mein: close-check par -₹1.6 lakh, SL din-ke-andar check par -₹3.2 lakh (1 lot).
+//    32 settings aazmaayi — ek bhi teeno daur (2019-22, 2023-Aug25, Sep25-26) mein munafe mein nahi.
+//    Is indicator ko seekhne/paper ke liye use karo, paisa lagane ke liye nahi.
+// ═════════════════════════════════════════════════════════════════════════════
+indicator("Hedged Strangle v2 — Plan + Backtest", overlay = false, max_labels_count = 500)
+
+// ── Inputs ───────────────────────────────────────────────────────────────────
+grpK        = "Contract"
+lotSize     = input.int(65, "Lot size (Nifty 65, BankNifty 30) — ₹ isi par", minval = 1, group = grpK)
+lots        = input.int(1, "Number of lots", minval = 1, group = grpK)
+strikeStep  = input.int(50, "Strike step (Nifty 50, BankNifty 100)", minval = 1, group = grpK)
+hedgeDist   = input.int(300, "Hedge distance beyond sold strike (points)", minval = 0, group = grpK)
+
+grpE        = "Entry"
+monthlyOnly = input.bool(false, "Monthly expiry only (BankNifty) — mahine ki aakhri expiry", group = grpE)
+sdMult      = input.float(1.0, "Sold strikes at ± SD", minval = 0.3, step = 0.1, group = grpE)
+minVix      = input.float(10.0, "Skip entry if VIX below", group = grpE)
+maxVix      = input.float(22.0, "Skip entry if VIX above", group = grpE)
+
+grpH        = "Expiry calendar"
+switchTs    = input.time(timestamp("2025-09-01T00:00:00+05:30"), "Is din se expiry Tuesday (pehle Thursday)", group = grpH)
+shiftedStr  = input.text_area("2019-03-20,2019-08-14,2020-04-01,2021-03-10,2021-05-12,2021-08-18,2021-11-03,2022-04-13,2023-01-25,2023-03-29,2023-06-28,2024-04-10,2024-08-14,2025-04-09,2025-04-30,2025-10-20,2026-03-02,2026-03-30,2026-04-13,2026-10-19,2026-11-09", "Holiday ki wajah se badli expiry (YYYY-MM-DD, comma se)", group = grpH)
+
+grpX        = "Exit"
+tgtPct      = input.float(60, "Target: % of premium captured", minval = 5, maxval = 100, group = grpX)
+slPct       = input.float(150, "Stoploss: loss as % of premium", minval = 10, group = grpX)
+useHiLo     = input.bool(true, "Stoploss candle ke High/Low par bhi check (asli jaisa)", group = grpX)
+useBreach   = input.bool(false, "Exit if index closes beyond a sold strike", group = grpX)
+
+grpV        = "Volatility model"
+useVix      = input.bool(true, "Use India VIX (NSE:INDIAVIX)", group = grpV)
+manualIV    = input.float(13.0, "Manual IV % (if VIX unavailable)", minval = 1, group = grpV)
+putSkew     = input.float(2.0, "Extra IV for puts (vol points)", minval = 0, group = grpV)
+callIvF     = input.float(0.85, "Call IV = VIX × (asli data se 0.85)", minval = 0.3, maxval = 1.5, step = 0.01, group = grpV)
+putIvF      = input.float(0.84, "Put IV = (VIX+skew) × (asli data se 0.84)", minval = 0.3, maxval = 1.5, step = 0.01, group = grpV)
+rfr         = input.float(6.5, "Risk-free rate %", group = grpV)
+
+grpC        = "Costs & backtest"
+slipPts     = input.float(0.5, "Slippage per leg per side (points)", minval = 0, group = grpC)
+costTrade   = input.float(300, "Brokerage + taxes per round trip per lot (₹)", minval = 0, group = grpC)
+marginLot   = input.float(100000, "Margin blocked per lot (₹) — check broker", minval = 1, group = grpC)
+startDate   = input.time(timestamp("2023-01-01T00:00:00"), "Backtest start date", group = grpC)
+
+// ── Calendar helpers ─────────────────────────────────────────────────────────
+TZ  = "Asia/Kolkata"
+DAY = 86400000
+
+f_dk(int t) =>
+    timestamp(TZ, year(t, TZ), month(t, TZ), dayofmonth(t, TZ), 0, 0)
+
+f_stdDow(int dk) =>
+    dk >= switchTs ? dayofweek.tuesday : dayofweek.thursday
+
+var array<int> shArr = array.new<int>()
+if barstate.isfirst
+    for s in str.split(shiftedStr, ",")
+        st = str.trim(s)
+        if str.length(st) >= 10
+            yy = int(str.tonumber(str.substring(st, 0, 4)))
+            mo = int(str.tonumber(str.substring(st, 5, 7)))
+            dd = int(str.tonumber(str.substring(st, 8, 10)))
+            if not na(yy) and not na(mo) and not na(dd)
+                array.push(shArr, timestamp(TZ, yy, mo, dd, 0, 0))
+
+// standard expiry weekday on/after dk
+f_nextStd(int dk) =>
+    int res = na
+    for i = 0 to 7
+        c = dk + i * DAY
+        if dayofweek(c, TZ) == f_stdDow(c)
+            res := c
+            break
+    res
+
+// holiday: a listed date up to 3 days before the standard day replaces it
+f_shift(int s) =>
+    int res = s
+    if array.size(shArr) > 0
+        for sh in shArr
+            if sh < s and sh >= s - 3 * DAY
+                res := sh
+    res
+
+f_lastStdOfMonth(int y, int m) =>
+    ny = m == 12 ? y + 1 : y
+    nm = m == 12 ? 1 : m + 1
+    int c = timestamp(TZ, ny, nm, 1, 0, 0) - DAY
+    for i = 0 to 7
+        if dayofweek(c, TZ) == f_stdDow(c)
+            break
+        c -= DAY
+    c
+
+f_monthlyExp(int dk) =>
+    y = year(dk, TZ)
+    m = month(dk, TZ)
+    int e = f_shift(f_lastStdOfMonth(y, m))
+    if e < dk
+        ny = m == 12 ? y + 1 : y
+        nm = m == 12 ? 1 : m + 1
+        e := f_shift(f_lastStdOfMonth(ny, nm))
+    e
+
+// weekly: agar is hafte ki (badli hui) expiry nikal chuki (jaise Diwali Muhurat din), to agle hafte ki
+f_weeklyExp(int dk) =>
+    int e = f_shift(f_nextStd(dk))
+    if e < dk
+        e := f_shift(f_nextStd(f_nextStd(dk) + DAY))
+    e
+
+f_expFrom(int dk) =>
+    monthlyOnly ? f_monthlyExp(dk) : f_weeklyExp(dk)
+
+// ── Pricing helpers ──────────────────────────────────────────────────────────
+f_ncdf(float x) =>
+    k    = 1.0 / (1.0 + 0.2316419 * math.abs(x))
+    poly = k * (0.319381530 + k * (-0.356563782 + k * (1.781477937 + k * (-1.821255978 + k * 1.330274429))))
+    nd   = 1.0 - (1.0 / math.sqrt(2.0 * math.pi)) * math.exp(-0.5 * x * x) * poly
+    x >= 0 ? nd : 1.0 - nd
+
+f_bs(float S, float K, float T, float sig, float r, bool isCall) =>
+    float res = na
+    if T <= 0.0 or sig <= 0.0
+        res := isCall ? math.max(S - K, 0.0) : math.max(K - S, 0.0)
+    else
+        sqT = math.sqrt(T)
+        d1  = (math.log(S / K) + (r + 0.5 * sig * sig) * T) / (sig * sqT)
+        d2  = d1 - sig * sqT
+        res := isCall ? S * f_ncdf(d1) - K * math.exp(-r * T) * f_ncdf(d2) : K * math.exp(-r * T) * f_ncdf(-d2) - S * f_ncdf(-d1)
+    res
+
+// Net value of the short iron condor (what we'd pay to close), in index points
+f_posVal(float S, float T, float ivPct, float sCE, float sPE, float bCE, float bPE) =>
+    sigC = ivPct * callIvF / 100.0
+    sigP = (ivPct + putSkew) * putIvF / 100.0
+    r    = rfr / 100.0
+    f_bs(S, sCE, T, sigC, r, true) + f_bs(S, sPE, T, sigP, r, false) - f_bs(S, bCE, T, sigC, r, true) - f_bs(S, bPE, T, sigP, r, false)
+
+// ── Data ─────────────────────────────────────────────────────────────────────
+vixSer = request.security("NSE:INDIAVIX", timeframe.period, close, ignore_invalid_symbol = true)
+ivNow  = useVix and not na(vixSer) ? vixSer : manualIV
+ivPrev = nz(ivNow[1], ivNow)
+YEAR_MS = 365.0 * 86400000.0
+
+newDay = timeframe.change("D")
+var int curDk  = na
+var int prevDk = na
+bool isEntryBar = false
+if newDay
+    prevDk := curDk
+    curDk  := f_dk(time)
+    if not na(prevDk) and time >= startDate
+        isEntryBar := f_expFrom(prevDk) == prevDk
+
+// ── State ────────────────────────────────────────────────────────────────────
+var bool  inPos   = false
+var float sCE     = na
+var float sPE     = na
+var float bCE     = na
+var float bPE     = na
+var float credit  = na
+var float expTs   = na
+var float entryPx = na
+
+var int   nTrades = 0
+var int   nWins   = 0
+var float grossW  = 0.0
+var float grossL  = 0.0
+var float equity  = 0.0
+var float eqPts   = 0.0
+var float peakEq  = 0.0
+var float maxDD   = 0.0
+var int   nTgt    = 0
+var int   nSL     = 0
+var int   nBr     = 0
+var int   nExp    = 0
+var int   nSkip   = 0
+
+var float firstTs = na
+if na(firstTs) and time >= startDate
+    firstTs := time
+
+bool entrySig = false
+bool exTgt = false
+bool exSL  = false
+bool exBr  = false
+bool exExp = false
+float tradeRs = na
+
+// ── ENTRY ────────────────────────────────────────────────────────────────────
+if not inPos and isEntryBar
+    if ivPrev < minVix or ivPrev > maxVix
+        nSkip += 1
+    else
+        eDk      = f_expFrom(curDk)
+        expTs   := eDk + (15 * 60 + 30) * 60000
+        calDays  = math.max(math.round((eDk - curDk) / 86400000.0), 1)
+        T0       = math.max(expTs - time, 0) / YEAR_MS
+        entryPx := open
+        em       = entryPx * (ivPrev / 100.0) * math.sqrt(calDays / 365.0)
+        sCE     := math.ceil((entryPx + sdMult * em) / strikeStep) * strikeStep
+        sPE     := math.floor((entryPx - sdMult * em) / strikeStep) * strikeStep
+        hd       = math.ceil(hedgeDist / strikeStep) * strikeStep
+        bCE     := sCE + hd
+        bPE     := sPE - hd
+        credit  := f_posVal(entryPx, T0, ivPrev, sCE, sPE, bCE, bPE) - 4 * slipPts
+        if credit > 0
+            inPos    := true
+            entrySig := true
+        else
+            nSkip += 1
+
+// ── MANAGE / EXIT ────────────────────────────────────────────────────────────
+if inPos
+    Trem    = math.max(expTs - time_close, 0) / YEAR_MS
+    expired = time_close >= expTs
+    val     = f_posVal(close, expired ? 0.0 : Trem, ivNow, sCE, sPE, bCE, bPE)
+    pnlPts  = credit - val
+    slLvl   = credit * (1 + slPct / 100.0)
+    float worstV = val
+    float openV  = val
+    if useHiLo and not expired
+        vH = f_posVal(high, Trem, ivNow, sCE, sPE, bCE, bPE)
+        vL = f_posVal(low, Trem, ivNow, sCE, sPE, bCE, bPE)
+        worstV := math.max(val, math.max(vH, vL))
+        openV  := f_posVal(open, Trem, ivNow, sCE, sPE, bCE, bPE)
+    float exitVal = na
+    if expired
+        exExp := true
+        exitVal := val
+    else if useHiLo and worstV >= slLvl
+        exSL := true
+        exitVal := math.max(slLvl, openV) + 4 * slipPts
+    else if pnlPts >= credit * tgtPct / 100.0
+        exTgt := true
+        exitVal := val + 4 * slipPts
+    else if -pnlPts >= credit * slPct / 100.0
+        exSL := true
+        exitVal := val + 4 * slipPts
+    else if useBreach and (close > sCE or close < sPE)
+        exBr := true
+        exitVal := val + 4 * slipPts
+    if not na(exitVal)
+        tradeRs := (credit - exitVal) * lotSize * lots - costTrade * lots
+        eqPts   += credit - exitVal
+        nTrades += 1
+        if tradeRs > 0
+            nWins  += 1
+            grossW += tradeRs
+        else
+            grossL += -tradeRs
+        equity += tradeRs
+        peakEq := math.max(peakEq, equity)
+        maxDD  := math.max(maxDD, peakEq - equity)
+        nTgt += exTgt ? 1 : 0
+        nSL  += exSL ? 1 : 0
+        nBr  += exBr ? 1 : 0
+        nExp += exExp ? 1 : 0
+        inPos := false
+
+// ── Price-chart drawings ────────────────────────────────────────────────────
+showLines = inPos or not na(tradeRs)
+plot(showLines ? sCE : na, "SELL CE", color.red,   2, plot.style_linebr, force_overlay = true)
+plot(showLines ? sPE : na, "SELL PE", color.green, 2, plot.style_linebr, force_overlay = true)
+plot(showLines ? bCE : na, "BUY CE hedge", color.new(color.red, 55),   1, plot.style_linebr, force_overlay = true)
+plot(showLines ? bPE : na, "BUY PE hedge", color.new(color.green, 55), 1, plot.style_linebr, force_overlay = true)
+
+plotshape(entrySig, "ENTRY",  shape.labelup,   location.belowbar, color.blue,   text = "ENTRY",  textcolor = color.white, size = size.small, force_overlay = true)
+plotshape(exTgt,    "TARGET", shape.labeldown, location.abovebar, color.green,  text = "TARGET", textcolor = color.white, size = size.small, force_overlay = true)
+plotshape(exSL,     "SL",     shape.labeldown, location.abovebar, color.red,    text = "SL",     textcolor = color.white, size = size.small, force_overlay = true)
+plotshape(exBr,     "BREACH", shape.labeldown, location.abovebar, color.orange, text = "BREACH", textcolor = color.white, size = size.small, force_overlay = true)
+plotshape(exExp,    "EXPIRY", shape.labeldown, location.abovebar, color.gray,   text = "EXPIRY", textcolor = color.white, size = size.small, force_overlay = true)
+
+// ── Equity curve (indicator pane) ───────────────────────────────────────────
+plot(equity, "Equity ₹", equity >= 0 ? color.teal : color.red, 2, plot.style_stepline)
+hline(0, "Zero", color.gray)
+
+// ── Alerts ──────────────────────────────────────────────────────────────────
+alertcondition(entrySig, "ENTRY",  "ENTRY: build hedged strangle — check strikes on chart/table")
+alertcondition(exTgt,    "TARGET", "EXIT: target hit — close all 4 legs")
+alertcondition(exSL,     "SL",     "EXIT: stoploss hit — close all 4 legs")
+alertcondition(exBr,     "BREACH", "EXIT: index closed beyond sold strike — close all 4 legs")
+alertcondition(exExp,    "EXPIRY", "Expiry reached")
+
+if barstate.isrealtime
+    if entrySig
+        alert("NIFTY ENTRY (PAPER) BUY " + str.tostring(bCE, "#") + " CE, BUY " + str.tostring(bPE, "#") + " PE, then SELL " + str.tostring(sCE, "#") + " CE, SELL " + str.tostring(sPE, "#") + " PE | Model credit ≈ " + str.tostring(credit, "#.#") + " pts — asli premium option chain se likho", alert.freq_once_per_bar_close)
+    if exTgt
+        alert("NIFTY EXIT 🎯 TARGET (model) | P&L ≈ ₹" + str.tostring(tradeRs, "#,###"), alert.freq_once_per_bar_close)
+    if exSL
+        alert("NIFTY EXIT 🛑 STOPLOSS (model) | P&L ≈ ₹" + str.tostring(tradeRs, "#,###"), alert.freq_once_per_bar_close)
+    if exBr
+        alert("NIFTY EXIT ⚠️ BREACH | P&L ≈ ₹" + str.tostring(tradeRs, "#,###"), alert.freq_once_per_bar_close)
+    if exExp
+        alert("NIFTY EXPIRY — trade settled | P&L ≈ ₹" + str.tostring(tradeRs, "#,###"), alert.freq_once_per_bar_close)
+
+// ── Results table ───────────────────────────────────────────────────────────
+var table t = table.new(position.top_left, 2, 16, bgcolor = color.new(color.black, 10), border_width = 1, border_color = color.gray)
+f_row(int r, string k, string v, color c) =>
+    table.cell(t, 0, r, k, text_color = color.white, text_size = size.small)
+    table.cell(t, 1, r, v, text_color = c, text_size = size.small)
+
+if barstate.islast
+    winRate = nTrades > 0 ? 100.0 * nWins / nTrades : 0.0
+    avgW    = nWins > 0 ? grossW / nWins : 0.0
+    nLoss   = nTrades - nWins
+    avgL    = nLoss > 0 ? grossL / nLoss : 0.0
+    pf      = grossL > 0 ? grossW / grossL : na
+    capital = marginLot * lots
+    years   = (time - firstTs) / YEAR_MS
+    roc     = 100.0 * equity / capital
+    nextExp = f_expFrom(curDk)
+    status  = inPos ? "IN TRADE  CE " + str.tostring(sCE, "#") + " / PE " + str.tostring(sPE, "#") : "FLAT — agli entry expiry ke agle din"
+    f_row(0,  "Trades",           str.tostring(nTrades) + "  (skipped " + str.tostring(nSkip) + ")", color.white)
+    f_row(1,  "Win rate",         str.tostring(winRate, "#.#") + "%", color.white)
+    f_row(2,  "Net P&L ₹",        str.tostring(equity, "#,###"), equity >= 0 ? color.lime : color.red)
+    f_row(3,  "Net P&L (points)", str.tostring(eqPts, "#.#"), eqPts >= 0 ? color.lime : color.red)
+    f_row(4,  "Avg win ₹",        str.tostring(avgW, "#,###"), color.lime)
+    f_row(5,  "Avg loss ₹",       str.tostring(avgL, "#,###"), color.red)
+    f_row(6,  "Profit factor",    na(pf) ? "—" : str.tostring(pf, "#.##"), color.white)
+    f_row(7,  "Max drawdown ₹",   str.tostring(maxDD, "#,###"), color.orange)
+    f_row(8,  "Return on margin", str.tostring(roc, "#.#") + "%  (" + str.tostring(years, "#.#") + " yrs)", color.white)
+    f_row(9,  "Exits T / SL / B / E", str.tostring(nTgt) + " / " + str.tostring(nSL) + " / " + str.tostring(nBr) + " / " + str.tostring(nExp), color.white)
+    f_row(10, "IV now",           str.tostring(ivNow, "#.##") + "%", color.white)
+    f_row(11, "Agli expiry",      str.format_time(nextExp, "EEE dd MMM yyyy", TZ), color.white)
+    f_row(12, "Status",           status, inPos ? color.yellow : color.gray)
+    f_row(13, "Hedges / Credit",  inPos ? "BUY CE " + str.tostring(bCE, "#") + " / PE " + str.tostring(bPE, "#") + " | " + str.tostring(credit, "#.#") + " pt" : "—", color.white)
+    f_row(14, "Model",            "Black-Scholes (asli bhaav se adjust) — andaza", color.gray)
+    f_row(15, "Asli NSE bhaav test", "2019-26: dost ki settings NUKSAAN — sirf paper", color.orange)

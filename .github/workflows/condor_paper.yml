@@ -1,0 +1,26 @@
+name: condor-friend-paper
+# user 19 Nov 2026: dost ka Nifty weekly iron condor — ASLI NSE bhavcopy bhaav par paper (scripts/condor_paper.py).
+# daily.yml (5 PM IST) NIFTY/VIX update karta hai; ye uske baad chalta hai. Chhoote din agle run mein pakad leta hai.
+on:
+  schedule:
+    - cron: '45 13 * * 1-5'   # 7:15 PM IST
+    - cron: '30 16 * * 1-5'   # 10:00 PM IST (bhavcopy der se aaye to)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: { group: condor-paper, cancel-in-progress: false }
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests pandas numpy
+      - run: python scripts/condor_paper.py
+        env: { PYTHONUNBUFFERED: '1' }
+      - run: |
+          git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
+          git add paper/condor_* && git commit -qm "condor_friend paper" || exit 0
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && exit 0; sleep 5; done
