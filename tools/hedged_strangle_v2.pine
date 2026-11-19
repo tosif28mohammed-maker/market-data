@@ -35,7 +35,7 @@ maxVix      = input.float(22.0, "Skip entry if VIX above", group = grpE)
 
 grpH        = "Expiry calendar"
 switchTs    = input.time(timestamp("2025-09-01T00:00:00+05:30"), "Is din se expiry Tuesday (pehle Thursday)", group = grpH)
-shiftedStr  = input.text_area("2019-03-20,2019-08-14,2020-04-01,2021-03-10,2021-05-12,2021-08-18,2021-11-03,2022-04-13,2023-01-25,2023-03-29,2023-06-28,2024-04-10,2024-08-14,2025-04-09,2025-04-30,2025-10-20,2026-03-02,2026-03-30,2026-04-13,2026-10-19,2026-11-09", "Holiday ki wajah se badli expiry (YYYY-MM-DD, comma se)", group = grpH)
+shiftedStr  = input.text_area("2019-03-20,2019-08-14,2020-04-01,2021-03-10,2021-05-12,2021-08-18,2021-11-03,2022-04-13,2023-01-25,2023-03-29,2023-06-28,2024-04-10,2024-08-14,2025-04-09,2025-04-30,2025-10-20,2026-03-02,2026-03-30,2026-04-13,2026-10-19,2026-11-09,2026-11-23", "Holiday ki wajah se badli expiry (YYYY-MM-DD, comma se)", group = grpH)
 
 grpX        = "Exit"
 tgtPct      = input.float(60, "Target: % of premium captured", minval = 5, maxval = 100, group = grpX)

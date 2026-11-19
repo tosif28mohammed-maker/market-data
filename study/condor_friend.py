@@ -57,18 +57,19 @@ def model_val(S, T, iv, k):
 def legs_of(x):
     return {(t, k): (p, h, l, o) for t, k, p, h, l, o in zip(x.type, x.K, x.px, x.hi, x.lo, x.op)}
 
-def run(k=1.0, vix_filter=True, tgt=60, sl=150, mode='close', entry_at='open'):
+def run(k=1.0, vix_filter=True, tgt=60, sl=150, mode='close', entry_at='open', day_before=False, vlo=10, vhi=22):
     rows = []
     prev = None
     for e in exps:
         if prev is None: prev = e; continue
         ed = days[(days > prev) & (days < e)]; prev = e
         if not len(ed): continue
-        d0 = ed[0]
-        vix = V[V.index < d0]
+        d0 = ed[-1] if day_before else ed[0]
+        if day_before: entry_at = 'close'
+        vix = V[V.index <= d0] if day_before else V[V.index < d0]
         if not len(vix): continue
         vix = float(vix.iloc[-1])
-        if vix_filter and (vix < 10 or vix > 22):
+        if vix_filter and (vix < vlo or vix > vhi):
             rows.append(dict(entry=d0, exp=e, skip='vix', vix=vix)); continue
         x = G.get((d0, e))
         if x is None: continue
@@ -206,4 +207,17 @@ md(f'- In hafton ka asli nateeja (A): net Rs {odd.rs.sum():,.0f}, win {(odd.rs >
 md('\n## 5. Sabse bure 8 hafte (B)')
 w = TB[TB.skip == ''].nsmallest(8, 'rs')[['entry', 'exp', 'vix', 'S', 'sCE', 'sPE', 'credit', 'how', 'exit_val', 'rs']]
 md('```\n' + w.to_string(index=False) + '\n```')
+md('\n## 6. Wahi strike/hedge, lekin expiry se 1 din PEHLE close par entry (f75 jaisa) — hold to expiry / target-SL')
+rr = []
+for vlo, vhi in ((10, 22), (14, 22)):
+    for k_ in (1.0, 1.5):
+        for tg, s_ in ((0, 0), (60, 150)):
+            T = run(k=k_, tgt=tg, sl=s_, day_before=True, vlo=vlo, vhi=vhi, mode='intraday' if s_ else 'close')
+            s = summ(T); s.update(VIX=f'{vlo}-{vhi}', k=k_, exit='expiry tak' if not s_ else '60/150 (SL din ke andar)')
+            t = T[T.skip == '']
+            for er_, g in t.groupby(t.entry.map(era)): s[er_] = round(g.rs.sum(), 0)
+            rr.append(s)
+            if vlo == 14 and k_ == 1.0 and not s_: T.to_csv(os.path.join(OUT, 'cf_trades_daybefore.csv'), index=False)
+cc = ['VIX', 'k', 'exit', 'trades', 'win_pct', 'avg_win', 'avg_loss', 'per_trade', 'net_rs', 'max_dd', 'worst', '2019-22', '2023-Aug25 (Thu exp)', 'Sep25-26 (Tue exp)']
+Rr = pd.DataFrame(rr); md('```\n' + Rr[[c for c in cc if c in Rr]].to_string(index=False) + '\n```')
 open(os.path.join(OUT, 'cf_condor_friend.md'), 'w').write('\n'.join(MD) + '\n')
