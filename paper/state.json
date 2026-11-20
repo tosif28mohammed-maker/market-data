@@ -1,5 +1,5 @@
 {
- "last": "2026-11-19",
+ "last": "2026-11-20",
  "open": [
   {
    "id": "T00570",
@@ -13,7 +13,7 @@
    "note": "dist -6.9% (limit -5.5%)",
    "entry_date": "2026-11-17",
    "entry_price": 262.4,
-   "days": 3
+   "days": 4
   },
   {
    "id": "T00575",
@@ -39,11 +39,11 @@
     ]
    ],
    "expiry": "2026-11-24",
-   "days": 2,
+   "days": 3,
    "sl": null,
    "target": null,
    "note": "credit 80.2 pts, VIX 15.5",
-   "mark": 2219.0
+   "mark": -897.0
   },
   {
    "id": "T00576",
@@ -81,11 +81,11 @@
     ]
    ],
    "expiry": "2026-11-24",
-   "days": 2,
+   "days": 3,
    "sl": null,
    "target": null,
    "note": "credit 53.8 pts, VIX 15.5",
-   "mark": 1064.0
+   "mark": -1380.0
   },
   {
    "id": "T00577",
@@ -95,40 +95,129 @@
    "qty": 1351,
    "signal_date": "2026-11-17",
    "sl": 68.09,
-   "target": 76.96,
+   "target": 76.99,
    "note": "WMA 20: दूरी -3.0% (सीमा -2.8%); 2021-26 जीत 74%; RSI 46; MACD नीचे; BB %B 0.42; 50 SMA नीचे, 200 SMA नीचे; 52w high से -14%; support 68.8 / resistance 83.5, volume 0.6x",
    "entry_date": "2026-11-18",
    "entry_price": 74.0,
-   "days": 2,
-   "mark": 3107.0
-  }
- ],
- "pending": [
+   "days": 3,
+   "mark": 3526.0
+  },
   {
    "id": "T00599",
    "strategy": "EQ_FOCUS",
    "symbol": "RITES",
    "side": "Buy",
-   "qty": 0,
+   "qty": 531,
    "signal_date": "2026-11-19",
    "sl": 171.68,
-   "target": 201.94,
-   "note": "SMA 56: दूरी -6.4% (सीमा -6.1%); 2021-26 जीत 71%; RSI 40; MACD नीचे (मुड़ रहा); BB %B 0.15; 50 SMA नीचे, 200 SMA नीचे; 52w high से -27%; support 185.3 / resistance 208.9, volume 1.1x"
+   "target": 201.41,
+   "note": "SMA 56: दूरी -6.4% (सीमा -6.1%); 2021-26 जीत 71%; RSI 40; MACD नीचे (मुड़ रहा); BB %B 0.15; 50 SMA नीचे, 200 SMA नीचे; 52w high से -27%; support 185.3 / resistance 208.9, volume 1.1x",
+   "entry_date": "2026-11-20",
+   "entry_price": 188.05,
+   "days": 1,
+   "mark": -547.0
   },
   {
    "id": "T00600",
    "strategy": "EQ_FOCUS",
    "symbol": "V2RETAIL",
    "side": "Buy",
-   "qty": 0,
+   "qty": 639,
    "signal_date": "2026-11-19",
    "sl": 105.72,
-   "target": 162.61,
-   "note": "HMA 2: दूरी -3.2% (सीमा -1.5%); 2021-26 जीत 65%; RSI 47; MACD नीचे; BB %B 0.44; 50 SMA नीचे, 200 SMA नीचे; 52w high से -39%; support 122.7 / resistance 192.8, volume 4.3x"
+   "target": 163.63,
+   "note": "HMA 2: दूरी -3.2% (सीमा -1.5%); 2021-26 जीत 65%; RSI 47; MACD नीचे; BB %B 0.44; 50 SMA नीचे, 200 SMA नीचे; 52w high से -39%; support 122.7 / resistance 192.8, volume 4.3x",
+   "entry_date": "2026-11-20",
+   "entry_price": 156.38,
+   "days": 1,
+   "mark": 3630.0
+  },
+  {
+   "id": "T00607",
+   "strategy": "WEEKLY_IC",
+   "symbol": "NIFTY 25350PE/26250CE +-500 wings",
+   "side": "Sell",
+   "qty": 65,
+   "entry_date": "2026-11-20",
+   "entry_price": 11.75,
+   "entry_val": -11.746137603503085,
+   "legs": [
+    [
+     "C",
+     26250,
+     -1,
+     "2026-11-23"
+    ],
+    [
+     "P",
+     25350,
+     -1,
+     "2026-11-23"
+    ],
+    [
+     "C",
+     26750,
+     1,
+     "2026-11-23"
+    ],
+    [
+     "P",
+     24850,
+     1,
+     "2026-11-23"
+    ]
+   ],
+   "expiry": "2026-11-23",
+   "days": 0,
+   "sl": null,
+   "target": null,
+   "note": "credit 11.7 pts, VIX 17.3, f75 weekly (stop 2x)"
+  },
+  {
+   "id": "T00608",
+   "strategy": "WEEKLY_IC_NS",
+   "symbol": "NIFTY 25350PE/26250CE +-500 wings",
+   "side": "Sell",
+   "qty": 65,
+   "entry_date": "2026-11-20",
+   "entry_price": 11.75,
+   "entry_val": -11.746137603503085,
+   "legs": [
+    [
+     "C",
+     26250,
+     -1,
+     "2026-11-23"
+    ],
+    [
+     "P",
+     25350,
+     -1,
+     "2026-11-23"
+    ],
+    [
+     "C",
+     26750,
+     1,
+     "2026-11-23"
+    ],
+    [
+     "P",
+     24850,
+     1,
+     "2026-11-23"
+    ]
+   ],
+   "expiry": "2026-11-23",
+   "days": 0,
+   "sl": null,
+   "target": null,
+   "note": "credit 11.7 pts, VIX 17.3, f75 weekly (no stop)"
   }
  ],
- "seq": 605,
- "gap_last": "2026-11-19",
- "usfade_last_BANKNIFTY": "2026-11-19",
- "usfade_last_NIFTY": "2026-11-19"
+ "pending": [],
+ "seq": 615,
+ "gap_last": "2026-11-20",
+ "usfade_last_BANKNIFTY": "2026-11-20",
+ "usfade_last_NIFTY": "2026-11-20"
 }

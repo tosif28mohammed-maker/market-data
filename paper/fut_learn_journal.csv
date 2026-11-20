@@ -2,3 +2,4 @@ open_date,symbol,lot,lot_src,entry,stop,target,margin,status,close_date,exit,day
 2026-11-13,DIVISLAB,100,NSE,11442.0,10526.6,12815.04,228840,OPEN,,,,,,,decision score 3: momentum+trend
 2026-11-17,MOTILALOFS,775,NSE,1240.25,1141.03,1389.08,192239,OPEN,,,,,,,"tezi list: 3m +37%, 52w high paas"
 2026-11-19,PNB,8000,NSE,154.85,142.46,173.43,247760,OPEN,,,,,,,"tezi list: 3m +33%, 52w high paas"
+2026-11-20,KOTAKBANK,2000,NSE,515.8,474.5,577.7,206320,OPEN,,,,,,,decision score 3: friday+momentum
