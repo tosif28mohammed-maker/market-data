@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
-      - run: pip install -q youtube-transcript-api
+      - run: pip install -q youtube-transcript-api && sudo apt-get install -y -q poppler-utils >/dev/null
       - run: python scripts/source_collector.py
       - name: claim test scripts (study/research/claims/*.py, if any)
         run: |

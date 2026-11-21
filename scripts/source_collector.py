@@ -67,13 +67,32 @@ def transcript(vid):
     except Exception as e:
         return '', type(e).__name__
 
+def fetch_books(srcs):
+    """type=book rows: url_or_feed = PDF link. Download once, convert to text (pdftotext) into study/experts/books/. Retries every run until it works."""
+    import subprocess
+    B = os.path.join(E, 'books'); os.makedirs(B, exist_ok=True); got = []
+    for s in srcs:
+        if s['type'] != 'book': continue
+        name = re.sub(r'[^a-z0-9]+', '_', s['source'].lower()).strip('_')
+        txt = os.path.join(B, name + '.txt')
+        if os.path.exists(txt): continue
+        try:
+            raw = get(s['url_or_feed'], timeout=90)
+            if not raw.startswith(b'%PDF'): continue
+            pdf = '/tmp/' + name + '.pdf'; open(pdf, 'wb').write(raw)
+            subprocess.run(['pdftotext', '-layout', pdf, txt], check=True); got.append(s['source'])
+        except Exception as e: print('book fail', s['source'], e)
+    return got
+
 def main():
     srcs = list(csv.DictReader(open(SRC, encoding='utf-8')))
     seen = set(open(SEEN, encoding='utf-8').read().split('\n')) if os.path.exists(SEEN) else set()
     first_run = not seen
     now = dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M')
     rows, stats, tr_done, tr_err = [], [], 0, {}
+    books = fetch_books(srcs)
     for s in srcs:
+        if s['type'] == 'book': continue
         u = s['url_or_feed'].strip()
         url = f'https://www.youtube.com/feeds/videos.xml?channel_id={u}' if s['type'] == 'youtube_channel' and not u.startswith('http') else u
         try: items = parse_feed(get(url)); err = ''
@@ -110,7 +129,7 @@ def main():
         w.writerows(stats)
     ok = sum(1 for r in rows if r['transcript_file'])
     summ = dict(run_utc=now, sources=len(srcs), failed=[x['source'] for x in stats if x['error']], new_items=len(rows),
-                kept=sum(r['status'] == 'new' for r in rows), transcripts_ok=ok, transcript_errors=tr_err)
+                kept=sum(r['status'] == 'new' for r in rows), transcripts_ok=ok, transcript_errors=tr_err, books_new=books)
     open(os.path.join(E, 'collector_status.json'), 'w').write(json.dumps(summ, indent=1, ensure_ascii=False))
     print(json.dumps(summ, ensure_ascii=False))
 
