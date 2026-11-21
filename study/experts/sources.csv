@@ -1,5 +1,5 @@
 source,type,url_or_feed,country,language,what_it_offers,quality_rating,items_seen,useful_items,last_checked
-Dhan (YouTube),youtube_channel,UCEzHCpvFWoF85UabbzKTkOQ,India,hi,broker education: swing/intraday setups with delivery filters,2-tested often FAIL; gives clear rules,16,0,2026-11-21
+Dhan (YouTube),youtube_channel,UCEzHCpvFWoF85UabbzKTkOQ,India,hi,broker education: swing/intraday setups with delivery filters,2-tested often FAIL; gives clear rules,16,0,2026-11-22
 Zerodha (YouTube),youtube_channel,UC59YUBhNLMkS2Q8NBWBGHAA,India,hi/en,broker education + market structure explainers,new,15,0,2026-11-21
 CA Rachana Ranade,youtube_channel,UCe3qdG0A_gr-sEdat5y2twQ,India,hi/en,fundamentals/results explainers,new,15,0,2026-11-21
 Pranjal Kamra,youtube_channel,UCwAdQUuPT6laN-AQR17fe1g,India,hi,investing/stock selection,new,15,0,2026-11-21
@@ -12,10 +12,10 @@ Angel One (YouTube),youtube_channel,UCHzAyAwFbp2KVwvZ_fJuH0Q,India,hi,broker edu
 Groww (YouTube),youtube_channel,UCw5TLrz3qADabwezTEcOmgQ,India,hi,broker education,new,15,0,2026-11-21
 5paisa (YouTube),youtube_channel,UCXcPmSjgThvZ5U69Z3B8tlQ,India,hi,broker education,new,15,0,2026-11-21
 NDTV Profit (YouTube),youtube_channel,UC3uJIdRFTGgLWrUziaHbzrg,India,en,market news/interviews,new,15,0,2026-11-21
-Rayner Teo,youtube_channel,UCij9u9ori_4ZzwlBJlWuCgw,Singapore,en,price-action setups with rules,feed empty - fix id,0,0,2026-11-21
-Northman Trader,youtube_channel,UC-_tUpRdhh7Qc3vn6FFbhGw,USA,en,US macro/market timing,feed empty - fix id,0,0,2026-11-21
+Rayner Teo,youtube_channel,UCES1CX-L4242aZELJyz-6QA,Singapore,en,price-action setups with rules,id fixed 22Nov (old id was spam channel); YouTube feed returns 0 entries,0,0,2026-11-21
+Northman Trader,youtube_channel,UC-_tUpRdhh7Qc3vn6FFbhGw,USA,en,US macro/market timing,id correct; YouTube feed returns 0 entries (channel side),0,0,2026-11-21
 Real Vision,youtube_channel,UCGXWKlq1Oxr3ddEtmKhAkPg,USA,en,macro interviews,new,15,0,2026-11-21
-Forward Guidance,youtube_channel,UC0E-St9TloQ7TAu8hn1xJ9w,USA,en,macro/rates/liquidity,feed empty - fix id,0,0,2026-11-21
+Forward Guidance,youtube_channel,UCkrwgzhIBKccuDsi_SvZtnQ,USA,en,macro/rates/liquidity,id fixed 22Nov (@ForwardGuidanceBW),0,0,2026-11-21
 The Compound,youtube_channel,UCBRpqrzuuqE8TZcWw75JSdw,USA,en,market data/charts,new,15,0,2026-11-21
 Aswath Damodaran,youtube_channel,UCLvnJL8htRR1T9cbSccaoVw,USA,en,valuation,new,15,0,2026-11-21
 Ben Felix,youtube_channel,UCDXTQ8nWmx_EhZ2v-kp7QxA,Canada,en,evidence-based factor investing,new,15,0,2026-11-21
