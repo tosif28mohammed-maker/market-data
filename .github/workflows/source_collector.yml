@@ -1,0 +1,31 @@
+name: source_collector
+on:
+  schedule:
+    - cron: '40 0 * * *'    # 6:10 AM IST
+    - cron: '10 7 * * *'    # 12:40 PM IST
+    - cron: '40 12 * * *'   # 6:10 PM IST
+    - cron: '10 17 * * *'   # 10:40 PM IST
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: { group: source_collector, cancel-in-progress: false }
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -q youtube-transcript-api
+      - run: python scripts/source_collector.py
+      - name: claim test scripts (study/research/claims/*.py, if any)
+        run: |
+          pip install -q pandas numpy
+          for f in study/research/claims/*.py; do [ -f "$f" ] || continue; grep -q "^# ROBOT" "$f" || continue; out="${f%.py}.out.txt"; [ -f "$out" ] && [ "$out" -nt "$f" ] && continue; timeout 900 python "$f" > "$out" 2>&1 || echo "fail $f" >> "$out"; done
+      - run: |
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add study/experts study/research/claims 2>/dev/null || git add study/experts
+          git commit -m "sources $(date -u +%Y-%m-%d_%H%M)" || echo "no change"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done

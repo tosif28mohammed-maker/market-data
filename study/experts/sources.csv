@@ -1,0 +1,44 @@
+source,type,url_or_feed,country,language,what_it_offers,quality_rating,items_seen,useful_items,last_checked
+Dhan (YouTube),youtube_channel,UCEzHCpvFWoF85UabbzKTkOQ,India,hi,broker education: swing/intraday setups with delivery filters,2-tested often FAIL; gives clear rules,16,0,2026-11-21
+Zerodha (YouTube),youtube_channel,UC59YUBhNLMkS2Q8NBWBGHAA,India,hi/en,broker education + market structure explainers,new,15,0,2026-11-21
+CA Rachana Ranade,youtube_channel,UCe3qdG0A_gr-sEdat5y2twQ,India,hi/en,fundamentals/results explainers,new,15,0,2026-11-21
+Pranjal Kamra,youtube_channel,UCwAdQUuPT6laN-AQR17fe1g,India,hi,investing/stock selection,new,15,0,2026-11-21
+Asset Yogi,youtube_channel,UCsNxHPbaCWL1tKw2hxGQD6g,India,hi,finance + policy explainers,new,15,0,2026-11-21
+Trading Chanakya,youtube_channel,UCUgUjyt6jcyxfM4FCmxZcgw,India,hi,trading setups,new,15,0,2026-11-21
+Nitish Kumar Trader,youtube_channel,UCpnhGxJSe3QQgiTNKOwidAQ,India,hi,intraday/options setups,new,15,0,2026-11-21
+PR Sundar,youtube_channel,UCS2NdYUmv_PUyyKeDAo5zYA,India,ta/en,option selling,new,15,0,2026-11-21
+Elearnmarkets,youtube_channel,UCMec1m9iUC3agiEK-nsndSg,India,hi/en,technical analysis interviews/setups,new,15,0,2026-11-21
+Angel One (YouTube),youtube_channel,UCHzAyAwFbp2KVwvZ_fJuH0Q,India,hi,broker education,new,15,0,2026-11-21
+Groww (YouTube),youtube_channel,UCw5TLrz3qADabwezTEcOmgQ,India,hi,broker education,new,15,0,2026-11-21
+5paisa (YouTube),youtube_channel,UCXcPmSjgThvZ5U69Z3B8tlQ,India,hi,broker education,new,15,0,2026-11-21
+NDTV Profit (YouTube),youtube_channel,UC3uJIdRFTGgLWrUziaHbzrg,India,en,market news/interviews,new,15,0,2026-11-21
+Rayner Teo,youtube_channel,UCij9u9ori_4ZzwlBJlWuCgw,Singapore,en,price-action setups with rules,feed empty - fix id,0,0,2026-11-21
+Northman Trader,youtube_channel,UC-_tUpRdhh7Qc3vn6FFbhGw,USA,en,US macro/market timing,feed empty - fix id,0,0,2026-11-21
+Real Vision,youtube_channel,UCGXWKlq1Oxr3ddEtmKhAkPg,USA,en,macro interviews,new,15,0,2026-11-21
+Forward Guidance,youtube_channel,UC0E-St9TloQ7TAu8hn1xJ9w,USA,en,macro/rates/liquidity,feed empty - fix id,0,0,2026-11-21
+The Compound,youtube_channel,UCBRpqrzuuqE8TZcWw75JSdw,USA,en,market data/charts,new,15,0,2026-11-21
+Aswath Damodaran,youtube_channel,UCLvnJL8htRR1T9cbSccaoVw,USA,en,valuation,new,15,0,2026-11-21
+Ben Felix,youtube_channel,UCDXTQ8nWmx_EhZ2v-kp7QxA,Canada,en,evidence-based factor investing,new,15,0,2026-11-21
+RBI press releases,govt,https://www.rbi.org.in/pressreleases_rss.xml,India,en,policy/regulation,new,10,0,2026-11-21
+SEBI,govt,https://www.sebi.gov.in/sebirss.xml,India,en,circulars/orders,new,0,0,2026-11-21
+PIB (Finance etc),govt,https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3,India,en,govt releases incl trade data,new,20,0,2026-11-21
+NSE circulars,govt,https://nsearchives.nseindia.com/content/RSS/Circulars.xml,India,en,exchange rule changes,new,35,0,2026-11-21
+US Federal Reserve,govt,https://www.federalreserve.gov/feeds/press_all.xml,USA,en,rates/policy,new,20,0,2026-11-21
+ECB press,govt,https://www.ecb.europa.eu/rss/press.html,Europe,en,rates/policy,new,15,0,2026-11-21
+ET Markets,news_rss,https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms,India,en,market news,new,50,0,2026-11-21
+Moneycontrol market reports,news_rss,https://www.moneycontrol.com/rss/marketreports.xml,India,en,market news,new,4,0,2026-11-21
+LiveMint markets,news_rss,https://www.livemint.com/rss/markets,India,en,market news,new,35,0,2026-11-21
+Business Standard markets,news_rss,https://www.business-standard.com/rss/markets-106.rss,India,en,market news,new,35,0,2026-11-21
+CNBC-TV18 market,news_rss,https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml,India,en,market news,new,200,0,2026-11-21
+BusinessLine markets,news_rss,https://www.thehindubusinessline.com/markets/feeder/default.rss,India,en,market news,new,60,0,2026-11-21
+NDTV Profit,news_rss,https://feeds.feedburner.com/ndtvprofit-latest,India,en,market news,new,20,0,2026-11-21
+Nikkei Asia,news_rss,https://asia.nikkei.com/rss/feed/nar,Japan,en,Asia markets/policy,new,0,0,2026-11-21
+Korea JoongAng Daily,news_rss,https://koreajoongangdaily.joins.com/xmls/joins_news_list.xml,Korea,en,Korea economy/chips/flows,feed error: HTTPError: HTTP Error 404: Not Found,0,0,2026-11-21
+SCMP business,news_rss,https://www.scmp.com/rss/92/feed,China,en,China economy/markets,new,50,0,2026-11-21
+Zerodha Z-Connect,blog,https://zerodha.com/z-connect/feed,India,en,market structure/rule changes,new,50,0,2026-11-21
+Capitalmind,blog,https://www.capitalmind.in/feed/,India,en,data-driven India market notes,new,10,0,2026-11-21
+Alpha Architect,blog,https://alphaarchitect.com/feed/,USA,en,factor research summaries,new,5,0,2026-11-21
+Quantpedia,blog,https://quantpedia.com/feed/,Europe,en,quant strategy research,new,10,0,2026-11-21
+Allocate Smartly,blog,https://allocatesmartly.com/feed/,USA,en,tested tactical allocation rules,3-tested research; 2 ideas,10,1,2026-11-21
+Reddit IndianStreetBets,social,https://www.reddit.com/r/IndianStreetBets/top/.rss?t=day,India,en,retail sentiment (i22),feed error: HTTPError: HTTP Error 404: Not Found,0,0,2026-11-21
+Reddit IndiaInvestments,social,https://www.reddit.com/r/IndiaInvestments/top/.rss?t=day,India,en,retail investor discussion,feed error: HTTPError: HTTP Error 429: Too Many Requ,0,0,2026-11-21
