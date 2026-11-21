@@ -1,15 +1,13 @@
 {
- "run_utc": "2026-11-21 18:15",
+ "run_utc": "2026-11-21 18:25",
  "sources": 43,
  "failed": [
   "Korea JoongAng Daily",
   "Reddit IndianStreetBets",
   "Reddit IndiaInvestments"
  ],
- "new_items": 894,
- "kept": 369,
+ "new_items": 0,
+ "kept": 0,
  "transcripts_ok": 0,
- "transcript_errors": {
-  "IpBlocked": 8
- }
+ "transcript_errors": {}
 }
