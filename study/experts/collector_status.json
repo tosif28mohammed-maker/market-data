@@ -1,15 +1,16 @@
 {
- "run_utc": "2026-11-21 18:34",
+ "run_utc": "2026-11-22 01:48",
  "sources": 51,
  "failed": [
-  "Moneycontrol market reports",
   "Korea JoongAng Daily",
   "Reddit IndianStreetBets",
   "Reddit IndiaInvestments"
  ],
- "new_items": 0,
- "kept": 0,
+ "new_items": 24,
+ "kept": 13,
  "transcripts_ok": 0,
- "transcript_errors": {},
+ "transcript_errors": {
+  "RequestBlocked": 7
+ },
  "books_new": []
 }

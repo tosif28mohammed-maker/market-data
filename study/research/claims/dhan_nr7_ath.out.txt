@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 1370, in __getitem__
+    return self._range[new_key]
+           ~~~~~~~~~~~^^^^^^^^^
+IndexError: range object index out of range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/market-data/market-data/study/research/claims/dhan_nr7_ath.py", line 60, in <module>
+    R += summ(sim(nr7, t), f'NR7_{t}R')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/market-data/market-data/study/research/claims/dhan_nr7_ath.py", line 47, in summ
+    end = dates[-1]
+          ~~~~~^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 1372, in __getitem__
+    raise IndexError(
+IndexError: index -1 is out of bounds for axis 0 with size 0
+fail study/research/claims/dhan_nr7_ath.py

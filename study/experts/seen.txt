@@ -503,6 +503,21 @@ Elearnmarkets|bScsfk1J9cI
 Elearnmarkets|qusx3NIf6dg
 Elearnmarkets|reey5M_lAzk
 Elearnmarkets|xsqJWkLI8Ss
+Forward Guidance|5aqAPkNvslg
+Forward Guidance|8cy5Bs4oSvg
+Forward Guidance|FwhZZreuov4
+Forward Guidance|Ki6wH_NTm5M
+Forward Guidance|LmSWQM_dmzI
+Forward Guidance|Lo7UBwgmoK0
+Forward Guidance|NaQhlXV5bOI
+Forward Guidance|StARUc1Lxrw
+Forward Guidance|Y7XEH6BCmjw
+Forward Guidance|_EIa3XChAcQ
+Forward Guidance|b5W1Ev_W6uQ
+Forward Guidance|cU5SMPWkTO8
+Forward Guidance|e5DrjXDwXgc
+Forward Guidance|gt2g3lHEZyI
+Forward Guidance|z1Ka0TkOOss
 Groww (YouTube)|5wNmprpBt3A
 Groww (YouTube)|8j8tkQn2irc
 Groww (YouTube)|BmL3akLjUB4
@@ -520,6 +535,7 @@ Groww (YouTube)|r3Jg4OPMcHA
 Groww (YouTube)|w7ZkMNfK1FQ
 LiveMint markets|https://www.livemint.com/market/ai-tech-rout-prompts-us-investors-to-rush-into-value-stocks-11795205292642.html
 LiveMint markets|https://www.livemint.com/market/assetbacked-debt-sales-top-post-gfc-record-on-ai-strength-11795205853665.html
+LiveMint markets|https://www.livemint.com/market/commodities/gold-rate-today-in-india-at-14-month-low-will-it-hit-rs-1-lakh-experts-list-out-3-reasons-for-gold-price-drop-in-2026-11795283484060.html
 LiveMint markets|https://www.livemint.com/market/commodities/gold-silver-price-crash-dsp-mutual-fund-turns-bullish-on-bullion-reveals-new-buying-strategy-check-price-levels-11795252615511.html
 LiveMint markets|https://www.livemint.com/market/cryptocurrency/bitcoin-crashes-to-over-two-year-low-below-60-000-level-what-do-experts-expect-from-crypto-markets-going-ahead-11795234024656.html
 LiveMint markets|https://www.livemint.com/market/cryptocurrency/bitcoin-price-crash-falls-to-lowest-level-in-two-years-what-s-behind-plunge-of-world-s-largest-cryptocurrency-11795267687216.html
@@ -529,6 +545,7 @@ LiveMint markets|https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp
 LiveMint markets|https://www.livemint.com/market/pulse-of-the-street-dalal-street-extends-winning-run-as-global-markets-slide-11795181421343.html
 LiveMint markets|https://www.livemint.com/market/sebi-proposes-easing-disclosure-rules-for-foreign-funds-11795183389431.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/anthropic-shares-tumble-10-after-blockbuster-ipo-erase-debut-gains-why-are-investors-turning-cautious-on-ai-11795184887970.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-100-idfc-first-bank-jayaswal-neco-industries-sagility-by-sumeet-bagadia-targets-sl-11795278599364.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-200-jammu-and-kashmir-bank-canara-bank-bank-of-india-by-mehul-kothari-of-anand-rathi-11795191036501.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/best-pharma-cdmo-stocks-china-plus-one-pharma-stocks-india-pharma-stocks-top-pharma-cdmo-stocks-11795178604521.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/bse-sensex-rejig-shriram-finance-to-replace-trent-which-stocks-are-entering-and-exiting-other-bse-indices-check-full-11795179927182.html
@@ -587,10 +604,14 @@ NDTV Profit|https://www.ndtvprofit.com/india/he-left-with-120-flipkart-parcels-a
 NDTV Profit|https://www.ndtvprofit.com/india/kurla-park-assault-juvenile-board-orders-two-week-custody-for-six-minors-12359264#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/pune-fda-crackdown-the-fern-hotel-orchid-in-lonavala-and-burger-barn-cafe-among-17-licences-suspended-12359386#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/yuzvendra-chahals-new-innings-cricketer-joins-bjp-gets-obc-morcha-role-12359847#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/markets/corporate-actions-this-week-zee-entertainment-jtl-defence-fusion-cx-bonlon-industries-and-more-12359932#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/markets/exclusive-brent-crude-oil-wti-has-fallen-but-why-is-91-still-bad-news-for-india-ubs-gautam-chhaocharia-iran-war-middle-east-supply-disruption-commodit-12350989#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/personal-finance/8th-pay-commission-waiting-12-years-for-a-promotion-union-wants-it-capped-at-4-12359270#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/personal-finance/epfo-swp-calculator-how-much-can-you-withdraw-monthly-from-rs-20-lakh-corpus-for-20-years-12359494#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/sports/india-vs-new-zealand-hockey-live-streaming-when-and-where-to-watch-ind-vs-nz-3rd-match-12360298#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/inter-miami-vs-columbus-crew-live-streaming-when-and-where-to-watch-messis-mls-playoff-match-in-india-12351812#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/real-madrid-vs-celta-vigo-live-streaming-likely-lineups-how-to-watch-la-liga-match-on-tv-online-in-india-12358313#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/sports/syed-mushtaq-ali-trophy-2026-when-and-where-to-watch-5th-round-matches-live-12360129#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/hackers-breach-fbis-crime-database-second-cyberattack-in-months-12359837#publisher=newsstand
 NSE circulars|https://nsearchives.nseindia.com/content/circulars/CD77529.pdf
 NSE circulars|https://nsearchives.nseindia.com/content/circulars/CD77546.pdf
@@ -662,6 +683,7 @@ PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339789
 PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339816
 PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339819
 PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339823
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339828
 PR Sundar|-9bVWf986mI
 PR Sundar|2RYso8RJ3wQ
 PR Sundar|BZuCDl8cvew
@@ -733,6 +755,7 @@ SCMP business|https://www.scmp.com/business/article/3374890/foreign-demand-retai
 SCMP business|https://www.scmp.com/business/article/3374922/hong-kongs-tsim-sha-tsui-remains-asias-priciest-retail-district-new-york-leads-globally
 SCMP business|https://www.scmp.com/business/article/3375022/chinese-rating-agency-downgrades-sovereign-credit-outlook-france-and-philippines
 SCMP business|https://www.scmp.com/business/article/3375141/swire-properties-launches-innovation-challenge-hong-kong-focuses-green-equities
+SCMP business|https://www.scmp.com/business/article/3375241/two-veteran-chinese-property-tycoons-turn-urban-renewal-amid-prolonged-downturn
 SCMP business|https://www.scmp.com/business/banking-finance/article/3374704/land-cost-hang-lungs-luxury-housing-site-shouson-hill-drops-74-sold-us
 SCMP business|https://www.scmp.com/business/banking-finance/article/3374811/chinese-investors-overseas-holdings-double-2035-morgan-stanley
 SCMP business|https://www.scmp.com/business/banking-finance/article/3374929/hkex-creates-new-senior-role-control-emerging-cyber-and-operational-risks
@@ -778,6 +801,7 @@ SCMP business|https://www.scmp.com/tech/big-tech/article/3375093/alibabas-ai-bet
 SCMP business|https://www.scmp.com/tech/big-tech/article/3375253/ai-agents-are-getting-wallets-hong-kong-ready-them
 SCMP business|https://www.scmp.com/tech/big-tech/article/3375283/baidu-fined-us75000-china-wraps-joyy-antitrust-case
 The Compound|11Zqjd1miuE
+The Compound|Bcse0Rpbecg
 The Compound|H709wTcFPo8
 The Compound|HZt1UsoIohE
 The Compound|IrTpU1JpWWk
