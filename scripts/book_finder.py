@@ -43,7 +43,8 @@ def gutenberg():
     have = len([f for f in os.listdir(B) if f.startswith('gut_')]); cap = min(MAX_GUT, have + PER_RUN)
     if have >= cap: return
     try: raw = get('https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv', 120).decode('utf-8', 'ignore')
-    except Exception as e: stat['fails'].append(f'gutenberg catalog: {e}'); return
+    except Exception as e:
+        stat['fails'].append(f'gutenberg catalog: {e}'); return gutendex_fallback(have, cap)
     import io
     cands = []
     for r in csv.DictReader(io.StringIO(raw)):
@@ -69,8 +70,28 @@ def gutenberg():
         except Exception as e: stat['fails'].append(f"gut {gid}: {e}")
         time.sleep(1)
 
+def gutendex_fallback(have, cap):
+    for q in GUT_SEARCH:
+        if have >= cap or over(): break
+        try: js = json.loads(get('https://gutendex.com/books?languages=en&copyright=false&search=' + urllib.parse.quote(q), 90))
+        except Exception as e: stat['fails'].append(f'gutendex {q}: {e}'); continue
+        for b in js.get('results', [])[:10]:
+            subj = ' '.join(b.get('subjects', []) + b.get('bookshelves', []))
+            if not GUT_OK.search(subj) or re.search(r'fiction|poetry|juvenile|drama', subj, re.I): continue
+            gid = b['id']; title = b['title']; name = f"gut_{gid}_{slug(title)[:50]}.txt"; out = os.path.join(B, name)
+            if os.path.exists(out): continue
+            try:
+                t = get(f'https://www.gutenberg.org/cache/epub/{gid}/pg{gid}.txt', 60).decode('utf-8', 'ignore')
+                m = re.search(r'\*\*\* ?START OF.*?\*\*\*', t); n = re.search(r'\*\*\* ?END OF', t)
+                t = t[m.end() if m else 0: n.start() if n else len(t)]
+                if len(t) < 20000: continue
+                open(out, 'w', encoding='utf-8').write(f"{title} (Project Gutenberg #{gid}, public domain)\n\n" + t)
+                stat['gutenberg_new'].append(title[:80]); have += 1
+            except Exception as e: stat['fails'].append(f'gut {gid}: {e}')
+            if have >= cap or over(): break
+
 # ---------- 2) arXiv (open access papers) ----------
-ARX_Q = ['all:"Indian stock market"', 'all:Nifty', 'all:"National Stock Exchange" AND all:India', 'all:"India" AND all:momentum AND cat:q-fin*',
+ARX_Q = ['all:"Indian stock market"', 'all:Nifty AND cat:q-fin*', 'all:"National Stock Exchange" AND all:India', 'all:"India" AND all:momentum AND cat:q-fin*',
          'all:"Indian" AND all:options AND cat:q-fin*', 'all:"Bank Nifty"', 'all:"India" AND all:intraday AND cat:q-fin*',
          'all:"foreign institutional" AND all:India', 'cat:q-fin.TR AND all:backtest', 'cat:q-fin.TR AND all:seasonality',
          'cat:q-fin.PM AND all:"emerging market"', 'all:gold AND all:"price prediction" AND cat:q-fin*']
@@ -83,7 +104,9 @@ def arxiv():
         except Exception as e: stat['fails'].append(f'arxiv {q}: {e}'); continue
         ns = {'a': 'http://www.w3.org/2005/Atom'}
         for en in root.findall('a:entry', ns):
-            aid = en.find('a:id', ns).text.rsplit('/', 1)[-1]; title = ' '.join(en.find('a:title', ns).text.split())
+            aid = en.find('a:id', ns).text.split('/abs/')[-1]; title = ' '.join(en.find('a:title', ns).text.split())
+            cats = ' '.join(c.get('term', '') for c in en.findall('a:category', ns))
+            if not re.search(r'q-fin|econ', cats): continue          # only finance/economics papers (not physics 'NIFTy' etc.)
             name = f"arx_{slug(aid)}_{slug(title)[:45]}.txt"; out = os.path.join(B, name)
             if os.path.exists(out) or any(f.startswith(f'arx_{slug(aid)}') for f in os.listdir(B)): continue
             try:
