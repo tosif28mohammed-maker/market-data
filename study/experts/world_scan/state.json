@@ -1,5 +1,6 @@
 {
- "next": 6,
+ "next": 0,
  "last": "2026-11-22 18:36",
- "added_last": 0
+ "added_last": 0,
+ "note": "18:36 run: Gemini quota 429, nothing read; reset to topic 0"
 }

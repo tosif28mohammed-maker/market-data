@@ -27,7 +27,13 @@
 3. study/research/claims/*.py (# ROBOT): backtests; Nifty/stocks data (universe500, intraday_hist, nse_hist)
 4. बाकी: news, FII/DII, fundamentals, global, intraday, paper trading workflows
 
+## जाँच 22 Nov रात (Claude ने खुद देखा)
+- Gemini video देखना: चलता है ✔ — 3 videos (Dhan, 5paisa) + WCS 12 का एक हिस्सा पढ़ा, 9 नियम निकले (study/experts/gemini/, rules_ai.csv)
+- फिर Gemini free quota खत्म (HTTP 429) → world scan के 6 विषय 0 पढ़े. Quota रोज़ ~11:00 AM Kuwait पर भरता है
+- सुधार: world scan अब reader से पहले, हर run 3 विषय; quota खत्म हो तो रुककर अगले run वहीं से (विषय छूटता नहीं)
+- Groq news: 1061 में से 264 छँटीं (free limit) — pacing सुधरी, अगले run देखना
+- असली सीमा: free Gemini से दिन में बस कुछ videos (एक video = बहुत tokens). 125 videos queue में बाकी
+
 ## बाकी / कमी (todo.md में भी)
-- पहला Gemini run (22 Nov 21:03 Kuwait) का नतीजा save bug से खो गया; bug ठीक; दूसरा run 21:17 से — Claude जाँचेगा
-- Groq ने 1061 में से सिर्फ़ 264 headlines छाँटीं (free limit) — pacing ठीक की गई, अगले run देखना
 - Index बदलाव इतिहास, FII रोज़ाना इतिहास (robot scripts बनाने हैं)
+- कल 21:11 report में: Gemini कितने videos/rules, world scan कितने claims, Groq कितनी headlines — गिनकर बताना

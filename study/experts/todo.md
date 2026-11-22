@@ -3,7 +3,9 @@ Updated: 2026-11-22 21:30 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [x] Motilal WCS 13-30 (18 PDFs) books/ में आ गए (22 Nov 18:11)
-- [ ] YouTube transcripts: cloud/GitHub IP block (IpBlocked). PC task (Tosif का PC, Sun-Thu) scripts/pc_transcripts.py से लाएगा
+- [x] YouTube: अब Gemini खुद video देखता है (ai_manager.yml) — 22 Nov रात sample जाँचा: 3 videos ठीक पढ़े. सीमा: free quota (125 videos बाकी)
+- [ ] हर run: study/ai/tasks.md देखकर Gemini/Groq/robot का हाल जाँचना (videos_ok, world_claims, sorted headlines)
+- [ ] world_claims.csv (world scan) के नए claims पढ़ना → claims_log
 - [x] Forward Guidance + Rayner id ठीक (22 Nov). Rayner/Northman feed YouTube side खाली — robot पर कुछ नहीं हो सकता
 - [x] Reddit + Korea JoongAng बंद (type off). Korea के लिए नया feed ढूँढना (Yonhap/Herald RSS 0 items)
 - [ ] Index बदलाव इतिहास (IDX-01): NSE/BSE press releases से Nifty/Sensex inclusion/exclusion तारीख़ें → data/index_changes.csv

@@ -44,15 +44,15 @@ jobs:
           [ "$W" = all ] && W="reader news world scoreboard"
           [ -z "$W" ] && W="reader news scoreboard"
           echo "W=$W" >> $GITHUB_ENV; echo "jobs: $W"
+      - name: World scan (Gemini + Google Search, India + world + social media) — rotates 12 topics
+        if: contains(env.W, 'reader') || contains(env.W, 'world')
+        run: python scripts/world_scan.py || (sleep 60; python scripts/world_scan.py) || echo "world scan failed twice"
       - name: Gemini reader (videos + books) — auto-retry once
         if: contains(env.W, 'reader')
         run: python scripts/gemini_reader.py || (echo "retry in 90s"; sleep 90; python scripts/gemini_reader.py) || echo "reader failed twice - next run will continue"
       - name: Groq news sort (+ Gemini fact-check of big doubtful ones) — auto-retry once
         if: contains(env.W, 'news')
         run: python scripts/groq_news.py || (sleep 60; python scripts/groq_news.py) || echo "news sort failed twice"
-      - name: World scan (Gemini + Google Search, India + world + social media) — rotates 12 topics
-        if: contains(env.W, 'reader') || contains(env.W, 'world')
-        run: python scripts/world_scan.py || (sleep 60; python scripts/world_scan.py) || echo "world scan failed twice"
       - name: weekly scoreboard (pure Python)
         if: contains(env.W, 'scoreboard')
         run: python scripts/scoreboard.py > /dev/null

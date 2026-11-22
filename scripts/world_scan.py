@@ -12,7 +12,7 @@ from ai_client import gemini, groq, parse_json
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 W = os.path.join(ROOT, 'study', 'experts', 'world_scan'); os.makedirs(W, exist_ok=True)
 CSV = os.path.join(ROOT, 'study', 'experts', 'world_claims.csv'); ST = os.path.join(W, 'state.json')
-N = int(os.environ.get('SCAN_TOPICS', '6')); now = dt.datetime.utcnow(); day = now.strftime('%Y-%m-%d')
+N = int(os.environ.get('SCAN_TOPICS', '3')); now = dt.datetime.utcnow(); day = now.strftime('%Y-%m-%d')
 TOPICS = [
  ('India', 'NSE/BSE Nifty BankNifty swing or intraday trading setups and backtest results discussed this week (Indian traders, blogs, YouTube, Telegram, Twitter/X)'),
  ('India', 'Indian stock market sector rotation, FII/DII flow views, SEBI/RBI/government policy changes this week with stock or sector impact'),
@@ -28,6 +28,7 @@ TOPICS = [
  ('Papers', 'New free research papers (SSRN, arXiv q-fin, CFA, central banks) this month on emerging market or India equity anomalies'),
 ]
 st = json.load(open(ST)) if os.path.exists(ST) else {'next': 0}
+done_n = 0
 pick = [(st['next'] + i) % len(TOPICS) for i in range(N)]
 known = open(os.path.join(ROOT, 'study', 'ai', 'known_rules.txt'), encoding='utf-8').read()[:4000]
 PROMPT = """Google Search se aaj ({day}) is vishay par sabse taaza aur bharosemand cheezein dhoondho: "{q}".
@@ -42,6 +43,8 @@ have = {r['claim_id'] for r in rows}; md = [f'# World scan {day} (Gemini + Googl
 for k in pick:
     reg, q = TOPICS[k]
     txt, info = gemini(PROMPT.format(day=day, q=q), search=True)
+    if not txt and 'quota' in str(info): md.append(f'## {reg}: quota खत्म — अगले run में'); break
+    if txt: done_n = pick.index(k) + 1
     js = parse_json(txt) or {}
     its = js.get('items', []) if isinstance(js, dict) else []
     md.append(f'## {reg}: {q[:80]}  ({len(its)} items{"" if txt else ", fail: " + str(info)})')
@@ -67,6 +70,6 @@ with open(CSV, 'w', newline='', encoding='utf-8') as f:
     w = csv.DictWriter(f, fieldnames=cols, extrasaction='ignore'); w.writeheader(); w.writerows(rows)
 p = os.path.join(W, f'{day}.md'); old = open(p, encoding='utf-8').read() + '\n' if os.path.exists(p) else ''
 open(p, 'w', encoding='utf-8').write(old + '\n'.join(md) + '\n')
-st['next'] = (st['next'] + N) % len(TOPICS); st['last'] = now.strftime('%Y-%m-%d %H:%M'); st['added_last'] = len(added)
+st['next'] = (st['next'] + done_n) % len(TOPICS)   # only move on when a topic really ran; st['last'] = now.strftime('%Y-%m-%d %H:%M'); st['added_last'] = len(added)
 json.dump(st, open(ST, 'w'), indent=1)
 print(f'world scan: topics {[TOPICS[k][0] for k in pick]}, new claims {len(added)}')

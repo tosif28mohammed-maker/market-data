@@ -38,3 +38,4 @@
 - पढ़ा (Claude): queue के 35 नए (ज़्यादातर news/मनोरंजन/PIB — काम का सिर्फ़ Sensex rejig); Motilal WCS 13, 14, 15, 16, 17 Key Findings.
 - नए claims: MO-12 (RoE का बदलाव), MO-13 (WCS 15: 2005-10 में सस्ता P/E काम नहीं आया — MO-01 का उल्टा सबूत), IDX-01 (index में शामिल/बाहर), BF-01b
 - Test BF-01b Nifty ATH से दूरी: >20% नीचे पर 250d +30.6% vs आम +11.4; ATH पर +4.6%; पर episodes कम → अभी analysis में (r053)
+- Tosif की शिकायत (21:30): YouTube क्यों नहीं. जाँच: पुराना transcript रास्ता GitHub IP block से कभी नहीं चल सकता था; Gemini reader (21:03 बना) का पहला नतीजा save-bug से खोया, दूसरा run (21:17) — 3 videos + 1 book हिस्सा, 9 नियम ✔, फिर quota 429. नया: world scan (Gemini+Google Search, 12 विषय India/world/social) — पहली बार quota की वजह से 0; अब reader से पहले चलेगा. काम की सूची: study/ai/tasks.md
