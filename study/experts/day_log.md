@@ -39,3 +39,8 @@
 - नए claims: MO-12 (RoE का बदलाव), MO-13 (WCS 15: 2005-10 में सस्ता P/E काम नहीं आया — MO-01 का उल्टा सबूत), IDX-01 (index में शामिल/बाहर), BF-01b
 - Test BF-01b Nifty ATH से दूरी: >20% नीचे पर 250d +30.6% vs आम +11.4; ATH पर +4.6%; पर episodes कम → अभी analysis में (r053)
 - Tosif की शिकायत (21:30): YouTube क्यों नहीं. जाँच: पुराना transcript रास्ता GitHub IP block से कभी नहीं चल सकता था; Gemini reader (21:03 बना) का पहला नतीजा save-bug से खोया, दूसरा run (21:17) — 3 videos + 1 book हिस्सा, 9 नियम ✔, फिर quota 429. नया: world scan (Gemini+Google Search, 12 विषय India/world/social) — पहली बार quota की वजह से 0; अब reader से पहले चलेगा. काम की सूची: study/ai/tasks.md
+
+## 2026-11-22 22:15-23:15 (Tosif के साथ chat)
+- Gemini ने अब तक सिर्फ़ 3 videos + WCS 12 का 1 हिस्सा पढ़ा (125 videos queue में), फिर free quota 429.
+- Test (Claude, chat में): 5paisa CWA setup = 52-week high breakout + weekly vol ≥2x + RS>0 + RSI>60 (1,500 शेयर 2003-26, weekly). सिर्फ़ 52w breakout: 1 साल बाज़ार से +4.7%, stop15/target32 पर +0.52R (random +0.34R), 47% target hit, तीनों दौर में. Volume शर्त कुछ नहीं जोड़ती (3x ख़राब). RS+RSI से 52w +7.5% पर R नहीं बढ़ा → analysis में (buy-list filter), volume शर्त बेकार.
+- Tosif: **पहले किताबें, YouTube बाद में.** reader बदला (books पहले, 8 हिस्से/run; videos सारी किताबें ख़त्म होने पर). नया book_finder: arXiv q-fin India papers (5 आए), Gutenberg classics (catalog 503 — अगले run), wishlist SEBI/NSE/RBI/WGC/SPIVA/UBS (Gemini quota पर निर्भर). अभी 24 किताबें/papers क़तार में.
