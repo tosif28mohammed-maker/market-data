@@ -21,7 +21,10 @@ try:
     flash = [n for n in names if "flash" in n and "lite" not in n and "image" not in n and "tts" not in n and "live" not in n]
     out.append("Gemini models (generateContent): " + ", ".join(n.split('/')[-1] for n in names[:40]))
     ok = False
-    for m in sorted(flash, reverse=True)[:5]:
+    prefer = ["gemini-3.8-flash","gemini-3.6-flash","gemini-3.5-flash","gemini-2.5-flash","gemini-3.5-flash-lite","gemma-4-31b-it"]
+    import time
+    for m in ["models/"+p for p in prefer]*2:
+        time.sleep(3)
         try:
             r = post(f"https://generativelanguage.googleapis.com/v1beta/{m}:generateContent?key={gk}",
                      {"contents": [{"parts": [{"text": Q}]}]}, {})
