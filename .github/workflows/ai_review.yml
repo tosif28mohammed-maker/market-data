@@ -1,0 +1,24 @@
+name: ai_review
+# Claude ke study nateeje Gemini + Groq se jaanch karwana (user 22 Nov 2026). Prompt: study/ai/review_prompt.md
+on:
+  push:
+    paths: ['study/ai/review_prompt.md']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: python scripts/ai_review.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      - run: |
+          git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
+          git add study/ai/review_* && git commit -qm "AI review" || exit 0
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && exit 0; sleep 5; done
