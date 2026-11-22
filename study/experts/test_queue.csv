@@ -1,0 +1,9 @@
+rule_id,added,rule,data_needed,status,result,link
+AI-6F4268,2026-11-22,"Daily 25/55 EMA Bullish Crossover + RSI >= 40 + Market Cap > 10,000 Cr Filter","daily OHLC, market cap, RSI 14, EMA 25, EMA 55",waiting,,https://www.youtube.com/watch?v=LpCo69ZZBRg
+AI-44FE2E,2026-11-22,"Buy ICICI Bank on multi-year/52-week breakout with 20-week avg volume doubling, daily/weekly/monthly RSI strong, and positive RS vs Nifty 500","daily & weekly OHLCV, Nifty 500 OHLC, RSI indicator",waiting,,https://www.youtube.com/watch?v=G_E1uOB_I8w
+AI-BB9F9D,2026-11-22,Buy Glenmark Pharma on consolidation breakout with 3x 20-week avg volume and strong multi-timeframe RSI,"daily & weekly OHLCV, RSI indicator",waiting,,https://www.youtube.com/watch?v=G_E1uOB_I8w
+AI-419DA0,2026-11-22,"Multi-bagger Fundamental Valuation Screen: PE < 10x, P/B < 1x, P/S <= 1x, aur 5-Year Payback Ratio <= 1x par stocks buy karo","daily OHLC / fundamentals (PE, P/B, P/S, projected PAT)",waiting,,motilal_wcs_12_2002_07.txt
+AI-320182,2026-11-22,Micro-Cap High Growth Opportunity Setup: Market Cap < Rs 200 crore (< Rs 2 Billion) wali companies me high-CAGR entry lo,daily OHLC / Market Cap fundamental data,waiting,,motilal_wcs_12_2002_07.txt
+AI-9B587E,2026-11-22,Young Company Growth Multiplier: Incorporation/Listing umar < 10 saal wali companies ko pick karo,daily OHLC / company incorporation date / financial statements,waiting,,motilal_wcs_12_2002_07.txt
+AI-972488,2026-11-22,Domestic Revenue Dominance Filter: Export/Sales > 50% wali companies ko reject karo aur Domestic Sales > 75% wali companies me long position lo,annual / quarterly segment revenue balance sheet,waiting,,motilal_wcs_12_2002_07.txt
+AI-036DAC,2026-11-22,Low Initial RoE Turnaround Screen: Low initial RoE (< 5%) wali blinded-market companies me position lo,daily OHLC / annual financial reports (RoE),waiting,,motilal_wcs_12_2002_07.txt
