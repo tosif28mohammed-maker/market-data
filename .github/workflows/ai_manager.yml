@@ -47,7 +47,7 @@ jobs:
       - name: Gemini reader (BOOKS FIRST, videos after all books) — auto-retry once
         if: contains(env.W, 'reader')
         run: python scripts/gemini_reader.py || (echo "retry in 90s"; sleep 90; python scripts/gemini_reader.py) || echo "reader failed twice - next run will continue"
-      - name: World scan (Gemini + Google Search, India + world + social media) — after books (Tosif: books first)
+      - name: World scan (Gemini + Google Search, India + world + social media) — after books (Tosif - books first)
         if: contains(env.W, 'reader') || contains(env.W, 'world')
         run: python scripts/world_scan.py || (sleep 60; python scripts/world_scan.py) || echo "world scan failed twice"
       - name: Groq news sort (+ Gemini fact-check of big doubtful ones) — auto-retry once
