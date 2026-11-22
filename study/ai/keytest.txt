@@ -1,0 +1,9 @@
+AI key test 2026-11-22 07:21 UTC
+Gemini models (generateContent): gemini-2.5-flash, gemini-2.5-pro, gemini-2.5-flash-preview-tts, gemini-2.5-pro-preview-tts, gemma-4-26b-a4b-it, gemma-4-31b-it, gemini-flash-latest, gemini-flash-lite-latest, gemini-pro-latest, gemini-2.5-flash-lite, gemini-2.5-flash-image, gemini-3-flash-preview, gemini-3.1-pro-preview, gemini-3.1-pro-preview-customtools, gemini-3.1-flash-lite-preview, gemini-3.1-flash-lite, gemini-3-pro-image-preview, gemini-3-pro-image, nano-banana-pro-preview, gemini-3.1-flash-image-preview, gemini-3.1-flash-image, gemini-3.1-flash-lite-image, gemini-nano-banana-2.1, gemini-3.5-flash, gemini-3.5-flash-lite, gemini-omni-flash-preview, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-3.5-transcribe, gemini-3.6-flash, gemini-3.7-flash, gemini-3.8-flash, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, lyria-3-clip-preview, lyria-3-pro-preview, lyria-3.5, gemini-3.1-flash-tts-preview
+Gemini gemini-omni-flash-preview failed: HTTP Error 429: Too Many Requests
+Gemini gemini-omni-1.2-flash failed: HTTP Error 429: Too Many Requests
+Gemini gemini-omni-1.1-flash failed: HTTP Error 429: Too Many Requests
+Gemini gemini-flash-latest failed: HTTP Error 503: Service Unavailable
+Gemini gemini-3.8-flash failed: HTTP Error 503: Service Unavailable
+GEMINI FAIL
+GROQ OK via openai/gpt-oss-120b: Nifty 50 भारत का प्रमुख शेयर‑बाजार सूचकांक है, जिसमें NSE पर ट्रेड होने वाली 50 प्रमुख कंपनियों के शेयर शामिल होते हैं।
