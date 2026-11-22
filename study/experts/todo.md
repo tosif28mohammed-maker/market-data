@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-22 02:40 Kuwait
+Updated: 2026-11-22 06:40 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [ ] Motilal WCS 7 PDFs (sources.csv type=book) — site 503 दे रही थी; robot हर run में दोबारा कोशिश करता है → books/*.txt
@@ -8,11 +8,10 @@ Updated: 2026-11-22 02:40 Kuwait
 - [ ] Reddit (403) और Korea JoongAng (redirect) feeds — दूसरा रास्ता
 
 ## Claude — हल्का (अभी/अगला run)
-- [ ] queue.csv के बाकी ~300 'new' items पढ़ना (news हिस्सा: policy/data वाले ऊपर)
+- [ ] queue.csv के बाकी 195 'new' items पढ़ना (ज़्यादातर CNBC-TV18 news; score कम)
 - [ ] WCS 12 पूरा पढ़ा नहीं — sector/theme हिस्से (lines 400-750) बाकी
 
 - [ ] Blog pages (allocatesmartly, alphaarchitect) web-fetch permission timeout — अगली बार दोबारा कोशिश (AS-03 नियम पढ़ना)
-- [ ] queue: अब ~300 new बाकी (मुख्यतः news)
 
 ## Claude — भारी (हिस्सों में)
 - [ ] DHAN-10 BankNifty 1-min 200EMA pullback — intraday_hist पर test
@@ -21,3 +20,6 @@ Updated: 2026-11-22 02:40 Kuwait
 - [ ] MO-01/MO-02 (सस्ता P/E, P/B, payback → wealth creator?) सभी शेयरों पर survivorship-free जाँच: 1) data/fund में P/E P/B इतिहास कितना है देखो 2) robot script 3) नतीजा
 - [ ] DHAN-06 (R1/S1 + PDH/PDL zones, Nifty 5-min) intraday_hist पर test
 - [ ] AS-01 India sector-implied inflation compass test
+- [ ] DHAN-12 Harmonic (Gartley/Bat) — zigzag swing + Fibonacci ratios, daily u500 पर robot script (भारी: 2 हिस्से — 1) pattern detector 2) test)
+- [ ] GOLD-01 forward: 20 Nov 2026 gold USD 3539 (-33.5%), silver 41.1 (-64%) — 60/120/250 दिन बाद देखना
+- [ ] ET-01 + breadth/200DMA regime filter (i28 के साथ)

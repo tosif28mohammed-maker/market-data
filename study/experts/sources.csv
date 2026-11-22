@@ -7,16 +7,16 @@ Asset Yogi,youtube_channel,UCsNxHPbaCWL1tKw2hxGQD6g,India,hi,finance + policy ex
 Trading Chanakya,youtube_channel,UCUgUjyt6jcyxfM4FCmxZcgw,India,hi,trading setups,new,15,0,2026-11-21
 Nitish Kumar Trader,youtube_channel,UCpnhGxJSe3QQgiTNKOwidAQ,India,hi,intraday/options setups,new,15,0,2026-11-21
 PR Sundar,youtube_channel,UCS2NdYUmv_PUyyKeDAo5zYA,India,ta/en,option selling,new,15,0,2026-11-21
-Elearnmarkets,youtube_channel,UCMec1m9iUC3agiEK-nsndSg,India,hi/en,technical analysis interviews/setups,new,15,0,2026-11-21
+Elearnmarkets,youtube_channel,UCMec1m9iUC3agiEK-nsndSg,India,hi/en,technical analysis interviews/setups,"1-promo shorts, little content in descriptions",15,0,2026-11-22
 Angel One (YouTube),youtube_channel,UCHzAyAwFbp2KVwvZ_fJuH0Q,India,hi,broker education,new,15,0,2026-11-21
 Groww (YouTube),youtube_channel,UCw5TLrz3qADabwezTEcOmgQ,India,hi,broker education,new,15,0,2026-11-21
 5paisa (YouTube),youtube_channel,UCXcPmSjgThvZ5U69Z3B8tlQ,India,hi,broker education,new,15,0,2026-11-21
 NDTV Profit (YouTube),youtube_channel,UC3uJIdRFTGgLWrUziaHbzrg,India,en,market news/interviews,new,15,0,2026-11-21
 Rayner Teo,youtube_channel,UCES1CX-L4242aZELJyz-6QA,Singapore,en,price-action setups with rules,id fixed 22Nov (old id was spam channel); YouTube feed returns 0 entries,0,0,2026-11-21
 Northman Trader,youtube_channel,UC-_tUpRdhh7Qc3vn6FFbhGw,USA,en,US macro/market timing,id correct; YouTube feed returns 0 entries (channel side),0,0,2026-11-21
-Real Vision,youtube_channel,UCGXWKlq1Oxr3ddEtmKhAkPg,USA,en,macro interviews,new,15,0,2026-11-21
-Forward Guidance,youtube_channel,UCkrwgzhIBKccuDsi_SvZtnQ,USA,en,macro/rates/liquidity,id fixed 22Nov (@ForwardGuidanceBW),0,0,2026-11-21
-The Compound,youtube_channel,UCBRpqrzuuqE8TZcWw75JSdw,USA,en,market data/charts,new,15,0,2026-11-21
+Real Vision,youtube_channel,UCGXWKlq1Oxr3ddEtmKhAkPg,USA,en,macro interviews,"1-crypto/US macro opinions, no testable India rules",15,0,2026-11-22
+Forward Guidance,youtube_channel,UCkrwgzhIBKccuDsi_SvZtnQ,USA,en,macro/rates/liquidity,1-US macro theses only,0,0,2026-11-22
+The Compound,youtube_channel,UCBRpqrzuuqE8TZcWw75JSdw,USA,en,market data/charts,"1-US opinion podcast, no rules",15,0,2026-11-22
 Aswath Damodaran,youtube_channel,UCLvnJL8htRR1T9cbSccaoVw,USA,en,valuation,new,15,0,2026-11-21
 Ben Felix,youtube_channel,UCDXTQ8nWmx_EhZ2v-kp7QxA,Canada,en,evidence-based factor investing,new,15,0,2026-11-21
 RBI press releases,govt,https://www.rbi.org.in/pressreleases_rss.xml,India,en,policy/regulation,new,10,0,2026-11-21
@@ -25,10 +25,10 @@ PIB (Finance etc),govt,https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3,In
 NSE circulars,govt,https://nsearchives.nseindia.com/content/RSS/Circulars.xml,India,en,exchange rule changes,new,35,0,2026-11-21
 US Federal Reserve,govt,https://www.federalreserve.gov/feeds/press_all.xml,USA,en,rates/policy,new,20,0,2026-11-21
 ECB press,govt,https://www.ecb.europa.eu/rss/press.html,Europe,en,rates/policy,new,15,0,2026-11-21
-ET Markets,news_rss,https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms,India,en,market news,new,50,0,2026-11-21
+ET Markets,news_rss,https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms,India,en,market news,2-news; weekly gainer lists tested = no edge after costs,50,0,2026-11-22
 Moneycontrol market reports,news_rss,https://www.moneycontrol.com/rss/marketreports.xml,India,en,market news,new,4,0,2026-11-21
 LiveMint markets,news_rss,https://www.livemint.com/rss/markets,India,en,market news,new,35,0,2026-11-21
-Business Standard markets,news_rss,https://www.business-standard.com/rss/markets-106.rss,India,en,market news,new,35,0,2026-11-21
+Business Standard markets,news_rss,https://www.business-standard.com/rss/markets-106.rss,India,en,market news,2-news; gave BS-01 mild edge,35,0,2026-11-22
 CNBC-TV18 market,news_rss,https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml,India,en,market news,new,200,0,2026-11-21
 BusinessLine markets,news_rss,https://www.thehindubusinessline.com/markets/feeder/default.rss,India,en,market news,new,60,0,2026-11-21
 NDTV Profit,news_rss,https://feeds.feedburner.com/ndtvprofit-latest,India,en,market news,new,20,0,2026-11-21
