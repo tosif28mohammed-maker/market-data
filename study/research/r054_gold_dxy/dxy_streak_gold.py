@@ -1,4 +1,4 @@
-"""r053 (22 Nov 2026, gold watch day 1): gold after the dollar index made 8+ straight up days.
+"""r054 (22 Nov 2026, gold watch day 1): gold after the dollar index made 8+ straight up days.
 RULE WRITTEN BEFORE RESULTS: FX_DOLLAR_INDEX daily close up vs previous close; event = the day the up-streak reaches 8
 (new event only if >20 trading days after the previous one). Gold (CMD_GOLD, USD) forward 5/20/60 trading days from the
 event close, vs all days (chance); p_hi by 5000 random draws of same n. Also: did the dollar keep rising (DXY 20d fwd),
@@ -16,7 +16,7 @@ for i,(d,v) in enumerate(st.items()):
     if v==8 and i-last>20: ev.append(d); last=i
 print('DXY streak before last day', int(st.iloc[-2]), 'events', len(ev)); print('DXY current streak', int(st.iloc[-1]), 'as of', D.index[-1].date(), 'max streak ever', int(st.max()))
 Gd=G.reindex(G.index.union(D.index)).ffill()
-rng=np.random.default_rng(53); rows=[]
+rng=np.random.default_rng(54); rows=[]
 for d in ev:
     if d<G.index[0]: continue
     if d not in G.index: d=G.index[G.index.searchsorted(d)] if G.index.searchsorted(d)<len(G) else None
