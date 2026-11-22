@@ -14,11 +14,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 B = os.path.join(ROOT, 'study', 'experts', 'books'); os.makedirs(B, exist_ok=True)
 UA = {'User-Agent': 'Mozilla/5.0 (market-data study bot)'}
 MAX_GUT, MAX_ARX = int(os.environ.get('MAX_GUT', '25')), int(os.environ.get('MAX_ARX', '30'))
+PER_RUN = int(os.environ.get('FINDER_PER_RUN', '8'))   # new downloads per kind per run (rest next run)
+T0 = time.time(); BUDGET = int(os.environ.get('FINDER_MIN', '12')) * 60
+def over(): return time.time() - T0 > BUDGET
 stat = dict(run_utc=dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M'), gutenberg_new=[], arxiv_new=[], wishlist_new=[], fails=[])
 
-def get(url, timeout=60):
+def get(url, timeout=40):
     err = None
-    for a in range(3):
+    for a in range(2):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r: return r.read()
         except Exception as e: err = e; time.sleep(3 * (a + 1))
@@ -36,9 +39,9 @@ GUT_SEARCH = ['stock market', 'speculation', 'stock exchange', 'tape reading', '
               'commodity', 'panic', 'financial crises', 'money market', 'gold silver', 'dow theory', 'trading', 'securities']
 GUT_OK = re.compile(r'stock|specul|invest|wall street|exchange|securit|financ|panic|crises|money|bank|gold|silver|commod|tape|market|wealth|trade|bond|cotton|wheat', re.I)
 def gutenberg():
-    have = len([f for f in os.listdir(B) if f.startswith('gut_')])
+    have = len([f for f in os.listdir(B) if f.startswith('gut_')]); cap = min(MAX_GUT, have + PER_RUN)
     for q in GUT_SEARCH:
-        if have >= MAX_GUT: break
+        if have >= cap or over(): break
         try: js = json.loads(get('https://gutendex.com/books?languages=en&copyright=false&search=' + urllib.parse.quote(q)))
         except Exception as e: stat['fails'].append(f'gutendex {q}: {e}'); continue
         for b in js.get('results', [])[:10]:
@@ -56,8 +59,8 @@ def gutenberg():
                 head = f"{b['title']} — {', '.join(a['name'] for a in b.get('authors', []))} (Project Gutenberg #{b['id']}, public domain)\n\n"
                 open(out, 'w', encoding='utf-8').write(head + t); stat['gutenberg_new'].append(b['title'][:80]); have += 1
             except Exception as e: stat['fails'].append(f"gut {b['id']}: {e}")
-            if have >= MAX_GUT: break
-        time.sleep(2)
+            if have >= cap or over(): break
+        time.sleep(1)
 
 # ---------- 2) arXiv (open access papers) ----------
 ARX_Q = ['all:"Indian stock market"', 'all:Nifty', 'all:"National Stock Exchange" AND all:India', 'all:"India" AND all:momentum AND cat:q-fin*',
@@ -65,9 +68,9 @@ ARX_Q = ['all:"Indian stock market"', 'all:Nifty', 'all:"National Stock Exchange
          'all:"foreign institutional" AND all:India', 'cat:q-fin.TR AND all:backtest', 'cat:q-fin.TR AND all:seasonality',
          'cat:q-fin.PM AND all:"emerging market"', 'all:gold AND all:"price prediction" AND cat:q-fin*']
 def arxiv():
-    have = len([f for f in os.listdir(B) if f.startswith('arx_')])
+    have = len([f for f in os.listdir(B) if f.startswith('arx_')]); cap = min(MAX_ARX, have + PER_RUN)
     for q in ARX_Q:
-        if have >= MAX_ARX: break
+        if have >= cap or over(): break
         url = 'http://export.arxiv.org/api/query?' + urllib.parse.urlencode({'search_query': q, 'start': 0, 'max_results': 6, 'sortBy': 'relevance'})
         try: root = ET.fromstring(get(url))
         except Exception as e: stat['fails'].append(f'arxiv {q}: {e}'); continue
@@ -84,7 +87,7 @@ def arxiv():
                 elif os.path.exists(out): os.remove(out)
             except Exception as e: stat['fails'].append(f'arxiv pdf {aid}: {e}')
             time.sleep(3)                                  # arXiv asks for polite pacing
-            if have >= MAX_ARX: break
+            if have >= cap or over(): break
         time.sleep(3)
 
 # ---------- 3) wishlist: official free reports ----------
@@ -93,15 +96,16 @@ def wishlist():
     if not os.path.exists(WL): return
     rows = list(csv.DictReader(open(WL, encoding='utf-8'))); asked = 0
     for r in rows:
+        if over(): break
         out = os.path.join(B, f"wl_{slug(r['name'])}.txt")
         if os.path.exists(out): r['status'] = 'downloaded'; continue
         if not r.get('url') and asked < 3 and r.get('status') != 'not_found':
             asked += 1
             try:
                 from ai_client import gemini
-                txt, _ = gemini(f"Find the OFFICIAL, free, direct PDF download URL (ending in .pdf if possible) for: {r['title']}. "
+                txt, _ = gemini(models=['gemini-3.6-flash', 'gemini-2.5-flash'], prompt=f"Find the OFFICIAL, free, direct PDF download URL (ending in .pdf if possible) for: {r['title']}. "
                                  "Only official sites (sebi.gov.in, nseindia.com, rbi.org.in, bseindia.com, the author's institution). "
-                                 "Answer ONLY the URL, or NONE.", search=True, timeout=120)
+                                 "Answer ONLY the URL, or NONE.", search=True, timeout=90)
                 u = (re.findall(r'https?://\S+', txt or '') or [''])[0].rstrip(').,]')
                 if u: r['url'] = u
                 else: r['status'] = 'not_found'
