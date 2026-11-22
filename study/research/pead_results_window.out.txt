@@ -1,0 +1,54 @@
+
+===== UP (DN = x is long-side excess; B is SHORT trade) =====
+RESULTS ALL                  n 34890 x20 -1.20 x60 -0.20 (x60>0 40%) | B n23388 tgt 34.1% win 35% avgW +12.88 avgL -6.90 ratio 1.87 net +0.09
+  2003-12                    n  9910 x20 -1.45 x60 +0.05 (x60>0 39%) | B n5929 tgt 35.3% win 36% avgW +12.86 avgL -6.99 ratio 1.84 net +0.21
+  2013-20                    n 12221 x20 -1.73 x60 -0.74 (x60>0 39%) | B n8089 tgt 33.3% win 34% avgW +13.00 avgL -6.86 ratio 1.89 net -0.03
+  2021-26                    n 12587 x20 -0.50 x60 +0.17 (x60>0 40%) | B n9264 tgt 33.9% win 35% avgW +12.83 avgL -6.87 ratio 1.87 net +0.11
+  last 24m                   n  4718 x20 -0.63 x60 -1.01 (x60>0 39%) | B n3596 tgt 29.1% win 31% avgW +12.49 avgL -6.73 ratio 1.86 net -0.87
+  last 12m                   n  2522 x20 -0.93 x60 -0.54 (x60>0 41%) | B n1923 tgt 29.1% win 31% avgW +12.18 avgL -6.77 ratio 1.80 net -0.89
+  last 6m                    n  1412 x20 -0.73 x60 -0.46 (x60>0 40%) | B n1054 tgt 30.6% win 33% avgW +12.82 avgL -6.96 ratio 1.84 net -0.51
+  last 4m                    n  1095 x20 -0.83 x60 -0.25 (x60>0 40%) | B n808 tgt 34.0% win 37% avgW +13.01 avgL -7.01 ratio 1.86 net +0.35
+CONTROL ALL                  n 41491 x20 -1.58 x60 -1.39 (x60>0 37%) | B n26615 tgt 34.3% win 35% avgW +13.21 avgL -7.10 ratio 1.86 net +0.10
+  -- scenarios (RESULTS events) --
+    mk=mkt<200               n  8616 x20 -2.00 x60 -2.29 (x60>0 39%) | B n5540 tgt 29.7% win 31% avgW +12.25 avgL -6.78 ratio 1.81 net -0.89
+    mk=mkt>200               n 26274 x20 -0.94 x60 +0.49 (x60>0 40%) | B n17848 tgt 35.4% win 37% avgW +13.05 avgL -6.94 ratio 1.88 net +0.39
+    pri=p60 low              n 11515 x20 -1.95 x60 -1.86 (x60>0 37%) | B n7743 tgt 30.0% win 31% avgW +12.47 avgL -6.79 ratio 1.84 net -0.77
+    pri=p60 mid              n 11514 x20 -1.03 x60 -0.51 (x60>0 40%) | B n8222 tgt 35.4% win 37% avgW +12.64 avgL -6.84 ratio 1.85 net +0.38
+    pri=p60 high             n 11514 x20 -0.62 x60 +1.76 (x60>0 42%) | B n7218 tgt 36.8% win 38% avgW +13.52 avgL -7.08 ratio 1.91 net +0.66
+    cl=close weak            n  3247 x20 -1.26 x60 -0.78 (x60>0 40%) | B n2649 tgt 27.1% win 28% avgW +9.66 avgL -5.12 ratio 1.89 net -1.05
+    cl=close mid             n 14663 x20 -1.29 x60 -0.97 (x60>0 39%) | B n11059 tgt 34.0% win 35% avgW +12.90 avgL -7.01 ratio 1.84 net -0.07
+    cl=close near high       n 16682 x20 -1.32 x60 -0.11 (x60>0 40%) | B n9551 tgt 35.8% win 38% avgW +13.59 avgL -7.35 ratio 1.85 net +0.56
+    gp=gap<-2                n  1297 x20 -1.38 x60 -0.53 (x60>0 36%) | B n443 tgt 40.4% win 42% avgW +13.06 avgL -7.60 ratio 1.72 net +1.17
+    gp=gap~0                 n 23705 x20 -1.39 x60 -1.02 (x60>0 39%) | B n16374 tgt 34.3% win 36% avgW +13.41 avgL -7.24 ratio 1.85 net +0.14
+    gp=gap2-5                n  6308 x20 -0.87 x60 +1.56 (x60>0 41%) | B n4334 tgt 34.0% win 35% avgW +11.93 avgL -6.34 ratio 1.88 net +0.00
+    gp=gap>5                 n  3580 x20 -0.48 x60 +2.28 (x60>0 42%) | B n2237 tgt 31.2% win 32% avgW +10.53 avgL -5.40 ratio 1.95 net -0.35
+    sz=top200                n  5688 x20 -1.26 x60 -2.34 (x60>0 39%) | B n4177 tgt 37.4% win 40% avgW +12.43 avgL -6.86 ratio 1.81 net +0.82
+    sz=200-600               n 15698 x20 -1.37 x60 -0.64 (x60>0 39%) | B n10562 tgt 34.4% win 36% avgW +12.93 avgL -6.90 ratio 1.87 net +0.15
+    sz=small                 n 13196 x20 -0.97 x60 +1.23 (x60>0 40%) | B n8468 tgt 31.9% win 33% avgW +13.08 avgL -6.90 ratio 1.90 net -0.36
+
+===== DN (DN = x is long-side excess; B is SHORT trade) =====
+RESULTS ALL                  n 15340 x20 -1.18 x60 -0.99 (x60>0 38%) | B n9801 tgt 34.3% win 37% avgW +11.09 avgL -6.60 ratio 1.68 net -0.05
+  2003-12                    n  4213 x20 -1.30 x60 -1.45 (x60>0 38%) | B n2416 tgt 33.7% win 35% avgW +11.51 avgL -6.72 ratio 1.71 net -0.30
+  2013-20                    n  5613 x20 -0.97 x60 -0.68 (x60>0 40%) | B n3563 tgt 35.4% win 38% avgW +11.33 avgL -6.69 ratio 1.69 net +0.09
+  2021-26                    n  5410 x20 -1.32 x60 -1.00 (x60>0 37%) | B n3763 tgt 33.7% win 38% avgW +10.64 avgL -6.46 ratio 1.65 net +0.00
+  last 24m                   n  2246 x20 -1.27 x60 -1.08 (x60>0 39%) | B n1563 tgt 37.9% win 42% avgW +11.12 avgL -6.54 ratio 1.70 net +0.92
+  last 12m                   n  1226 x20 -1.49 x60 -1.64 (x60>0 37%) | B n888 tgt 39.5% win 44% avgW +11.11 avgL -6.48 ratio 1.71 net +1.34
+  last 6m                    n   677 x20 -1.74 x60 -1.88 (x60>0 35%) | B n494 tgt 42.3% win 46% avgW +11.12 avgL -6.42 ratio 1.73 net +1.71
+  last 4m                    n   466 x20 -2.00 x60 -1.65 (x60>0 35%) | B n337 tgt 36.8% win 42% avgW +10.96 avgL -6.50 ratio 1.69 net +0.91
+CONTROL ALL                  n 12531 x20 -0.31 x60 +0.18 (x60>0 40%) | B n7544 tgt 31.5% win 33% avgW +11.33 avgL -6.61 ratio 1.71 net -0.65
+  -- scenarios (RESULTS events) --
+    mk=mkt<200               n  4742 x20 -0.75 x60 -0.93 (x60>0 42%) | B n2722 tgt 36.3% win 38% avgW +11.68 avgL -6.67 ratio 1.75 net +0.30
+    mk=mkt>200               n 10598 x20 -1.37 x60 -1.02 (x60>0 37%) | B n7079 tgt 33.5% win 37% avgW +10.85 avgL -6.58 ratio 1.65 net -0.19
+    pri=p60 low              n  5074 x20 -0.73 x60 -1.19 (x60>0 40%) | B n3031 tgt 36.5% win 39% avgW +11.41 avgL -6.63 ratio 1.72 net +0.33
+    pri=p60 mid              n  5074 x20 -1.46 x60 -1.43 (x60>0 37%) | B n3512 tgt 35.1% win 39% avgW +10.40 avgL -6.31 ratio 1.65 net +0.23
+    pri=p60 high             n  5074 x20 -1.39 x60 -0.50 (x60>0 38%) | B n3193 tgt 31.2% win 33% avgW +11.63 avgL -6.87 ratio 1.69 net -0.73
+    cl=close weak            n 14131 x20 -1.21 x60 -1.07 (x60>0 38%) | B n9156 tgt 34.3% win 37% avgW +11.32 avgL -6.75 ratio 1.68 net -0.03
+    cl=close mid             n   781 x20 -1.29 x60 -1.33 (x60>0 38%) | B n530 tgt 33.4% win 33% avgW +7.40 avgL -4.65 ratio 1.59 net -0.63
+    cl=close near high       n   143 x20 -1.61 x60 -1.05 (x60>0 38%) | B n44 tgt 29.5% win 30% avgW +5.59 avgL -3.73 ratio 1.50 net -0.97
+    gp=gap<-2                n  4833 x20 -1.37 x60 -1.69 (x60>0 36%) | B n3260 tgt 37.7% win 40% avgW +9.34 avgL -5.55 ratio 1.68 net +0.36
+    gp=gap~0                 n  8713 x20 -1.01 x60 -0.90 (x60>0 39%) | B n5867 tgt 32.6% win 36% avgW +11.97 avgL -7.02 ratio 1.70 net -0.22
+    gp=gap2-5                n  1426 x20 -1.30 x60 +1.09 (x60>0 40%) | B n615 tgt 32.0% win 34% avgW +12.97 avgL -7.67 ratio 1.69 net -0.66
+    gp=gap>5                 n   368 x20 -2.13 x60 -2.21 (x60>0 36%) | B n59 tgt 37.3% win 37% avgW +12.41 avgL -7.92 ratio 1.57 net -0.34
+    sz=top200                n  2497 x20 -1.71 x60 -3.56 (x60>0 37%) | B n1637 tgt 33.6% win 37% avgW +10.77 avgL -6.55 ratio 1.64 net -0.14
+    sz=200-600               n  6230 x20 -1.44 x60 -2.05 (x60>0 37%) | B n3961 tgt 34.1% win 37% avgW +11.12 avgL -6.59 ratio 1.69 net -0.02
+    sz=small                 n  6508 x20 -0.77 x60 +0.90 (x60>0 40%) | B n4146 tgt 34.7% win 37% avgW +11.19 avgL -6.63 ratio 1.69 net -0.06

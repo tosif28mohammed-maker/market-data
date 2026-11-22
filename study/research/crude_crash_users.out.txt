@@ -1,0 +1,79 @@
+{'OMC': ['BPCL', 'HINDPETRO', 'IOC'], 'Aviation': ['INDIGO'], 'Paints': ['ASIANPAINT', 'BERGEPAINT', 'KANSAINER', 'INDIGOPNTS'], 'Tyres': ['MRF', 'APOLLOTYRE', 'CEATLTD', 'JKTYRE', 'BALKRISIND'], 'Upstream': ['ONGC', 'OIL']}
+
+==== E20 events 33 (2004-12 7, 2013-26 26), riskoff 10
+era          2004-12  2013-26  riskoff  calm
+OMC_d0          1.55     0.38     2.15 -0.03
+OMC_5          -3.81    -0.25    -2.42 -0.39
+OMC_20          9.06    -1.88     3.01 -0.68
+OMC_60         22.49     1.06     7.24  4.89
+Aviation_d0    -0.21     0.86     0.77  0.58
+Aviation_5     -3.97    -0.31    -0.76 -1.23
+Aviation_20     2.42    -1.55     0.33 -1.16
+Aviation_60     9.94    -3.81    -1.56 -0.60
+Paints_d0      -0.32     0.60    -0.13  0.63
+Paints_5       -0.72    -0.39    -0.29 -0.53
+Paints_20       4.21    -0.57     1.70 -0.11
+Paints_60       8.15    -1.73     0.21  0.43
+Tyres_d0       -0.10     0.07     0.15 -0.01
+Tyres_5         0.04     0.40    -0.02  0.47
+Tyres_20       -0.09     0.46    -0.43  0.67
+Tyres_60       -5.04    -0.54    -1.38 -1.55
+Upstream_d0     2.12    -0.55     1.19 -0.50
+Upstream_5      1.20     1.47     4.23  0.19
+Upstream_20     3.91    -0.68     3.85 -1.25
+Upstream_60     5.25    -0.95     1.33 -0.06
+OMC_5          obs -1.01 chance -0.13 p 0.118 win 42%
+OMC_20         obs +0.44 chance -0.50 p 0.263 win 36%
+OMC_60         obs +5.60 chance -1.25 p 0.003 win 52%
+Aviation_5     obs -1.09 chance -0.23 p 0.148 win 33%
+Aviation_20    obs -0.71 chance -0.82 p 0.525 win 42%
+Aviation_60    obs -0.89 chance -2.20 p 0.677 win 33%
+Paints_5       obs -0.46 chance -0.03 p 0.218 win 39%
+Paints_20      obs +0.44 chance -0.00 p 0.355 win 42%
+Paints_60      obs +0.37 chance +0.10 p 0.455 win 45%
+Tyres_5        obs +0.32 chance -0.02 p 0.277 win 48%
+Tyres_20       obs +0.34 chance +0.03 p 0.397 win 48%
+Tyres_60       obs -1.50 chance +0.09 p 0.183 win 42%
+Upstream_5     obs +1.41 chance -0.17 p 0.020 win 48%
+Upstream_20    obs +0.30 chance -0.78 p 0.232 win 45%
+Upstream_60    obs +0.36 chance -2.24 p 0.137 win 45%
+last events ['2024-09-11', '2025-05-02', '2026-04-20', '2026-05-29', '2026-07-09']
+
+==== E5 events 65 (2004-12 17, 2013-26 48), riskoff 18
+era          2004-12  2013-26  riskoff  calm
+OMC_d0          2.08     0.71     2.07  0.69
+OMC_5          -1.48    -0.61    -0.85 -0.84
+OMC_20         -0.65    -2.33    -2.57 -1.63
+OMC_60          4.89    -0.71    -1.23  1.51
+Aviation_d0     0.40     0.01     0.80 -0.15
+Aviation_5     -0.72     0.13    -0.64  0.12
+Aviation_20    -0.00    -2.06    -2.21 -1.26
+Aviation_60     0.98    -2.26    -0.95 -1.59
+Paints_d0       0.41     1.19     0.93  1.00
+Paints_5       -0.28    -0.32    -0.65 -0.18
+Paints_20       1.21    -1.48    -0.29 -0.96
+Paints_60       3.36    -1.78     0.21 -0.68
+Tyres_d0        0.42     0.56     0.85  0.40
+Tyres_5         1.06     0.30     0.44  0.52
+Tyres_20        0.77     0.64     1.44  0.38
+Tyres_60        3.02     0.03     2.01  0.35
+Upstream_d0    -0.07    -0.31    -0.08 -0.32
+Upstream_5      0.69    -0.50     1.19 -0.72
+Upstream_20     1.57    -2.38     1.46 -2.42
+Upstream_60     0.14    -2.94    -3.73 -1.52
+OMC_5          obs -0.84 chance -0.09 p 0.075 win 40%
+OMC_20         obs -1.89 chance -0.47 p 0.085 win 29%
+OMC_60         obs +0.76 chance -1.46 p 0.122 win 42%
+Aviation_5     obs -0.09 chance -0.22 p 0.580 win 52%
+Aviation_20    obs -1.52 chance -0.78 p 0.257 win 43%
+Aviation_60    obs -1.41 chance -2.32 p 0.678 win 38%
+Paints_5       obs -0.31 chance -0.00 p 0.223 win 48%
+Paints_20      obs -0.77 chance -0.05 p 0.180 win 38%
+Paints_60      obs -0.44 chance -0.21 p 0.430 win 45%
+Tyres_5        obs +0.50 chance +0.02 p 0.113 win 52%
+Tyres_20       obs +0.67 chance +0.06 p 0.237 win 54%
+Tyres_60       obs +0.81 chance +0.10 p 0.315 win 55%
+Upstream_5     obs -0.19 chance -0.17 p 0.472 win 45%
+Upstream_20    obs -1.35 chance -0.73 p 0.267 win 38%
+Upstream_60    obs -2.13 chance -2.36 p 0.572 win 42%
+last events ['2025-08-07', '2026-04-09', '2026-05-08', '2026-06-16', '2026-07-31']
