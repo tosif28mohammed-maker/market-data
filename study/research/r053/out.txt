@@ -1,0 +1,18 @@
+DXY streak before last day 2 events 19
+DXY current streak 0 as of 2026-11-20 max streak ever 14
+         date    gold    g5   g20    g60  maxfall20  dxy20
+0  2008-08-12   808.2  0.36 -6.22  -8.28      -6.22   4.86
+1  2012-05-09  1593.7 -3.61 -0.45   0.77      -3.61   2.46
+2  2016-11-17  1216.5 -3.15 -6.67   1.25      -7.29   2.04
+3  2017-02-10  1234.4  0.26 -2.59  -1.63      -2.73   0.58
+4  2019-07-30  1429.7  2.99  7.78   4.21      -0.62  -0.05
+5  2022-04-11  1948.2  0.55 -5.50 -10.57      -5.50   3.99
+6  2024-10-09  2626.0  2.49  1.92   0.81       0.00   2.10
+g5: -0.02% up 71% n7 vs all +0.23 (55%) p_hi 0.60
+g20: -1.68% up 29% n7 vs all +0.93 (56%) p_hi 0.93
+g60: -1.92% up 57% n7 vs all +2.84 (63%) p_hi 0.96
+maxfall20 median -3.6 dxy20 mean 2.28
+S1 gold new 20d low: True DXY 5d chg 0.42
+gold last 3539.0 post-crash low 3539.0 50DMA 4111.3 20DMA 3943.3
+silver last 41.08 silver 50DMA 56.38 ratio 86.1
+gold weekly last 3 {Timestamp('2026-11-06 00:00:00'): 4074.9, Timestamp('2026-11-13 00:00:00'): 3886.3, Timestamp('2026-11-20 00:00:00'): 3539.0}
