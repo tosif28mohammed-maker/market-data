@@ -1,0 +1,7 @@
+I Scan Stocks at 3:30 PM for Swing Trades | 25 & 55 EMA + RSI Setup
+
+How do you find stocks for swing trading without checking hundreds of charts? we walked through a stock selection framework that starts with a ScanX shortlist and ends with a chart review on Dhan Charts.
+
+The chart examples use the 25-period and 55-period Exponential Moving Averages (EMAs) to read trend direction, with RSI above 40 as a momentum filter in the bullish setup. In the ScanX demo, the screener uses a different rule: price at or above the 20 and 50 EMAs, plus RSI at or above 40. That scan narrows the list; it does not confirm that a fresh EMA crossover has occurred.
+
+📱 

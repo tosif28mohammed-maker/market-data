@@ -1,16 +1,16 @@
 {
- "run_utc": "2026-11-22 08:14",
+ "run_utc": "2026-11-22 13:40",
  "sources": 51,
  "failed": [
   "Korea JoongAng Daily",
   "Reddit IndianStreetBets",
   "Reddit IndiaInvestments"
  ],
- "new_items": 62,
- "kept": 43,
+ "new_items": 65,
+ "kept": 44,
  "transcripts_ok": 0,
  "transcript_errors": {
-  "RequestBlocked": 8
+  "RequestBlocked": 13
  },
  "books_new": []
 }
