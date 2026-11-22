@@ -21,3 +21,4 @@
 - Test GOLD-01 gold/silver बड़ी गिरावट के बाद खरीद: मौके बहुत कम (1-6). अभी gold -33.5%, silver -64% peak से — 2013 के बाद पहली बार → analysis में, forward (r047)
 - Test ET-02 rupee मज़बूत → IT पीछे: उसी महीने हाँ (-2.6%), अगले महीने नहीं (+0.5%) → बेकार (r047)
 - Sources ratings: Real Vision/Compound/Forward Guidance/Elearnmarkets = 1 (राय, नियम नहीं)
+- PC transcripts 2026-11-22 11:40 Kuwait: PC मिला पर yt_transcripts फ़ोल्डर इस run से जुड़ा नहीं था (connectedFolders खाली) और device_bash tool उपलब्ध नहीं — script नहीं चली; ok 0, fail 0. Tosif: scheduled task की settings में फ़ोल्डर दोबारा जोड़ें / desktop app अपडेट करें।

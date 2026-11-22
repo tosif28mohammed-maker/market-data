@@ -23,3 +23,4 @@ Updated: 2026-11-22 06:40 Kuwait
 - [ ] DHAN-12 Harmonic (Gartley/Bat) — zigzag swing + Fibonacci ratios, daily u500 पर robot script (भारी: 2 हिस्से — 1) pattern detector 2) test)
 - [ ] GOLD-01 forward: 20 Nov 2026 gold USD 3539 (-33.5%), silver 41.1 (-64%) — 60/120/250 दिन बाद देखना
 - [ ] ET-01 + breadth/200DMA regime filter (i28 के साथ)
+- PC transcripts 2026-11-22 11:40 Kuwait: PC मिला पर yt_transcripts फ़ोल्डर इस run से जुड़ा नहीं था (connectedFolders खाली) और device_bash tool उपलब्ध नहीं — script नहीं चली; ok 0, fail 0. Tosif: scheduled task की settings में फ़ोल्डर दोबारा जोड़ें / desktop app अपडेट करें।
