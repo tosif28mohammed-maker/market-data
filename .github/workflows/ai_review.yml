@@ -3,7 +3,9 @@ name: ai_review
 on:
   push:
     paths: ['study/ai/review_prompt.md']
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      only: { description: 'gemini / groq / blank=both', required: false, default: '' }
 permissions:
   contents: write
 jobs:
@@ -18,6 +20,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ONLY: ${{ github.event.inputs.only }}
       - run: |
           git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
           git add study/ai/review_* && git commit -qm "AI review" || exit 0

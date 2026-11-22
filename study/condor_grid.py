@@ -3,7 +3,7 @@ Nifty ke alawa BankNifty, shares bhi, phir conclusion do').
 Model-free: forward F = K* + C - P (|C-P| sabse kam wala strike), ek SD chaal EM = 1.25 x ATM straddle (bazaar ki apni umeed).
 Short call = pehla strike >= F + z*EM, short put = aakhri strike <= F - z*EM; hedge = short se w*EM aur door (kam se kam 1 strike).
 Entry: din ke CLOSE par; entry par chaaron leg mein asli trade (contracts>0) zaroori — warna hafta chhoda (nakli settle bhaav nahi).
-Entry din: after = pichhli expiry ke agle din, d3 = expiry se 3 trading din pehle, d1 = 1 din pehle (+ d10 monthly ke liye).
+Entry din: after = pichhli expiry ke agle din, d3/d2 = expiry se 3/2 trading din pehle, d1 = 1 din pehle (+ d10 monthly ke liye).
 Exit (din ke close par check): hold (expiry tak), T50 (50% target), T50S100, T50S200, S100 (sirf SL), T60S150 (dost ka Pine).
 Expiry: intrinsic, expiry-din ka underlying = put-call parity (traded close) — 'settle' column expiry par underlying/0 hota hai, isliye nahi. Kharcha: slippage har leg har taraf max(0.05, 1% index / 2.5% share bhaav),
   brokerage Rs20+GST har order, STT 0.1% sell premium, exchange 0.0353% (+GST) -> points mein (aaj ke lot se).
@@ -53,8 +53,10 @@ def run_symbol(sym):
         cyc = 'weekly' if (e - p_).days <= 8 else 'monthly'
         ent = {'after': Dd[0], 'd1': Dd[-1]}
         if len(Dd) >= 3: ent['d3'] = Dd[-3]
+        if len(Dd) >= 2: ent['d2'] = Dd[-2]
         if cyc == 'monthly' and len(Dd) >= 10: ent['d10'] = Dd[-10]
         if ent.get('d3') == ent['after']: ent.pop('d3')
+        if ent.get('d2') == ent['after']: ent.pop('d2')
         expch = chains.get((e, e))
         if expch is None: continue
         bb = None
