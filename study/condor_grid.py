@@ -25,7 +25,9 @@ D = pd.read_pickle(PKL)
 D['date'] = pd.to_datetime(D.date); D['exp'] = pd.to_datetime(D.exp); D['type'] = D.type.astype(str).str[0]
 for c in ('open', 'high', 'low', 'close', 'settle', 'contracts'): D[c] = pd.to_numeric(D[c], errors='coerce').fillna(0)
 D = D.drop_duplicates(['symbol', 'date', 'exp', 'type', 'K'])
+MINC = int(os.environ.get('MIN_CONTRACTS', '1'))  # entry liquidity filter (default: koi bhi trade)
 D['tr'] = D.contracts > 0
+D['liq'] = D.contracts >= MINC
 D['px'] = np.where(D.tr, D.close, D.settle)
 D['hi'] = np.where(D.tr, D.high, D.px); D['lo'] = np.where(D.tr, D.low, D.px)
 
@@ -43,7 +45,7 @@ def run_symbol(sym):
     x = D[D.symbol == sym]
     chains = {}
     for (d, e), g in x.groupby(['date', 'exp']):
-        chains[(d, e)] = {(t, k): (p, s, tr, h, l) for t, k, p, s, tr, h, l in zip(g.type, g.K, g.px, g.settle, g.tr, g.hi, g.lo)}
+        chains[(d, e)] = {(t, k): (p, s, tr, h, l, lq) for t, k, p, s, tr, h, l, lq in zip(g.type, g.K, g.px, g.settle, g.tr, g.hi, g.lo, g.liq)}
     exps = sorted(x.exp.unique()); exps = [pd.Timestamp(e) for e in exps]
     dates = sorted(x.date.unique()); dates = pd.DatetimeIndex(dates)
     rows = []
@@ -92,7 +94,7 @@ def run_symbol(sym):
                     if bc is None or bp is None: continue
                     legs = [('C', sc), ('P', sp), ('C', bc), ('P', bp)]
                     q = [ch.get(l) for l in legs]
-                    if any(v is None or not v[2] for v in q): continue  # asli trade zaroori
+                    if any(v is None or not v[5] for v in q): continue  # asli trade zaroori (MIN_CONTRACTS)
                     pr = [v[0] for v in q]
                     cr = pr[0] + pr[1] - pr[2] - pr[3]
                     if cr <= 0: continue
@@ -134,5 +136,6 @@ if __name__ == '__main__':
     syms = ONLY or sorted(D.symbol.unique())
     for s in syms:
         T = run_symbol(s)
-        T.to_csv(os.path.join(OUT, f'cg_trades_{s}.csv.gz'), index=False, compression='gzip')
+        suf = os.environ.get('SUFFIX', '')
+        T.to_csv(os.path.join(OUT, f'cg_trades_{s}{suf}.csv.gz'), index=False, compression='gzip')
         print(s, len(T), flush=True)
