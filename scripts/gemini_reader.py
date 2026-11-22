@@ -5,8 +5,8 @@ No life story, no 'X se Y crore' claims, no generic advice. Already-known rules 
 
 Order of work each run:
  1) study/experts/user_links.txt  (links Tosif sends in chat; Claude appends them) - always first
- 2) YouTube items from study/experts/queue.csv (status new/read, highest score + newest first)
- 3) books in study/experts/books/*.txt - next chunk (~150k chars) of one book per run
+ 2) BOOKS FIRST (Tosif 22 Nov): books/*.txt in books/order.txt order, ~150k-char chunks, up to MAX_BOOK_CHUNKS per run
+ 3) YouTube queue videos ONLY after every book is fully read
 Outputs:
   study/experts/gemini/<id>.md       full point-by-point notes per video/book chunk
   study/experts/rules_ai.csv         one row per extracted rule (testable?, new?, duplicate_of)
@@ -90,45 +90,68 @@ def yt_id(url):
 def main():
     done = set(open(DONE).read().split()) if os.path.exists(DONE) else set()
     known = known_text(); stat = dict(run_utc=now.strftime('%Y-%m-%d %H:%M'), videos_ok=0, videos_fail=[], rules_added=0, book_chunks=0, stopped='')
-    # 1+2) video list
-    todo = []
+    import time, ai_client; T0 = time.time(); BUDGET = int(os.environ.get('TIME_BUDGET_MIN', '45')) * 60
+    # ORDER (Tosif 22 Nov 2026): BOOKS FIRST. YouTube only after every book is fully read (Tosif's own links still go first).
+    # 1) Tosif's own links
+    todo_user, todo_q = [], []
     if os.path.exists(LINKS):
         for l in open(LINKS, encoding='utf-8').read().split():
             vid = yt_id(l)
-            if vid and vid not in done: todo.append(('Tosif link', vid, f'https://www.youtube.com/watch?v={vid}', ''))
+            if vid and vid not in done: todo_user.append(('Tosif link', vid, f'https://www.youtube.com/watch?v={vid}', ''))
     q = [r for r in read_csv(os.path.join(E, 'queue.csv')) if r['type'] == 'youtube_channel' and r['status'] in ('new', 'read') and r['item_id'] not in done]
     q.sort(key=lambda r: (int(r['score'] or 0), r['published']), reverse=True)
-    todo += [(r['source'], r['item_id'], f"https://www.youtube.com/watch?v={r['item_id']}", r['title']) for r in q]
-    import time; T0 = time.time(); BUDGET = int(os.environ.get('TIME_BUDGET_MIN', '45')) * 60
-    for src, vid, url, title in todo[:MAX_VIDEOS]:
-        if time.time() - T0 > BUDGET: stat['stopped'] = 'time budget'; break
-        print(f'video {vid} ({src}): {title[:70]}', flush=True)
-        txt, info = gemini(PROMPT.format(kind='YouTube video', known=known), video_url=url, json_out=True)
-        js = parse_json(txt) if txt else None
-        if isinstance(js, list): js = {'rules': [r for r in js if isinstance(r, dict)]}
-        if not js:
-            stat['videos_fail'].append(f'{vid}: {info if not txt else "bad json"}')
-            if info == 'quota used up this run': stat['stopped'] = 'Gemini free quota khatam - agle run me'; break
-            continue
-        write_note(vid, src, url, title, js); added = save_rules(src, url, js.get('title') or title, js, done)
-        stat['videos_ok'] += 1; stat['rules_added'] += len(added); done.add(vid)
-        open(DONE, 'a').write(vid + '\n')
-    # 3) books
+    todo_q = [(r['source'], r['item_id'], f"https://www.youtube.com/watch?v={r['item_id']}", r['title']) for r in q]
+    def do_videos(lst, cap):
+        n = 0
+        for src, vid, url, title in lst:
+            if n >= cap or stat['stopped'] or time.time() - T0 > BUDGET: break
+            print(f'video {vid} ({src}): {title[:70]}', flush=True)
+            txt, info = gemini(PROMPT.format(kind='YouTube video', known=known), video_url=url, json_out=True)
+            js = parse_json(txt) if txt else None
+            if isinstance(js, list): js = {'rules': [r for r in js if isinstance(r, dict)]}
+            if not js:
+                stat['videos_fail'].append(f'{vid}: {info if not txt else "bad json"}')
+                if info == 'quota used up this run': stat['stopped'] = 'Gemini free quota khatam - agle run me'
+                continue
+            write_note(vid, src, url, title, js); added = save_rules(src, url, js.get('title') or title, js, done)
+            stat['videos_ok'] += 1; stat['rules_added'] += len(added); done.add(vid); n += 1
+            open(DONE, 'a').write(vid + '\n')
+    do_videos(todo_user, MAX_VIDEOS)
+    # 2) books: finish a started book first, then the next one in books/order.txt (mix: study reports, classics, papers)
     prog = json.load(open(BOOKP)) if os.path.exists(BOOKP) else {}
-    if not stat['stopped']:
-        for b in sorted(glob.glob(os.path.join(E, 'books', '*.txt'))):
-            if stat['book_chunks'] >= MAX_BOOK_CHUNKS: break
-            name = os.path.basename(b); text = open(b, encoding='utf-8', errors='ignore').read(); off = prog.get(name, 0)
-            if off >= len(text): continue
+    files = {os.path.basename(b): b for b in glob.glob(os.path.join(E, 'books', '*.txt'))}
+    order = [l.strip() for l in open(os.path.join(E, 'books', 'order.txt'), encoding='utf-8')] if os.path.exists(os.path.join(E, 'books', 'order.txt')) else []
+    order = [n for n in order if n in files] + sorted(n for n in files if n not in order)
+    lens = {n: os.path.getsize(files[n]) for n in order}
+    def left(n): return prog.get(n, 0) < len(open(files[n], encoding='utf-8', errors='ignore').read())
+    pending = [n for n in order if left(n)]
+    pending.sort(key=lambda n: 0 if prog.get(n, 0) > 0 else 1)          # started book first (stable -> order.txt otherwise)
+    retried = False
+    for name in pending:
+        while stat['book_chunks'] < MAX_BOOK_CHUNKS and time.time() - T0 < BUDGET:
+            text = open(files[name], encoding='utf-8', errors='ignore').read(); off = prog.get(name, 0)
+            if off >= len(text): break
             part = text[off:off + CHUNK]
             txt, info = gemini(PROMPT.format(kind='kitaab/report ka hissa', known=known) + '\n\n---- TEXT ----\n' + part, json_out=True)
             js = parse_json(txt) if txt else None
+            if not js and info == 'quota used up this run' and not retried:
+                # often a per-MINUTE token limit, not the daily one -> wait once and try again
+                retried = True; ai_client._dead.discard('gemini'); print('quota 429 - 75s ruk kar dobara', flush=True); time.sleep(75); continue
             if not js:
-                stat['videos_fail'].append(f'book {name}@{off}: {info if not txt else "bad json"}'); break
+                stat['videos_fail'].append(f'book {name}@{off}: {info if not txt else "bad json"}')
+                if info == 'quota used up this run': stat['stopped'] = 'Gemini free quota khatam - agle run me'
+                break
             cid = f"book_{name[:-4]}_{off // CHUNK:03d}"
             write_note(cid, 'book: ' + name, name, name, js); stat['rules_added'] += len(save_rules('book: ' + name, name, name, js, done))
             prog[name] = off + CHUNK; stat['book_chunks'] += 1
             json.dump(prog, open(BOOKP, 'w'), indent=1)
+            time.sleep(20)                                                      # spread tokens (per-minute limit)
+        if stat['stopped'] or stat['book_chunks'] >= MAX_BOOK_CHUNKS or time.time() - T0 > BUDGET: break
+    stat['books_left'] = sum(1 for n in order if left(n))
+    stat['book_chars_left'] = sum(max(0, lens[n] - prog.get(n, 0)) for n in order)
+    # 3) YouTube queue ONLY when no book is left
+    if stat['books_left'] == 0 and not stat['stopped']: do_videos(todo_q, MAX_VIDEOS)
+    todo = todo_user + todo_q
     stat['videos_left'] = max(0, len(todo) - stat['videos_ok'])
     json.dump(stat, open(STATUS, 'w'), indent=1, ensure_ascii=False); print(json.dumps(stat, ensure_ascii=False, indent=1))
     # fail exit only if NOTHING worked and it was not just quota -> workflow retries once

@@ -28,7 +28,7 @@ jobs:
       CRON: ${{ github.event.schedule || '' }}
       EVENT: ${{ github.event_name }}
       MAX_VIDEOS: '25'
-      MAX_BOOK_CHUNKS: '3'
+      MAX_BOOK_CHUNKS: '8'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -44,12 +44,12 @@ jobs:
           [ "$W" = all ] && W="reader news world scoreboard"
           [ -z "$W" ] && W="reader news scoreboard"
           echo "W=$W" >> $GITHUB_ENV; echo "jobs: $W"
-      - name: World scan (Gemini + Google Search, India + world + social media) — rotates 12 topics
-        if: contains(env.W, 'reader') || contains(env.W, 'world')
-        run: python scripts/world_scan.py || (sleep 60; python scripts/world_scan.py) || echo "world scan failed twice"
-      - name: Gemini reader (videos + books) — auto-retry once
+      - name: Gemini reader (BOOKS FIRST, videos after all books) — auto-retry once
         if: contains(env.W, 'reader')
         run: python scripts/gemini_reader.py || (echo "retry in 90s"; sleep 90; python scripts/gemini_reader.py) || echo "reader failed twice - next run will continue"
+      - name: World scan (Gemini + Google Search, India + world + social media) — after books (Tosif: books first)
+        if: contains(env.W, 'reader') || contains(env.W, 'world')
+        run: python scripts/world_scan.py || (sleep 60; python scripts/world_scan.py) || echo "world scan failed twice"
       - name: Groq news sort (+ Gemini fact-check of big doubtful ones) — auto-retry once
         if: contains(env.W, 'news')
         run: python scripts/groq_news.py || (sleep 60; python scripts/groq_news.py) || echo "news sort failed twice"

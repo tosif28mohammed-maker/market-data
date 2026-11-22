@@ -19,6 +19,9 @@ jobs:
         with: { python-version: '3.11' }
       - run: pip install -q youtube-transcript-api && sudo apt-get install -y -q poppler-utils >/dev/null
       - run: python scripts/source_collector.py
+      - name: book finder (Gutenberg public-domain classics, arXiv papers, official free reports)
+        env: { GEMINI_API_KEY: '${{ secrets.GEMINI_API_KEY }}' }
+        run: python scripts/book_finder.py || echo "book finder failed - next run"
       - name: claim test scripts (study/research/claims/*.py, if any)
         run: |
           pip install -q pandas numpy

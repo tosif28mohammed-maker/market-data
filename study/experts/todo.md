@@ -2,6 +2,9 @@
 Updated: 2026-11-22 21:30 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
+- [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
+- [x] book_finder.py (source_collector में, दिन में 4 बार): Gutenberg public-domain classics (Wyckoff, Selden, Dow/Hamilton...), arXiv India/q-fin papers, books/wishlist.csv (SEBI F&O/intraday P&L study, NSE Market Pulse, RBI FSR, Economic Survey, WGC Gold Demand Trends, SPIVA India, UBS Yearbook) → books/order.txt mix order
+- [ ] अगले report में जाँचना: finder_status.json (कितनी किताबें आईं), reader_status.json (book_chunks, books_left)
 - [x] Motilal WCS 13-30 (18 PDFs) books/ में आ गए (22 Nov 18:11)
 - [x] YouTube: अब Gemini खुद video देखता है (ai_manager.yml) — 22 Nov रात sample जाँचा: 3 videos ठीक पढ़े. सीमा: free quota (125 videos बाकी)
 - [ ] हर run: study/ai/tasks.md देखकर Gemini/Groq/robot का हाल जाँचना (videos_ok, world_claims, sorted headlines)
