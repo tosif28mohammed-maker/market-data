@@ -20,7 +20,7 @@ concurrency: { group: ai_manager, cancel-in-progress: false }
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 100
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -38,6 +38,7 @@ jobs:
             "0 1 * * *") W=news;; "30 13 * * *") W="reader news";; "0 12 * * 6") W=scoreboard;; "") ;; *) W=reader;;
           esac
           [ "$EVENT" = push ] && W="reader news"
+          grep -qi test study/ai/run_now.txt 2>/dev/null && [ "$EVENT" = push ] && echo "MAX_VIDEOS=3" >> $GITHUB_ENV
           [ "$W" = all ] && W="reader news scoreboard"
           [ -z "$W" ] && W="reader news scoreboard"
           echo "W=$W" >> $GITHUB_ENV; echo "jobs: $W"
@@ -55,6 +56,6 @@ jobs:
         run: |
           git config user.name "market-data-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add study/experts study/ai data/news data/scoreboard.md data/scoreboard_history.csv 2>/dev/null || true
+          for p in study/experts study/ai data/news data/scoreboard.md data/scoreboard_history.csv; do [ -e "$p" ] && git add "$p"; done
           git commit -m "AI manager $(date -u +%Y-%m-%d_%H%M): $W" || echo "no change"
           for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; sleep 7; done

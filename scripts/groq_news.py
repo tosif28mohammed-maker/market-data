@@ -29,8 +29,10 @@ kind (fact|rumour|opinion|clickbait|old_news), check (true agar strength>=4 aur 
 Output: {"items": [ ... ]}
 """
 out = []
-for i in range(0, len(items), 40):
-    batch = items[i:i + 40]
+import time
+for i in range(0, len(items), 30):
+    batch = items[i:i + 30]
+    if i: time.sleep(int(os.environ.get('GROQ_GAP_S', '20')))   # free tier ~8k tokens/min
     txt, info = groq(PROMPT + '\n'.join(f'{i + j}: {b["title"]}' for j, b in enumerate(batch)), json_out=True)
     js = parse_json(txt) or {}
     for it in js.get('items', []):

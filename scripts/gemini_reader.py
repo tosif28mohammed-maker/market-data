@@ -99,9 +99,13 @@ def main():
     q = [r for r in read_csv(os.path.join(E, 'queue.csv')) if r['type'] == 'youtube_channel' and r['status'] in ('new', 'read') and r['item_id'] not in done]
     q.sort(key=lambda r: (int(r['score'] or 0), r['published']), reverse=True)
     todo += [(r['source'], r['item_id'], f"https://www.youtube.com/watch?v={r['item_id']}", r['title']) for r in q]
+    import time; T0 = time.time(); BUDGET = int(os.environ.get('TIME_BUDGET_MIN', '45')) * 60
     for src, vid, url, title in todo[:MAX_VIDEOS]:
+        if time.time() - T0 > BUDGET: stat['stopped'] = 'time budget'; break
+        print(f'video {vid} ({src}): {title[:70]}', flush=True)
         txt, info = gemini(PROMPT.format(kind='YouTube video', known=known), video_url=url, json_out=True)
         js = parse_json(txt) if txt else None
+        if isinstance(js, list): js = {'rules': [r for r in js if isinstance(r, dict)]}
         if not js:
             stat['videos_fail'].append(f'{vid}: {info if not txt else "bad json"}')
             if info == 'quota used up this run': stat['stopped'] = 'Gemini free quota khatam - agle run me'; break

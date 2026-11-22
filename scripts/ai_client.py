@@ -28,10 +28,12 @@ def _call(provider, models, fn, tries=2):
     last, n429 = '', 0
     for m in models:
         for a in range(tries):
+            t0 = time.time()
             try:
                 t = fn(m)
                 if t and t.strip():
-                    _log(provider, m, True); return t, m
+                    print(f'  [{provider} {m}] OK {time.time()-t0:.0f}s', flush=True)
+                    _log(provider, m, True, f'{time.time()-t0:.0f}s'); return t, m
                 last = 'empty answer'
             except urllib.error.HTTPError as e:
                 last = f'HTTP {e.code}'
@@ -41,11 +43,12 @@ def _call(provider, models, fn, tries=2):
                 if e.code in (400, 404): break          # model not available / bad input -> next model
             except Exception as e:
                 last = str(e)[:120]
+            print(f'  [{provider} {m}] fail {time.time()-t0:.0f}s: {last}', flush=True)
             time.sleep(4 * (a + 1))
         _log(provider, m, False, last)
     return None, last
 
-def gemini(prompt, video_url=None, json_out=False, models=None, timeout=420, search=False):
+def gemini(prompt, video_url=None, json_out=False, models=None, timeout=300, search=False):
     key = os.environ.get('GEMINI_API_KEY', '')
     parts = []
     if video_url: parts.append({'fileData': {'fileUri': video_url, 'mimeType': 'video/*'}})
@@ -73,8 +76,13 @@ def parse_json(txt):
     """Tolerant JSON parse (strips ``` fences)."""
     if not txt: return None
     t = re.sub(r'^```(?:json)?|```$', '', txt.strip(), flags=re.M).strip()
-    try: return json.loads(t)
+    try: return _one(json.loads(t))
     except Exception:
         m = re.search(r'(\{.*\}|\[.*\])', t, re.S)
-        try: return json.loads(m.group(1)) if m else None
+        try: return _one(json.loads(m.group(1))) if m else None
         except Exception: return None
+
+def _one(x):
+    """Gemini sometimes wraps the object in a list -> take the first dict."""
+    if isinstance(x, list) and x and isinstance(x[0], dict) and 'items' not in x[0] and len(x) == 1: return x[0]
+    return x
