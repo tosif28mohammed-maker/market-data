@@ -1,0 +1,29 @@
+name: metals-factory
+# Tosif 22 Nov 2026: share wali saari studies gold/silver par bhi (USD, INR, KWD, ETF) — free robot, study/metals_factory.py
+on:
+  schedule:
+    - cron: '37 5 * * 6'   # Saturday ~8:37 AM Kuwait (markets closed)
+    - cron: '37 5 * * 3'   # Wednesday ~8:37 AM Kuwait
+  workflow_dispatch:
+    inputs:
+      n: { description: 'new combo ideas this run', default: '400' }
+permissions:
+  contents: write
+concurrency: { group: metals, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -q yfinance pandas numpy
+      - run: python scripts/fetch_global.py || echo 'global fetch partly failed'
+      - run: python study/metals_factory.py
+        env: { METALS_N: "${{ github.event.inputs.n || '400' }}", PYTHONUNBUFFERED: '1' }
+      - if: always()
+        run: |
+          git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/global study/results/metals_ledger.csv data/metals_ideas.md && git commit -qm "metals factory run" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase -X theirs && git push -q && exit 0; sleep 7; done
