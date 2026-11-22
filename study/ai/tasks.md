@@ -1,0 +1,33 @@
+# किसको क्या काम दिया है (Claude = manager) — 22 Nov 2026
+
+हर 21:11 वाली report में Claude इस सूची का हाल (चला / नहीं चला / क्या मिला) देखकर बताएगा. पहले खुद जाँच करेगा, फिर "हो गया" कहेगा.
+
+## Gemini (मुफ़्त key, GitHub Secrets) — पढ़ना, देखना, सच जाँचना
+1. YouTube videos खुद देखना (transcript की ज़रूरत नहीं) — scripts/gemini_reader.py
+   - पहले Tosif के भेजे links (study/experts/user_links.txt), फिर queue.csv के YouTube items (हर run में 12 तक)
+   - सिर्फ़ test होने लायक नियम: setup, समय, entry/exit, stop/target, filters. Life story / कमाई के दावे / आम सलाह नहीं
+   - नतीजा: study/experts/gemini/<id>.md, rules_ai.csv, test_queue.csv
+2. किताबें/PDF (books/*.txt) — हर run में एक किताब का अगला ~150k अक्षर हिस्सा
+3. बड़ी शक वाली खबरों का Google Search से fact-check (दिन में 8 तक)
+4. World scan — scripts/world_scan.py (नया, 22 Nov रात): Google Search से 12 विषय बारी-बारी (हर run 6):
+   India setups, India policy/FII, India social (Reddit, X), USA quant studies, USA social (Reddit algotrading, StockTwits, TradingView),
+   Japan, Korea, China, Europe papers, Gulf (Saudi, Kuwait, UAE), Global macro, नए free research papers
+   → study/experts/world_scan/<date>.md, world_claims.csv
+5. Claude के test नतीजों की अलग से आलोचना (ai_review.yml, जब Claude भेजे)
+
+## Groq (मुफ़्त key) — तेज़ छँटाई (fact का source नहीं)
+1. रोज़ की news headlines छाँटना: काम की? कौन-सा शेयर/sector? ऊपर/नीचे? ताकत 1-5? fact या अफ़वाह/राय? — scripts/groq_news.py → data/news/sorted.md
+2. World scan के claims पर tag लगाना: test हो सकता है? नया या पहले जाँचा हुआ?
+3. Claude के test नतीजों की दूसरी राय (ai_review)
+
+## Robot (GitHub Actions, Python) — गिनती और बोझ वाला काम
+1. source_collector.yml: 62 sources (YouTube RSS, blogs, news, PIB/RBI/SEBI, podcasts) → queue.csv; free PDF → books/*.txt
+   (YouTube transcript यहाँ से नहीं आते — YouTube GitHub IP block करता है; इसलिए video अब Gemini देखता है)
+2. ai_manager.yml: दिन में 5 बार Gemini/Groq वाले काम चलाता है (2 PM, 7 PM, 12 AM, 4:30 AM IST + 6:30 AM news)
+3. study/research/claims/*.py (# ROBOT): backtests; Nifty/stocks data (universe500, intraday_hist, nse_hist)
+4. बाकी: news, FII/DII, fundamentals, global, intraday, paper trading workflows
+
+## बाकी / कमी (todo.md में भी)
+- पहला Gemini run (22 Nov 21:03 Kuwait) का नतीजा save bug से खो गया; bug ठीक; दूसरा run 21:17 से — Claude जाँचेगा
+- Groq ने 1061 में से सिर्फ़ 264 headlines छाँटीं (free limit) — pacing ठीक की गई, अगले run देखना
+- Index बदलाव इतिहास, FII रोज़ाना इतिहास (robot scripts बनाने हैं)
