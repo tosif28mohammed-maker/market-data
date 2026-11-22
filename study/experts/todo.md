@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-22 21:30 Kuwait
+Updated: 2026-11-23 02:40 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -17,7 +17,10 @@ Updated: 2026-11-22 21:30 Kuwait
 ## Claude — हल्का (अभी/अगला run)
 - [x] queue के 282 new पढ़े; WCS 12 पूरा पढ़ा (22 Nov 18:11)
 - [x] WCS 13-17 Key Findings पढ़े (22 Nov 21:11; ज़्यादातर MO-01..11 जैसे; नए MO-12, MO-13)
-- [ ] WCS 18-29 पढ़ना (हर run 3-4 studies: सिर्फ़ Key Finding/valuation tables; MO-11 bucket tables तुलना) — WCS 30 का theme हिस्सा (lines 120-2800) भी
+- [x] WCS 18-21 पढ़े (23 Nov 02:11; MO-14..17)
+- [ ] WCS 22-29 पढ़ना (हर run 3-4 studies: Findings Summary) — WCS 30 का theme हिस्सा (lines 120-2800) भी
+- [ ] ARX-01 आगे: Nifty futures cost (~0.03%) के साथ "up-day के बाद hold" + regime filter
+- [ ] test_queue pending: AI-419DA0/AI-036DAC (fundamentals history चाहिए — robot से yfinance quarterly/annual इतिहास?), AI-320182 (historical mcap)
 
 - [ ] Blog pages (allocatesmartly, alphaarchitect) web-fetch permission timeout — अगली बार दोबारा कोशिश (AS-03 नियम पढ़ना)
 

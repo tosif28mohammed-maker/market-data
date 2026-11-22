@@ -44,3 +44,14 @@
 - Gemini ने अब तक सिर्फ़ 3 videos + WCS 12 का 1 हिस्सा पढ़ा (125 videos queue में), फिर free quota 429.
 - Test (Claude, chat में): 5paisa CWA setup = 52-week high breakout + weekly vol ≥2x + RS>0 + RSI>60 (1,500 शेयर 2003-26, weekly). सिर्फ़ 52w breakout: 1 साल बाज़ार से +4.7%, stop15/target32 पर +0.52R (random +0.34R), 47% target hit, तीनों दौर में. Volume शर्त कुछ नहीं जोड़ती (3x ख़राब). RS+RSI से 52w +7.5% पर R नहीं बढ़ा → analysis में (buy-list filter), volume शर्त बेकार.
 - Tosif: **पहले किताबें, YouTube बाद में.** reader बदला (books पहले, 8 हिस्से/run; videos सारी किताबें ख़त्म होने पर). नया book_finder: arXiv q-fin India papers (5 आए), Gutenberg classics (catalog 503 — अगले run), wishlist SEBI/NSE/RBI/WGC/SPIVA/UBS (Gemini quota पर निर्भर). अभी 24 किताबें/papers क़तार में.
+
+## 2026-11-23 02:11 (silent run)
+- Robot: 62 sources, failed 1 (Moneycontrol market reports), नए 8 (2 रखे); transcripts 0 (RequestBlocked). Gemini reader: 3 videos + 1 book हिस्सा (18:17 UTC के बाद नया नहीं — quota).
+- पढ़ा (Claude): queue के 2 नए (मनोरंजन/US राय — बेकार); Motilal WCS 18, 19, 20, 21 Findings Summary; arXiv 1510.03704, 2012.01160, 2207.06963 (abstract+conclusion).
+- test_queue (Gemini rules): AI-6F4268, AI-44FE2E, AI-BB9F9D पहले से tested → done; AI-9B587E test किया; AI-972488 blocked (segment data नहीं); बाकी fundamentals history पर pending.
+- नए claims: MO-14, MO-15, MO-16, MO-17, ARX-01
+- Test MO-14 मंदी में IT/Pharma/FMCG आगे: नहीं (12m: ConsDef -3.6, Pharma -3.3, IT median -1.2; सिर्फ़ 2003-12) → बेकार (r055)
+- Test MO-15 पुराने तेज़ winners टिकते हैं: उल्टा (top-10 5y winners अगले 3 साल -23.8% market से) → बेकार (r055)
+- Test MO-17 young कंपनियाँ: listing के 1-3 साल वाले अगले 12m -2.6% (हर दौर) → बेकार (r055)
+- Test ARX-01 Nifty up-day के बाद ऊपर 55.7% vs 49.8% (+0.1%/दिन फ़र्क), पिछले 6 महीने कमज़ोर → अभी analysis में (r055)
+- Notebook: r055 + r01 i85-i89. Source ratings: WCS 18=4, 19/21=3, 20=2.
