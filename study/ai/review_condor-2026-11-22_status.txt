@@ -1,0 +1,6 @@
+gemini gemini-3.1-pro-preview fail HTTP Error 429: Too Many Requests
+gemini gemini-2.5-pro fail HTTP Error 404: Not Found
+gemini gemini-pro-latest fail HTTP Error 429: Too Many Requests
+gemini gemini-3.6-flash fail HTTP Error 503: Service Unavailable
+gemini gemini-2.5-flash fail HTTP Error 404: Not Found
+groq OK openai/gpt-oss-120b
