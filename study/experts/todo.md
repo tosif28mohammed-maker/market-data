@@ -1,19 +1,23 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-22 06:40 Kuwait
+Updated: 2026-11-22 18:40 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
-- [ ] Motilal WCS 7 PDFs (sources.csv type=book) — site 503 दे रही थी; robot हर run में दोबारा कोशिश करता है → books/*.txt
+- [x] Motilal WCS 13-30 (18 PDFs) books/ में आ गए (22 Nov 18:11)
 - [ ] YouTube transcripts: cloud/GitHub IP block (IpBlocked). PC task (Tosif का PC, Sun-Thu) scripts/pc_transcripts.py से लाएगा
 - [x] Forward Guidance + Rayner id ठीक (22 Nov). Rayner/Northman feed YouTube side खाली — robot पर कुछ नहीं हो सकता
-- [ ] Reddit (403) और Korea JoongAng (redirect) feeds — दूसरा रास्ता
+- [x] Reddit + Korea JoongAng बंद (type off). Korea के लिए नया feed ढूँढना (Yonhap/Herald RSS 0 items)
+- [ ] FII/DII रोज़ाना इतिहास (NW-01 के लिए) — robot script: NSE/NSDL archive से data/fii_dii.csv भरना
 
 ## Claude — हल्का (अभी/अगला run)
-- [ ] queue.csv के बाकी 195 'new' items पढ़ना (ज़्यादातर CNBC-TV18 news; score कम)
-- [ ] WCS 12 पूरा पढ़ा नहीं — sector/theme हिस्से (lines 400-750) बाकी
+- [x] queue के 282 new पढ़े; WCS 12 पूरा पढ़ा (22 Nov 18:11)
+- [ ] WCS 13-29 पढ़ना (हर run 3-4 studies: सिर्फ़ Key Finding/valuation tables; MO-11 bucket tables तुलना) — WCS 30 का theme हिस्सा (lines 120-2800) भी
 
 - [ ] Blog pages (allocatesmartly, alphaarchitect) web-fetch permission timeout — अगली बार दोबारा कोशिश (AS-03 नियम पढ़ना)
 
 ## Claude — भारी (हिस्सों में)
+- [ ] DHAN-15 RSI divergence 2-min scalping — intraday_hist (Nifty/Sensex 1-min) पर divergence detector + test
+- [ ] MC-01 forward: VIX≥20 के बाद ≥10% 1-दिन गिरावट आए तो 5/20 दिन देखना
+- [ ] MO-10 forward: large vs mid/small (1 Dec 2025 से) हर महीने
 - [ ] DHAN-10 BankNifty 1-min 200EMA pullback — intraday_hist पर test
 - [ ] AS-03 equity-curve on/off filter — हमारे paper/backtest equity पर test
 - [ ] BF-01 आगे: 'ATH से X% नीचे' buckets

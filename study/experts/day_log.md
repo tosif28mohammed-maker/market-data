@@ -22,3 +22,13 @@
 - Test ET-02 rupee मज़बूत → IT पीछे: उसी महीने हाँ (-2.6%), अगले महीने नहीं (+0.5%) → बेकार (r047)
 - Sources ratings: Real Vision/Compound/Forward Guidance/Elearnmarkets = 1 (राय, नियम नहीं)
 - PC transcripts 2026-11-22 11:40 Kuwait: PC मिला पर yt_transcripts फ़ोल्डर इस run से जुड़ा नहीं था (connectedFolders खाली) और device_bash tool उपलब्ध नहीं — script नहीं चली; ok 0, fail 0. Tosif: scheduled task की settings में फ़ोल्डर दोबारा जोड़ें / desktop app अपडेट करें।
+
+## 2026-11-22 18:11 (silent run)
+- Robot: Motilal के 18 नए Wealth Creation Studies (WCS 13-30, 2003-08 से 2020-25) सही link (content/dam/.../wcNN.pdf) से मिल गए → books/ में text (पुराने 7 टूटे links हटाए). Reddit 2 + Korea JoongAng feeds बंद (type off; बार-बार 403/404/429). Transcripts अब भी 0 (RequestBlocked 13) — PC चाहिए.
+- पढ़ा (Claude): queue के बाकी 282 items (titles/descriptions; ज़्यादातर news/राय), WCS 12 का बचा हिस्सा (sector/PSU/age/size; Theme 2008 macro — testable नहीं), WCS 30 (2020-25) highlights + valuation tables.
+- नए claims: DHAN-14, DHAN-15, LM-01, MC-01, NW-01, MO-04..MO-11
+- Test DHAN-14 EMA25/55 cross + RSI≥40 swing: FAIL (target 31.6%, पिछले 2 साल 24.5% और -0.66%/trade, random दिन जितना) → बेकार (r048)
+- Test LM-01 लगातार 4+ हरे हफ़्ते: आगे आम से कम (+0.34 vs +0.79% 4 हफ़्ते) → बेकार (r048)
+- Test MC-01 VIX एक दिन ≥10% गिरे: Nifty 5d +1.25% vs +0.22%; crisis हटाकर छोटा (+0.56 vs +0.25); VIX पहले ≥20 हो तो 20d +2.61% (69% ऊपर) → अभी analysis में (r048)
+- MO-10 (Motilal Dec 2025: large caps आगे रहेंगे): अब तक फ़र्क नहीं (सब groups median ~-9%) → forward
+- Source ratings: Dhan = 3 पर 4 टेस्ट fail; Motilal WCS = 4

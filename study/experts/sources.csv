@@ -1,5 +1,5 @@
 source,type,url_or_feed,country,language,what_it_offers,quality_rating,items_seen,useful_items,last_checked
-Dhan (YouTube),youtube_channel,UCEzHCpvFWoF85UabbzKTkOQ,India,hi,broker education: swing/intraday setups with delivery filters,2-tested often FAIL; gives clear rules,16,0,2026-11-22
+Dhan (YouTube),youtube_channel,UCEzHCpvFWoF85UabbzKTkOQ,India,hi,broker education: swing/intraday setups with delivery filters,"3-setups हैं, पर अब तक 4 टेस्ट fail (DHAN-05,09,14)",16,0,2026-11-22
 Zerodha (YouTube),youtube_channel,UC59YUBhNLMkS2Q8NBWBGHAA,India,hi/en,broker education + market structure explainers,new,15,0,2026-11-21
 CA Rachana Ranade,youtube_channel,UCe3qdG0A_gr-sEdat5y2twQ,India,hi/en,fundamentals/results explainers,new,15,0,2026-11-21
 Pranjal Kamra,youtube_channel,UCwAdQUuPT6laN-AQR17fe1g,India,hi,investing/stock selection,new,15,0,2026-11-21
@@ -26,27 +26,38 @@ NSE circulars,govt,https://nsearchives.nseindia.com/content/RSS/Circulars.xml,In
 US Federal Reserve,govt,https://www.federalreserve.gov/feeds/press_all.xml,USA,en,rates/policy,new,20,0,2026-11-21
 ECB press,govt,https://www.ecb.europa.eu/rss/press.html,Europe,en,rates/policy,new,15,0,2026-11-21
 ET Markets,news_rss,https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms,India,en,market news,2-news; weekly gainer lists tested = no edge after costs,50,0,2026-11-22
-Moneycontrol market reports,news_rss,https://www.moneycontrol.com/rss/marketreports.xml,India,en,market news,new,4,0,2026-11-21
-LiveMint markets,news_rss,https://www.livemint.com/rss/markets,India,en,market news,new,35,0,2026-11-21
+Moneycontrol market reports,news_rss,https://www.moneycontrol.com/rss/marketreports.xml,India,en,market news,new,4,0,2026-11-22
+LiveMint markets,news_rss,https://www.livemint.com/rss/markets,India,en,market news,new,35,0,2026-11-22
 Business Standard markets,news_rss,https://www.business-standard.com/rss/markets-106.rss,India,en,market news,2-news; gave BS-01 mild edge,35,0,2026-11-22
 CNBC-TV18 market,news_rss,https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml,India,en,market news,new,200,0,2026-11-21
 BusinessLine markets,news_rss,https://www.thehindubusinessline.com/markets/feeder/default.rss,India,en,market news,new,60,0,2026-11-21
 NDTV Profit,news_rss,https://feeds.feedburner.com/ndtvprofit-latest,India,en,market news,new,20,0,2026-11-21
 Nikkei Asia,news_rss,https://asia.nikkei.com/rss/feed/nar,Japan,en,Asia markets/policy,new,0,0,2026-11-21
-Korea JoongAng Daily,news_rss,https://koreajoongangdaily.joins.com/xmls/joins_news_list.xml,Korea,en,Korea economy/chips/flows,feed error: HTTPError: HTTP Error 404: Not Found,0,0,2026-11-21
+Korea JoongAng Daily,off,https://koreajoongangdaily.joins.com/xmls/joins_news_list.xml,Korea,en,Korea economy/chips/flows,off 22 Nov: feed 404/403/429 बार-बार; बाद में दूसरा रास्ता,0,0,2026-11-21
 SCMP business,news_rss,https://www.scmp.com/rss/92/feed,China,en,China economy/markets,new,50,0,2026-11-21
 Zerodha Z-Connect,blog,https://zerodha.com/z-connect/feed,India,en,market structure/rule changes,new,50,0,2026-11-21
 Capitalmind,blog,https://www.capitalmind.in/feed/,India,en,data-driven India market notes,new,10,0,2026-11-21
 Alpha Architect,blog,https://alphaarchitect.com/feed/,USA,en,factor research summaries,new,5,0,2026-11-21
 Quantpedia,blog,https://quantpedia.com/feed/,Europe,en,quant strategy research,new,10,0,2026-11-21
 Allocate Smartly,blog,https://allocatesmartly.com/feed/,USA,en,tested tactical allocation rules,3-tested research; 2 ideas,10,1,2026-11-21
-Reddit IndianStreetBets,social,https://www.reddit.com/r/IndianStreetBets/top/.rss?t=day,India,en,retail sentiment (i22),feed error: HTTPError: HTTP Error 404: Not Found,0,0,2026-11-21
-Reddit IndiaInvestments,social,https://www.reddit.com/r/IndiaInvestments/top/.rss?t=day,India,en,retail investor discussion,feed error: HTTPError: HTTP Error 429: Too Many Requ,0,0,2026-11-21
-Motilal WCS 2019,book,https://www.motilaloswalmf.com/emailers/2020/wcs/june/WealthCreationStudy2019.pdf,India,en,annual wealth creation study (multibagger traits),new,0,0,
-Motilal WCS 2018,book,https://www.motilaloswalmf.com/emailers/2020/wcs/june/WealthCreationStudy2018.pdf,India,en,annual wealth creation study,new,0,0,
-Motilal WCS 2026,book,https://www.motilaloswal.com/campaign/wcs/26wcs.pdf,India,en,annual wealth creation study (latest),new,0,0,
-Motilal WCS 2023,book,https://www.motilaloswal.com/site/rreports/638386053948166886.pdf,India,en,annual wealth creation study,new,0,0,
-Motilal WCS 2020,book,https://www.motilaloswal.com/site/rreports/637443115602580742.pdf,India,en,annual wealth creation study,new,0,0,
-Motilal WCS 2009-14,book,https://www.motilaloswal.com/site/rreports/635542588369519988.pdf,India,en,annual wealth creation study,new,0,0,
-Motilal WCS 2017,book,https://www.motilaloswal.com/site/rreports/636483549560358492.pdf,India,en,annual wealth creation study,new,0,0,
-Motilal WCS 12 (2002-07),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc12.pdf,India,en,annual wealth creation study,3-read 21 Nov; 3 claims,1,0,2026-11-21
+Reddit IndianStreetBets,off,https://www.reddit.com/r/IndianStreetBets/top/.rss?t=day,India,en,retail sentiment (i22),off 22 Nov: feed 404/403/429 बार-बार; बाद में दूसरा रास्ता,0,0,2026-11-21
+Reddit IndiaInvestments,off,https://www.reddit.com/r/IndiaInvestments/top/.rss?t=day,India,en,retail investor discussion,off 22 Nov: feed 404/403/429 बार-बार; बाद में दूसरा रास्ता,0,0,2026-11-21
+Motilal WCS 12 (2002-07),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc12.pdf,India,en,annual wealth creation study,4-read; claims MO-04..11,1,0,2026-11-22
+Motilal WCS 13 (2003-08),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc13.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 14 (2004-09),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc14.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 15 (2005-10),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc15.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 16 (2006-11),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc16.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 17 (2007-12),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc17.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 18 (2008-13),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc18.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 19 (2009-14),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc19.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 20 (2010-15),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc20.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 21 (2011-16),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc21.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 22 (2012-17),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc22.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 23 (2013-18),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc23.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 24 (2014-19),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc24.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 25 (2015-20),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc25.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 26 (2016-21),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc26.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 27 (2017-22),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc27.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 28 (2018-23),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc28.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 29 (2019-24),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc29.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",downloaded 22 Nov (books/); unread,0,0,
+Motilal WCS 30 (2020-25),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc30.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",4-read; claims MO-04..11,0,0,2026-11-22

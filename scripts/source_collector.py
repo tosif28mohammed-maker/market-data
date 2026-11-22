@@ -92,7 +92,7 @@ def main():
     rows, stats, tr_done, tr_err = [], [], 0, {}
     books = fetch_books(srcs)
     for s in srcs:
-        if s['type'] == 'book': continue
+        if s['type'] in ('book', 'off'): continue
         u = s['url_or_feed'].strip()
         url = f'https://www.youtube.com/feeds/videos.xml?channel_id={u}' if s['type'] == 'youtube_channel' and not u.startswith('http') else u
         try: items = parse_feed(get(url)); err = ''
