@@ -1,0 +1,20 @@
+{
+ "run_utc": "2026-11-22 20:04",
+ "gutenberg_new": [],
+ "arxiv_new": [
+  "A Study on the Efficiency of the Indian Stock Market",
+  "Is the Indian Stock Market efficient - A comprehensive study of Bombay Stock Exc",
+  "Effect of Demonetisation of on Indian High Denomination Currencies on Indian Sto",
+  "Polyspectral Mean based Time Series Clustering of Indian Stock Market",
+  "A Comparative Analysis of Portfolio Optimization Using Mean-Variance, Hierarchic",
+  "NIFTy 3 - Numerical Information Field Theory - A Python framework for multicompo",
+  "The NIFTY way of Bayesian signal inference",
+  "nifty-ls: Fast and Accurate Lomb-Scargle Periodograms Using a Non-Uniform FFT"
+ ],
+ "wishlist_new": [],
+ "fails": [
+  "gutenberg catalog: HTTP Error 503: Service Unavailable",
+  "arxiv pdf 0308013v1: HTTP Error 404: Not Found"
+ ],
+ "books_total": 27
+}

@@ -1,0 +1,1696 @@
+Polyspectral Mean based Time Series Clustering of Indian Stock Market (arXiv 2504.07021v1, open access paper)
+
+                                           Polyspectral Mean based Time Series Clustering
+
+                                                                of Indian Stock Market
+
+                                                                        Dhrubajyoti Ghosh
+                                           Department of Biostatistics and Bioinformatics, Duke University, 242
+
+
+
+
+arXiv:2504.07021v1 [q-fin.ST] 9 Apr 2025
+                                                        Erwin Road, Durham, 27705, NC, USA.
+
+
+                                                            Contributing authors: dg302@duke.edu;
+
+
+                                                                               Abstract
+                                           In this study, we employ k-means clustering algorithm of polyspectral means to
+                                           analyze 49 stocks in the Indian stock market. We have used spectral and bispectral
+                                           information obtained from the data, by using spectral and bispectral means with
+                                           different weight functions that will give us varying insights into the temporal pat-
+                                           terns of the stocks. In particular, the higher order polyspectral means can provide
+                                           significantly more information than what we can gather from power spectra, and
+                                           can also unveil nonlinear trends in a time series. Through rigorous analysis, we
+                                           identify five distinctive clusters, uncovering nuanced market structures. Notably,
+                                           one cluster emerges as that of a conglomerate powerhouse, featuring ADANI,
+                                           BIRLA, TATA, and unexpectedly, government-owned bank SBI. Another cluster
+                                           spotlights the IT sector with WIPRO and TCS, while a third combines private
+                                           banks, government entities, and RELIANCE. The final cluster comprises pub-
+                                           licly traded companies with dispersed ownership. Such clustering of stocks sheds
+                                           light on intricate financial relationships within the stock market, providing valu-
+                                           able insights for investors and analysts navigating the dynamic landscape of the
+                                           Indian stock market.
+
+                                           Keywords: Polyspectra; Bispectra; Clustering; Gap Statistic
+
+
+
+
+                                                                                    1
+1 Introduction
+
+The Indian stock market, a crucial component of the nation’s financial landscape, has
+
+been a subject of great intrigue and scholarly exploration for decades. With its rich
+
+history dating back to the early 19th century, the Indian stock market has evolved into
+
+a complex and dynamic ecosystem that plays a pivotal role in the country’s economic
+
+growth and development (Yadav, 2017; Bala, 2013). The importance of understanding
+
+the Indian stock market cannot be overstated. It serves as a barometer of economic
+
+health, reflecting the sentiments and expectations of investors, both domestic and
+
+international, while also serving as a source of capital for businesses to fuel growth and
+
+innovation. India’s journey from a nascent market to one of the world’s most dynamic
+
+and promising investment destinations is a testament to its resilience and adaptability
+
+in the face of global economic changes.
+
+   The clustering of stocks (Fama and French, 1992; Nanda et al, 2010) is a notable
+
+phenomenon in financial markets where stocks with similar characteristics or behav-
+
+iors tend to group together, often exhibiting co-movements in their prices. This
+
+phenomenon has been extensively studied and observed in various stock markets
+
+worldwide. One of the most prominent forms of clustering in stock markets is sec-
+
+toral clustering. Stocks within the same sector or industry often exhibit a tendency to
+
+move in concert due to shared economic drivers and market influences. For example,
+
+during economic downturns, stocks in cyclical sectors such as automotive or con-
+
+struction may experience simultaneous declines, while those in defensive sectors like
+
+healthcare or utilities may demonstrate relative stability. This sectoral clustering effect
+
+has been documented in studies across various stock markets (Sharma et al, 2017).
+
+Another dimension of clustering is size-based clustering, where stocks are grouped
+
+based on market capitalization. Large-cap, mid-cap, and small-cap stocks tend to
+
+exhibit distinct characteristics and performance patterns. Research has shown that
+
+
+
+
+                                            2
+investors often create portfolios that cluster within these market capitalization cate-
+
+gories, with each category attracting investors with different risk-return preferences
+
+(Chen, 1991). Risk is a critical factor in stock market clustering. Stocks with similar
+
+risk profiles, whether related to business risk, financial leverage, or market sensitivity,
+
+tend to cluster together. During periods of market turbulence or economic uncertainty,
+
+stocks perceived as riskier may exhibit stronger correlations in their price movements,
+
+reflecting investors’ flight to safety. Geographical factors also play a role in cluster-
+
+ing, especially in international stock markets. Stocks of companies based in the same
+
+region or country may share common exposure to local economic conditions, regulatory
+
+changes, or geopolitical events, leading to clustering based on geographical proximity
+
+(Bhutto et al, 2020). Understanding these clusters of stocks is essential for investors
+
+and portfolio managers as it influences diversification strategies, risk management,
+
+and investment decision-making. By recognizing and analyzing the various dimensions
+
+of clustering, market participants can build more robust portfolios and navigate the
+
+complexities of financial markets more effectively.
+
+   The Indian stock market, characterized by its diversity in terms of sectors, indus-
+
+tries, and market capitalization, presents a fascinating landscape for studying the
+
+clustering of stocks. Sectoral co-movements in Indian stock market has been studied
+
+by Sharma et al (2017). Another dimension of clustering in the Indian stock market
+
+is market capitalization-based clustering. Stocks are commonly classified into large-
+
+cap, mid-cap, and small-cap categories based on their market capitalization. Large-cap
+
+stocks are considered less risky and more stable, attracting risk-averse investors,
+
+while mid-cap and small-cap stocks often entice risk-tolerant investors seeking higher
+
+returns. This leads to clusters of stocks within each market capitalization category
+
+(Singh et al, 2021).
+
+
+
+
+                                            3
+   The clustering technique mentioned beforehand primarily utilized features that
+
+capture first order features of time series. However when the time series is nonlin-
+
+ear, there is a plethora of information that is missed in the first order features like
+
+features obtained from spectral density or ARMA fit. Nonlinearity in stock market
+
+has long been a topic of research. Hartman and Hlinka (2018) explored nonlinearity
+
+in stock networks, while Reboredo et al (2012) discusses nonlinearity in forecasting
+
+returns. Nonlinearity in stock forecasting has also been analyzed in Indian stock mar-
+
+ket by Siddiqui and Abdullah (2015). However, exploring the nonlinearity in time
+
+series clustering has been sparse. In order to do a nonlinear clustering, we need to
+
+consider features obtained from higher order polyspectra (Ghosh et al, 2024), which
+
+provided information on higher order interactions which are non-zero in a nonlinear
+
+time series. In this paper, we have extracted features from bispectra to provide a time
+
+series clustering of Indian Stock markets.
+
+   Another way of clustering the stocks are based on time series clustering. Time
+
+series-based clustering of stocks is a powerful analytical approach that leverages histor-
+
+ical price and trading volume data to identify patterns, relationships, and similarities
+
+among stocks over time. This methodology has gained significant attention in the field
+
+of finance and investment due to its potential to uncover valuable insights for investors,
+
+portfolio managers, and financial analysts. Time series-based clustering involves the
+
+use of statistical and machine learning techniques to analyze the historical price and
+
+volume data of stocks. The process typically involves extracting features from the time
+
+series and devise some machine learning techniques for clustering the time series. This
+
+temporal clustering of stocks can be used for portfolio construction (investors can
+
+build diversified portfolio by selecting stocks from different clusters (Ren et al, 2017)),
+
+risk assessment (stocks within the same cluster may exhibit comparable volatility pat-
+
+terns), Sector Rotation Strategies, behavioral analysis and many others. Bollen et al
+
+(2011) utilized time series clustering to identify investor sentiment patterns in the U.S.
+
+
+
+                                             4
+stock market, revealing how sentiment-driven clusters of stocks can provide insights
+
+into market sentiment dynamics.
+
+   In this paper, we will propose a clustering approach based on spectral and bispec-
+
+tral means, using the higher order spectral features from a time series. The spectra of a
+
+time series are given by a Fourier transform of the autocumulants of a time series and
+
+carry significant information that might not be possible to obtain from the frequency-
+
+domain information. However, the spectra or the power series lacks information if the
+
+time series is non-linear or non-Gaussian, in which case we need to study higher-order
+
+autocumulants, which contain information that might be missing in power spectra
+
+for nonlinear time series. In-depth analysis of nonlinear time series using higher order
+
+cumulants have been done in McElroy et al (2023). The Fourier transform of higher-
+
+order autocumulants is known as Polyspectra (Brillinger, 2011), and a statistic that
+
+can be obtained using a polyspectra is the polyspectral mean, which is a weighted
+
+average of a polyspectra. The asymptotic distribution and properties of polyspectral
+
+mean are explored in Ghosh et al (2024). Suppose the second order autocumulant is
+
+given by γ(h1 , h2 ) = E{Xt Xt+h1 Xt+h2 } (Second and third order autocumulants are
+
+same as second and third order moments, the two being different for order higher than
+
+3). Then the bispectra is given by:
+
+
+                                          X
+                      f2 (λ1 , λ2 ) =                γ(h1 , h2 )e−ιλ1 h1 −ιλ2 h2
+                                        h1 ,h2 ∈Zk
+
+
+
+The bispectral mean with weight function g is then given by:
+
+                                  Z
+                     Mg (f2 ) =               g(λ1 , λ2 )f2 (λ1 , λ2 )dλ1 dλ2
+                                   [−π,π]2
+
+
+
+   In a parallel vein, the exploration of polyspectral means offers a promising avenue
+
+for gaining nuanced insights into the temporal characteristics of time series data within
+
+
+
+                                                     5
+the spectral domain. To the best of the author’s knowledge, the utilization of polyspec-
+
+tral means within the context of time series clustering remains largely uncharted
+
+territory, marking a significant departure from existing approaches. This study pio-
+
+neers the application of spectral and bispectral means in the clustering of time series
+
+data, unveiling a novel dimension in the analysis of temporal patterns and spectral
+
+features.
+
+
+2 Data and Methods
+
+The data consists of the stock values of 49 stocks collected from the NIFTY 50 stock
+
+market data. The dataset is collected from Kaggle, where we have the price history
+
+and trading volumes of the fifty stocks in the index NIFTY 50 from NSE (National
+
+Stock Exchange) India. The data spans from 1st January, 2000 to 30th April, 2021.
+
+We have considered the last 1000 days of the data for our clustering analysis, and we
+
+have used VWAP (Value-Weighted Average Price) for every stock.
+
+   The dataset used in this study includes 49 out of 50 stocks from the NIFTY 50
+
+index. The excluded stock is Bharti Infratel Limited, which underwent a significant
+
+structural transition following its merger with Indus Towers in 2020 (Group, 2020).
+
+As a result of this merger, Bharti Infratel ceased to exist as an independent publicly
+
+traded entity, leading to disruptions in its historical stock data availability. Due to this
+
+transition, the stock data for Bharti Infratel was unavailable in the dataset we used
+
+. Since our clustering methodology relies on continuous time series data, we opted
+
+to exclude this stock to maintain data integrity. The exclusion of a single stock does
+
+not materially affect the clustering results, as the remaining 49 stocks still provide a
+
+comprehensive representation of the NIFTY 50 market structure. In this study, we
+
+used a 1,000-day window as it strikes a balance between capturing long-term market
+
+structure while avoiding excessive short-term noise. This window length was chosen
+
+based on prior research in financial time series (Bustos and Pomares-Quimbaya, 2020;
+
+
+
+                                             6
+Onnela et al, 2003; Cao et al, 2012), because sufficiently long horizons are required to
+
+extract stable spectral and bispectral features. Given that bispectral analysis inher-
+
+ently captures higher-order dependencies over time, we expect the clustering results
+
+to be relatively robust to moderate variations in the time window. While we did not
+
+explicitly test multiple window lengths (e.g., 500 or 1,500 days), this can be explored
+
+in future work to further validate the stability of the clustering structure.
+
+   We have only considered the Value-Weighted Average Price (VWAP) of every
+
+stock. VWAP is a key metric in the world of stock trading and finance. It represents
+
+the average price at which a particular stock has been traded throughout the trading
+
+day, weighted by the trading volume at each price level. VWAP is a critical indica-
+
+tor for both traders and institutional investors, helping them assess the efficiency of
+
+their trades and make informed decisions. By taking into account not only the stock
+
+price but also the trading volume, VWAP provides a more comprehensive picture of
+
+market trends and helps in identifying whether a particular trade was executed at a
+
+price favorable to the trader. VWAP is widely used in algorithmic trading, and it can
+
+also be used to assess the performance of portfolio managers. It is a valuable tool for
+
+optimizing trade execution and is instrumental in achieving best execution goals, par-
+
+ticularly in the context of large and block orders (Almgren et al, 2005). Additionally,
+
+VWAP can be applied to various timeframes, allowing traders to analyze short-term
+
+or intraday price trends as well as longer-term trends. By utilizing VWAP, market
+
+participants can better understand market dynamics and improve their trading strate-
+
+gies. Table 1 presents the descriptive statistics of VWAP-scaled values for selected
+
+stocks, capturing key time series characteristics. The Mean Return indicates the aver-
+
+age daily return, while Volatility quantifies price fluctuations, reflecting market risk.
+
+ACF Lag-1 measures short-term dependencies in stock prices, with higher values sug-
+
+gesting stronger autocorrelation. The Hurst Exponent helps identify whether a stock
+
+follows a trend (H > 0.5) or reverts to the mean (H < 0.5). Trend Strength represents
+
+
+
+                                           7
+Table 1 Descriptive statistics of VWAP-scaled values for selected stocks. The table presents key time series
+characteristics, including Mean Return (average daily return), Volatility (measure of price fluctuations), ACF
+Lag-1 (first-order autocorrelation capturing short-term dependencies), Hurst Exponent (indicating whether the
+stock follows a trend or mean reversion), Trend Strength (quantifying the dominance of long-term trends), and
+Seasonal Strength (measuring periodic patterns in stock price behavior).
+
+ Symbol              Mean Return     Volatility       ACF Lag-1    Hurst Exp   Trend Strength   Seasonal Strength
+ ADANIPORTS            0.004642      0.093273           0.124029    0.598035      0.913619          0.036247
+ ASIANPAINT            0.003511      0.057868           0.083748    0.548264      0.969008          0.032016
+ AXISBANK              0.001868      0.100149           0.150187    0.558980      0.981341          0.124283
+ BAJAJ-AUTO            0.003011      0.129142           0.138089    0.566517      0.946395          0.150627
+ BAJAJFINSV            0.003942      0.079524           0.216241    0.555013      0.961209          0.075671
+ BAJFINANCE            0.003661      0.062111           0.198115    0.556876      0.973424          0.060793
+ BHARTIARTL           0.002371       0.097661           0.145204    0.528287      0.978193          0.078211
+ BPCL                 -0.003228      0.124760           0.066672    0.512610      0.930451          0.040754
+ BRITANNIA             0.000074      0.101590           0.013219    0.548101      0.990516          0.084137
+ CIPLA                 0.002977      0.084454           0.138248    0.568832      0.954282          0.040107
+ COALINDIA            -0.002468      0.055536           0.181408    0.511234      0.986940          0.011804
+ DRREDDY               0.002618      0.055181           0.200312    0.554359      0.979530          0.015755
+ EICHERMOT            -0.002500      0.076460           0.051470    0.478784      0.979651          0.020487
+ GAIL                 -0.001877      0.054953           0.095367    0.530930      0.994930          0.017959
+ GRASIM               0.001390       0.080409           0.109832    0.595154      0.975668          0.015299
+ HCLTECH               0.000505      0.125211           0.027570    0.520015      0.980965          0.082445
+ HDFC                  0.003343      0.114447           0.156713    0.515941      0.956297          0.126470
+ HDFCBANK             -0.000063      0.092427          -0.003916    0.542906      0.993651          0.043029
+ HEROMOTOCO           -0.000756      0.086942           0.160101    0.559905      0.994243          0.071202
+ HINDALCO              0.003946      0.098586           0.107669    0.606707      0.936286          0.065586
+ HINDUNILVR            0.003691      0.065341           0.050518    0.486033      0.966399          0.013248
+ ICICIBANK            0.003394       0.084423           0.142444    0.537070      0.963242          0.139354
+ INDUSINDBK           -0.001097      0.057780           0.233733    0.584093      0.997403          0.016650
+ INFY                  0.001894      0.116513           0.020362    0.536065      0.970688          0.070211
+ IOC                  -0.002817      0.061849           0.082809    0.504120      0.979694          0.016987
+ ITC                  -0.001817      0.085460           0.149496    0.539463      0.987578          0.026277
+ JSWSTEEL              0.006827      0.077552           0.181959    0.629366      0.862295          0.033625
+ KOTAKBANK             0.003188      0.082927           0.133725    0.503933      0.971351          0.050764
+ LT                   -0.001541      0.124670           0.083395    0.514035      0.961843          0.119631
+ M&M                  -0.001713      0.097023           0.009862    0.520331      0.981141          0.058622
+ MARUTI                0.000282      0.099988           0.191167    0.577821      0.981835          0.097992
+ NESTLEIND             0.002655      0.047111           0.084125    0.483298      0.986941          0.007416
+ NTPC                 -0.001879      0.063117           0.091878    0.525328      0.992689          0.007106
+ ONGC                 -0.001840      0.065145           0.114130    0.542353      0.992449          0.020283
+ POWERGRID             0.001089      0.174913           0.026076    0.500386      0.947137          0.041866
+ RELIANCE              0.001560      0.089587           0.093266    0.529852      0.984141          0.055302
+ SBIN                  0.001232      0.114421           0.212111    0.547330      0.971035          0.175840
+ SHREECEM              0.003180      0.101310           0.153658    0.539488      0.949325          0.036920
+ SUNPHARMA            -0.000206      0.126199           0.153464    0.514365      0.938217          0.033023
+ TATAMOTORS           -0.001306      0.048977           0.217036    0.582499      0.988146          0.018457
+ TATASTEEL             0.004158      0.079340           0.180684    0.619734      0.941291          0.074131
+ TCS                   0.001697      0.149814           0.027821    0.521904      0.955090          0.067265
+ TECHM                 0.003397      0.071523           0.091635    0.548200      0.971540          0.057563
+ TITAN                 0.003774      0.068988           0.149385    0.534951      0.963365          0.037525
+ ULTRACEMCO            0.003413      0.101803           0.134471    0.563086      0.944772          0.038998
+ UPL                  -0.000915      0.096146           0.088367    0.557878      0.989352          0.040765
+ VEDL                  0.000289      0.060452           0.129568    0.605508      0.999733          0.019261
+ WIPRO                 0.000103      0.137691           0.091157    0.524457      0.903840          0.092629
+ ZEEL                 -0.001116      0.038295          -0.000850    0.530639      0.995849          0.011984
+
+
+
+                                                  8
+the dominance of long-term trends, and Seasonal Strength quantifies the presence of
+
+periodic patterns in stock price movements. These metrics provide insights into stock
+
+behavior, essential for clustering and further market analysis.
+
+   We will utilize various information extracted from the time series. We will use spec-
+
+tral clustering techniques, where we will compute the spectral means and bispectral
+
+means for different weight functions, and use K-means clustering in order to provide
+
+an unsupervised clustering of the stocks. The spectral and bispectral means are com-
+
+puted according to the formula given in (1), where the frequencies λ̃ are the Fourier
+                        PT
+frequencies, and d(λ) = t=1 Xt e−ιλt is the Discrete Fourier Transform of the time
+
+series, and Φ(λ) is an indicator function that is 1 iff the sum of no subset of λ is divis-
+
+ible by 2π, i.e. Φ(λ) is one if and only if for all subset λi1 , . . . , λim of λ (1 ≤ m ≤ k),
+Pm
+   j=1 λij ̸≡ 0 (mod 2π).
+
+
+
+
+                                  X                
+           \
+           M               k −k
+             g (fk ) ≡ (2π) T            fˆk (λ̃)g λ̃ Φ(λ̃)
+                                   λ̃
+                                        X                      
+                    = (2π)k T −k−1       d λ˜1 · · · d λ˜k d −[λ̃] g λ̃ Φ(λ̃),            (1)
+                                         λ̃
+
+
+
+   For example, when k = 1, we are computing spectral mean, and for k = 2. we
+
+are computing bispectral means. For this paper, we have only considered spectral and
+
+bispectral means, but higher order spectral means might also be used. The functions
+
+considered for the analysis are given in Figure 1.
+
+   In this study, we employed a combination of spectral and bispectral weighting func-
+
+tions to enhance the stability and interpretability of our feature extraction process.
+
+For spectral estimation, we used indicator-based segmentation and a triangular win-
+
+dow function to isolate different frequency bands while reducing spectral leakage. For
+
+bispectral estimation, we incorporated a circular indicator function to emphasize low-
+
+frequency interactions, a radial function to capture frequency magnitude relationships,
+
+
+                                                 9
+Fig. 1 Weight functions taken for the spectral and bispectral means
+
+
+and cosine-based functions to model nonlinear phase interactions. . These weighting
+
+functions were selected to ensure that key higher-order interactions in the stock price
+
+series were preserved, minimizing distortion in the estimated polyspectral features.
+
+While alternative weighting schemes (e.g., Hanning or Gaussian windows) exist, our
+
+methodology primarily captures nonlinear dependencies, which are relatively stable
+
+across different choices of weighting functions. Future work could explore adaptive
+
+weighting strategies to further optimize feature extraction for time series clustering.
+
+   We will consider the four spectral means, and four bispectral means (using the
+
+aforementioned weight functions) of the differenced time series. The differencing is
+
+done to gain stationarity since the theoretical asymptotic distribution of polyspectral
+
+means as derived in Ghosh (2022) uses stationary time series. Additionally, we will
+
+also use some features like the period of the time series, Mean of the difference time
+
+series, Maximum of the difference time series, and the difference between the end and
+
+start of the difference time series. The obtained features are then used for unsupervised
+
+clustering using k-means algorithm.
+
+   To determine whether seasonality significantly affects stock clustering, we analyzed
+
+the autocorrelation function (ACF) plots of individual stock price series after differenc-
+
+ing. Figure 2 shows the ACF plots for two representative stocks, ADANIPORTS and
+
+ASIANPAINTS. If strong seasonality were present, we would expect periodic spikes
+
+
+                                               10
+Fig. 2 ACF Plot for two stocks – ADANIPORTS and ASIANPAINT.
+
+
+at fixed intervals (e.g., every 5, 22, or 252 lags corresponding to weekly, monthly,
+
+or yearly cycles in trading data). However, as seen in the plots, there are no consis-
+
+tent peaks at regular intervals, suggesting that strong seasonal effects are not present
+
+in these stocks. Since our clustering methodology relies on bispectral analysis, which
+
+inherently captures periodic structures and nonlinear dependencies, explicit seasonal
+
+adjustments were not necessary.
+
+   Financial time series inherently contain market noise due to short-term fluctua-
+
+tions, high-frequency trading, and microstructure effects Cont (2001). While explicit
+
+noise filtering techniques, such as wavelet denoising or moving averages, were not
+
+applied, bispectral analysis inherently mitigates random noise by capturing higher-
+
+order dependencies rather than first-order fluctuations Nikias and Petropulu (1993).
+
+To ensure that noise does not disproportionately influence clustering results, we used
+
+differencing to remove short-term trends and computed bispectral features over suffi-
+
+ciently long time windows (1,000 days), which naturally smooths out high-frequency
+
+fluctuations. Prior research has shown that bispectral estimates are robust to white
+
+noise components, as pure noise does not exhibit meaningful phase relationships in
+
+
+
+                                          11
+the bispectrum Hinich (1982). Thus, while market noise is present in the dataset, its
+
+impact on clustering is minimal due to the properties of bispectral estimation and our
+
+preprocessing approach.
+
+
+3 Simulation
+
+Simulation studies of three set-ups are conducted to verify the validity of our method.
+
+We have generated time series using various procedures, and have applied k-means
+
+algorithm on the selected features.
+
+
+3.1 Simulation I (Binary-Class Stationary)
+                                                                                        (1)         (2)
+The first simulation study has two groups of time series Yt                                   and Yt      with lengths m
+
+and n respectively.
+
+
+              (1)         (1)                                        (2)        (2)
+          Yt        = Xt        + ϵt , t = 1, . . . , T = 100, Yt          = Xt       + ϵt , t = 1, . . . , T = 100      (2)
+
+
+                    (1)
+     where Xt             is generated from ARMA(2,2) with AR coefficients ϕ = (0.1, 0.5) and
+
+MA coefficients θ = (0.2, 0.8). In other words:
+
+
+        (1)               (1)              (2)        (1)            (1)              (1)        (1)
+     Xt       = 0.1Xt−1 + 0.5Xt−2 + Wt                      − 0.2Wt−1 − 0.8Wt−2 ,              Wt      is white noise.
+
+
+  (2)
+Xt      is generated from GARCH(1,1) with coefficients 0.2 and 0.3. In other words:
+
+
+
+
+                                        (2)            (2)          (2)
+                                      Xt         = σt W t ,    Wt          is white noise.
+                                                        (2)2
+                                         σt = 0.2Xt−1 + 0.3σt−1
+
+
+
+
+                                                               12
+The error terms ϵt are generated from N (0, 1). The classification measures are given
+
+in Table 2, and one instance of the time series are given in Figure 3.
+
+
+
+
+Fig. 3 The left panel provides an instant of the group of 50 time series, and the right panel provided
+the corresponding feature importance.
+
+
+
+
+         Sample Size      Sensitivity   Specificity   F1-Score Balanced Accuracy     AUC
+           (30, 20)         0.827            1           0.79        0.931          0.8846
+            (25,25)         0.883          0.967        0.881        0.923          0.9227
+            (10,40)         0.813          0.975        0.921        0.887          0.9201
+            (5, 45)         0.815            1          0.889         0.9           0.9891
+       Table 2 Classification Accuracy Measures for 50 times series split into two groups of
+       different sizes, each time series of length 100.
+
+
+
+
+3.2 Simulation II (Binary-Class with Different Trend)
+
+For the second simulation study, we will add a temporal trend in addition to the
+
+stationary noise to each of the groups. The error terms are generated from N (0, 1).
+
+• Yt(1) = 10 ×     t 2    (1)
+                     
+                   T   + Xt + ϵt , t = 1, . . . , T = 100
+• Yt(2) = 10 ×     t 2          0.9πt          (2)
+                                       
+                   T   × sin      T         + Xt     + ϵt , t = 1, . . . , T = 100
+
+    In our last set-up, we saw that there is no seemingly distinguishing pattern of the
+
+time series, however, the classification would lie in the spectral domain, which was
+
+correctly captured by our spectral and bispectral means of different weight functions.
+
+In this set-up, the difference between the two groups is more visible, and for this
+
+set-up, we have obtained all accuracy measures to be 1 for different group splits. An
+
+
+                                                     13
+Fig. 4 The left panel provides an instant of the group of 50 time series, and the right panel provided
+the corresponding feature importance.
+
+
+instance of the time series is given in Figure 4 along with a feature importance plot,
+
+which mentions the features most important for the clustering.
+
+
+3.3 Simulation III (3 groups with same or different trends)
+
+In this set-up, we will have time series from 3 classes.
+
+• (n1 = 20): Yt(1) = 5 + Xt(1) + ϵt , t = 1, . . . , T = 100
+                              2
+• (n2 = 15): Yt(2) = 10 × Tt Xt(2) + ϵt , t = 1, . . . , T = 100
+                              2
+• (n3 = 15): Yt(3) = 10 × Tt × sin 0.9πt
+                                                  (3)
+                                           T       Xt + ϵt , t = 1, . . . , T = 100
+
+             (1)        (2)
+    Here Xt        and Xt     are generated using ARMA(2,2) with coefficients same as the
+                               (3)
+earlier simulations and Xt           is generated from GARCH(1,1) with coefficients same as
+
+before. The error terms are generated from N (0, 1).
+
+    The time series plots of the 3 groups are shown in Figure 5. The accuracy measures
+
+are given below:
+
+• Sensitivity for the three classes: (1, 0.87, 0.95)
+
+• Specificity for the three classes: (0.89, 0.87, 0.93)
+
+• F-1 Score for each class: (0.89, 0.90, 0.93)
+
+• Weighted F-1 Score: 0.945
+
+• Average AUC: 0.9541
+
+
+
+
+                                                 14
+Fig. 5 Time Series of 5 groups with different number of time series in each group
+
+
+   Discussion: In the conducted simulation studies, the efficacy of k-means cluster-
+
+ing was evaluated for its capacity to accurately classify time series data under a variety
+
+of conditions. The initial condition maintained homogeneity in mean trends across the
+
+series, with differentiation stemming solely from the inherent stationary distributions.
+
+Specifically, one distribution was modeled after an ARMA(2,2) process, emblematic of
+
+linear systems, while the counterpart was based on a GARCH(1,1) process, indicative
+
+of nonlinear dynamics. The classification accuracy under this condition was notably
+
+proficient, with the majority of classification measures surpassing 80%, with some
+
+measures going as high as 100%. The AUC was computed for different group splits
+
+and all of them came close to 90%. Enhancing the complexity, the second simulation
+
+introduced heterogeneity in mean trends in addition to the distinct stationary dis-
+
+tributions. This scenario yielded a classification accuracy of 100%, underscoring the
+
+k-means algorithm’s sensitivity to divergent trend structures. The complexity was fur-
+
+ther amplified in the final scenario by the introduction of three distinct groups, each
+
+characterized by their own mean trends and stationary distributions. The k-means
+
+clustering method continued to demonstrate high classification accuracy, with rates
+
+nearing 90%. The clustering result is given in Figure 6.
+
+
+
+                                               15
+Fig. 6 Results of k-means clustering of the three groups in Simulation Setting 3
+
+
+   These simulations were executed across 50 individual time series, each series
+
+comprising 100 data points. The findings underscore the robustness of the k-means
+
+clustering technique in discerning and classifying time series data, affirming its
+
+potential utility in statistical applications where underlying distributional and trend
+
+disparities are present.
+
+
+4 Data Analysis
+
+We will now apply our proposed algorithm to our dataset. However, before applying,
+
+we would try to first find out the possibility of presence of clusters in our dataset.
+
+The clustering ability of a dataset is a crucial aspect of data analysis, particularly in
+
+unsupervised machine learning and data mining applications. It pertains to the inher-
+
+ent structure or grouping of data points within the dataset, which can be revealed
+
+through various clustering algorithms. One widely used metric for assessing the clus-
+
+tering tendency of a dataset is the Hopkins index, also known as the Hopkins statistic.
+
+The Hopkins index (Cross and Jain, 1982) quantifies the degree to which a dataset
+
+can be partitioned into meaningful clusters by comparing the spatial distribution of
+
+actual data points to that of randomly generated data points. Specifically, the Hop-
+
+kins index measures the probability that a given data point in the dataset is closer to
+
+
+
+
+                                               16
+another data point, typically one selected at random, than it is to the nearest neigh-
+
+bor in the dataset itself. A low value of the Hopkins index suggests a higher likelihood
+
+of meaningful clusters within the data, indicating that clustering algorithms may be
+
+effectively applied to uncover these patterns. The Hopkins index has gained popular-
+
+ity in the context of cluster analysis due to its simplicity and reliability in determining
+
+the feasibility of clustering operations (Kaufman and Rousseeuw, 2009). The Hopkins
+
+index for our data is 0.7997 with a p-value of < 0.001, which indicates there is high
+
+possibility of clustering the dataset. We can also visualize the clustering tendency in
+
+Figure 7, where we have plotted the dissimilarity matrix of our data (left panel) and
+
+the same for a randomly generated dataset (right panel). Here we can see there is
+
+some clear indication of the presence of patterns within the dataset.
+
+
+
+
+Fig. 7 Dissimilarity matrix of stock market feature matrix (left panel) and a randomly generated
+dataset (right panel)
+
+
+
+   The next step is to identify the correct number of clusters. Determining the opti-
+
+mal number of clusters in unsupervised classification is a critical aspect of ensuring
+
+meaningful and accurate clustering results. Various methods have been proposed in
+
+the literature to address this challenge, each offering unique insights into the structure
+
+of the data. The Elbow Method, introduced by (Ketchen and Shook, 1996), involves
+
+examining the rate of decrease in inertia or within-cluster sum of squares as the number
+
+of clusters increases. Silhouette analysis, as discussed by Rousseeuw (1987), evaluates
+
+the quality of clustering by measuring the separation and cohesion of clusters based
+
+
+                                              17
+Fig. 8 Different Measures of finding optimal number of clusters
+
+
+on individual data point assignments. Gap Statistics, introduced by Tibshirani et al
+
+(2001), compare the performance of the clustering algorithm on the actual data to
+
+its performance on random data, helping identify an optimal cluster count. Other
+
+metrics such as the Davies-Bouldin Index (Davies and Bouldin, 1979) and the Calinski-
+
+Harabasz Index (Caliński and Harabasz, 1974) assess the compactness and variance
+
+ratios of clusters, aiding in the determination of the correct number of clusters. It is
+
+recommended to utilize a combination of these methods, taking into account the spe-
+
+cific characteristics of the dataset and the underlying clustering algorithm, to robustly
+
+identify the most suitable number of clusters for a given unsupervised classification
+
+task.
+
+   Figure 8 provides the several metrics of clustering. As we can see, the elbow method
+
+doesn’t provide any good estimate, and approximate estimate might be considered to
+
+be 3. Silhouette index and the Gap Statistic is also continuously increasing showing
+
+that there is at least two clusters, but not able to find an optimal number of clusters.
+
+Tibshirani suggested in such cases to choose the cluster size k̂ to be the smallest k
+
+such that Gap(k) ≥ Gap(k + 1) − sk+1 . Here 5 seems to be a good number of cluster
+
+based on this rule. The Dunn index proposes 2 to be the optimal cluster size. Figure
+
+9 provides the cluster for different choice of k using the means algorithm.
+
+
+                                               18
+Fig. 9 Clusters for different cluster sizes
+
+
+
+                                              19
+   As we can see from Figure 9, clusters more than 5 doesn’t make much sense, while
+
+2 and 3 seems to be too small number of clusters. Hence, we will now mainly focus
+
+on 5 clusters. We will give information of clusters using two different algorithm, k-
+
+means, PAM (Partition Around Medoids), CLARA (Clustering Large Applications)
+
+and Fanny (Fuzzy Analysis CLustering). Partitioning Around Medoids (PAM) clus-
+
+tering, a variation of the k-medoids algorithm, represents a robust and interpretable
+
+approach to data clustering. Unlike traditional k-means clustering, PAM defines clus-
+
+ter centers as actual data points rather than the mean, making it less sensitive to
+
+outliers and noise in the dataset (Kaufman, 1990). This medoid-based strategy ensures
+
+greater resilience to skewed distributions and enhances the algorithm’s suitability for
+
+datasets with non-uniform cluster shapes. The algorithm iteratively refines clusters by
+
+selecting the most central point (medoid) within each cluster, optimizing the overall
+
+sum of dissimilarities between data points and their assigned medoids. PAM’s focus
+
+on medoids, along with its flexibility in handling diverse data structures, renders it
+
+particularly valuable in scenarios where traditional centroid-based methods may fal-
+
+ter, establishing its relevance across various applications in data clustering (Kaufman
+
+and Rousseeuw, 2009).
+
+   Cluster Analysis of R (CLARA), an extension of the Partitioning Around Medoids
+
+(PAM) algorithm, offers an advantageous solution for handling large datasets by
+
+employing a sampling approach to representative subsets. CLARA, introduced by
+
+Kaufman (1990), overcomes the computational challenges associated with PAM by
+
+selecting a subset of observations through repeated random sampling and applying
+
+PAM to each subset. This enables a more efficient approximation of medoids while
+
+maintaining the robustness of PAM’s medoid-based clustering strategy. The resulting
+
+clusters are then aggregated to provide a comprehensive representation of the entire
+
+dataset. This unique combination of sampling and medoid-based clustering enhances
+
+
+
+
+                                          20
+CLARA’s scalability, rendering it particularly suitable for larger datasets where the
+
+computational demands of exhaustive methods become prohibitive.
+
+   Fuzzy Analysis by Non-Negative matrix factorization (FANNY) clustering stands
+
+out as a distinctive approach in the realm of cluster analysis by incorporating fuzzy
+
+logic principles. Introduced by Kaufman (1990), FANNY extends traditional clustering
+
+methods by allowing data points to belong to multiple clusters simultaneously, reflect-
+
+ing the inherent uncertainty in many real-world datasets. By integrating non-negative
+
+matrix factorization, FANNY generates membership degrees for each observation
+
+across clusters, offering a nuanced representation of data ambiguity and facilitating a
+
+more flexible modeling of cluster assignments. The incorporation of fuzzy logic princi-
+
+ples enhances FANNY’s capacity to capture overlapping patterns in the data, making
+
+it particularly well-suited for scenarios where traditional hard clustering techniques
+
+may fall short in accommodating complex relationships among data points.
+
+   Figure 10 gives the clustering results of the four methods using the desired number
+
+of clusters to be 5. It is to be noted here that the FANNY method gave three clus-
+
+ters even after giving the desired number to be 5. Let us discuss mainly on the results
+
+of the k-means algorithm. One cluster contained WIPRO, TCS and POWERGRID,
+
+the first two being among the leading IT companies in India. The second cluster con-
+
+tains ADANIPORTS by ADANI group, TATASTEEL by TATA group, BAJAJ AUTO
+
+by BAJAJ Group, ULTRACEMCO and HINDALCO by BIRLA Group. Interesting
+
+observation was that government entity SBIN falls in the same cluster as this group,
+
+while other banks fall in the third cluster. The third cluster contains private banks
+
+like HDFCBANK, INDUSINDBK, and government owned companies like COALIN-
+
+DIA, BPCL, GAIL, NTPC, ONGC, etc. It seems these companies are mainly dealing
+
+with natural resources like coal, oil, etc. The fourth group contains HCLTECH and
+
+SUNPHARMA, an unexpected pairing that suggests shared characteristics beyond
+
+
+
+
+                                          21
+Fig. 10 Clustering Results for the four types of clusters using number of desired clusters as 5
+
+
+sectoral classification, such as global market exposure, institutional investor pref-
+
+erence, and nonlinear price behavior. The fifth group consists of large-cap, widely
+
+held companies spanning multiple industries, including ASIANPAINT, AXISBANK,
+
+BAJAJFINSV, BAJFINANCE, BHARTIARTL, and CIPLA, characterized by strong
+
+institutional ownership, high liquidity, and a mix of cyclical and defensive investment
+
+appeal. Notably, RELIANCE also appears in this group, reflecting its diverse business
+
+interests and market influence across multiple sectors. One can do further in-depth
+
+analysis of each of the clustering to unveil interesting trends. We have provided a brief
+
+discussion on the clusters in Section 5.
+
+
+                                                22
+   Finally, we can see in Figure 11 the extent to which some of the features con-
+
+tributes to the classification, and the correlation between each features, along with
+
+the information whether they are significant or not. Figure 11 illustrates the feature-
+
+wise classification power of the selected clustering variables by displaying pairwise
+
+correlations, density distributions, and scatterplots of key statistical features derived
+
+from the VWAP-scaled stock price series. The diagonal elements show the distribu-
+
+tion of each feature across clusters, while the off-diagonal elements provide insights
+
+into the relationships between different variables. One of the most critical observa-
+
+tions is the distinct separation of clusters in terms of Bispectral Mean, indicating
+
+that higher-order spectral interactions significantly influence the clustering structure.
+
+Additionally, VWAP difference-based features—including DiffEndStart, MeanDiff,
+
+and MaxDiff—exhibit clear distributional distinctions across clusters, confirming that
+
+stocks with similar price movement variations are grouped together. The correlation
+
+matrix in the upper triangle highlights notable relationships between features, with
+
+moderate to strong correlations between DiffEndStart, MeanDiff, and MaxDiff, sug-
+
+gesting that these metrics capture overlapping aspects of stock price dynamics. The
+
+positive correlation (0.380) between Bispectral Mean and DiffEndStart further indi-
+
+cates that nonlinear dependencies in stock price movements are linked to significant
+
+price changes over time. This provides strong evidence that the clustering algorithm
+
+is capturing fundamental price behavior characteristics rather than grouping stocks
+
+based on conventional industry or ownership structures. The scatterplots reveal that
+
+while some clusters exhibit clear separability in certain dimensions, others show over-
+
+lapping patterns, reinforcing the idea that multiple interacting factors contribute to
+
+the clustering outcome. Overall, Figure 11 validates that stocks are primarily grouped
+
+based on their statistical price behavior rather than traditional sector-based classifi-
+
+cations. While some clusters align with business group affiliations, the results indicate
+
+
+
+
+                                           23
+that spectral properties, price fluctuations, and nonlinear dependencies play a domi-
+
+nant role in driving the clustering process. This analysis highlights the effectiveness of
+
+using frequency-domain and price-based statistical features to uncover latent patterns
+
+in stock market dynamics.
+
+
+
+
+Fig. 11 Featurewise Classification Power
+
+
+
+
+5 Discussion
+
+Table 3 exhibits the groupings of NIFTY50 stocks obtained by our clustering algo-
+
+rithm. Cluster 1 comprises large industrial conglomerates and core economic sectors,
+
+
+
+                                           24
+ Cluster         Stock          Major Stakeholders/Founders            Serial Number
+             ADANIPORTS                     Adani Group                        1
+             BAJAJ-AUTO                     Bajaj family                      34
+              HINDALCO                  Aditya Birla Group                    13
+              JSWSTEEL                      JSW Group                         20
+    1
+                  SBIN                  Government of India                   32
+              SHREECEM                      B.G. Bangur                       33
+              TATASTEEL                     Tata Group                        37
+            ULTRACEMCO                  Aditya Birla Group                    41
+                 BPCL                   Government of India                   48
+              BRITANNIA            Britannia Industries Limited               49
+              COALINDIA                 Government of India                    3
+             EICHERMOT                Eicher Motors Limited                    5
+                 GAIL                   Government of India                    6
+              HDFCBANK                     HDFC Limited                       10
+            HEROMOTOCO                Hero MotoCorp Limited                   11
+             INDUSINDBK        Institutional and public shareholders          16
+                  IOC                   Government of India                   18
+    2              ITC         Institutional and public shareholders          19
+                    LT               Larsen & Toubro Limited                  22
+                MARUTI               Suzuki Motor Corporation                 24
+                 M&M                      Mahindra Group                      25
+                 ZEEL                    Subhash Chandra                      27
+                 NTPC                   Government of India                   28
+                 ONGC                   Government of India                   29
+            TATAMOTORS                      Tata Group                        36
+                  UPL          Institutional and public shareholders          42
+                 VEDL                     Vedanta Limited                     43
+             POWERGRID                  Government of India                   30
+    3             TCS                       Tata Group                        38
+                WIPRO                       Azim Premji                       44
+               HCLTECH                Shiv Nadar Foundation                    8
+    4
+             SUNPHARMA                     Dilip Shanghvi                     35
+             ASIANPAINT                Asian Paints Limited                   12
+              AXISBANK                  Private shareholders                  23
+             BAJAJFINSV                Bajaj Finserv Limited                  45
+             BAJFINANCE               Bajaj Finance Limited                   46
+             BHARTIARTL                  Bharti Enterprises                   47
+                 CIPLA         Institutional and public shareholders           2
+               DRREDDY           Dr. Reddy’s Laboratories Limited              4
+                GRASIM                  Aditya Birla Group                     7
+                 HDFC          Institutional and public shareholders           9
+    5        HINDUNILVR                    Unilever PLC                       14
+              ICICIBANK        Institutional and public shareholders          15
+                 INFY          Institutional and public shareholders          17
+             KOTAKBANK                Kotak Mahindra Group                    21
+                 M&M                      Mahindra Group                      25
+                MARUTI               Suzuki Motor Corporation                 24
+              NESTLEIND                      Nestle S.A.                      26
+               RELIANCE             Mukesh Ambani and family                  31
+                TECHM                     Mahindra Group                      39
+                 TITAN                      Tata Group                        40
+Table 3 Major Stakeholders/Founders of Selected Stocks
+
+
+
+
+                                        25
+including Hindalco (Aditya Birla Group), JSW Steel (JSW Group), Tata Steel (Tata
+
+Group), Shree Cement (B.G. Bangur), UltraTech Cement (Aditya Birla Group), Adani
+
+Ports (Adani Group), and State Bank of India (SBIN). These companies are highly
+
+sensitive to infrastructure development, commodity price cycles, and government poli-
+
+cies on industrial expansion. The inclusion of SBIN, a public-sector bank, suggests a
+
+strong financial linkage between infrastructure financing and industrial growth. Many
+
+of these firms receive government contracts and institutional investments, leading to
+
+correlated stock movements that extend beyond sectoral classifications. Additionally,
+
+these conglomerates often engage in joint ventures and cross-sectoral investments,
+
+reinforcing their interconnected market behavior. The clustering algorithm captures
+
+these nonlinear dependencies, revealing how macroeconomic forces shape stock price
+
+dynamics in a way that traditional industry-based classifications might overlook.
+
+   Cluster 2 consists of a diverse mix of companies spanning energy, banking, auto-
+
+mobiles, FMCG, and infrastructure, including BPCL, Britannia, Coal India, Eicher
+
+Motors, GAIL, HDFC Bank, Hero MotoCorp, IndusInd Bank, IOC, ITC, Larsen &
+
+Toubro, Maruti, M&M, NTPC, ONGC, Tata Motors, UPL, Vedanta, and Zee Enter-
+
+tainment. Unlike Cluster 1, which is dominated by industrial conglomerates focused on
+
+metals, cement, and ports, Cluster 2 contains a blend of both private and public-sector
+
+companies, making it more exposed to policy-driven economic shifts, interest rate
+
+fluctuations, and global commodity price trends. The presence of government-owned
+
+companies (BPCL, ONGC, NTPC, IOC, GAIL, Coal India) highlights the impact of
+
+state regulations, energy pricing policies, and privatization efforts, whereas firms like
+
+HDFC Bank, ITC, and Maruti represent consumer-driven private-sector growth. The
+
+mix of industries in this cluster suggests a broader economic sensitivity, where com-
+
+panies react to monetary policy changes, fuel price volatility, and consumer demand
+
+patterns, rather than being tied to a single industrial cycle. The banking and energy
+
+
+
+
+                                           26
+firms in this group are heavily influenced by global interest rates and oil market fluc-
+
+tuations, while companies like ITC and Britannia provide defensive stability during
+
+economic downturns. The inclusion of Larsen & Toubro (L&T), a major infrastructure
+
+player, and automobile manufacturers like Maruti and M&M further supports the idea
+
+that this cluster is characterized by exposure to both long-term capital investments
+
+and short-term economic cycles. Overall, Cluster 2 reflects a highly dynamic segment
+
+of the economy, shaped by both government policy interventions and private-sector
+
+growth trends, setting it apart from the commodity-driven and infrastructure-focused
+
+stocks in Cluster 1.
+
+   Cluster 3 consists of TCS, Wipro, and Power Grid Corporation of India, bringing
+
+together two major IT service providers and a government-backed utility firm. While
+
+at first glance, this grouping appears unconventional, it highlights a common charac-
+
+teristic of stable revenue generation, low volatility, and strong institutional investor
+
+participation. TCS and Wipro operate through long-term IT service contracts, while
+
+POWERGRID earns regulated revenue from electricity transmission, making all three
+
+companies resilient to short-term economic cycles. Additionally, these firms attract
+
+significant foreign and institutional investments, which may contribute to similar
+
+price movement patterns driven by capital flows rather than sector-specific trends.
+
+Unlike Cluster 1 (commodity-driven firms) or Cluster 2 (government-private policy-
+
+sensitive firms), Cluster 3 represents stable, defensive stocks that are less exposed to
+
+macroeconomic shocks and market volatility, reinforcing their unique positioning in
+
+the market.
+
+   Cluster 4 consists of HCL Technologies (HCLTECH) and Sun Pharmaceuticals
+
+(SUNPHARMA)—two companies from completely different industries, IT and phar-
+
+maceuticals, respectively. At first glance, this grouping appears unexpected, but deeper
+
+analysis reveals several hidden commonalities that likely influenced their clustering.
+
+Both HCLTECH and SUNPHARMA are recognized for global innovation, having been
+
+
+
+                                          27
+featured in Forbes’ list of the world’s most innovative companies. Additionally, both
+
+firms have a strong international revenue base, with HCLTECH deriving a large por-
+
+tion of its earnings from North America and Europe, while Sun Pharma generates over
+
+50% of its sales from the U.S. and other global markets. This international presence
+
+makes both companies highly sensitive to global economic conditions and currency
+
+fluctuations, which could explain their shared price movement patterns. A key factor
+
+in their clustering is their investment profile—both companies attract strong institu-
+
+tional investor participation due to their consistent cash flows, high profit margins,
+
+and stable growth trends. Unlike more volatile sectors such as metals or banking,
+
+IT services and pharmaceuticals tend to be defensive in nature, meaning they per-
+
+form relatively well even during economic downturns. This characteristic makes them
+
+appealing to long-term investors, mutual funds, and FIIs, which could drive similar
+
+capital flow patterns and market behavior.
+
+   Cluster 5 consists of a diverse set of large-cap companies spanning multiple indus-
+
+tries, including Asian Paints, Axis Bank, Bajaj Finserv, Bajaj Finance, Bharti Airtel,
+
+Cipla, Dr. Reddy’s, Grasim, HDFC, Hindustan Unilever, ICICI Bank, Infosys, Kotak
+
+Mahindra Bank, Mahindra & Mahindra, Maruti, Nestlé India, Reliance Industries,
+
+Tech Mahindra, and Titan. Unlike the previous clusters, which exhibit sectoral coher-
+
+ence (e.g., industrial groups in Cluster 1, government-linked firms in Cluster 2),
+
+Cluster 5 is characterized by its mix of financial, consumer, technology, and industrial
+
+stocks, suggesting a grouping driven by market capitalization, institutional invest-
+
+ment, and overall economic resilience rather than industry classification alone. A key
+
+commonality among these stocks is that they are market leaders within their respec-
+
+tive industries and widely held by institutional investors. Companies like Reliance,
+
+Infosys, and HDFC are among the largest publicly traded firms in India, making
+
+them highly liquid and actively traded. Additionally, this cluster contains multiple
+
+private-sector banks (ICICI, Axis, Kotak Mahindra, HDFC) and consumer-oriented
+
+
+
+                                          28
+companies (Asian Paints, Hindustan Unilever, Nestlé, Titan), reinforcing the idea that
+
+these stocks represent India’s economic backbone rather than a single industry focus.
+
+Another distinguishing factor of this cluster is its balance of cyclical and defensive
+
+stocks. While companies like Mahindra & Mahindra and Maruti are cyclical stocks
+
+that rise and fall with economic trends, firms such as Hindustan Unilever, Nestlé, and
+
+Cipla are defensive stocks that provide stability during market downturns. This mix
+
+suggests that the clustering algorithm captured nonlinear relationships in price move-
+
+ment and capital flows, grouping companies based on risk-adjusted return similarities
+
+rather than simple sector-based associations. Overall, Cluster 5 represents a diver-
+
+sified portfolio of India’s largest, most resilient, and institutionally preferred stocks,
+
+bringing together leaders across banking, FMCG, IT, healthcare, and automobiles.
+
+Their shared characteristics—strong market capitalization, deep institutional owner-
+
+ship, and a mix of cyclical and defensive behaviors—likely explain their clustering,
+
+highlighting how higher-order spectral analysis captures investment-driven similarities
+
+that traditional sector classifications may overlook.
+
+   While the clustering results reveal meaningful groupings based on shared market
+
+dynamics, institutional investment patterns, and macroeconomic sensitivities, these
+
+explanations may not be the only factors driving the observed clusters. The underly-
+
+ing structure of stock price movements is influenced by a complex interplay of investor
+
+sentiment, sectoral interdependencies, liquidity cycles, and global economic condi-
+
+tions, which may not be fully captured through the current analysis. Additionally,
+
+the use of higher-order polyspectral features suggests that nonlinear dependencies and
+
+hidden correlations could be shaping the clusters in ways that are not immediately
+
+intuitive from traditional financial metrics. Future research could explore alternative
+
+feature extraction techniques, incorporate higher-frequency trading data, and conduct
+
+robustness checks with different clustering algorithms to further validate the reason-
+
+ing behind these stock groupings. Understanding the full set of factors that drive such
+
+
+
+                                           29
+clustering could provide deeper insights into market structure, risk assessment, and
+
+portfolio optimization.
+
+
+6 Conclusion
+
+This study applied k-means and PAM clustering algorithms to analyze 49 Indian
+
+stocks, using spectral and bispectral features to capture nonlinear dependencies in
+
+stock price behavior. Five clusters were identified, revealing market-driven rather than
+
+purely sector-based groupings. Cluster 1 consists of large industrial conglomerates like
+
+Adani, Birla, and Tata Groups, alongside major steel and cement firms, reflecting
+
+their shared exposure to infrastructure spending and commodity cycles. The inclu-
+
+sion of State Bank of India (SBI) highlights its financial link to industrial expansion
+
+and public-private economic ties. Cluster 2, a mix of public and private enterprises,
+
+includes BPCL, ONGC, ITC, and Maruti, with stocks sensitive to government policies,
+
+interest rate changes, and consumer demand shifts. Cluster 3, featuring TCS, Wipro,
+
+and POWERGRID, suggests that these low-volatility, high-cash-flow companies share
+
+stable revenue models and strong institutional investor backing, making them more
+
+defensive than sector-bound.
+
+   Cluster 4 links HCL Technologies and Sun Pharmaceuticals, likely due to their
+
+strong global presence, institutional ownership, and nonlinear market behavior rather
+
+than industry similarities. Cluster 5 includes Reliance, Infosys, HDFC, and Titan,
+
+representing high-liquidity, large-cap stocks balancing cyclical and defensive invest-
+
+ment strategies. These results underscore how higher-order spectral analysis reveals
+
+hidden market interdependencies beyond traditional classifications. While the clusters
+
+align with certain financial characteristics, they may not fully explain all underly-
+
+ing patterns. Future research should explore alternative feature extraction techniques,
+
+different clustering models, and high-frequency data to refine these insights further,
+
+
+
+
+                                          30
+offering a new perspective on stock market structures, risk assessment, and portfolio
+
+diversification.
+
+
+Data Availability
+
+The data used in this study is the NIFTY stock market data and can be found at
+
+https://github.com/djghosh1123/StockMarketData.
+
+
+Acknowledgment
+
+The author thanks the Editor, the Associate Editor and the referee for helpful
+
+comments that substantially improved the quality of the paper.
+
+
+Conflict of Interest
+
+On behalf of all authors, the corresponding author states that there is no conflict of
+
+interest.
+
+
+Funding Declaration
+
+This research received no specific grant from any funding agency in the public,
+
+commercial, or not-for-profit sectors.
+
+   Ethics and Consent to Participate declarations: Not applicable.
+
+   Consent to Publish declaration: Not applicable.
+
+
+References
+
+Almgren R, Thum C, Hauptmann E, et al (2005) Direct estimation of equity market
+
+  impact. Risk 18(7):58–62
+
+
+Bala A (2013) Indian stock market-review of literature. TRANS Asian Journal of
+
+  Marketing & Management Research (TAJMMR) 2(7):67–79
+
+
+                                         31
+Bhutto SA, Ahmed RR, Streimikiene D, et al (2020) Portfolio investment diversifica-
+
+  tion at global stock market: a cointegration analysis of emerging brics (p) group.
+
+  Acta Montanistica Slovaca 25(1):57–69
+
+
+Bollen J, Mao H, Zeng X (2011) Twitter mood predicts the stock market. Journal of
+
+  computational science 2(1):1–8
+
+
+Brillinger DR (2011) An introduction to polyspectra. In: Selected Works of David
+
+  Brillinger. Springer, p 149–172
+
+
+Bustos O, Pomares-Quimbaya A (2020) Stock market movement forecast: A systematic
+
+  review. Expert Systems with Applications 156:113464
+
+
+Caliński T, Harabasz J (1974) A dendrite method for cluster analysis. Communications
+
+  in Statistics-theory and Methods 3(1):1–27
+
+
+Cao G, Xu L, Cao J (2012) Multifractal detrended cross-correlations between the
+
+  chinese exchange market and stock market. Physica A: Statistical Mechanics and
+
+  its Applications 391(20):4855–4866
+
+
+Chen NF (1991) Financial investment opportunities and the macroeconomy. The
+
+  Journal of Finance 46(2):529–554
+
+
+Cont R (2001) Empirical properties of asset returns: stylized facts and statistical issues.
+
+  Quantitative finance 1(2):223
+
+
+Cross G, Jain A (1982) Measurement of clustering tendency. In: Theory and
+
+  Application of Digital Control. Elsevier, p 315–320
+
+
+Davies DL, Bouldin DW (1979) A cluster separation measure. IEEE transactions on
+
+  pattern analysis and machine intelligence (2):224–227
+
+
+
+
+                                            32
+Fama EF, French KR (1992) The cross-section of expected stock returns. the Journal
+
+  of Finance 47(2):427–465
+
+
+Ghosh D (2022) Contribution to data science: Time series, uncertainty quantification
+
+  and applications. PhD thesis, Washington University in St. Louis
+
+
+Ghosh D, McElroy T, Lahiri S (2024) Polyspectral mean estimation of general
+
+  nonlinear processes. URL https://arxiv.org/abs/2410.15187, 2410.15187
+
+
+Group     V     (2020)   Update    on   the      merger   of   bharti   infratel   and
+
+  indus       towers.    URL      https://www.vodafone.com/news/technology-news/
+
+  update-on-the-merger-of-bharti-infratel-and-indus-towers, accessed: March 9, 2025
+
+
+Hartman D, Hlinka J (2018) Nonlinearity in stock networks. Chaos: An Interdisci-
+
+  plinary Journal of Nonlinear Science 28(8)
+
+
+Hinich MJ (1982) Testing for gaussianity and linearity of a stationary time series.
+
+  Journal of time series analysis 3(3):169–176
+
+
+Kaufman L (1990) Partitioning around medoids (program pam). Finding groups in
+
+  data 344:68–125
+
+
+Kaufman L, Rousseeuw PJ (2009) Finding groups in data: an introduction to cluster
+
+  analysis. John Wiley & Sons
+
+
+Ketchen DJ, Shook CL (1996) The application of cluster analysis in strategic
+
+  management research: an analysis and critique. Strategic management journal
+
+  17(6):441–458
+
+
+McElroy TS, Ghosh D, Lahiri S (2023) Quadratic prediction of time series via auto-
+
+  cumulants. Sankhya A pp 1–33
+
+
+
+
+                                         33
+Nanda S, Mahanty B, Tiwari M (2010) Clustering indian stock market data for
+
+  portfolio management. Expert Systems with Applications 37(12):8793–8798
+
+
+Nikias CL, Petropulu P (1993) Higher-order spectral analysis: A nonlinear signal
+
+  processing framework, new jersey: Ptr prentice-hall. Inc, USA 537
+
+
+Onnela JP, Chakraborti A, Kaski K, et al (2003) Dynamics of market correlations:
+
+  Taxonomy and portfolio analysis. Physical Review E 68(5):056110
+
+
+Reboredo JC, Matı́as JM, Garcia-Rubio R (2012) Nonlinearity in forecasting of high-
+
+  frequency stock returns. Computational Economics 40:245–264
+
+
+Ren F, Lu YN, Li SP, et al (2017) Dynamic portfolio strategy using clustering
+
+  approach. PloS one 12(1):e0169299
+
+
+Rousseeuw PJ (1987) Silhouettes: a graphical aid to the interpretation and validation
+
+  of cluster analysis. Journal of computational and applied mathematics 20:53–65
+
+
+Sharma K, Shah S, Chakrabarti AS, et al (2017) Sectoral co-movements in the indian
+
+  stock market: a mesoscopic network analysis. Economic Foundations for Social
+
+  Complexity Science: Theory, Sentiments, and Empirical Laws pp 211–238
+
+
+Siddiqui TA, Abdullah Y (2015) Developing a nonlinear model to predict stock prices
+
+  in india: An artificial neural networks approach. IUP Journal of Applied Finance
+
+  21(3)
+
+
+Singh A, Gupta P, Thakur N (2021) An empirical research and comprehensive analysis
+
+  of stock market prediction using machine learning and deep learning techniques. In:
+
+  IOP conference series: materials science and engineering, IOP Publishing, p 012098
+
+
+Tibshirani R, Walther G, Hastie T (2001) Estimating the number of clusters in a data
+
+  set via the gap statistic. Journal of the Royal Statistical Society: Series B (Statistical
+
+
+                                            34
+  Methodology) 63(2):411–423
+
+
+Yadav S (2017) Stock market volatility-a study of indian stock market. Global Journal
+
+  for Research Analysis 6(4):629–632
+
+
+
+
+                                         35
+

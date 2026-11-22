@@ -1,0 +1,1173 @@
+NIFTy 3 - Numerical Information Field Theory - A Python framework for multicomponent signal inference on HPC clusters (arXiv 1708.01073v1, open access paper)
+
+                                              Astronomy & Astrophysics manuscript no. NIFTy3                                                                                     c ESO 2017
+                                              August 4, 2017
+
+
+
+
+                                                                     NIFTy 3 – Numerical Information Field Theory
+                                                   A Python framework for multicomponent signal inference on HPC clusters
+                                                    Theo Steininger1, 2 , Jait Dixit3 , Philipp Frank1, 2 , Maksim Greiner1, 2 , Sebastian Hutschenreuter1, 2 , Jakob
+                                              Knollmüller1, 2 , Reimar Leike1, 2 , Natalia Porqueres1, 2 , Daniel Pumpe1, 2 , Martin Reinecke1 , Matevž Šraml1, 2 , Csongor
+                                                                                              Varady3 , and Torsten Enßlin1, 2
+
+                                                    1
+                                                      Max Planck Institute for Astrophysics, Karl-Schwarzschild-Str. 1, D-85741 Garching, Germany
+                                                    2
+                                                      Ludwig-Maximilians-Universität München Geschwister-Scholl-Platz 1, 80539 Munich, Germany
+                                                    3
+                                                      Technische Universität München, Arcisstr. 21, 80333 München, Germany
+
+
+
+
+arXiv:1708.01073v1 [astro-ph.IM] 3 Aug 2017
+                                                    Received August 03, 2017
+
+                                                                                                                ABSTRACT
+
+                                                    NIFTy, “Numerical Information Field Theory”, is a software framework designed to ease the development and implementation of field
+                                                    inference algorithms. Field equations are formulated independently of the underlying spatial geometry allowing the user to focus on
+                                                    the algorithmic design. Under the hood, NIFTy ensures that the discretization of the implemented equations is consistent. This enables
+                                                    the user to prototype an algorithm rapidly in 1D and then apply it to high-dimensional real-world problems. This paper introduces
+                                                    NIFTy 3, a major upgrade to the original NIFTy framework. NIFTy 3 allows the user to run inference algorithms on massively parallel
+                                                    high performance computing clusters without changing the implementation of the field equations. It supports n-dimensional Cartesian
+                                                    spaces, spherical spaces, power spaces, and product spaces as well as transforms to their harmonic counterparts. Furthermore, NIFTy 3
+                                                    is able to treat non-scalar fields. The functionality and performance of the software package is demonstrated with example code, which
+                                                    implements a real inference algorithm from the realm of information field theory. NIFTy 3 is open-source software available under
+                                                    the GNU General Public License v3 (GPL-3) at https://gitlab.mpcdf.mpg.de/ift/NIFTy/.
+                                                    Key words. Methods: numerical, methods: statistical, methods: data analysis, techniques: image processing
+
+
+
+                                              1. Introduction                                                           the calculus of probabilities to functional spaces. This leads to
+                                                                                                                        a statistical field theory, which we call information field theory
+                                              Physical quantities are only accessible to the observer via mea-          (IFT) (Enßlin et al. 2009; Enßlin & Weig 2010). Since fields have
+                                              surements. Those measurements are never a perfect mapping of              an infinite amount of degrees of freedom by nature, the calcula-
+                                              the quantity of interest, the so-called signal. They are virtually        tions cannot directly be implemented on a computer, which can
+                                              always subject to noise, which cannot be distinguished from the           only store and process a finite amount of bits. Careful considera-
+                                              signal. Usually measurements capture the quantity of interest             tions have to be made in discretizing the continuous equations to
+                                              only indirectly, be it by event rates, receiver voltages, absorption      calculate statistical estimates that are independent of the chosen
+                                              or reflection patterns, or photon counts. Such indirect measure-          resolution, as long as all scales that are imprinted in the data are
+                                              ments cannot capture all properties of the signal.                        resolved. These considerations led to the development of NIFTy
+                                              There are two ends from which this shortcoming can be ap-                 (Selig et al. 2013).
+                                              proached. The first one is to improve the measurement itself.             NIFTy – “Numerical Information Field Theory” – is a software
+                                              This includes the development of more precise instruments, bet-           framework in which algorithms for information extraction from
+                                              ter observation strategies, and completely new experimental de-           data and signal reconstruction are implemented. Its purpose is to
+                                              signs. The second one is to improve the processing of the data,           ease the technical as well as conceptual difficulties which arise
+                                              i.e. the way how the signal is estimated once the data have been          when working with IFT. To that end NIFTy was designed in a
+                                              taken. This is the domain of information theory.                          way that equations involving fields are formulated independently
+                                              Modern information theory is based on the work of Cox (1946),             of the underlying spatial geometry and discretization. Thus, an
+                                              Shannon (1948) and Wiener (1949). It has seen tremendous ad-              algorithm implemented with NIFTy to infer a field living on
+                                              vances since the development of computers, which allow the cal-           a sphere, can be transformed to infer a field living in a three-
+                                              culation of statistical estimates in the absence of closed form so-       dimensional Cartesian space by the change of a single line of
+                                              lutions through methods such as gradient descent (e.g. Fletcher           code. NIFTy is a development framework written in Python1 .
+                                              & Powell 1963) and sampling (e.g. Metropolis et al. 1953). In             The structure NIFTy brings in terms of a development frame-
+                                              the last decades, data sets have become larger and larger, which          work is bundled with the power of external compiled-language
+                                              makes their processing feasible only on a computer, even if a             modules for numerical efficiency.
+                                              closed form solution is available.                                        As it greatly reduced the complexity of implementing algorithms
+                                              Many physical signals are fields, quantities that are described           for field inference, many applications of IFT have been imple-
+                                              as functions over a continuous domain (e.g. time or space). Ap-
+                                                                                                                         1
+                                              plying the rules of information theory to fields means applying                Python homepage http://www.python.org/
+
+                                                                                                                                                                   Article number, page 1 of 18
+                                                   A&A proofs: manuscript no. NIFTy3
+
+mented using NIFTy, most notably the reconstruction of the pri-        of a Gaussian signal
+mordial scalar potential (Dorn et al. 2015b), the estimation of                                                                      !
+extragalactic Faraday rotation (Oppermann et al. 2015), and the                                             1           1
+                                                                       s ←- P(s) = G(s, S ) =                      exp − s† S −1 s                 (7)
+denoised, deconvolved, and decomposed Fermi γ-ray sky (Selig                                              |2πS |
+                                                                                                                 1
+                                                                                                                 2      2
+et al. 2015). However, more and more complex and ambitious
+field inference projects brought the original NIFTy package to         with additive and signal independent Gaussian noise n ←-
+its limits. To advance further, the capability to make use of mas-     P(n|s) = G(n, N) and known signal and noise covariances S =
+sively parallel high performance computing clusters, treat prod-       hs s† i(s) and N = hn n† i(n) . † denotes transposition and com-
+                                                                       plex conjugation so that s† t = Ω dx s∗ (x) t(x) is a scalar and
+                                                                                                          R
+ucts of spaces, and work with non-scalar fields is needed. These
+                                                                       h f (x)i(x|y) = Dx P(x|y) f (x) is the expectation of f (x) over
+                                                                                        R
+requirements have led to a complete redesign of NIFTy. This
+new software framework, NIFTy 3, which additionally includes           P(x|y).
+also numerous minor advances, is presented here and is available       The response R maps the continuous field s onto a discrete data
+at https://gitlab.mpcdf.mpg.de/ift/NIFTy.                              vector d. For individual entries of this data vector equation 6
+                                                                       reads
+2. Problem Description
+                                                                              Z
+                                                                       di =       dx Ri (x)s(x) + ni                                 (8)
+2.1. Information Field Theory                                                     Ω
+
+In general, a signal inference problem tries to invert a measure-      Here, i ∈ {1, . . . , Ndata } with Ndata ∈ N is the index of the data
+ment equation                                                          vector’s entries. Ω is the physical manifold the signal is defined
+                                                                       on.
+d = f (s, n),                                                   (1)    Since equation 6 maps a continuous space with infinitely many
+that describes how the obtained data d depends on the unknown          degrees of freedom onto a finite-dimensional data vector and
+signal s and further nuisance parameters n. Actually, we want to       involves an additive stochastic noise term, the problem is not
+know s and are not interested in n, but the latter also influences     uniquely invertible. This means that many combinations of s-
+the measurement outcome. The problem is that the function f is         and n-realizations can result in the same data vector. One can
+not necessarily invertible in s, and that the nuisance parameters      now apply an inference algorithm to find the ‘best’2 estimate for
+may not be known.                                                      s. One possibility here is the Wiener filter, which provides the
+This problem is particularly severe when the signal is a field, viz.   posterior mean signal as the field estimate,
+a continuous function s(x) over a manifold Ω. In this case the                                −1
+number of unknowns is infinite, whereas the number of knowns,          m = S −1 + R† N −1 R R† N −1 d,                                   (9)
+the components of the data vector, is finite. The reconstruction
+of a field from finite data therefore always requires the usage of     where S is the covariance of the signal and N the covariance of
+additional information. Optimally this is given in the form of a       the noise. The superscript † denotes complex conjugation and
+joint probability distribution P(s, n) for all the unknowns. Hence,    transposition. Spelled out, this means the equation
+this induces a joint probability for data and signal,                                                                      
+                                                                       Z                     N
+                                                                                                X data                            N
+                                                                                                                                     X
+                                                                               dy S (x, y) +        Ri (x)Ni j R j (y) m(y) =
+              Z                                                                         −1                    −1
+P(d, s) =         Dn P(d|s, n) P(s, n)
+                                                                                                                                      Ri (x)Ni−1
+                                                                                                                                                j dj
+                                                                           Ω                     i, j=1                          i, j=1
+              Z
+                                                                                                                                                  (10)
+           =      Dn δ(d − f (s, n)) P(s, n),                    (2)
+       R                                                               is solved for the estimate m(x).
+where Dn denotes the integration over all degrees of freedom           Equation 8 already shows the three main components of data
+of n. The posterior distribution for the unknown signal is then        equations in the area of signal reconstruction: operators (R) that
+given by Bayes’ theorem:                                               act on fields (s) which are defined on a space (Ω). The signal
+                                                                       posterior is also a Gaussian,
+           P(d, s) e−H(d,s)
+P(s|d) =          =         ,                                   (3)    P(s|d) =           G(s − m, D) with                                        (11)
+            P(d)    Z(d)
+                                                                                                           −1
+where we introduced the language of statistical field theory by                 D =         S −1 + R† N −1 R ,                                    (12)
+defining                                                                        m =       D j, and                                                (13)
+H(d, s)    := − ln P(d, s) and                                  (4)              j =      R† N −1 d.                                              (14)
+                      Z
+  Z(d)     := P(d) =      Ds e−H(d,s) .                         (5)    The signal posterior mean m = hsi(s|d) is obtained from the data
+                                                                       by projecting it into the data space as j = R† N −1 d after inverse
+Hereafter we focus on a special case that leads to the well-known      noise weighting and then by operating on it with the so called
+Wiener filter theory.                                                  information propagator D. The operation that turns the data into
+                                                                       the signal estimate m = FW d,
+2.2. Wiener Filter Theory                                                                    −1
+                                                                       FW = S −1 + R† N −1 R R† N −1 ,                                (15)
+A simple example for an inference problem is given by a linear
+measurement of a signal s with additive and signal independent         is called the Wiener filter (Wiener 1949). The posterior signal
+noise n                                                                uncertainty h(s − m) (s − m)† i(s|d) is also given by D, which is
+d = Rs + n                                                      (6)    2
+                                                                           The exact meaning of ‘best’ depends on the algorithm.
+
+Article number, page 2 of 18
+                                   Theo Steininger et al.: NIFTy 3 – Numerical Information Field Theory
+
+also called Wiener variance.                                            within the NIFTy framework are by design manifold and res-
+Eq. 15 illustrates the complexity operators can have. They are          olution independent. Particularly, NIFTy takes care of correctly
+composed of a number of operators that act on different spaces          including volume factors (V) whenever scalar products or, gener-
+that often need to be inverted as well. Since the number of pixels      ally speaking, index contractions between tensors are performed.
+used to represent fields can be large, an explicit storage of such      Volume factors are a direct consequence of the discretization of
+operators is prohibitive. They have to be represented by com-           Ω. Giving an example, the scalar product of two signal fields s
+puter routines that perform their actions. This, however, makes         and u on Ω behaves like
+it difficult to access the entries of an operator, for example to ex-
+                                                                                                      Q
+amine the uncertainty of the Wiener filter reconstruction, which
+                                                                               Z                      X
+is encoded in the entries of D.                                         s u=
+                                                                         †
+                                                                                    dx s∗ (x)u(x) ≈         Vq s∗q uq .                          (17)
+                                                                                Ω                     q=1
+The building blocks of D, the signal and noise covariances S
+and N, might be diagonal in harmonic spaces. In contrast, the
+response is usually best described in position space. Thus, the         Compare Selig et al. (2013, chapter 2.2) for more details.
+representation of D−1 = S −1 + R† N −1 R requires harmonic trans-
+forms, e.g. Fourier transforms, and the application of D to j re-           For completeness, two further key concepts of NIFTy are
+quires the solving of the linear system D−1 m = j, which asks for       discussed.
+many evaluations of such transforms.
+In figure 1 a minimal Wiener filter implementation in NIFTy 3 is        2.5. Data Representation
+shown. Thereby, an exemplary geometry is set up in the begin-
+ning and in the end the Wiener filter is applied explicitly. In the     For many signal reconstruction problems one can assume that
+middle part the definition and initialization of the data (d), the      the signal s is statistically homogeneous and isotropic. This
+signal- and noise-covariances (S and N), and the response op-           means that the statistical properties of s(x) are independent of
+erator (R) are left out, since this step is highly problem specific.    position in Ω for the former, and from direction for the latter.
+Please refer to section 5 for an exhaustive discussion of a Wiener      Such fields have the remarkable property that their correlation
+filter implementation.                                                  structure can be described by a one-dimensional power spec-
+                                                                        trum which is diagonal in a harmonic basis of Ω. Hence, it is
+                                                                        very beneficial to perform covariance-related calculations in the
+2.3. Interacting Information Field Theory                               harmonic basis, since the involved Fourier transforms scale3 like
+If any of the simplifying assumptions of the Wiener filter prob-        O(Npix log(Npix )) and therefore are cheap compared to full rank
+                                                                                                                2
+lem is violated, e.g. if signal or noise are not Gaussian, the noise    matrix multiplications scaling like O(Npix ), where Npix is the car-
+depends on the signal, or one of the operators R, S , and N is          dinality of Ω’s pixelization. NIFTy has representations for its
+not known a priori, the inference problem becomes much more             supported manifolds in signal as well as harmonic bases, and
+difficult and the posterior mean is not obtained by a linear trans-     transforming fields from one representation to another is done
+formation of the data.                                                  via efficient external libraries (Frigo & Johnson 2005; Gorski
+However, even then an information Hamiltonian H(d, s) =                 et al. 2005).
+− ln P(d, s) can be defined, which encodes all the information on
+the field. One might want to minimize this Hamiltonian with re-
+spect to the field s to obtain the maximum a posteriori estimate        2.6. Implicit vs. Explicit Operators
+for it. Or one uses this Hamiltonian within a variational Bayes         In the previous section we have seen that in many cases one
+scheme, in which an approximate posterior P(s|d)    e    (usually a     can choose a basis for which the covariance operators are di-
+Gaussian) is matched to the full posterior via their Kullback-          agonal. However, in general an arbitrary measurement device’s
+Leibler distance                                                        response is not a square operator and therefore is not diagonal-
+                  Z                                                   izable. Expressing the operator explicitly as a matrix of shape
+                                     P(s|d)
+                                        e
+                                                                        (Npix , Ndata ) leads to problems if Npix is large: first, matrix mul-
+KL(P, P) =
+                                               
+     e               Ds P(s|d) ln 
+                          e                      
+                                        P(s|d)                          tiplications will slow down the reconstruction algorithm as they
+                                                                                           2
+                  D
+             = H(s|d) − H(s|d)e
+                                        E
+                                              .                 (16)    scale like O(Npix    ) and second, the operator may simply not fit
+                                     P(s|d)
+                                     e
+                                                                        into main memory. Because of this, operators in NIFTy are al-
+Therefore, dedicated numerical infrastructure is required to min-       most always stored as implicit objects. This means that instead
+imize such functionals efficiently.                                     of storing every entry of an operator’s matrix representation ex-
+                                                                        plicitly, only its action is implemented. However, expressing op-
+                                                                        erators implicitly has the drawback that properties like the op-
+2.4. Manifold Independence & Discretized Continuum                      erator’s diagonal, trace or determinant can – within reasonable
+                                                                        computing time – only be determined approximately by probing
+It is remarkable that the abstract algorithm for the inference of s
+                                                                        (Hutchinson 1989) that might be combined with an inference
+(e.g. equation 9) is independent of the choice of Ω. In a con-
+                                                                        step (Selig et al. 2012; Dorn & Enßlin 2015). Also, the inverse
+crete implementation, however, a discretization of Ω must be
+                                                                        of an implicitly defined operator must be computed using nu-
+provided, since classical computers perform only discrete arith-
+                                                                        merical inversion algorithms like the conjugate gradient method
+metic. Still, because of this independence of Ω, the implementa-
+                                                                        (Hestenes & Stiefel 1952), whenever it is applied to a vector.
+tion should be modular with respect to it. NIFTy 1 was specifi-
+                                                                        To overcome those inconveniences, NIFTy has the built-in func-
+cally designed for separating the inference algorithm from the
+problem’s manifold. For this the concept of space- and field-            3
+                                                                           Note that for regular grids fast Fourier transforms exist that scale
+objects was introduced: spaces describe the geometrical proper-         with the aforementioned O(Npix log(Npix )). On curved manifolds like
+ties of physical space, whereas fields are defined on spaces and        the sphere and for non-regular spaced discretizations the costs may be
+carry actual data. As a consequence, algorithms implemented             higher.
+
+                                                                                                                          Article number, page 3 of 18
+                                                 A&A proofs: manuscript no. NIFTy3
+
+
+ 1   import nifty as ift                                              # Import NIFTy package
+ 2   from ift. library import WienerFilterCurvature                   # Import Wiener filter from nifty. library
+ 3                                                                    # Setting up ...
+ 4   s_space = RGSpace ([512 , 512])                                  #   ... position space ( RGSpace as an example )
+ 5   fft = FFTOperator ( s_space )                                    #   ... an operator for harmonic transforms
+ 6   h_space = fft. target [0]                                        #   ... harmonic space
+ 7   p_space = PowerSpace ( h_space )                                 #   ... power space
+ 8
+ 9   d, S, N, R = ...                                                 # Define specific components here
+10
+11   j = R. adjoint_times (N. inverse_times (d))                      # Compute the " information source "
+12   C = WienerFilterCurvature (S=S, N=N, R=R)                        # Setting up (the inverse of) the propagator
+13   m = C. inverse_times (j)                                         # Apply the Wiener filter
+
+Fig. 1: Minimal example for a Wiener filter reconstruction in two dimensions, whereby the instantiation of problem specific com-
+ponents is omitted.
+
+
+tionality to compute those properties and actions transparently     counts at arbitrary energies permitting the construction of sky
+for the user.                                                       images in distinct energy bands. However, the individual energy
+                                                                    bands are reconstructed separately so far; i.e. for a fixed pixel and
+                                                                    fixed energy band the relevant information from nearby energy
+2.7. Reference Projects                                             bands is not exploited. The next logical step is to reconstruct and
+The NIFTy framework provides rich structure in terms of a class     decompose the true sky emissivity for all energy bands jointly
+hierarchy and built-in functionality, while at the same time cus-   within one single reconstruction. In this scenario information
+tom objects – first and foremost operators – can be implemented     about the energy correlation function should be used for linking
+easily. Therefore, it is well suited for rapidly prototyping new    and letting the information cross-talk between the energy bands.
+inference algorithms, as well as for building full-grown signal     This involves fields living on a domain which is the combination,
+reconstruction applications. Because of this, since its release     viz. the Cartesian product, of the geometrical space (the celestial
+in 2013, NIFTy 1 has been used in various published scientific      sphere) and the energy dimension (a one-dimensional Cartesian
+codes and papers. Some noteworthy examples are:                     space).
+                                                                    Another example is the reconstruction of the Galactic free elec-
+ – Estimating galactic and extragalactic Faraday rotation           tron density by Greiner et al. (2016). The algorithm was initially
+   (Oppermann et al. 2012; Oppermann et al. 2015; Vacca et al.      built for reconstructing scalar quantities. But in principle the al-
+   2016)                                                            gorithm can be used for reconstructing vector fields, e.g. mag-
+ – D3 PO for photo count imaging (Selig & Enßlin 2015)              netic fields, or even tensor fields as well. This makes it necessary
+ – Signal inference with unknown response (Dorn et al. 2015a)       to be able to specify fields of arbitrary type; e.g. scalar, vector or
+ – Cosmic expansion history reconstruction from SNe Ia data         tensor type.
+   (Porqueres et al. 2017)                                          Independently of its technical challenges, dealing with power
+ – Dynamic system classifier (Pumpe et al. 2016)                    spectra on domains being the Euclidean product of single spaces
+ – PySESA for geospatial data analysis (Buscombe 2016)              is a conceptually non-trivial task. Analyzing power spectra, as
+ – RESOLVE for radio interferometry (Junklewitz et al. 2016)        well as drawing random samples from given spectra for such do-
+ – Tomography of the Galactic free electron density                 mains, requires high diligence, as the statistical normalization
+   (Greiner et al. 2016)                                            and the field’s Hermitianity are broken when using naive stan-
+ – Bayesian weak lensing tomography (Böhm et al. 2017)              dard approaches. In section 4.1, and especially in 4.1.7 and 4.1.8
+ – Noisy independent component analysis of auto-correlated          it is discussed how NIFTy 3 tackles those challenges.
+   components (Knollmüller & Enßlin 2017)
+                                                                    3.2. Scalability & Parallelizability
+3. Limitations of NIFTy 1                                           Signal reconstruction problems easily reach sizes where one
+Despite all its strengths, NIFTy 1 has some considerable limita-    mainly runs into two problems. First, given a reconstruction al-
+tions which were the cause for developing NIFTy 3. Those limi-      gorithm, the individual steps of this algorithm scale at best lin-
+tations are discussed in the following.                             early (O(Ndata )) with the size Ndata of the data set. For example,
+                                                                    adding 1024 MiB of array data takes twice as long as adding
+                                                                    512 MiB4 . Fourier transforms scale with O(Ndata log(Ndata )) at
+3.1. Combined Manifolds & Field Types                               best and explicit matrix-vector multiplications even only with
+                                                                         2
+                                                                    O(Ndata ). Hence, with large data sets one easily reaches unac-
+As discussed in section 2.4, NIFTy separates the domain on          ceptable computational run-times.
+which a field lives from the field itself. The code architecture    Second, for large problems the quantities of interest may not fit
+was designed for natively supporting only scalar fields on do-      into a single computer’s memory anymore. For example, for the
+mains consisting of only one space. However, there are many         reconstruction of the Milky Way’s dust density in terms of a cu-
+physical applications where this is too limiting.                   bic volume, a side resolution of 2048 is a reasonable degree of
+For example, the D3 PO code (Selig & Enßlin 2015) performs a
+reconstruction of the diffuse and point-like γ-ray sky emissivity    4
+                                                                       For very small data arrays, a doubled array size can result in less than
+for a given set of photon counts. This can be done for photon       the doubled time because of constant-time overheads.
+
+Article number, page 4 of 18
+                                      Theo Steininger et al.: NIFTy 3 – Numerical Information Field Theory
+
+refinement. This cube contains 20483 ≈ 8.6·109 voxels. Hence, a          example, will start with evaluating the functional’s value at the
+scalar field on this cube containing 64-bit floating point numbers       given current position in parameter space. Afterwards, it will
+consumes 64 GiB, and in practice one needs to handle several             need the gradient and (depending on the algorithm) maybe the
+field instances at the same time. Thus, even if runtime was not          curvature. When storing the right portions of information, those
+a problem, the reconstruction for such a field simply does not fit       queries can be answered immediately, speeding up the minimiza-
+onto an affordable shared memory machine.                                tion process as a whole.
+Hence, NIFTy 1, which does not provide parallelization to the            So far NIFTy was missing structure which supported the efficient
+core, reaches its limits for large reconstruction problems. In sec-      implementation of information Hamiltonians. This changed with
+tion 4.6 it is described how NIFTy 3 makes use of the software           NIFTy 3, cf. section 4.5.
+packages D2O (Steininger et al. 2016) to achieve scalability and
+parallelizability, and keepers5 for cluster compatibility.
+                                                                         3.3.2. Modularity of Minimizers and Probers
+
+3.3. Refactoring the Code Structure                                      Real-life information Hamiltonians are hard to minimize since
+                                                                         they may be ill-conditioned, multi-modal, non-convex and ex-
+In addition to the issues addressed in the previous sections 3.1         hibit plateaus. This makes it all the more important to freely
+and 3.2, a whole set of further modifications was due, to ensure         choose a minimization algorithm and maybe even sequentially
+that the NIFTy framework and the codes being built with it re-           combine several of them. Section 4.5 shows how generality and
+main robust and modular in the future.                                   modularity have been improved for NIFTy 3.
+                                                                         As described in section 2.6, probing is necessary to infer quan-
+                                                                         tities like the trace or diagonal of an arbitrary implicitly repre-
+3.3.1. Energy Functionals
+                                                                         sented operator. Since probing an operator can become the most
+In almost all realistic applications an energy functional, for ex-       costly part of an inference algorithm, it is crucial that this task
+ample the information Hamiltonian,                                       is carried out wisely. In section 2.6 an overview is given how
+                                                                         NIFTy 3 supports the user in this respect.
+H(d, s) = − ln P(d, s)                                            (18)
+must be minimized to reconstruct a sought-after signal. See Op-          3.3.3. Meta-Information on Power Spectra
+permann et al. (2015), Selig & Enßlin (2015), or Greiner et al.
+(2016) as examples. When minimizing the information Hamilto-             Power spectra are crucial quantities in most inferences that are
+nian in the context of IFT, one has the advantage that its analytic      built with NIFTy, as they encode the statistical information
+form is known. Hence, in contrast to most common minimization            which is used to overcome the limited and noisy nature of mea-
+settings, the gradient, curvature and any other derivative of the        surement data. However, in NIFTy 1 power spectra are simply
+energy functional are directly accessible and can be used by ap-         stored as un-augmented arrays, putting the burden on the users to
+propriate minimizers6 . Because of this structure, evaluating the        manage all the meta-information like band structures, links to the
+energy functional at a certain location naturally means to con-          harmonic partner space, or binning information. In section 4.1.6
+secutively calculate the functional’s derivatives with decreasing        it is described how NIFTy 3 uses the concept of PowerSpaces to
+degree and reusing the previous information.                             confine all of this interrelated information in one place.
+As an example, for a simple Wiener filter (Wiener 1949) this
+looks as follows. Given a linear measurement of a signal s ←-            4. The Structure of NIFTy 3
+G(s, S ) with an instrument having a response R and additive
+noise n ←- G(n, N), the data equation reads                              In this section we discuss how NIFTy 3 meets the requirements
+                                                                         stated in section 2.
+d = R(s) + n                                                      (19)
+(cf. equation 6). The maximum-a-posteriori solution given by a           4.1. Domain Objects and Fields
+Wiener filter is represented by the minimum of the following
+information Hamiltonian                                                  Fields are the main data carriers in NIFTy. Beside its data array,
+                                                                         a field instance also stores information about its data’s domain.
+             1 † −1                                                      A domain object can either be a Space or FieldType instance
+H(d, s) =      s D s − j† s + const,                              (20)
+             2                                                           and it contains the information and functionality a field needs
+where                                                                    to know about the data it holds. A space in NIFTy 3 defines a
+                                                                         spatial geometry, or to be precise, it represents the finite resolu-
+D = (S −1 + R† N −1 R)−1        and      j = R† N −1 d.           (21)   tion discretization of a certain continuous and compact manifold.
+                                                                         Additionally, NIFTy 3 also provides a field-type class, which is
+When evaluating H(x), one computes the components of its                 the base class for all bundles that may be put on top of the man-
+derivatives along the way, too:                                          ifold: vectors, tensors, or just lists of numbers7 . This illustrates
+                                                                         how the concept of spaces from NIFTy 1 has been extended to a
+∂ sx ∂ sy H(d, s) = (D−1 ) xy   and       ∂ sx H = D−1 s − j      (22)
+                                                                         new base class called DomainObject. The class tree is shown in
+Hence, for computation efficiency it is crucial to reuse those very      figure A.1.
+building blocks to avoid duplicate calculations. A minimizer, for        A crucial feature of NIFTy 3 is that the domain of a field is a
+                                                                         tuple of domain objects instead of a single space, i.e. in general
+5
+   https://gitlab.mpcdf.mpg.de/ift/keepers                               the domain is the Cartesian product of spaces and field-types.
+6
+   The gradient can be used directly in gradient-based methods like      Actually, the domain attribute of a field can contain an arbitrary
+steepest-descent or LBFGS (Liu & Nocedal 1989; Byrd et al. 1995);
+                                                                          7
+additionally, the true curvature can be used in Newton minimization         The FieldArray class represents a collection of numbers with a cer-
+schemes.                                                                 tain shape, but without any further structure.
+
+                                                                                                                  Article number, page 5 of 18
+                                                    A&A proofs: manuscript no. NIFTy3
+
+amount of spaces and field types, including zero. This makes it         4.1.1. Separation of Responsibilities
+a very general concept which naturally covers various use cases.
+The conventional use case is a field which is defined over one          In contrast to NIFTy 1, domain objects in NIFTy 3 only contain
+single space, for example a two-dimensional regular grid space.         information and functionality regarding the geometry they
+                                                                        define, e.g., grid distances and pixel volumes. Actually, in
+ 1   In [1]: f = ift.Field(                                             NIFTy 1 the field class was conceptually agnostic regarding the
+ 2                domain =ift. RGSpace (shape =(4, 4)),                 data object it possessed, as all numerical work was done by
+ 3                val =1))                                              the space instances. In NIFTy 3 fields are defined on a tuple of
+ 4   In [2]: f. domain                                                  domain-objects and therefore numerical operations affect the
+ 5   Out[2]: ( RGSpace (shape =(4, 4),                                  structure as a whole. Hence, the responsibility for numerical
+ 6                      zerocenter =( False , False),                   operations had to be elevated from the space objects. To be
+ 7                      distances =(0.25 , 0.25) ,                      precise, this means that the responsibility for, e.g., arithmetics,
+ 8                      harmonic =False) ,)
+ 9   In [3]: f.val
+                                                                        power spectrum analysis, and random sample generation was
+10   Out[3]: <distributed_data_object >                                 moved into the field class. Functionality for, e.g., harmonic
+11           array ([[1 , 1, 1, 1],                                     transforms, smoothing, and plotting was realized in terms of
+12                    [1, 1, 1, 1],                                     new dedicated operators. This change was an important step to
+13                    [1, 1, 1, 1],                                     better obey the single responsibility principle (Martin 2003),
+14                    [1, 1, 1, 1]])                                    which is why the code is now much more modular, stable and
+                                                                        extendable.
+Note that, as described above, for consistency with multi-domain
+fields f.domain returns a tuple of space(s) even though f was                The NIFTy standard-library contains the following spaces.
+defined on a single space.
+The second example shows a field that is defined over the Carte-
+sian product of a HEALPix sphere (Gorski et al. 2005) and a             4.1.2. RGSpace
+one-dimensional regular grid space.                                     The RGSpace (Regular Grid Space) represents an n-dimensional
+                                                                        toroidal manifold, i.e. the Cartesian product of n circles (S 1 ×
+ 1   In [4]: f = ift.Field(                                             ... × S 1 ). Since the grid is regular, each pixel has the same vol-
+ 2            domain =( ift. HPSpace (nside =64) ,
+ 3                      ift. RGSpace (shape =(128 ,))))
+                                                                        ume weight, which in turn is given by the pixels’ edge lengths,
+ 4   In [5]: f. shape                                                   i.e. the distances attribute. The harmonic partner space of an
+ 5   Out[5]: (49152 , 128)                                              RGSpace is again an RGSpace with identical shape but different
+ 6                                                                      grid lengths. Actually, the harmonic space’s grid is the reciprocal
+ 7   In [6]: f.dof                                                      lattice of the signal space’s grid. Hence, the pixels’ edge lengths
+ 8   Out[6]: 6291456                                                    in the harmonic grid are given by the inverse of the longest dis-
+                                                                        tances in the signal space grid9 .
+This can be used for a combined analysis of 128 energy bands             1   In [12]: signal_space = \
+for each pixel on a sphere. Note that the shape of f’s data array        2            ift. RGSpace (shape =(4, 5),
+is composed of the shape of a single HEALPix sphere (49152)              3                          distances =(0.8 , 0.4))
+and the regular grid space. Hence, the field has 6291456 degrees         4   In [13]: fft = ift. FFTOperator ( signal_space )
+of freedom in total.                                                     5   In [14]: f = ift.Field( signal_space ,
+The way to store data8 in NIFTy 3 is to define a field which lives       6                             val=np. arange (20.) )
+on no geometric space at all.                                            7   In [15]: g = fft(f)
+                                                                         8   In [16]: g. domain
+ 1   In [7]: f = ift.Field(                                              9   Out[16]: ( RGSpace (shape =(4, 5),
+ 2                 domain =ift. FieldArray ((128 ,)))                   10                       zerocenter =( False , False ),
+ 3                                                                      11                       distances =(0.3125 , 0.5) ,
+ 4   In [8]: f. shape                                                   12                       harmonic =True) ,)
+ 5   Out[8]: (128 ,)                                                    13   In [17]: f.norm ()
+                                                                        14   Out[17]: 28.114053425288926
+The domain concept generalizes so far that one can even define          15
+a field whose domain is empty:                                          16   In [18]: g.norm ()
+                                                                        17   Out[18]: 28.114053425288926
+ 1   In [9]: f = ift.Field( domain =() , val =123.)                     Note that the scalar product and therefore the norm remains in-
+ 2
+                                                                        variant, irrespective of whether the field was represented in the
+ 3   In [10]: f. shape
+ 4   Out[10]: ()                                                        signal or the harmonic basis.
+ 5                                                                      Additionally, the RGSpace class has the degree of freedom,
+ 6   In [11]: f.val                                                     whether the data should be stored zerocentered or not. If the
+ 7   Out[11]: <distributed_data_object >                                zerocenter attribute is set to true for a certain axis, the origin
+ 8           array (123.)                                               is put at the center of the data array. This means that in case of a
+                                                                        one-dimensional zero-centered harmonic space with 6 pixels the
+This represents a single scalar, without any further information;       values for k are placed like:
+neither geometrical nor structural.
+                                                                        {k−3 , k−2 , k−1 , k0 , k1 , k2 } for   ki   with i ∈ [−3, ..., 2]   (23)
+                                                                        9
+                                                                           Since the RGSpace represents an n-dimensional torus, the longest
+8
+   Here, data stands for the manifold-free result of a measurement in   distances are given by the circumferences of the individual circles the
+the sense of equation 1: d = f (s, n).                                  torus is made of.
+
+Article number, page 6 of 18
+                                               Theo Steininger et al.: NIFTy 3 – Numerical Information Field Theory
+
+In contrast, non-zero-centered ordering yields                                    section 2.4. The first weighting is induced by the harmonic part-
+                                                                                  ner space and uses the multiplicity ρ of the modes in each bin
+{k0 , k1 , k2 , k−3 , k−2 , k−1 }   for   ki    with i ∈ [−3, ..., 2]      (24)   as weights. This weighting is highly dependent on the structure
+                                                                                  of the harmonic partner space. The second weighting is induced
+Albeit being less convenient when looking at a spectrum by eye,                   by regarding the power space as a one-dimensional space on a
+fft libraries like FFTW (Frigo & Johnson 2005) usually follow                     (potentially) irregular grid, which induces a volume factor equal
+the non-zero-centered convention. NIFTy 3 can handle both con-                    to the bin size. The third weighting is obtained analogously to
+ventions and performs the mediation with respect to those exter-                  the second but differs by using a logarithmic axis log(k). It is
+nal libraries.                                                                    used when calculating smoothness on a log-log scale, which is
+                                                                                  required when a prior that favors power law spectra is wanted
+4.1.3. HPSpace                                                                    (cf. Enßlin & Frommert 2011). Finally, there is a trivial fourth
+                                                                                  weighting where the volume factors are constantly set to one.
+The HPSpace (HEALPix Space (Gorski et al. 2005)) represents                       This is, for example, needed in the critical filter (cf. Enßlin &
+a unit 2-sphere. The HEALPix pixelation subdivides the surface                    Frommert 2011).
+of a sphere into pixels of equal area. Those pixels reside on iso-
+latitude circles, with equal spacing on each circle. In NIFTy the
+represented sphere has a fixed radius of 1. Hence, the only re-                   4.1.7. Power Spectrum Analysis
+maining parameter for HPSpace is the HEALPix resolution pa-                       In this section we describe how the one-dimensional power spec-
+rameter nside. The harmonic partner space for HPSpace is the                      trum for a given field is computed. As mentioned in section
+LMSpace.                                                                          2.5, this one-dimensional quantity fully describes the correlation
+                                                                                  structure of statistically homogeneous and isotropic fields. The
+4.1.4. GLSpace                                                                    reason for this is that for such fields the statistical properties in
+                                                                                  the harmonic space solely depend on the distance to the origin,
+Similar to the HPSpace, the GLSpace (Gauss-Legendre Space)                        but not the direction.
+is a discretization of the unit 2-sphere. It consists of nlat iso-                The following example is in order: Let s be the discretization of
+latitude rings containing nlon pixels each. The pixels are equidis-               a two-dimensional Cartesian space and f a field on s:
+tant in azimuth on every ring, and the ring latitudes coincide
+with the roots of the Legendre polynomial of degree nlat . Within                  1   In [19]: s = ift. RGSpace (shape =(4 ,4) ,
+each ring the pixel weights are identical. However, the individual                 2                              zerocenter =True)
+                                                                                   3   In [20]: s
+weights for the different rings are chosen such that a numerical                   4   Out[20]: RGSpace (shape =(4, 4),
+integration is a Gauss quadrature that is exact for all spherical                  5                     zerocenter =(True , True),
+harmonics Ylm with l < nlat and |m| ≤ (nlon − 1)/2. The harmonic                   6                     distances =(0.25 , 0.25) ,
+partner of a GLSpace is the LMSpace.                                               7                     harmonic =False)
+                                                                                   8   In [21]: f = ift.Field( domain =s, val =1.)
+4.1.5. LMSpace                                                                    s has a total volume of 1 by default, which is the reason why the
+                                                                                  edge length of s’s pixels is equal to 0.25. To compute its power
+The LMSpace is the harmonic partner domain for a pixeliza-
+                                                                                  spectrum, f first must be transformed to the harmonic basis.
+tion of the unit 2-sphere. Its name is derived from the typically
+employed indices of the spherical harmonics Ylm . A LMSpace                        1   In [22]: fft = ift. FFTOperator (s)
+instance holds a value for every Ylm with −l ≤ m ≤ l and                           2   In [23]: f_h = fft(f)
+0 ≤ l ≤ lmax where lmax is the cutoff frequency. It can be a har-                  3   In [24]: s_h = f_h. domain [0]
+monic partner to either the HPSpace or the GLSpace. There is a                     4   In [25]: s_h
+                                                                                   5   Out[25]: RGSpace (shape =(4, 4),
+unique projection from LMSpace to HPSpace and to GLSpace,
+                                                                                   6                     zerocenter =(True , True),
+respectively. However, this projection is not necessarily invert-                  7                     distances =(1.0 , 1.0) ,
+ible; see section 4.2.1 for details. The volume weight is 1 for                    8                     harmonic =True)
+each of the pixels in LMSpace.
+                                                                                  Now, the power spectrum can be computed by:
+4.1.6. PowerSpace                                                                  1   In [26]: f_p = f_h. power_analyze ()
+
+The PowerSpace is used to condense the k-modes of a harmonic                      Note that the domain of f is a PowerSpace instance, viz. a one-
+space into a one-dimensional space, the discrete isotropic power                  dimensional irregularly gridded space with 6 pixels:
+spectrum. This is a natural step when analyzing statistically ho-                  1   In [27]: s_p = f_p. domain [0]
+mogeneous and isotropic fields, and the PowerSpace class pro-                      2   In [28]: s_p
+vides a rich functionality for this kind of analysis (cf. section                  3   Out[28]: PowerSpace (
+4.1.7). The PowerSpace condenses the information of a har-                         4        harmonic_partner =
+monic space of arbitrary dimension into a one-dimensional space                    5            RGSpace (shape =(4, 4),
+by defining bins into which the different k-modes are aggregated.                  6                     zerocenter =(True , True),
+By this, it enables data scientists to write algorithms that are in-               7                     distances =(1.0 , 1.0) ,
+                                                                                   8                     harmonic =True),
+dependent of the underlying space. The PowerSpace keeps in-
+                                                                                   9        distribution_strategy =’not ’,
+formation about the relation to its harmonic partner space for                    10        logarithmic =False ,
+both numerical efficiency and enabling field synthetization (cf.                  11        nbin=None ,
+section 4.1.8).                                                                   12        binbounds =None)
+Note that depending on the application there is an ambiguity to                   13   In [29]: f_p.shape
+what the correct volume weighting for this space should be, cf.                   14   Out[29]: (6,)
+
+                                                                                                                           Article number, page 7 of 18
+                                                  A&A proofs: manuscript no. NIFTy3
+
+Let’s      discuss      what        happened       during      the    variance in the harmonic partner space of the power space. After-
+f_h.power_analyze() call. Recall that f_h is defined                  wards, the modes are weighted according to the power spectrum
+on a 4 × 4 grid. First of all, s_h is asked for the distances with    that is stored in f_p.
+respect to the center:                                                Note that it is non-trivial to create the Gaussian random field
+ 1   In [30]: s_h. get_distance_array (’not ’)                        sample in case of real-valued signal-space fields. This is because
+ 2   Out[30]:                                                         the result of Fourier-transforming a real-valued signal space field
+ 3   <distributed_data_object >                                       (f) has a point symmetry with respect to the origin in the har-
+ 4   array ([[ 2.82 , 2.23 , 2. , 2.23] ,                             monic basis. This becomes particularly exigent if one synthe-
+ 5            [ 2.23 , 1.41 , 1. , 1.41] ,                            sizes a random field from a multi-dimensional power spectrum
+ 6            [ 2. , 1. , 0. , 1. ],                                  which is associated with the Cartesian product of two or more
+ 7            [ 2.23 , 1.41 , 1. , 1.41]])                            spaces. In this case one needs a well-engineered approach for
+There are several pixels which have the same distance to the cen-     handling the aforementioned field’s symmetry. This so-called
+ter. Those pixels together constitute a bin; hence, there are six     Hermitian decomposition is discussed in the next section.
+bins in total. A pixel’s bin-affiliation is stored in the so-called
+pindex array:                                                         4.1.9. Hermitian Decomposition
+ 1   In [31]: s_p. pindex
+ 2   Out[31]: <distributed_data_object >
+                                                                      Hermitian decomposition is needed for both, power spectrum
+ 3            array ([[5 , 4, 3, 4],                                  analysis and synthesis. Hence, in the following its rationale is
+ 4                    [4, 2, 1, 2],                                   discussed.
+ 5                    [3, 1, 0, 1],                                   The result of a harmonic transform of a real-valued field is in
+ 6                    [4, 2, 1, 2]])                                  general complex-valued.10 However, the degrees of freedom are
+                                                                      the same for both representations, since – as noticed in the previ-
+The multiplicity of each bin is given by rho; its distance to the
+                                                                      ous section – in the harmonic basis the field exhibits a point sym-
+grid center by kindex:
+                                                                      metry modulo complex conjugation. Therefore, it is called Her-
+ 1   In [32]: s_p.rho                                                 mitian symmetry. Because of the complex conjugation, the imag-
+ 2   Out[32]: array ([1, 4, 4, 2, 4, 1])                              inary part of the reflection’s fixed points vanishes. For power
+ 3   In [33]: s_p. kindex                                             spectrum analysis we need the functionality to decompose a
+ 4   Out[33]:                                                         field into its Hermitian and anti-Hermitian part. In addition, for
+ 5   array ([0. , 1., 1.41 , 2., 2.24 , 2.83])
+                                                                      power-spectrum synthesis of real fields, one needs normally dis-
+Concretely, calculating the power spectrum of f_h now means           tributed Hermitian random samples.
+accumulating the absolute squared of f_h’s pixel values in their      In the following example the harmonic representation of a real-
+respective bins and divide by rho to form the average. Assuming       valued random field is shown. The fixed points of the Hermitian
+the artificial case that f_h has the following values                 symmetry, where only real numbers should appear, are marked
+ 1   In [34]: f_h.val
+                                                                      red.
+ 2   Out[34]:                                                          1   In [37]: s = ift. RGSpace ((4, 4))
+ 3   <distributed_data_object >                                        2   In [38]: f = ift.Field(
+ 4   array ([[-1.+3.j, 4.+5.j, 2.+4.j, 0.+2.j],                        3                 s, val=np. random . random ((4 , 4)))
+ 5            [-3.+6.j,-3.+1.j,-4.+2.j, 3.+3.j],                       4   In [39]: f ∗ = 10.
+ 6            [ 1.+4.j, 2.+7.j,-4.+1.j, 4.+5.j],                       5   In [40]: f.val
+ 7            [ 3.+5.j,-2.+0.j,-3.+6.j,-3.+1.j]])                      6   Out[40]: <distributed_data_object >
+this results in                                                        7            array ([[0.7 , 9.5, 9.7, 8.1] ,
+                                                                       8                    [0.3 , 1.0, 6.8, 4.4] ,
+ 1   In [35]: f_p = f_h. power_analyze ()                              9                    [1.2 , 5.0, 0.3, 9.1] ,
+ 2   In [36]: f_p.val                                                 10                    [2.6 , 6.6, 3.1, 5.2]])
+ 3   Out[36]:                                                         11   In [41]: fft = ift. FFTOperator (s)
+ 4   <distributed_data_object >                                       12   In [42]: fft(f).val
+ 5   array ([ 17. , 39.75 , 10.5 , 18.5 , 31., 10.])                  13   <distributed_data_object >
+                                                                      14   array(
+Note that the power spectra we have discussed so far are always       15   [[4.8+0.j ,-0.8+0.3j,-1.3+0.j ,-0.8-0.3j],
+real. However, if a field’s domain is the Cartesian product of        16    [0.8+0.1j,-0.3-0.1j, 0.3-0.7j,-0.9+0.6j],
+multiple spaces, it can be necessary to keep track of the real and    17    [0.7+0.j ,-0.2+0.j ,-1.1+0.j ,-0.2-0.j ],
+imaginary part of f in the position basis separately. In NIFTy 3,     18    [0.8-0.1j,-0.9-0.6j, 0.3+0.7j,-0.3+0.1j]])
+this can be controlled with the keep_phase_information key-
+word in power_analyze. If it is set to true, the resulting power      Please note that, for example, the entry at position (2, 4) with
+spectrum will be complex. Its real (imaginary) part is constructed    value (−0.9 + 0.6i) is the complex conjugated partner of position
+from the real (imaginary) part of f. To avoid harmonic trans-         (4, 2) with value (−0.9 − 0.6i).
+forms whenever possible, the decomposition is done using Her-         As mentioned in section 4.1.7, for power-spectrum analysis it
+mitian symmetry constraints, see section 4.1.9 for details.           can be necessary to decompose a complex-valued position-space
+                                                                      field into its real and imaginary part. However, for signal infer-
+                                                                      ence often the native basis is a field’s harmonic space. In this
+4.1.8. Power Spectrum Synthesis
+                                                                      10
+                                                                         This is true if the customary transformation kernels are used; e.g.
+It is very important to be able to create random samples for a        for flat manifolds this is e−2πikx . However, in principle also sine and co-
+given power spectrum. For a field f_p in NIFTy 3, this can be         sine kernels are applicable, where the real/imaginary part of the field in
+done using the method f_p.power_synthesize(). This rou-               position space gets mapped onto the real/imaginary part of the field in
+tine draws a Gaussian random field with zero mean and unit            harmonic space, respectively.
+
+Article number, page 8 of 18
+                                    Theo Steininger et al.: NIFTy 3 – Numerical Information Field Theory
+
+case, one certainly could transform the field from its harmonic           fixed point’s imaginary part in case of the Hermitian portion. To
+into its position space basis, split real and imaginary parts there,      compensate this loss of power,√in this case the fixed points after
+and, finally, transform back. Nevertheless, one ought to avoid            all need a correction factor of 2, too.
+harmonic transforms whenever possible, since they are at least
+either computationally expensive, or even inherently inexact, cf.
+section 4.2.1. Luckily, as seen in the example above, the real part       4.2. Linear Operators
+of a position-space field corresponds to the Hermitian symmetric
+part of the harmonic-space partner field. Since harmonic trans-           Up to now we have introduced fields as well as their domain-
+forms are linear operations, the imaginary part corresponds to            objects. In the following paragraph we will show how linear
+the anti-symmetric part of the field, analogously. Hence, split-          and implicitly defined operators act on fields and how they are
+ting a position-space field into real and imaginary part is equiv-        implemented.
+alent to splitting the harmonic-space field into its Hermitian and        Every operator in NIFTy is obliged to be linear and therefore
+anti-Hermitian part.                                                      inherits from the abstract base class LinearOperator. This
+For synthetization of fields from power spectra, as discussed in          base class provides the user with a blueprint for any elaborated
+4.1.8, it is necessary to create a normal random field that lives         operator. A generic operator A is defined by its input and
+in harmonic space and has zero mean and unit variance. If the             target domains, the boolean whether it is unitary or not, and
+position space field shall be real, there are two approaches that         its actual action. With these properties at hand, the application
+correspond to those of the former paragraph. First, a real-valued         of A on a given field s, viz. A (s), is split into a generic and
+sample can be drawn in position space which is then transformed           a specific part. The generic part involves consistency checks,
+into the harmonic basis. For the reasons set out above, this ap-          e.g. whether the domain of s and A match, while the specific
+proach is sub-optimal. Second, a random sample can be created             part is the individual operator’s action. More specifically, the
+in harmonic space directly, from which the anti-Hermitian part is         application of A (s) is implemented as A(s) or equivalently
+removed. By this, again, any harmonic transforms are avoided.             as A.times(s). Here, times basically first calls the internal
+However, particular diligence is needed in order to preserve the          method _check_input_compatibility, which performs the
+correct variances.                                                        domain compatibility check for s and A. This is followed by the
+In the following it is discussed how a field can be decomposed            implementation of the operator’s action in _times.
+into its (anti-)Hermitian parts. A straightforward approach is to         In case s is defined over multiple domain-objects but A is not,
+use a reflection or flipping operator γ which performs a point            and A is supposed to act on a specific domain-object of s, one
+reflection with respect to a space’s center. Therefore for a given        pins the action of A to a certain space of s’s domain tuple.
+field f , the Hermitian and anti-Hermitian parts fh and fa , respec-      This is done by passing the information along with times, e.g.
+tively, are given by the half-sum and half-difference                     A.times(s, spaces=0), or by using the default_spaces
+         1                                                                keyword argument during the operator’s initialization. The
+fh   =     ( f + γ( f )∗ )                                        (25)    output of A(s) may live on a different domain, depending on the
+         2
+         1                                                                target of A.
+fa   =     ( f − γ( f )∗ ) ,                                      (26)    As one often needs more than the pure forward application
+         2                                                                of an operator on a field, i.e. .times, NIFTy allows the user
+where                                                                     to further implement _adjoint_times, _inverse_times,
+                                                                          and _adjoint_inverse_times if needed. In case A is
+f = fh + fa .                                                     (27)    unitary, one only needs to implement _inverse_times or
+                                                                          _adjoint_times, as NIFTy 3 does a mapping of methods
+This works perfectly fine for individual spaces and also gener-           internally. NIFTy 3 provides the user with a set of often reap-
+alizes for the Cartesian products of spaces. Assuming a field f           pearing operators. An overview can be found in table 1 and
+whose domain is (s1 , s2 ), the individual flips must be applied          figure A.2.
+consecutively before applying the complex conjugation.
+         1                                                                    In the following, two especially mentionable operators will
+fh   =     ( f + γ1 (γ2 ( f ))∗ )                                 (28)
+         2                                                                be described: the FFTOperator and SmoothingOperator.
+         1
+fa   =     ( f − γ1 (γ2 ( f ))∗ )                                 (29)
+         2
+                                                                          4.2.1. FFTOperator
+Correcting the variance When drawing samples for a given
+power spectrum it is necessary to create random samples with              The purpose of this operator is the conversion of data from the
+zero mean and unit variance. However, when forming the half-              spatial domain to the frequency domain and vice versa. For data
+sums and -differences of a Gaussian random field with the mir-            living on equidistant Cartesian grids (i.e. RGSpaces) this is more
+rored                                                                     or less straightforward to do: every configuration in position or
+   √ version of itself, its variance must be corrected by a factor        frequency domain has a unique corresponding configuration in
+of 211 . However, a priori the correction only applies to those
+pixels that got mapped to different pixels via the flipping. The          the other domain. The conversion between both sides is done
+pixels which the flip maps onto themselves, i.e. the fixed points         efficiently – and without information loss – using an FFT algo-
+of the flip, are averaged with themselves and therefore do not            rithm.
+need a variance correction factor. But once the sample is com-            For data living on the 2-sphere, things are more complicated:
+plex valued, the involved complex conjugation will eliminate the          first of all, it is not possible to define pairs of equivalent spaces
+                                                                          in the sense that data conversion is lossless in both directions for
+11
+   Recap that the sum of two Gaussian distributions is again a Gaussian   arbitrary maps. However, for any given LMSpace L a GLSpace
+distribution.                                                             G can be found, such that any data set living on L can be con-
+                                                                                                                   Article number, page 9 of 18
+                                                       A&A proofs: manuscript no. NIFTy3
+
+                                Table 1: Overview of provided Operators, inherited from LinearOperator
+
+           NIFTy Operator                                                                description
+     ,→ ComposedOperator                            represents a container of LinearOperators which are applied in sequence.
+     ,→ EndomorphicOperator                         represents all operators with equal domain and target.
+        ,→ DiagonalOperator                         represents a diagonal matrix in specified domain.
+        ,→ LaplaceOperator                          represents the discrete second derivative for 1D spaces.
+        ,→ ProjectionOperator                       projects the input onto a NIFTy field.
+        ,→ SmoothingOperator                        convolves the input with a Gaussian kernel.
+        ,→ SmoothnessOperator                       measures the smoothness of the input by applying the LaplaceOperator twice.
+     ,→ FFTOperator                                 implementation of harmonic transforms of fields between different domains.
+     ,→ ResponseOperator                            represents an exemplary response including convolutional smoothing and exposure.
+
+
+verted to G and back without losing information12 . In contrast,            the domain’s geometry. The result after multiplying the trans-
+it is not possible to find an LMSpace that can hold the harmonic            formed input data is reverted to the position domain by
+equivalent of all possible data sets living on a GLSpace. Hence,            calling FFTOperator’s adjoint_times method. Thus, the
+the set of band-limited functions on the sphere, which can be               caveats pertaining to transformations mentioned in the 4.2.1 for
+transformed without loss in both directions, is only a tiny subset          FFTOperator apply here as well.
+of all possible functions that can live on a GLSpace grid. When             Convolutional smoothing is available for all position spaces, i.e.
+solving problems on the sphere, it is therefore advantageous to             RGSpace, GLSpace and HPSpace. Internally, a method called
+formulate them primarily in harmonic space.                                 get_fft_smoothing_kernel_function is needed for the re-
+For the HEALPix discretization of the sphere, things are some-              spective harmonic partner domain; it returns a function which is
+what worse still: since no analytic quadrature rule for this set of         used to construct the kernel and is therefore defined on RGSpace
+pixels exists, any transform from LMSpace to HPSpace and back               and LMSpace. Note that the correct Gaussian kernel function for
+will only produce an approximation of the input data. In many               smoothing on the sphere is given by
+situations this is acceptable given the other advantages of this
+pixelization, like equal-area pixels. But this imperfection must                               1
+                                                                            Ksphere (l) = exp(− l(l + 1)σ2 )                              (30)
+be kept in mind when choosing pixelizations on which to solve                                  2
+a problem.
+                                                                            instead of the standard frequency response of a Gaussian filter
+In NIFTy 1 harmonic transformations are performed using a
+method of the particular field instance f, viz. f.transform().              K(k) = exp(−2(πkσ)2 ),                                        (31)
+This is a source of confusion and suggests general invert-
+ibility of the harmonic transform, since one could naively                  since one has to take into account the sphere’s curvature (cf.
+assume that f.transform().transform() is equal to f                         Challinor et al. 2000).
+– which is, incidentally, actually true for RGSpaces. In
+NIFTy 3 the FFTOperator solely implements the times and
+adjoint_times methods. The inverse_times is available if                    4.2.4. Direct Smoothing Operator
+and only if a certain transform path is explicitly marked to be             The main motivation behind this operator is the aforementioned
+unitary. This structure makes it very apparent when there is the            PowerSpace from section 4.1.6, which is based on a non-regular
+risk of information loss.                                                   grid. Since it is not periodic, this approach does not do a trans-
+                                                                            formation into harmonic space but applies smoothing directly.
+4.2.2. Smoothing Operator                                                   A point-by-point convolution is done on the space with a 1-
+                                                                            dimensional Gaussian kernel with standard deviation σ.
+This operator convolves a field with a Gaussian smoothing ker-              In a normal case of convolution with a kernel of window length
+nel. The preferred approach is to apply the convolution in po-              w (assume as odd for centered symmetric kernels) the result is
+sition space as a point-wise multiplication in harmonic space               shorter than the original data by w − 1 points, losing (w − 1)/2
+if possible. The PowerSpace is in general non-regularly grid-               points on each end of the data vector. Since this behavior is un-
+ded, which makes harmonic transformations hard, albeit not                  suitable as a solution for NIFTy, the convolution at the begin-
+impossible. But it is not periodic either, which is why convo-              ning and end of the array, is carried out with partial Gaussian
+lutional smoothing cannot be applied to it. For this case, the              kernels. Although this method is less accurate at the ends of the
+SmoothingOperator will perform its smoothing explicitly in                  data, it does not sacrifice information resolution at each smooth-
+position space.                                                             ing. Also note that, since the SmoothingOperator must con-
+                                                                            serve the sum of all field entries, on a non-regular grid the exact
+                                                                            smoothing behavior depends on the location within the grid. The
+4.2.3. Harmonic Smoothing Operator                                          denser a certain pixel’s neighborhood, the larger the number of
+This operator exploits the fact that a convolution in the spa-              weight receptors and therefore the lower the resulting Gaussian
+tial domain is equivalent to multiplication in the frequency                bell, when applying the SmoothingOperator on single peaks.
+domain. Hence, the input field is first transformed using the               An illustration for this behavior is given in figure 2. There, the
+FFTOperator. The Gaussian kernel to be multiplied is gen-                   result of smoothing a constant field with three dedicated peaks is
+erated with a standard deviation σ, given in the units of                   shown. Since the smoothing happens on a logarithmic scale, the
+                                                                            peak’s weight is distributed to a different number of pixels for
+12
+   Numerical noise caused by the finite precision of floating-point alge-   each peak. The code that was used to produce the plots in figure
+bra can slightly break invertibility, though.                               2 is given by
+Article number, page 10 of 18
+                                                      Theo Steininger et al.: NIFTy 3 – Numerical Information Field Theory
+
+ 1     import nifty as ift                                                                   functionals. Its interface provides the current value, its gradient
+ 2     power_space = ift. PowerSpace (                                                       and curvature at its position. To avoid multiple evaluations of the
+ 3                        ift. RGSpace ((2048) ,                                             same quantity, intermediate results can be memorized and reused
+ 4                                      harmonic =True))                                     later. To ensure consistency when reusing intermediate results,
+ 5     f = ift. Field ( power_space , val =1.)                                               an Energy class instance in NIFTy 3 is fixed to one certain po-
+ 6     f.val [[50 , 100, 500]] = 10
+ 7     sm = ift. SmoothingOperator (
+                                                                                             sition. Setting a new position therefore creates a new instance
+ 8                                 power_space ,                                             of the class. Energy instances are passed to minimizers, which
+ 9                                 sigma =0.1 ,                                              perform the actual numerical minimization. The position of the
+10                                 log_distances =True)                                      passed instance is used as the starting point of the minimization.
+11     plotter = ift. plotting . PowerPlotter ()                                             NIFTy 3 provides implementations for steepest descent, VL-
+12     plotter . figure .xaxis.label = ’Pixel index ’                                        BFGS (Chen et al. 2014) and a relaxed Newton scheme. Those
+13     plotter . figure .yaxis.label = ’Field value ’                                        methods differ in how the descent direction is determined. Steep-
+14     plotter (f, path=’unsmoothed .html ’)                                                 est descent just follows the downhill gradient. VL-BFGS incor-
+15     plotter (sm(f), path=’smoothed .html ’)                                               porates prior steps to estimate the curvature of the energy land-
+                                                                                             scape, suggesting an improved direction. The relaxed Newton
+                                                                                             minimizer makes use of the full local curvature, additionally pro-
+4.3. Operator Inversion                                                                      viding an estimate of the step size which is optimal in a quadratic
+There are cases in which the inverse action of an operator is                                potential. After calculating the descent direction, a line search
+needed, but not analytically accessible and therefore not di-                                along this very direction is done to determine the – with respect
+rectly implementable. An example for this is the propagator op-                              to the the Wolfe conditions – optimal step size. This is iterated
+erator in the Wiener filter (cf.                                                            until the convergence criterion is satisfied or the maximum num-
+                              equation 15), where the quan-                                 ber of steps has been reached.
+tity D−1 = S −1 + R† N −1 R must be inverted. For such cases
+NIFTy 3 provides a robust implementation of the conjugate gra-
+dient method, following Nocedal & Wright (2006).                                             4.6. Parallelization & Cluster Compatibility
+Additionally, NIFTy 3 supplies the user with the special class
+                                                                                             The software package D2O (Steininger et al. 2016) was origi-
+InvertibleOperatorMixin. In conjunction with multiple in-
+                                                                                             nally developed for massively parallelizing NIFTy by distribut-
+heritance, this mixin-class (cf. Lutz 2010, p. 599), can be used
+                                                                                             ing the fields’ data arrays among multiple nodes in a MPI cluster.
+to equip a custom operator with missing *_times methods. For
+                                                                                             If two fields are distributed with the same distribution strategy
+example, if solely the inverse_times of a custom operator is
+                                                                                             individual nodes hold the same part of each of the fields’ arrays.
+implemented, the mixin-class will provide the times via conju-
+                                                                                             With this ansatz, numerical operations like adding two fields in-
+gate gradient.
+                                                                                             volve no communication and hence exhibit excellent scaling be-
+                                                                                             havior. Please refer to Steininger et al. (2016) for an exhaus-
+4.4. Probing                                                                                 tive discussion. As a consequence, in contrast to NIFTy 1 the ar-
+                                                                                             rays in NIFTy 3 are distributed_data_objects, rather than
+NIFTy 1 already provided a class for probing the trace and di-                               numpy.ndarrays. Due to this strong encapsulation, most of its
+agonal of an implicitly defined operator A by evaluating the fol-                            code base and the work with NIFTy 3 is agnostic of paralleliza-
+lowing expressions:                                                                          tion. By utilizing D2O, NIFTy can operate on high performance
+               D      E                 X            D       E         X                     computing clusters and thus terabytes of RAM. This renders a
+        tr[A] ≈ ξ† Aξ               =            A pq ξ p ξq       →         A pp ,   (32)   large quantity of new applications possible, like high-resolution
+                              {ξ}                            {ξ}
+                                            pq                           p                   runs of 3D reconstructions, cf. (Greiner et al. 2016; Böhm et al.
+                                  X     D       E                                        2017), and Faraday synthesis algorithms (Bell & Enßlin 2012).
+    diag[A]           ≈ hξ ∗ Aξi{ξ} =   A pq ξ p ξq                      → A pp ,     (33)   Another side product of NIFTy 3 is the keepers package13 , which
+                  p                     p                          {ξ}
+                                                  q                                          is aimed at making scientific research on clusters as conve-
+where h · i{ξ} is the sample average of fields ξ which have                                  nient as possible. To be precise, this involves classes and func-
+               D    E                                                                        tionality for cluster-compatible logging, convenient algorithm
+the property ξ p ξq       → δ pq for #{ξ} → ∞, and ∗ denotes
+                      {ξ}                                                                    parametrization, storing NIFTy objects to disk in a versioned
+component-wise multiplication (Selig et al. 2013, sec. 3.4).                                 fashion and therefore allowing for restartable jobs.
+However, especially if the operator evaluation involves a con-
+jugate gradient, the probing can account for the majority of an
+algorithm’s computational costs, which is why several heuristics                             5. Application: Wiener Filter Reconstructions
+turned out to be useful in practice. Namely, in iterative schemes,
+it can be beneficial to reuse some or even all probes {ξ} and/or                             5.1. Case 1: Single Space Geometry
+utilize the former results as starting points for the conjugate gra-                         Figure 3 shows an exemplary implementation of the Wiener filter
+dient runs. To naturally allow for such heuristics, the prober class                         with NIFTy 3. First, the parameters that characterize the mock
+has been completely rewritten for NIFTy 3: now it exhibits spe-                              signal’s correlation structure are set up (lines 8ff.). Then, start-
+cial call-hooks for customization.                                                           ing with line 18, the domain geometry is specified: here, a single
+                                                                                             regular gridded two-dimensional Cartesian space is used. Af-
+4.5. Energy Object & Minimization                                                            terwards, in lines 26ff., a signal covariance is defined to create
+                                                                                             the mock signal that shall be reconstructed by the Wiener filter
+Inferring posterior parameters typically requires the minimiza-                              later. In line 35 an exemplary response operator is set up which
+tion of some energy functional, such as the Information Hamil-                               acts via smoothing and masking on the input signal. After set-
+tonian or a Kullback-Leibler divergence. The Energy class pro-
+                                                                                             13
+vides the structure required for efficient implementation of such                                 https://gitlab.mpcdf.mpg.de/ift/keepers
+
+                                                                                                                                    Article number, page 11 of 18
+                                                    A&A proofs: manuscript no. NIFTy3
+
+
+
+
+                (a) Unsmoothed field with three peaks.                         (b) Smoothed field with different height for each peak.
+
+Fig. 2: Illustration of the behavior of smoothing an input field (a) on a non-regular grid or on a non-regular scale, respectively, which
+yields (b). Here, the field was smoothed on a logarithmic scale.
+
+
+ting up a noise covariance and creating a noise sample, in line        code that was used to produce the plots given in figure 5 is avail-
+44 the mock data is created. In line 49 the actual Wiener fil-         able as a demo in the NIFTy 3 code release, which is available
+ter is performed by applying the propagator operator D, which          here: https://gitlab.mpcdf.mpg.de/ift/NIFTy.
+coincides with the inverse of the information Hamiltonian’s cur-
+vature. Once the reconstruction is done, an uncertainty map is
+computed (lines 52ff.). Therefore, a prober class with the de-         6. Conclusion
+sired probing-targets – here only the diagonal – is constructed        NIFTy 3 allows the programming of field equations independent
+via multiple inheritance. After this, a prober instance is created,    of the underlying geometry or resolution. This freedom is par-
+which is then applied to the Wiener filter curvature operator. Be-     ticularly desirable in the implementation of inference algorithms
+cause the wiener_curvature operates in harmonic space, but             of continuous quantities. This behavior is achieved by an object-
+the probes must be evaluated in position space, Fourier trans-         oriented structure which cleanly separates the abstract mathe-
+forms are wrapped around the operator in line 55. Please note          matical operations from the underlying numerical calculations.
+that the reconstruction’s variance is given by the bare diagonal       By using layers of abstraction the operations are kept general and
+entries, viz. no volume factors included, of the inverse curvature,    simple while preserving the continuum limit. Normalizations are
+which is the reason for the inverse weighting in line 57. Finally,     applied automatically without the need of specification by the
+the lines 59ff. produce the plots that are shown in figure 4.          user. NIFTy 3 comes with full support of n-dimensional Carte-
+                                                                       sian spaces, the surface of the sphere and product spaces gener-
+5.2. Case 2: Cartesian Product Space Geometry                          ated from them. Other geometries can be included in a straight-
+                                                                       forward fashion due to the layers of abstraction in NIFTy 3.
+As discussed in section 4.1, one of the crucial features of            Algorithms implemented with NIFTy 3 are suitable to be run on
+NIFTy 3 is that fields can be defined on the Cartesian product of      HPC clusters with (almost) no MPI awareness needed from the
+multiple individual spaces. This makes it possible to easily im-       user. With NIFTy 3 formulas can be transformed easily into code
+plement inference algorithms that reconstruct signals which have       and, conversely, code can be easily read as formulas. This allows
+a mixed correlation structure. In the above case, a Wiener filter      both, rapid prototyping and the implementation of large-scale al-
+was applied in the context of a two-dimensional regular grid ge-       gorithms.
+ometry. With NIFTy 3 this can easily be extended to, for exam-         NIFTy 3 has been developed to ease the implementation of in-
+ple, the case of the Cartesian product of two one-dimensional          ference algorithms on continuous quantities. Therefore, it is ap-
+regular grid spaces, shown in figure 5. Now the power spectrum         plicable in various areas. The first version of NIFTy already
+for each space-component of the signal field differs. Addition-        enabled numerous inference projects including many imaging
+ally, the response operator has individual smoothing lengths and       algorithms performing interferometry, tomography (both astro-
+masks for each of the spaces. In this example, the power spec-         nomical and medical) or deconvolution, but also more abstract
+trum of the space drawn on the vertical axis is steeper than the       inference algorithms such as the estimation of cosmological pa-
+one of the horizontal space. As a consequence, the field pos-          rameters or instrument calibration. With the additional power of
+sesses small scale structure primarily in the horizontal direction.    NIFTy 3 it can already be observed that this variety now grows
+A remarkable consequence of this is reflected in the uncertainty       even further.
+map. Although the occlusion mask is equally broad for each             NIFTy 3 is open-source software available under the GNU Gen-
+space, the uncertainty is much higher in the direction of the hor-     eral Public License v3 (GPL-3) at https://gitlab.mpcdf.
+izontal space. There, the Wiener filter is not able to interpolate     mpg.de/ift/NIFTy/.
+as well as for the large scale dominated vertical space.               Acknowledgements. Part of this work was supported by the Studienstiftung des
+Since the structure of the code for the case of a Cartesian prod-      deutschen Volkes.
+uct of spaces is very similar to the one in figure 3 – actually, one
+mainly has to define the two individual geometries respectively –
+the code is not shown explicitly here. For interested readers, the
+Article number, page 12 of 18
+                                 Theo Steininger et al.: NIFTy 3 – Numerical Information Field Theory
+
+
+ 1   import nifty as ift
+ 2   import numpy as np
+ 3   from keepers import Repository
+ 4
+ 5   if __name__ == " __main__ ":
+ 6       ift. nifty_configuration [’default_distribution_strategy ’] = ’fftw ’
+ 7
+ 8       # Setting up parameters
+ 9       correlation_length_scale = 1. # Typical distance over which the field is correlated
+10       fluctuation_scale = 2.          # Variance of field in position space
+11       response_sigma = 0.05           # Smoothing length of response (in same unit as L)
+12       signal_to_noise = 1.5           # The signal to noise ratio
+13       np. random .seed (43)           # Fixing the random seed
+14       def power_spectrum (k):         # Defining the power spectrum
+15            a = 4 ∗ correlation_length_scale ∗ fluctuation_scale ∗ ∗ 2
+16            return a / (1 + (k ∗ correlation_length_scale ) ∗ ∗ 2) ∗ ∗ 2
+17
+18       # Setting up the geometry
+19       L = 2. # Total side - length of the domain
+20       N_pixels = 512 # Grid resolution ( pixels per axis)
+21       signal_space = ift. RGSpace ([ N_pixels , N_pixels ], distances =L/ N_pixels )
+22       harmonic_space = ift. FFTOperator . get_default_codomain ( signal_space )
+23       fft = ift. FFTOperator ( harmonic_space , target = signal_space , target_dtype =np.float)
+24       power_space = ift. PowerSpace ( harmonic_space )
+25
+26       # Creating the mock signal
+27       S = ift. create_power_operator ( harmonic_space , power_spectrum = power_spectrum )
+28       mock_power = ift.Field( power_space , val= power_spectrum )
+29       mock_signal = fft( mock_power . power_synthesize ( real_signal =True))
+30
+31       # Setting up an exemplary response
+32       mask = ift.Field( signal_space , val =1.)
+33       N10 = int( N_pixels /10)
+34       mask.val[N10 ∗ 5: N10 ∗ 9, N10 ∗ 5: N10 ∗ 9] = 0.
+35       R = ift. ResponseOperator ( signal_space , sigma =( response_sigma ,), exposure =(mask ,))
+36       data_domain = R. target [0]
+37       R_harmonic = ift. ComposedOperator ([fft , R], default_spaces =[0, 0])
+38
+39       # Setting up the noise covariance and drawing a random noise realization
+40       N = ift. DiagonalOperator ( data_domain , diagonal = mock_signal .var ()/ signal_to_noise ,
+41                                   bare=True)
+42       noise = ift.Field. from_random ( domain = data_domain , random_type =’normal ’,
+43                                        std= mock_signal .std ()/np.sqrt( signal_to_noise ), mean =0)
+44       data = R( mock_signal ) + noise
+45
+46       # Wiener filter
+47       j = R_harmonic . adjoint_times (N. inverse_times (data))
+48       wiener_curvature = ift. library . WienerFilterCurvature (S=S, N=N, R= R_harmonic )
+49       m_k = wiener_curvature . inverse_times (j)
+50       m = fft(m_k)
+51
+52       # Probing the uncertainty
+53       class Proby(ift. DiagonalProberMixin , ift. Prober ): pass
+54       proby = Proby( signal_space , probe_count =800)
+55       proby ( lambda z: fft( wiener_curvature . inverse_times (fft. inverse_times (z))))
+56       sm = ift. SmoothingOperator ( signal_space , sigma =0.03)
+57       variance = ift.sqrt(sm(proby. diagonal . weight (-1)))
+58
+59       # Plotting
+60       plotter = ift. plotting . RG2DPlotter ( color_map = plotting . colormaps . PlankCmap ())
+61       plotter . figure .xaxis = ift. plotting .Axis(label=’Pixel Index ’)
+62       plotter . figure .yaxis = ift. plotting .Axis(label=’Pixel Index ’)
+63       plotter .plot.zmax = variance .max (); plotter .plot.zmin = 0
+64       plotter (variance , path = ’uncertainty .html ’)
+65       plotter .plot.zmax = mock_signal .max (); plotter .plot.zmin = mock_signal .min ()
+66       plotter ( mock_signal , path=’mock_signal .html ’)
+67       plotter (ift.Field( signal_space , val=data.val), path=’data.html ’)
+68       plotter (m, path=’map.html ’)
+
+Fig. 3: A full-feature Wiener filter implementation in NIFTy 3, including mock-data creation, signal reconstruction, uncertainty
+estimation, and plotting of the results.                                                             Article number, page 13 of 18
+                                                    A&A proofs: manuscript no. NIFTy3
+
+
+
+
+                           (a) Mock signal.                          (b) Data, which is the result of smoothing, masking and additive noise.
+
+
+
+
+               (c) Maximum a-posteriori reconstruction.                                       (d) Uncertainty map.
+
+                 Fig. 4: Illustration of a Wiener filter reconstruction. The labeling of the axes shows pixel numbers.
+
+
+
+
+Article number, page 14 of 18
+                                   Theo Steininger et al.: NIFTy 3 – Numerical Information Field Theory
+
+
+
+
+  (a) Mock signal with two individual power spectra for each space.   (b) Data, which is the result of smoothing, masking and additive noise.
+
+
+
+
+              (c) Maximum a-posteriori reconstruction.                          (d) Uncertainty map shown on a logarithmic scale.
+
+Fig. 5: Illustration of a Wiener filter reconstruction in the context of the Cartesian product of two one-dimensional regular grid
+spaces. The labeling of the axes shows pixel numbers.
+
+
+
+
+                                                                                                               Article number, page 15 of 18
+                                                 A&A proofs: manuscript no. NIFTy3
+
+References                                                          Selig, M., Oppermann, N., & Enßlin, T. A. 2012, Phys. Rev. E,
+                                                                      85, 021134
+Bell, M. R. & Enßlin, T. A. 2012, A&A, 540, A80                     Selig, M., Vacca, V., Oppermann, N., & Enßlin, T. A. 2015,
+Böhm, V., Hilbert, S., Greiner, M., & Enßlin, T. A. 2017, ArXiv       A&A, 581, A126
+  e-prints [arXiv:1701.01886]                                       Shannon, C. E. 1948, Bell System Technical Journal, 27, 379
+Buscombe, D. 2016, Computers and Geosciences, 86, 92                Steininger, T., Greiner, M., Beaujean, F., & Enßlin, T. 2016,
+Byrd, R. H., Lu, P., Nocedal, J., & Zhu, C. 1995, SIAM J. Sci.        Journal of Big Data, 3, 17
+  Comput., 16, 1190                                                 Vacca, V., Oppermann, N., Enßlin, T., et al. 2016, A&A, 591,
+Challinor, A., Fosalba, P., Mortlock, D., et al. 2000, Physical       A13
+  Review D, 62                                                      Wiener, N. 1949, Extrapolation, Interpolation, and Smoothing of
+Chen, W., Wang, Z., & Zhou, J. 2014, in Advances in Neu-              Stationary Time Series (New York: Wiley)
+  ral Information Processing Systems 27, ed. Z. Ghahramani,
+  M. Welling, C. Cortes, N. D. Lawrence, & K. Q. Weinberger
+  (Curran Associates, Inc.), 1332–1340
+Cox, R. T. 1946, American Journal of Physics, 14, 1
+Dorn, S. & Enßlin, T. A. 2015, Phys. Rev. E, 92, 013302
+Dorn, S., Enßlin, T. A., Greiner, M., Selig, M., & Boehm, V.
+  2015a, Phys. Rev. E, 91, 013311
+Dorn, S., Greiner, M., & Enßlin, T. A. 2015b, J. Cosmology As-
+  tropart. Phys., 2, 041
+Enßlin, T. A. & Frommert, M. 2011, Physical Review D, 83,
+  105014
+Enßlin, T. A., Frommert, M., & Kitaura, F. S. 2009, Phys. Rev. D,
+  80, 105005
+Enßlin, T. A. & Weig, C. 2010, Phys. Rev. E, 82, 051112
+Fletcher, R. & Powell, M. J. D. 1963, The Computer Journal, 6,
+  163
+Frigo, M. & Johnson, S. G. 2005, Proceedings of the IEEE, 93,
+  216, special issue on “Program Generation, Optimization, and
+  Platform Adaptation”
+Gorski, K. M., Hivon, E., Banday, A., et al. 2005, The Astro-
+  physical Journal, 622, 759
+Greiner, M., Schnitzeler, D. H. F. M., & Enßlin, T. A. 2016,
+  A&A, 590, A59
+Hestenes, M. R. & Stiefel, E. 1952, Journal of Research of the
+  National Bureau of Standards, 409
+Hutchinson, M. 1989, Communications in Statistics - Simulation
+  and Computation, 18, 1059
+Junklewitz, H., Bell, M. R., Selig, M., & Enßlin, T. A. 2016,
+  A&A, 586, A76
+Knollmüller, J. & Enßlin, T. A. 2017, ArXiv e-prints
+  [arXiv:1705.02344]
+Liu, D. C. & Nocedal, J. 1989, Mathematical Programming, 45,
+  503
+Lutz, M. 2010, Programming Python: Powerful Object-Oriented
+  Programming (O’Reilly Media)
+Martin, R. 2003, Agile Software Development: Principles, Pat-
+  terns, and Practices, Alan Apt series (Pearson Education)
+Metropolis, N., Rosenbluth, A. W., Rosenbluth, M. N., Teller,
+  A. H., & Teller, E. 1953, The Journal of Chemical Physics,
+  21, 1087
+Nocedal, J. & Wright, S. 2006, Numerical Optimization,
+  Springer Series in Operations Research and Financial Engi-
+  neering (Springer New York)
+Oppermann, N., Junklewitz, H., Greiner, M., et al. 2015, A&A,
+  575, A118
+Oppermann et al., N. 2012, A&A, 542, A93
+Porqueres, N., Enßlin, T. A., Greiner, M., et al. 2017, Astron.
+  Astrophys., 599, A92
+Pumpe, D., Greiner, M., Müller, E., & Enßlin, T. A. 2016,
+  Phys. Rev. E, 94, 012132
+Selig, M., Bell, M. R., Junklewitz, H., et al. 2013, A&A, 554,
+  A26
+Selig, M. & Enßlin, T. A. 2015, A&A, 574, A74
+Article number, page 16 of 18
+                                Appendix A: Class Structure
+
+
+                                                                                                DomainObject
+                                                                                          *shape: tuple
+                                                                                          *dim: int
+                                                                                          *weight(data, ...)
+                                                                                          pre_cast(data, axes)
+                                                                                          post_cast(data, axes)
+
+
+
+
+                                                                                                                                                                                                                   Theo Steininger et al.: NIFTy 3 – Numerical Information Field Theory
+                                                                                                                                 Space
+                                                                     FieldType                            *harmonic: boolean
+                                                                 weight(data, ...)                        *total_volume: int
+                                                                                                          *copy()
+                                                                                                          *hermitian_decomposition(data, ...)
+                                                                    FieldArray                            *get_distance_array(distribution_strategy)
+                                                                                                          *get_fft_smoothing_kernel_function(sigma)
+
+
+
+
+                                                                                            RGSpace                                                                GLSpace
+                                                                                                                               HPSpace
+                                                                                      zerocenter: tuple                                                          nlat: int
+                                                                                                                             nside: int
+                                                                                      distances: tuple                                                           nlon: int
+
+
+                                                                                                                                               PowerSpace
+                                                                                            LMSpace                           config: dict
+                                                                                                                              harmonic_partner: Space
+
+
+
+
+Article number, page 17 of 18
+                                                                                           lmax: int
+                                                                                           mmax: int                          kindex, pundex, rho: np.ndarray
+                                                                                                                              pindex, k_array: distributed_data_object
+
+                                Fig. A.1: UML diagram that shows DomainObject and its descendants. For the derived classes only added attributes and methods are given. All superordinate attributes and
+                                methods apply implicitly to the child classes, too, since NIFTy 3 strictly obeys the Liskov substitution principle. Abstract attributes and methods are denoted with a *; Unless
+                                specified explicitly, they are implemented only by the leafs of the inheritance tree.
+Article number, page 18 of 18
+                                                                                                                 LinearOperator
+                                                                                                      *domain: tuple of DomainObjects
+                                                                                                      *target: tuple of DomainObjects
+                                                                                                      *unitary: bool
+                                                                                                      †times(data, ...)
+                                                                                                      †inverse_times(data, ...)
+                                                                                                      †adjoint_times(data, ...)
+                                                                                                      †adjoint_inverse_times(data, ...)
+                                                                                                      †inverse_adjoint_times(data, ...)
+
+
+
+
+                                           FFTOperator                              ComposedOperator                           ResponseOperator                           EndomorphicOperator
+
+
+
+
+                                                                                                                                                                                                                      A&A proofs: manuscript no. NIFTy3
+                                                                                                                                                                   target := domain
+                                    times(data, ...)                        times(data, ...)                               times(data, ...)                        *self_adjoint: tuple
+                                    adjoint_times(data, ...)                ...                                            adjoint_times(data, ...)                inverse_times(data, ...)
+                                                                            inverse_adjoint_times(...)                                                             adjoint_times(data, ...)
+                                                                                                                                                                   adjoint_inverse_times(data, ...)
+                                         LaplaceOperator
+                                                                                                                                                                   inverse_adjoint_times(data, ...)
+                                    times(data, ...)
+                                    adjoint_times(data, ...)
+
+
+
+
+                                       SmoothingOperator                           SmoothnessOperator                      ProjectionOperator                                 DiagonalOperator
+                                    sigma: float                                  strength: float                        projection_field: Field                   diagonal: Field
+                                    log_distances: bool                           logarithmic: bool                      times(data, ...)                          times(data, ...)
+                                    times(data, ...)                              times(data, ...)                       inverse_times(data, ...)                  inverse_times(data, ...)
+                                    inverse_times(data, ...)                                                                                                       adjoint_times(data, ...)
+                                                                                                                                                                   adjoint_inverse_times(data, ...)
+
+                                Fig. A.2: UML diagram that shows the inheritance structure for the NIFTy Operators. For the derived classes only added attributes and methods are given. All superordinate
+                                attributes and methods apply implicitly to the child classes, too, since NIFTy 3 strictly obeys the Liskov substitution principle. Abstract attributes and methods are denoted with
+                                a *; Unless specified explicitly, they are implemented only by the leafs of the inheritance tree. For the LinearOperator class, the † signals, that the methods are defined, though
+                                not implemented.
+

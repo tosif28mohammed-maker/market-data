@@ -1,13 +1,14 @@
 {
- "run_utc": "2026-11-22 17:44",
+ "run_utc": "2026-11-22 20:03",
  "sources": 62,
- "failed": [],
- "new_items": 57,
- "kept": 35,
+ "failed": [
+  "Moneycontrol market reports"
+ ],
+ "new_items": 8,
+ "kept": 2,
  "transcripts_ok": 0,
  "transcript_errors": {
-  "VideoUnplayable": 2,
-  "RequestBlocked": 6
+  "RequestBlocked": 2
  },
  "books_new": []
 }

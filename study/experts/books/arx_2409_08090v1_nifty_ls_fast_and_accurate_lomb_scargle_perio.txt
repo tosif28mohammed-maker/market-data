@@ -1,0 +1,189 @@
+nifty-ls: Fast and Accurate Lomb-Scargle Periodograms Using a Non-Uniform FFT (arXiv 2409.08090v1, open access paper)
+
+                                                 Draft version September 13, 2024
+                                                 Typeset using LATEX default style in AASTeX631
+
+
+
+
+                                                          nifty-ls: Fast and Accurate Lomb-Scargle Periodograms Using a Non-Uniform FFT
+                                                            Lehman H. Garrison            ,1 Dan Foreman-Mackey             ,2 Yu-hsuan Shih,3 and Alex Barnett4
+                                                                  1 Scientific Computing Core, Flatiron Institute, 162 Fifth Avenue, New York, NY 10010, USA
+                                                            2 Center for Computational Astrophysics, Flatiron Institute, 162 Fifth Avenue, New York, NY 10010, USA
+                                                                            3 NVIDIA Corporation, 2788 San Tomas Expy, Santa Clara, CA 95051, USA
+                                                            4 Center for Computational Mathematics, Flatiron Institute, 162 Fifth Avenue, New York, NY 10010, USA
+
+
+
+
+arXiv:2409.08090v1 [astro-ph.IM] 12 Sep 2024
+                                                                                                               ABSTRACT
+                                                          We present nifty-ls, a software package for fast and accurate evaluation of the Lomb-Scargle
+                                                       periodogram. nifty-ls leverages the fact that Lomb-Scargle can be computed using a non-uniform
+                                                       FFT (NUFFT), which we evaluate with the Flatiron Institute NUFFT package (finufft). This
+                                                       approach achieves a many-fold speedup over the Press & Rybicki (1989) method as implemented in
+                                                       Astropy and is simultaneously many orders of magnitude more accurate. nifty-ls also supports fast
+                                                       evaluation on GPUs via CUDA and integrates with the Astropy Lomb-Scargle interface. nifty-ls
+                                                       is publicly available as open-source software.
+
+
+                                                       Keywords: Astronomy software (1855) — Lomb-Scargle periodogram (1959) — GPU computing (1969)
+
+
+                                                                                                             1. INTRODUCTION
+                                                 The Lomb-Scargle periodogram is a widely-used analysis tool for astronomical time-series data1 (Lomb 1976; Scargle
+                                               1982; c.f. VanderPlas 2018). However, its direct computation is prohibitively slow: for a number of observations Nd and
+                                               number of periodogram frequencies Nf , the work has time complexity O(Nd Nf ). The popular Press & Rybicki (1989)
+                                               method (hereafter PR89) addresses this by posing the computation as four weighted trigonometric sums solved with
+                                               a pair of fast Fourier transforms (FFTs) on an equi-spaced grid. The unevenly sampled data points are interpolated
+                                               to this grid by a process that PR89 call “extirpolation.” The trigonometric sums take the form:
+                                                                        Nd
+                                                                        X                                                  Nd
+                                                                                                                           X
+                                                                 Sk =         hj sin(2πfk tj ),                     Ck =         hj cos(2πfk tj ),   k = 0, 1, . . . , Nf ,      (1)
+                                                                        j=1                                                j=1
+
+                                               where fk is the cyclic frequency of bin k, tj are the observation times (of which there are Nd ), and hj are the
+                                               weights. The PR89 method approximates these sums via extirpolation, which, with the FFT, reduces the work to
+                                               O(Nd + Nf log Nf ). This is the default algorithm in popular packages like Astropy (Astropy Collaboration et al.
+                                               2018) and LombScargle.jl2 . Indeed, the algorithm is simply called fast by Astropy3 .
+                                                 We observe (following, e.g., Leroy 2012) that Eqs. 1 are exactly the equations of a non-uniform fast Fourier transform
+                                               (NUFFT). A NUFFT is an extension of the FFT to unevenly sampled data (Dutt & Rokhlin 1993). Specifically, a
+                                               type 1 (non-uniform to uniform, also known as “adjoint”) complex NUFFT evaluates
+                                                                                          Nd
+                                                                                          X
+                                                                                   gk =         hj eiktj ,     k = −Nf /2, −Nf /2 + 1, . . . , Nf /2.                            (2)
+                                                                                          j=1
+
+                                               In modern NUFFT algorithms, the accuracy of evaluation ε is a user-controlled parameter that may be chosen as
+                                               small as desired, down to nearly machine precision. Higher accuracy increases the cost per nonuniform data point:
+
+                                                1 For recent improvements in time-series analysis with unevenly sampled data, see Wilber et al. (2024) or Dodson-Robinson & Haley (2024),
+
+                                                  which also use finufft.
+                                                2 https://github.com/JuliaAstro/LombScargle.jl
+
+                                                3 https://docs.astropy.org/en/v6.1.x/timeseries/lombscargle.html
+2
+
+                          101         Astropy (fast method)                                              101
+                                      nifty-ls (finufft)
+                                      nifty-ls (finufft, parallel)                                      10 2
+                          100         nifty-ls (cufinufft)
+
+
+
+        Time (seconds)                                                               Fractional error
+                                      Linear scaling                                                    10 5
+                         10 1                                                                           10 8
+                         10 2                                                                           10 11
+                                                                                                                      50th & 99th percentile   finufft
+                         10 3                                                                           10 14         Astropy                  cufinufft
+                                                                                                                      Astropy (worst case)
+                                                                                                        10 17
+                                102        103           104         105    106                                 103               104           105
+                                                         Nd                                                                         Nd
+Figure 1. Left panel: the time to compute the periodogram of a time series with Nd observations and Nf ≈ 12Nd frequencies.
+The “Astropy fast” method is the PR89 method. The three nifty-ls methods use the finufft (CPU), finufft (multi-
+threaded CPU), and cufinufft (CUDA GPU) backends. Right panel: the accuracy of the periodogram. The “Astropy (worst
+case)” and “Astropy” results use a number of frequency bins just before and after the threshold that yields a factor-of-2 jump
+in the size of the internal FFT, typically increasing accuracy. The plotted Nd values are staggered for clarity.
+
+
+specifically, the NUFFT time cost is O(Nd log ε−1 + Nf log Nf ). We see that the real and imaginary parts of gk are
+PR89’s Ck and Sk respectively, for frequencies fk = k/2π.
+  We evaluate the NUFFT with finufft, the Flatiron Institute NUFFT (Barnett et al. 2019; Barnett 2021). The
+finufft approach is similar in spirit to PR89—upsample the data to a fine grid, perform an FFT, then correct with
+a diagonal rescaling—but finufft has a near-optimal spreading kernel (an “exponential of semicircle”) that it uses
+instead of extirpolation. Its width and fine grid size are carefully chosen to match the user tolerance ε, and manual
+SIMD-vectorized piecewise polynomials makes kernel evaluation extremely fast. finufft also supports multi-threaded
+CPU evaluation and GPU evaluation via CUDA (Shih et al. 2021), with best-in-class performance and accuracy.
+  We implement this finufft-based Lomb-Scargle periodogram in the nifty-ls software package. nifty-ls is writ-
+ten in Python, with some modules implemented using C++ and OpenMP for performance. It provides a backend
+to the Astropy Lomb-Scargle interface, so code that uses Astropy can benefit with minimal changes (setting
+method="fastnifty" in Astropy calls). nifty-ls is developed as open-source software on GitHub4 , with binary
+distributions available on PyPI.
+
+                                                                            2. RESULTS
+  We characterize the performance and accuracy of nifty-ls in Fig. 1. We use nifty-ls version 1.0.1, finufft
+version 2.3, and Astropy version 6.1.3. As a test dataset, we use a double-precision time series with Nd ∈ 102 , 106
+and use the default Astropy Nf ≈ 12Nd . We use (up to) 16 cores of a Intel Xeon Ice Lake processor for the finufft
+(CPU) backend and and 1 NVIDIA A100 GPU for the cufinufft (GPU) backend.
+
+                                                                           2.1. Performance
+  nifty-ls is several times faster than Astropy fast on using a single CPU thread, with speedups of 2× on small
+transforms to 5× on large. This is seen in the left panel of Fig. 1. CPU multi-threading helps large transforms, yielding
+a 11× speedup over Astropy, although the improvement is sub-linear in the number of threads (a well-known result
+for FFTs, since the time is dominated by memory accesses). The performance can be summarized by around 107
+output frequencies per second on the CPU, or 108 on the GPU. Additionally, nifty-ls exposes a batched processing
+mode for sets of time series with the same observation times, which can more efficiently use CPU and GPU parallelism.
+  Using the GPU via cufinufft, nifty-ls is 200× faster than Astropy for large Nd . For small Nd , the problem is
+not large enough to overcome GPU overheads or saturate the GPU. Still, for Nd as small as 4000 there is a benefit
+over finufft, which extends to smaller Nd for batched transforms.
+
+    4 https://github.com/flatironinstitute/nifty-ls/
+                                                                                                                                      3
+
+  Our tests also suggest that the NUFFT approach is more efficient than a brute-force (i.e. quadratic complexity)
+CUDA evaluation of Eqs. 1 in the style of Townsend (2010) and Gowanlock et al. (2021). The latter work reports a
+single-object rate of about 2×107 frequencies per second on a P100 GPU, which is about the speed of our CPU version,
+and several times slower than our GPU version even after accounting for the naive 2.4× performance advantage of the
+A100.
+
+                                                                2.2. Accuracy
+   nifty-ls is many orders of magnitude more accurate than Astropy fast, using default settings for both. On this
+dataset, it is conservatively 6 orders of magnitude better. This is shown in the right panel of Fig. 1. For each method,
+the median and 99th percentile of the periodogram error distribution is shown. Furthermore, for Astropy, two cases
+are considered. Internally, Astropy uses an FFT whose size is the next power of 2 above the specified oversampling
+rate. A jump in FFT size typically yields an increase in accuracy. Thus, we expect the worst accuracy to be from the
+largest Nf that does not yield such a jump. This is labeled “Astropy (worst case)” in the Figure. The case labeled
+“Astropy” is the first Nf after such a jump.
+   For Astropy in the baseline case, median errors are about 0.1%, while the 99th percentile error is a few percent
+(with a few excursions to larger errors). In the worst case, however, the median error is typically 1% and the 99th
+percentile is 10% to 100% or greater.
+   nifty-ls demonstrates greater accuracy for both backends, with median relative errors of 10−11 to 10−8 , and 99th
+percentile errors of 10−8 to 10−6 . We note that the condition number of the problem5 imples that errors in Eqs. 1
+cannot in principle be smaller than O(Nf εmach ), where εmach is machine precision. For double precision, εmach ≈ 10−16 ,
+so the minimum achievable error for a transform of length Nf = 105 is about 10−11 . Were we to use single precision,
+with εmach ≈ 10−7 , the minimum achievable error would be quite large, about 10−2 . Hence, we restrict our tests to
+double precision and recommend its use in large periodograms.
+   Astropy has several parameters that can be tuned to yield more accurate results, but these come at the cost of
+performance. Likewise, nifty-ls can produce lower-precision results slightly faster than reported above, but with
+Nf ≈ 12Nd , the FFT time dominates over the spreading time.
+   The reference result here is a direct evaluation of the trigonometric sums in Eqs. 1, using exact angle-sum trigonomet-
+ric identities to accelerate the computation (a “phase winding” method). Using Astropy fast with “use fft=False”
+(which does a brute-force evaluation) yields the same result.
+   In summary, nifty-ls provides greater accuracy and speed than extirpolation-based methods, and thanks to its
+Astropy integration and available binary distributions, has a low barrier to adoption. We hope that this will provide
+an improved experience for users of the Lomb-Scargle periodogram.
+
+LG would like to thank Soichiro Hattori for early feedback, testing, and fixes.
+
+
+                                                            REFERENCES
+Astropy Collaboration, Price-Whelan, A. M., Sipőcz, B. M.,              Dutt, A., & Rokhlin, V. 1993, SIAM J. Sci. Comput., 14,
+  et al. 2018, AJ, 156, 123, doi: 10.3847/1538-3881/aabc4f                 1369
+Barnett, A. H. 2021, Applied and Computational Harmonic                  Gowanlock, M., Kramer, D., Trilling, D. E., Butler, N. R.,
+  Analysis, 51, 1,                                                         & Donnelly, B. 2021, Astronomy and Computing, 36,
+  doi: https://doi.org/10.1016/j.acha.2020.10.002                          100472, doi: 10.1016/j.ascom.2021.100472
+Barnett, A. H., Magland, J., & af Klinteberg, L. 2019,                   Leroy, B. 2012, A&A, 545, A50,
+  SIAM Journal on Scientific Computing, 41, C479,                          doi: 10.1051/0004-6361/201219076
+  doi: 10.1137/18M120885X                                                Lomb, N. R. 1976, Ap&SS, 39, 447,
+Dodson-Robinson, S., & Haley, C. 2024, AJ, 167, 22,                        doi: 10.1007/BF00648343
+  doi: 10.3847/1538-3881/ad0c58
+                                                                         Press, W. H., & Rybicki, G. B. 1989, ApJ, 338, 277,
+                                                                           doi: 10.1086/167197
+  5 See https://finufft.readthedocs.io/en/latest/trouble.html            Scargle, J. D. 1982, ApJ, 263, 835, doi: 10.1086/160554
+4
+
+Shih, Y., Wright, G., Anden, J., Blaschke, J., & Barnett,   Townsend, R. H. D. 2010, The Astrophysical Journal
+                                                              Supplement Series, 191, 247,
+    A. H. 2021, in 2021 IEEE International Parallel and
+                                                              doi: 10.1088/0067-0049/191/2/247
+    Distributed Processing Symposium Workshops              VanderPlas, J. T. 2018, ApJS, 236, 16,
+    (IPDPSW) (Los Alamitos, CA, USA: IEEE Computer            doi: 10.3847/1538-4365/aab766
+                                                            Wilber, H., Epperly, E. N., & Barnett, A. H. 2024, arXiv
+    Society), 688–697,
+                                                              e-prints, arXiv:2404.13223,
+    doi: 10.1109/IPDPSW52791.2021.00105                       doi: 10.48550/arXiv.2404.13223
+

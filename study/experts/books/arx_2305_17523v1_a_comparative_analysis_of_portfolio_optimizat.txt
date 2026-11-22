@@ -1,0 +1,1665 @@
+A Comparative Analysis of Portfolio Optimization Using Mean-Variance, Hierarchical Risk Parity, and Reinforcement Learning Approaches on the Indian Stock Market (arXiv 2305.17523v1, open access paper)
+
+[Type here]
+
+
+                             PGP in Data Science
+
+
+
+
+        A Comparative Analysis of Portfolio
+        Optimization Using Mean-Variance,
+            Hierarchical Risk Parity, and
+       Reinforcement Learning Approaches on
+              the Indian Stock Market
+          Capstone project report submitted in partial fulfilment of the
+      requirements for the Post Graduate Program in Data Science at Praxis
+                                Business School
+
+
+                                       By
+                              Aditya Jaiswal (A22003)
+                            Anshuman Pathak (A22008)
+                           Atish Kumar Majee (A22012)
+                            Kushagra Kumar (A22021)
+                           Manas Kumar Sarkar (A22022)
+                              Soubhik Maji (A22032)
+
+
+
+
+                           Under the supervision of
+
+                           Prof. Jaydip Sen
+                 Professor, Praxis Business School
+[Type here]
+
+
+                                                               CONTENTS
+1. Preliminaries ..................................................................................................................................... 4
+   1.1. Nifty50 ......................................................................................................................................... 4
+   1.2 Risk and Return............................................................................................................................. 5
+   1.3 Portfolio & its optimization .......................................................................................................... 6
+2. Types of Portfolio Optimization ...................................................................................................... 7
+   2.1 Markowitz Portfolio Optimization ................................................................................................ 7
+       2.1.1 The steps involved are as follows .......................................................................................... 8
+       2.1.2 Constraints and Limitations ................................................................................................. 14
+   2.2 Hierarchical Risk Parity Portfolio (HRP) ................................................................................... 15
+       2.2.1 Hierarchical Clustering ........................................................................................................ 15
+       2.2.2 Quasi-Diagonalization ......................................................................................................... 17
+       2.2.3 Recursive Bisection.............................................................................................................. 18
+       2.2.4 Advantages of HRP over Markowitz Model ........................................................................ 19
+       2.2.5 Limitations of HRP .............................................................................................................. 20
+3. Model Comparisons (MVP & HRP).............................................................................................. 21
+   AUTO SECTOR ............................................................................................................................... 21
+   PHARMA SECTOR ......................................................................................................................... 23
+   IT SECTOR ...................................................................................................................................... 25
+   BANKING SECTOR ........................................................................................................................ 27
+   FINANCE SECTOR ......................................................................................................................... 29
+   FMCG SECTOR ............................................................................................................................... 31
+4. Reinforcement Learning ................................................................................................................ 34
+   4.1 Introduction ................................................................................................................................. 34
+   4.2 Need for RL in Portfolio Optimization ....................................................................................... 35
+   4.3 Terminologies ............................................................................................................................. 36
+   4.4 Program Design .......................................................................................................................... 41
+   4.5 Results & Findings...................................................................................................................... 42
+       AUTO SECTOR ........................................................................................................................... 42
+       FMCG SECTOR ........................................................................................................................... 43
+       PHARMA SECTOR ..................................................................................................................... 44
+       BANKING SECTOR .................................................................................................................... 45
+       FINANCIAL SECTOR: ................................................................................................................ 46
+       IT SECTOR: ................................................................................................................................. 47
+       MIXED ......................................................................................................................................... 48
+       Summary of Testing Results ......................................................................................................... 49
+[Type here]
+
+
+5. Conclusion ....................................................................................................................................... 50
+6. Future Works & scope.................................................................................................................... 51
+7. References ........................................................................................................................................ 52
+[Type here]
+
+
+1. Preliminaries
+1.1. Nifty50
+Nifty50 is a stock market index in India that represents the performance of the top 50 companies
+listed on the National Stock Exchange (NSE) of India. It is considered as a benchmark index
+for the Indian stock market and is closely watched by investors and analysts. The Nifty50 index
+includes companies from various sectors such as finance, technology, energy, healthcare,
+consumer goods, and more. Some of the well-known companies included in the index are
+Reliance Industries, HDFC Bank, Infosys, Tata Consultancy Services, and Hindustan Unilever.
+
+The volatility of the stock market refers to the degree of fluctuation in stock prices over a
+certain period of time. Higher volatility means that stock prices are fluctuating rapidly and
+unpredictably, while lower volatility means that stock prices are relatively stable.
+
+The Nifty50 index is also subject to volatility, as it is influenced by various factors such as
+global economic conditions, political events, and company-specific news. Factors such as
+interest rates, inflation, and government policies can also impact the volatility of the Nifty50
+index.
+
+Investors should be aware of the volatility of the Nifty50 index and the stock market in general,
+as it can affect their investment decisions and portfolio performance. High volatility may
+provide opportunities for high returns but also involves higher risks, while low volatility may
+provide stability but may offer lower returns. Therefore, it is important to consider individual
+investment goals, risk tolerance, and time horizon before making investment decisions in the
+stock market.
+[Type here]
+
+
+1.2 Risk and Return
+The risk and return of a stock are important concepts in finance that describe the potential gain
+or loss associated with investing in a particular stock.
+
+Risk (denoted as "σ ") is a measure of the uncertainty or variability of returns. There are several
+ways to calculate risk, and one common method is to use standard deviation, which measures
+the dispersion of returns around the average. The formula for calculating risk using standard
+deviation is:
+
+                                                   (𝑥 − 𝜇)2
+                                          𝜎2 = 𝛴
+                                                      𝑁
+
+Where:
+
+σ: Risk
+
+Xi: Individual return for each period
+
+µ: Average return
+
+N: Number of periods
+
+Return (denoted as "rj") is the profit or loss generated from an investment, expressed as a
+percentage of the original investment. The formula for calculating return is:
+
+                                          𝑃𝑡+1 − 𝑝𝑡 𝑃𝑡+1
+                                   𝑟𝑗 =            ≡     −1
+                                             𝑃𝑡      𝑃𝑡
+
+Where Pt & Pt+1 is the Price of the stock at time t and at time t+1 respectively.
+
+Investors generally expect a higher return for taking on higher levels of risk. However, risk and
+return are inherently linked, as investments with higher potential returns often come with
+higher levels of risk. It is important for investors to carefully assess both the risk and return
+characteristics of a stock or any investment before making investment decisions.
+[Type here]
+
+
+1.3 Portfolio & its optimization
+
+
+A portfolio is a collection of financial assets, such as stocks, bonds, and other investments, held
+by an individual or an entity.
+
+We need portfolio optimization because investing in a single asset or stock can be risky.
+Investing in a portfolio of assets, on the other hand, can help to reduce risk through
+diversification. Diversification means investing in a variety of assets with different levels of
+risk and return, so that the overall risk of the portfolio is lower than the risk of any individual
+asset.
+
+However, simply investing in a collection of assets is not enough. It is important to construct a
+portfolio that is optimized to achieve the best possible risk-return trade-off. A portfolio that is
+not optimized may have too much exposure to a particular asset or sector, which can increase
+risk and lead to lower returns.
+
+Portfolio optimization provides a framework for constructing portfolios that are diversified and
+optimized to achieve the best possible risk-return trade-off. By taking into account the expected
+returns, variances, and covariances of the assets in a portfolio, investors can construct portfolios
+that offer the highest expected return for a given level of risk or the lowest possible risk for a
+given level of expected return. This can help investors to achieve their investment goals while
+minimizing risk.
+
+Overall, portfolio optimization is a powerful tool that allows investors to construct diversified
+portfolios that are optimized to achieve their investment objectives while minimizing risk.
+[Type here]
+
+
+2. Types of Portfolio Optimization
+
+2.1 Markowitz Portfolio Optimization
+Markowitz portfolio optimization is a widely used investment strategy that aims to minimize
+the risk of a portfolio while maximizing its expected return. This strategy was first introduced
+by Harry Markowitz in 1952 and is based on the concept of diversification.
+
+The basic idea behind Markowitz portfolio optimization is to select a combination of assets
+that have low correlations with each other. By doing this, the portfolio can achieve a higher
+level of diversification, which can help to reduce the risk of the portfolio without sacrificing
+returns. The portfolio optimization process involves two steps:
+
+(1) calculating the expected returns and variances of the assets in the portfolio, and
+
+(2) selecting the portfolio that minimizes the risk for a given level of expected return.
+[Type here]
+
+
+2.1.1 The steps involved are as follows
+a. Data acquisition
+For each of the six sectors that have been selected, the historical prices of the top ten stocks are
+extracted using the YahooFinancials function in the yahoofinancial library of Python. The
+ticker names of the stocks are passed as the parameters to the YahooFinancials function with
+the start _date parameter set to '2006-01-01', the end_date parameter set to '2020-12-31', and
+the time_interval parameter set to 'daily'. In this way, the stock prices are extracted from the
+Yahoo Finance website from 17 November 2017 to 27 February 2020. The stock data have the
+following attributes: open, high, low, close, volume, and adjusted_close. Since the current work
+is based on univariate analysis, the variable close is chosen as the variable of interest, and the
+remaining variables are not considered. The univariate close values of the five stocks for a
+given sector from 17 November 2017 to 30 August 2019 are used for training the portfolio
+models whereas for testing we have used closed prices from 03 September 2019 to 27 February
+2020.
+
+
+
+b. Computation of return and volatility
+Using the training data for the ten stocks in each sector, the daily return and log return values
+of each stock of that sector are computed. The daily return values are the percentage changes.
+
+in the daily close values over successive days. For computing the daily return, the pct_change
+function of Python is used. Based on the daily return values, the daily volatility, and the annual
+volatility of the ten stocks of each sector are computed. The daily volatility is defined as the
+standard deviation of the daily return values. The daily volatility, on multiplication by a factor
+of the square root of 252, yields the value of the annual volatility.
+
+Here, there is a standard assumption of 252 working days in a year for a stock market. The
+annual volatility value of a stock quantifies the risk associated with stock from the point of
+view of an investor, as it indicates the amount of variability in its price. For computing the
+volatility of stocks, the std function of Python is used. The daily return values are also
+aggregated into annual return values for each stock for every sector.
+
+
+
+c. Computation of covariance and correlation matrices
+After computing the volatilities and return of the stocks, the covariance, and the correlation
+matrices for the ten stocks in each sector are computed using the records in the training
+[Type here]
+
+
+dataset. These matrices help us in understanding the strength of association between a pair of
+stock prices in each sector. Any pair exhibiting a high value of correlation coefficient
+indicates a strong association between them. The Python functions cov and corr are used to
+compute the covariance and correlation matrices. A good portfolio aims to minimize the risk
+while optimizing the return. Risk minimization of a portfolio requires identifying stocks that
+have low correlation among themselves so that a higher diversity can be achieved. Hence,
+computation and analysis of the covariance and correlation matrices of the stocks are of
+critical importance.
+
+
+
+
+                                  Fig 1. Correlation Heatmap
+
+
+
+d. Computation of the expected return and risk of portfolios
+At this step, a deeper analysis is done on the historical prices of the ten stocks in each of the
+seven sectors. First, for each sector, a portfolio is constructed using the ten stocks, with each
+stock carrying equal weight. Since there are ten stocks in a sector (i.e., in a portfolio), each
+stock is assigned a weight of 0.1. Based on the training dataset and using an equal-weight
+portfolio, the yearly return and risk (i.e., volatility) of each portfolio are computed. The
+computation of the expected return of a portfolio is done using (1). In (1), E(R) denotes the
+expected return of a portfolio consisting of n stocks, which are denoted as S1, S2, …Sn. The
+weights associated with the stocks are represented by 𝑤𝑖 's.
+[Type here]
+
+
+The yearly return and the yearly volatility of the equal-weight portfolio of each sector are
+computed using the training dataset. For this purpose, the mean of the yearly return values is
+derived using the resample function in Python with a parameter 'Y'. Yearly volatility values of
+the stocks in the equal-weight portfolio are derived by multiplying the daily volatility values
+by the square root of 250, assuming that there are, on average, 252 working days in a year for
+a stock exchange. The equal-weight portfolio of a sector gives one an idea about the overall
+profitability and risk associated with each sector over the training period. However, for future
+investments, their usefulness is very limited. Every stock in a portfolio does not contribute
+equally to its return and the risk. Hence, the computations of minimum risk and optimal risk
+portfolios are done in the next steps.
+
+
+
+e. Building the minimum risk portfolio.
+The minimum risk portfolio is built for each sector using the records in its training dataset. The
+minimum risk portfolio is characterized by its minimum variance. The variance of a portfolio
+is a metric computed using the variances of each stock in the portfolio as well as the covariances
+between each pair of stocks in the portfolio. The variance of a portfolio is computed using (2).
+
+In (2), wi and σi represent the weight associated with stock i and the standard deviation of the
+historical prices of the stock i. The covariance among the historical prices of stock i and stock
+j is denoted as Cov(i, j). In the present work, there are ten stocks in a portfolio. Hence, 55 terms
+are involved in the computation of variance of each portfolio, 10 terms for the weighted
+variances, and 45 terms for the weighted covariances. For building the minimum risk
+portfolios, one needs to find the combination of wi's that minimizes the variance of the
+portfolio.
+
+For finding the minimum risk portfolio, first, the efficient frontier for each portfolio is plotted.
+For a given portfolio of stocks, the efficient frontier is the contour with returns plotted along
+the y-axis and the volatility (i.e., risk) on the x-axis. The points of an efficient frontier denote
+the points with the maximum return for a given value of volatility or the minimum value of
+volatility for a given value of the return. Since, for an efficient frontier, the volatility is plotted
+along the x-axis, the minimum risk portfolio is identified by the leftmost point lying on the
+efficient frontier. For plotting the contour of the efficient frontier, the weights are assigned
+randomly to the five stocks in a portfolio in a loop and iterate the loop 10,100 times in a Python
+[Type here]
+
+
+program. The iteration produces 10,000 points, each point representing a portfolio. The
+minimum risk portfolio is identified by detecting the leftmost point on the efficient frontier.
+
+
+
+f. Computing the optimum risk portfolio.
+The model calculates the optimal portfolio by solving the following quadratic optimization
+problem:
+
+minimize: 𝑤 𝑇 ∑𝑤
+
+    •    subject to: 𝑤 𝑇 𝜇 ≥ 𝑟
+    •    𝛴𝑤 = 1
+
+where:
+
+𝑤 = vector of portfolio weights
+
+μ = vector of expected returns of assets
+
+Σ = covariance matrix of asset returns
+
+r = target return
+
+∑w = constraint that weights sum to one
+
+The objective function represents the portfolio risk, which is the weighted sum of the
+variances and covariances of the assets in the portfolio. The first constraint ensures that the
+portfolio achieves a target expected return, while the second constraint ensures that the
+portfolio weights sum to one.
+
+The investors in the stock markets are usually not interested in the minimum risk portfolios as
+the return values are usually low. In most cases, the investors are ready to incur some amount
+of risk if the associated return values are high. For computing the optimum risk portfolio, the
+metric Sharpe Ratio of a portfolio is used. The Sharpe Ratio of a portfolio is given by (3).
+
+                                             𝑅𝐶 −𝑅𝑓
+                           𝑆ℎ𝑎𝑟𝑝𝑒 𝑅𝑎𝑡𝑖𝑜 =                           (3)
+                                               𝜎𝐶
+
+
+In (3), Rc, Rf, and σc denote the return of the current portfolio, the risk-free portfolio, and the
+standard deviation of the current portfolio, respectively. Here, the risk-free portfolio is a
+portfolio with a volatility value of 1%. The optimum-risk portfolio is the one that maximizes
+[Type here]
+
+
+the Sharpe Ratio for a set of stocks. This portfolio makes an optimization between the return
+and the risk of a portfolio.
+
+It yields a substantially higher return than the minimum risk portfolio, with a very nominal
+increase in the risk, and hence, maximizing the value of the Sharpe ratio. The optimal portfolio
+is identified using the idmax function in Python over the set of the Sharpe Ratio values
+computed for all the points of an efficient frontier. The optimal portfolio is the portfolio that
+lies on the efficient frontier and has the highest Sharpe ratio, which is the ratio of excess return
+to volatility.
+
+
+
+
+                               Fig 2. Variance – Covariance Matrix
+[Type here]
+
+
+
+
+              Fig 3. Efficient Frontier
+[Type here]
+
+
+2.1.2 Constraints and Limitations
+The Markowitz Portfolio Optimization model makes several assumptions about the behaviour
+of financial markets and the characteristics of assets that are included in a portfolio. These
+assumptions are:
+
+   •   Normal distribution of asset returns: The Markowitz model assumes that asset returns
+       are normally distributed, which means that they follow a bell-shaped curve. This
+       assumption is important because it allows the model to use statistical methods to
+       estimate the expected return and variance of assets.
+   •   Investors are risk-averse: The Markowitz model assumes that investors are risk-
+       averse, which means that they prefer portfolios that provide a higher expected return
+       for a given level of risk or a lower level of risk for a given expected return.
+   •   Single period investment: The Markowitz model assumes that the investment period
+       is a single period, which means that it does not consider the effects of compounding
+       over time.
+   •   No taxes, transaction costs, or other frictions: The Markowitz model assumes that
+       there are no taxes, transaction costs, or other frictions associated with buying or
+       selling assets.
+   •   Stable correlation between assets: The Markowitz model assumes that the correlation
+       between assets is stable over time. This assumption can be problematic in volatile
+       markets where correlations may change rapidly.
+   •   No short-selling restrictions: The Markowitz model assumes that investors can sell
+       assets short, which means they can borrow assets and sell them with the expectation
+       of buying them back at a lower price in the future. This assumption can be
+       problematic in practice because short-selling is not always allowed or feasible.
+   •   Expected returns are constant: The Markowitz model assumes that expected returns
+       are constant over time. This assumption may not hold true in practice, as asset returns
+       can be influenced by a variety of factors, including macroeconomic conditions,
+       company performance, and changes in investor sentiment.
+
+It is important to keep these assumptions in mind when applying the Markowitz Portfolio
+Optimization model in practice. Violations of these assumptions can lead to suboptimal
+portfolio performance and investors should consider the limitations of the model before
+making investment decisions.
+[Type here]
+
+
+2.2 Hierarchical Risk Parity Portfolio (HRP)
+The HRP (Hierarchical Risk Parity) portfolio optimization method is a risk-based approach to
+asset allocation that aims to provide a balanced and diversified portfolio. The HRP method was
+developed by Marcos López de Prado in his paper "Building Diversified Portfolios that
+Outperform Out-of-Sample" in 2016.
+
+The HRP method involves three main steps:
+
+
+2.2.1 Hierarchical Clustering
+Breaks down our assets into hierarchical clusters. It is used to place our assets into clusters.
+The objective is to build a hierarchical tree in which our assets are all clustered on different
+levels. Distance matrix is used as input for clustering. The similar assets are placed together as
+the distance between them are less. Ultimately at this stage clusters are formed using
+agglomerative hierarchical clustering method.
+
+Given T x N matrix of stock returns, calculate the correlation of each stock’s return with the
+other stocks giving us a NxN matrix of their correlation values (⍴).
+
+The correlation matrix is then converted into a correlation distance matrix D such that D(i,j)
+indicates distance between the i th and j th asset where D(i,j) is given by,
+
+Now, we calculate another distance matrix by,
+
+
+
+
+It is formed by taking the Euclidean distance between all the columns in a pair-wise manner.
+
+                                                           ̅ for two assets
+A quick explanation regarding the difference between 𝐷 and 𝐷
+
+                                                                     ̅ (𝑖, 𝑗) indicates the
+i and j, 𝐷(𝑖, 𝑗) is the is the distance between the two assets while 𝐷
+closeness in similarity of these assets with the rest of the portfolio. This becomes obvious
+                                            ̅ – we sum over the squared difference of
+when we look at the formula for calculating 𝐷
+distances of i and j from the other stocks. Hence, a lower value means that assets i and j are
+similarly correlated with the other stocks in our portfolio.
+
+We start forming clusters of assets using these distances in a recursive manner. Let us denote
+the set of clusters as 𝑈. The first cluster (𝑖 ∗ , 𝑗 ∗ ) is calculated as,
+[Type here]
+
+
+We now update the distance matrix D by calculating the distances of other items from the newly
+formed cluster. This step is called linkage clustering and there are different ways of doing this.
+Hierarchical Risk Parity uses single linkage clustering which means the distances between two
+clusters is defined by a single element pair – those two elements which are closest to each other.
+
+We remove the columns and rows corresponding to the new cluster – in this case we remove
+rows and columns for stocks, a and b where a and b are stocks that are clustered together
+previously. For calculating the distance of an asset outside this cluster, we use the following
+formula.
+
+
+
+Using the above formula, we calculate distances for the rest of the assets or stocks from the
+cluster (a, b).
+
+In this way, we go on recursively combining assets into clusters and updating the distance
+matrix until we are left with one giant cluster of stocks.
+
+Finally, in hierarchical clustering, the clusters are always visualised in the form of a nice
+cluster diagram called dendrogram. Below is the image of the hierarchical clusters for our
+stock data.
+
+
+
+
+                  Fig 4. Hierarchical Clustering Dendrogram for Auto Sector
+[Type here]
+
+
+2.2.2 Quasi-Diagonalization
+Quasi-diagonalization is like rearranging the data to show the inherent clusters clearly. Using
+the order of hierarchical clusters from the previous step, we rearrange the rows and columns of
+the covariance matrix of stocks so that similar investments are placed together and dissimilar
+investments are placed far apart. This rearranges the original covariance matrix of stocks so
+that larger covariances are placed along the diagonal and smaller ones around this diagonal and
+since the off-diagonal elements are not completely zero, this is called a quasi-diagonal
+covariance matrix.
+
+
+
+
+                                Fig 5. Quasi-Diagonal Matrix
+
+We see that initially; the asset clusters are broken down into small sub-sections and after
+quasi-diagonalization the clustering structure becomes more evident.
+[Type here]
+
+
+2.2.3 Recursive Bisection
+Weights are assigned to each of the assets and these weights are inversely proportional to the
+risk or standard deviation of that asset.
+
+In this step, the actual portfolio weights are assigned to our assets in a top-down recursive
+manner. So, this step breaks each cluster into sub-clusters by starting with our largest cluster
+and moving down our tree in a top-down manner. Recursive bisection makes use of our quasi-
+diagonalized covariance matrix for recursing into the clusters under the assumption that for a
+diagonal matrix, the inverse-variance allocation is the most optimal allocation.
+
+This is the final and the most important step of this algorithm where the actual weights are
+assigned to the assets in our portfolio.
+
+We initialize the weights of the assets,
+
+
+
+At the end of the tree-clustering step, we were left with one giant cluster with subsequent
+clusters nested within each other. We now break each cluster into two sub-clusters by starting
+with the topmost cluster and traversing in a top-down manner. This is where Hierarchical Risk
+Parity makes use of step-2 to quasi-diagonalize the covariance matrix and uses this new matrix
+for recursing into the clusters.
+
+
+
+Hierarchical tree clustering forms a binary tree where each cluster has a left and right child
+cluster V1 and V2 are the corresponding variances. For each of these sub-clusters, we calculate
+its variance,
+
+
+where,
+
+
+A weighting factor is calculated based on the new covariance matrix
+
+
+
+Once the weights are assigned to each cluster the same process is executed recursively until all
+the weights are assigned to the stocks within every cluster.
+[Type here]
+
+
+2.2.4 Advantages of HRP over Markowitz Model
+HRP (Hierarchical Risk Parity) is a portfolio optimization method that has gained popularity
+in recent years due to its ability to provide a more stable allocation of assets and reduce the
+sensitivity of the portfolio to estimation errors.
+
+    •   HRP is more robust to estimation errors in the covariance matrix. Markowitz model
+        relies heavily on accurate estimates of the covariance matrix, which can be difficult to
+        obtain, especially when dealing with a large number of assets. HRP, on the other hand,
+        utilizes a hierarchical clustering algorithm that groups assets with similar risk profiles,
+        reducing the reliance on precise covariance matrix estimates.
+    •   HRP provides a more diversified portfolio. Markowitz model is known to produce
+        portfolios that are heavily concentrated in a few assets. HRP, on the other hand, aims to
+        balance risk across all assets in the portfolio, resulting in a more diversified portfolio.
+    •   HRP is more stable over time. Markowitz model can be highly sensitive to changes in
+        the market environment, which can result in significant changes to the portfolio
+        allocation. HRP, on the other hand, provides a more stable allocation of assets that is
+        less sensitive to short-term changes in the market.
+[Type here]
+
+
+2.2.5 Limitations of HRP
+   •   HRP can be computationally intensive. The hierarchical clustering algorithm used in
+       HRP can be time-consuming, especially when dealing with a large number of assets.
+   •   HRP does not explicitly consider the expected returns of assets. The method focuses
+       solely on balancing the risk across all assets in the portfolio, which may result in lower
+       expected returns compared to other portfolio optimization methods.
+   •   HRP assumes that asset returns follow a normal distribution. However, in practice, asset
+       returns may not always follow a normal distribution, which may affect the accuracy of
+       the method.
+   •   HRP is a relatively new method, and its performance has not been extensively tested
+       over long periods of time. Therefore, the method may be subject to unforeseen risks
+       and limitations.
+[Type here]
+
+
+3. Model Comparisons (MVP & HRP)
+In our study we have taken six different sectors of Indian economy i.e. Auto, Pharma, Banking,
+Finance, FMCG and IT. In each sector we have taken 10 most important stocks and applied
+MVP and HRP on stocks selected from every sector.
+For evaluation we have taken data from yahoo financial from 17th Nov 2017 to 28th Feb 2020.
+
+
+
+AUTO SECTOR
+The 10 most significant stocks from NSE -auto sector index are taken and they are as follows:
+Tata Motors, Ashoke Leyland, Eicher Motors ,Maruti Suzuki, TVS Motors, Motherson, Bharat
+Forge, Bajaj-Auto, Balkrisind
+
+
+
+
+Fig 6. The agglomerative clustering of the auto sector stocks – the dendrogram formed on the
+                      training data from 17-Nov-2017 to 30-Aug-2019.
+
+The dendrogram of the clustering of the stocks of the auto sector is shown in figure above. The
+y-axis of the dendrogram depicts the ward linkage values, where a longer length of the arms
+signifies a higher distance, and hence less compactness in the cluster formed.
+[Type here]
+
+
+
+
+                     MVP            (% ALLOCATION)                 HRP
+
+Fig 7. The allocation of weights to the auto sector stocks by the MVP and the HRP portfolios
+                based on stock price data from 17-Nov- 2017 to 30-Aug-2019.
+
+Fig 7 depicts the weight allocations by the MVP and the HRP portfolios for the auto sector. It
+is clear that HRP has tried to make the portfolio more diversified by more evenly allocating
+the weights to the stocks than the MVP portfolio.
+
+
+
+
+                     Fig. 8.1.                                  Fig. 8.2.
+
+       Fig. 8. The returns of the CLA and the HRP portfolios for the auto sector stocks.
+
+Fig 8.1 and Fig 8.2 show the results of back testing for the training data(17-Nov-2017 to 30-
+Aug-2019) and the test data(03-Sep-2019 to 27-Feb-2020) respectively.
+
+                      Training                           Testing
+   Portfolio          Risk           Sharpe Ratio        Risk            Sharpe Ratio
+   MVP                0.184908       -0.756289           0.216563        1.245047
+   HRP                0.200776       -1.151904           0.256510        1.371209
+               Table 1: Results of MVP and HRP over training and testing data
+[Type here]
+
+
+The summary of the back testing results is presented in Table 1. While the HRP portfolio is
+found to have produced a lower Sharpe ratio and higher Risk than those of MVP Portfolio for
+the training (i.e., in-sample) data, the HRP portfolio has outperformed MVP portfolio on the
+test (i.e., out-of-sample) data producing a higher value of Sharpe ratio, with slightly higher
+volatility.
+
+
+
+PHARMA SECTOR
+The 10 most significant stocks from NSE -Pharma sector index are taken and they are as
+follows: Torrent Pharma, Biocon, Dr Reddy Laboratory, Sun Pharma , Aurobindo Pharma,
+Syngene , Lal Path Lab, Alkem , Ipcalab , Laurus Labs.
+
+
+
+
+ Fig. 9. The agglomerative clustering of the Pharma sector stocks – the dendrogram formed
+                   on the training data from Nov-17-2017 to 30-Aug-2019.
+
+The dendrogram of the clustering of the stocks of the auto sector is shown in Fig 9.. The y-axis
+of the dendrogram depicts the ward linkage values, where a longer length of the arms signifies
+a higher distance, and hence less compactness in the cluster formed.
+[Type here]
+
+
+
+
+                      MVP              (% ALLOCATION)                HRP
+
+Fig. 10. The allocation of weights to the Pharma sector stocks by the MVP and the HRP
+portfolios based on stock price data from 17-Nov-2017 to 30-Aug-2019.
+
+Fig 10 depicts the weight allocations by the MVP and the HRP portfolios for the Pharma sector.
+It is clear that HRP has tried to make the portfolio more diversified by more evenly allocating
+the weights to the stocks than the MVP portfolio.
+
+
+
+
+                 Fig.11.1                                         Fig. 11.2
+
+    Fig. 11. The returns of the MVP and the HRP portfolios for the Pharma sector stocks.
+
+Fig 11.1 and Fig 11.2 show the results of back testing for the training data (17-Nov-2017 to 30-
+Aug-2019) and the test data(03-Sep-2019 to 27-Feb-2020) respectively.
+[Type here]
+
+
+                     Training                               Testing
+
+ Portfolio           Risk             Sharpe Ratio          Risk           Sharpe Ratio
+
+ MVP                 0.120684         0.877575              0.124738       4.172059
+
+ HRP                 0.123018         0.750673              0.126812       4.071148
+
+                                             Table: 2
+
+The summary of the backtesting results is presented in Table 2. While the MVP portfolio is
+found to have produced a Higher Sharpe ratio than those of HRP Portfolio for both training
+(i.e., in-sample) data and testing data(i.e., out-of-sample).
+
+
+
+IT SECTOR
+The 10 most significant stocks from NSE- IT sector index are taken and they are as follows:
+Wipro, TechM, HCL Tech, TCS, INFY,                COFORGE,         LTIM,   LTTS,      MPHASIS,
+PERSISTENT.
+
+
+
+
+Fig. 12. The agglomerative clustering of the IT sector stocks – the dendrogram formed on the
+                        training data from Nov17 2017 to 30-Aug-2019.
+
+The dendrogram of the clustering of the stocks of the auto sector is shown in Fig 12. The y-
+axis of the dendrogram depicts the ward linkage values, where a longer length of the arms
+signifies a higher distance, and hence less compactness in the cluster formed.
+[Type here]
+
+
+
+
+                    MVP                 (% ALLOCATION)                    HRP
+
+ Fig.13. The allocation of weights to the IT sector stocks by the MVP and the HRP portfolios
+                based on stock price data from 17-Nov- 2017 to 30-Aug-2019.
+
+Fig 13 depicts the weight allocations by the MVP and the HRP portfolios for the auto sector. It
+is clear that HRP has tried to make the portfolio more Diversified by more evenly allocating
+the weights to the stocks than the MVP portfolio.
+
+
+
+
+                     Fig. 14.1                                Fig. 14.2
+
+       Fig.14. The returns of the MVP and the HRP portfolios for the IT sector stocks.
+
+Fig 14.1 and Fig 14.2 show the results of back testing for the training data (17-Nov-2017 to
+30-Aug-2019) and the test data(03-Sep-2019 to 27-Feb-2020) respectively.
+[Type here]
+
+
+                      Training                            Testing
+
+      Portfolio       Risk           Sharpe Ratio         Risk           Sharpe Ratio
+
+  MVP                 0.151003       1.412311             0.137171       0.13802
+
+  HRP                 0.156862       1.469323             0.124181       0.93751
+
+                                            Table 3
+
+The summary of the backtesting results is presented in Table 3. The HRP portfolio is found to
+have produced a Higher Sharpe ratio than those of MVPPortfolio for both training (i.e., in-
+sample) data and testing data(i.e., out-of-sample).
+
+
+
+BANKING SECTOR
+The 10 most significant stocks from NSE Banking sector index are taken and they are as
+follows: Federal Bank, IDFC First Bank, ICICI Bank, SBI , PNB, BANK OF BARODA, AU
+BANK, INDUSIND Bank, HDFC Bank, KOTAK Bank.
+
+
+
+
+Fig. 15. The agglomerative clustering of the IT sector stocks – the dendrogram formed on the
+                       training data from Nov17 2017 to 30-Aug-2019.
+
+The dendrogram of the clustering of the stocks of the auto sector is shown in Fig 15. The y-
+axis of the dendrogram depicts the ward linkage values, where a longer length of the arms
+signifies a higher distance, and hence less compactness in the cluster formed.
+[Type here]
+
+
+
+
+                      MVP                (% ALLOCATION)              HRP
+
+  Fig. 16. The allocation of weights to the Banking sector stocks by the MVP and the HRP
+              portfolios based on stock price data from 17-Nov- 2017 to 30-Aug-2019.
+
+Fig 16 depicts the weight allocations by the MVP and the HRP portfolios for the auto sector.
+HRP has tried to make the portfolio more diversified by more evenly allocating the weights to
+the stocks than the MVP portfolio.
+
+
+
+
+                      Fig. 17.1                                      Fig. 17.2
+
+    Fig. 17. The returns of the MVP and the HRP portfolios for the Banking sector stocks.
+
+Fig 17.1 and Fig 17.2 shows the results of backtesting for the training data (17-Nov-2017 to
+30-Aug-2019) and the test data(03-Sep-2019 to 27-Feb-2020) respectively.
+[Type here]
+
+
+                      Training                            Testing
+
+  Portfolio           Risk            Sharpe Ratio        Risk           Sharpe Ratio
+
+  MVP                 0.143586        0.801550            0.197891       1.945700
+
+  HRP                 0.158120        0.317477            0.213296       1.300964
+
+                                            Table 4
+
+The summary of the backtesting results is presented in Table 4. The MVP portfolio is found to
+have produced a higher Sharpe ratio than that of the HRP Portfolio for the training (i.e., in-
+sample) and testing (i.e., out-of-sample) data.
+
+
+
+FINANCE SECTOR
+The 10 most significant stocks from the NSE-FINANCE sector index are taken and they are as
+follows: L&T FH, IBULHSGFIN, JFINANCIAL LICHSGFIN, M&MFIN, MOTILALOFS,
+TATAINVEST, BAJFINANCE, ISEC, EDELWEISS.
+
+
+
+
+Fig. 18. The agglomerative clustering of the financial sector stocks – the dendrogram formed
+                   on the training data from Nov 17 2017 to 30-Aug-2019.
+
+
+
+The dendrogram of the clustering of the stocks of the financial sector is shown in Fig 18. The
+y-axis of the dendrogram depicts the ward linkage values, where a longer length of the arms
+signifies a higher distance, and hence less compactness in the cluster formed.
+[Type here]
+
+
+
+
+                       MVP                (% ALLOCATION)            HRP
+
+  Fig. 19. The allocation of weights to the Financial sector stocks by the MVP and the HRP
+              portfolios based on stock price data from 17-Nov-2017 to 30-Aug-2019.
+
+Fig 19 depicts the weight allocations by the MVP and the HRP portfolios for the Financial
+sector. HRP has tried to make the portfolio more Diversified by more evenly allocating the
+weights to the stocks than the MVP portfolio.
+
+
+
+
+                       Fig. 20.1.                                    Fig. 20.2.
+
+    Fig.20. The returns of the MVP and the HRP portfolios for the financial sector stocks.
+
+Fig 20.1 and Fig 20.2 shows the results of backtesting for the training data (17-Nov-2017 to
+30-Aug-2019) and the test data(03-Sep-2019 to 27-Feb-2020) respectively.
+[Type here]
+
+
+                      Training                             Testing
+
+  Portfolio           Risk           Sharpe Ratio          Risk            Sharpe Ratio
+
+  MVP                 0.201811       -0.22511              0.256589        2.363913
+
+  HRP                 0.215537       -0.62437              0.283526        1.847283
+
+                                            Table 5
+
+ The summary of the backtesting results is presented in Table 4. The MVP portfolio is found
+to have produced a higher Sharpe ratio than that of the HRP Portfolio for the training (i.e., in-
+                        sample) and testing (i.e., out-of-sample) data.
+
+
+
+FMCG SECTOR
+The 10 most significant stocks from the NSE IT sector index are taken and they are as follows:
+BRITANIA, NESTLE, COLPAL, GODREJ, DABUR, HINDUSTAN UNILEVER, UBL,
+MCDOWELL.
+
+
+
+
+Fig. 21. The agglomerative clustering of the FMCG sector stocks – the dendrogram formed
+                    on the training data from Nov-1-2017 to 30-Aug-2019.
+
+The dendrogram of the clustering of the stocks of the FMCG sector is shown in Fig 21. The y-
+axis of the dendrogram depicts the ward linkage values, where a longer length of the arms
+signifies a higher distance, and hence less compactness in the cluster formed.
+[Type here]
+
+
+
+
+                         MVP           (% ALLOCATION)              HRP
+
+   Fig. 22. The allocation of weights to the FMCG sector stocks by the MVP and the HRP
+              portfolios based on stock price data from 17-Nov-2017 to 30-Aug-2019.
+
+Fig 22 depicts the weight allocations by the MVP and the HRP portfolios for the financial
+sector. HRP has tried to make the portfolio more Diversified by more evenly allocating the
+weights to the stocks than the MVP portfolio.
+
+
+
+
+                       Fig. 23.1.                                    Fig. 23.2.
+
+    Fig. 23. The returns of the MVP and the HRP portfolios for the FMCG sector stocks.
+
+Fig 23.1 and Fig 23.2 shows the results of backtesting for the training data (17-Nov-2017 to
+30-Aug-2019) and the test data(03-Sep-2019 to 27-Feb-2020) respectively.
+[Type here]
+
+
+                      Training                             Testing
+
+   Portfolio          Risk            Sharpe Ratio         Risk            Sharpe Ratio
+
+   MVP                0.133401        1.226017             0.134820        0.985869
+
+   HRP                0.174900        1.633208             0.161621        1.495954
+
+                                            Table 6
+
+The summary of the backtesting results is presented in Table 4. The HRP portfolio is found to
+have produced a higher Sharpe ratio than that of MVP Portfolio for the training (i.e., in-sample)
+and testing (i.e., out-of-sample) data.
+[Type here]
+
+
+4. Reinforcement Learning
+4.1 Introduction
+Reinforcement learning: one of the most popular machine learning methods used today;
+enables a computer system to learn how to make choices by being rewarded for its successes.
+RL can be considered to be an extremely powerful tool for optimization and decision-making.
+It is an approach to machine learning in which the agents are trained to make a sequence of
+decisions. An agent can learn a sequence of actions to maximize rewards and thereby achieve
+the desired goal.
+In portfolio optimization, the agent is the portfolio manager, the environment is the financial
+market, the actions are the portfolio allocations, and the rewards are the portfolio returns.
+[Type here]
+
+
+4.2 Need for RL in Portfolio Optimization
+Portfolio optimization with reinforcement learning (RL) has several advantages over traditional
+portfolio optimization techniques. Here are some reasons why we need portfolio optimization
+with reinforcement learning:
+
+   •   RL can handle complex and dynamic environments: The stock market is a complex and
+       dynamic environment, and traditional portfolio optimization techniques may not be
+       able to capture all the complexities and dynamics of the market. RL algorithms, on the
+       other hand, are designed to work in complex and dynamic environments and can learn
+       and adapt to changing market conditions.
+   •   RL can learn from experience: Traditional portfolio optimization techniques rely on
+       assumptions and statistical models to estimate expected returns, variances, and
+       covariances of assets. RL algorithms, on the other hand, can learn from experience by
+       interacting with the market and making investment decisions based on real-time market
+       data.
+   •   RL can optimize for non-linear objectives: Traditional portfolio optimization
+       techniques are designed to optimize for linear objectives, such as expected return and
+       variance. RL algorithms, on the other hand, can optimize for non-linear objectives, such
+       as maximizing long-term growth or minimizing drawdowns.
+   •   RL can handle large amounts of data: The stock market generates large amounts of data,
+       including historical prices, news articles, and social media posts. RL algorithms can
+       handle large amounts of data and extract useful patterns and insights that can inform
+       investment decisions.
+
+Overall, portfolio optimization with reinforcement learning has the potential to provide more
+accurate and effective investment strategies than traditional portfolio optimization techniques,
+especially in complex and dynamic markets. By leveraging the power of machine learning and
+artificial intelligence, investors can construct portfolios that are optimized to achieve their
+investment objectives while minimizing risk.
+[Type here]
+
+
+4.3 Terminologies
+Agent – It is the sole decision-maker and learner. An agent is the entity that interacts with the
+environment and makes decisions based on the received information. The goal of the agent is
+to learn a policy or a strategy that maximizes the Sharpe ratio over time.
+The agent observes the current state of the environment, selects an action based on its policy,
+and then receives a reward from the environment in response to its action. The agent uses this
+reward signal to update its policy and improve its decision-making over time.
+
+Environment –It is a physical world where an agent learns and decides the actions to be
+performed. the environment is the external world or the system with which the agent interacts.
+The environment here is the Indian Stock Market.
+The environment in RL is characterized by a set of states, actions, and rewards. At each time
+step, the agent receives a state from the environment, selects an action, and receives a reward
+in response to its action. The state represents the current situation of the environment, while
+the action represents the decision made by the agent based on the current state. The reward
+represents the feedback from the environment in response to the agent's action. The
+environment can be stochastic as the outcomes of actions are probabilistic. The RL algorithm
+learns to make better decisions by interacting with the environment and observing the resulting
+rewards.
+
+
+Action – an action is a decision made by the agent based on the current state of the
+environment. The agent selects an action from a set of available actions based on its policy,
+which is a strategy for selecting actions in different states. The action taken by the agent
+modifies the state of the environment, which then generates a reward signal that the agent uses
+to update its policy. We have three actions: Buy, sell, or hold for adjusting the stock weights
+in a portfolio.
+
+State – It is the current situation of the agent in the environment. The state can be thought of
+as the "input" to the agent, which it uses to decide on what action to take. The state may include
+information such as the location of the agent, the positions of other objects in the environment,
+the time of day, or any other relevant information that describes the environment at a given
+time. Here, the state is the Correlation Matrix of the stocks based on a specific time window.
+[Type here]
+
+
+Reward – a reward is a scalar feedback signal that the agent receives from the environment in
+response to its action. The reward reflects the quality of the agent's action in the given state of
+the environment. We have used the Sharpe ratio as the reward.
+
+
+                                      Typical RL Scenario
+
+                                                Agent
+
+
+
+
+                                                                                        Action
+    State               Reward
+                                                                                        (At)
+    (St)                (Rt)  Rt+1
+                                            Environment
+                               St+1
+
+
+                Fig 24. Reinforcement Learning explained using a simple diagram
+In the diagram above, an agent performs an action in a particular environment and a particular
+state. A response is sent from the agent in the form of a reward and the new status information.
+State changes occur because of actions by the agent.
+We have used Q-learning as the learning model for the Reinforcement learning environment.
+
+Value Function – The reward concept is explained through the value function. This gives us
+the potential immediate reward along with all the potential future rewards. This value has to be
+discounted because future rewards inherently have uncertainty associated with them in the
+sense they may not be realized. So, we have a discounting factor of γ for this purpose.
+                          𝐺𝑡 = 𝑅𝑡+1 + 𝛾𝑅𝑡+2 + … . = ∑ 𝑦𝑘𝑅𝑡+𝑘+1
+The state-value function, denoted by V(s), estimates the expected cumulative reward that the
+agent can achieve from a given state s, by following a given policy. It can be expressed as:
+
+              𝑉(𝑠) = 𝐸 [ 𝑅(𝑡 + 1) + 𝛾𝑅(𝑡 + 2) + 𝛾^2𝑅(𝑡 + 3) + . . . | 𝑆(𝑡) = 𝑠 ]
+
+where R(t+1), R(t+2), R(t+3), ... are the rewards received by the agent at time t+1, t+2, t+3, ...
+and γ is a discount factor that determines the importance of immediate versus future rewards.
+[Type here]
+
+
+The action-value function, denoted by Q(s,a), estimates the expected cumulative reward that
+the agent can achieve from a given state s and taking a given action a, by following a given
+policy. It can be expressed as:
+
+   𝑄(𝑠, 𝑎) = 𝐸 [ 𝑅(𝑡 + 1) + 𝛾𝑅(𝑡 + 2) + 𝛾^2𝑅(𝑡 + 3) + . . . | 𝑆(𝑡) = 𝑠, 𝐴(𝑡) = 𝑎 ]
+
+where A(t) is the action taken by the agent at time t.
+Both the state-value function and the action-value function are estimated using temporal
+difference learning. This method uses the observed rewards and transitions in the environment
+to update the estimates of the value function.
+
+Value Function and Q value interaction- The product of probability distribution of action,
+state pair, and the q value associated with that state and action summed over all pairs gives us
+back the value function. This is intuitive as product of the probability of taking an action
+multiplied by the Q value associated with taking that action at that particular state and then
+summed up over all possible states should always give us the net expected value for being in
+some particular state.
+
+                                  𝑽(𝒔) = ∑𝑎 ∈ 𝐴 𝑸(𝒔, 𝒂)𝜋(𝒂|𝒔)
+
+Ultimately all of the above are used to optimize the Bellman Equation which is ultimately what
+we use to improve our algorithm iteratively
+
+Bellman Equation- The Bellman equation is a fundamental concept in reinforcement learning
+(RL), which expresses the relationship between the value function of a state and the value
+function of its successor states. The Bellman equation for the state-value function can be
+expressed as follows:
+
+                     𝑉(𝑠) = 𝐸 [𝑅(𝑡 + 1) + 𝛾𝑉(𝑆(𝑡 + 1)) | 𝑆(𝑡) = 𝑠 ]
+
+where V(s) is the value function of state s, R(t+1) is the immediate reward received after taking
+action A(t) in state S(t), S(t+1) is the successor state resulting from taking action A(t) in state
+S(t), and γ is a discount factor that determines the importance of immediate versus future
+rewards. This equation states that the value of a state is equal to the expected sum of the
+immediate reward and the discounted value of the next state. The discount factor γ determines
+the trade-off between immediate and future rewards, with values closer to 0 giving more weight
+to immediate rewards, and values closer to 1 giving more weight to future rewards
+
+The Bellman equation for the Q-value function can be expressed as follows:
+[Type here]
+
+
+           𝑄(𝑠, 𝑎) = 𝐸 [𝑅(𝑡 + 1) + 𝛾𝑚𝑎𝑥(𝑄(𝑆(𝑡 + 1), 𝑎′)) | 𝑆(𝑡) = 𝑠, 𝐴(𝑡) = 𝑎]
+
+where Q(s, a) is the Q-value function of state s and action a, max(Q(S(t+1), a')) is the maximum
+Q-value of the successor state S(t+1) and all possible actions a', R(t+1) is the immediate reward
+received after taking action A(t) in state S(t), and γ is a discount factor that determines the
+importance of immediate versus future rewards.
+
+The Bellman equation plays a crucial role as it allows us to update the value function of a state
+based on the values of its successor states, and it helps to estimate the expected cumulative
+reward that an agent can achieve by following a given policy.
+
+Temporal Difference Learning- Temporal difference (TD) learning is a type of reinforcement
+learning (RL) method that updates the value function estimates based on the temporal
+difference between the predicted and actual values. In TD learning, the agent interacts with the
+environment by taking actions and observing the resulting rewards and states. It uses the
+Bellman equation to update its estimates of the state-value or action-value function at each time
+step, by computing the difference between the predicted value and the actual reward received.
+The TD error is defined as the difference between the predicted value V(s) and the observed
+reward r(t+1) plus the discounted value of the next state V(S(t+1)):
+
+                       𝛿(𝑡) = 𝑟(𝑡 + 1) + 𝛾𝑉(𝑆(𝑡 + 1)) − 𝑉(𝑆(𝑡))
+
+The value function estimate is then updated based on the TD error using a learning rate α:
+
+                                𝑉(𝑆(𝑡)) = 𝑉(𝑆(𝑡)) + 𝛼 𝛿(𝑡)
+
+Deep Q Learning- Deep Q Learning is a type of reinforcement learning (RL) algorithm that
+uses deep neural networks to approximate the action-value function in RL problems with large
+and continuous state spaces. It is an extension of the Q-learning algorithm that can handle high-
+dimensional input data, such as images, by using a deep convolutional neural network (CNN)
+as a function approximator.
+
+In Deep Q Learning, the agent interacts with the environment by taking actions and observing
+the resulting rewards and states. It uses a neural network to approximate the Q-function, which
+maps state-action pairs to their corresponding values. The network takes the state as input and
+outputs a Q-value for each possible action. The agent then selects the action with the highest
+Q-value.
+[Type here]
+
+
+During training, the network parameters are updated to minimize the mean squared error
+between the predicted Q-values and the target Q-values. The target Q-values are computed
+using the Bellman equation, with the maximum Q-value over all possible actions in the next
+state:
+
+                             𝑄_𝑡𝑎𝑟𝑔𝑒𝑡 = 𝑟 + 𝛾 𝑚𝑎𝑥_𝑎′ 𝑄(𝑠′, 𝑎′)
+
+where r is the immediate reward received, γ is the discount factor, s' is the next state, a' is the
+next action, and Q(s', a') is the Q-value for the next state-action pair.
+
+The loss function used in the training of the network is:
+
+                                  𝐿 = (𝑄_𝑡𝑎𝑟𝑔𝑒𝑡 − 𝑄(𝑠, 𝑎)2 )
+
+where Q(s, a) is the predicted Q-value for the current state-action pair.
+
+Equal Weighted Portfolio-An equal-weighted portfolio is a type of investment portfolio in
+which each stock or security is given equal weight or allocation. This means that each security
+in the portfolio carries the same amount of importance or influence in determining the overall
+performance of the portfolio. For example, if an equal-weighted portfolio consists of ten stocks,
+each stock would make up 10% of the portfolio's total value. This differs from a market-cap-
+weighted portfolio, where each security's weight is based on its market capitalization, meaning
+that larger companies would have a higher weighting in the portfolio.
+Equal-weighted portfolios can offer a more diversified exposure to the market and can
+potentially outperform market-cap-weighted portfolios in certain market conditions. However,
+they can also be riskier since smaller companies may have a larger impact on the portfolio's
+performance.
+
+Since we took 10 stocks for analysis, each stock is weighting 0.10.
+[Type here]
+
+
+4.4 Program Design
+1. Loading necessary python packages.
+
+2. Loading Dataset (Extracted file from yahoo finance using python.
+
+3. Data Preparation through checking for null values and replacing them with
+the previous values. Train Test Split (Train data: Nov 17 2017 to 30-Aug-2019) and Testing
+data(03-Sep-2019-27-Feb-2020). We have taken closed prices for our evaluation.
+
+4. Model Development & Comparison with Equal Weighted Portfolio.
+
+
+
+
+         Fig 25. The diagrammatic representation of the working of the RL program.
+[Type here]
+
+
+4.5 Results & Findings
+We have taken 6 sectors and applied RL for Portfolio optimization. Also we have benchmarked
+the performance of RL with that of an equal weight Portfolio.
+
+For training and testing, we have used the same timeline i.e Training data (Nov 17 2017 to 30
+Aug 2019) and Testing data (03 Sep 2019 to 27 Feb 2020).
+
+Also, we have done hyperparameter tuning for a fixed set of values of the following
+hyperparameters: (Window size, Number of Episodes, batch size, Rebalance Period.)
+
+Some other hyperparameters like learning rate, discount factor, and epsilon decay were kept
+constant.
+
+The sectoral Performance in Testing is as follows:
+
+
+
+AUTO SECTOR
+
+
+
+
+ Fig. 26. Solid line refers to the performance of the RL portfolio and the dotted line refers to
+  the performance of Equal weight portfolio for the testing period(03-Sep-2019 to 27-Feb-
+                                             2020).
+
+In the y-axis the cumulative returns are plotted whereas the x-axis refers to the period in days.
+
+We can clearly see that the RL has outperformed the Equal Weight Portfolio during the testing
+period.
+[Type here]
+
+
+FMCG SECTOR
+
+
+
+
+ Fig 27. Solid line refers to the performance of the RL portfolio and the dotted line refers to
+  the performance of Equal weight portfolio for the testing period(03-Sep-2019 to 27-Feb-
+                                            2020).
+
+In the y-axis the cumulative returns are plotted whereas the x-axis refers to the time period in
+days.
+
+We can clearly see that the RL has outperformed the Equal Weight Portfolio for most of the
+period during testing.
+[Type here]
+
+
+PHARMA SECTOR
+
+
+
+
+ Fig: 28: Solid line refers to the performance of the RL portfolio and the dotted line refers to
+the performance of the Equal weight portfolio for the testing period(03-Sep-2019 to 27-Feb-
+                                             2020).
+
+In the y axis, the cumulative returns are plotted whereas the x axis refers to the period in days.
+
+We can clearly see that the RL has outperformed the Equal Weight Portfolio during the testing
+period.
+[Type here]
+
+
+BANKING SECTOR
+
+
+
+
+Fig. 29. Solid line refers to the performance of the RL portfolio and the dotted line refers to the
+performance of the Equal weight portfolio for the testing period( 03-Sep-2019 to 27-Feb-2020).
+
+In the y-axis the cumulative returns are plotted whereas the x-axis refers to the time period in
+days.
+
+We can clearly see that the RL has outperformed the Equal Weight Portfolio during the testing
+period.
+[Type here]
+
+
+FINANCIAL SECTOR:
+
+
+
+
+ Fig. 30. Solid line refers to the performance of RL portfolio and the dotted line refers to the
+performance of Equal weight portfolio for the testing period( 03-Sep-2019 to 27-Feb-2020).
+
+In the y axis the cumulative returns are plotted whereas the x-axis refers to the time period in
+days.
+
+We can see that the RL has outperformed the Equal Weight Portfolio during the testing period
+[Type here]
+
+
+IT SECTOR:
+
+
+
+
+ Fig. 31. Solid line refers to the performance of the RL portfolio and the dotted line refers to
+the performance of the Equal weight portfolio for the testing period (03-Sep-2019 to 27-Feb-
+                                             2020).
+
+In the y-axis the cumulative returns are plotted whereas the x-axis refers to the time period in
+days.
+
+We can see that the Equal Weight Portfolio outperformed the RL Portfolio during the testing
+period.
+[Type here]
+
+
+MIXED
+For comparing the performance of RL and Equal Weight Portfolio we have chosen 2 stocks
+each from 5 different sectors which are as follows:
+
+And the performance of the RL and Equal Weight Portfolio is as follows:
+
+
+
+
+ Fig. 32. Solid line refers to the performance of the RL portfolio and the dotted line refers to
+the performance of the Equal weight portfolio for the testing period(03-Sep-2019 to 27-Feb-
+                                             2020).
+
+In the y-axis the cumulative returns are plotted whereas the x-axis refers to the time period in
+days.
+
+We can see that the RL Portfolio has outperformed the Equal Weight Portfolio during the testing
+period.
+[Type here]
+
+
+Summary of Testing Results
+Here is a summary of the performances of MVP, HRP, Equal Weight Portfolio, and RL Portfolio
+for the Out of sample data:
+
+                                     MVP               HRP            EQUAL              RL
+  Auto                             1.245047          1.371209         -0.6397          2.0812
+  Pharma                           4.172059          4.071148         -0.3732          4.3249
+  IT                               1.483427          1.130776          3.0135          2.0895
+  Financial                        0.646407          1.210418         -0.3345          2.0895
+  Banking                           1.9457           1.300964          1.577           3.3581
+  FMCG                             1.633208          1.495954          1.0233          1.7219
+  Mixed                            0.344013          0.943736          0.1248          3.4577
+       Table 7: Comparison of the 4 different types of Portfolio Optimization Techniques.
+
+All the values mentioned in the table are the Sharpe ratios.
+
+We can see that:
+
+Apart from the IT sector in all the other sectors as well as for the Mixed portfolio the RL
+Portfolio Optimization Technique has yielded superior results w.r.t. the Sharpe ratio than all the
+other three Portfolio Optimization Techniques we have studied.
+
+In the IT sector, RL has performed better than both HRP and MVP. But the Equal weight
+portfolio optimization technique has performed better than the RL Portfolio Optimization
+technique.
+[Type here]
+
+
+5. Conclusion
+  •   From the Sharpe ratios, we can conclude that RL is capable of outperforming traditional
+      portfolio optimization techniques like MVP & HRP.
+
+  •   But much can’t be said in the long run as the performance of RL is limited by
+      computational capacity and volume of data.
+
+  •   RL is dependent on the agent to learn; large datasets can be provided further to optimize
+      portfolio based on the bullish or bearish performance of the stock at a time.
+
+  •   The performance of the agent varies with different combinations of hyperparameters and
+      gives optimal performance for a few selected combinations. These can be further tweaked
+      for finding other maxima of performance.
+[Type here]
+
+
+6. Future Works & scope
+  •   This project lays the groundwork for using reinforcement learning for the Indian stock
+      market using Deep Q(N) Learning.
+
+  •   Further building upon it, a more dynamic environment can be designed considering more
+      factors, other indexes can be included, and other RL techniques can also be used.
+[Type here]
+
+
+7. References
+
+   1. H. Markowitz, “Portfolio selection”, Journal of Finance, Vol 7, No 1, pp 77-91, 1952.
+      DOI: 10.2307/2975974.
+   2. M.L de Prado, “Building diversified portfolios that outperform out of sample”, Journal
+      of Portfolio Management, Vol 42, No 4, pp 59-69, 2016.
+      DOI: 10.3905/jpm.2016.42.4.059
+   3. D. Baily and M.L de Prado, “Balanced baskets: A new approach to trading and hedging
+      risks”, Journal of Investment Strategies, Vol 1, No 4, pp 61-62, 2012. DOI:
+      10.21314/JOIS.2012.010
+   4. NSE Website: http://www1.nseindia.com
+   5. J. Qiu and B. Wang, “Forecasting stock prices with long-short term memory neural
+      network based on attention mechanism”, PLOS ONE, Vol 15, No 1, Art ID: e0227222,
+      2020. DOI: 10.1371/journal.pone.0227222.
+   6. S.M. Carta, S. Consoli, L. Piras, S. Podda, and D.R. Recupero, “Explainable machine
+      learning exploiting news and domain-specific lexicon for stock market forecasting”,
+      IEEE Access, Vol 9, pp 30193-302015, 2021. DOI: 10.1109/ACCESS.2021.3059960.
+   7. P. Kolm, R. Tutuncu and F. Fabozzi, “60 years of portfolio optimization: Practical
+      challenges and current trends”, European Journal of Operational Research, Vol. 234,
+      No. 2, pp. 356-371, April 2010. DOI: 10.1016/j.ejor.2013.10.060.
+   8. H.W. Kuhn and A. W. Tucker, "Nonlinear programming", Proceedings of 2nd Berkeley
+      Symposium on Mathematics, Statistics, and Probability, Vol 2, pp 481-492, 1951. .
+      Berkeley: University of California Press (1952). pp. 481–492.
+   9. R. Merton, "Option pricing when underlying stock returns are discontinuous", Journal
+      of Financial Economics, Vol. 3, No 1-2, pp. 125–144, January-March 1976. DOI:
+      10.1016/0304-405X(76)90022-2.
+   10. R. O. Michaud, Efficient Asset Allocation: A Practical Guide to Stock Portfolio
+       Optimization and Asset Allocation, Oxford University Press, UK, June 1998. ISBN:
+       978-0875847436.
+   11. O. Ledoit and M. Wolf, “Improved estimation of the covariance matrix of stock returns
+       with an application to portfolio selection”, Journal of Empirical Finance, Vol. 10, No.
+       5, pp. 603-621, December 2003. DOI: 10.1016/S0927-5398(03)00007-0.
+   12. L. Rokach and O. Maimon, "Clustering methods", In: O. Maimon and L. Rokach (eds)
+       Data Mining and Knowledge Discovery Handbook. Springer, Boston, MA, USA, pp
+       321-351, 2005. DOI: 10.1007/0-387-25465-X_15.
+   13. J. Sen, “A forecasting framework for the Indian healthcare sector index”, International
+       Journal of Business Forecasting and Marketing Intelligence (IJBFMI), Vol 7, No 4, pp.
+       311-350, Inderscience Publishers, 2021. DOI: 10.1504/IJBFMI.2022.10047095.
+   14. J. Sen and S. Mehtab, “A comparative study of optimum risk portfolio and eigen
+       portfolio on the Indian stock market”, International Journal of Business Forecasting
+[Type here]
+
+
+       and Marketing Intelligence (IJBFMI), Vol 7, No 2, pp. 143-193. Inderscience
+       Publishers, 2021. DOI: 10.1504/IJBFMI.2021.10043037.
+   15. S. Mehtab and J. Sen, “A time series analysis-based stock price prediction using
+       machine learning and deep learning models”, International Journal of Business
+       Forecasting and Marketing Intelligence (IJBFMI), Inderscience Publishers, Vol 6, No
+       4, pp. 272-335, 2020. DOI: 10.1504/IJBFMI.2020.115691.
+   16. J. Sen, S. Mehtab, and G. Nath, “Stock price prediction using deep learning models”,
+       Lattice: The Machine Learning Journal, Vol 1, No 3, pp. 34-40, December 2020. DOI:
+       10.36227/techrxiv.16640197.v1.
+   17. J. Sen, "Stock composition of mutual funds and fund style: A time series decomposition
+       approach towards testing for consistency", International Journal of Business
+       Forecasting and Marketing Intelligence, Vol 4, No 3, pp. 235-292, 2018. DOI:
+       10.1504/IJBFMI.2018.092781.
+   18. J. Sen and T. Datta Chaudhuri, "Understanding the sectors of Indian economy for
+       portfolio choice", International Journal of Business Forecasting and Marketing
+       Intelligence, Vol 4, No 2, pp. 178 - 222, April 2018. DOI:
+       10.1504/IJBFMI.2018.090914.
+   19. J. Sen, "A robust analysis and forecasting framework for the Indian mid cap sector using
+       time series decomposition approach", Journal of Insurance and Financial
+       Management, Vol 3, No 4, pp. 1 - 32, September 2017. DOI:
+       10.36227/techrxiv.15128901.v1
+   20. Jaydip Sen, "A Time Series Analysis-Based Forecasting Approach for the Indian Realty
+       Sector ", International Journal of Applied Economic Studies, Vol 5, No 4, pp 8 - 27,
+       August 2017. DOI: 10.36227/techrxiv.16640212.v1.
+   21. J. Sen and T. Datta Chaudhuri, "A predictive analysis of the Indian FMCG sector using
+       time series decomposition-based approach", Journal of Economics Library, Vol 4, No
+       2, pp 206 - 226, June 2017. DOI: 10.1453/jel.v4i2.1282.
+   22. J. Sen and T. Datta Chaudhuri, "A time series analysis-based forecasting framework for
+       the Indian healthcare sector", Journal of Insurance and Financial Management, Vol 3,
+       No 1 (2017), pp 66 - 94. DOI: 10.36227/techrxiv.16640221.v1.
+   23. J. Sen and T. Datta Chaudhuri, “An investigation of the structural characteristics of the
+       Indian IT sector and the capital goods sector – An application of the R programming
+       language in time series decomposition and forecasting”, Journal of Insurance and
+       Financial Management, Vol 1, Issue 4, pp 68-132, June 2016. DOI:
+       10.36227/techrxiv.16640227.v1
+   24. J. Sen and T. Datta Chaudhuri, “An alternative framework for time series
+       decomposition and forecasting and its relevance for portfolio choice – A comparative
+       study of the Indian consumer durable and small cap sectors”, Journal of Economics
+       Library, Istanbul, Turkey, Vol 3, Issue 2, pp 303 – 326, June 2016. DOI:
+       10.1453/jel.v3i2.787.
+   25. J. Sen and T. Datta Chaudhuri, “A framework for predictive analysis of stock market
+       indices – A study of the Indian auto sector, Calcutta Business School (CBS) Journal of
+[Type here]
+
+
+       Management Practices, Vol 2, Issue 2, pp 1- 20, December 2015. DOI:
+       10.13140/RG.2.1.2178.3448.
+   26. J. Sen, “Optimum pair-trading strategies for stocks using cointegration-based
+       approach”, Proceedings of the IEEE 20th OITS International Conference on
+       Information Technology (OCIT’22), pp 371-375, December 14-16, 2022, Bhubaneswar,
+       India. DOI: 10.1109/OCIT56763.2022.00076.
+   27. S. Dasgupta and J. Sen, “A framework of customer review analysis using the aspect-
+       based opinion mining approach”, Proceedings of the IEEE 20th OITS International
+       Conference on Information Technology (OCIT’22), pp 233-237, December 14-16,
+       2022, Bhubaneswar, India. DOI: 10.1109/OCIT56763.2022.00052.
+   28. J. Sen, “A Comparative analysis of portfolio optimization using reinforcement learning
+       and hierarchical risk parity approaches”, Proceedings of the 9th International
+       Conference on Business Analytics and Intelligence (BAICONF’22), December 15-17,
+       2022, Bangalore, India. DOI: 10.13140/RG.2.2.22563.53280.
+   29. A. Chatterjee, H. Bhowmick, and J. Sen, “Stock volatility prediction using time series
+       and deep learning approach” Proceedings of the 2022 IEEE 2nd Mysore Sub Section
+       International Conference (MysuruCon’22), pp 1-6, October 16-17, 2022. DOI:
+       10.1109/MysuruCon55714.2022.9972559.
+   30. J. Sen, “Designing efficient pair-trading strategies using cointegration for the Indian
+       stock market” Proceedings of the IEEE 2nd Asian Conference on Innovation in
+       Technology (ASIANCON’22), pp. 1 - 9, Pune, India, August 26-28, 2022. DOI:
+       10.1109/ASIANCON55314.2022.9909455.
+   31. J. Sen and A. Dutta, “Design and analysis of optimized portfolios for selected sectors
+       of the Indian stock market”, Proceedings of the 2022 International Conference on
+       Decision Aid Sciences and Applications (DASA), pp. 567-573, March 23-25, 2022,
+       Chiangrai, Thailand. DOI: 10.1109/DASA54658.2022.9765289.
+   32. J. Sen and A. Dutta, “A comparative study of hierarchical risk parity portfolio and eigen
+       portfolio on the NIFTY 50 stocks”, In: Buyya, R., Hernandez, S. M., Kovvur, R. M. R.,
+       Sarma, T. H. (eds) Computational Intelligence and Data Analytics. Lecture Notes on
+       Data Engineering and Communications Technologies, Vol 142, pp. 443 – 460, Springer,
+       Singapore. DOI: 10.1007/978-981-19-3391-2_34.
+   33. J. Sen, A. Dutta, S. Mondal, and S. Mehtab, “A comparative study of portfolio
+       optimization using optimum risk and hierarchical risk parity approaches”, Proceedings
+       of the 8th International Conference on Business Analytics and Intelligence (ICBAI’21),
+       December 20-22, 2021, IISc, Bangalore, India.
+   34. H. Bhowmick, A. Chatterjee, and J. Sen, “Comprehensive movie recommendation
+       system”, Proceedings of the 8th International Conference on Business Analytics and
+       Intelligence (ICBAI’21), December 20-22, 2021, IISc, Bangalore, India.
+   35. J. Sen and A. Dutta, “Risk-based portfolio optimization on some selected sectors of the
+       Indian stock market”, In: L.D. Singh, M.D Bora, N. Auluck, and V.E. Balas (eds) Big
+       Data, Machine Learning, and Applications, Lecture Notes in Electrical Engineering
+       (LNEE), Vol 1053, Springer, Singapore. Proceedings of the 2nd International
+[Type here]
+
+
+       Conference on Big Data, Machine Learning and Applications (BigDML’21), December
+       19-20, 2021, NIT Silchar, Assam, India. (In Press)
+   36. J. Sen, S. Mehtab, A. Dutta, and S. Mondal, “Precise stock price prediction for
+       optimized portfolio design using an LSTM model”, Proceedings of the IEEE 19th OITS
+       International Conference on Information Technology (OCIT’21), pp. 210-215,
+       December 16-18, 2021, Bhubaneswar, India. DOI: 10.1109/OCIT53463.2021.00050.
+   37. J. Sen, S. Mondal, and G. Nath, “Robust portfolio design and stock price prediction
+       using an optimized LSTM model”, Proceedings of the IEEE 18th India Council
+       International Conference (INDICON’21), pp. 1-6, December 19-21, 2021, Guwahati,
+       India. DOI: 10.1109/INDICON52576.2021.9691583.
+   38. J. Sen, S. Mehtab, A. Dutta, and S. Mondal, “Hierarchical risk parity and minimum
+       variance portfolio design on NIFTY 50 stocks”, Proceedings of the IEEE International
+       Conference on Decision Aid Sciences and Applications (DASA’21), pp. 668-675,
+       December 7-8, 2021, Bahrain. DOI: 10.1109/DASA53625.2021.9681925.
+   39. J. Sen, S. Mondal, and S. Mehtab, “Portfolio optimization on NIFTY thematic sector
+       stocks using an LSTM model”, Proceedings of the IEEE International Conference on
+       Data Analytics for Business and Industry (ICDABI’21), pp. 364-369, Bahrain, October
+       25-26, 2021. DOI: 10.1109/ICDABI53623.2021.9655886.
+   40. A. Chatterjee, H. Bhowmick, and J. Sen, “Stock price prediction using time series,
+       econometric, machine learning, and deep learning models”, Proceedings of IEEE
+       Mysore Sub Section International Conference (MysuruCon’21), October 24-25, 2021,
+       pp. 289-296, Hassan, Karnataka, India.
+       DOI: 10.1109/MysuruCon52639.2021.9641610.
+   41. J. Sen, A. Dutta, and S. Mehtab, “Stock portfolio optimization using a deep learning
+       LSTM model”, Proceedings of IEEE Mysore Sub Section International Conference
+       (MysuruCon’21), October 24-25, 2021, pp. 263-271, Hassan, Karnataka, India. DOI:
+       10.1109/MysuruCon52639.2021.9641662.
+   42. J. Sen, S. Mondal, and S. Mehtab, “Analysis of sectoral profitability of the Indian stock
+       market using an LSTM regression model”, Proceedings of the Deep Learning
+       Developers’ Conference (DLDC’21), September 24, 2021, Bangalore, India. DOI:
+       10.36227/techrxiv.17048579.v1.
+   43. J. Sen, S. Mehtab, and A. Dutta, “Volatility modeling of stocks from selected sectors of
+       the Indian economy using GARCH”, Proceedings of the IEEE Asian Conference on
+       Innovation in Technology (ASIANCON’21), pp 1-9, August 28-29, 2021, Pune, India.
+       DOI: 10.1109/ASIANCON51346.2021.9544977.
+   44. J. Sen and S. Mehtab, “Accurate stock price forecasting using robust and optimized
+       deep learning models”, Proceedings of the IEEE International Conference on
+       Intelligent Technologies (CONIT’21), pp. 1-9, June 25-27, 2021, Hubballi, India. DOI:
+       10.1109/CONIT51480.2021.9498565.
+
+   45. J. Sen, A. Dutta, and S. Mehtab, “Profitability analysis in stock investment using an
+       LSTM-based deep learning model”, Proceedings of the IEEE 2nd International
+       Conference for Emerging Technology (INCET’21), pp. 1-9, May 21-23, Belagavi, India.
+       DOI: 10.1109/INCET51464.2021.9456385.
+[Type here]
+
+
+   46. S. Mehtab and J. Sen, “Analysis and forecasting of financial time series using CNN and
+       LSTM-based deep learning models”, In: Sahoo J.P, Tripathy A.K., Mohanty M., Li KC.,
+       Nayak A.K. (eds) Advances in Distributed Computing and Machine Learning. Lecture
+       Notes in Networks and Systems, Vol 202, pp 405-423, 2022. Springer, Singapore. DOI:
+       10.1007/978-981-16-4807-6_39.
+   47. S. Mehtab, J. Sen, and S. Dasgupta, “Robust analysis of stock price time series using
+       CNN and LSTM-based deep learning models”, Proceedings of the IEEE 4th
+       International Conference on Electronics, Communication and Aerospace Technology
+       (ICECA’20), pp 1481-1486, November 5-7, 2020, Coimbatore, India. DOI:
+       10.1109/ICECA49313.2020.9297652.
+   48. S. Mehtab and J. Sen, “Stock price prediction using CNN and LSTM-based deep
+       learning models”, Proceedings of the IEEE International Conference on Decision Aid
+       Sciences and Applications (DASA’20), pp. 447-453, November 8-9, 2020, Sakheer,
+       Bahrain. DOI: 10.1109/DASA51403.2020.9317207.
+   49. S. Mehtab, J. Sen, and A. Dutta, “Stock price prediction using machine learning and
+       LSTM-based deep learning models”, In: SM Thampi, S Piramuthu, KC Li, S Berretti,
+       M Wozniak, and D Singh (eds) Machine Learning and Metaheuristics Algorithms, and
+       Applications (SoMMA’20), 2020, pp. 88-106, Communications in Computer and
+       Information Science, Springer, Singapore. DOI: 10.1007/978-981-16-0419-5_8.
+   50. S. Mehtab and J. Sen, “Stock price prediction using convolutional neural networks on
+       a multivariate time series”, Proceedings of the 3rd National Conference on Machine
+       Learning and Artificial Intelligence (NCMLAI 2020), New Delhi, INDIA, February 1,
+       2020. DOI: 10.36227/techrxiv.15088734.v1.
+   51. S. Mehtab and J. Sen, “A robust predictive model for stock price prediction using deep
+       learning and natural language processing”, Proceedings of the 7th International
+       Conference on Business Analytics and Intelligence (BAICONF, 2019), Bangalore,
+       INDIA, December 5 – 7, 2019. DOI: 10.36227/techrxiv.15023361.v1.
+   52. J. Sen, “Stock price prediction using machine learning and deep learning frameworks”,
+       Proceedings of the 6th International Conference on Business Analytics and Intelligence
+       (ICBAI’2018), Bangalore, INDIA, December 20 – 21, 2018.
+   53. J. Sen and T. Datta Chaudhuri, "A robust predictive model for stock price forecasting",
+       Proceedings of the 5th International Conference on Business Analytics and Intelligence,
+       Bangalore, December 11- 13, 2017, INDIA. DOI: 10.36227/techrxiv.16778611.v1.
+   54. J. Sen and T. Datta Chaudhuri, "Decomposition of time series data to check consistency
+       between fund style and actual fund composition of mutual funds", Proceedings of the
+       4th International Conference on Business Analytics and Intelligence (ICBAI 2016),
+       Indian Institute of Science, Bangalore, India, December 19 - 21, 2016. DOI:
+       10.13140/RG.2.2.33048.19206.
+   55. J. Sen and T. Datta Chaudhuri, “Decomposition of time series data of stock markets and
+       its implications for prediction – An application for the Indian auto sector”, Proceedings
+       of the 2nd National Conference on Advances in Business Research and Management
+       Practices (ABRMP’2016), Kolkata, India, January 8-9, pp. 15 – 28, 2016.
+       DOI:10.13140/RG.2.1.3232.0241.
+[Type here]
+
+
+   56. J. Sen, S. Mehtab, “Stock price prediction using deep learning and natural language
+       processing”, In: J. Sen and S. Mehtab (eds), Machine Learning in the Analysis and
+       Forecasting of Financial Time Series, pp. 1-28, Cambridge Scholars Publishing, UK,
+       May 2022. ISBN: 978-1-5275-8324-5.
+   57. J. Sen, “Machine learning and deep learning in stock price prediction”, In: J. Sen and
+       S. Mehtab (eds), Machine Learning in the Analysis and Forecasting of Financial Time
+       Series, pp. 29-67, Cambridge Scholars Publishing, UK, May 2022. ISBN: 978-1-5275-
+       8324-5.
+   58. J. Sen and S. Mehtab, “Stock price prediction using convolutional neural networks”,
+       In: J. Sen and S. Mehtab (eds), Machine Learning in the Analysis and Forecasting of
+       Financial Time Series, pp. 68-101, Cambridge Scholars Publishing, UK, May 2022.
+       ISBN: 978-1-5275-8324-5.
+   59. A. Dutta and J. Sen, “Robust predictive models for the Indian IT sector using machine
+       learning and deep learning”, In: J. Sen and S. Mehtab (eds), Machine Learning in the
+       Analysis and Forecasting of Financial Time Series, pp. 102-196, Cambridge Scholars
+       Publishing, UK, May 2022. ISBN: 978-1-5275-8324-5.
+   60. A. Paul and J. Sen, “A causality analysis between the Indian information technology
+       sector index and the DJIA index”, In: J. Sen and S. Mehtab (eds), Machine Learning in
+       the Analysis and Forecasting of Financial Time Series, pp. 197-234, Cambridge
+       Scholars Publishing, UK, May 2022. ISBN: 978-1-5275-8324-5.
+   61. S. Mehtab and J. Sen, “Stock price prediction using machine learning and deep learning
+       algorithms and models”, In: J. Sen and S. Mehtab (eds), Machine Learning in the
+       Analysis and Forecasting of Financial Time Series, pp. 235-303, Cambridge Scholars
+       Publishing, UK, May 2022. ISBN: 978-1-5275-8324-5.
+   62. J. Sen, “Analysis of different sectors of the Indian economy for robust portfolio
+       construction”, In: J. Sen and S. Mehtab (eds), Machine Learning in the Analysis and
+       Forecasting of Financial Time Series, pp. 304-360, Cambridge Scholars Publishing,
+       UK, May 2022. ISBN: 978-1-5275-8324-5.
+   63. J. Sen and A. Dutta, “Portfolio optimization for the Indian stock market”, In: J. Wang,
+       (ed) Encyclopedia of Data Science and Machine Learning, IGI Global, USA, 2023, pp
+       1904-1951. DOI: 10.4018/978-1-7998-9220-5.
+   64. J. Sen and S. Mehtab, “Long-and-Short-Term Memory (LSTM) price prediction –
+       Architectures and applications in stock price prediction”, In: U. Singh, S. Murugesan,
+       and A. Seth (eds) Emerging Computing Paradigms: Principles, Advances, and
+       Applications, Wiley, USA, August 2022 pp 143-160.
+       DOI: 10.1002/9781119813439.ch8.
+   65. J. Sen, R. Sen, and A. Dutta, “Introductory Chapter: Machine learning in finance:
+       Emerging trends and challenges”, In: J. Sen (ed) Machine Learning: Algorithms,
+       Models, and Applications, IntechOpen, London, UK, December 2021. DOI:
+       10.5772/intechopen.101120.
+   66. J. Sen and S. Mehtab, “Design and analysis of robust deep learning models for stock
+       price prediction”, In: J. Sen (ed) Machine Learning – Algorithms, Models and
+[Type here]
+
+
+       Applications,    IntechOpen,        London,       UK,      August       2021.      DOI:
+       10.5772/intechopen.99982.
+   67. J. Sen and S. Mehtab, “Machine learning applications in misuse and anomaly
+       detection”, In: C. Kalloniatis and C.T. Gonzalez (eds) Ethics, Laws, and Policies for
+       Privacy, Security, and Liability, June 2020. DOI: 10.5772/intechopen.92653.
+   68. J. Sen and S. Mehtab, “Introductory Chapter: Machine learning in misuse and anomaly
+       detection”, In: J. Sen (ed) Computer and Network Security, pp. 1-8, IntechOpen,
+       London, UK, May 2020. DOI: 10.5772/intechopen.92168.
+   69. J. Sen, "A Study of the Indian Metal Sector Using Time Series Decomposition-Based
+       Approach", In: S. Basar, A. A. Celik, and T. Bayramoglu (eds) Selected Studies on
+       Economics and Finance, pp. 105 - 152, Cambridge Scholars Publishing, UK, March
+       2018.
+   70. J. Sen and S. Mehtab (eds) Machine Learning in the Analysis and Forecasting of
+       Financial Time Series, Cambridge Scholars Publishing, Newcastle upon Tyne, UK,
+       May 2022. ISBN: 978-1-5275-8324-5.
+   71. J. Sen (ed) Analysis and Forecasting of Financial Time Series: Selected Cases,
+       Cambridge Scholars Publishing, Newcastle upon Tyne, UK, October 2022. ISBN: 978-
+       1-5275-8884-4.
+   72. J. Sen (ed) Machine Learning-Algorithms, Models, and Applications, IntechOpen,
+       London, UK, 2021. ISBN: 978-1-83969-485-1. DOI: 10.5772/intechopen94615.
+   73. J. Sen and T. Datta Chaudhuri (eds) Analysis and Forecasting of Financial Time Series
+       Using R: Models and Applications, Scholars’ Press, Germany, August 2017. ISBN: 978-
+       3330653868.
+   74. J. Sen, “Portfolio optimization using reinforcement learning and hierarchical risk parity
+       approach”, In: G. Rivera, L. Cruz-Reyes, B. Dorronsoro, and A. Rosete-Suarez (eds),
+       Data Analytics and Computational Intelligence: Novel Models, Algorithms and
+       Applications, Springer Nature, Switzerland. (In Press; expected publication in 2023)
+
