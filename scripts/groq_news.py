@@ -45,11 +45,11 @@ for i in range(0, len(items), 30):
                             direction=it.get('direction', ''), strength=it.get('strength', 0), kind=it.get('kind', ''),
                             check=it.get('check'), fact_check=''))
 # double check only the big, doubtful, stock-specific ones (max 8/day) with Gemini + Google Search
-big = [o for o in out if o['check'] and str(o['relevant']).lower() == 'true' and o['stocks']][:8]
+big = [o for o in out if o['check'] and str(o['relevant']).lower() == 'true' and o['stocks']][:5]
 for o in big:
     t, info = gemini(f"Is khabar ko Google Search se jaancho (aaj {today}). Headline: \"{o['title']}\". "
                      "Ek line me jawab: SACH / AFWAH / PURANI / PATA NAHI + chhota kaaran + source naam. Andaza mat lagao.", search=True)
-    o['fact_check'] = (t or f'check fail: {info}').strip().replace('\n', ' ')[:300]
+    o['fact_check'] = (t or '').strip().replace('\n', ' ')[:300]
 
 cols = ['n', 'group', 'title', 'link', 'published', 'relevant', 'stocks', 'sector', 'direction', 'strength', 'kind', 'check', 'fact_check']
 with open(os.path.join(N, f'sorted_{today}.csv'), 'w', newline='', encoding='utf-8') as f:
@@ -60,8 +60,15 @@ def s(o):
     except Exception: return 0
 rel = [o for o in out if str(o['relevant']).lower() == 'true' and o['kind'] in ('fact', 'old_news') and s(o) >= 3]
 rel.sort(key=s, reverse=True)
+import difflib
+uniq = []
+for o in rel:   # same story from many outlets -> keep one
+    t = o['title'].lower()[:90]
+    if any(difflib.SequenceMatcher(None, t, u['title'].lower()[:90]).ratio() > 0.55 for u in uniq): continue
+    uniq.append(o)
+rel = uniq
 md = [f'# छँटी हुई खबरें — {today} (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)', '',
-      f'कुल headlines {len(items)}, छँटी {len(out)}, काम की (ताकत ≥3, fact) {len(rel)}, अफ़वाह/राय/clickbait {sum(o["kind"] in ("rumour","opinion","clickbait") for o in out)}', '']
+      f'कुल headlines {len(items)}, छँटी {len(out)}, काम की (ताकत ≥3, fact, एक कहानी एक बार) {len(rel)}, अफ़वाह/राय/clickbait {sum(o["kind"] in ("rumour","opinion","clickbait") for o in out)}', '']
 for o in rel[:40]:
     md.append(f"- [{o['strength']}/{o['direction']}] {o['stocks'] or o['sector']}: {o['title'][:160]}" + (f"  \n  जाँच: {o['fact_check']}" if o['fact_check'] else ''))
 open(os.path.join(N, 'sorted.md'), 'w', encoding='utf-8').write('\n'.join(md) + '\n')

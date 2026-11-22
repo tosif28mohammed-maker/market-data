@@ -27,6 +27,8 @@ jobs:
       WHAT: ${{ github.event.inputs.what || '' }}
       CRON: ${{ github.event.schedule || '' }}
       EVENT: ${{ github.event_name }}
+      MAX_VIDEOS: '25'
+      MAX_BOOK_CHUNKS: '3'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

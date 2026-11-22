@@ -1,3 +1,11 @@
+# >>> 22 Nov 2026 रात: AI MANAGER (Claude = manager, free helpers) <<<
+Secrets GEMINI_API_KEY + GROQ_API_KEY (Tosif ne 22 Nov daale). scripts/ai_client.py (fallback models, retry, quota-stop), workflow ai_manager.yml (4x/din + push par):
+- gemini_reader.py: YouTube video Gemini khud dekhta (fileData URL, ~15s/video, 25/run) + study/experts/books/*.txt (3 chunk/run) -> study/experts/gemini/*.md,
+  rules_ai.csv, test_queue.csv (naye testable niyam -> Claude ke study run Python se test karein). Tosif ke links -> study/experts/user_links.txt.
+- groq_news.py: data/news/<din>.csv headlines -> data/news/sorted.md + sorted_<din>.csv (Groq sirf chhantai; badi shak wali 5 Gemini+Google se jaanch).
+- scoreboard.py (Shanivaar): paper journals se kaun sa niyam sach me kama raha -> data/scoreboard.md (22 Nov: IDX_USFADE live 14 saude 57% jeet, jeet/haar 2.4 = PASS).
+Double check sirf formula/asli-paisa ideas ya AI asahmati par (ai_review.py pehle se). Groq facts me galat ho sakta (Nifty ko BSE bataya).
+
 # >>> HANDOFF 18 Nov 2026 (subah) — naya chat yahan se shuru kare <<<
 Holdings (Angel, maa ka account): WELCORP 13 @2182.62 (stop 1991; 7 @2370, 6 @2434), SHYAMMETL 8 @1252.96 (stop 1161), SANSERA 2 @4277.04 (stop 4156),
 NAVINFLUOR 1 @8730.62 (stop 8414), KARURVYSYA 40 @379.89 (stop 350, target 420), HFCL 40 @205.49 (17 Nov close 188.19 < stop 189 -> 18 Nov 2:15-3:25 BECHNA),

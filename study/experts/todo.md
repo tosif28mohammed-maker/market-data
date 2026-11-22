@@ -33,3 +33,10 @@ Updated: 2026-11-22 21:30 Kuwait
 - PC transcripts 2026-11-22 11:40 Kuwait: PC मिला पर yt_transcripts फ़ोल्डर इस run से जुड़ा नहीं था (connectedFolders खाली) और device_bash tool उपलब्ध नहीं — script नहीं चली; ok 0, fail 0. Tosif: scheduled task की settings में फ़ोल्डर दोबारा जोड़ें / desktop app अपडेट करें।
 
 - [ ] IDX-01 forward: Shriram Finance (Sensex में) और Trent (बाहर) — 22 Nov से 21 Dec और उसके 20 दिन बाद
+
+## AI manager (22 Nov 2026 रात) — Gemini/Groq robot (.github/workflows/ai_manager.yml)
+- Gemini अब YouTube video खुद देखता है (transcript block की दिक्कत ख़त्म) + books/*.txt पढ़ता है → study/experts/gemini/<id>.md (point-by-point), rules_ai.csv
+- **Claude के study runs: नए testable नियम study/experts/test_queue.csv (status=waiting) से उठाओ** → Python test → status/result भरो (numbers सिर्फ़ code से)
+- Tosif के भेजे YouTube links → study/experts/user_links.txt में जोड़ो (push होते ही robot पढ़ लेता है)
+- Groq news छँटाई → data/news/sorted.md (बड़ी शक वाली ख़बर Gemini+Google से जाँच). Groq facts में ग़लत हो सकता है (Nifty को BSE बताया) — सिर्फ़ छँटाई
+- Hafta scoreboard → data/scoreboard.md (शनिवार). usage/fail → study/ai/usage.csv, gemini/reader_status.json
