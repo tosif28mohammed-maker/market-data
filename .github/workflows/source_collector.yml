@@ -31,6 +31,6 @@ jobs:
       - run: |
           git config user.name "market-data-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add study/experts study/research/claims 2>/dev/null || git add study/experts
+          git add study/experts study/research/claims study/ai 2>/dev/null || git add study/experts
           git commit -m "sources $(date -u +%Y-%m-%d_%H%M)" || echo "no change"
-          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+          for i in 1 2 3; do git pull --rebase --autostash -X theirs && git push && break; sleep 5; done

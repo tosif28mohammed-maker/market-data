@@ -39,27 +39,34 @@ GUT_SEARCH = ['stock market', 'speculation', 'stock exchange', 'tape reading', '
               'commodity', 'panic', 'financial crises', 'money market', 'gold silver', 'dow theory', 'trading', 'securities']
 GUT_OK = re.compile(r'stock|specul|invest|wall street|exchange|securit|financ|panic|crises|money|bank|gold|silver|commod|tape|market|wealth|trade|bond|cotton|wheat', re.I)
 def gutenberg():
+    """Uses Gutenberg's own catalog CSV (gutendex API was timing out). Public domain only (Copyright Status 'Public domain in the USA.')."""
     have = len([f for f in os.listdir(B) if f.startswith('gut_')]); cap = min(MAX_GUT, have + PER_RUN)
-    for q in GUT_SEARCH:
+    if have >= cap: return
+    try: raw = get('https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv', 120).decode('utf-8', 'ignore')
+    except Exception as e: stat['fails'].append(f'gutenberg catalog: {e}'); return
+    import io
+    cands = []
+    for r in csv.DictReader(io.StringIO(raw)):
+        if r.get('Type') != 'Text' or r.get('Language') != 'en': continue
+        subj = (r.get('Subjects', '') + ' ' + r.get('Bookshelves', ''))
+        if not GUT_OK.search(subj) or re.search(r'fiction|poetry|juvenile|drama|novel', subj, re.I): continue
+        if not re.search(r'stock|specul|invest|exchange|securit|panic|crises|money market|commod|tape|wall street|finance', subj, re.I): continue
+        score = sum(bool(re.search(k, subj + r.get('Title', ''), re.I)) for k in ('stock', 'specul', 'invest', 'wall street', 'tape', 'panic', 'commod', 'exchange'))
+        cands.append((score, r['Text#'], r.get('Title', ''), r.get('Authors', '')))
+    cands.sort(reverse=True); stat['gutenberg_candidates'] = len(cands)
+    for score, gid, title, auth in cands:
         if have >= cap or over(): break
-        try: js = json.loads(get('https://gutendex.com/books?languages=en&copyright=false&search=' + urllib.parse.quote(q)))
-        except Exception as e: stat['fails'].append(f'gutendex {q}: {e}'); continue
-        for b in js.get('results', [])[:10]:
-            subj = ' '.join(b.get('subjects', []) + b.get('bookshelves', []))
-            if not GUT_OK.search(subj) or re.search(r'fiction|poetry|juvenile|drama', subj, re.I): continue
-            name = f"gut_{b['id']}_{slug(b['title'])[:50]}.txt"; out = os.path.join(B, name)
-            if os.path.exists(out): continue
-            url = next((u for k, u in b['formats'].items() if k.startswith('text/plain') and not u.endswith('.zip')), None)
-            if not url: continue
-            try:
-                t = get(url).decode('utf-8', 'ignore')
-                m = re.search(r'\*\*\* ?START OF.*?\*\*\*', t); n = re.search(r'\*\*\* ?END OF', t)
-                t = t[m.end() if m else 0: n.start() if n else len(t)]
-                if len(t) < 20000: continue
-                head = f"{b['title']} — {', '.join(a['name'] for a in b.get('authors', []))} (Project Gutenberg #{b['id']}, public domain)\n\n"
-                open(out, 'w', encoding='utf-8').write(head + t); stat['gutenberg_new'].append(b['title'][:80]); have += 1
-            except Exception as e: stat['fails'].append(f"gut {b['id']}: {e}")
-            if have >= cap or over(): break
+        title = ' '.join(title.split())
+        name = f"gut_{gid}_{slug(title)[:50]}.txt"; out = os.path.join(B, name)
+        if os.path.exists(out): continue
+        try:
+            t = get(f'https://www.gutenberg.org/cache/epub/{gid}/pg{gid}.txt', 60).decode('utf-8', 'ignore')
+            m = re.search(r'\*\*\* ?START OF.*?\*\*\*', t); n = re.search(r'\*\*\* ?END OF', t)
+            t = t[m.end() if m else 0: n.start() if n else len(t)]
+            if len(t) < 20000: continue
+            open(out, 'w', encoding='utf-8').write(f"{title} — {auth} (Project Gutenberg #{gid}, public domain)\n\n" + t)
+            stat['gutenberg_new'].append(title[:80]); have += 1
+        except Exception as e: stat['fails'].append(f"gut {gid}: {e}")
         time.sleep(1)
 
 # ---------- 2) arXiv (open access papers) ----------
@@ -136,7 +143,7 @@ def write_order():
     stat['books_total'] = len(order)
 
 if __name__ == '__main__':
-    for step in (wishlist, gutenberg, arxiv):
+    for step in (gutenberg, arxiv, wishlist):
         try: step()
         except Exception as e: stat['fails'].append(f'{step.__name__}: {e}')
     write_order()
