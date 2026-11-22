@@ -1,0 +1,60 @@
+name: ai_manager
+# Claude = manager. Free helpers: Gemini (videos/books, fact-check), Groq (news sorting), Python (numbers).
+# Gemini free quota resets ~08:00 UTC (midnight US Pacific) -> reader runs spread through the day; stops itself on quota.
+on:
+  schedule:
+    - cron: '0 1 * * *'     # 6:30 AM IST: news sort (after news.yml) 
+    - cron: '30 8 * * *'    # 2:00 PM IST: reader (fresh quota)
+    - cron: '30 13 * * *'   # 7:00 PM IST: reader + news re-sort
+    - cron: '30 18 * * *'   # 12:00 AM IST: reader
+    - cron: '0 23 * * *'    # 4:30 AM IST: reader
+    - cron: '0 12 * * 6'    # Saturday 5:30 PM IST: weekly scoreboard
+  push:
+    paths: ['study/experts/user_links.txt', 'study/ai/run_now.txt']   # Claude adds Tosif's links -> reads right away
+  workflow_dispatch:
+    inputs:
+      what: { description: 'reader / news / scoreboard / all', default: 'all' }
+permissions:
+  contents: write
+concurrency: { group: ai_manager, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      WHAT: ${{ github.event.inputs.what || '' }}
+      CRON: ${{ github.event.schedule || '' }}
+      EVENT: ${{ github.event_name }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: decide jobs
+        run: |
+          W="$WHAT"
+          case "$CRON" in
+            "0 1 * * *") W=news;; "30 13 * * *") W="reader news";; "0 12 * * 6") W=scoreboard;; "") ;; *) W=reader;;
+          esac
+          [ "$EVENT" = push ] && W="reader news"
+          [ "$W" = all ] && W="reader news scoreboard"
+          [ -z "$W" ] && W="reader news scoreboard"
+          echo "W=$W" >> $GITHUB_ENV; echo "jobs: $W"
+      - name: Gemini reader (videos + books) — auto-retry once
+        if: contains(env.W, 'reader')
+        run: python scripts/gemini_reader.py || (echo "retry in 90s"; sleep 90; python scripts/gemini_reader.py) || echo "reader failed twice - next run will continue"
+      - name: Groq news sort (+ Gemini fact-check of big doubtful ones) — auto-retry once
+        if: contains(env.W, 'news')
+        run: python scripts/groq_news.py || (sleep 60; python scripts/groq_news.py) || echo "news sort failed twice"
+      - name: weekly scoreboard (pure Python)
+        if: contains(env.W, 'scoreboard')
+        run: python scripts/scoreboard.py > /dev/null
+      - name: save
+        if: always()
+        run: |
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add study/experts study/ai data/news data/scoreboard.md data/scoreboard_history.csv 2>/dev/null || true
+          git commit -m "AI manager $(date -u +%Y-%m-%d_%H%M): $W" || echo "no change"
+          for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; sleep 7; done
