@@ -32,3 +32,9 @@
 - Test MC-01 VIX एक दिन ≥10% गिरे: Nifty 5d +1.25% vs +0.22%; crisis हटाकर छोटा (+0.56 vs +0.25); VIX पहले ≥20 हो तो 20d +2.61% (69% ऊपर) → अभी analysis में (r048)
 - MO-10 (Motilal Dec 2025: large caps आगे रहेंगे): अब तक फ़र्क नहीं (सब groups median ~-9%) → forward
 - Source ratings: Dhan = 3 पर 4 टेस्ट fail; Motilal WCS = 4
+
+## 2026-11-22 21:11 (daily report run)
+- Robot: 62 sources, failed 0; 57 नए items (35 रखे); transcripts 0 (RequestBlocked 6, Unplayable 2) — PC चाहिए. नई किताब नहीं.
+- पढ़ा (Claude): queue के 35 नए (ज़्यादातर news/मनोरंजन/PIB — काम का सिर्फ़ Sensex rejig); Motilal WCS 13, 14, 15, 16, 17 Key Findings.
+- नए claims: MO-12 (RoE का बदलाव), MO-13 (WCS 15: 2005-10 में सस्ता P/E काम नहीं आया — MO-01 का उल्टा सबूत), IDX-01 (index में शामिल/बाहर), BF-01b
+- Test BF-01b Nifty ATH से दूरी: >20% नीचे पर 250d +30.6% vs आम +11.4; ATH पर +4.6%; पर episodes कम → अभी analysis में (r053)
