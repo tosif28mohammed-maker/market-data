@@ -4,3 +4,11 @@ gemini gemini-pro-latest fail HTTP Error 429: Too Many Requests
 gemini gemini-3.6-flash fail HTTP Error 503: Service Unavailable
 gemini gemini-2.5-flash fail HTTP Error 404: Not Found
 groq OK openai/gpt-oss-120b
+gemini gemini-3.1-pro-preview fail HTTP Error 429: Too Many Requests
+gemini gemini-pro-latest fail HTTP Error 429: Too Many Requests
+gemini gemini-3.8-flash fail HTTP Error 503: Service Unavailable
+gemini gemini-3.7-flash fail HTTP Error 503: Service Unavailable
+gemini gemini-3.6-flash fail HTTP Error 503: Service Unavailable
+gemini gemini-3.5-flash fail HTTP Error 503: Service Unavailable
+gemini gemini-flash-latest fail The read operation timed out
+gemini OK gemini-3-flash-preview
