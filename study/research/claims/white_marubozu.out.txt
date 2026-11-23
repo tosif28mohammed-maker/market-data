@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/home/runner/work/market-data/market-data/study/research/claims/white_marubozu.py", line 15, in <module>
+    R = pd.DataFrame(evaluate(ev, F, 'marubozu', placebo=pl) + evaluate(pl, F, 'wick_placebo'))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/market-data/market-data/study/research/claims/../../ni_common.py", line 78, in evaluate
+    em = era_mask(idx)
+         ^^^^^^^^^^^^^
+  File "/home/runner/work/market-data/market-data/study/research/claims/../../ni_common.py", line 64, in era_mask
+    m[n] = (idx >= s) & (idx <= e)
+            ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/ops/common.py", line 140, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/arraylike.py", line 65, in __ge__
+    return self._cmp_method(other, operator.ge)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 1468, in _cmp_method
+    return super()._cmp_method(other, op)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 7782, in _cmp_method
+    result = ops.comparison_op(self._values, other, op)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/ops/array_ops.py", line 356, in comparison_op
+    return invalid_comparison(lvalues, rvalues, op)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/ops/invalid.py", line 121, in invalid_comparison
+    raise TypeError(f"Invalid comparison between dtype={left.dtype} and {typ}")
+TypeError: Invalid comparison between dtype=int64 and str
+fail study/research/claims/white_marubozu.py
