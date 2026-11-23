@@ -86,3 +86,11 @@
 - Test AI-9197A2 5y CAGR winners: अगले 12m -4.5% → बेकार (r058)
 - MO-24 Atoms→Bits: IT Dec21→Nov26 +156% vs +108% → अभी analysis में (एक दौर)
 - Notebook: r058 + r01 i97-i99. Source rating WCS 26=3.
+
+## 2026-11-24 02:11 (silent run)
+- Robot: 62 sources, failed 0, नए 74 (47 रखे); transcripts 0 (VideoUnplayable 2). Gemini reader 23 Nov 19:29 UTC: free quota ख़त्म (429), 0 हिस्से; books_left 10, videos_left 153. Price data (u500) आख़िरी तारीख़ 2 Nov.
+- पढ़ा (Claude): queue के 47 नए (Nvidia/US rally, SEBI GMP चेतावनी, NSEL settlement, PIB — testable नहीं); Motilal WCS 27 (Highlights + Consistents & Volatiles theme), WCS 28 (Conclusions + 9 Key Takeaways).
+- नए claims: MO-25, MO-26, MO-25b (blocked), MO-27 (blocked)
+- Test MO-25 Consistent vs Volatile sectors (WCS Dec 2022 सूची, out-of-sample): Dec22→Nov26 cons +63.9% vs vol +83.2% (median +31.8 vs +25.4); 2023 -22pp, 2024 -17pp, 2025 +7pp, 2026 +5pp; last 4m cons -4.3 vs vol -7.9 → outperform नहीं, गिरावट में बचाव → अभी analysis में (r060)
+- Test MO-26 "5 में 5 साल market से आगे" → अगले साल -1.6% (hit 34%) → बेकार (r060)
+- Notebook: r060 + r01 i100, i101. Source ratings: WCS 27=3, WCS 28=2.

@@ -25,8 +25,11 @@ jobs:
         env: { GEMINI_API_KEY: '${{ secrets.GEMINI_API_KEY }}' }
         run: python scripts/book_finder.py || echo "book finder failed - next run"
       - name: claim test scripts (study/research/claims/*.py, if any)
+        env: { U500: '/home/runner/u500', NI_CACHE: '/home/runner/ni_panel.pkl' }
         run: |
           pip install -q pandas numpy
+          need=0; for f in study/research/claims/*.py; do grep -q "^# ROBOT" "$f" || continue; out="${f%.py}.out.txt"; [ -f "$out" ] && [ "$out" -nt "$f" ] && continue; need=1; done
+          if [ "$need" = 1 ] && [ ! -d /home/runner/u500 ]; then git clone -q --depth 1 --filter=blob:none --sparse --branch universe500 "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" /home/runner/u500 && (cd /home/runner/u500 && git sparse-checkout set u1000/daily u2000/daily) || echo "u500 clone failed"; fi
           for f in study/research/claims/*.py; do [ -f "$f" ] || continue; grep -q "^# ROBOT" "$f" || continue; out="${f%.py}.out.txt"; [ -f "$out" ] && [ "$out" -nt "$f" ] && continue; timeout 900 python "$f" > "$out" 2>&1 || echo "fail $f" >> "$out"; done
       - run: |
           git config user.name "market-data-bot"
