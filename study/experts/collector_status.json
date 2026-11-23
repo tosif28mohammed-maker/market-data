@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-11-23 01:56",
+ "run_utc": "2026-11-23 08:38",
  "sources": 62,
  "failed": [],
- "new_items": 30,
- "kept": 19,
+ "new_items": 168,
+ "kept": 136,
  "transcripts_ok": 0,
  "transcript_errors": {
-  "VideoUnplayable": 2
+  "IpBlocked": 9
  },
  "books_new": []
 }
