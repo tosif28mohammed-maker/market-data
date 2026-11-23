@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-23 02:40 Kuwait
+Updated: 2026-11-23 06:40 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -18,13 +18,20 @@ Updated: 2026-11-23 02:40 Kuwait
 - [x] queue के 282 new पढ़े; WCS 12 पूरा पढ़ा (22 Nov 18:11)
 - [x] WCS 13-17 Key Findings पढ़े (22 Nov 21:11; ज़्यादातर MO-01..11 जैसे; नए MO-12, MO-13)
 - [x] WCS 18-21 पढ़े (23 Nov 02:11; MO-14..17)
-- [ ] WCS 22-29 पढ़ना (हर run 3-4 studies: Findings Summary) — WCS 30 का theme हिस्सा (lines 120-2800) भी
+- [x] WCS 22, 23 पढ़े (23 Nov 06:11; MO-18..21)
+- [ ] WCS 24-29 पढ़ना (हर run 3-4: Findings Summary; 24 = management integrity, 25 = QGLP checklist) — WCS 30 का theme हिस्सा (lines 120-2800) भी
 - [ ] ARX-01 आगे: Nifty futures cost (~0.03%) के साथ "up-day के बाद hold" + regime filter
 - [ ] test_queue pending: AI-419DA0/AI-036DAC (fundamentals history चाहिए — robot से yfinance quarterly/annual इतिहास?), AI-320182 (historical mcap)
 
 - [ ] Blog pages (allocatesmartly, alphaarchitect) web-fetch permission timeout — अगली बार दोबारा कोशिश (AS-03 नियम पढ़ना)
 
+- [ ] Nifty PE/PB/DY इतिहास का नया source (niftyindices API dead): tapetide.com/insight/market-valuation/nifty-pe-ratio-history.md, data.mendeley.com/datasets/6pjd2wzzcc/1, freefincal Nifty PE file, nikhilsuthar.github.io/indian-market-data → robot script → data/indices/NIFTY50_PE.csv; फिर AI-D1EDA5/AI-7292D2/AI-CB739F test (10y G-sec भी चाहिए)
+- [ ] 10-साल fundamentals का source (blocked 7 नियम) — sirf 4 saal yfinance hai
+
 ## Claude — भारी (हिस्सों में)
+- [ ] MO-21 Porter industry score: data/fund/info.csv industry → WCS 22 Exhibit 24 score map → score ≥3.5 vs ≤2 groups 1/3/5 साल return 2005-26 (1 हिस्सा)
+- [ ] ARX-02 असली Nifty Midcap/Smallcap index data (NSE TRI) से दोबारा + cash पर 6% ब्याज जोड़कर
+- [ ] MO-18 forward: FY2026 cohort (30 Jun 2026 → 30 Jun 2027) PE बकेट जाँचना
 - [ ] DHAN-15 RSI divergence 2-min scalping — intraday_hist (Nifty/Sensex 1-min) पर divergence detector + test
 - [ ] MC-01 forward: VIX≥20 के बाद ≥10% 1-दिन गिरावट आए तो 5/20 दिन देखना
 - [ ] MO-10 forward: large vs mid/small (1 Dec 2025 से) हर महीने

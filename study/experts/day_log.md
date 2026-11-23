@@ -55,3 +55,14 @@
 - Test MO-17 young कंपनियाँ: listing के 1-3 साल वाले अगले 12m -2.6% (हर दौर) → बेकार (r055)
 - Test ARX-01 Nifty up-day के बाद ऊपर 55.7% vs 49.8% (+0.1%/दिन फ़र्क), पिछले 6 महीने कमज़ोर → अभी analysis में (r055)
 - Notebook: r055 + r01 i85-i89. Source ratings: WCS 18=4, 19/21=3, 20=2.
+
+## 2026-11-23 06:11 (silent run)
+- Robot: 62 sources, failed 0, नए 30 (19 रखे); transcripts 0 (VideoUnplayable 2). Gemini reader आख़िरी 22 Nov 23:30 UTC (8 book हिस्से, 17 नियम; books_left 20, videos_left 127).
+- पढ़ा (Claude): queue के 19 नए (news/live/US राय — testable नहीं); Motilal WCS 22 (Findings + CAP/GAP theme key findings), WCS 23 (Valuation insights: P/E, relative P/E, PEG, Payback, conclusions).
+- test_queue: AI-07BCC4 tested; AI-7FFE0C = ARX-01; AI-A6C01F बेकार (perfect foresight); 3 valuation नियम blocked (Nifty PE/G-sec इतिहास नहीं), 7 नियम blocked (10 साल fundamentals नहीं), 3 blocked (पुराना mcap नहीं).
+- नए claims: MO-18, MO-19, MO-20, MO-21, ARX-02
+- Test MO-18 P/E बकेट (FY23-25, 12m excess): 0-10 +7.7%, 30-50 -5.4, 50-75 -8.0, >75 -4.9; median सब negative; FY25 cohort में 50-75 +3 → अभी analysis में (r056)
+- Test MO-19 High RoE+growth (1y): कोई edge नहीं (+0.3 vs +0.4) → analysis (10y test नहीं हो सका)
+- MO-20 PEG/Payback: Motilal ने असली future PAT लिया (perfect foresight) → बेकार
+- Test ARX-02 Mid/Small पिछला महीना + तो hold: अगला महीना +2.6/+3.4 vs +0.9%, drawdown -42 vs -67, पर CAGR कम और पिछले 12 महीने उल्टा → अभी analysis में (r056)
+- Notebook: r056 + r01 i90-i94. Source ratings: WCS 22=3, WCS 23=4.
