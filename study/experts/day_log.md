@@ -67,3 +67,12 @@
 - Test ARX-02 Mid/Small पिछला महीना + तो hold: अगला महीना +2.6/+3.4 vs +0.9%, drawdown -42 vs -67, पर CAGR कम और पिछले 12 महीने उल्टा → अभी analysis में (r056)
 - Notebook: r056 + r01 i90-i94. Source ratings: WCS 22=3, WCS 23=4.
 - PC transcripts 23 Nov 10:24: PC मिला, पर yt_transcripts फ़ोल्डर इस run से जुड़ा नहीं था और PC shell (device_bash) नहीं मिला → script नहीं चला (ok 0, fail 0). Browser fallback छोड़ा (Gemini अब video खुद देखता है, Claude usage बचाने के लिए). Tosif: Cowork में scheduled task के लिए फ़ोल्डर दोबारा जोड़ें.
+
+## 2026-11-23 18:11 (silent run)
+- Robot: 62 sources, failed 0, नए 196 (99 रखे); transcripts 0 (RequestBlocked 12). Kal 24 Nov market holiday (Guru Nanak).
+- पढ़ा (Claude): queue के 235 नए (ज़्यादातर news/live/US राय; testable: White Marubozu lists); Motilal WCS 24 (management integrity — qualitative), WCS 25 key findings (25 साल winners — survivorship list, नया नियम नहीं).
+- नए claims: MO-22 (=AI-184C53), MO-21t, MO-23, ET-02
+- Test AI-184C53 "Utilities/CapGoods/Realty/Metals/Telecom से दूर": median 12m -2.2% पर mean +6.4% (boom cycles), 2021-26 +18.8 → बेकार (r057)
+- Test MO-21 Porter ≥3.5 उद्योग: 12m vs बाकी -3.6% (median +0.6), 51% → अभी analysis में (r057)
+- Test ET-02 White Marubozu: 20d excess +0.28 (median -2.31, win 42%), placebo -0.52; 2021-26 +1.64, last 2m +2.8 → अभी analysis में (r057)
+- Notebook: r057 + r01 i93 update, i95, i96. Source ratings: WCS 24=2, WCS 25=2.
