@@ -131,3 +131,23 @@ utc,provider,model,ok,note
 2026-11-23 15:03,groq,openai/gpt-oss-20b,1,1s
 2026-11-23 15:03,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-23 15:04,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-23 19:29,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-23 19:30,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-23 19:30,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-23 19:31,gemini,gemini-3.5-flash,0,HTTP 429
+2026-11-23 19:31,gemini,gemini-flash-latest,0,HTTP 503
+2026-11-23 19:31,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-23 19:31,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-23 19:31,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-23 19:32,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-23 19:32,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-23 19:32,gemini,gemini-flash-latest,0,HTTP 503
+2026-11-23 19:32,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-23 19:32,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-23 19:33,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-23 19:33,gemini,gemini-3.7-flash,0,HTTP 429
+2026-11-23 19:33,gemini,gemini-3.5-flash,0,quota 429 x4 -> stop
+2026-11-23 19:34,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-23 19:35,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-23 19:35,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-23 19:35,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
