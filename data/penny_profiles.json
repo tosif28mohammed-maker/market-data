@@ -514,5 +514,29 @@
   "website": "https://www.websolenergy.com",
   "city": "Kolkata",
   "employees": 655
+ },
+ "GKENERGY": {
+  "as_of": "2026-11-23",
+  "kaam": "",
+  "log": [],
+  "website": "",
+  "city": "",
+  "employees": null
+ },
+ "TEMBO": {
+  "as_of": "2026-11-23",
+  "kaam": "",
+  "log": [],
+  "website": "",
+  "city": "",
+  "employees": null
+ },
+ "MUNJALAU": {
+  "as_of": "2026-11-23",
+  "kaam": "",
+  "log": [],
+  "website": "",
+  "city": "",
+  "employees": null
  }
 }

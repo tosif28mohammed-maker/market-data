@@ -1,4 +1,3 @@
 symbol,company,subject,div_rs,last_close,yield_pct,ex_date,record_date,tdays_to_ex,buy_from,sell_on_cum,liq_D,src
-PASHUPATI,Pashupati Cotspin Limited,Interim Dividend - Re 0.02 Per Share,0.02,,,23-Nov-2026,23-Nov-2026,1,2026-11-13,2026-11-20,True,NSE
-VRAJ,Vraj Iron and Steel Limited,Interim Dividend - Re 0.60 Per Share,0.6,,,25-Nov-2026,25-Nov-2026,2,2026-11-16,2026-11-23,False,NSE
-FUSIONCX,Fusion CX Limited,Dividend - Re 0.75 Per Share,0.75,,,27-Nov-2026,27-Nov-2026,4,2026-11-18,2026-11-26,False,NSE
+VRAJ,Vraj Iron and Steel Limited,Interim Dividend - Re 0.60 Per Share,0.6,,,25-Nov-2026,25-Nov-2026,1,2026-11-16,2026-11-23,False,NSE
+FUSIONCX,Fusion CX Limited,Dividend - Re 0.75 Per Share,0.75,,,27-Nov-2026,27-Nov-2026,3,2026-11-18,2026-11-26,False,NSE
