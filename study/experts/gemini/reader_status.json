@@ -1,11 +1,13 @@
 {
- "run_utc": "2026-11-23 09:47",
+ "run_utc": "2026-11-23 14:40",
  "videos_ok": 0,
- "videos_fail": [],
- "rules_added": 19,
+ "videos_fail": [
+  "book motilal_wcs_17_2007_12.txt@150000: HTTP 404"
+ ],
+ "rules_added": 34,
  "book_chunks": 8,
  "stopped": "",
- "books_left": 14,
- "book_chars_left": 4007323,
- "videos_left": 138
+ "books_left": 10,
+ "book_chars_left": 3081567,
+ "videos_left": 151
 }

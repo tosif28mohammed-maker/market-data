@@ -1,44 +1,44 @@
 # छँटी हुई खबरें — 2026-11-23 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 904, छँटी 868, काम की (ताकत ≥3, fact, एक कहानी एक बार) 272, अफ़वाह/राय/clickbait 250
+कुल headlines 904, छँटी 904, काम की (ताकत ≥3, fact, एक कहानी एक बार) 293, अफ़वाह/राय/clickbait 220
 
+- [5/negative] : US Stock Market Crash: फूट गया AI बबल? अमेरिका में मचा हाहाकार, ₹560 लाख करोड़ डूबे! - Head Topics
 - [5/negative] Gold: Gold Prices Crash 32% From January Peak to ₹1.22 Lakh, Recovery May Take Years - https://ascendants.in/
 - [5/negative] Gold: World gold prices fell to near $3,500, as a liquidity crunch for USD pushed the precious metal down 37% from its peak. - Vietnam.vn
-- [5/positive] TATASTEEL.NS: Tata Steel announces ₹28,000 cr deal with APL Apollo Tubes for two units - Business Standard
-- [5/positive] Energy: Amazon Announces USD 7 Billion Renewable Energy Investment Plan in India by 2030 - Dalal Street Investment Journal
-- [5/negative] Macro: Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos
-- [5/positive] Oil & Gas: Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines - Business Standard
-- [5/positive] Oil & Gas: Oil Prices Surge Past 50% Yet US Shale Producers Won't Expand Output; Q3 Shareholder Returns Hit NT$240 Billion - BigGo Finance
-- [5/positive] Oil & Gas: Citi Raises Brent Forecast for 2026; Sees $150 Oil if Hormuz Disruption Persists - EnergyNow.com
-- [5/negative] Geopolitics: Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos
-- [5/negative] Geopolitics: US-Iran War Live Updates: Tehran says it hit US radars in Bahrain as fire breaks out at civilian site - The Indian Express
-- [5/positive] INFY: Infosys stock: INR 18,000 crore buyback opens during key week - ad-hoc-news.de
-- [5/positive] TATASTEEL,APLAPOLLO: APL Apollo to buy Tata Steel units for $1.76B in cash - Dealroom
-- [5/positive] APLAPOLLO: APL Apollo Tubes shares in focus after mega ₹28,000 crore deal with Tata Steel - CNBC TV18
-- [5/positive] TATASTEEL,APLAPOLLO: Tata Steel to sell tubes, pipes business and Tata Steel Colors to APL Apollo for Rs 28,000 crore - The Economic Times
-- [5/positive] WEW: WeWork India share price jumps 40% in 6 months; ICICI Direct sees 37% more gains ahead - Buy? Check Target - Livemint
+- [5/positive] PE: Premier Explosives Secures International Defence Explosives Export Order - Sahi
+- [5/negative] technology: Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020 - CNBC
+- [5/negative] technology: Nvidia Just Lost Nearly Half Its Value. A 62-Year-Old With $1 Million in an S&P 500 Index Fund Owns About $50,000 of It Without Buying a Share - 24/7 Wall St.
+- [5/negative] technology: TradingKey Wall Street Weekly: Nvidia and Anthropic Deepen AI Selloff; Nasdaq Plunges 10.02% and Erases 2026 Gains - TradingKey
+- [5/negative] technology: Wall Street reels as AI-linked companies spark massive sell-off in the US - Le Monde.fr
+- [5/positive] Energy: Oil Prices Surge Past 50% Yet US Shale Producers Won't Expand Output; Q3 Shareholder Returns Hit NT$240 Billion - BigGo Finance
+- [5/positive] NTPC: NTPC and NPCIL invest ₹1.4 lakh crore in two nuclear power plants and six energy projects in Bihar - ET EnergyWorld
 - [4/positive] overall: Four weeks of gains! Sensex, Nifty scale 9-month highs on record FII buying - Moneycontrol.com
 - [4/positive] overall: Nifty Hits Nine-Month High of 25,800 as Record FII Buying Lifts Sensex 2,327 Points - HDFC Sky
 - [4/positive] overall: Indian Stock Market Extends 4-Week Rally as Sensex and Nifty Hit 9-Month Highs on Record FII Buying - Kotak Neo
 - [4/positive] overall: Foreign Institutional Investors Put ₹1.12 Lakh Crore Into India - Multibagg AI
-- [4/mixed] overall: FIIs Net Buy ₹1.12 Lakh Crore in November, Yet Stay Net Short on Index Futures - NiftyTrader
 - [4/positive] overall: FIIs go big on Indian equities, pump over Rs 1.10 lakh crore in November: What comes next? - The Economic Times
 - [4/positive] overall: FIIs Invest Rs 1,11,950 Crore Into Indian Stock Markets In November So Far - ETV Bharat
 - [4/positive] Macro: ADB raises India’s GDP growth forecast to 7pc on stronger-than-expected Q1 growth - DD News
-- [4/positive] Macro: India GDP growth projected at 7% for FY27 - Telangana Today
-- [4/positive] Automotive: CIE Automotive India Q2 Results FY27: PAT Up 13.91% - Univest
-- [4/positive] RELIANCEBR: Reliance Brands FY26 revenue up 3.8% to ₹3,391 cr, loss narrows to ₹137 cr - Business Standard
+- [4/mixed] Macro: India's GDP growth projected at 7 pc for FY27, 25 bps rate hike likely in Dec: Report - ET Retail
 - [4/negative] MARUTI: Maruti Suzuki Declares Fourth Price Hike In 2026: Cars To Get Costlier From Nov. 22 - NDTV Profit
 - [4/positive] Currency: Rupee climbs past 93/USD as investors seek shelter in Indian stocks, shorts unwind - Reuters
-- [4/positive] Currency: RBI says forex inflows under swap facility reach $72.85 billion - News On AIR
-- [4/negative] Currency: Indias Foreign Exchange Reserves Fall by More than $14 Billion, RBI Data Reveals - TheWire.in
-- [4/positive] : Record November foreign inflows lift rupee, sensex rises 13% - The Times of India
-- [4/positive] VOLTAS,BLUESTAR,HAVELLS: Voltas, Blue Star, Havells Shares Rally Up To 8% As Copper Prices Hit 7-month Low - BW Businessworld
-- [4/negative] Commodities: Chilean peso suffers one of its steepest weekly declines of 2026 as copper drops below $6 and the dollar surges - Latin Times
-- [4/negative] Gold: Spot Gold Plunges Nearly 9% in a Week, Losing $3,600 Handle; China's Gold Jewelry Prices Fall for Tenth Straight Day, Down More Than 650 Yuan This Year - BigGo 
-- [4/negative] Gold: Gold prices plummet as other financial assets become more attractive. - Vietnam.vn
-- [4/negative] Gold: Gold slides to lowest level since September 2025, silver crashes nearly 4%: What's driving the selloff? - Livemint
-- [4/positive] PREMEX: Premier Explosives Secures International Defence Explosives Export Order - Sahi
-- [4/positive] Banking: Nifty Eyes 26,000: FIIs Pour Record Rs 1.12 Lakh Crore as Banking Rally Leads Markets - theopenpress.in
-- [4/positive] Metals: Kasturi Metal promoter buys 6,000 shares, holding rises to 20.04% - scanx.trade
-- [4/positive] Various: GRSE, Coforge, Lloyd Metals, BDL, Tanfac, Sambhav Steel among top 20 stocks with upto 75% upside - Business Today
+- [4/positive] Forex: RBI says forex inflows under swap facility reach $72.85 billion - News On AIR
+- [4/positive] Currency: Rupee storms past 93 on foreign inflows and softer oil - The New Indian Express
+- [4/negative] Currency: Indian rupee falls to 92.42 as crude and outflows intensify - Multibagg AI
+- [4/negative] Forex: Indias Foreign Exchange Reserves Fall by More than $14 Billion, RBI Data Reveals - TheWire.in
+- [4/positive] Currency: Record November foreign inflows lift rupee, sensex rises 13% - The Times of India
+- [4/positive] Manufacturing: Budget 2027 may see 1-3% duty cut on 115 manufacturing inputs - The Economic Times
+- [4/positive] Trade: India-US trade deal negotiations nearing completion, signing awaits clarity on US tariff structure - Prop News Time
+- [4/positive] trade: Jaishankar says India-US trade deal almost at finish line, remaining concerns more on American side | India News - Hindustan Times
+- [4/positive] trade: India-EU FTA likely to be signed on December 16 - The Financial Express
+- [4/positive] trade: India-US Trade Deal Nears Finish Line, Jaishankar Says Most Issues Resolved - Outlook India
+- [4/positive] stocks: पिछले हफ्ते के टॉप 5 शेयर: 5 दिन में दिया 59% तक रिटर्न, सबसे सस्ते का रेट ₹1 से भी कम; आपने खरीदा था कोई? - Jagran
+- [4/mixed] : Stock Market Today: विदेशी निवेशकों की खरीदारी से चमका शेयर बाजार, निफ्टी 25,000 के पार; घरेलू फंडों की रिकॉर्ड बिकवाली - Business Standard
+- [4/positive] : FII की रिकॉर्ड खरीदारी से झूमा बाजार, 9 महीने के हाई पर Sensex-Nifty - Moneycontrol Hindi
+- [4/negative] metals: From Squeezes to Meltdown, a Week of Mayhem Rocks Metals Markets - Bloomberg.com
+- [4/negative] commodities: Gold, copper, aluminium dive to at least 7-month lows - The Hindu
+- [4/positive] VOLTS,BLUESTAR,HAVELLS: Voltas, Blue Star, Havells Shares Rally Up To 8% As Copper Prices Hit 7-month Low - BW Businessworld
+- [4/negative] Gold: Gold Price Forecast: Selloff Echoes 2022 as Fed Hike Fears Grow - FXEmpire
+- [4/mixed] Gold: Gold Price Nears 52-Week Low, Institutions Forecast Rebound to $5,200 Next Year - NAI500
+- [4/positive] Gold: Goldman Sachs: Gold to Outperform Silver and Reach $5,600 by End-2028 - TradingView
+- [4/positive] Gold: Goldman Sachs Backs Gold Over Silver, With a Forecast 31% Above Today’s Price - CEOWORLD magazine
