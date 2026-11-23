@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-23 18:40 Kuwait
+Updated: 2026-11-23 21:40 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -20,7 +20,8 @@ Updated: 2026-11-23 18:40 Kuwait
 - [x] WCS 18-21 पढ़े (23 Nov 02:11; MO-14..17)
 - [x] WCS 22, 23 पढ़े (23 Nov 06:11; MO-18..21)
 - [x] WCS 24, 25 पढ़े (23 Nov 18:11; MO-23 pledge/auditor — data नहीं)
-- [ ] WCS 26-29 पढ़ना (हर run 2-3: Findings Summary) — WCS 30 का theme हिस्सा (lines 120-2800) भी
+- [x] WCS 26 Summary पढ़ा (23 Nov 21:11; MO-24)
+- [ ] WCS 27-29 पढ़ना (हर run 2-3: Findings Summary) — WCS 30 का theme हिस्सा (lines 120-2800) भी
 - [ ] ARX-01 आगे: Nifty futures cost (~0.03%) के साथ "up-day के बाद hold" + regime filter
 - [ ] test_queue pending: AI-419DA0/AI-036DAC (fundamentals history चाहिए — robot से yfinance quarterly/annual इतिहास?), AI-320182 (historical mcap)
 
@@ -29,7 +30,11 @@ Updated: 2026-11-23 18:40 Kuwait
 - [ ] Nifty PE/PB/DY इतिहास का नया source (niftyindices API dead): tapetide.com/insight/market-valuation/nifty-pe-ratio-history.md, data.mendeley.com/datasets/6pjd2wzzcc/1, freefincal Nifty PE file, nikhilsuthar.github.io/indian-market-data → robot script → data/indices/NIFTY50_PE.csv; फिर AI-D1EDA5/AI-7292D2/AI-CB739F test (10y G-sec भी चाहिए)
 - [ ] 10-साल fundamentals का source (blocked 7 नियम) — sirf 4 saal yfinance hai
 
+- [ ] test_queue pending 7 (price से testable): AI-48006E div yield>3% (dividend इतिहास चाहिए — yfinance robot), AI-C62277/AI-C7791E PSU exclusion (PSU सूची बनानी), AI-0B9866/AI-EF9B89/AI-867542/AI-6EF0EE mcap-tier (पुराना mcap proxy = price×आज के shares)
+- [ ] book_finder: Gutenberg 503/timeouts — mirror (gutenberg.pglaf.org) या बाद में; Gemini WCS 17 हिस्सा HTTP 404 जाँचना
+
 ## Claude — भारी (हिस्सों में)
+- [ ] AI-062853 आगे: Hurst-high momentum पर stop/target (mfe_mae) + 200DMA regime, weekly/monthly hold
 - [x] MO-21 Porter test (r057: edge नहीं, analysis) + AI-184C53 बेकार
 - [ ] MO-21 आगे: Porter-hi group का drawdown/गिरावट में बचाव (defensive) जाँचना
 - [ ] ET-02 White Marubozu आगे: stop/target (mfe_mae) + trend/200DMA filter

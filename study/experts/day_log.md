@@ -76,3 +76,13 @@
 - Test MO-21 Porter ≥3.5 उद्योग: 12m vs बाकी -3.6% (median +0.6), 51% → अभी analysis में (r057)
 - Test ET-02 White Marubozu: 20d excess +0.28 (median -2.31, win 42%), placebo -0.52; 2021-26 +1.64, last 2m +2.8 → अभी analysis में (r057)
 - Notebook: r057 + r01 i93 update, i95, i96. Source ratings: WCS 24=2, WCS 25=2.
+
+## 2026-11-23 21:11 (daily report run)
+- Robot: 62 sources, failed 0; transcripts 0 (RequestBlocked 12). book_finder: Gutenberg 503/timeout, नई किताब 0 (कुल 25). Gemini reader 14:40 UTC: 8 book हिस्से, 34 नियम, books_left 10, videos 0 (151 queue); 1 हिस्सा HTTP 404 (WCS 17).
+- पढ़ा (Claude): test_queue के 50 waiting Gemini नियम (ज़्यादातर Motilal fundamentals वाले); Motilal WCS 26 Summary (Atoms→Bits).
+- test_queue: 2 tested, 8 generic/एक-घटना → done (skip), 7 price-data से testable → pending, 33 blocked (5-10 साल fundamentals/GDP इतिहास नहीं).
+- नए claims: AI-062853, AI-9197A2, MO-24
+- Test AI-062853 Hurst: H>0.55 + 6m momentum 1m excess +0.87% vs आम momentum +0.51% (तीनों दौर बेहतर); H<0.45 reversion -0.08% → trend हिस्सा अभी analysis में, reversion बेकार (r058)
+- Test AI-9197A2 5y CAGR winners: अगले 12m -4.5% → बेकार (r058)
+- MO-24 Atoms→Bits: IT Dec21→Nov26 +156% vs +108% → अभी analysis में (एक दौर)
+- Notebook: r058 + r01 i97-i99. Source rating WCS 26=3.
