@@ -33,6 +33,12 @@ Updated: 2026-11-23 21:40 Kuwait
 - [ ] test_queue pending 7 (price से testable): AI-48006E div yield>3% (dividend इतिहास चाहिए — yfinance robot), AI-C62277/AI-C7791E PSU exclusion (PSU सूची बनानी), AI-0B9866/AI-EF9B89/AI-867542/AI-6EF0EE mcap-tier (पुराना mcap proxy = price×आज के shares)
 - [ ] book_finder: Gutenberg 503/timeouts — mirror (gutenberg.pglaf.org) या बाद में; Gemini WCS 17 हिस्सा HTTP 404 जाँचना
 
+## Data कमी → robot (23 Nov 22:00, Tosif: "कमी हो तो download करो / किसी और को दो, नहीं हो सके तो मुझे बताओ")
+- [x] GDP + macro: scripts/macro_history.py → data/macro/ (World Bank 1960-2025: GDP INR/USD, real growth, CPI, mcap/GDP, lending rate; FRED: 10y G-sec 2011-26 monthly, CPI index, USDINR daily, IIP, India quarterly real GDP 2004-26, US 10y). workflow macro_data.yml (रोज़ 6:55 PM IST)
+- [ ] NSE index P/E P/B DivYield रोज़ाना (सब indices) — scripts/index_pe_history.py, robot पीछे की तरफ़ भर रहा (2015 तक पक्का, 2011 404). भरने पर: AI-D1EDA5, AI-7292D2, AI-CB739F, AI-0811E2 (earnings yield/G-sec), AI-5C5C39 test
+- [ ] World Bank mcap/GDP 2018 और 2025 के आँकड़े अजीब (153%, 267%) — mcap/GDP ख़ुद बनाना: BSE total mcap इतिहास चाहिए
+- [ ] Tosif से पूछा: 10 साल company fundamentals (RoE/PAT/dividend) और corporate profit/GDP — free source नहीं मिला (Screener/Prowess login/paid)
+
 ## Claude — भारी (हिस्सों में)
 - [ ] AI-062853 आगे: Hurst-high momentum पर stop/target (mfe_mae) + 200DMA regime, weekly/monthly hold
 - [x] MO-21 Porter test (r057: edge नहीं, analysis) + AI-184C53 बेकार
