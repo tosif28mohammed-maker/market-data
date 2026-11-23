@@ -1,0 +1,19 @@
+{
+ "gdp_nominal_inr": 66,
+ "gdp_nominal_usd": 66,
+ "gdp_real_growth_pct": 65,
+ "gdp_deflator_pct": 65,
+ "cpi_inflation_pct": 66,
+ "mcap_to_gdp_pct": 26,
+ "mcap_usd": 26,
+ "lending_rate_pct": 45,
+ "gross_capital_formation_pct_gdp": 66,
+ "current_account_pct_gdp": 51,
+ "usdinr_avg": 66,
+ "india_10y_gsec_pct": "fail Command '['curl', '-s', '-f', '-m', '40', '-A', 'Mozilla/5.0', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=INDIRLTLT01STM']' returned non-zero exit status 92.",
+ "india_cpi_index": "fail Command '['curl', '-s', '-f', '-m', '40', '-A', 'Mozilla/5.0', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=INDCPIALLMINMEI']' returned non-zero exit status 92.",
+ "usdinr_daily": "fail Command '['curl', '-s', '-f', '-m', '40', '-A', 'Mozilla/5.0', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXINUS']' returned non-zero exit status 92.",
+ "india_iip_index": "fail Command '['curl', '-s', '-f', '-m', '40', '-A', 'Mozilla/5.0', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=INDPROINDMISMEI']' returned non-zero exit status 92.",
+ "us_10y_pct": "fail Command '['curl', '-s', '-f', '-m', '40', '-A', 'Mozilla/5.0', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10']' returned non-zero exit status 92.",
+ "india_real_gdp_q_inr": "fail Command '['curl', '-s', '-f', '-m', '40', '-A', 'Mozilla/5.0', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=NGDPRNSAXDCINQ']' returned non-zero exit status 92."
+}
