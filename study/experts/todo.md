@@ -55,3 +55,4 @@ Updated: 2026-11-23 06:40 Kuwait
 - Tosif के भेजे YouTube links → study/experts/user_links.txt में जोड़ो (push होते ही robot पढ़ लेता है)
 - Groq news छँटाई → data/news/sorted.md (बड़ी शक वाली ख़बर Gemini+Google से जाँच). Groq facts में ग़लत हो सकता है (Nifty को BSE बताया) — सिर्फ़ छँटाई
 - Hafta scoreboard → data/scoreboard.md (शनिवार). usage/fail → study/ai/usage.csv, gemini/reader_status.json
+- PC transcripts 23 Nov 10:24: PC मिला, पर yt_transcripts फ़ोल्डर इस run से जुड़ा नहीं था और PC shell (device_bash) नहीं मिला → script नहीं चला (ok 0, fail 0). Browser fallback छोड़ा (Gemini अब video खुद देखता है, Claude usage बचाने के लिए). Tosif: Cowork में scheduled task के लिए फ़ोल्डर दोबारा जोड़ें.

@@ -66,3 +66,4 @@
 - MO-20 PEG/Payback: Motilal ने असली future PAT लिया (perfect foresight) → बेकार
 - Test ARX-02 Mid/Small पिछला महीना + तो hold: अगला महीना +2.6/+3.4 vs +0.9%, drawdown -42 vs -67, पर CAGR कम और पिछले 12 महीने उल्टा → अभी analysis में (r056)
 - Notebook: r056 + r01 i90-i94. Source ratings: WCS 22=3, WCS 23=4.
+- PC transcripts 23 Nov 10:24: PC मिला, पर yt_transcripts फ़ोल्डर इस run से जुड़ा नहीं था और PC shell (device_bash) नहीं मिला → script नहीं चला (ok 0, fail 0). Browser fallback छोड़ा (Gemini अब video खुद देखता है, Claude usage बचाने के लिए). Tosif: Cowork में scheduled task के लिए फ़ोल्डर दोबारा जोड़ें.
