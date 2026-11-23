@@ -151,3 +151,17 @@ utc,provider,model,ok,note
 2026-11-23 19:35,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
 2026-11-23 19:35,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-23 19:35,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-23 23:38,gemini,gemini-3.6-flash,1,17s
+2026-11-23 23:39,gemini,gemini-3.6-flash,1,18s
+2026-11-23 23:40,gemini,gemini-3.6-flash,1,57s
+2026-11-23 23:43,gemini,gemini-3.6-flash,1,163s
+2026-11-23 23:44,gemini,gemini-3.6-flash,1,27s
+2026-11-23 23:45,gemini,gemini-3.6-flash,1,45s
+2026-11-23 23:46,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-23 23:46,gemini,gemini-3.8-flash,1,25s
+2026-11-23 23:47,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-23 23:52,gemini,gemini-3.8-flash,0,HTTP 429
+2026-11-23 23:52,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-23 23:53,gemini,gemini-3.5-flash,1,54s
+2026-11-23 23:54,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-23 23:54,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
