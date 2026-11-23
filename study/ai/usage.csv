@@ -62,3 +62,13 @@ utc,provider,model,ok,note
 2026-11-23 02:19,groq,openai/gpt-oss-20b,1,1s
 2026-11-23 02:19,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-23 02:19,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-23 09:48,gemini,gemini-3.6-flash,1,21s
+2026-11-23 09:48,gemini,gemini-3.6-flash,1,27s
+2026-11-23 09:49,gemini,gemini-3.6-flash,1,16s
+2026-11-23 09:50,gemini,gemini-3.6-flash,1,24s
+2026-11-23 09:51,gemini,gemini-3.6-flash,1,28s
+2026-11-23 09:52,gemini,gemini-3.6-flash,1,39s
+2026-11-23 09:53,gemini,gemini-3.6-flash,1,30s
+2026-11-23 09:53,gemini,gemini-3.6-flash,1,21s
+2026-11-23 09:54,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-23 09:54,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
