@@ -257,7 +257,7 @@ isp = lambda d: d.verdict.astype(str).str.startswith('PASS')
 L = [f'# Metals Idea Factory — run {run_no} ({pd.Timestamp.now(tz="Asia/Kuwait"):%d %b %Y} Kuwait)', '',
      'Gold & silver: USD/oz, INR (Indian), KWD (Kuwait), ETF. Har idea long aur short, 1/5/20 din, us saal ke apne average se fark, 0.15% kharcha.',
      'PASS = 2000-14 me t>=3, 2015-26 me bhi (t>=2), har daur me same disha, 2008/COVID hata kar bhi, aur INR/KWD version bhi sahmat.',
-     f'Series: {", ".join(f"{k} ({DATA[k]["idx"][0].year}-)" for k in S)}',
+     f'Series: {", ".join(f"{k} ({DATA[k]['idx'][0].year}-)" for k in S)}',
      f'Is run me {len(new)} idea: PASS {isp(new).sum()}, data-mining jaal {new.verdict.astype(str).str.contains("gayab").sum()}. Ab tak kul {len(led)}, PASS {isp(led).sum()}.', '']
 for title, df in (('## Is run ke PASS', new[isp(new)]), ('## Ab tak ke sab PASS', led[isp(led)])):
     L.append(title)
