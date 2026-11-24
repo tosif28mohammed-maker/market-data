@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-24 02:30 Kuwait
+Updated: 2026-11-24 06:20 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -22,7 +22,7 @@ Updated: 2026-11-24 02:30 Kuwait
 - [x] WCS 24, 25 पढ़े (23 Nov 18:11; MO-23 pledge/auditor — data नहीं)
 - [x] WCS 26 Summary पढ़ा (23 Nov 21:11; MO-24)
 - [x] WCS 27, 28 पढ़े (24 Nov 02:11; MO-25..27)
-- [ ] WCS 29 पढ़ना + WCS 30 का theme हिस्सा (lines 120-2800)
+- [x] WCS 29 पढ़ा + WCS 30 highlights (24 Nov 06:11; MO-28, MO-29 बेकार — r061). WCS 30 theme (India multi-trillion) macro, testable नहीं
 - [ ] ARX-01 आगे: Nifty futures cost (~0.03%) के साथ "up-day के बाद hold" + regime filter
 - [ ] test_queue pending: AI-419DA0/AI-036DAC (fundamentals history चाहिए — robot से yfinance quarterly/annual इतिहास?), AI-320182 (historical mcap)
 
@@ -41,6 +41,7 @@ Updated: 2026-11-24 02:30 Kuwait
 - [ ] Tosif से पूछा: 10 साल company fundamentals (RoE/PAT/dividend) और corporate profit/GDP — free source नहीं मिला (Screener/Prowess login/paid)
 
 ## Claude — भारी (हिस्सों में)
+- [ ] AI-248E4C आगे: private vs PSU bank — 12m relative momentum switch (कौन सा group आगे) test; band हुए private banks (LVB) का असर
 - [ ] AI-062853 आगे: Hurst-high momentum पर stop/target (mfe_mae) + 200DMA regime, weekly/monthly hold
 - [x] MO-21 Porter test (r057: edge नहीं, analysis) + AI-184C53 बेकार
 - [ ] MO-21 + MO-25 आगे: Porter-hi और Consistent-sector group का गिरावट वाले महीनों (Nifty 200DMA के नीचे) में बचाव — defensive filter test (r060 के बाद)

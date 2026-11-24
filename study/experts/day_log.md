@@ -94,3 +94,13 @@
 - Test MO-25 Consistent vs Volatile sectors (WCS Dec 2022 सूची, out-of-sample): Dec22→Nov26 cons +63.9% vs vol +83.2% (median +31.8 vs +25.4); 2023 -22pp, 2024 -17pp, 2025 +7pp, 2026 +5pp; last 4m cons -4.3 vs vol -7.9 → outperform नहीं, गिरावट में बचाव → अभी analysis में (r060)
 - Test MO-26 "5 में 5 साल market से आगे" → अगले साल -1.6% (hit 34%) → बेकार (r060)
 - Notebook: r060 + r01 i100, i101. Source ratings: WCS 27=3, WCS 28=2.
+
+## 2026-11-24 06:11 (silent run)
+- Robot: 62 sources, failed 0, नए 55 (27 रखे); transcripts 0 (IpBlocked 6). Gemini reader 23 Nov 23:38 UTC: 8 book हिस्से, 31 नियम, books_left 6, videos_left 153.
+- पढ़ा (Claude): queue के 27 नए (Nvidia rally, banking liquidity deficit, SEBI GMP, holiday — testable नहीं); Motilal WCS 29 theme (Bruised Blue Chips) पूरा; WCS 30 Highlights (winners list, नया नियम नहीं); test_queue के 30 waiting Gemini नियम.
+- test_queue: 1 tested (AI-248E4C), 29 → blocked (5-20 साल fundamentals/P/E/RoE/shareholding इतिहास नहीं).
+- नए claims: MO-28, MO-29, AI-248E4C
+- Test MO-28 Bruised Blue Chips (बड़े शेयर 5y high से -50%): 250d +23.5% (median +10.3, win 57%) vs सब बड़े +17.4 (median +9.6, win 61%); crisis साल हटाकर median -2.5%, win 48% → बेकार (फ़ायदा सिर्फ़ crash में; Motilal का 51% CAGR hindsight low से) (r061)
+- Test MO-29 Motilal की 28 Nov 2024 watchlist: 2 Nov 2026 तक -15.2% vs बाकी top100 +2.6% → बेकार (r061)
+- Test AI-248E4C private vs PSU banks: private 18/25 साल आगे, पर 2021-24 PSU 4 साल लगातार आगे → अभी analysis में (r061)
+- Notebook: r061 + r01 i102-i104. Source rating WCS 29=2.
