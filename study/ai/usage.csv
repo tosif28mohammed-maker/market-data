@@ -383,3 +383,9 @@ utc,provider,model,ok,note
 2026-11-24 17:24,groq,openai/gpt-oss-20b,0,quota 429 x4 -> stop
 2026-11-24 17:33,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-24 17:33,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-24 19:28,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-24 19:28,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-24 19:30,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-24 19:30,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-24 19:30,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-24 19:30,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
