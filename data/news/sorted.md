@@ -1,44 +1,44 @@
 # छँटी हुई खबरें — 2026-11-24 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 1099, छँटी 836, काम की (ताकत ≥3, fact, एक कहानी एक बार) 324, अफ़वाह/राय/clickbait 126
+कुल headlines 1099, छँटी 211, काम की (ताकत ≥3, fact, एक कहानी एक बार) 112, अफ़वाह/राय/clickbait 29
 
-- [5/positive] Market: Nifty Today: Nears 26,000 as Sensex Sees Massive 1,800-Point Reversal - NiftyTrader
-- [5/negative] Market: Sensex Today Tanks 1,484 Points | Nifty Below 25,350 | 4 Reasons Why Indian Share Markets Are Falling - Equitymaster
-- [5/positive] Trade: India-US trade deal negotiations nearing completion, signing awaits clarity on US tariff structure - Prop News Time
-- [5/positive] Trade: India and the EU are likely to sign a free trade agreement on Dec. 16 - Vinetur
-- [5/negative] Market: Stock Market Crash Reason: ये तीन कारण... जिनसे बिखरा शेयर बाजार, सेंसेक्स-निफ्टी देखते ही देखते क्रैश - AajTak
-- [5/negative] Market: शेयर बाजार में भारी गिरावट: निवेशकों के एक दिन में डूब गए ₹5.30 लाख करोड़, 25400 के नीचे बंद हुआ निफ्टी - Jagran
-- [5/negative] Market: शेयर बाजार में मचा हाहाकार, सेंसेक्स 1483 अंक और निफ्टी 450 अंक लुढ़का, निवेशकों के ₹6 लाख करोड़ से ज्यादा - India TV Hindi
-- [5/negative] Metal, Banking: शेयर बाजार में हाहाकार, मेटल और बैंकिंग शेयरों में भारी बिकवाली, सेंसेक्स 82,450 के नीचे फिसला - Upstox
-- [5/negative] Market: Stock Market Crash: शेयर बाजार में ऐसी तबाही... झटके में ₹5 लाख करोड़ स्वाहा, सेंसेक्स डे-हाई से 1800 अंक क्रैश - AajTak
-- [5/negative] Market: Stock Market Crash: 1,500 अंक टूटा सेंसेक्स, 2,026 अंक लुढ़का निफ्टी बैंक; शेयर बाजार में हाहाकार! - Moneycontrol Hindi
-- [5/negative] Index: Stock market crash today wipes out ₹6 lakh cr: Red! Sensex down 1,484 points, Nifty below 25,350 - What went wrong? - Livemint
-- [5/positive] MCO: Mahanadi Coalfields’ $953 Million India IPO Subscribed 1.5 Times - Bloomberg.com
-- [5/negative] HDB: Bank Nifty crashes over 2,000 points, plunges 3.1%; HDFC Bank, ICICI Bank, Axis Bank, SBI among top losers - Moneycontrol.com
-- [5/positive] LT: Larsen & Toubro secures ₹10,000-15,000 crore AI order - Multibagg AI
-- [5/positive] LT: Larsen & Toubro Wins Up to INR50 Billion AI Data Center Order - marketscreener.com
-- [5/negative] Index: Stock investors lose Rs 5.19 lakh crore as markets crash - Greater Kashmir
-- [5/positive] JINDALDRIL: Jindal Drilling & Industries Limited expects Rs 2,600 crore order book - Multibagg AI
-- [5/negative] Index: BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak - BBN Times
-- [5/negative] Index: Closing Bell: Sensex plunges 1,484 points, Nifty slips below 25,400; Metals, banks lead losses - ET Now
-- [4/negative] Market: Stock Market Crash: Sensex Falls 1.77%, Nifty at 25,350 - HDFC Sky
-- [4/negative] Market: ₹5.6 trn wiped off investor wealth as Sensex, Nifty slump over 1.7% - Business Standard
-- [4/negative] Banking: Closing Bell, 23 November 2026: Sensex and Nifty Fall as Banking Stocks Lead Market Losses - Kotak Neo
+- [5/positive] TATASTEEL: Tata Steel to acquire APL Apollo control in ₹15,511-cr deal | Tap to know more | Inshorts - Inshorts
+- [5/negative] APL: APL Apollo Tubes shares crash 20% after Tata Steel set to acquire controlling stake for Rs 15,511 crore - The Economic Times
 - [4/positive] RVNL: RVNL secures ₹348 crore wagon workshop expansion order from East Coast Railway; stock in focus - Upstox
-- [4/negative] Policy: Home Loan EMI Alert: RBI Looks Set to Raise Rates in December as Inflation Crosses 6% - NiftyTrader
-- [4/negative] Economy: S&P cuts India FY28 GDP forecast to 7%, expects rate hike in December - Business Standard
-- [4/negative] Policy: RBI expected to raise rates in December, deliver final hike in February - Moneycontrol.com
-- [4/mixed] macro: S&P Global sees India’s GDP growing 7% in FY27 and FY28; expects 25 bps RBI rate hike in December - Fortune India
+- [4/negative] Finance: Home Loan EMI Alert: RBI Looks Set to Raise Rates in December as Inflation Crosses 6% - NiftyTrader
+- [4/negative] : S&P cuts India FY28 GDP forecast to 7%, expects rate hike in December - Business Standard
+- [4/negative] : RBI MPC Poll | Economists unanimously expect 25 bps December rate hike as inflation tops 6% - Moneycontrol.com
+- [4/negative] Banking: Banks caution on demand as RBI considers more repo rate hikes and rising costs - FlipItMoney
+- [4/negative] Banking: Banks warn higher costs could hit demand as RBI weighs further repo hike - The Economic Times
+- [4/negative] : RBI expected to raise rates in December, deliver final hike in February - Moneycontrol.com
+- [4/negative] Housing: Why Economists Predict a 75-Basis-Point Hike By FY27; How It Will Impact India’s Housing Market - The Daily Jagran
+- [4/none] macro: New GDP series expected to see smaller revisions, revised CPI to make inflation less volatile: RBI DG Gupta - bfsi.economictimes.indiatimes.com
+- [4/positive] macro: S&P Global sees India’s GDP growing 7% in FY27 and FY28; expects 25 bps RBI rate hike in December - Fortune India
+- [4/negative] macro: El Niño, Rising Costs to Push Up Food and Overall Inflation; RBI Rate Hike Likely: S&P Global - RuralVoice
 - [4/negative] macro: S&P Global sees RBI hiking rates in December, cuts India’s FY28 growth forecast to 7% - Moneycontrol.com
-- [4/negative] commodities: Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows; - The Times of India
+- [4/none] macro: New GDP, CPI series to make inflation less volatile, improve policy decisions: RBI Deputy Governor Poonam Gupta - Fortune India
+- [4/negative] commodity: Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows; - The Times of India
 - [4/positive] ITI: ITI Share Price Rallies Despite Market Sell-off as Stock Gains 134% in Five Years and Q2 Losses Narrow - Kotak Neo
-- [4/negative] logistics: Trans India House Impex Q2 FY27: Sharp Revenue Contraction Triggers Loss, Stock Plunges 63% YTD - MarketsMojo
-- [4/negative] LENSKART: Lenskart Shares Close 4% Down After ₹921 Crore Block Deal Executed Earlier at 2.6% Discount to Previous Close - Kotak Neo
-- [4/positive] TATASTEEL: Tata Steel to acquire APL Apollo control in ₹15,511-cr deal | Tap to know more | Inshorts - Inshorts
-- [4/negative] APL: APL Apollo Tubes shares crash 20% after Tata Steel set to acquire controlling stake for Rs 15,511 crore - The Economic Times
+- [4/mixed] consumer: India Inc. posts strong Q2 earnings beat, but margin pressures mount - BusinessLine
+- [4/positive] ZOOMCAR: Earnings call transcript: Zoomcar posts first profit in Q2 2026 as revenue slips By Investing.com - Investing.com India
+- [4/negative] TRANSINDIA: Trans India House Impex Q2 FY27: Sharp Revenue Contraction Triggers Loss, Stock Plunges 63% YTD - MarketsMojo
+- [4/negative] LSKR: Lenskart Shares Close 4% Down After ₹921 Crore Block Deal Executed Earlier at 2.6% Discount to Previous Close - Kotak Neo
+- [4/positive] RELIANCE: Reliance Brands FY26 revenue up 3.8% to ₹3,391 cr, loss narrows to ₹137 cr - Business Standard
+- [4/positive] BOMBAYCO: Bombay Coated And Special Steels Q2 Results FY27: Revenue Rs 280.24 Cr, PAT Rs 4.84 Cr - Univest
 - [4/positive] ITI: 137% up in five years, ITI shares rally 11% today despite stock market crash | Check stock returns, buy target price - Livemint
 - [4/positive] Currency: Indian rupee could rise to 91.50/$ on equity inflows, HDFC Bank's treasury head says - Reuters
-- [4/positive] Taxation: CBIC’s draft GST proposal aims to protect genuine buyers from input tax credit loss - The Hawk
+- [4/mixed] Finance: CBIC’s draft GST proposal aims to protect genuine buyers from input tax credit loss - The Hawk
 - [4/positive] Manufacturing: Budget 2027 may see 1-3% duty cut on 115 manufacturing inputs - The Economic Times
-- [4/positive] IT: Nasscom seeks AI transformation scheme, ESOP tax relief in Budget 2027 - Business Standard
+- [4/positive] IT/AI: Nasscom seeks AI transformation scheme, ESOP tax relief in Budget 2027 - Business Standard
 - [4/positive] Finance: CII lists 15 priority reforms to finance $26.5 trillion economy in 2047 - ETLegalWorld.com
+- [4/mixed] Crypto/Finance: Union Budget 2027: BWA Seeks Changes In Crypto Tax Rules - Outlook Money
+- [4/positive] Trade: India-US trade deal negotiations nearing completion, signing awaits clarity on US tariff structure - Prop News Time
+- [4/positive] Trade: India Says U.S. Trade Deal Nears Final Stage - RFD-TV
+- [4/positive] Trade: India and the EU are likely to sign a free trade agreement on Dec. 16 - Vinetur
+- [4/mixed] Trade/Bev: India-UK trade deal cuts Scotch whisky duty to 75%, but bulk imports face 110% levy; Govt working to resolve dispute - Livemint
+- [4/positive] VOLTAS,BLUESTAR,HAVELS: Voltas, Blue Star, Havells Shares Rally Up To 8% As Copper Prices Hit 7-month Low - BW Businessworld
+- [4/negative] VEDL: Vedanta Share News Today 2026: Metal Price Crash, Systematix Warning, Aluminium Duty Relief Demand and Vedanta Group Updates – Telangana NavaNirmana Sena - Tela
+- [4/positive] PTCI: PTC Industries shares rise 2% as firm bags major order from Indian Defence Sector; check details - Upstox
+- [4/positive] PTCI: PTC Industries rebounds, up 3% from day's low on major defence order win - Business Standard
+- [4/positive] TXM,RVNL,PE: Texmaco Rail, RVNL and Premier Explosives Shares React to Fresh Orders Across Railways and Defence - Kotak Neo
+- [4/positive] PE: India's Premier Explosives secures defence export deal - TradingView
