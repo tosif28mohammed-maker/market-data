@@ -9,10 +9,10 @@ GOLD_INR dd<=-20%: n=6 dates=['2006-06-14', '2008-08-15', '2008-11-13', '2013-04
 GOLD_INR dd<=-30%: n=1 dates=['2026-11-20'] | 60d ev=[] avg=nan all=3.6 | 120d ev=[] avg=nan all=7.4 | 250d ev=[] avg=nan all=16.6 | further worst drop in 250d=[np.float64(0.0)]
 SILVER_INR dd<=-40%: n=3 dates=['2008-09-10', '2013-04-15', '2026-06-09'] | 60d ev=[-3.5, -9.6, 1.6] avg=-3.8 all=4.3 | 120d ev=[36.1, 6.0] avg=21.1 all=8.9 | 250d ev=[63.9, -5.4] avg=29.2 all=19.7 | further worst drop in 250d=[np.float64(-11.5), np.float64(-12.9), np.float64(-38.5)]
 SILVER_INR dd<=-60%: n=1 dates=['2026-11-18'] | 60d ev=[] avg=nan all=4.3 | 120d ev=[] avg=nan all=8.9 | 250d ev=[] avg=nan all=19.7 | further worst drop in 250d=[np.float64(-9.0)]
-GOLD_USD now: 3621.4 on 2026-11-23, dd from peak -31.9%
-SILVER_USD now: 42.5 on 2026-11-23, dd from peak -63.1%
-GOLD_INR now: 336256.0 on 2026-11-23, dd from peak -31.3%
-SILVER_INR now: 3943.0 on 2026-11-23, dd from peak -62.6%
+GOLD_USD now: 3667.4 on 2026-11-23, dd from peak -31.0%
+SILVER_USD now: 43.4 on 2026-11-23, dd from peak -62.3%
+GOLD_INR now: 339869.0 on 2026-11-23, dd from peak -30.6%
+SILVER_INR now: 4018.3 on 2026-11-23, dd from peak -61.8%
 
 ## ET-02 IT basket ['TCS', 'INFY', 'WIPRO', 'HCLTECH', 'TECHM', 'MPHASIS', 'PERSISTENT', 'COFORGE', 'LTTS'], months 275 (2004-01-31..)
 rupee strong fx<=-1.5: n=39 same-month IT excess=-2.61 next1m=0.51 (IT ahead 38%) next3m=0.59
@@ -25,4 +25,4 @@ middle: n=183 same-month IT excess=-0.42 next1m=-0.35 (IT ahead 48%) next3m=-0.7
    2003-12: n=60 same=-1.10 next1m=-1.15 next3m=-1.17
    2013-26: n=123 same=-0.08 next1m=0.04 next3m=-0.51
 corr(fx 1m, IT excess same month)=0.29, next month=0.03
-last 6 months fx: [-1.31, 0.94, -0.32, 0.7, -0.94, -2.42] IT excess: [-12.71, 15.65, -0.26, -8.47, 26.18, -1.63]
+last 6 months fx: [-1.31, 0.94, -0.32, 0.7, -0.94, -2.37] IT excess: [-12.71, 15.65, -0.26, -8.47, 26.18, -1.63]

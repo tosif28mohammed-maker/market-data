@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-11-24 01:54",
+ "run_utc": "2026-11-24 08:31",
  "sources": 62,
  "failed": [],
- "new_items": 55,
- "kept": 27,
+ "new_items": 97,
+ "kept": 59,
  "transcripts_ok": 0,
  "transcript_errors": {
-  "IpBlocked": 6
+  "RequestBlocked": 7
  },
  "books_new": []
 }
