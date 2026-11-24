@@ -104,3 +104,4 @@
 - Test MO-29 Motilal की 28 Nov 2024 watchlist: 2 Nov 2026 तक -15.2% vs बाकी top100 +2.6% → बेकार (r061)
 - Test AI-248E4C private vs PSU banks: private 18/25 साल आगे, पर 2021-24 PSU 4 साल लगातार आगे → अभी analysis में (r061)
 - Notebook: r061 + r01 i102-i104. Source rating WCS 29=2.
+- PC transcripts 24 Nov 10:24: ok 0, fail 0 (फ़ोल्डर जुड़ा नहीं / PC shell नहीं मिला)
