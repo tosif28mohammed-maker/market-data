@@ -1,11 +1,11 @@
 {
- "run_utc": "2026-11-23 23:38",
+ "run_utc": "2026-11-24 09:39",
  "videos_ok": 0,
  "videos_fail": [],
- "rules_added": 31,
+ "rules_added": 43,
  "book_chunks": 8,
  "stopped": "",
- "books_left": 6,
- "book_chars_left": 2141884,
- "videos_left": 153
+ "books_left": 3,
+ "book_chars_left": 1065445,
+ "videos_left": 166
 }
