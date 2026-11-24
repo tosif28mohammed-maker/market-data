@@ -1,16 +1,15 @@
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 1370, in __getitem__
-    return self._range[new_key]
-           ~~~~~~~~~~~^^^^^^^^^
-IndexError: range object index out of range
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/runner/work/market-data/market-data/study/research/claims/mo18_pe_buckets.py", line 18, in <module>
-    d0 = A.index[A.index.searchsorted(pd.Timestamp(f'{fy}-06-30'))]
-         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 1372, in __getitem__
-    raise IndexError(
-IndexError: index 0 is out of bounds for axis 0 with size 0
-fail study/research/claims/mo18_pe_buckets.py
+            test                 group    n  mean_ex  median_ex  beat_pct  mean_2023  mean_2024  mean_2025
+       PE bucket                  loss  266    22.10      -4.81      46.2      51.53      13.05      -2.08
+       PE bucket                  0-10  246     7.67      -8.31      41.9      12.86      -2.78       7.72
+       PE bucket                 10-20  626     2.51      -9.07      39.6       1.88       4.37       1.58
+       PE bucket                 20-30  578     1.07     -10.19      40.1       2.68       2.31      -1.24
+       PE bucket                 30-50  808    -5.42     -14.04      34.8     -13.13      -1.57      -3.56
+       PE bucket                 50-75  500    -7.96     -15.72      33.0     -27.10      -7.08       2.98
+       PE bucket                   >75  494    -4.90     -12.96      36.4     -14.06      -3.56      -0.82
+RoE x growth(1y)             HiRoE-HiG  727     0.32      -7.67      40.4     -22.65       0.64       0.64
+RoE x growth(1y)             LoRoE-HiG  591    -0.74     -10.49      37.7     -50.37      -2.63       1.47
+RoE x growth(1y)             HiRoE-LoG  366    -3.87      -9.71      37.4     -22.95      -3.22      -3.92
+RoE x growth(1y)             LoRoE-LoG 1835     0.41     -14.80      36.9       0.16       2.23      -0.44
+     MO-19 combo PE<20 & RoE>15 & G>15  191    -1.22      -6.93      37.2     -66.38      -1.29      -0.32
+     MO-19 combo                 PE>50  995    -6.48     -14.72      34.7     -20.95      -5.25       1.14
+     MO-19 combo                   all 3519    -0.25     -11.36      37.9      -0.25      -0.25      -0.25

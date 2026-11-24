@@ -1,14 +1,28 @@
-Traceback (most recent call last):
-  File "/home/runner/work/market-data/market-data/study/research/claims/gold_dd_inr_it.py", line 49, in <module>
-    exm = np.expm1(ex.resample('ME').sum()) * 100
-                   ^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/generic.py", line 9759, in resample
-    return get_resampler(
-           ^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/resample.py", line 2379, in get_resampler
-    return tg._get_resampler(obj)
-           ^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/resample.py", line 2611, in _get_resampler
-    raise TypeError(
-TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
-fail study/research/claims/gold_dd_inr_it.py
+# GOLD-01 drawdown buy / ET-02 rupee vs IT
+
+GOLD_USD dd<=-20%: n=5 dates=['2006-06-13', '2008-08-15', '2013-04-12', '2022-09-26', '2026-06-10'] | 60d ev=[9.7, -5.1, -17.0, 11.8, 8.3] avg=1.5 all=2.8 | 120d ev=[14.7, 16.3, -12.0, 21.4] avg=10.1 all=5.8 | 250d ev=[15.3, 21.5, -13.0, 18.6] avg=10.6 all=13.1 | further worst drop in 250d=[np.float64(-0.1), np.float64(-10.3), np.float64(-20.4), np.float64(-0.2), np.float64(-14.9)]
+GOLD_USD dd<=-30%: n=2 dates=['2013-06-20', '2026-11-19'] | 60d ev=[2.5] avg=2.5 all=2.8 | 120d ev=[-1.8] avg=-1.8 all=5.8 | 250d ev=[-1.0] avg=-1.0 all=13.1 | further worst drop in 250d=[np.float64(-7.1), np.float64(-4.6)]
+GOLD_USD dd<=-40%: n=1 dates=['2015-07-17'] | 60d ev=[2.9] avg=2.9 all=2.8 | 120d ev=[-2.1] avg=-2.1 all=5.8 | 250d ev=[17.6] avg=17.6 all=13.1 | further worst drop in 250d=[np.float64(-7.2)]
+SILVER_USD dd<=-40%: n=3 dates=['2008-09-05', '2011-12-14', '2026-03-26'] | 60d ev=[-23.6, 16.1, -8.4] avg=-5.3 all=3.4 | 120d ev=[6.9, -1.3, -3.3] avg=0.8 all=7.2 | 250d ev=[25.3, 11.8] avg=18.5 all=16.1 | further worst drop in 250d=[np.float64(-28.2), np.float64(-9.1), np.float64(-39.4)]
+SILVER_USD dd<=-60%: n=2 dates=['2013-06-26', '2026-11-18'] | 60d ev=[17.7] avg=17.7 all=3.4 | 120d ev=[7.9] avg=7.9 all=7.2 | 250d ev=[13.2] avg=13.2 all=16.1 | further worst drop in 250d=[np.float64(-0.3), np.float64(-8.8)]
+GOLD_INR dd<=-20%: n=6 dates=['2006-06-14', '2008-08-15', '2008-11-13', '2013-04-15', '2021-03-04', '2026-06-24'] | 60d ev=[9.2, 5.7, 32.8, 1.1, 11.6, 11.1] avg=11.9 all=3.6 | 120d ev=[10.9, 31.8, 30.1, 10.2, 8.1] avg=18.2 all=7.4 | 250d ev=[2.0, 37.5, 49.7, 6.7, 18.1] avg=22.8 all=16.6 | further worst drop in 250d=[np.float64(-0.5), np.float64(0.0), np.float64(0.0), np.float64(-1.6), np.float64(-1.2), np.float64(-14.0)]
+GOLD_INR dd<=-30%: n=1 dates=['2026-11-20'] | 60d ev=[] avg=nan all=3.6 | 120d ev=[] avg=nan all=7.4 | 250d ev=[] avg=nan all=16.6 | further worst drop in 250d=[np.float64(0.0)]
+SILVER_INR dd<=-40%: n=3 dates=['2008-09-10', '2013-04-15', '2026-06-09'] | 60d ev=[-3.5, -9.6, 1.6] avg=-3.8 all=4.3 | 120d ev=[36.1, 6.0] avg=21.1 all=8.9 | 250d ev=[63.9, -5.4] avg=29.2 all=19.7 | further worst drop in 250d=[np.float64(-11.5), np.float64(-12.9), np.float64(-38.5)]
+SILVER_INR dd<=-60%: n=1 dates=['2026-11-18'] | 60d ev=[] avg=nan all=4.3 | 120d ev=[] avg=nan all=8.9 | 250d ev=[] avg=nan all=19.7 | further worst drop in 250d=[np.float64(-9.0)]
+GOLD_USD now: 3621.4 on 2026-11-23, dd from peak -31.9%
+SILVER_USD now: 42.5 on 2026-11-23, dd from peak -63.1%
+GOLD_INR now: 336256.0 on 2026-11-23, dd from peak -31.3%
+SILVER_INR now: 3943.0 on 2026-11-23, dd from peak -62.6%
+
+## ET-02 IT basket ['TCS', 'INFY', 'WIPRO', 'HCLTECH', 'TECHM', 'MPHASIS', 'PERSISTENT', 'COFORGE', 'LTTS'], months 275 (2004-01-31..)
+rupee strong fx<=-1.5: n=39 same-month IT excess=-2.61 next1m=0.51 (IT ahead 38%) next3m=0.59
+   2003-12: n=22 same=-1.45 next1m=0.79 next3m=1.89
+   2013-26: n=17 same=-4.12 next1m=0.14 next3m=-1.19
+rupee weak fx>=+1.5: n=53 same-month IT excess=3.92 next1m=1.31 (IT ahead 58%) next3m=3.02
+   2003-12: n=26 same=3.93 next1m=2.45 next3m=4.83
+   2013-26: n=27 same=3.91 next1m=0.22 next3m=1.28
+middle: n=183 same-month IT excess=-0.42 next1m=-0.35 (IT ahead 48%) next3m=-0.73
+   2003-12: n=60 same=-1.10 next1m=-1.15 next3m=-1.17
+   2013-26: n=123 same=-0.08 next1m=0.04 next3m=-0.51
+corr(fx 1m, IT excess same month)=0.29, next month=0.03
+last 6 months fx: [-1.31, 0.94, -0.32, 0.7, -0.94, -2.42] IT excess: [-12.71, 15.65, -0.26, -8.47, 26.18, -1.63]

@@ -1,0 +1,18 @@
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/internals/blocks.py:354: RuntimeWarning: divide by zero encountered in log
+  result = func(self.values, **kwargs)
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/internals/blocks.py:354: RuntimeWarning: invalid value encountered in log
+  result = func(self.values, **kwargs)
+Hurst (VR q=10, 250d) median H across months 0.494; months 274
+1m excess vs EW market (before cost; trade cost 0.25%/month if fully rotated):
+  trend_Hhi  mean +0.87% median +0.64% beat 59% n=274 | 2004-12 +0.44 2013-20 +0.78 2021-26 +1.64 | last6m +1.14 last4m +1.73 last2m -1.16
+  trend_all  mean +0.51% median +0.46% beat 66% n=274 | 2004-12 +0.50 2013-20 +0.43 2021-26 +0.62 | last6m +0.62 last4m +1.10 last2m -0.91
+  trend_Hlo  mean +0.25% median +0.42% beat 60% n=274 | 2004-12 +0.32 2013-20 +0.29 2021-26 +0.08 | last6m +0.14 last4m +0.57 last2m -0.69
+  rev_Hlo    mean -0.08% median -0.26% beat 46% n=274 | 2004-12 -0.10 2013-20 -0.06 2021-26 -0.07 | last6m +0.48 last4m +0.54 last2m +0.73
+  rev_all    mean +0.03% median -0.17% beat 46% n=274 | 2004-12 -0.07 2013-20 +0.20 2021-26 -0.04 | last6m +0.03 last4m +0.12 last2m +0.66
+  rev_Hhi    mean +0.29% median +0.08% beat 51% n=274 | 2004-12 +0.12 2013-20 +0.47 2021-26 +0.31 | last6m +0.47 last4m +0.91 last2m +1.29
+  Hhi        mean +0.25% median +0.15% beat 53% n=274 | 2004-12 +0.02 2013-20 +0.17 2021-26 +0.70 | last6m +0.04 last4m +0.17 last2m +0.10
+  Hlo        mean -0.10% median +0.02% beat 50% n=274 | 2004-12 -0.10 2013-20 -0.07 2021-26 -0.15 | last6m -0.11 last4m -0.03 last2m +0.17
+AI-9197A2: 5y price CAGR above median (EW mkt proxy) -> next 12m:
+  beat: mean -4.5% median -3.1% starts>0 39% | 2004-12 -3.6 2013-20 -2.5 2021-26 -8.8
+  top10: mean -1.6% median -4.3% starts>0 39% | 2004-12 -0.4 2013-20 -0.1 2021-26 -5.3
+  stock hit (above-median group beating mkt) 39%
