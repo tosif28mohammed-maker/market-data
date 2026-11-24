@@ -105,3 +105,4 @@
 - Test AI-248E4C private vs PSU banks: private 18/25 साल आगे, पर 2021-24 PSU 4 साल लगातार आगे → अभी analysis में (r061)
 - Notebook: r061 + r01 i102-i104. Source rating WCS 29=2.
 - PC transcripts 24 Nov 10:24: ok 0, fail 0 (फ़ोल्डर जुड़ा नहीं / PC shell नहीं मिला)
+- PC transcripts 24 Nov 15:24 (Tosif ने हाथ से चलाया, Python अब PC पर है): ok 16, fail 7+ (YouTube IpBlocked के बाद रोका). बाकी ~150 अगली बार.

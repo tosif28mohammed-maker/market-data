@@ -1,0 +1,402 @@
+[0:00] We put hundreds of stocks through six
+[0:02] tough filters. Only eight survived and
+[0:05] only one of them is a large cap. Now you
+[0:07] probably know this company and its app
+[0:10] might be on your phone right now. Almost
+[0:13] 2.5 crore Indians have already invested
+[0:16] their money through this app and this
+[0:18] company got listed on the stock exchange
+[0:20] barely a year ago. I hope you have
+[0:22] guessed the company. The name of the
+[0:23] company is Groww. So is Groww a real
+[0:27] growth story or is it just a hype? Let's
+[0:29] find out. In today's video we are going
+[0:31] to first talk about the six filters that
+[0:34] we used and how Groww passed all these
+[0:36] filters. Then we'll talk about how Groww
+[0:38] makes money basically what is its
+[0:40] revenue split. Then we'll look at their
+[0:42] Q 2 FY 27 results and finally we'll
+[0:45] discuss about the new businesses that
+[0:47] management is building because once you
+[0:50] see this part of the video I'm sure it
+[0:52] could change the way you look at the
+[0:53] stock. The video is going to be
+[0:55] interesting so keep on watching the
+[0:56] video till the end.
+[0:57] Hey folks, CA Rachana Ranade here. Today
+[0:59] at the outset let's talk about a concept
+[1:02] which is called as GARP. What is GARP?
+[1:04] It's growth at reasonable price. So when
+[1:07] I'm talking about the six filters that
+[1:09] we used to actually filter out all the
+[1:12] stocks we said that it should fit it
+[1:14] should fit into the GARP category. What
+[1:16] do I mean by that? First G stands for
+[1:18] growth. So we took two parameters. We
+[1:21] talked about sales growth and profit
+[1:23] growth. The filter that we used is sales
+[1:25] growth should be more than 15% and
+[1:28] profit growth should be more than 15%.
+[1:30] Okay, so both sales growth, profit
+[1:32] growth should be more than 15%. If that
+[1:34] be so I'm saying okay this is a good
+[1:35] enough growth, right?
+[1:37] Second thing I wanted to check is that
+[1:39] okay growth is there agreed but that
+[1:40] would also be available at a reasonable
+[1:42] price. Okay. Now what is reasonable
+[1:44] price? We are saying that ideally the
+[1:46] PEG which is price earning to growth
+[1:50] ideally should be up to one.
+[1:52] Anything above one the stock keeps on
+[1:54] moving to an expensive side but then we
+[1:56] said that okay borderline cases 1.1 1.2
+[2:00] I mean
+[2:01] So we have taken the filter as PEG
+[2:05] should be less than 1.2. Okay. So GARP
+[2:08] concept is clear, growth
+[2:10] at reasonable price.
+[2:12] If this be so, I'm sure FIIs and DIIs
+[2:14] would also want to look into such
+[2:16] stocks. So we said let's check out
+[2:18] stocks whose FII holding has changed by
+[2:21] at least 1% and DII holding has also
+[2:25] changed by at least 1% and that too on a
+[2:27] quarter on quarter basis, right?
+[2:29] And ultimately we said that whatever
+[2:31] stocks we are going to filter out, they
+[2:33] should not be penny stocks. So we have
+[2:35] kept a market capitalization threshold
+[2:37] of at least 10,000 crores. So I hope all
+[2:41] filters are clear. We are going to talk
+[2:42] about how much is the sales growth and
+[2:44] profit growth and every all these
+[2:45] parameters in the coming sections of the
+[2:47] video. But if I were to talk about the
+[2:49] FII and DI holding change, you can see
+[2:51] that June 2026 FIIs were holding 6.89%
+[2:54] stake in the company. This moved up to
+[2:56] 10.9%
+[2:57] and if I'm talking about DIIs, their
+[2:59] holding moved up from 10.08% to 12.73%.
+[3:04] So this is an interesting one. I hope
+[3:06] you have understood the six filters that
+[3:08] we have used. In the next section we'll
+[3:10] talk about the revenue split of the
+[3:12] company.
+[3:12] Everybody has one relative with a sure
+[3:15] shot stock tip and many [music] of us
+[3:17] buy it without knowing what the company
+[3:19] does or why its price is moving.
+[3:22] Stop investing on someone else's
+[3:23] conviction. Learn to understand a
+[3:25] company's business with fundamental
+[3:27] analysis [music] and read its price
+[3:29] charts with technical analysis. To take
+[3:31] a step towards smarter investing and
+[3:33] trading, visit www.rachanaranade.in
+[3:36] and use this coupon code for some
+[3:37] special discount.
+[3:40] Now let's understand the revenue split
+[3:42] of growth. Basically, if Grow is earning
+[3:44] ₹100, from which income stream are they
+[3:47] generating how much? That's nothing but
+[3:48] the revenue split. Okay. First let's
+[3:50] stand start with equity derivatives, F
+[3:52] and O segment.
+[3:53] The primary income that they are
+[3:55] generating from this accounts for 44.8%
+[3:58] of their total income. And this the
+[4:01] nature of this income is
+[4:02] It's nothing but brokerage income. So
+[4:04] any trader, any person who is basically
+[4:07] trading in F and O, whatever trading is
+[4:10] done, brokerage has to be paid to the
+[4:13] broker that is Grow in this case. So
+[4:15] this portion accounts for 44.8% Second
+[4:18] one is stocks. Stocks accounts for 17.4%
+[4:21] same logic copy paste. If a person is
+[4:23] trading in stocks, brokerage has to be
+[4:25] paid to the broker. That's the income in
+[4:27] this case. Plus it could be something
+[4:29] like pledging shares. It could be even
+[4:31] DP charges. All these will come into
+[4:33] this segment only.
+[4:34] Third one is MTF. I'm sure you have
+[4:36] heard about this. MTF is margin trading
+[4:37] facility. This accounts for 10.1%
+[4:40] of their total income. In simple words,
+[4:42] this is as good as margin is nothing but
+[4:45] like
+[4:47] a loan given to the trader or to the
+[4:49] investor to buy more shares from that
+[4:52] money. Example, a person has only ₹100
+[4:54] in his pocket. But if the person wants
+[4:56] to trade worth 120, 130 whatever, that
+[4:59] is nothing but the trader takes a margin
+[5:01] from the broker and trades for a higher
+[5:04] amount. That is nothing but MTF and this
+[5:06] accounts for 10.1% of the total income.
+[5:08] Next one is float which accounts for
+[5:10] 8.4% now. This is an interesting one.
+[5:13] Let's say you have some money lying in
+[5:15] your Grow account. You pay in the money
+[5:17] and it's lying there in your account.
+[5:20] Grow basically can earn some money out
+[5:22] of this. So this is an extra income for
+[5:25] them which is called as float. Plus if
+[5:28] let say there is a delayed payment
+[5:30] on on your side you you make a delayed
+[5:32] payment to Grow. That will also be
+[5:33] considered under float charges.
+[5:36] Next one is commodity derivatives. This
+[5:38] is nothing but again brokerage whenever
+[5:40] you trade in commodities and this
+[5:41] accounts for 6.2% of the total revenue.
+[5:44] Personal loans plus loan against shares
+[5:46] also called as last accounts for 5.9% so
+[5:49] this is again as good as interest income
+[5:51] for company like Grow. They're going to
+[5:53] give you loan and whatever you pay in
+[5:56] return is the principal amount plus
+[5:58] interest amount. Interest will be their
+[6:00] income, right?
+[6:01] Ultimately two small other incomes.
+[6:03] Other operating income which accounts
+[6:05] for 4.8%
+[6:06] now this one can have something like IPO
+[6:08] application income. So for example if
+[6:10] you apply for any IPO through their app
+[6:13] some small amount grow is going to earn
+[6:15] out of that and that's that's the other
+[6:17] operating income category and wealth
+[6:20] products also they can earn some revenue
+[6:21] and that is what also comes under other
+[6:23] operating income. Finally 2.5% is
+[6:26] generated from other income and this is
+[6:28] nothing but
+[6:29] whatever money grow has for example the
+[6:31] profits they invested somewhere let's
+[6:33] say they invest in FDS they invest in
+[6:35] bonds whatever interest they are going
+[6:36] to earn that comes up in other income
+[6:38] right. So I hope overall
+[6:40] split revenue split is what is
+[6:42] absolutely clear but there's one very
+[6:44] interesting and important point here.
+[6:46] The biggest one which is 44.8% is equity
+[6:49] derivatives but you'll be surprised to
+[6:51] know that this biggest income
+[6:53] the revenue
+[6:54] split basically of 44.8% used to be
+[6:57] 56.9% a year ago and in fact in the
+[7:00] previous quarter also it accounted for
+[7:02] 51.9%
+[7:04] so drop from 51.9% to 44.3% that's
+[7:08] almost a 14.3% Q O Q drop.
+[7:13] Why did this happen? So management
+[7:14] basically attributes the bulk of this to
+[7:17] cash.
+[7:18] I'm sure everyone knows about cash you
+[7:20] have read a lot about cash many of them
+[7:21] have experienced cash it's closing
+[7:23] auction system and
+[7:25] any people who are typical traders I'm
+[7:28] sure they have experienced the pain in
+[7:30] cash last one minute candle and
+[7:34] whatever positions people had taken beat
+[7:36] in F and O segment it used to be a big
+[7:38] green candle upward or a big red candle
+[7:39] downward and positions used to go
+[7:41] haywire.
+[7:42] Many people were
+[7:44] really you know in pain because of this
+[7:47] cash a lot of people expressed their
+[7:50] dissatisfaction on this and ultimately
+[7:52] SEBI actually came up with a
+[7:54] clarification they came up with a
+[7:55] circular on 15th of October and they
+[7:57] said that from 7th of December 2026
+[8:00] they'll go back to the expiry settlement
+[8:02] system which used to happen earlier 30
+[8:04] minutes V V VAP basically they're going
+[8:06] to change the cash they're going to stop
+[8:07] that cash and go back to the original
+[8:09] system.
+[8:10] Management has said this is going to
+[8:11] come as a relief to the trailer to the
+[8:13] traders and they believe that the
+[8:15] trading volumes will definitely
+[8:16] normalize, not jump, but at least
+[8:18] normalize.
+[8:20] So I hope again the revenue split is
+[8:22] clear about the equity derivatives
+[8:24] portion point is also clear.
+[8:26] Next section we'll talk about Q2 FY27
+[8:28] results.
+[8:30] Now talking about the Q2 results, if I
+[8:32] were to give you a Q O Q analysis, you
+[8:34] will be like
+[8:36] Anyways, so look at this total income.
+[8:39] It's minus 0.5% on a Q O Q basis. EBITDA
+[8:43] minus 0.2%. PAT minus 1.4% and even PAT
+[8:47] margin it has dropped by minus 0.4
+[8:50] points. So nothing interesting about
+[8:53] this. And if you are like, why did this
+[8:54] happen? You already know the answer. I
+[8:56] told you because of cash. The overall
+[8:59] trading volumes itself dropped because
+[9:01] of which their income
+[9:03] was I mean income took a hit.
+[9:05] And was this only Grow with suffered
+[9:07] this because of this cash thing? No. In
+[9:09] fact, it was an industry wide thing that
+[9:12] whichever broker was dependent a lot on
+[9:16] derivatives income, they did see a hit
+[9:18] this quarter, right? But now let's look
+[9:20] at the brighter picture, the Y O Y
+[9:22] picture. Let's look at total income that
+[9:24] jumped 44 %. EBITDA jumped 60 %. PAT
+[9:28] jumped 54 %. And even PAT margin saw a
+[9:31] 300 basis points increase. Basically, it
+[9:34] went up from 44 % to 47 %. So all in
+[9:38] all, the overall Q2 results on face are
+[9:42] very interesting.
+[9:43] If I were to understand about their
+[9:45] market share also, that is also
+[9:47] important. See,
+[9:48] for me, if I am growing, basically my
+[9:51] revenue is growing, my profit is
+[9:52] growing, that is good. But if my market
+[9:55] share is also increasing, that is also
+[9:57] an encouraging sign, right? So if you
+[9:58] look at this, equity derivatives
+[10:00] trading, their market share again on a Y
+[10:02] O Y basis increased from 8.6 % to 11 %.
+[10:06] Stock trading increased from 12.9 % to
+[10:08] 15.4 %. MTF lending increased from 1.6%
+[10:13] to 2.7% and mutual funds increased from
+[10:16] 13.1%
+[10:17] to 14.8%.
+[10:20] So I hope entire Q2 analysis or Q2
+[10:23] snapshot I can say is absolutely clear,
+[10:25] but this is what has happened till now.
+[10:27] Question is what about the new products
+[10:29] that the management is building for
+[10:31] future? That's what we are going to
+[10:32] check in the last section of this week.
+[10:34] Moving on to the new businesses. Now I
+[10:36] feel this segment is particularly very
+[10:38] personalized. Why am I saying this?
+[10:40] Because when whenever you analyze new
+[10:42] businesses of any company, basically it
+[10:43] depends from a person to person whether
+[10:45] you feel that this can bring in a lot of
+[10:48] business to the company or not. Because
+[10:50] of course management definitely feels
+[10:51] that it can bring in a lot of business
+[10:53] and that's the reason why they enter
+[10:54] into newer and newer businesses. But if
+[10:56] you feel the same, then only
+[10:59] you can you know track the stock in a
+[11:01] much more closer fashion because that is
+[11:03] where you can dig down deep and get a
+[11:05] better understanding, right? So first
+[11:07] things first, new businesses we are
+[11:08] talking only about those announcements
+[11:10] that were made in Q2 FY27 or one or two
+[11:12] in the Q1 FY27 results. The very first
+[11:14] one is 915. 915 is a separate trading
+[11:17] platform for all the active traders.
+[11:20] Management has very clearly said that
+[11:21] right now it is not a meaningful
+[11:23] contributor to Gross business, but they
+[11:25] are saying that they are watching this
+[11:27] segment closely and they are
+[11:30] checking whether this existing
+[11:32] product finds the right fit for traders
+[11:35] or not. They will surely take feedbacks
+[11:37] and they'll keep on improving this
+[11:38] product based on the traders'
+[11:39] requirements, right? The second new
+[11:41] business that they are entering into is
+[11:43] US stocks and this is right now in the
+[11:46] beta phase, testing phase. Management
+[11:48] has very clearly said that there's no
+[11:49] launch date that has been fixed right
+[11:51] now. Again they said that they'll slowly
+[11:53] roll this out based on the user
+[11:55] feedback, right?
+[11:56] The third one is the wealth
+[11:58] segment that they have introduced and
+[12:00] this is especially for the larger
+[12:03] investors, basically the HNIs, high net
+[12:05] worth individuals who are interested in
+[12:07] products like PMS that is portfolio
+[12:09] management services or AIFs, alternate
+[12:11] investment funds,
+[12:12] different types of insurances and all
+[12:14] that, right?
+[12:15] They are not offering these products
+[12:16] like PMF, AIFs through the normal Grow
+[12:19] app, but they have a separate app called
+[12:20] W through which they provide these
+[12:22] services. But there's one important
+[12:24] thing which we have to understand that
+[12:26] wealth is a category of business where
+[12:28] crores, thousands of crores rupees could
+[12:30] be handled.
+[12:31] And in this case, management does need a
+[12:33] separate expertise to run such segment,
+[12:36] right? And that might be one of the
+[12:38] reasons why they bought a company called
+[12:40] Fisdom in October 2025 and they bought
+[12:43] it at a valuation of $150 million.
+[12:45] And that's where they started this
+[12:47] wealth segment. The integration of this
+[12:50] wealth of Fisdom was completed in this
+[12:52] quarter itself. And it will be really
+[12:54] interesting to watch how this wealth
+[12:56] segment specifically grows.
+[12:58] Ultimately, they have also introduced MF
+[13:00] Prime. This is an optional service on
+[13:01] the Grow app. This basically recommends
+[13:04] mutual funds to people who want
+[13:06] guidance. Now, if you've done my magic
+[13:08] of mutual funds course,
+[13:10] you already know that regular mutual
+[13:12] funds or regular plans typically cost
+[13:15] you higher because the expense ratio is
+[13:17] higher versus direct plans. But still,
+[13:19] there are some customers, some investors
+[13:21] who feel that I want guidance. I'm ready
+[13:23] to pay higher commission.
+[13:25] And for such category of people, they
+[13:27] said, okay, we'll give recommendations,
+[13:28] but then they'll be selling regular
+[13:30] plans and not direct plans. Management
+[13:33] in fact is saying that this is one of
+[13:35] the fastest growing products in the
+[13:37] wealth management business.
+[13:39] So I hope all in all, all the new
+[13:41] businesses are also clear. If you feel
+[13:42] that there is something that you would
+[13:44] want to add about this company, please
+[13:46] add that in the comment section below.
+[13:48] If you loved this video, please don't
+[13:49] forget to smash the like button. Please
+[13:50] don't forget to share this video with
+[13:51] your friends. I'll see you in the next
+[13:52] one. Till then, take care. Jai Hind and
+[13:54] bye-bye.
+[13:59] You might have come across such
+[14:00] advertisements on various social media
+[14:02] platforms. Please note, all of these are
+[14:04] fraudsters promising unbelievable
+[14:06] returns through stock tips. I don't
+[14:08] provide any calls or advisory services.
+[14:11] I provide only educational content
+[14:13] through my social media handles and
+[14:15] through my website rachanaranade.com and
+[14:17] rachanaranade.in.

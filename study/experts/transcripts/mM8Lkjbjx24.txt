@@ -1,0 +1,33 @@
+[0:01] Have you ever entered a trade after
+[0:02] seeing a strong green candle only to
+[0:04] watch the price reverse almost
+[0:06] immediately? What if the candle wasn't
+[0:07] telling you the full story? Well, for
+[0:09] the first time Indian traders can access
+[0:11] order flow built on actual executed
+[0:13] trades right [music] inside Delta D3.
+[0:16] While regular charts show you where
+[0:17] price went, order flow helps you
+[0:19] understand what happened inside the
+[0:21] candle. It shows you the actual buying
+[0:23] and selling volume at every price level
+[0:25] along with Delta, which tells you which
+[0:28] side was more aggressive. So even if a
+[0:30] candle looks bullish, you can check
+[0:31] whether the buyers are actually
+[0:33] dominating or sellers are putting up a
+[0:34] fight. And that's not all. You get tools
+[0:36] like point of control, VWAP, volume
+[0:38] profile to understand the market
+[0:40] activity better. Plus order flow on
+[0:42] Delta D3 uses actual executed trades and
+[0:44] not just bid and ask data. So next time
+[0:47] when you see a candle, don't just look
+[0:48] at the price. Instead, see the battle
+[0:50] happening behind it. Explore order flow
+[0:52] on Delta D3 now.
+[0:55] >> [bell]
+[0:55] >> Investments in the securities market are
+[0:57] subject to market risk. Read all the
+[0:59] related documents carefully before
+[1:00] investing.

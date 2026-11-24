@@ -1,0 +1,31 @@
+[0:00] Ever wondered whether option premiums
+[0:01] are expensive right now?
+[0:03] Or if volatility is actually low
+[0:05] compared to nifty?
+[0:06] The option chain won't give you the full
+[0:08] picture.
+[0:09] And using multiple tools to analyze
+[0:11] volatility can be a pain. And that's why
+[0:13] Dhan has brought advanced wall analysis
+[0:16] to Option Trader. You can track India
+[0:18] VIX, compare IV across major indices,
+[0:21] and analyze IV across different expiries
+[0:24] and strike.
+[0:25] Want to see how volatility compares to
+[0:27] its historical levels? Use IV Rank or IV
+[0:30] Percentile. [music] You can also track
+[0:32] ATM IV alongside price, view standard
+[0:34] deviation zones, and find high or low
+[0:37] wall stocks using IV Mover Screener. All
+[0:40] these tools in one place so you spend
+[0:42] less time switching between tabs [music]
+[0:43] and more time analyzing the market. Head
+[0:45] to Option Trader Web, open the Insights
+[0:48] tab, and explore advanced volatility
+[0:50] analysis because in options trading,
+[0:52] understanding volatility matters just as
+[0:55] much as understanding price.
+[0:58] >> Investments in the securities market are
+[1:00] subject to market risk. Read all the
+[1:02] related documents carefully before
+[1:03] investing.
