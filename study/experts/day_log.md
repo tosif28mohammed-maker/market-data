@@ -106,3 +106,12 @@
 - Notebook: r061 + r01 i102-i104. Source rating WCS 29=2.
 - PC transcripts 24 Nov 10:24: ok 0, fail 0 (फ़ोल्डर जुड़ा नहीं / PC shell नहीं मिला)
 - PC transcripts 24 Nov 15:24 (Tosif ने हाथ से चलाया, Python अब PC पर है): ok 16, fail 7+ (YouTube IpBlocked के बाद रोका). बाकी ~150 अगली बार.
+
+## 2026-11-24 18:11 (silent run)
+- Robot: 62 sources, failed 0, नए 80 (49 रखे); YouTube transcripts 0 (RequestBlocked 7). Gemini reader 14:48 UTC: free quota ख़त्म (429), 0 हिस्से; books_left 3, videos_left 173. Intraday data (m15) 2 Nov तक, m5_all 20 Nov तक.
+- पढ़ा (Claude): queue के 108 नए (Nvidia/Jensen वापसी, Kospi +8%, gold 14-माह low से उछाल, Nifty-500 Q2 profit +32%, SEBI GMP — testable नहीं); PC से आए Dhan के पूरे transcripts: 11 AM Theta Trap, MTF swing scan (ScanX live), 3 intraday indicators (EMA cross + RSI, sideways में signal नहीं — generic), momentum breakout (सिर्फ़ शुरुआती हिस्सा); PR Sundar ADX, Dhan Elliott wave (सिर्फ़ description, testable नियम नहीं). test_queue के 40 waiting.
+- test_queue: 8 → done (MO-26/AI-9197A2 family में पहले ही बेकार), 32 → blocked (fundamentals इतिहास नहीं).
+- नए claims: DHAN-16; DHAN-08/11 transcript से पूरे हुए
+- Test DHAN-08/11 11 AM Theta Trap (60 दिन intraday): ADX<20 falling वाले दिन 11:00 के बाद शांत नहीं — Nifty |move| 0.35% vs 0.27%, BankNifty quiet 31% vs 52-59% → बेकार (छोटा data) (r062)
+- Test DHAN-16 MTF scan (uptrend+ADX>20 rising+RSI 55-70+vol>1.5x): h20 excess +0.09 vs control +0.28; 2R target hit 21% (last 2m 11%) → बेकार (r062)
+- Notebook: r062 + r01 i105, i106. Source rating Dhan = 2.

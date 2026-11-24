@@ -1,0 +1,48 @@
+DHAN-16          h 5 ALL       n 53716 excess -0.05 med -1.06 win 42% raw_net +0.44
+DHAN-16          h 5 2003-12   n 15378 excess +0.01 med -1.05 win 42% raw_net +0.83
+DHAN-16          h 5 2013-20   n 18579 excess -0.16 med -1.11 win 41% raw_net +0.30
+DHAN-16          h 5 2021-26   n 19459 excess +0.01 med -1.00 win 42% raw_net +0.27
+DHAN-16          h 5 Nov23-now n  9606 excess -0.05 med -0.85 win 43% raw_net -0.14
+DHAN-16          h 5 ex-crisis n 51641 excess -0.03 med -1.04 win 42% raw_net +0.41
+DHAN-16          h10 ALL       n 53693 excess +0.01 med -1.43 win 42% raw_net +1.21
+DHAN-16          h10 2003-12   n 15379 excess +0.08 med -1.39 win 43% raw_net +1.87
+DHAN-16          h10 2013-20   n 18579 excess -0.13 med -1.44 win 42% raw_net +0.92
+DHAN-16          h10 2021-26   n 19435 excess +0.11 med -1.44 win 42% raw_net +0.96
+DHAN-16          h10 Nov23-now n  9582 excess -0.05 med -1.29 win 42% raw_net +0.24
+DHAN-16          h10 ex-crisis n 51618 excess +0.03 med -1.41 win 42% raw_net +1.11
+DHAN-16          h20 ALL       n 53612 excess +0.09 med -1.93 win 42% raw_net +2.56
+DHAN-16          h20 2003-12   n 15370 excess +0.22 med -1.65 win 44% raw_net +3.59
+DHAN-16          h20 2013-20   n 18579 excess -0.07 med -1.93 win 42% raw_net +1.99
+DHAN-16          h20 2021-26   n 19363 excess +0.15 med -2.18 win 42% raw_net +2.29
+DHAN-16          h20 Nov23-now n  9510 excess +0.03 med -1.94 win 42% raw_net +0.94
+DHAN-16          h20 ex-crisis n 51537 excess +0.12 med -1.92 win 42% raw_net +2.42
+control uptrend  h 5 ALL       n253628 excess +0.01 med -0.83 win 43% raw_net +0.51
+control uptrend  h 5 2003-12   n 73430 excess -0.06 med -0.85 win 43% raw_net +0.71
+control uptrend  h 5 2013-20   n 84937 excess -0.01 med -0.80 win 43% raw_net +0.40
+control uptrend  h 5 2021-26   n 93471 excess +0.10 med -0.83 win 43% raw_net +0.45
+control uptrend  h 5 Nov23-now n 47888 excess +0.08 med -0.72 win 44% raw_net +0.21
+control uptrend  h 5 ex-crisis n244205 excess +0.03 med -0.82 win 43% raw_net +0.51
+control uptrend  h10 ALL       n253504 excess +0.11 med -1.14 win 43% raw_net +1.21
+control uptrend  h10 2003-12   n 73443 excess +0.04 med -1.13 win 43% raw_net +1.61
+control uptrend  h10 2013-20   n 84939 excess +0.06 med -1.09 win 43% raw_net +1.05
+control uptrend  h10 2021-26   n 93332 excess +0.22 med -1.20 win 43% raw_net +1.09
+control uptrend  h10 Nov23-now n 47750 excess +0.15 med -1.03 win 44% raw_net +0.56
+control uptrend  h10 ex-crisis n244081 excess +0.13 med -1.14 win 43% raw_net +1.22
+control uptrend  h20 ALL       n253036 excess +0.28 med -1.61 win 43% raw_net +2.58
+control uptrend  h20 2003-12   n 73412 excess +0.21 med -1.44 win 44% raw_net +3.25
+control uptrend  h20 2013-20   n 84940 excess +0.21 med -1.56 win 43% raw_net +2.16
+control uptrend  h20 2021-26   n 92894 excess +0.41 med -1.82 win 43% raw_net +2.52
+control uptrend  h20 Nov23-now n 47312 excess +0.28 med -1.56 win 44% raw_net +1.45
+control uptrend  h20 ex-crisis n243613 excess +0.31 med -1.60 win 43% raw_net +2.57
+TRADE DHAN-16  all     n 53707 tgt 21.2% stop 32.4% avg +1.68% avgwin +12.21 avgloss -7.70
+TRADE DHAN-16  2013+   n 38006 tgt 20.0% stop 32.8% avg +1.29% avgwin +11.74 avgloss -7.59
+TRADE DHAN-16  Nov23+  n  9579 tgt 16.2% stop 35.5% avg +0.22% avgwin +11.06 avgloss -7.69
+TRADE DHAN-16  last6m  n  1938 tgt 17.3% stop 35.4% avg +0.06% avgwin +10.85 avgloss -7.41
+TRADE DHAN-16  last4m  n  1127 tgt 17.6% stop 40.0% avg -0.51% avgwin +11.19 avgloss -7.67
+TRADE DHAN-16  last2m  n   304 tgt 11.2% stop 53.3% avg -3.97% avgwin +11.94 avgloss -9.09
+TRADE control  all     n 80689 tgt 22.1% stop 34.0% avg +1.33% avgwin +11.02 avgloss -7.10
+TRADE control  2013+   n 57738 tgt 21.5% stop 34.3% avg +1.20% avgwin +10.74 avgloss -6.89
+TRADE control  Nov23+  n 15817 tgt 18.1% stop 36.9% avg +0.36% avgwin +10.21 avgloss -6.81
+TRADE control  last6m  n  2689 tgt 18.7% stop 39.2% avg -0.19% avgwin +9.72 avgloss -6.55
+TRADE control  last4m  n  1574 tgt 16.9% stop 44.7% avg -0.73% avgwin +10.15 avgloss -6.47
+TRADE control  last2m  n   464 tgt 8.6% stop 64.2% avg -4.24% avgwin +10.76 avgloss -7.27

@@ -1,0 +1,10 @@
+== m15_NIFTY.csv.gz  days 60 (2026-08-06..2026-11-02)  median |move| 0.27%  median max-excursion 0.44%
+  A: falling&<20   n  4 |move| mean 0.43% med 0.35  range med 0.93%  ext med 0.60  seller-win(|move|<med) 50%  quiet(ext<med) 25%
+  B: falling&>=20  n 24 |move| mean 0.32% med 0.26  range med 0.55%  ext med 0.43  seller-win(|move|<med) 50%  quiet(ext<med) 54%
+  C: rising        n 32 |move| mean 0.33% med 0.28  range med 0.53%  ext med 0.46  seller-win(|move|<med) 50%  quiet(ext<med) 50%
+  last 2m: A n3 |move| med 0.61 vs others n38 0.31
+== m15_BANKNIFTY.csv.gz  days 60 (2026-08-06..2026-11-02)  median |move| 0.25%  median max-excursion 0.47%
+  A: falling&<20   n 13 |move| mean 0.33% med 0.25  range med 0.67%  ext med 0.52  seller-win(|move|<med) 46%  quiet(ext<med) 31%
+  B: falling&>=20  n 22 |move| mean 0.25% med 0.10  range med 0.57%  ext med 0.44  seller-win(|move|<med) 59%  quiet(ext<med) 59%
+  C: rising        n 25 |move| mean 0.36% med 0.30  range med 0.59%  ext med 0.44  seller-win(|move|<med) 44%  quiet(ext<med) 52%
+  last 2m: A n11 |move| med 0.25 vs others n30 0.29
