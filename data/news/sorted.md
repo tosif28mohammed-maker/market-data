@@ -1,44 +1,44 @@
 # छँटी हुई खबरें — 2026-11-24 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 1099, छँटी 1006, काम की (ताकत ≥3, fact, एक कहानी एक बार) 316, अफ़वाह/राय/clickbait 224
+कुल headlines 1099, छँटी 836, काम की (ताकत ≥3, fact, एक कहानी एक बार) 324, अफ़वाह/राय/clickbait 126
 
-- [5/negative] : Sensex Today Tanks 1,484 Points | Nifty Below 25,350 | 4 Reasons Why Indian Share Markets Are Falling - Equitymaster
-- [5/positive] RVNL: RVNL secures ₹348 crore wagon workshop expansion order from East Coast Railway; stock in focus - Upstox
-- [5/negative] Steel: APL Apollo Tubes shares crash 20% after Tata Steel set to acquire controlling stake for Rs 15,511 crore - The Economic Times
-- [5/positive] Consumer Goods: Brookfield Buys Indian Perfume Bottle Maker From Rival Blackstone for $1.7 Billion - NiftyTrader
-- [5/positive] COCHINSHIP: Cochin Shipyard Share Price Jumps 7% After ₹5,000 Cr Navy Deal Win - Univest
-- [5/negative] : ₹5.2 trillion wiped off market value as Sensex, Nifty slump over 1.7% - Business Standard
-- [5/negative] : Stock Market Nov 23: Sensex Crashes 1,484 Pts, Nifty Slips Below 25,400 - The Indian Awaaz
-- [5/negative] : Sensex Plunges 1,041 Points, Nifty 50 Falls Below 25,500 as Metal and Banking Stocks Weigh - Dalal Street Investment Journal
-- [5/negative] Equities: The US stock market lost about $7.4 trillion in capitalization last week - електронна зернова біржа України
-- [5/negative] Technology: AMD Shares Plunge 20% in Two Days as China Firmware Supply Allegations Hit Home; Nvidia Read-Across Selling Adds Pressure - BigGo Finance
-- [5/negative] HDB,ICICIBANK.NS,AXISBANK.NS,SBIN.NS: Bank Nifty crashes over 2,000 points, plunges 3.1%; HDFC Bank, ICICI Bank, Axis Bank, SBI among top losers - Moneycontrol.com
+- [5/positive] Market: Nifty Today: Nears 26,000 as Sensex Sees Massive 1,800-Point Reversal - NiftyTrader
+- [5/negative] Market: Sensex Today Tanks 1,484 Points | Nifty Below 25,350 | 4 Reasons Why Indian Share Markets Are Falling - Equitymaster
+- [5/positive] Trade: India-US trade deal negotiations nearing completion, signing awaits clarity on US tariff structure - Prop News Time
+- [5/positive] Trade: India and the EU are likely to sign a free trade agreement on Dec. 16 - Vinetur
+- [5/negative] Market: Stock Market Crash Reason: ये तीन कारण... जिनसे बिखरा शेयर बाजार, सेंसेक्स-निफ्टी देखते ही देखते क्रैश - AajTak
+- [5/negative] Market: शेयर बाजार में भारी गिरावट: निवेशकों के एक दिन में डूब गए ₹5.30 लाख करोड़, 25400 के नीचे बंद हुआ निफ्टी - Jagran
+- [5/negative] Market: शेयर बाजार में मचा हाहाकार, सेंसेक्स 1483 अंक और निफ्टी 450 अंक लुढ़का, निवेशकों के ₹6 लाख करोड़ से ज्यादा - India TV Hindi
+- [5/negative] Metal, Banking: शेयर बाजार में हाहाकार, मेटल और बैंकिंग शेयरों में भारी बिकवाली, सेंसेक्स 82,450 के नीचे फिसला - Upstox
+- [5/negative] Market: Stock Market Crash: शेयर बाजार में ऐसी तबाही... झटके में ₹5 लाख करोड़ स्वाहा, सेंसेक्स डे-हाई से 1800 अंक क्रैश - AajTak
+- [5/negative] Market: Stock Market Crash: 1,500 अंक टूटा सेंसेक्स, 2,026 अंक लुढ़का निफ्टी बैंक; शेयर बाजार में हाहाकार! - Moneycontrol Hindi
+- [5/negative] Index: Stock market crash today wipes out ₹6 lakh cr: Red! Sensex down 1,484 points, Nifty below 25,350 - What went wrong? - Livemint
+- [5/positive] MCO: Mahanadi Coalfields’ $953 Million India IPO Subscribed 1.5 Times - Bloomberg.com
+- [5/negative] HDB: Bank Nifty crashes over 2,000 points, plunges 3.1%; HDFC Bank, ICICI Bank, Axis Bank, SBI among top losers - Moneycontrol.com
 - [5/positive] LT: Larsen & Toubro secures ₹10,000-15,000 crore AI order - Multibagg AI
 - [5/positive] LT: Larsen & Toubro Wins Up to INR50 Billion AI Data Center Order - marketscreener.com
 - [5/negative] Index: Stock investors lose Rs 5.19 lakh crore as markets crash - Greater Kashmir
-- [4/negative] Rates: Home Loan EMI Alert: RBI Looks Set to Raise Rates in December as Inflation Crosses 6% - NiftyTrader
-- [4/negative] Macro: S&P cuts India FY28 GDP forecast to 7%, expects rate hike in December - Business Standard
-- [4/negative] Rates: RBI expected to raise rates in December, deliver final hike in February - Moneycontrol.com
+- [5/positive] JINDALDRIL: Jindal Drilling & Industries Limited expects Rs 2,600 crore order book - Multibagg AI
+- [5/negative] Index: BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak - BBN Times
+- [5/negative] Index: Closing Bell: Sensex plunges 1,484 points, Nifty slips below 25,400; Metals, banks lead losses - ET Now
+- [4/negative] Market: Stock Market Crash: Sensex Falls 1.77%, Nifty at 25,350 - HDFC Sky
+- [4/negative] Market: ₹5.6 trn wiped off investor wealth as Sensex, Nifty slump over 1.7% - Business Standard
+- [4/negative] Banking: Closing Bell, 23 November 2026: Sensex and Nifty Fall as Banking Stocks Lead Market Losses - Kotak Neo
+- [4/positive] RVNL: RVNL secures ₹348 crore wagon workshop expansion order from East Coast Railway; stock in focus - Upstox
+- [4/negative] Policy: Home Loan EMI Alert: RBI Looks Set to Raise Rates in December as Inflation Crosses 6% - NiftyTrader
+- [4/negative] Economy: S&P cuts India FY28 GDP forecast to 7%, expects rate hike in December - Business Standard
+- [4/negative] Policy: RBI expected to raise rates in December, deliver final hike in February - Moneycontrol.com
 - [4/mixed] macro: S&P Global sees India’s GDP growing 7% in FY27 and FY28; expects 25 bps RBI rate hike in December - Fortune India
 - [4/negative] macro: S&P Global sees RBI hiking rates in December, cuts India’s FY28 growth forecast to 7% - Moneycontrol.com
 - [4/negative] commodities: Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows; - The Times of India
 - [4/positive] ITI: ITI Share Price Rallies Despite Market Sell-off as Stock Gains 134% in Five Years and Q2 Losses Narrow - Kotak Neo
-- [4/mixed] ZOOMCAR: Earnings call transcript: Zoomcar posts first profit in Q2 2026 as revenue slips By Investing.com - Investing.com India
-- [4/negative] trading: Trans India House Impex Q2 FY27: Sharp Revenue Contraction Triggers Loss, Stock Plunges 63% YTD - MarketsMojo
+- [4/negative] logistics: Trans India House Impex Q2 FY27: Sharp Revenue Contraction Triggers Loss, Stock Plunges 63% YTD - MarketsMojo
 - [4/negative] LENSKART: Lenskart Shares Close 4% Down After ₹921 Crore Block Deal Executed Earlier at 2.6% Discount to Previous Close - Kotak Neo
 - [4/positive] TATASTEEL: Tata Steel to acquire APL Apollo control in ₹15,511-cr deal | Tap to know more | Inshorts - Inshorts
-- [4/positive] Oil & Gas: Budget 2027: Oil and gas sector seeks tax reforms, strategic reserve expansion, infra push - Moneycontrol.com
-- [4/positive] Trade: India-US trade deal negotiations nearing completion, signing awaits clarity on US tariff structure - Prop News Time
-- [4/positive] Trade: India Says U.S. Trade Deal Nears Final Stage - RFD-TV
-- [4/positive] WEL: Welspun LIVING says tariff parity supports high-teens growth - Multibagg AI
-- [4/positive] Trade: India and the EU are likely to sign a free trade agreement on Dec. 16 - Vinetur
-- [4/mixed] Alcohol: India-UK trade deal cuts Scotch whisky duty to 75%, but bulk imports face 110% levy; Govt working to resolve dispute - Livemint
-- [4/negative] market: शेयर बाजार में भारी गिरावट: निवेशकों के एक दिन में डूब गए ₹5.30 लाख करोड़, 25400 के नीचे बंद हुआ निफ्टी - Jagran
-- [4/negative] market: शेयर बाजार में मचा हाहाकार, सेंसेक्स 1483 अंक और निफ्टी 450 अंक लुढ़का, निवेशकों के ₹6 लाख करोड़ से ज्यादा - India TV Hindi
-- [4/positive] VOLTAS,BLUESTAR,HAVELLS: Voltas, Blue Star, Havells Shares Rally Up To 8% As Copper Prices Hit 7-month Low - BW Businessworld
-- [4/positive] MARUTI: Maruti Suzuki hikes car prices for the fourth time in 2026 - Autocar India
-- [4/mixed] VEDL: Vedanta Share News Today 2026: Metal Price Crash, Systematix Warning, Aluminium Duty Relief Demand and Vedanta Group Updates – Telangana NavaNirmana Sena - Tela
-- [4/positive] Glass/Financial: Brookfield Stock Climbs as $1.7B PGP Glass Deal Targets AI Growth - TradingView
-- [4/positive] IT: CORPWATCH: India's IT giants turn captive tech centres into billion-dollar deals - Yahoo Finance
-- [4/positive] PTC: PTC Industries shares rise 2% as firm bags major order from Indian Defence Sector; check details - Upstox
-- [4/positive] PTC: PTC Industries rebounds, up 3% from day's low on major defence order win - Business Standard
+- [4/negative] APL: APL Apollo Tubes shares crash 20% after Tata Steel set to acquire controlling stake for Rs 15,511 crore - The Economic Times
+- [4/positive] ITI: 137% up in five years, ITI shares rally 11% today despite stock market crash | Check stock returns, buy target price - Livemint
+- [4/positive] Currency: Indian rupee could rise to 91.50/$ on equity inflows, HDFC Bank's treasury head says - Reuters
+- [4/positive] Taxation: CBIC’s draft GST proposal aims to protect genuine buyers from input tax credit loss - The Hawk
+- [4/positive] Manufacturing: Budget 2027 may see 1-3% duty cut on 115 manufacturing inputs - The Economic Times
+- [4/positive] IT: Nasscom seeks AI transformation scheme, ESOP tax relief in Budget 2027 - Business Standard
+- [4/positive] Finance: CII lists 15 priority reforms to finance $26.5 trillion economy in 2047 - ETLegalWorld.com
