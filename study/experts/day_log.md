@@ -122,3 +122,11 @@
 - नए claims: ET-02b, RR-01 (blocked: shareholding इतिहास नहीं)
 - Test ET-02b White Marubozu + stock>200DMA: close पर entry, -5/+10 stop/target 20d → target 40.3%, win/loss +9.2/-5.1, exp +1.20% (placebo +0.09), तीनों दौर +; पर अगले दिन open पर entry → exp +0.02% (edge सिर्फ़ रात का gap); last 2/4/6m कमज़ोर → अभी analysis में (r063)
 - Notebook: r063 + r01 i96 update, i107. Source rating CA Rachana Ranade = 2.
+
+## 2026-11-25 02:11 (silent run)
+- Robot: collector 24 Nov 17:57 UTC — 62 sources, failed 0, नए 58 (30 रखे); YouTube transcripts 0 (RequestBlocked 2). Gemini reader 24 Nov 19:28 UTC: quota 429, 0 हिस्से; books_left 3, videos_left 176.
+- पढ़ा (Claude): queue के 30 नए (Nvidia -9%, Anthropic IPO से नीचे, Nifty expiry पर -450, India Inc Q2 earnings, IIFCL IPO, SGB redemption, PIB IFFI — testable नया नहीं); test_queue के 3 pending (AI-48006E, AI-C62277, AI-C7791E).
+- नए claims: AI-48006E, AI-C62277 (C7791E उसी में)
+- Test AI-48006E blue chip div yield>3% (adj factor से dividend): 250d +2.2pp vs बाकी blue chips (53% months), 2013-20 -1.6, 2021-26 +9.3; साल-वार -21..+30 → अभी analysis में (r065)
+- Test AI-C62277 PSU exclusion (utilities/metals/energy/industrials): private 2003-12 +13pp/yr, 2013-20 +10, पर 2021-26 PSU +18pp आगे → अभी analysis में (regime) (r065)
+- Notebook: r065 + r01 i108, i109.

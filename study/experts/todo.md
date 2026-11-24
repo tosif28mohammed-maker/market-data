@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-24 21:30 Kuwait
+Updated: 2026-11-25 02:30 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -36,7 +36,8 @@ Updated: 2026-11-24 21:30 Kuwait
 - [ ] Nifty PE/PB/DY इतिहास का नया source (niftyindices API dead): tapetide.com/insight/market-valuation/nifty-pe-ratio-history.md, data.mendeley.com/datasets/6pjd2wzzcc/1, freefincal Nifty PE file, nikhilsuthar.github.io/indian-market-data → robot script → data/indices/NIFTY50_PE.csv; फिर AI-D1EDA5/AI-7292D2/AI-CB739F test (10y G-sec भी चाहिए)
 - [ ] 10-साल fundamentals का source (blocked 7 नियम) — sirf 4 saal yfinance hai
 
-- [ ] test_queue pending 7 (price से testable): AI-48006E div yield>3% (dividend इतिहास चाहिए — yfinance robot), AI-C62277/AI-C7791E PSU exclusion (PSU सूची बनानी), AI-0B9866/AI-EF9B89/AI-867542/AI-6EF0EE mcap-tier (पुराना mcap proxy = price×आज के shares)
+- [x] AI-48006E + AI-C62277/C7791E (25 Nov 02:11, r065 analysis; dividend adj factor से निकला)
+- [ ] test_queue pending 4 mcap-tier: AI-0B9866/AI-EF9B89/AI-867542/AI-6EF0EE mcap-tier (पुराना mcap proxy = price×आज के shares)
 - [ ] book_finder: Gutenberg 503/timeouts — mirror (gutenberg.pglaf.org) या बाद में; Gemini WCS 17 हिस्सा HTTP 404 जाँचना
 
 ## Data कमी → robot (23 Nov 22:00, Tosif: "कमी हो तो download करो / किसी और को दो, नहीं हो सके तो मुझे बताओ")
@@ -46,6 +47,7 @@ Updated: 2026-11-24 21:30 Kuwait
 - [ ] Tosif से पूछा: 10 साल company fundamentals (RoE/PAT/dividend) और corporate profit/GDP — free source नहीं मिला (Screener/Prowess login/paid)
 
 ## Claude — भारी (हिस्सों में)
+- [ ] r065 आगे: PSU vs private 12m relative momentum switch (AI-248E4C के साथ एक test); div-yield>3% को bear regime (Nifty<200DMA) filter के साथ
 - [ ] AI-248E4C आगे: private vs PSU bank — 12m relative momentum switch (कौन सा group आगे) test; band हुए private banks (LVB) का असर
 - [ ] AI-062853 आगे: Hurst-high momentum पर stop/target (mfe_mae) + 200DMA regime, weekly/monthly hold
 - [x] MO-21 Porter test (r057: edge नहीं, analysis) + AI-184C53 बेकार
