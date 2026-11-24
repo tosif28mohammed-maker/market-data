@@ -1,9 +1,9 @@
 {
- "run_utc": "2026-11-24 08:31",
+ "run_utc": "2026-11-24 13:58",
  "sources": 62,
  "failed": [],
- "new_items": 97,
- "kept": 59,
+ "new_items": 80,
+ "kept": 49,
  "transcripts_ok": 0,
  "transcript_errors": {
   "RequestBlocked": 7
