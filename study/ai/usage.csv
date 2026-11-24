@@ -245,3 +245,95 @@ utc,provider,model,ok,note
 2026-11-24 09:55,gemini,gemini-3.6-flash,1,37s
 2026-11-24 09:55,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-24 09:55,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-24 14:42,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-24 14:42,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-24 14:43,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-24 14:43,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-24 14:44,gemini,gemini-flash-latest,0,HTTP 503
+2026-11-24 14:44,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-24 14:44,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-24 14:44,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-24 14:45,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-24 14:45,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-24 14:45,gemini,gemini-flash-latest,0,HTTP 503
+2026-11-24 14:45,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-24 14:45,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-24 14:45,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-24 14:46,gemini,gemini-3.7-flash,0,HTTP 429
+2026-11-24 14:46,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-24 14:46,gemini,gemini-flash-latest,0,HTTP 429
+2026-11-24 14:46,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-24 14:48,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-24 14:48,gemini,gemini-3.8-flash,0,HTTP 429
+2026-11-24 14:48,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-24 14:49,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-24 14:49,gemini,gemini-flash-latest,0,quota 429 x4 -> stop
+2026-11-24 14:50,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-24 14:50,gemini,gemini-3.8-flash,0,HTTP 429
+2026-11-24 14:51,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-24 14:51,gemini,gemini-3.5-flash,0,quota 429 x4 -> stop
+2026-11-24 14:51,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-24 14:51,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-24 14:51,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 14:52,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 14:52,groq,openai/gpt-oss-120b,1,8s
+2026-11-24 14:52,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 14:53,groq,openai/gpt-oss-120b,1,6s
+2026-11-24 14:53,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 14:54,groq,openai/gpt-oss-120b,1,8s
+2026-11-24 14:54,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 14:54,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 14:54,groq,openai/gpt-oss-20b,0,HTTP 400
+2026-11-24 14:55,groq,openai/gpt-oss-120b,1,8s
+2026-11-24 14:55,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 14:56,groq,openai/gpt-oss-120b,1,8s
+2026-11-24 14:56,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 14:57,groq,openai/gpt-oss-120b,1,8s
+2026-11-24 14:57,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 14:58,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 14:58,groq,openai/gpt-oss-120b,1,5s
+2026-11-24 14:59,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 14:59,groq,openai/gpt-oss-120b,1,6s
+2026-11-24 15:00,groq,openai/gpt-oss-120b,1,6s
+2026-11-24 15:00,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:00,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:00,groq,openai/gpt-oss-20b,1,4s
+2026-11-24 15:01,groq,openai/gpt-oss-120b,1,8s
+2026-11-24 15:01,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 15:02,groq,openai/gpt-oss-120b,1,8s
+2026-11-24 15:02,groq,openai/gpt-oss-120b,1,8s
+2026-11-24 15:02,groq,openai/gpt-oss-120b,1,7s
+2026-11-24 15:03,groq,openai/gpt-oss-120b,1,8s
+2026-11-24 15:03,groq,openai/gpt-oss-120b,1,8s
+2026-11-24 15:04,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:04,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:04,groq,openai/gpt-oss-20b,1,4s
+2026-11-24 15:05,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:05,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:05,groq,openai/gpt-oss-20b,1,4s
+2026-11-24 15:05,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:05,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:05,groq,openai/gpt-oss-20b,1,4s
+2026-11-24 15:06,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:06,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:06,groq,openai/gpt-oss-20b,1,4s
+2026-11-24 15:06,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:06,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:07,groq,openai/gpt-oss-20b,1,5s
+2026-11-24 15:07,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:07,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:07,groq,openai/gpt-oss-20b,1,5s
+2026-11-24 15:08,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:08,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:08,groq,openai/gpt-oss-20b,0,HTTP 400
+2026-11-24 15:08,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:08,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:08,groq,openai/gpt-oss-20b,1,4s
+2026-11-24 15:09,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:09,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:09,groq,openai/gpt-oss-20b,1,4s
+2026-11-24 15:09,groq,openai/gpt-oss-120b,0,HTTP 429
+2026-11-24 15:09,groq,llama-3.3-70b-versatile,0,HTTP 404
+2026-11-24 15:10,groq,openai/gpt-oss-20b,1,2s
+2026-11-24 15:10,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-24 15:10,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop

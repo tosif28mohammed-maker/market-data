@@ -1,44 +1,44 @@
 # छँटी हुई खबरें — 2026-11-24 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 1099, छँटी 969, काम की (ताकत ≥3, fact, एक कहानी एक बार) 320, अफ़वाह/राय/clickbait 261
+कुल headlines 1099, छँटी 1006, काम की (ताकत ≥3, fact, एक कहानी एक बार) 316, अफ़वाह/राय/clickbait 224
 
-- [5/positive] : Nifty Today: Nears 26,000 as Sensex Sees Massive 1,800-Point Reversal - NiftyTrader
 - [5/negative] : Sensex Today Tanks 1,484 Points | Nifty Below 25,350 | 4 Reasons Why Indian Share Markets Are Falling - Equitymaster
-- [5/negative] market: ₹5.2 trillion wiped off market value as Sensex, Nifty slump over 1.7% - Business Standard
-- [5/negative] APLAPOLLO: APL Apollo Tubes Share Price Crashes 16% on Tata Steel Deal - Univest
-- [5/negative] market: Stock Market Nov 23: Sensex Crashes 1,484 Pts, Nifty Slips Below 25,400 - The Indian Awaaz
-- [5/negative] metal/banking: Sensex Plunges 1,041 Points, Nifty 50 Falls Below 25,500 as Metal and Banking Stocks Weigh - Dalal Street Investment Journal
-- [5/negative] Commodities: Gold price crash with 31% correction: Why investors should wait for November 25, December 4 and 9 - What’s special? - Livemint
+- [5/positive] RVNL: RVNL secures ₹348 crore wagon workshop expansion order from East Coast Railway; stock in focus - Upstox
+- [5/negative] Steel: APL Apollo Tubes shares crash 20% after Tata Steel set to acquire controlling stake for Rs 15,511 crore - The Economic Times
+- [5/positive] Consumer Goods: Brookfield Buys Indian Perfume Bottle Maker From Rival Blackstone for $1.7 Billion - NiftyTrader
+- [5/positive] COCHINSHIP: Cochin Shipyard Share Price Jumps 7% After ₹5,000 Cr Navy Deal Win - Univest
+- [5/negative] : ₹5.2 trillion wiped off market value as Sensex, Nifty slump over 1.7% - Business Standard
+- [5/negative] : Stock Market Nov 23: Sensex Crashes 1,484 Pts, Nifty Slips Below 25,400 - The Indian Awaaz
+- [5/negative] : Sensex Plunges 1,041 Points, Nifty 50 Falls Below 25,500 as Metal and Banking Stocks Weigh - Dalal Street Investment Journal
 - [5/negative] Equities: The US stock market lost about $7.4 trillion in capitalization last week - електронна зернова біржа України
-- [5/negative] Semiconductors: AMD Shares Plunge 20% in Two Days as China Firmware Supply Allegations Hit Home; Nvidia Read-Across Selling Adds Pressure - BigGo Finance
-- [5/negative] Precious Metals: Gold Plunges 9% in a Single Week, Breaching $3,600 as AI Stock Rout Triggers "ATM-Style" Selling - BigGo Finance
-- [4/positive] RVNL: RVNL secures ₹348 crore wagon workshop expansion order from East Coast Railway; stock in focus - Upstox
-- [4/negative] macro: S&P cuts India FY28 GDP forecast to 7%, expects rate hike in December - Business Standard
+- [5/negative] Technology: AMD Shares Plunge 20% in Two Days as China Firmware Supply Allegations Hit Home; Nvidia Read-Across Selling Adds Pressure - BigGo Finance
+- [5/negative] HDB,ICICIBANK.NS,AXISBANK.NS,SBIN.NS: Bank Nifty crashes over 2,000 points, plunges 3.1%; HDFC Bank, ICICI Bank, Axis Bank, SBI among top losers - Moneycontrol.com
+- [5/positive] LT: Larsen & Toubro secures ₹10,000-15,000 crore AI order - Multibagg AI
+- [5/positive] LT: Larsen & Toubro Wins Up to INR50 Billion AI Data Center Order - marketscreener.com
+- [5/negative] Index: Stock investors lose Rs 5.19 lakh crore as markets crash - Greater Kashmir
+- [4/negative] Rates: Home Loan EMI Alert: RBI Looks Set to Raise Rates in December as Inflation Crosses 6% - NiftyTrader
+- [4/negative] Macro: S&P cuts India FY28 GDP forecast to 7%, expects rate hike in December - Business Standard
+- [4/negative] Rates: RBI expected to raise rates in December, deliver final hike in February - Moneycontrol.com
+- [4/mixed] macro: S&P Global sees India’s GDP growing 7% in FY27 and FY28; expects 25 bps RBI rate hike in December - Fortune India
+- [4/negative] macro: S&P Global sees RBI hiking rates in December, cuts India’s FY28 growth forecast to 7% - Moneycontrol.com
+- [4/negative] commodities: Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows; - The Times of India
 - [4/positive] ITI: ITI Share Price Rallies Despite Market Sell-off as Stock Gains 134% in Five Years and Q2 Losses Narrow - Kotak Neo
-- [4/negative] TRANS INDIA HOUSE IMPEX: Trans India House Impex Q2 FY27: Sharp Revenue Contraction Triggers Loss, Stock Plunges 63% YTD - MarketsMojo
-- [4/positive] Manufacturing: Budget 2027 may see 1-3% duty cut on 115 manufacturing inputs - The Economic Times
+- [4/mixed] ZOOMCAR: Earnings call transcript: Zoomcar posts first profit in Q2 2026 as revenue slips By Investing.com - Investing.com India
+- [4/negative] trading: Trans India House Impex Q2 FY27: Sharp Revenue Contraction Triggers Loss, Stock Plunges 63% YTD - MarketsMojo
+- [4/negative] LENSKART: Lenskart Shares Close 4% Down After ₹921 Crore Block Deal Executed Earlier at 2.6% Discount to Previous Close - Kotak Neo
+- [4/positive] TATASTEEL: Tata Steel to acquire APL Apollo control in ₹15,511-cr deal | Tap to know more | Inshorts - Inshorts
+- [4/positive] Oil & Gas: Budget 2027: Oil and gas sector seeks tax reforms, strategic reserve expansion, infra push - Moneycontrol.com
 - [4/positive] Trade: India-US trade deal negotiations nearing completion, signing awaits clarity on US tariff structure - Prop News Time
 - [4/positive] Trade: India Says U.S. Trade Deal Nears Final Stage - RFD-TV
-- [4/positive] WELSPUNLIVING: Welspun LIVING says tariff parity supports high-teens growth - Multibagg AI
+- [4/positive] WEL: Welspun LIVING says tariff parity supports high-teens growth - Multibagg AI
 - [4/positive] Trade: India and the EU are likely to sign a free trade agreement on Dec. 16 - Vinetur
-- [4/mixed] Commodities: India-UK trade deal cuts Scotch whisky duty to 75%, but bulk imports face 110% levy; Govt working to resolve dispute - Livemint
+- [4/mixed] Alcohol: India-UK trade deal cuts Scotch whisky duty to 75%, but bulk imports face 110% levy; Govt working to resolve dispute - Livemint
+- [4/negative] market: शेयर बाजार में भारी गिरावट: निवेशकों के एक दिन में डूब गए ₹5.30 लाख करोड़, 25400 के नीचे बंद हुआ निफ्टी - Jagran
+- [4/negative] market: शेयर बाजार में मचा हाहाकार, सेंसेक्स 1483 अंक और निफ्टी 450 अंक लुढ़का, निवेशकों के ₹6 लाख करोड़ से ज्यादा - India TV Hindi
 - [4/positive] VOLTAS,BLUESTAR,HAVELLS: Voltas, Blue Star, Havells Shares Rally Up To 8% As Copper Prices Hit 7-month Low - BW Businessworld
-- [4/negative] Metals: Copper slips below $12,000 a ton on LME after 9% weekly fall as doubts over AI demand deepen - Business Upturn
+- [4/positive] MARUTI: Maruti Suzuki hikes car prices for the fourth time in 2026 - Autocar India
 - [4/mixed] VEDL: Vedanta Share News Today 2026: Metal Price Crash, Systematix Warning, Aluminium Duty Relief Demand and Vedanta Group Updates – Telangana NavaNirmana Sena - Tela
-- [4/positive] Commodities: Gold, Silver, Platinum Forecasts – Gold Soars 3% As Jensen Huang Is Reinstated As Nvidia CEO - FXEmpire
-- [4/mixed] Technology: India AI Funding Nearly Doubles to US$1.6 Billion in January-September 2026, but Funding Rounds Decline - Kotak Neo
-- [4/negative] Financials: Financials drag Indian shares down on profit-taking after four-week rally - Reuters
-- [4/positive] Consumer Goods: Brookfield Buys Indian Perfume Bottle Maker From Rival Blackstone for $1.7 Billion - NiftyTrader
+- [4/positive] Glass/Financial: Brookfield Stock Climbs as $1.7B PGP Glass Deal Targets AI Growth - TradingView
+- [4/positive] IT: CORPWATCH: India's IT giants turn captive tech centres into billion-dollar deals - Yahoo Finance
 - [4/positive] PTC: PTC Industries shares rise 2% as firm bags major order from Indian Defence Sector; check details - Upstox
 - [4/positive] PTC: PTC Industries rebounds, up 3% from day's low on major defence order win - Business Standard
-- [4/positive] BEL: Bharat Electronics secures extra orders totaling ₹648 crore since Aug 26 - scanx.trade
-- [4/positive] PTC: PTC Industries Gains Indian Defence Order For Titanium Products - Sahi
-- [4/positive] PE: Premier Explosives Wins ₹311-Crore Defence Export Order: $33.603 Million Deal, 12-Month Delivery Window - Kotak Neo
-- [4/positive] Aerospace: Sigma Advanced Systems locks in ₹1,600 crore Rolls-Royce Aerospace deal - scanx.trade
-- [4/positive] COCHIN: Cochin Shipyard Share Price Jumps 7% After ₹5,000 Cr Navy Deal Win - Univest
-- [4/positive] PE: Premier Explosives rallies 11% on Rs 311 crore international order for manufacture and supply of defence e - The Economic Times
-- [4/positive] banking: Nifty Eyes 26,000: FIIs Pour Record Rs 1.12 Lakh Crore as Banking Rally Leads Markets - theopenpress.in
-- [4/positive] SGMART: Multibagger stock: SG Mart surges 13% to record high on fundraise buzz - Business Standard
-- [4/positive] real-estate: BSE Realty index soars 17% in November; what's driving real estate stocks? - Business Standard
-- [4/positive] Automobile: FADA Festive Sales 2026: Auto Retail Crosses 55.25 Lakh Units, EV Sales Top 5 Lakhs - The Daily Jagran
-- [4/positive] CYIENT: GlobalFoundries invests $10M in India's Cyient Semiconductors - TNGlobal
