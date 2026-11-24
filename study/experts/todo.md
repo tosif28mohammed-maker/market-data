@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-24 18:25 Kuwait
+Updated: 2026-11-24 21:30 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -23,6 +23,8 @@ Updated: 2026-11-24 18:25 Kuwait
 - [x] WCS 26 Summary पढ़ा (23 Nov 21:11; MO-24)
 - [x] WCS 27, 28 पढ़े (24 Nov 02:11; MO-25..27)
 - [x] 24 Nov 18:11: queue 108 पढ़े; Dhan पूरे transcripts (theta trap, MTF scan) → r062 दोनों बेकार; test_queue 40 waiting निपटाए
+- [x] 24 Nov 21:11: PC के 16 transcripts में से बाकी 8 पढ़े (कुछ नया testable नहीं)
+- [ ] Tosif link jYqDEE5QL-w: Gemini HTTP 404 — अगले run में browser/PC transcript से पढ़ना
 - [ ] बाकी PC transcripts (~150) आने पर पढ़ना (Tosif PC script धीमा चलाए — IpBlocked)
 - [ ] Gemini: books_left 3 (WCS 28-30) — quota 429, अपने आप अगले robot run
 - [x] WCS 29 पढ़ा + WCS 30 highlights (24 Nov 06:11; MO-28, MO-29 बेकार — r061). WCS 30 theme (India multi-trillion) macro, testable नहीं
@@ -49,7 +51,8 @@ Updated: 2026-11-24 18:25 Kuwait
 - [x] MO-21 Porter test (r057: edge नहीं, analysis) + AI-184C53 बेकार
 - [ ] MO-21 + MO-25 आगे: Porter-hi और Consistent-sector group का गिरावट वाले महीनों (Nifty 200DMA के नीचे) में बचाव — defensive filter test (r060 के बाद)
 - [x] robot fix (24 Nov): source_collector.yml अब ROBOT claim scripts से पहले universe500 data clone करता है (U500 env). अगले report में .out.txt देखना
-- [ ] ET-02 White Marubozu आगे: stop/target (mfe_mae) + trend/200DMA filter
+- [x] ET-02 stop/target + 200DMA (r063: close entry काम करता, next open पर नहीं)
+- [ ] ET-02c: 3:20 PM entry (intraday m5_all) पर Marubozu-जैसा candle — क्या gap edge पकड़ में आता है? + r063 mkt>200 filter bug (EW index) ठीक करना
 - [ ] MO-23 promoter pledge data source (NSE pledge disclosures) → robot script
 - [ ] ARX-02 असली Nifty Midcap/Smallcap index data (NSE TRI) से दोबारा + cash पर 6% ब्याज जोड़कर
 - [ ] MO-18 forward: FY2026 cohort (30 Jun 2026 → 30 Jun 2027) PE बकेट जाँचना

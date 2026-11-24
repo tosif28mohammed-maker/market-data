@@ -115,3 +115,10 @@
 - Test DHAN-08/11 11 AM Theta Trap (60 दिन intraday): ADX<20 falling वाले दिन 11:00 के बाद शांत नहीं — Nifty |move| 0.35% vs 0.27%, BankNifty quiet 31% vs 52-59% → बेकार (छोटा data) (r062)
 - Test DHAN-16 MTF scan (uptrend+ADX>20 rising+RSI 55-70+vol>1.5x): h20 excess +0.09 vs control +0.28; 2R target hit 21% (last 2m 11%) → बेकार (r062)
 - Notebook: r062 + r01 i105, i106. Source rating Dhan = 2.
+
+## 2026-11-24 21:11 (daily report run)
+- Robot: 62 sources, failed 0; queue में नया कुछ नहीं (सब read/dropped). Gemini + Groq free quota ख़त्म (429); Tosif link jYqDEE5QL-w Gemini पर HTTP 404. book_finder: Gutenberg 503/timeout, 0 नई किताब. books_left 3, videos_left 174.
+- पढ़ा (Claude): PC के बाकी 8 transcripts — Dhan momentum setup (सिर्फ़ trend की परिभाषा), Dhan shorts (IV tool, order flow — ads), Dhan SIF launch (ad), Dhan Harmonic (DHAN-12 पहले से), Pranjal Kamra large/mid/small fund (SEBI श्रेणी नियम — पहले से मालूम), CA Rachana Ranade (turnaround short — generic; FII+DII screen).
+- नए claims: ET-02b, RR-01 (blocked: shareholding इतिहास नहीं)
+- Test ET-02b White Marubozu + stock>200DMA: close पर entry, -5/+10 stop/target 20d → target 40.3%, win/loss +9.2/-5.1, exp +1.20% (placebo +0.09), तीनों दौर +; पर अगले दिन open पर entry → exp +0.02% (edge सिर्फ़ रात का gap); last 2/4/6m कमज़ोर → अभी analysis में (r063)
+- Notebook: r063 + r01 i96 update, i107. Source rating CA Rachana Ranade = 2.
