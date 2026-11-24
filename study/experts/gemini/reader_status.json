@@ -1,15 +1,14 @@
 {
- "run_utc": "2026-11-24 19:28",
- "videos_ok": 0,
+ "run_utc": "2026-11-24 23:38",
+ "videos_ok": 1,
  "videos_fail": [
-  "jYqDEE5QL-w: HTTP 429",
-  "book motilal_wcs_28_2018_23.txt@0: HTTP 429",
-  "book motilal_wcs_29_2019_24.txt@0: quota used up this run"
+  "book motilal_wcs_29_2019_24.txt@0: HTTP 429",
+  "book motilal_wcs_30_2020_25.txt@0: HTTP 429"
  ],
- "rules_added": 0,
- "book_chunks": 0,
- "stopped": "Gemini free quota khatam - agle run me",
- "books_left": 3,
- "book_chars_left": 1065445,
- "videos_left": 176
+ "rules_added": 5,
+ "book_chunks": 3,
+ "stopped": "",
+ "books_left": 2,
+ "book_chars_left": 745993,
+ "videos_left": 175
 }
