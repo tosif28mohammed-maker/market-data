@@ -7,9 +7,8 @@
 - अगली monthly expiry: Mon 23 Nov → अगला दिन Wed 25 Nov (Up दिन). छुट्टियाँ: 25 Dec
 - Nifty 25,350: 200 DMA 23,997 से +5.6% (ऊपर — पूरा size); 10 दिन +1.3%; 52w high से -3.7%; 10-महीने SMA ऊपर (ETF रखो)
 - VIX 17.7 → Nifty अगले 20 दिन ±5% में रहने का मौका ~80% (f29); असल हलचल VIX से कम ~79% बार (f30)
-- 🇺🇸 S&P500 कल रात -3.7% (f71): India अगला दिन ~-0.5% पर 5 दिन +1.0% (2013 से 79%) → सुबह मत बेचो, दोपहर में खरीदो
-- 🇺🇸 US VIX 36 >30 (f72): S&P500 अगले 6 महीने औसत +13% (83% बार ऊपर) → international खाते में S&P ETF किश्त
 - 🟢 Sensex 18-महीने ROC +2% (−10..+10 = लंबी खरीद का अच्छा zone: इतिहास में अगले 12 महीने औसत +20%, 89% बार ऊपर, f84) → core/ETF किश्तें जारी
+- Breadth (गहरे dip वाले शेयर) 4.4%; पिछले 5: 2%, 3%, 2%, 3%, 4%
 
 ## Khareed ke kaaran
 ### INDSWFTLAB — score 6, signal: uptrend में 2-3 दिन गिरावट, RSI2 5 (f52); 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -11%; 52w +230% (f43/f58)
@@ -42,7 +41,7 @@
 - 3 mahine ki taakat (RS): 100 mein 16 (100 = sabse mazboot)
 - kaam: Communication Equipment
 - bikri 1 saal +21%, munafa 1 saal +76%, pichhli timahi munafa +435%, ROE 7%, karz/equity 0.39, PE 34, quality 5/9
-- aaj ki khabron mein naam nahi (koi bada jhatka nahi dikha)
+- khabar: HFCL to host virtual investor call with Arihant Capital on Nov 27 - scanx.trade
 
 ### SKYGOLD — score 6, signal: uptrend में 2-3 दिन गिरावट, RSI2 2 (f52); 4H अपने MA से बहुत नीचे (f56); 1H अपने MA से बहुत नीचे (f56); daily 20 DMA से -12%; 52w +131% (f43/f58)
 - **Plan**: dip: आधा entry पर, आधा 3% नीचे; बेच MA पर; 20 दिन
