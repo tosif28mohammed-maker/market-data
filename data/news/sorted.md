@@ -1,44 +1,44 @@
-# छँटी हुई खबरें — 2026-11-23 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
+# छँटी हुई खबरें — 2026-11-24 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 904, छँटी 904, काम की (ताकत ≥3, fact, एक कहानी एक बार) 293, अफ़वाह/राय/clickbait 220
+कुल headlines 1099, छँटी 969, काम की (ताकत ≥3, fact, एक कहानी एक बार) 320, अफ़वाह/राय/clickbait 261
 
-- [5/negative] : US Stock Market Crash: फूट गया AI बबल? अमेरिका में मचा हाहाकार, ₹560 लाख करोड़ डूबे! - Head Topics
-- [5/negative] Gold: Gold Prices Crash 32% From January Peak to ₹1.22 Lakh, Recovery May Take Years - https://ascendants.in/
-- [5/negative] Gold: World gold prices fell to near $3,500, as a liquidity crunch for USD pushed the precious metal down 37% from its peak. - Vietnam.vn
-- [5/positive] PE: Premier Explosives Secures International Defence Explosives Export Order - Sahi
-- [5/negative] technology: Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020 - CNBC
-- [5/negative] technology: Nvidia Just Lost Nearly Half Its Value. A 62-Year-Old With $1 Million in an S&P 500 Index Fund Owns About $50,000 of It Without Buying a Share - 24/7 Wall St.
-- [5/negative] technology: TradingKey Wall Street Weekly: Nvidia and Anthropic Deepen AI Selloff; Nasdaq Plunges 10.02% and Erases 2026 Gains - TradingKey
-- [5/negative] technology: Wall Street reels as AI-linked companies spark massive sell-off in the US - Le Monde.fr
-- [5/positive] Energy: Oil Prices Surge Past 50% Yet US Shale Producers Won't Expand Output; Q3 Shareholder Returns Hit NT$240 Billion - BigGo Finance
-- [5/positive] NTPC: NTPC and NPCIL invest ₹1.4 lakh crore in two nuclear power plants and six energy projects in Bihar - ET EnergyWorld
-- [4/positive] overall: Four weeks of gains! Sensex, Nifty scale 9-month highs on record FII buying - Moneycontrol.com
-- [4/positive] overall: Nifty Hits Nine-Month High of 25,800 as Record FII Buying Lifts Sensex 2,327 Points - HDFC Sky
-- [4/positive] overall: Indian Stock Market Extends 4-Week Rally as Sensex and Nifty Hit 9-Month Highs on Record FII Buying - Kotak Neo
-- [4/positive] overall: Foreign Institutional Investors Put ₹1.12 Lakh Crore Into India - Multibagg AI
-- [4/positive] overall: FIIs go big on Indian equities, pump over Rs 1.10 lakh crore in November: What comes next? - The Economic Times
-- [4/positive] overall: FIIs Invest Rs 1,11,950 Crore Into Indian Stock Markets In November So Far - ETV Bharat
-- [4/positive] Macro: ADB raises India’s GDP growth forecast to 7pc on stronger-than-expected Q1 growth - DD News
-- [4/mixed] Macro: India's GDP growth projected at 7 pc for FY27, 25 bps rate hike likely in Dec: Report - ET Retail
-- [4/negative] MARUTI: Maruti Suzuki Declares Fourth Price Hike In 2026: Cars To Get Costlier From Nov. 22 - NDTV Profit
-- [4/positive] Currency: Rupee climbs past 93/USD as investors seek shelter in Indian stocks, shorts unwind - Reuters
-- [4/positive] Forex: RBI says forex inflows under swap facility reach $72.85 billion - News On AIR
-- [4/positive] Currency: Rupee storms past 93 on foreign inflows and softer oil - The New Indian Express
-- [4/negative] Currency: Indian rupee falls to 92.42 as crude and outflows intensify - Multibagg AI
-- [4/negative] Forex: Indias Foreign Exchange Reserves Fall by More than $14 Billion, RBI Data Reveals - TheWire.in
-- [4/positive] Currency: Record November foreign inflows lift rupee, sensex rises 13% - The Times of India
+- [5/positive] : Nifty Today: Nears 26,000 as Sensex Sees Massive 1,800-Point Reversal - NiftyTrader
+- [5/negative] : Sensex Today Tanks 1,484 Points | Nifty Below 25,350 | 4 Reasons Why Indian Share Markets Are Falling - Equitymaster
+- [5/negative] market: ₹5.2 trillion wiped off market value as Sensex, Nifty slump over 1.7% - Business Standard
+- [5/negative] APLAPOLLO: APL Apollo Tubes Share Price Crashes 16% on Tata Steel Deal - Univest
+- [5/negative] market: Stock Market Nov 23: Sensex Crashes 1,484 Pts, Nifty Slips Below 25,400 - The Indian Awaaz
+- [5/negative] metal/banking: Sensex Plunges 1,041 Points, Nifty 50 Falls Below 25,500 as Metal and Banking Stocks Weigh - Dalal Street Investment Journal
+- [5/negative] Commodities: Gold price crash with 31% correction: Why investors should wait for November 25, December 4 and 9 - What’s special? - Livemint
+- [5/negative] Equities: The US stock market lost about $7.4 trillion in capitalization last week - електронна зернова біржа України
+- [5/negative] Semiconductors: AMD Shares Plunge 20% in Two Days as China Firmware Supply Allegations Hit Home; Nvidia Read-Across Selling Adds Pressure - BigGo Finance
+- [5/negative] Precious Metals: Gold Plunges 9% in a Single Week, Breaching $3,600 as AI Stock Rout Triggers "ATM-Style" Selling - BigGo Finance
+- [4/positive] RVNL: RVNL secures ₹348 crore wagon workshop expansion order from East Coast Railway; stock in focus - Upstox
+- [4/negative] macro: S&P cuts India FY28 GDP forecast to 7%, expects rate hike in December - Business Standard
+- [4/positive] ITI: ITI Share Price Rallies Despite Market Sell-off as Stock Gains 134% in Five Years and Q2 Losses Narrow - Kotak Neo
+- [4/negative] TRANS INDIA HOUSE IMPEX: Trans India House Impex Q2 FY27: Sharp Revenue Contraction Triggers Loss, Stock Plunges 63% YTD - MarketsMojo
 - [4/positive] Manufacturing: Budget 2027 may see 1-3% duty cut on 115 manufacturing inputs - The Economic Times
 - [4/positive] Trade: India-US trade deal negotiations nearing completion, signing awaits clarity on US tariff structure - Prop News Time
-- [4/positive] trade: Jaishankar says India-US trade deal almost at finish line, remaining concerns more on American side | India News - Hindustan Times
-- [4/positive] trade: India-EU FTA likely to be signed on December 16 - The Financial Express
-- [4/positive] trade: India-US Trade Deal Nears Finish Line, Jaishankar Says Most Issues Resolved - Outlook India
-- [4/positive] stocks: पिछले हफ्ते के टॉप 5 शेयर: 5 दिन में दिया 59% तक रिटर्न, सबसे सस्ते का रेट ₹1 से भी कम; आपने खरीदा था कोई? - Jagran
-- [4/mixed] : Stock Market Today: विदेशी निवेशकों की खरीदारी से चमका शेयर बाजार, निफ्टी 25,000 के पार; घरेलू फंडों की रिकॉर्ड बिकवाली - Business Standard
-- [4/positive] : FII की रिकॉर्ड खरीदारी से झूमा बाजार, 9 महीने के हाई पर Sensex-Nifty - Moneycontrol Hindi
-- [4/negative] metals: From Squeezes to Meltdown, a Week of Mayhem Rocks Metals Markets - Bloomberg.com
-- [4/negative] commodities: Gold, copper, aluminium dive to at least 7-month lows - The Hindu
-- [4/positive] VOLTS,BLUESTAR,HAVELLS: Voltas, Blue Star, Havells Shares Rally Up To 8% As Copper Prices Hit 7-month Low - BW Businessworld
-- [4/negative] Gold: Gold Price Forecast: Selloff Echoes 2022 as Fed Hike Fears Grow - FXEmpire
-- [4/mixed] Gold: Gold Price Nears 52-Week Low, Institutions Forecast Rebound to $5,200 Next Year - NAI500
-- [4/positive] Gold: Goldman Sachs: Gold to Outperform Silver and Reach $5,600 by End-2028 - TradingView
-- [4/positive] Gold: Goldman Sachs Backs Gold Over Silver, With a Forecast 31% Above Today’s Price - CEOWORLD magazine
+- [4/positive] Trade: India Says U.S. Trade Deal Nears Final Stage - RFD-TV
+- [4/positive] WELSPUNLIVING: Welspun LIVING says tariff parity supports high-teens growth - Multibagg AI
+- [4/positive] Trade: India and the EU are likely to sign a free trade agreement on Dec. 16 - Vinetur
+- [4/mixed] Commodities: India-UK trade deal cuts Scotch whisky duty to 75%, but bulk imports face 110% levy; Govt working to resolve dispute - Livemint
+- [4/positive] VOLTAS,BLUESTAR,HAVELLS: Voltas, Blue Star, Havells Shares Rally Up To 8% As Copper Prices Hit 7-month Low - BW Businessworld
+- [4/negative] Metals: Copper slips below $12,000 a ton on LME after 9% weekly fall as doubts over AI demand deepen - Business Upturn
+- [4/mixed] VEDL: Vedanta Share News Today 2026: Metal Price Crash, Systematix Warning, Aluminium Duty Relief Demand and Vedanta Group Updates – Telangana NavaNirmana Sena - Tela
+- [4/positive] Commodities: Gold, Silver, Platinum Forecasts – Gold Soars 3% As Jensen Huang Is Reinstated As Nvidia CEO - FXEmpire
+- [4/mixed] Technology: India AI Funding Nearly Doubles to US$1.6 Billion in January-September 2026, but Funding Rounds Decline - Kotak Neo
+- [4/negative] Financials: Financials drag Indian shares down on profit-taking after four-week rally - Reuters
+- [4/positive] Consumer Goods: Brookfield Buys Indian Perfume Bottle Maker From Rival Blackstone for $1.7 Billion - NiftyTrader
+- [4/positive] PTC: PTC Industries shares rise 2% as firm bags major order from Indian Defence Sector; check details - Upstox
+- [4/positive] PTC: PTC Industries rebounds, up 3% from day's low on major defence order win - Business Standard
+- [4/positive] BEL: Bharat Electronics secures extra orders totaling ₹648 crore since Aug 26 - scanx.trade
+- [4/positive] PTC: PTC Industries Gains Indian Defence Order For Titanium Products - Sahi
+- [4/positive] PE: Premier Explosives Wins ₹311-Crore Defence Export Order: $33.603 Million Deal, 12-Month Delivery Window - Kotak Neo
+- [4/positive] Aerospace: Sigma Advanced Systems locks in ₹1,600 crore Rolls-Royce Aerospace deal - scanx.trade
+- [4/positive] COCHIN: Cochin Shipyard Share Price Jumps 7% After ₹5,000 Cr Navy Deal Win - Univest
+- [4/positive] PE: Premier Explosives rallies 11% on Rs 311 crore international order for manufacture and supply of defence e - The Economic Times
+- [4/positive] banking: Nifty Eyes 26,000: FIIs Pour Record Rs 1.12 Lakh Crore as Banking Rally Leads Markets - theopenpress.in
+- [4/positive] SGMART: Multibagger stock: SG Mart surges 13% to record high on fundraise buzz - Business Standard
+- [4/positive] real-estate: BSE Realty index soars 17% in November; what's driving real estate stocks? - Business Standard
+- [4/positive] Automobile: FADA Festive Sales 2026: Auto Retail Crosses 55.25 Lakh Units, EV Sales Top 5 Lakhs - The Daily Jagran
+- [4/positive] CYIENT: GlobalFoundries invests $10M in India's Cyient Semiconductors - TNGlobal
