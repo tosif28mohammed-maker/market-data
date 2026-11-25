@@ -1,3 +1,8 @@
+# >>> HANDOFF 25 Nov 2026 (पाँचवाँ chat)
+- पूरी स्थिति notebook notes/n42 के सबसे ऊपर 'HANDOFF 25 Nov' में (holdings 7, HFCL बिका 19 Nov @193, pending GTT MCX/MAHABANK, stop GTT भाव, खुले सवाल).
+- नई files: paper/my_sold.csv (बिके असली सौदे), scripts/tt_flags.py → data/tt_flags.csv (Tickertape हाँ/ना, export बाकी).
+- Video links: study/experts/user_links.txt → Gemini reader (ai_manager.yml) → study/experts/gemini/<id>.md, rules_ai.csv, test_queue.csv.
+
 # >>> 22 Nov 2026 रात: AI MANAGER (Claude = manager, free helpers) <<<
 Secrets GEMINI_API_KEY + GROQ_API_KEY (Tosif ne 22 Nov daale). scripts/ai_client.py (fallback models, retry, quota-stop), workflow ai_manager.yml (4x/din + push par):
 - gemini_reader.py: YouTube video Gemini khud dekhta (fileData URL, ~15s/video, 25/run) + study/experts/books/*.txt (3 chunk/run) -> study/experts/gemini/*.md,
