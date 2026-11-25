@@ -3,6 +3,7 @@
 5paisa (YouTube)|1i6vVhK2374
 5paisa (YouTube)|48CUlVx0Z5U
 5paisa (YouTube)|4hdrJlKfJo0
+5paisa (YouTube)|9t9TwHqqI1Q
 5paisa (YouTube)|BeVzm5s3cqI
 5paisa (YouTube)|Ch--ian3a2s
 5paisa (YouTube)|G_E1uOB_I8w
@@ -36,6 +37,7 @@ Angel One (YouTube)|IH19q7vefFk
 Angel One (YouTube)|L8gD4uqkWu8
 Angel One (YouTube)|OXHlHZEOBJ0
 Angel One (YouTube)|QiCkQhbMukw
+Angel One (YouTube)|RTilecN2GEE
 Angel One (YouTube)|RdG1RuesR6M
 Angel One (YouTube)|SWSYbkAE1TM
 Angel One (YouTube)|UGJ3SujgDGE
@@ -186,6 +188,7 @@ Business Standard markets|https://www.business-standard.com/markets/news/sebi-do
 Business Standard markets|https://www.business-standard.com/markets/news/sebi-plans-tighter-tenure-caps-for-exchange-mds-public-interest-directors-126112001247_1.html
 Business Standard markets|https://www.business-standard.com/markets/news/sebi-proposes-removing-additional-disclosure-framework-for-fpis-126112001177_1.html
 Business Standard markets|https://www.business-standard.com/markets/news/sebi-to-ease-kyc-norms-centralise-client-details-at-registration-agencies-126112500950_1.html
+Business Standard markets|https://www.business-standard.com/markets/news/sensex-nifty-surge-nearly-2-to-post-their-best-session-since-november-6-126112501149_1.html
 Business Standard markets|https://www.business-standard.com/markets/news/sensex-zooms-1790-pts-in-2-days-nifty-above-25-700-investors-wealth-grows-6-9-trn-5-factors-126112000541_1.html
 Business Standard markets|https://www.business-standard.com/markets/news/sharp-november-run-up-dims-indian-stock-market-s-risk-reward-ratio-volatility-likely-kie-126112500400_1.html
 Business Standard markets|https://www.business-standard.com/markets/news/sterling-and-wilson-shares-gain-7-on-winning-orders-worth-2-050-crore-126112300509_1.html
@@ -364,6 +367,7 @@ BusinessLine markets|article-71741644
 BusinessLine markets|article-71741655
 BusinessLine markets|article-71741672
 BusinessLine markets|article-71741884
+BusinessLine markets|article-71742184
 BusinessLine markets|article-71742189
 BusinessLine markets|article-71742217
 BusinessLine markets|article-71742261
@@ -371,9 +375,19 @@ BusinessLine markets|article-71742300
 BusinessLine markets|article-71742303
 BusinessLine markets|article-71742339
 BusinessLine markets|article-71742361
+BusinessLine markets|article-71742419
+BusinessLine markets|article-71742457
 BusinessLine markets|article-71742462
 BusinessLine markets|article-71742724
 BusinessLine markets|article-71742772
+BusinessLine markets|article-71742777
+BusinessLine markets|article-71742954
+BusinessLine markets|article-71742978
+BusinessLine markets|article-71743427
+BusinessLine markets|article-71743649
+BusinessLine markets|article-71743668
+BusinessLine markets|article-71743891
+BusinessLine markets|article-71743914
 CA Rachana Ranade|6NS3M1-bv-U
 CA Rachana Ranade|ChjVdkxkyB0
 CA Rachana Ranade|DFWiTr6lNVc
@@ -381,6 +395,7 @@ CA Rachana Ranade|E74EDltpYOc
 CA Rachana Ranade|Ulubp8ruR7E
 CA Rachana Ranade|WGc49i6zITc
 CA Rachana Ranade|X6h9PyglHuY
+CA Rachana Ranade|XU7awJ8YlYo
 CA Rachana Ranade|_vl7SCxAXXs
 CA Rachana Ranade|dE5ofdBDi4M
 CA Rachana Ranade|i3jscSFmIxM
@@ -429,6 +444,7 @@ CNBC-TV18 market|https://www.cnbctv18.com/economy/public-sector-banks-business-c
 CNBC-TV18 market|https://www.cnbctv18.com/market/abb-to-acquire-ziehl-abegg-at-enterprise-value-of-usd-2-65-billion-expands-hvac-and-cooling-portfolio-20040147.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/adani-energy-solutions-gets-order-for-1750-mw-renewable-power-supply-to-west-bengal-20038338.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/adani-energy-solutions-transmission-capex-rises-to-rs-91500-crore-with-bihar-project-20037702.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/ai-trade-jitters-deepen-anthropic-falls-30-pc-from-peak-nvidia-shares-slide-further-20041483.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/alembic-pharma-share-price-receives-two-usfda-inspection-report-vadodara-facility-concluded-20041362.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/alkem-laboratories-share-price-usfda-warnings-letter-oai-classification-daman-facility-implications-20037644.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/aluminium-copper-prices-fall-up-to-21-but-auto-companies-margin-relief-expected-in-q4-20037356.htm
@@ -537,6 +553,7 @@ CNBC-TV18 market|https://www.cnbctv18.com/market/gold-prices-fall-global-markets
 CNBC-TV18 market|https://www.cnbctv18.com/market/govt-extends-raw-sugar-import-window-to-march-2027-amid-supply-concerns-sugar-stocks-fall-up-to-3-pc-20041057.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/gpt-infraprojects-arm-wins-rs-121-crore-railway-signalling-bid-from-north-eastern-railway-20037642.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/granules-india-share-price-iifl-capital-initiates-buy-rating-25-percent-upside-target-gagilapur-key-risks-20040836.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/gujarat-overtakes-maharashtra-in-active-stock-market-investors-what-explains-the-surge-20041454.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/havells-rr-kabel-shares-clsa-cites-growth-opportunities-check-price-targets-20036388.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/hdfc-amc-navneet-munod-indian-equities-structural-growth-artificial-intelligence-largecap-rally-foreign-investors-crude-oil-prices-fpi-fund-managers-alpha-article-20036466.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/hdfc-bank-double-in-four-years-icici-kotak-tata-steel-pankaj-murarka-it-consumer-stocks-alpha-article-20039676.htm
@@ -586,6 +603,7 @@ CNBC-TV18 market|https://www.cnbctv18.com/market/markets-espresso-aag-lage-basti
 CNBC-TV18 market|https://www.cnbctv18.com/market/marksans-pharma-share-price-fall-extends-two-session-loss-us-fda-form-483-six-observations-goa-plant-inspection-20039668.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/maruti-suzuki-india-share-price-top-nifty-auto-gainer-commodity-cost-tailwind-aluminium-copper-buy-sell-returns-20037438.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/mcx-share-price-target-raised-by-ubs-volume-growth-eps-estimates-fno-participation-catalysts-upside-20037366.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/medanta-block-deal-dunearn-investments-sells-2-4-per-cent-stake-for-rs-930-crore-hdfc-mf-among-buyers-20041549.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/metal-stocks-under-pressure-vedanta-aluminium-sail-hzl-hind-copper-share-price-steel-outshines-aluminium-valuations-20036840.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/muthoot-finance-share-price-sell-off-gold-price-fall-worst-week-since-2025-key-factors-20038483.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/narayana-hrudayalaya-hsbc-upgrades-to-buy-hospital-stocks-buy-sell-target-returns-20040741.htm
@@ -595,6 +613,7 @@ CNBC-TV18 market|https://www.cnbctv18.com/market/nifty-50-december-fno-series-se
 CNBC-TV18 market|https://www.cnbctv18.com/market/nifty-50-target-raised-to-28500-by-goldman-sachs-top-sectoral-overweights-fii-flows-key-risks-valuations-20036946.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/nifty-outlook-friday-november-20-analysts-see-25800-next-target-after-sharp-recovery-check-support-levels-20038062.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/nifty-outlook-monday-november-23-can-index-cross-26000-and-move-towards-26500-in-the-week-ahead-20039263.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/nifty-outlook-thursday-november-26-index-eyes-26000-as-analysts-favour-buy-on-dips-strategy-20041567.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/nifty-outlook-wednesday-november-25-will-ai-rebound-cause-further-profit-booking-banking-index-20040566.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/nifty-posts-biggest-4-week-rally-in-6-years-sbi-maruti-max-healthcare-lead-gains-20038660.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/nifty-pullback-buying-opportunity-35000-target-remains-intact-rohit-srivastava-sensex-nse-bse-market-analysts-banks-real-estate-autos-20036688.htm
@@ -676,13 +695,16 @@ CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/brigade-enterprises-shar
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/cesc-share-price-subsidiary-awards-153-7-mw-wind-power-project-contract-to-venwind-refex-power-20041304.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/city-union-bank-share-price-shuts-neft-rtgs-gateways-after-unauthorised-customer-account-transaction-20037220.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/coal-india-share-price-declared-l2-bidder-for-governments-rare-earth-magnet-manufacturing-scheme-20037849.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/diamond-power-infrastructure-share-price-bags-fresh-rs-488-crore-orders-for-adanis-bhadla-fatehpur-hvdc-project-20041446.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/diamond-power-infrastructure-share-price-bags-rs-708-crore-adani-energy-solutions-order-for-9059-km-of-conductors-20038148.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/icici-securities-pankaj-pandey-stock-picks-hdfc-axis-bank-shree-cement-maruti-amber-kec-apollo-tyres-alpha-article-20038291.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/infosys-share-price-partners-with-ntt-docomo-for-ai-powered-metaverse-ecosystem-in-japan-20037236.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/jio-financial-services-share-price-blackrock-invest-rs-123-crore-each-in-jio-blackrock-asset-management-20037060.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/juniper-green-energy-share-price-arm-signs-150-mw-ntpc-deal-expects-rs-155-crore-annual-revenue-20041573.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/jupiter-wagons-share-price-to-manufacture-metro-coaches-propulsion-systems-with-koreas-woojin-in-jv-20039993.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/lg-electronics-share-price-block-deal-promoter-likely-to-sell-2-stake-at-rs-1709-floor-price-to-meet-mps-norms-20041364.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/lupin-share-price-gets-us-fda-nod-for-generic-type-2-diabetes-drug-janumet-in-two-strengths-20041401.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/lupin-share-price-gets-usfda-approval-for-single-dose-dalbavancin-injection-to-treat-bacterial-skin-infections-20041559.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/lupin-share-price-gets-usfda-nod-for-generic-drug-to-treat-anaemia-high-phosphorus-in-kidney-patients-20040277.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/manappuram-finance-share-price-targets-25-30-aum-growth-in-fy27-plans-to-add-500-branches-by-march-20037925.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-20040495.htm
@@ -695,6 +717,7 @@ CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/pm-modi-nepal-pm-balendr
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/reliance-industries-share-price-promoter-group-buys-14-27-lakh-shares-worth-rs-194-crore-20040259.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/rvnl-share-price-bags-rs-87-crore-contract-from-nmdc-to-build-super-speciality-hospital-in-chhattisgarh-20040303.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/schaeffler-india-share-price-block-deal-schaeffler-ag-likely-to-sell-6-stake-at-rs-3400-floor-price-20041354.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/siemens-energy-india-share-price-q4-results-profit-zooms-82-as-new-orders-nearly-double-declares-rs-12-dividend-20041488.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/signatureglobal-share-price-adds-10-18-acres-to-gurugram-land-bank-eyes-0-86-million-square-feet-development-20038025.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/sky-gold-and-diamonds-share-price-shareholders-approve-raising-rs-1800-crore-through-qip-other-routes-20037082.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/supreme-court-dismisses-zuari-cements-plea-against-india-cements-share-price-in-rs-26-crore-dispute-20037997.htm
@@ -750,10 +773,12 @@ CNBC-TV18 market|https://www.cnbctv18.com/photos/market/from-a-usd-1-million-sky
 CNBC-TV18 market|https://www.cnbctv18.com/photos/market/grand-theft-auto-gta-vi-launch-sensex-connection-performance-launch-across-every-major-financial-event-20038324.htm
 CNBC-TV18 market|https://www.cnbctv18.com/photos/market/market-pulse-key-triggers-to-watch-before-the-november-19-trading-session-20037216.htm
 CNBC-TV18 market|https://www.cnbctv18.com/photos/market/market-pulse-key-triggers-to-watch-before-the-november-20-trading-session-20038080.htm
+CNBC-TV18 market|https://www.cnbctv18.com/photos/market/market-pulse-key-triggers-to-watch-before-the-november-26-trading-session-20041434.htm
 CNBC-TV18 market|https://www.cnbctv18.com/photos/market/stocks-to-watch-for-november-19-jio-financial-lt-foods-nalco-share-price-20037085.htm
 CNBC-TV18 market|https://www.cnbctv18.com/photos/market/stocks-to-watch-for-november-20-ashoka-buildcon-dilip-buildcon-coal-india-hexaware-share-price-20037866.htm
 CNBC-TV18 market|https://www.cnbctv18.com/photos/market/stocks-to-watch-for-november-23-maruti-suzuki-welspun-living-ashoka-buildcon-adani-energy-share-price-20039268.htm
 CNBC-TV18 market|https://www.cnbctv18.com/photos/market/stocks-to-watch-for-november-25-adani-enterprises-tata-steel-jupiter-wagons-physicswallah-share-price-20040405.htm
+CNBC-TV18 market|https://www.cnbctv18.com/photos/market/stocks-to-watch-for-november-26-lg-electronics-schaeffler-india-lupin-cesc-share-price-20041381.htm
 CNBC-TV18 market|https://www.cnbctv18.com/photos/market/us-market-crash-dow-jones-snp-500-nasdaq-steep-sell-off-10-things-for-investors-to-know-gold-yields-levels-20038953.htm
 CNBC-TV18 market|https://www.cnbctv18.com/photos/market/what-mutual-funds-bought-and-sold-in-october-hdfc-kotak-sbi-axis-mf-itc-infosys-bharti-mm-jio-platforms-share-price-20037664.htm
 CNBC-TV18 market|https://www.cnbctv18.com/technology/anthropic-breaks-below-usd-83-ipo-price-as-debut-rally-unravels-20040501.htm
@@ -814,6 +839,7 @@ ECB press|https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181
 ECB press|https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html
 ECB press|https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html
 ECB press|https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html
+ECB press|https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html
 ECB press|https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html
 ET Markets|https://economictimes.indiatimes.com/markets/bonds/german-bond-yields-edge-higher-as-equity-rebound-eases-safe-haven-demand/articleshow/136097404.cms
 ET Markets|https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136090974.cms
@@ -834,11 +860,13 @@ ET Markets|https://economictimes.indiatimes.com/markets/commodities/news/gold-ti
 ET Markets|https://economictimes.indiatimes.com/markets/commodities/news/golds-slide-deepens-as-ai-rout-rate-hike-bets-hurt-bullion/articleshow/136045549.cms
 ET Markets|https://economictimes.indiatimes.com/markets/commodities/why-golds-five-year-winning-streak-is-under-threat-after-dramatic-selloff/articleshow/136070323.cms
 ET Markets|https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-fails-to-hold-nvidia-bump-with-crypto-headwinds-in-focus/articleshow/136119619.cms
+ET Markets|https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/two-in-five-indian-family-offices-uhnis-have-engaged-with-crypto-amid-regulatory-caution/articleshow/136163899.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets/articleshow/136118031.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-edges-off-19-month-high-after-market-rout-yen-softens/articleshow/136086760.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-weaker-as-fed-fueled-rally-stalls-lower-us-yields-help-yen/articleshow/136045620.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-net-buyer-of-dollars-for-fourth-straight-month-in-september-data-shows/articleshow/136163192.cms
+ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-raises-share-of-domestically-held-gold-reserves-data-shows/articleshow/136165807.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-climbs-past-93/usd-as-investors-seek-shelter-in-indian-stocks-shorts-unwind/articleshow/136023536.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-scales-8-month-high-after-holiday-as-foreign-flows-to-indian-equities-persist/articleshow/136158513.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/rupee-could-rise-to-91-50/-on-equity-inflows-says-hdfc-banks-treasury-head/articleshow/136088042.cms
@@ -862,6 +890,7 @@ ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/ai-to-lead-i
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/anthropic-shares-close-17-higher-on-first-day-of-trading-amid-protest-arrests-outside-nasdaq/videoshow/136013757.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/apl-apollo-tubes-among-3-stocks-that-rose-above-vwap/slideshow/136088216.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/apl-apollo-tubes-among-4-nifty500-stocks-closing-below-vwap/slideshow/136147553.cms
+ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/carlyle-pares-7-4-stake-in-piramal-pharma-for-over-rs-2211-crore/articleshow/136165837.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-these-13-stocks-gained-for-5-days-in-a-row-all-rose-over-27/slideshow/136047969.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-socgen-buy-rs-920-crore-stake-in-lenskart/articleshow/136145273.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-among-5-stocks-showing-white-marubozu-pattern/slideshow/136087788.cms
@@ -1048,6 +1077,7 @@ Forward Guidance|cU5SMPWkTO8
 Forward Guidance|e5DrjXDwXgc
 Forward Guidance|gt2g3lHEZyI
 Forward Guidance|z1Ka0TkOOss
+Groww (YouTube)|0ItkOe205S8
 Groww (YouTube)|4zXfimmK9to
 Groww (YouTube)|5wNmprpBt3A
 Groww (YouTube)|8j8tkQn2irc
@@ -1083,6 +1113,7 @@ LiveMint markets|https://www.livemint.com/market/commodities/gold-rate-today-in-
 LiveMint markets|https://www.livemint.com/market/commodities/gold-rate-today-under-pressure-after-dead-cat-bounce-from-14-month-low-rs-1-lakh-or-rs-1-5-lakh-3-dates-to-remember-11795577248684.html
 LiveMint markets|https://www.livemint.com/market/commodities/gold-silver-copper-aluminium-platinum-to-zinc-why-are-metal-prices-crashing-to-multi-month-lows-key-reasons-11795357679178.html
 LiveMint markets|https://www.livemint.com/market/commodities/gold-silver-price-crash-dsp-mutual-fund-turns-bullish-on-bullion-reveals-new-buying-strategy-check-price-levels-11795252615511.html
+LiveMint markets|https://www.livemint.com/market/commodities/mcx-gold-plunges-rs-4-500-10g-silver-sheds-nearly-rs-8-800-kg-as-pce-data-fuels-december-fed-rate-hike-fears-11795621934097.html
 LiveMint markets|https://www.livemint.com/market/commodities/mcx-rates-gold-crashes-13-silver-plunges-20-in-nov-2026-is-worst-over-what-should-precious-metals-investors-do-11795589063705.html
 LiveMint markets|https://www.livemint.com/market/commodities/silver-price-crash-rates-today-in-india-down-rs-1-lakh-in-3-months-recovery-or-more-fall-ahead-for-mcx-silver-futures-11795511561513.html
 LiveMint markets|https://www.livemint.com/market/commodities/what-is-future-of-gold-rates-price-crash-continues-as-ai-selloff-fed-rate-hike-concerns-weigh-on-investors-sentiment-11795325490076.html
@@ -1115,6 +1146,7 @@ LiveMint markets|https://www.livemint.com/market/ipo/sebi-issues-upcoming-ipos-g
 LiveMint markets|https://www.livemint.com/market/ipo/sebi-warns-investors-against-relying-on-grey-market-premiums-for-ipos-11795443391351.html
 LiveMint markets|https://www.livemint.com/market/ipo/up-to-5-invits-expected-to-go-public-by-march-2027-which-private-trusts-are-likely-to-launch-ipos-details-here-11795455761951.html
 LiveMint markets|https://www.livemint.com/market/japan-stocks-rebound-threatened-as-retail-margin-losses-balloon-11795565829046.html
+LiveMint markets|https://www.livemint.com/market/lg-electronics-shares-to-be-in-focus-as-promoter-to-sell-2-stake-to-meet-public-float-norms-check-details-11795612944008.html
 LiveMint markets|https://www.livemint.com/market/mark-to-market/brigade-enterprises-pre-sales-growth-new-launches-debt-rises-fy27-11795415487645.html
 LiveMint markets|https://www.livemint.com/market/mark-to-market/chalet-hotels-growth-plan-fy31-athiva-expansion-11795501814725.html
 LiveMint markets|https://www.livemint.com/market/mark-to-market/indian-it-sector-growth-outlook-ai-revenue-infosys-tcs-wipro-11795328533948.html
@@ -1123,6 +1155,7 @@ LiveMint markets|https://www.livemint.com/market/mark-to-market/titan-share-pric
 LiveMint markets|https://www.livemint.com/market/mark-to-market/welspun-living-share-price-capex-growth-outlook-11795570337985.html
 LiveMint markets|https://www.livemint.com/market/mark-to-market/why-360-one-could-see-steeper-upgrades-in-estimates-if-markets-stay-buoyant-11795597956942.html
 LiveMint markets|https://www.livemint.com/market/msci-discussed-avoiding-indonesia-downgrade-with-prabowo-dalio-11795402315648.html
+LiveMint markets|https://www.livemint.com/market/nifty-recovers-mondays-losses-moves-within-reach-of-record-high-11795608442767.html
 LiveMint markets|https://www.livemint.com/market/niftys-sharpest-fall-since-july-puts-four-week-rally-under-pressure-11795436914230.html
 LiveMint markets|https://www.livemint.com/market/nse-bse-chief-tenure-rules-sebi-proposal-11795333434935.html
 LiveMint markets|https://www.livemint.com/market/nvidia-ai-stocks-rally-impact-sensex-nifty-11795513010920.html
@@ -1196,11 +1229,13 @@ LiveMint markets|https://www.livemint.com/market/stock-market-news/missed-anthro
 LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-alert-up-102-in-1-year-more-rally-seen-in-this-small-cap-power-stock-heres-why-check-target-upside-11795594809008.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-defence-stock-dips-12-from-record-high-is-this-a-stock-to-buy-experts-decode-with-36-upside-target-11795601425876.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-defence-stock-to-buy-experts-see-35-gain-on-msci-index-rebalancing-despite-55-ytd-return-target-sl-11795425473171.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/nasdaq-100-plunges-nearly-5-briefly-enters-bear-market-zone-as-ai-fears-and-fresh-tariffs-hit-sentiment-11795626875336.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/nse-shares-hit-record-high-after-icici-securities-initiates-coverage-with-buy-check-target-price-and-key-triggers-11795600817257.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/nsel-ots-payment-update-63-moons-technologies-backed-firm-releases-rs-1-950-cr-payout-after-14-yrs-all-about-case-11795450343693.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/nvidia-brings-back-jensen-huang-as-ceo-ai-chipmaker-stock-rallies-31-11795443628972.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/nvidia-shares-tumble-9-after-biggest-rally-in-over-two-decades-as-ai-related-concerns-return-11795537721863.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/nvidia-stock-adds-massive-m-cap-as-jensen-huang-becomes-ceo-again-from-year-low-to-33-surge-all-losses-recovered-11795443628684.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/nvidia-stock-loses-momentum-after-huangs-return-as-ceo-down-another-9-why-are-investors-dumping-ai-stocks-again-11795618514162.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/nvidia-stock-massive-surge-jensen-reinstatement-impact-on-micron-vs-amd-vs-sandisk-vs-oracle-shares-data-details-11795453234829.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/nvidia-vs-anthropic-shares-ai-chip-stock-tanks-14-while-claude-maker-falls-8-5-see-who-wins-in-earnings-valuation-11795238170165.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/of-30-sensex-stocks-22-closed-in-the-red-these-8-shares-defied-stock-market-crash-full-list-of-22-red-and-8-green-11795496983398.html
@@ -1296,6 +1331,7 @@ NDTV Profit (YouTube)|5xUJmCLRTs8
 NDTV Profit (YouTube)|63ZYMRLFkwM
 NDTV Profit (YouTube)|6lGivWF8874
 NDTV Profit (YouTube)|6owOKCZN0rI
+NDTV Profit (YouTube)|6sjD-DXkQeU
 NDTV Profit (YouTube)|86GYz5Sg3-A
 NDTV Profit (YouTube)|8Ox69GViWB0
 NDTV Profit (YouTube)|8uQEDHFg1mQ
@@ -1307,6 +1343,7 @@ NDTV Profit (YouTube)|Au84_gJnqjY
 NDTV Profit (YouTube)|BS-y1zRISRs
 NDTV Profit (YouTube)|C0fsP9lA_I8
 NDTV Profit (YouTube)|CFyblOTVVz4
+NDTV Profit (YouTube)|COhLNvy_lxU
 NDTV Profit (YouTube)|DBYJj2ZgdEs
 NDTV Profit (YouTube)|DJaK0Ix0NY0
 NDTV Profit (YouTube)|DLUNnOAMNoo
@@ -1319,6 +1356,7 @@ NDTV Profit (YouTube)|FIyAGSO-jeM
 NDTV Profit (YouTube)|GKAbjFqyy-4
 NDTV Profit (YouTube)|GSeIqQk8N6Y
 NDTV Profit (YouTube)|GvHnPDxlzuE
+NDTV Profit (YouTube)|H01IB8yMjTc
 NDTV Profit (YouTube)|H37iOL_tp5o
 NDTV Profit (YouTube)|I1bvmUmYmVg
 NDTV Profit (YouTube)|I1lCaa8Zejg
@@ -1340,6 +1378,7 @@ NDTV Profit (YouTube)|QlbbBQJIZ2g
 NDTV Profit (YouTube)|QrkWv9HET1s
 NDTV Profit (YouTube)|Qx6T-vFLI0w
 NDTV Profit (YouTube)|QzSphPja_Uw
+NDTV Profit (YouTube)|R8Xc0Bikf3U
 NDTV Profit (YouTube)|RhL2FgzfKf4
 NDTV Profit (YouTube)|Ru_3mwGEpLk
 NDTV Profit (YouTube)|SU_SaZ8FuuQ
@@ -1349,6 +1388,7 @@ NDTV Profit (YouTube)|TV-ZFZRKR-g
 NDTV Profit (YouTube)|TVriK5h3lA0
 NDTV Profit (YouTube)|Tfb0q1lmWbw
 NDTV Profit (YouTube)|TmgkHP1zE3w
+NDTV Profit (YouTube)|TtmHPH6CG10
 NDTV Profit (YouTube)|UJ9fWG1ak50
 NDTV Profit (YouTube)|ULxJQ1c0Ons
 NDTV Profit (YouTube)|VBSddQ3g59M
@@ -1376,6 +1416,7 @@ NDTV Profit (YouTube)|blgRZTn86Uw
 NDTV Profit (YouTube)|ceialYfJeOo
 NDTV Profit (YouTube)|d0SiKQv1gHU
 NDTV Profit (YouTube)|dO7yXzYPgTU
+NDTV Profit (YouTube)|dj7VnfYHQ3E
 NDTV Profit (YouTube)|dnnjlKVspzY
 NDTV Profit (YouTube)|eInqQnuXqeo
 NDTV Profit (YouTube)|ejXHr47nsN8
@@ -1421,11 +1462,14 @@ NDTV Profit (YouTube)|qAKLCQIkJRg
 NDTV Profit (YouTube)|qDIfV_TDwu4
 NDTV Profit (YouTube)|qny1_QgqayM
 NDTV Profit (YouTube)|rQzzoAqCW4c
+NDTV Profit (YouTube)|sYtJRRC_xR4
 NDTV Profit (YouTube)|se6EU-c4_64
 NDTV Profit (YouTube)|slW6VTL4D3A
+NDTV Profit (YouTube)|t2qwnsoR-LU
 NDTV Profit (YouTube)|tKA5eufhjLI
 NDTV Profit (YouTube)|tKsra3eEmtM
 NDTV Profit (YouTube)|tv4IttDOaRM
+NDTV Profit (YouTube)|tzpQTTved7s
 NDTV Profit (YouTube)|u9fbkX4t4Ks
 NDTV Profit (YouTube)|v0H-J1Em-A0
 NDTV Profit (YouTube)|v__eOwWrAT0
@@ -1443,8 +1487,10 @@ NDTV Profit (YouTube)|yeNRBIN___s
 NDTV Profit (YouTube)|yhnzvsw8Wvo
 NDTV Profit (YouTube)|z1qhWfTsKbc
 NDTV Profit (YouTube)|zBqPjpNk5rM
+NDTV Profit (YouTube)|zGRbqTxrdJA
 NDTV Profit (YouTube)|zINXed9gqvU
 NDTV Profit (YouTube)|zMI-TGTff2M
+NDTV Profit (YouTube)|zuCS2Hd-N7o
 NDTV Profit|https://www.ndtvprofit.com/business/a-bug-from-july-took-down-outlook-and-teams-for-24-hours-now-microsoft-has-declared-code-red-12372392#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/after-20-investor-rejections-how-vikas-nahar-built-rs-700-crore-happilo-12371015#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/ai-is-replacing-entry-level-jobs-yet-gen-z-may-have-advantage-linkedin-ceo-explains-why-12374071#publisher=newsstand
@@ -1469,15 +1515,20 @@ NDTV Profit|https://www.ndtvprofit.com/business/johnnie-walker-maker-is-indias-b
 NDTV Profit|https://www.ndtvprofit.com/business/lodha-developers-chairman-mukund-chitale-steps-down-akhil-gupta-to-replace-12362345#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/maruti-suzuki-declares-fourth-price-hike-in-2026-cars-to-get-costlier-from-november-22-12361074#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/mediation-fails-in-kalyani-familys-rs-1-lakh-crore-inheritance-dispute-sc-told-12364985#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/business/merger-first-no-listing-promise-to-rbi-noel-tata-objects-to-tata-sons-nov-30-board-agenda-12377031#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/mistake-corrected-why-elon-musk-sam-altman-are-hailing-jensen-huangs-return-to-nvidia-12367428#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/business/nothing-much-we-can-do-sc-dismisses-idbi-bank-officers-pension-appeals-after-fairfax-sale-nod-12376723#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/o-m-operation-mole-box-office-collection-day-3-dhanush-mammootty-starrer-wraps-up-its-opening-weekend-12362562#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/pnb-md-says-ecl-provision-requirement-is-around-rs-5-000-crore-with-no-impact-on-profitability-12362961#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/ramayana-outruns-dhurandhar-2-becomes-first-non-kannada-film-to-cross-rs-150-crore-in-karnataka-12361206#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/shree-cement-to-cross-100-mt-capacity-in-3-4-yrs-targets-9-10-growth-chairman-hari-mohan-bangur-12362929#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/singur-gets-a-second-shot-ashok-leyland-to-set-up-truck-plant-18-years-after-tata-nano-exit-12359639#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/business/suzuki-ignis-revealed-as-a-compact-electric-car-india-launch-uncertain-12376731#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/swish-spends-rs-3-to-earn-rs-1-what-the-earnings-reveal-about-10-minute-food-delivery-bet-12371067#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/business/tata-social-welfare-trust-can-now-invest-rs-150-crore-in-listed-companies-charity-commissioner-rules-12376866#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/tata-sons-board-meeting-postponed-fresh-date-to-be-decided-12364691#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/tata-sons-board-meeting-rescheduled-to-nov-30-after-noel-tatas-letter-12366130#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/business/this-self-driving-excavators-startup-is-worth-4-1-billion-two-years-after-it-started-12375911#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/toyota-innova-hycross-facelift-launched-price-new-features-design-and-more-12376096#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/trump-claims-china-could-have-paid-nvidia-ceo-jensen-huang-to-flip-sides-12367563#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/us-slaps-17-tariffs-on-india-in-fresh-set-of-levies-12376147#publisher=newsstand
@@ -1493,6 +1544,7 @@ NDTV Profit|https://www.ndtvprofit.com/economy/rbi-guv-sanjay-malhotra-urges-ban
 NDTV Profit|https://www.ndtvprofit.com/economy/tax-ai-token-use-reward-training-raghuram-rajan-s-plan-to-protect-jobs-from-ai-12359535#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/ailet-2027-admit-cards-released-ahead-of-schedule-nlu-delhi-sets-december-6-as-download-deadline-12374102#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/bizarre-reasons-behind-uk-student-visa-rejections-raise-concerns-among-higher-education-aspirants-12375882#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/education/is-coding-no-longer-enough-in-india-ai-eats-into-campus-placements-as-it-hirings-take-a-hit-12376851#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/jee-main-2027-registration-ends-today-at-11-50-pm-check-late-fee-deadline-and-application-details-12360969#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/jee-main-2027-session-1-over-15-lakh-applications-received-as-registration-ends-today-12362490#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/recruitment-cheating-racket-busted-in-jammu-and-kashmir-board-tightens-exam-security-12361754#publisher=newsstand
@@ -1512,6 +1564,7 @@ NDTV Profit|https://www.ndtvprofit.com/entertainment/bigg-boss-and-teri-aakhya-k
 NDTV Profit|https://www.ndtvprofit.com/entertainment/blade-runner-2099-ott-release-date-time-plot-episodes-cast-where-to-watch-streaming-online-prime-video-web-series-12371139#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/cinema-bollywood-movie-gunmaaster-g9-advance-bookings-emraan-hashmi-film-packs-pre-release-ticket-sales-12370883#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/cinema-kollywood-movie-scene-box-office-collection-day-16-suriya-tamil-film-third-week-saturday-earnings-12359743#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/entertainment/cinema-tollywood-movie-aakasamlo-oka-tara-aot-box-office-collection-day-6-dulquer-salmaan-satvika-veeravalli-telugu-film-first-week-wednesday-earnings-12376794#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/cinema-tollywood-movie-aakasamlo-oka-tara-box-office-collection-day-4-dulquer-salmaan-telugu-film-first-week-monday-earnings-12367404#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/did-shanaya-kapoor-get-koffee-with-karan-rapid-fire-questions-in-advance-viral-video-raises-questions-12364530#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/drishyam-3-ott-release-date-where-to-watch-plot-cast-and-more-12369521#publisher=newsstand
@@ -1536,12 +1589,14 @@ NDTV Profit|https://www.ndtvprofit.com/entertainment/shark-tank-india-season-6-n
 NDTV Profit|https://www.ndtvprofit.com/entertainment/watch-pakistani-actress-veena-malik-breaks-down-on-tv-over-body-shaming-removes-makeup-on-camera-12361329#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/1-700-year-old-history-unearthed-in-nashik-ancient-shivling-nandi-found-beneath-steps-in-ramkund-12374162#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/bagdogra-airspace-row-india-says-talks-with-nepal-strictly-limited-tp-civilian-connectivity-rejects-military-access-report-12361781#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/india/bengaluru-assam-man-stabs-himself-in-stomach-slits-neck-in-apparent-suicide-attempt-12376850#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/cars-acs-govt-jobs-yet-getting-free-ration-study-finds-13-of-pmgkay-beneficiaries-ineligible-12366177#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/cii-proposes-15-financial-sector-reforms-to-boost-long-term-growth-ambitions-12362018#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/cjps-abhijeet-dipke-backs-goa-villagers-against-mega-township-alleges-attack-on-petitioner-12359848#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/crustos-pizza-british-brewing-co-instamart-outlet-big-names-in-tukaram-mundhes-latest-crackdown-12366831#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/delhi-records-poor-aqi-despite-marginal-dip-check-most-polluted-locations-12361238#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/drink-and-drive-crash-former-gokul-director-and-ranjitsinh-patil-son-runs-over-two-at-midnight-12364896#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/india/drive-by-firing-outside-jewellery-store-in-mumbais-mahim-sparks-panic-what-police-know-so-far-12377109#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/emergency-preparedness-air-raid-mock-drill-planned-in-south-kashmir-tomorrow-check-details-12376132#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/everyone-s-asking-if-ai-will-take-their-job-pm-modi-says-it-comes-down-to-one-thing-12359663#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/ghaziabad-wedding-theft-thief-poses-as-guest-walks-away-with-jewellery-cash-worth-rs-22-5-lakh-12367663#publisher=newsstand
@@ -1555,6 +1610,7 @@ NDTV Profit|https://www.ndtvprofit.com/india/kurla-park-assault-juvenile-board-o
 NDTV Profit|https://www.ndtvprofit.com/india/maharashtra-fda-cancels-inducare-pharmas-licence-again-9-drugs-found-substandard-or-spurious-12371021#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/modi-nepal-pm-to-hold-talks-on-monday-here-s-what-s-on-agenda-12361872#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/new-us-tariffs-coming-india-could-be-hit-harder-than-japan-and-eu-report-12371337#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/india/nhais-new-highway-rules-why-ambulances-and-tow-trucks-must-be-ready-before-opening-12377029#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/only-bs-vi-vehicles-in-delhi-supreme-courts-big-remark-amid-pollution-crisis-12365976#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/pune-ahmednagar-highway-accident-3-young-men-killed-2-injured-as-speeding-car-crashes-12364768#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/pune-fda-crackdown-the-fern-hotel-orchid-in-lonavala-and-burger-barn-cafe-among-17-licences-suspended-12359386#publisher=newsstand
@@ -1566,6 +1622,7 @@ NDTV Profit|https://www.ndtvprofit.com/india/stray-dogs-kill-8-year-old-boy-in-a
 NDTV Profit|https://www.ndtvprofit.com/india/supreme-court-allowed-deepam-at-hilltop-but-vijay-government-chose-traditional-spot-12372132#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/switch-parties-resign-return-as-minister-a-pil-in-supreme-court-wants-this-stopped-12370917#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/this-toyota-can-run-on-85-ethanol-indias-first-flex-fuel-hybrid-priced-at-rs-19-99-lakh-12376060#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/india/viral-video-snake-slithers-into-anant-singhs-daughters-wedding-man-swings-it-out-12376844#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/yuzvendra-chahals-new-innings-cricketer-joins-bjp-gets-obc-morcha-role-12359847#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/5-years-0-returns-bitcoins-time-correction-tests-patience-of-hodl-ers-12373807#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/adani-ports-bags-icici-securities-buy-initiation-sees-up-to-25-percent-upside-check-target-price-12364749#publisher=newsstand
@@ -1585,6 +1642,7 @@ NDTV Profit|https://www.ndtvprofit.com/markets/corporate-actions-this-week-zee-e
 NDTV Profit|https://www.ndtvprofit.com/markets/exclusive-brent-crude-oil-wti-has-fallen-but-why-is-91-still-bad-news-for-india-ubs-gautam-chhaocharia-iran-war-middle-east-supply-disruption-commodit-12350989#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/exclusive-us-yields-near-5-but-are-emerging-markets-becoming-less-vulnerable-to-fpi-outflows-ubs-gautam-chhaocharia-12359376#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/extremely-cheap-yet-too-risky-why-bernstein-is-hesitating-to-buy-the-dip-in-nvidia-stock-12362662#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/markets/from-30-rally-to-rout-in-48-hours-nvidia-amd-micron-sink-up-to-10-as-ai-fears-return-12376649#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/gold-has-lost-a-third-of-its-value-since-january-it-just-broke-below-3-500-12375964#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/gold-is-rs-22-000-cheaper-than-a-month-ago-should-you-buy-amid-the-wedding-season-12370975#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/gold-silver-crash-is-it-over-or-more-correction-is-expected-12375313#publisher=newsstand
@@ -1598,6 +1656,7 @@ NDTV Profit|https://www.ndtvprofit.com/markets/it-stocks-jump-infosys-tcs-tech-m
 NDTV Profit|https://www.ndtvprofit.com/markets/jensen-huangs-return-adds-1-trillion-to-nvidia-stock-still-nearly-30-off-peak-buy-or-trap-12367174#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/lg-electronics-india-block-deal-korean-parent-sets-rs-1-709-floor-for-2-stake-sale-12375977#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/mahindra-last-mile-mobility-eyes-ipo-in-18-months-plans-expansion-into-new-products-chairman-12361346#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/markets/nasdaq-crashes-4-but-wipro-adrs-rise-the-500-million-bp-deal-behind-the-move-12376998#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/nasdaq-jumped-6-5-on-monday-now-futures-are-down-heres-what-indian-investors-should-watch-12371093#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/nifty-500-companies-post-32-profit-growth-in-q2-metals-and-oil-and-gas-lead-the-pack-12369715#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/nvidia-gets-fresh-bernstein-upgrade-after-huangs-return-why-did-the-200-target-stay-put-12367836#publisher=newsstand
@@ -1619,10 +1678,12 @@ NDTV Profit|https://www.ndtvprofit.com/markets/tata-steel-promises-to-cut-apl-ap
 NDTV Profit|https://www.ndtvprofit.com/markets/the-ai-trade-is-done-the-real-opportunity-for-investors-starts-in-2027-unhedged-position-12364532#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/the-white-house-move-that-restored-nvidias-4-trillion-mcap-vance-role-confirmed-in-huangs-nvidia-return-12367479#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/three-reasons-why-us-stock-is-seeing-monster-rally-nasdaq-up-7-5-dow-jumps-1-500-points-12367397#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/markets/three-reasons-why-us-stock-market-is-crashing-nasdaq-nears-bear-territory-dow-down-nearly-700-points-12376884#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/three-reasons-why-us-stock-markets-are-under-pressure-nasdaq-plunges-460-points-s-p-500-in-red-12371927#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/trade-setup-for-nov-25-nifty-finds-support-at-25-230-25-200-levels-as-stock-markets-trade-lower-global-tech-shares-fall-12372333#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/us-blacklists-megaspeed-targeting-a-key-player-in-nvidia-crisis-12368470#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/us-stock-market-posts-best-day-since-april-2025-as-nvidia-surges-31-on-jensen-huangs-return-12368524#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/markets/us-stock-market-today-nasdaq-plunges-4-dow-down-850-points-as-ai-led-selloff-worsens-12376622#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/us-stock-market-today-nasdaq-spikes-7-dow-skyrockets-1-250-points-as-wall-street-cheers-huangs-nvidia-return-12367083#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/markets/us-tech-rout-deepens-ahead-of-open-nvidia-micron-amd-lead-losses-with-up-to-7-decline-12375867#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/personal-finance/8th-pay-commission-insurance-cover-from-rs-30-000-to-rs-15-lakh-defence-staff-unions-big-demand-12367849#publisher=newsstand
@@ -1659,12 +1720,14 @@ NDTV Profit|https://www.ndtvprofit.com/sports/india-a-vs-pakistan-a-live-streami
 NDTV Profit|https://www.ndtvprofit.com/sports/india-vs-new-zealand-hockey-live-streaming-when-and-where-to-watch-ind-vs-nz-3rd-match-12360298#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/inter-miami-vs-columbus-crew-live-streaming-when-and-where-to-watch-messis-mls-playoff-match-in-india-12351812#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/ipl-2027-punjab-kings-to-appoint-paras-mhambrey-as-bowling-coach-rajiv-kumar-as-fielding-coach-12369529#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/sports/ipl-2027-rohit-sharma-back-as-mumbai-indians-captain-cryptic-post-sparks-joyous-speculation-among-fans-12376981#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/liverpool-vs-manchester-united-live-streaming-when-and-where-to-watch-premier-league-match-12360604#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/manchester-city-vs-napoli-live-streaming-likely-lineups-how-to-watch-champions-league-match-on-tv-online-12371411#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/missed-aneurin-donalds-explosive-18-ball-fifty-watch-the-six-hitting-carnage-that-helped-england-beat-australia-12375852#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/no-stopping-boy-wonder-vaibhav-sooryavanshi-hammers-fastest-ton-and-double-ton-in-list-a-cricket-history-12370772#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/olympic-gold-medallist-neeraj-chopra-very-honoured-after-being-named-for-major-dhyan-chand-khel-ratna-award-12376077#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/priyansh-arya-smashes-181-breaks-kl-rahuls-record-for-highest-t20-score-by-an-indian-12369706#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/sports/psg-vs-roma-live-streaming-likely-lineups-how-to-watch-champions-league-match-on-tv-online-12374542#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/pt-usha-to-skip-ioa-presidential-race-gagan-narang-rajeev-mehta-file-nominations-12370686#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/real-madrid-vs-celta-vigo-live-streaming-likely-lineups-how-to-watch-la-liga-match-on-tv-online-in-india-12358313#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/sports/real-madrid-vs-psv-live-streaming-likely-lineups-how-to-watch-champions-league-match-on-tv-online-12371354#publisher=newsstand
@@ -1684,6 +1747,7 @@ NDTV Profit|https://www.ndtvprofit.com/technology/elon-musk-warns-of-nuts-ai-cas
 NDTV Profit|https://www.ndtvprofit.com/technology/honor-700-series-launch-expected-price-battery-camera-features-and-more-12364587#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/technology/is-a-fresh-wave-of-tech-layoffs-coming-to-india-viral-posts-point-to-google-microsoft-12372356#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/technology/meta-launches-muse-in-uk-heres-what-the-ai-agent-can-do-12369622#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/technology/whatsapp-introduces-scheduled-messages-how-to-send-texts-up-to-14-days-later-12377104#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/technology/whatsapp-web-could-put-your-messages-at-risk-home-ministry-issues-important-warning-12366241#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/trending/bgmi-air-open-beta-available-now-how-to-install-1gb-game-and-steps-to-download-12373942#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/trending/buying-a-bmw-on-credit-cards-reddit-user-shares-his-rs-85-lakh-payment-split-12369211#publisher=newsstand
@@ -1710,6 +1774,7 @@ NDTV Profit|https://www.ndtvprofit.com/world/iranian-singer-parastoo-ahmadi-and-
 NDTV Profit|https://www.ndtvprofit.com/world/is-nvidia-rtx-5090-scalping-bubble-bursting-a-140-000-gpu-stash-tests-the-market-12371959#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/jeff-bezos-ex-wife-mackenzie-scott-donates-12-5-million-to-two-us-nonprofits-who-gets-the-money-12374200#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/lahore-is-worlds-most-polluted-city-as-aqi-crosses-500-three-indian-cities-rank-in-top-10-12362034#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/world/meghan-markles-father-thomas-charged-in-us-for-possessing-child-sex-abuse-images-12376687#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/toxic-wasteland-gazas-air-water-and-soil-contaminated-due-to-israeli-bombardment-says-oxfam-report-12367546#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/un-climate-talks-collapse-in-acrimony-as-nations-reject-deal-12362459#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/who-was-paolo-bulgari-bvlgari-chairman-whose-jewellery-adorned-hollywood-stars-royalty-dies-at-89-12366261#publisher=newsstand
@@ -1742,6 +1807,10 @@ NSE circulars|https://nsearchives.nseindia.com/content/circulars/CML77606.pdf
 NSE circulars|https://nsearchives.nseindia.com/content/circulars/CML77607.pdf
 NSE circulars|https://nsearchives.nseindia.com/content/circulars/CML77608.pdf
 NSE circulars|https://nsearchives.nseindia.com/content/circulars/CML77609.pdf
+NSE circulars|https://nsearchives.nseindia.com/content/circulars/CML77611.pdf
+NSE circulars|https://nsearchives.nseindia.com/content/circulars/CML77612.zip
+NSE circulars|https://nsearchives.nseindia.com/content/circulars/CML77613.zip
+NSE circulars|https://nsearchives.nseindia.com/content/circulars/CML77614.pdf
 NSE circulars|https://nsearchives.nseindia.com/content/circulars/CMPL77605.zip
 NSE circulars|https://nsearchives.nseindia.com/content/circulars/CMPT77525.pdf
 NSE circulars|https://nsearchives.nseindia.com/content/circulars/CMPT77528.pdf
@@ -1957,6 +2026,25 @@ PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341482
 PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341484
 PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341488
 PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341494
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341539
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341544
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341551
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341557
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341568
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341572
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341578
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341591
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341603
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341616
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341628
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341629
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341633
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341648
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341668
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341674
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341687
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341692
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341695
 PR Sundar|-9bVWf986mI
 PR Sundar|2RYso8RJ3wQ
 PR Sundar|4uWtxPq8mOg
@@ -1994,6 +2082,7 @@ Pranjal Kamra|aN74FhtCcn0
 Pranjal Kamra|c7Pf7TbcvB4
 Pranjal Kamra|gWUBe4zFTik
 Pranjal Kamra|kv0HlffRaqY
+Pranjal Kamra|n7kQK787pxg
 Quantpedia|https://quantpedia.com/?p=46244
 Quantpedia|https://quantpedia.com/?p=46520
 Quantpedia|https://quantpedia.com/?p=46715
@@ -2049,6 +2138,7 @@ Real Vision|H7aJIEohvrE
 Real Vision|JZbuLchDbbw
 Real Vision|L4sywE_hTUs
 Real Vision|OLb3sYreMxU
+Real Vision|TOYlOgQBKfM
 Real Vision|avXzdXkDGow
 Real Vision|by_7k0EZpdE
 Real Vision|ctyvkyTw1Z4
@@ -2120,6 +2210,7 @@ SCMP business|https://www.scmp.com/business/companies/article/3375079/hong-kongs
 SCMP business|https://www.scmp.com/business/companies/article/3375512/can-hong-kong-turn-university-research-unicorns-through-venture-capital-funds
 SCMP business|https://www.scmp.com/business/companies/article/3375689/after-beijing-crackdown-tiger-brokers-holding-firm-logs-record-us1b-inflow-hong-kong
 SCMP business|https://www.scmp.com/business/companies/article/3375725/astrazenecas-china-strategy-fewer-sales-staff-more-investment
+SCMP business|https://www.scmp.com/business/companies/article/3375804/shein-revenue-falls-6-third-quarter-eu-trade-curbs-hit-sales-hard
 SCMP business|https://www.scmp.com/business/markets/article/3374744/hong-kong-begins-shift-towards-fully-digitalised-share-market-5-year-transition-plan
 SCMP business|https://www.scmp.com/business/markets/article/3375379/trade-connections-raise-appetite-dim-sum-bonds-central-asia-middle-east-citigroup
 SCMP business|https://www.scmp.com/business/markets/article/3375388/mainland-china-stock-exchanges-make-moves-raise-liquidity-and-activity-stem-decline
