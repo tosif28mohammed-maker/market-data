@@ -1,0 +1,87 @@
+Linear Regression Indicators Explained | LSMA, Slope & LinReg Candles
+
+What is a Linear Regression Indicator and how does it work in trading? Linear Regression is a statistical method that fits a line to historical price data using the least squares method. In technical analysis, regression-based indicators help traders study trend direction, price movement and changes in momentum.
+
+In this video, we explain four statistical indicators available on Dhan Charts: Linear Regression Curve, Linear Regression Slope, Least Squares Moving Average (LSMA) and Humble LinReg Candles.
+
+Learn how these indicators work, how they differ from traditional moving averages and how regression-based candles can provide a smoother view of price movements on intraday and positional charts.
+
+Topics Covered:
+
+What is Linear Regression?
+Linear Regression Indicator explained
+How Linear Regression works in trading
+What is Linear Regression Slope?
+Positive vs Negative Regression Slope
+How to interpret changes in slope
+What is Least Squares Moving Average?
+LSMA Indicator explained
+Linear Regression vs SMA and EMA
+How LSMA follows price trends
+What are Humble LinReg Candles?
+Linear Regression Candles explained
+How regression candles smooth price movement
+Linear Regression Candles on 5-minute charts
+Linear Regression Candles on 1-minute charts
+Trend analysis using statistical indicators
+Linear Regression Indicators on Dhan Charts
+
+Chapters:
+
+00:00 Introduction
+00:03 Statistics and Quantitative Trading
+00:20 Using Numbers for Market Analysis
+00:34 Statistical Indicators on Dhan Charts
+01:13 Four Linear Regression Indicators
+01:29 Linear Regression Curve & Slope
+01:36 Understanding Linear Regression Curve
+01:50 Linear Regression vs Moving Average
+02:10 Linear Regression Slope Explained
+02:18 Reading Changes in Regression Slope
+02:32 Least Squares Moving Average (LSMA)
+02:40 Understanding LSMA
+02:57 How LSMA Differs from Traditional Averages
+03:05 Humble Linear Regression Candles
+03:14 Reading Regression Candles
+03:23 Viewing Regression Candles Separately
+03:30 Linear Regression Candles for Trend Analysis
+03:43 How Regression Candles Work
+03:59 Using LinReg Candles on Dhan Charts
+04:08 Linear Regression Candles on 5-Minute Charts
+04:16 Linear Regression Candles on 1-Minute Charts
+04:31 Statistical Indicators for Different Trading Styles
+04:52 Exploring Advanced Indicators
+05:00 Conclusion
+
+FAQs:
+
+What is a Linear Regression Indicator?
+A Linear Regression Indicator uses historical price data and a least squares calculation to estimate a fitted trend line over a selected period.
+
+What is the Least Squares Method?
+The Least Squares Method finds a line that minimises the sum of squared differences between observed prices and the values estimated by that line.
+
+What is Linear Regression Curve?
+Linear Regression Curve plots regression-based values across successive periods to help traders observe the underlying price trend.
+
+What is Linear Regression Slope?
+Linear Regression Slope measures the direction and steepness of a fitted regression line. Positive readings indicate an upward slope, while negative readings indicate a downward slope.
+
+What is Least Squares Moving Average?
+LSMA is a regression-based moving average that typically plots the endpoint of a least squares regression line calculated over a rolling price window.
+
+What is the difference between LSMA and SMA?
+SMA calculates the arithmetic average of prices over a period, while LSMA uses a fitted regression line to estimate its latest value.
+
+What are Humble LinReg Candles?
+Humble LinReg Candles is a chart indicator that applies linear regression calculations to candlestick price data to create a smoothed representation of price behaviour.
+
+Can Linear Regression Candles be used for intraday trading?
+Yes. They can be applied to intraday charts, including 1-minute and 5-minute timeframes, but smoothing does not eliminate false signals or trading risk.
+
+Which is better: Linear Regression or Moving Average?
+Neither is universally better. Regression-based indicators and traditional moving averages use different calculations and may respond differently to changing price conditions.
+
+#LinearRegression #LinearRegressionIndicator #LSMA #LinRegCandles #LeastSquaresMovingAverage #TechnicalIndicators #QuantTrading #DhanCharts
+
+📱 
