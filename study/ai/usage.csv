@@ -602,3 +602,10 @@ utc,provider,model,ok,note
 2026-11-25 15:04,groq,openai/gpt-oss-20b,0,HTTP 400
 2026-11-25 15:04,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-25 15:04,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-25 19:25,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-25 19:26,gemini,gemini-3.8-flash,1,66s
+2026-11-25 19:26,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-25 19:27,gemini,gemini-3.8-flash,0,HTTP 429
+2026-11-25 19:27,gemini,gemini-3.7-flash,0,quota 429 x4 -> stop
+2026-11-25 19:27,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-25 19:27,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop

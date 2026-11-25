@@ -1,16 +1,14 @@
 {
- "run_utc": "2026-11-25 14:42",
- "videos_ok": 0,
+ "run_utc": "2026-11-25 19:25",
+ "videos_ok": 1,
  "videos_fail": [
-  "TV-ZFZRKR-g: HTTP 404",
-  "PqRtXHvR-e8: HTTP 404",
-  "EIi151qkNv4: HTTP 429",
-  "OXHlHZEOBJ0: quota used up this run"
+  "TV-ZFZRKR-g: HTTP 429",
+  "PqRtXHvR-e8: quota used up this run"
  ],
  "rules_added": 0,
  "book_chunks": 0,
  "stopped": "Gemini free quota khatam - agle run me",
  "books_left": 0,
  "book_chars_left": 0,
- "videos_left": 190
+ "videos_left": 198
 }
