@@ -609,3 +609,10 @@ utc,provider,model,ok,note
 2026-11-25 19:27,gemini,gemini-3.7-flash,0,quota 429 x4 -> stop
 2026-11-25 19:27,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-25 19:27,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-25 23:46,gemini,gemini-3.6-flash,0,The read operation timed out
+2026-11-25 23:47,gemini,gemini-3.8-flash,0,HTTP 429
+2026-11-25 23:47,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-25 23:49,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-25 23:49,gemini,gemini-flash-latest,0,quota 429 x4 -> stop
+2026-11-25 23:49,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-25 23:49,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
