@@ -1,58 +1,58 @@
-# Aaj ke sabse bade chadhe / gire shares — 2026-11-23 (Nifty -1.75%)
+# Aaj ke sabse bade chadhe / gire shares — 2026-11-25 (Nifty +1.85%)
 
 Sawaal: kya hum pehle jaan sakte the? kahan galti hui? kaun si khabar/source hamare paas nahi tha?
 
 ## Top 20 chadhe
-- **HMAAGRO** +18.1% (Packaged Foods, sector -1.4%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 20-din high ke paas tha (breakout). 
-- **HITECH** +13.5% (Steel, sector -1.3%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 200 DMA ke neeche tha. 
-- **THOMASCOOK** +12.8% (Travel Services, sector -1.0%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 20-din high ke paas tha (breakout). 
-- **ITI** +12.4% (Communication Equipment, sector -1.1%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — RSI2 bahut neeche tha (bounce). 
-- **SAMBHV** +11.9% (Steel, sector -1.3%) — wajah: pata nahi (khabar nahi mili). NAHI — koi signal/khabar nahi thi. 
-- **INDIAGLYCO** +11.5% (Chemicals, sector -1.3%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — RSI2 bahut neeche tha (bounce). 
-- **WINDMACHIN** +10.4% (Specialty Industrial Machinery, sector -1.3%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 20-din high ke paas tha (breakout). 
-- **COMSYN** +9.7% (Packaging & Containers, sector -1.7%) — wajah: pata nahi (khabar nahi mili). NAHI — koi signal/khabar nahi thi. 
-- **AJMERA** +8.9% (Real Estate - Development, sector -0.8%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 20-din high ke paas tha (breakout). 
-- **RATNAVEER** +8.9% (Steel, sector -1.3%) — wajah: pata nahi (khabar nahi mili). NAHI — koi signal/khabar nahi thi. 
-- **SPORTKING** +8.1% (Textile Manufacturing, sector -0.9%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 20-din high ke paas tha (breakout). 
-- **SUBEXLTD** +7.5% (Software - Application, sector -0.7%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 20-din high ke paas tha (breakout). 
-- **JSLL** +7.3% (Medical Care Facilities, sector +0.3%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 5 din se volume 2.44x (koi jaanta tha?). 
-- **SOLARWORLD** +7.2% (Solar, sector -0.6%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — RSI2 bahut neeche tha (bounce). 
-- **POLICYBZR** +6.5% (Insurance Brokers, sector +2.9%) — wajah: poora sector. HALKA ISHAARA — 200 DMA ke neeche tha. 
-- **PREMEXPLN** +6.2% (Specialty Chemicals, sector -1.3%) — wajah: order / contract. KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. 
-- **INSECTICID** +6.1% (Agricultural Inputs, sector -1.3%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 5 din se volume 3.64x (koi jaanta tha?). 
-- **LINDEINDIA** +5.9% (Specialty Chemicals, sector -1.3%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — RSI2 bahut neeche tha (bounce). 
-- **CHALET** +5.5% (Lodging, sector +0.0%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 20-din high ke paas tha (breakout). 
-- **INTELLECT** +5.4% (Software - Application, sector -0.7%) — wajah: pata nahi (khabar nahi mili). KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. 
+- **JWL** +20.0% (Railroads, sector +0.3%) — wajah: poora bazaar. HALKA ISHAARA — RSI2 bahut neeche tha (bounce). Khabar: Jupiter Wagons Shares Surge 15% to ₹222.46 After Signing 80:20 Joint Venture With South Korea's Woojin - Kotak Neo [Kotak Neo]
+- **THOMASCOOK** +15.6% (Travel Services, sector +2.9%) — wajah: poora sector. HALKA ISHAARA — 20-din high ke paas tha (breakout). Khabar: Thomas Cook India opens its new outlet in Kolkata - Travel Trends Today [Travel Trends Today]
+- **GREAVESCOT** +15.0% (Specialty Industrial Machinery, sector -1.1%) — wajah: nateeje (results). HALKA ISHAARA — 20-din high ke paas tha (breakout). Khabar: Bajaj General Insurance Partners With Lawyered To Offer 24x7 Legal Assistance To Motor Policyholders - BW Auto World [BW Auto World]
+- **ARIS** +14.1% (Engineering & Construction, sector -0.8%) — wajah: sector / policy. KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. Khabar: ARISINFRA SOLUTIONS LTD 52 Week High Streak and Valuation - Univest [Univest]
+- **FISCHER** +12.1% (Medical Devices, sector +12.1%) — wajah: poora sector. HALKA ISHAARA — RSI2 bahut neeche tha (bounce). Khabar: Fischer Medical Ventures Ltd Opens 6.86% Higher Amid Mixed Technical Signals - MarketsMojo [MarketsMojo]
+- **HUBTOWN** +11.4% (Real Estate - Development, sector -0.8%) — wajah: poora bazaar. HALKA ISHAARA — 200 DMA ke neeche tha. Khabar: Hubtown Ltd Surges 9.97% to Day's High of Rs 185.7 — Outperforms Realty Sector by 6.19 Percentage Points - MarketsMojo [MarketsMojo]
+- **KALAMANDIR** +10.4% (Apparel Retail, sector +1.4%) — wajah: poora bazaar. HALKA ISHAARA — 200 DMA ke neeche tha. Khabar: Sai Silks (Kalamandir) Share Price Today After 9.97% Gain - Univest [Univest]
+- **INOXGREEN** +9.5% (Utilities - Renewable, sector +0.1%) — wajah: poora bazaar. HALKA ISHAARA — RSI2 bahut neeche tha (bounce). Khabar: Veefin Solutions Ltd Share Price, Stock Price - NSE/BSE Live - NDTV Profit [NDTV Profit]
+- **KOPRAN** +9.1% (Drug Manufacturers - General, sector +1.2%) — wajah: poora bazaar. NAHI — koi signal/khabar nahi thi (khabar source: HDFC Sky). Khabar: Volume Gainers Today, November 25, 2026 at 3:30 PM IST - HDFC Sky [HDFC Sky]
+- **HMAAGRO** +8.3% (Packaged Foods, sector -0.0%) — wajah: poora bazaar. KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. Khabar: Upper & Lower Circuit Stocks Today, November 25, 2026 at 3:30 PM - HDFC Sky [HDFC Sky]
+- **MCLOUD** +8.0% (Information Technology Services, sector -0.6%) — wajah: deal / M&A / stake. HALKA ISHAARA — RSI2 bahut neeche tha (bounce). Khabar: Magellanic Cloud promoter pledges 20 lakh shares for loan collateral - scanx.trade [scanx.trade]
+- **BAJAJHCARE** +7.8% (Drug Manufacturers - Specialty & Generic, sector +0.9%) — wajah: poora bazaar. HALKA ISHAARA — 20-din high ke paas tha (breakout). Khabar: Momentum Stocks: Greenchef Appliances, Balkrishna Paper, Bajaj Healthcare gain up to 7% on sheer momentum - Moneycontrol.com [Moneycontrol.com]
+- **DABUR** +7.8% (Household & Personal Products, sector +1.7%) — wajah: poora bazaar. HALKA ISHAARA — 20-din high ke paas tha (breakout). Khabar: Nifty FMCG index soars 3%; Dabur, Godrej Consumer, HUL rally up to 8% - Business Standard [Business Standard]
+- **UNICHEMLAB** +7.6% (Drug Manufacturers - Specialty & Generic, sector +0.9%) — wajah: poora bazaar. HALKA ISHAARA — RSI2 bahut neeche tha (bounce). 
+- **THOMASCOTT** +7.5% (Textile Manufacturing, sector -0.7%) — wajah: poora bazaar. HALKA ISHAARA — 200 DMA ke neeche tha. Khabar: Speed Complaints Raised In Jenkintown - Patch [Patch]
+- **JISLJALEQS** +7.0% (Conglomerates, sector -0.3%) — wajah: brokerage call / target. HALKA ISHAARA — RSI2 bahut neeche tha (bounce). Khabar: Jain Irrigation Systems Ltd Downgraded to Strong Sell Amid Weak Fundamentals and Bearish Technicals - MarketsMojo [MarketsMojo]
+- **CANHLIFE** +6.8% (Insurance - Life, sector +0.8%) — wajah: poora bazaar. HALKA ISHAARA — RSI2 bahut neeche tha (bounce). Khabar: Canara HSBC Life Insurance CFO Tarun Rustagi resigns - TradingView [TradingView]
+- **BETA** +6.5% (Drug Manufacturers - Specialty & Generic, sector +0.9%) — wajah: nateeje (results). KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. Khabar: Beta Drugs COFEPRIS Certification: Mexico Oncology Market Access - Kalkine India [Kalkine India]
+- **HINDUNILVR** +6.1% (Household & Personal Products, sector +1.7%) — wajah: poora bazaar. KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. Khabar: FMCG Stocks Hit Three-Month High as HUL, Tata Consumer Products and ITC Lead Rally Amid Foreign Buying - Kotak Neo [Kotak Neo]
+- **J&KBANK** +5.8% (Banks - Regional, sector -0.2%) — wajah: poora bazaar. HALKA ISHAARA — 20-din high ke paas tha (breakout). Khabar: THE JAMMU & KASHMIR BANK LIMITE (J&KBANK-EQ.NS) Seasonal Returns Chart - Yahoo Finance - Yahoo! Finance Canada [Yahoo! Finance Canada]
 
 ## Top 20 gire
-- **APLAPOLLO** -21.3% (Steel, sector -1.3%) — wajah: nateeje (results). KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. 
-- **APOLLOPIPE** -8.5% (Building Products & Equipment, sector -1.1%) — wajah: poora bazaar. HAAN — robot ki list mein tha (ULTA gaya — galti). 
-- **TATASTEEL** -8.4% (Steel, sector -1.3%) — wajah: nateeje (results). KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. 
-- **FISCHER** -6.9% (Medical Devices, sector -6.9%) — wajah: poora sector. NAHI — koi signal/khabar nahi thi. 
-- **POKARNA** -6.9% (Building Products & Equipment, sector -1.1%) — wajah: poora bazaar. NAHI — koi signal/khabar nahi thi. 
-- **EPACK** -6.7% (Furnishings, Fixtures & Appliances, sector -1.1%) — wajah: poora bazaar. HALKA ISHAARA — 5 din se volume 3.96x (koi jaanta tha?). 
-- **SSWL** -6.5% (Auto Parts, sector -1.1%) — wajah: poora bazaar. HAAN — robot ki list mein tha (ULTA gaya — galti). 
-- **V2RETAIL** -6.5% (Apparel Retail, sector -1.6%) — wajah: poora bazaar. HALKA ISHAARA — 5 din se volume 11.48x (koi jaanta tha?). 
-- **SHANTIGOLD** -6.4% (Luxury Goods, sector -1.7%) — wajah: poora bazaar. NAHI — koi signal/khabar nahi thi. 
-- **PFOCUS** -6.3% (Entertainment, sector -1.1%) — wajah: poora bazaar. NAHI — koi signal/khabar nahi thi. 
-- **SKYGOLD** -6.3% (Luxury Goods, sector -1.7%) — wajah: poora bazaar. HAAN — robot ki list mein tha (ULTA gaya — galti). 
-- **JLHL** -6.3% (Medical Care Facilities, sector +0.3%) — wajah: poora bazaar. HALKA ISHAARA — 5 din se volume 24.03x (koi jaanta tha?). 
-- **JGCHEM** -6.0% (Other Industrial Metals & Mining, sector -0.8%) — wajah: poora bazaar. HAAN — robot ki list mein tha (ULTA gaya — galti). 
-- **ANUP** -5.9% (Specialty Industrial Machinery, sector -1.3%) — wajah: order / contract. KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. 
-- **IITL** -5.9% (Credit Services, sector -1.1%) — wajah: poora bazaar. NAHI — koi signal/khabar nahi thi. 
-- **SMCGLOBAL** -5.6% (Capital Markets, sector -1.3%) — wajah: poora bazaar. HAAN — robot ki list mein tha (ULTA gaya — galti). 
-- **SGMART** -5.5% (Industrial Distribution, sector -5.5%) — wajah: poora sector. HALKA ISHAARA — 5 din se volume 1.85x (koi jaanta tha?). 
-- **BFINVEST** -5.4% (Asset Management, sector -0.9%) — wajah: poora bazaar. HALKA ISHAARA — 5 din se volume 8.49x (koi jaanta tha?). 
-- **HESTERBIO** -5.3% (Drug Manufacturers - Specialty & Generic, sector -1.0%) — wajah: poora bazaar. HAAN — robot ki list mein tha (ULTA gaya — galti). 
-- **RIR** -5.2% (Semiconductors, sector -5.2%) — wajah: poora sector. NAHI — koi signal/khabar nahi thi. 
+- **SGMART** -20.0% (Industrial Distribution, sector -20.0%) — wajah: poora sector. KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. Khabar: SG Mart Shares Hit 20% Lower Circuit in Wednesday’s Session Ahead of Fundraise Meet; Stock Up 117% in 2026 - Kotak Neo [Kotak Neo]
+- **SGFIN** -20.0% (Capital Markets, sector -0.2%) — wajah: sector / policy. HALKA ISHAARA — 4H/1H zone mein tha. Khabar: APL Apollo crashes 29% since Tata Steel deal; SG Mart, SG Finserve hit lows - Business Standard [Business Standard]
+- **WINDMACHIN** -14.7% (Specialty Industrial Machinery, sector -1.1%) — wajah: deal / M&A / stake. HALKA ISHAARA — 4H/1H zone mein tha. Khabar: Windsor Machines Share Price Today: 9.23% Drop Explained - Univest [Univest]
+- **TCIEXP** -12.1% (Integrated Freight & Logistics, sector -0.1%) — wajah: pata nahi (khabar nahi mili). NAHI — koi signal/khabar nahi thi (khabar source: Univest). Khabar: TCI Express Share Price today: fall, ratios and sector view - Univest [Univest]
+- **APLAPOLLO** -11.6% (Steel, sector -1.3%) — wajah: nateeje (results). KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. Khabar: The Tata Steel-APL Apollo deal could be ammo for Noel in his fight against Chandra - The Ken [The Ken]
+- **DEEDEV** -9.7% (Metal Fabrication, sector -0.5%) — wajah: pata nahi (khabar nahi mili). NAHI — koi signal/khabar nahi thi (khabar source: Dailyhunt). Khabar: SG Finserve Ltd leads losers in 'B' group - Dailyhunt [Dailyhunt]
+- **SUNTV** -9.2% (Broadcasting, sector -7.7%) — wajah: poora sector. HALKA ISHAARA — 4H/1H zone mein tha. Khabar: Sun TV, Nazara Tech and Zee shares fall up to 8% as Nifty Media plunges over 4% - here's what driving... - Moneycontrol.com [Moneycontrol.com]
+- **BUILDPRO** -8.8% (Home Improvement Retail, sector -8.8%) — wajah: poora sector. NAHI — koi signal/khabar nahi thi. 
+- **SANDHAR** -8.1% (Auto Parts, sector -0.4%) — wajah: pata nahi (khabar nahi mili). NAHI — koi signal/khabar nahi thi (khabar source: MarketsMojo). Khabar: Sandhar Technologies Limited Hits Intraday Low Amid Price Pressure - MarketsMojo [MarketsMojo]
+- **NAZARA** -7.9% (Electronic Gaming & Multimedia, sector -7.9%) — wajah: poora sector. HALKA ISHAARA — 4H/1H zone mein tha. Khabar: Sun TV, Nazara Tech and Zee shares fall up to 8% as Nifty Media plunges over 4% - here's what driving... - Moneycontrol.com [Moneycontrol.com]
+- **ROSSTECH** -7.9% (Aerospace & Defense, sector -1.1%) — wajah: order / contract. KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. Khabar: Rossell Techsys secures repeat space sector order worth over Rs 50 crore - Manufacturing Today India [Manufacturing Today India]
+- **INDIAGLYCO** -7.7% (Chemicals, sector -0.9%) — wajah: nateeje (results). KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. Khabar: India Glycols reports Rs 358.18 crore revenue & Rs 39.34 crore EBITDA in first post-demerger Q2 results - Indian Chemical News [Indian Chemical News]
+- **BLUSPRING** -6.9% (Specialty Business Services, sector -1.1%) — wajah: deal / M&A / stake. HALKA ISHAARA — 4H/1H zone mein tha. Khabar: Bluspring subsidiary secures ₹125 Cr term loan for LSG acquisition - scanx.trade [scanx.trade]
+- **ITI** -6.7% (Communication Equipment, sector -1.4%) — wajah: order / contract. HALKA ISHAARA — 5 din se volume 6.42x (koi jaanta tha?). Khabar: Contract awarded to ITI Ltd. for printing licences, RCs followed due tender procedures, Kerala High Court told - The Hindu [The Hindu]
+- **CENTUM** -6.5% (Electronic Components, sector -3.0%) — wajah: poora sector. HAAN — robot ki list mein tha (ULTA gaya — galti). Khabar: Centum Electronics Enters Into MoU With SpacePixxel Technologies - TradingView [TradingView]
+- **UTLSOLAR** -6.4% (Solar, sector -0.7%) — wajah: deal / M&A / stake. NAHI — koi signal/khabar nahi thi (khabar source: TradingView). Khabar: Technical Analysis of Fujiyama Power Systems Limited (BSE:UTLSOLAR) - TradingView [TradingView]
+- **MANALIPETC** -6.4% (Specialty Chemicals, sector -0.6%) — wajah: pata nahi (khabar nahi mili). HALKA ISHAARA — 4H/1H zone mein tha. Khabar: Manali Petrochemicals Limited (MANALIPETC.BO) Seasonal Returns Chart - Yahoo! Finance Canada [Yahoo! Finance Canada]
+- **ANTELOPUS** -6.3% (Oil & Gas E&P, sector -2.7%) — wajah: poora sector. NAHI — koi signal/khabar nahi thi. 
+- **GALAXYSURF** -6.2% (Specialty Chemicals, sector -0.6%) — wajah: pata nahi (khabar nahi mili). NAHI — koi signal/khabar nahi thi (khabar source: Univest). Khabar: Galaxy Surfactants Share Price Target 2027: 4.3% Upside and Risks - Univest [Univest]
+- **ZEEL** -6.2% (Broadcasting, sector -7.7%) — wajah: order / contract. KHABAR THI — hamari news files mein 9:15 se pehle thi, par score mein nahi judi. Khabar: Zee Entertainment Enterprises Share Price - Live NSE: ZEEL Stock Price & Chart - Upstox [Upstox]
 
 ## Aaj ka sabak
-- Top 20 chadhe mein se robot ki list mein: 0; khabar pehle se files mein: 2; tareekh pata thi (results/ex-date): 0; bilkul andhera: 3
-- Wajah ginti (40 shares): pata nahi (khabar nahi mili) 18, poora bazaar 14, poora sector 4, order / contract 2, nateeje (results) 2
-- Gire shares jo robot ki list mein the (galti): APOLLOPIPE, SSWL, SKYGOLD, JGCHEM, SMCGLOBAL, HESTERBIO
+- Top 20 chadhe mein se robot ki list mein: 0; khabar pehle se files mein: 4; tareekh pata thi (results/ex-date): 0; bilkul andhera: 1
+- Wajah ginti (40 shares): poora bazaar 13, poora sector 8, pata nahi (khabar nahi mili) 5, nateeje (results) 4, deal / M&A / stake 4, order / contract 3, sector / policy 2, brokerage call / target 1
+- Gire shares jo robot ki list mein the (galti): CENTUM
 
 ## Hafte ke (5 din) top 15 chadhe / gire — 5 din pehle kaise dikhte the
-- **chadhe**: HMAAGRO +53% (RS 91, 200DMA upar, vol 0.4x); AJMERA +23% (RS 86, 200DMA upar, vol 0.6x); WINDMACHIN +20% (RS 64, 200DMA upar, vol 0.6x); GREAVESCOT +18% (RS 87, 200DMA upar, vol 1.0x); SUBEXLTD +18% (RS 89, 200DMA upar, vol 0.2x); KDDL +18% (RS 65, 200DMA upar, vol 1.5x); THOMASCOOK +17% (RS 72, 200DMA upar, vol 1.7x); UGROCAP +17% (RS 8, 200DMA neeche, vol 8.0x); WEL +16% (RS 0, 200DMA neeche, vol 0.1x); TTKHLTCARE +15% (RS 17, 200DMA neeche, vol 0.2x); IREDA +14% (RS 64, 200DMA neeche, vol 3.4x); HITECH +14% (RS 53, 200DMA neeche, vol 0.5x); ARIS +13% (RS 80, 200DMA upar, vol 0.9x); SPORTKING +13% (RS 78, 200DMA upar, vol 0.5x); PGIL +13% (RS 79, 200DMA upar, vol 0.9x)
-- **gire**: APLAPOLLO -26% (RS 82, 200DMA upar, vol 1.4x); SHRINGARMS -22% (RS 96, 200DMA upar, vol 0.2x); VERANDA -19% (RS 0, 200DMA neeche, vol 0.3x); DCAL -18% (RS 4, 200DMA neeche, vol 4.1x); MENONBE -17% (RS 99, 200DMA upar, vol 1.1x); SHANTIGOLD -17% (RS 83, 200DMA upar, vol 0.2x); SKYGOLD -15% (RS 93, 200DMA upar, vol 0.8x); PARACABLES -14% (RS 60, 200DMA upar, vol 0.8x); UTLSOLAR -14% (RS 22, 200DMA upar, vol 1.3x); SSWL -14% (RS 100, 200DMA upar, vol 0.2x); FCL -14% (RS 90, 200DMA upar, vol 0.6x); RBZJEWEL -14% (RS 94, 200DMA upar, vol 0.1x); SMCGLOBAL -13% (RS 90, 200DMA upar, vol 0.2x); STYL -13% (RS 9, 200DMA upar, vol 0.3x); MSTCLTD -13% (RS 95, 200DMA upar, vol 6.6x)
+- **chadhe**: HMAAGRO +61% (RS 83, 200DMA upar, vol 0.4x); THOMASCOOK +30% (RS 81, 200DMA upar, vol 2.3x); GREAVESCOT +27% (RS 93, 200DMA upar, vol 2.1x); ARIS +26% (RS 85, 200DMA upar, vol 1.5x); AJMERA +19% (RS 87, 200DMA upar, vol 1.1x); SUBEXLTD +18% (RS 87, 200DMA upar, vol 0.2x); WEL +16% (RS 0, 200DMA neeche, vol 0.1x); HUBTOWN +15% (RS 39, 200DMA neeche, vol 0.4x); BLUESTARCO +13% (RS 78, 200DMA neeche, vol 0.8x); SYNCOMF +13% (RS 98, 200DMA upar, vol 0.6x); RATNAVEER +13% (RS 99, 200DMA upar, vol 0.3x); MARUTI +12% (RS 42, 200DMA neeche, vol 1.4x); DABUR +12% (RS 51, 200DMA neeche, vol 0.6x); AMBER +11% (RS 28, 200DMA neeche, vol 6.0x); J&KBANK +11% (RS 37, 200DMA upar, vol 1.0x)
+- **gire**: APLAPOLLO -33% (RS 76, 200DMA upar, vol 1.5x); VERANDA -23% (RS 0, 200DMA neeche, vol 0.3x); SGFIN -21% (RS 90, 200DMA upar, vol 1.9x); SHANTIGOLD -20% (RS 76, 200DMA upar, vol 0.2x); DEEDEV -19% (RS 40, 200DMA upar, vol 1.1x); SGMART -18% (RS 97, 200DMA upar, vol 1.3x); SKYGOLD -17% (RS 93, 200DMA upar, vol 0.8x); SHRINGARMS -17% (RS 94, 200DMA upar, vol 0.3x); BFINVEST -16% (RS 76, 200DMA upar, vol 6.6x); DELTACORP -15% (RS 98, 200DMA upar, vol 0.6x); MENONBE -15% (RS 99, 200DMA upar, vol 1.2x); RBZJEWEL -15% (RS 93, 200DMA upar, vol 0.1x); STANLEY -15% (RS 61, 200DMA neeche, vol 0.9x); ESAFSFB -15% (RS 92, 200DMA upar, vol 2.8x); SOTL -15% (RS 46, 200DMA upar, vol 0.1x)
 - Study (f74): bade chadhne aur bade girne wale dono se pehle wahi ishaare hote hain (kal ki badi chaal, RS top, volume) = ye ishaare DISHA nahi, sirf HALCHAL batate hain.
 

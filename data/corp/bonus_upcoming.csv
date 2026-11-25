@@ -1,4 +1,4 @@
 symbol,company,type,subject,ex_date,record_date,tdays_to_ex,buy_from,sell_on_cum,last_close,stop,liq_D
-VGL,VARVEE GLOBAL LIMITED,SPLIT,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share,27-Nov-2026,27-Nov-2026,3,2026-11-12,2026-11-26,,,False
-INTERARCH,Interarch Building Solutions Limited,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,30-Nov-2026,30-Nov-2026,4,2026-11-13,2026-11-27,1585.4,1474.42,False
-SPAL,S. P. Apparels Limited,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,10-Dec-2026,10-Dec-2026,12,2026-11-26,2026-12-09,917.7,853.46,False
+VGL,VARVEE GLOBAL LIMITED,SPLIT,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share,27-Nov-2026,27-Nov-2026,2,2026-11-12,2026-11-26,,,False
+INTERARCH,Interarch Building Solutions Limited,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,30-Nov-2026,30-Nov-2026,3,2026-11-13,2026-11-27,1551.6,1442.99,False
+SPAL,S. P. Apparels Limited,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,10-Dec-2026,10-Dec-2026,11,2026-11-26,2026-12-09,923.7,859.04,False
