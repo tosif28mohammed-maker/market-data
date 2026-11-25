@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-25 06:40 Kuwait
+Updated: 2026-11-25 18:30 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -42,7 +42,7 @@ Updated: 2026-11-25 06:40 Kuwait
 
 ## Data कमी → robot (23 Nov 22:00, Tosif: "कमी हो तो download करो / किसी और को दो, नहीं हो सके तो मुझे बताओ")
 - [x] GDP + macro: scripts/macro_history.py → data/macro/ (World Bank 1960-2025: GDP INR/USD, real growth, CPI, mcap/GDP, lending rate; FRED: 10y G-sec 2011-26 monthly, CPI index, USDINR daily, IIP, India quarterly real GDP 2004-26, US 10y). workflow macro_data.yml (रोज़ 6:55 PM IST)
-- [ ] NSE index P/E P/B DivYield रोज़ाना (सब indices) — scripts/index_pe_history.py, robot पीछे की तरफ़ भर रहा (2015 तक पक्का, 2011 404). भरने पर: AI-D1EDA5, AI-7292D2, AI-CB739F, AI-0811E2 (earnings yield/G-sec), AI-5C5C39 test
+- [x] Nifty PE (2015-26) से AI-D1EDA5/7292D2/CB739F/0811E2 test (25 Nov 18:11, r067). बाकी: AI-5C5C39 (mcap/GDP); Nifty PE 2015 से पहले (robot 2011 404) — दूसरा source; Next50/Midcap PE पर भी r067 दोहराना
 - [ ] World Bank mcap/GDP 2018 और 2025 के आँकड़े अजीब (153%, 267%) — mcap/GDP ख़ुद बनाना: BSE total mcap इतिहास चाहिए
 - [ ] Tosif से पूछा: 10 साल company fundamentals (RoE/PAT/dividend) और corporate profit/GDP — free source नहीं मिला (Screener/Prowess login/paid)
 
@@ -88,3 +88,5 @@ Updated: 2026-11-25 06:40 Kuwait
 - PC transcripts 24 Nov 10:24: PC मिला, पर yt_transcripts फ़ोल्डर फिर इस run से जुड़ा नहीं था और device_bash नहीं मिला → script नहीं चला (ok 0, fail 0). लगातार दूसरा दिन — Tosif: Cowork में इस scheduled task के लिए फ़ोल्डर दोबारा जोड़ें.
 - PC transcripts 24 Nov 15:24: 16 मिले, फिर YouTube ने PC IP को IpBlocked किया → रोका. Script में धीमा करना/बीच में रुकना चाहिए (अभी 1.5s gap).
 - PC transcripts 2026-11-25 10:24: work folder not connected to the scheduled task (connectedFolders empty) and no device_bash — Tosif to re-attach the yt_transcripts folder in the task settings or run `py pc_transcripts.py 30` by hand
+
+- [ ] PC-01: SEBI closing auction नया ढाँचा कब से — लागू होने पर ET-02b close entry बनाम 3:20 entry दोबारा देखना

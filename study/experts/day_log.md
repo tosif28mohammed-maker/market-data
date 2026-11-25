@@ -140,3 +140,11 @@
 - Notebook: r066 + r01 i110, i111; i109 note update.
 
 PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but work folder not connected (connectedFolders empty), could not list/stage
+
+## 2026-11-25 18:11 (silent run)
+- Robot: collector 25 Nov 13:58 UTC — 62 sources, failed 0, नए 211 (113 रखे); YouTube transcripts 0 (IpBlocked 9). index_valuation.csv अब Nifty 50 PE 2015-11 से (robot ने पीछे भरा) → blocked Motilal PE/G-sec claims खुले.
+- पढ़ा (Claude): queue के 239 नए (ज़्यादातर news: FII 17 दिन ख़रीद, rupee 8-महीने high, gold -13% Nov, Nasdaq futures -3%, APL Apollo -29%, SEBI KYC/AI sandbox, closing auction ढाँचा, NSE encumbrance circular). Testable नया: 8 दिन गिरावट→उछाल; closing auction policy (watch). YouTube सिर्फ़ description (transcript नहीं).
+- नए claims: AI-PE-01, BS-01, PC-01
+- Test AI-PE-01 Nifty PE/EY÷G-sec (2015-26): सबसे सस्ते 20% दिन अगले 1 साल +24.5% (2020 crash हटाकर +18.8) vs सब दिन +13.0; Motilal के EY/GS≥1.4, PE≤12, <0.87 avoid कभी नहीं लगे (range 0.38-0.87) → अभी analysis में; आज PE 21.0, EY/GS 0.64 (r067)
+- Test BS-01 लगातार 8 down close (n11.5k): 5d excess +0.31 (placebo -0.07) cost बाद ~0; -5/+10 target 30.8% → बेकार (r067)
+- test_queue: AI-D1EDA5/7292D2/CB739F/0811E2 → done. Notebook: r067 + r01 i112, i113.

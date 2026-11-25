@@ -1,0 +1,65 @@
+exactly-hit 5 down days: h1 ex +0.07 raw -0.05 n 88436 win 47% | h5 ex +0.20 raw +0.34 n 88120 win 50% | h20 ex -0.00 raw +1.24 n 87517 win 51%
+    2003-12 -0.19 n24002
+    2013-20 +0.14 n30221
+    2021-26 +0.00 n32729
+    Nov23-now +0.06 n19151
+    last2m h20ex -0.16 n1256
+    last4m h20ex -0.18 n2166
+    last6m h20ex +0.02 n2759
+exactly-hit 6 down days: h1 ex +0.10 raw +0.05 n 45586 win 48% | h5 ex +0.27 raw +0.44 n 45373 win 52% | h20 ex +0.03 raw +1.29 n 45065 win 51%
+    2003-12 -0.14 n12533
+    2013-20 +0.27 n15708
+    2021-26 -0.05 n16545
+    Nov23-now +0.04 n9886
+    last2m h20ex -0.25 n661
+    last4m h20ex -0.23 n1081
+    last6m h20ex +0.12 n1365
+exactly-hit 7 down days: h1 ex +0.08 raw +0.04 n 22905 win 48% | h5 ex +0.31 raw +0.41 n 22793 win 51% | h20 ex -0.02 raw +1.20 n 22623 win 52%
+    2003-12 -0.44 n6262
+    2013-20 +0.33 n7898
+    2021-26 -0.00 n8331
+    Nov23-now +0.11 n5052
+    last2m h20ex +0.46 n350
+    last4m h20ex +0.67 n547
+    last6m h20ex +0.63 n680
+exactly-hit 8 down days: h1 ex +0.10 raw -0.02 n 11534 win 47% | h5 ex +0.31 raw +0.30 n 11499 win 51% | h20 ex +0.14 raw +1.22 n 11439 win 52%
+    2003-12 -0.46 n3189
+    2013-20 +0.62 n4179
+    2021-26 +0.11 n4006
+    Nov23-now +0.39 n2432
+    last2m h20ex +0.23 n154
+    last4m h20ex +1.33 n246
+    last6m h20ex +1.14 n302
+exactly-hit 10 down days: h1 ex -0.10 raw -0.26 n 2980 win 44% | h5 ex +0.11 raw +0.09 n 2971 win 50% | h20 ex +0.23 raw +1.63 n 2951 win 52%
+    2003-12 -0.11 n878
+    2013-20 +0.60 n1124
+    2021-26 +0.10 n940
+    Nov23-now +0.14 n528
+    last2m h20ex -2.59 n28
+    last4m h20ex -3.11 n42
+    last6m h20ex -1.91 n52
+8 down & >200DMA: h1 ex +0.13 raw +0.11 n 2804 win 49% | h5 ex +0.45 raw +0.80 n 2792 win 55% | h20 ex +0.11 raw +1.75 n 2777 win 53%
+    2003-12 -0.45 n652
+    2013-20 +0.26 n940
+    2021-26 +0.30 n1185
+    Nov23-now +0.46 n619
+    last2m h20ex +1.23 n37
+    last4m h20ex +3.58 n57
+    last6m h20ex +3.18 n63
+8 down & <200DMA: h1 ex +0.09 raw -0.07 n 6981 win 47% | h5 ex +0.28 raw +0.05 n 6972 win 50% | h20 ex +0.22 raw +1.05 n 6943 win 52%
+    2003-12 -0.23 n1678
+    2013-20 +0.67 n2784
+    2021-26 +0.02 n2481
+    Nov23-now +0.34 n1566
+    last2m h20ex +0.00 n85
+    last4m h20ex +0.63 n134
+    last6m h20ex +0.61 n165
+placebo (8-down shifted +10d): h1 ex -0.02 raw +0.04 n 11477 win 46% | h5 ex -0.07 raw +0.18 n 11431 win 47% | h20 ex -0.09 raw +1.75 n 11392 win 51%
+    2003-12 -0.45 n3167
+    2013-20 +0.17 n4191
+    2021-26 -0.05 n3974
+    Nov23-now +0.14 n2429
+    last2m h20ex +1.25 n158
+    last4m h20ex +0.75 n243
+    last6m h20ex +0.59 n281
+stop5/tgt10 20d: n11437 target 30.8% stop 59.2% exp net +0.04% avgwin +8.71 avgloss -5.05
