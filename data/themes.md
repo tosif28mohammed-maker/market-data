@@ -1,30 +1,30 @@
-# Themes / बड़े रुझान — 2026-11-24
+# Themes / बड़े रुझान — 2026-11-25
 
-दाम (India टोकरी, सब शेयरों के median से फ़र्क) + चर्चा (7 दिन की ख़बरें). चर्चा का इतिहास 16 दिन — 6-8 हफ़्ते बाद "बढ़ती चर्चा" भरोसेमंद होगी.
+दाम (India टोकरी, सब शेयरों के median से फ़र्क) + चर्चा (7 दिन की ख़बरें). चर्चा का इतिहास 17 दिन — 6-8 हफ़्ते बाद "बढ़ती चर्चा" भरोसेमंद होगी.
 
 | Theme | Stage | 3m vs बाज़ार | 6m vs बाज़ार | 200 DMA ऊपर | ख़बरें 7d | चर्चा/औसत |
 |---|---|---|---|---|---|---|
-| Pharma & CDMO | चल रहा (दाम + चर्चा दोनों) | +4.4% | +11.7% | 69% | 66 | 1.72 |
-| Oil & gas | चल रहा (दाम + चर्चा दोनों) | +4.8% | +6.2% | 64% | 149 | 1.65 |
-| EV & auto | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +3.8% | +12.2% | 63% | 136 | 1.5 |
-| Tourism & travel | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +4.8% | +7.2% | 50% | 78 | 1.53 |
-| Semiconductors & electronics mfg | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +1.0% | +19.3% | 58% | 78 | 1.24 |
-| Healthcare services | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +2.1% | +5.4% | 58% | 55 | 1.09 |
-| Capital markets | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +3.7% | +5.2% | 57% | 56 | 1.09 |
-| Banks & credit | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | +1.6% | +1.0% | 43% | 90 | 2.2 |
-| Shipping & ports | ठंडा | -1.8% | +5.5% | 55% | 109 | 1.21 |
-| Defence | ठंडा | -5.2% | +6.2% | 59% | 84 | 1.49 |
-| Real estate & housing | ठंडा | +0.2% | -4.9% | 50% | 82 | 1.5 |
-| AI & data centres | ठंडा | -0.1% | -2.1% | 43% | 187 | 1.4 |
-| Consumption & FMCG | ठंडा | +0.5% | -5.3% | 38% | 25 | 0.86 |
-| Chemicals | ठंडा | -4.8% | -2.4% | 35% | 10 | 0.9 |
-| Copper & metals | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -1.8% | -8.5% | 27% | 143 | 2.01 |
-| Railways & infra | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -4.3% | -8.5% | 26% | 116 | 1.74 |
-| Power demand & grid | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -5.5% | -9.8% | 19% | 157 | 1.63 |
-| Water & agri | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -5.4% | -15.6% | 14% | 38 | 1.99 |
-| Solar & renewables | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -11.4% | -19.3% | 8% | 113 | 1.71 |
-| Nuclear energy | ठंडा | +nan% | +nan% | nan% | 50 | 0.85 |
-| Gold & silver | सिर्फ़ चर्चा (दाम साथ नहीं = hype) | +nan% | +nan% | nan% | 196 | 1.87 |
+| Pharma & CDMO | चल रहा (दाम + चर्चा दोनों) | +4.3% | +11.7% | 69% | 62 | 1.55 |
+| Oil & gas | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +4.7% | +6.2% | 64% | 114 | 1.22 |
+| EV & auto | चल रहा (दाम + चर्चा दोनों) | +3.7% | +12.2% | 63% | 146 | 1.56 |
+| Tourism & travel | चल रहा (दाम + चर्चा दोनों) | +4.7% | +7.2% | 50% | 88 | 1.67 |
+| Semiconductors & electronics mfg | चल रहा (दाम + चर्चा दोनों) | +0.9% | +19.3% | 58% | 99 | 1.55 |
+| Capital markets | दाम आगे, चर्चा कम (थक रहा या चुपचाप) | +3.7% | +5.2% | 57% | 51 | 0.98 |
+| Healthcare services | चल रहा (दाम + चर्चा दोनों) | +2.0% | +5.4% | 58% | 106 | 2.09 |
+| Banks & credit | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | +1.6% | +1.0% | 43% | 74 | 1.68 |
+| Shipping & ports | ठंडा | -1.9% | +5.5% | 55% | 112 | 1.23 |
+| Defence | सिर्फ़ चर्चा (दाम साथ नहीं = hype) | -5.3% | +6.2% | 59% | 89 | 1.53 |
+| Real estate & housing | ठंडा | +0.1% | -4.9% | 50% | 60 | 1.07 |
+| AI & data centres | ठंडा | -0.2% | -2.1% | 43% | 176 | 1.29 |
+| Consumption & FMCG | ठंडा | +0.4% | -5.3% | 38% | 27 | 0.94 |
+| Chemicals | ठंडा | -4.9% | -2.4% | 35% | 16 | 1.45 |
+| Copper & metals | ठंडा | -1.9% | -8.5% | 27% | 105 | 1.39 |
+| Railways & infra | ठंडा | -4.4% | -8.5% | 26% | 70 | 1.0 |
+| Power demand & grid | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -5.6% | -9.8% | 19% | 171 | 1.71 |
+| Water & agri | ठंडा | -5.5% | -15.6% | 14% | 19 | 0.94 |
+| Solar & renewables | शुरुआती? (चर्चा बढ़ी, दाम अभी शुरू) | -11.5% | -19.3% | 8% | 125 | 1.81 |
+| Nuclear energy | ठंडा | +nan% | +nan% | nan% | 64 | 1.1 |
+| Gold & silver | ठंडा | +nan% | +nan% | nan% | 101 | 0.91 |
 
 ## सबसे मज़बूत themes के अच्छे शेयर (A/B, quality ≥6/9, 200 DMA ऊपर, 3m ताकत से)
 - **Pharma & CDMO**: AHCL (+71% 3m, Q8), SYNCOMF (+48% 3m, Q7), KOPRAN (+33% 3m, Q6), DIVISLAB (+31% 3m, Q9), SMSPHARMA (+31% 3m, Q8)
@@ -41,11 +41,11 @@
 - **telecom**: ग्राहक (anchor) पिछला महीना बाज़ार से +6.0% → मज़बूत: पीछे रहे अच्छे सप्लायर देखो: 
 
 ## आज की चर्चा के नमूने
-- Pharma & CDMO: India’s Pharma Exports To Reach US$ 50 Bn By ’30 - https://www.fintechbiznews.com/ | Pharma multinationals seek time-bound review of IND applications; may settle for six-year data exclusivity - E | Marksans Pharma shares fall 3% after US FDA flags six observations at Goa facility - CNBC TV18 - LinkedIn
-- Oil & gas: Crude oil outlook: OPEC+ meeting, supply glut concerns to drive prices next week - The Times of India | OIL IN 2026 – Analysts Hike Oil Outlook on Geopolitical Risks, Oversupply Concerns Limit Upside - EnergyNow.co | Oil market anticipates crude oil surplus in 2027 due to increased supply - Inspenet
+- Pharma & CDMO: India’s Pharma Exports To Reach US$ 50 Bn By ’30 - https://www.fintechbiznews.com/ | Pharma multinationals seek time-bound review of IND applications; may settle for six-year data exclusivity - E | Marksans Pharma flagged for 6 observations in wake of FDA inspection - Fierce Pharma
+- Oil & gas: Crude oil outlook: OPEC+ meeting, supply glut concerns to drive prices next week - The Times of India | Oil market anticipates crude oil surplus in 2027 due to increased supply - Inspenet | Agency Reports Suggest Oil Market Approaching Turning Point - Rigzone
 - EV & auto: India’s EV retail sales surge 74% to record 3.33 lakh units in September: FADA - DD News | India EV Market To See 5.2 Million Passenger EV Sales By 2040 - Autocar Professional | India posts record festive auto sales in 2026; one in 10 vehicles electric - Business Standard
-- Tourism & travel: Bharatiya Vayuyan Niyam, 2026: A Modern Rulebook for India’s Skies - www.pib.gov.in | Navi Mumbai airport handles record 212 aircraft movements, 27,000 passengers in a day - ET TravelWorld | India Aviation Compliance: Operators Need Authorisation, Airworthiness, Qualified Crews and Records; Aircraft 
-- Semiconductors & electronics mfg: Semiconductor Equipment and Materials: Strengthening India's Position in the Global Chip Supply Chain - IBEF | Smart Silicon: Building India’s Semiconductor Capabilities Through AI - orfonline.org | Andhra’s first semiconductor plant to come up near Visakhapatnam with ₹2,387 crore investment - The Hindu
-- Healthcare services: Unihealth Hospitals targets 1,000 in-patient beds in India by FY31 - Medical Buyer | Bajaj Group Enters Healthcare With Hospital in Pune - Bloomberg.com | Rainbow Children’s Medicare Targets 5,000 Beds by FY32, Plans Major Expansion - The Indian Practitioner
-- Capital markets: SIP Inflows October 2026: AMFI Data on Equity and Debt Flows - Univest | India’s manufacturing sector driving growth in new phase: DIPAM Secretary - IANS LIVE | A rule-based approach to make informed investment choices! Explore how Factor Investing uses predefined parame
+- Tourism & travel: Bharatiya Vayuyan Niyam, 2026: A Modern Rulebook for India’s Skies - www.pib.gov.in | Navi Mumbai airport handles record 212 aircraft movements, 27,000 passengers in a day - ET TravelWorld | Navi Mumbai Airport Records Over 200 Flights In A Day - Sarkaritel.com
+- Semiconductors & electronics mfg: Semiconductor Equipment and Materials: Strengthening India's Position in the Global Chip Supply Chain - IBEF | Semiconductor and AI Revolution - पीआईबी | Smart Silicon: Building India’s Semiconductor Capabilities Through AI - orfonline.org
+- Capital markets: Why Indians Are Moving Money Out Of Fixed Deposits, And What They’re Putting It In Instead - ScoopWhoop | Inside India's biggest mutual funds: Are investors looking beyond short-term returns? - Moneycontrol.com | Midcap MFs with Rs 5,000–15,000 crore AUM prove more resilient during market correction. Top 5 performers - Th
+- Healthcare services: Unihealth Hospitals targets 1,000 in-patient beds in India by FY31 - Medical Buyer | Rapid expansion dents hospital chains’ margins - The Financial Express | Bajaj Group Enters Healthcare With Hospital in Pune - Bloomberg.com
 - Banks & credit: Banks are lending faster, but where will the next round of deposits come from? - bfsi.economictimes.indiatimes | Indian Banks Ramp Up Short-Term Debt as Loan Demand Rises - Bloomberg.com | Nifty Bank Tops 62,000 for First Time as Lenders Rally 13% in November - BigGo Finance
