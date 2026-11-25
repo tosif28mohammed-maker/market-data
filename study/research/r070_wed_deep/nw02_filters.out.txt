@@ -1,0 +1,25 @@
+signal (all)                           N=122 o5 +0.41 (सब +0.19) win 53% net fut +0.38 cash +0.16 | दौर {'2007-12': 0.25, '2013-20': 0.41, '2021-26': 0.48}
+      SL-1.5/TP+1.5: target 44% win 50% avg win +1.40 loss -1.40 exp -0.00
+      SL-2.0/TP+3.0: target 21% win 48% avg win +2.04 loss -1.72 exp +0.10
+signal + Nifty>200DMA                  N= 56 o5 +0.58 (सब +0.19) win 54% net fut +0.55 cash +0.33 | दौर {'2007-12': 0.23, '2013-20': 0.95, '2021-26': 0.35}
+      SL-1.5/TP+1.5: target 38% win 50% avg win +1.32 loss -1.30 exp +0.01
+      SL-2.0/TP+3.0: target 14% win 50% avg win +1.61 loss -1.52 exp +0.04
+signal + Nifty<200DMA                  N= 66 o5 +0.27 (सब +0.19) win 53% net fut +0.24 cash +0.02 | दौर {'2007-12': 0.26, '2013-20': -0.11, '2021-26': 0.67}
+      SL-1.5/TP+1.5: target 50% win 50% avg win +1.47 loss -1.49 exp -0.01
+      SL-2.0/TP+3.0: target 27% win 47% avg win +2.43 loss -1.88 exp +0.14
+signal + VIX<20                        N= 67 o5 +0.04 (सब +0.19) win 48% net fut +0.01 cash -0.21 | दौर {'2007-12': -1.3, '2013-20': 0.14, '2021-26': 0.15}
+      SL-1.5/TP+1.5: target 40% win 46% avg win +1.39 loss -1.31 exp -0.06
+      SL-2.0/TP+3.0: target 15% win 46% avg win +1.84 loss -1.63 exp -0.02
+signal + VIX>=20                       N= 55 o5 +0.86 (सब +0.19) win 60% net fut +0.83 cash +0.61 | दौर {'2007-12': 0.66, '2013-20': 0.78, '2021-26': 1.18}
+      SL-1.5/TP+1.5: target 49% win 55% avg win +1.41 loss -1.53 exp +0.07
+      SL-2.0/TP+3.0: target 29% win 51% avg win +2.26 loss -1.84 exp +0.25
+signal + bull + VIX<20                 N= 41 o5 +0.24 (सब +0.19) win 49% net fut +0.21 cash -0.01 | दौर {'2007-12': 0.53, '2013-20': 0.39, '2021-26': 0.12}
+      SL-1.5/TP+1.5: target 34% win 44% avg win +1.33 loss -1.25 exp -0.12
+      SL-2.0/TP+3.0: target 12% win 46% avg win +1.52 loss -1.50 exp -0.10
+placebo Nasdaq>=+2% & gap-up           N=111 o5 +0.15 (सब +0.19) win 54% net fut +0.12 cash -0.10 | दौर {'2007-12': 0.13, '2013-20': 0.13, '2021-26': 0.17}
+      SL-1.5/TP+1.5: target 47% win 55% avg win +1.35 loss -1.38 exp +0.12
+      SL-2.0/TP+3.0: target 14% win 52% avg win +1.77 loss -1.58 exp +0.17
+control gap-down w/o US crash          N=160 o5 +0.57 (सब +0.19) win 64% net fut +0.54 cash +0.32 | दौर {'2007-12': 0.65, '2013-20': 0.09, '2021-26': 0.99}
+      SL-1.5/TP+1.5: target 52% win 58% avg win +1.37 loss -1.36 exp +0.23
+      SL-2.0/TP+3.0: target 25% win 57% avg win +2.08 loss -1.56 exp +0.51
+last signals: ['2026-03-23', '2026-03-27', '2026-03-30', '2026-06-08', '2026-07-24', '2026-11-20']

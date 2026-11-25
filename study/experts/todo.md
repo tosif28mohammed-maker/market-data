@@ -50,7 +50,7 @@ Updated: 2026-11-26 Wednesday deep run
 - [x] r066: PSU vs private 12m switch (4 sectors analysis, banks बेकार)
 - [x] r065 आगे: div-yield>3% + bear regime (26 Nov, r070: bear +9.95pp, target 45.8% — analysis में)
 - [ ] r070 आगे: episode-स्तर (हर bear दौर एक बार) + आज के 18 hi-yield blue chips paper watch
-- [ ] NW-02 आगे: futures cost (0.03%) + VIX/200DMA filter के साथ "Nasdaq<=-2% + gap-down" open खरीद; forward 25 Nov 2026 (Kospi -5%)
+- [x] NW-02 आगे (26 Nov, r071): control gap-down बिना US crash बेहतर (+0.57 vs +0.41) → NW-02 बेकार
 - [ ] AI-C62277b forward: हर महीने 4-sector switch का चुनाव (25 Nov: private) देखना
 - [x] AI-248E4C switch (r066 बेकार); बाकी: band हुए private banks (LVB) का असर (data नहीं)
 - [ ] AI-062853 आगे: Hurst-high momentum पर stop/target (mfe_mae) + 200DMA regime, weekly/monthly hold

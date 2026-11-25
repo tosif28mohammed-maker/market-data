@@ -157,3 +157,4 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 
 ## 2026-11-25 रात (Wednesday deep study, silent)
 - भाग A — AI-48006Eb (r065 आगे): div yield>3% blue chips सिर्फ़ Nifty<200DMA महीनों में: 250d +9.95pp vs बाकी blue chips (N52, 73% महीने, तीनों दौर +), bull में +1.5 (2013-20 -5.5); -10/+20 stop/target: target 45.8%, exp +3.43 vs बाकी 40.3%/+1.74 → अभी analysis में (~10 असली bear दौर). आज Nifty<200DMA, 18 hi-yield blue chips (r070).
+- भाग B — NW-02b: Nasdaq<=-2%+gap-down open खरीद futures cost बाद 5d +0.38 (N122), पर -1.5/+1.5 stop/target exp 0.00; आम gap-down (बिना US crash) N160 +0.57, target 52% → US वाला हिस्सा कुछ नहीं जोड़ता → बेकार (r071). VIX>=20 पर +0.86 (N55) सिर्फ़ note.
