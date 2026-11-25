@@ -138,3 +138,5 @@
 - Test NW-02 Nasdaq<=-2% के बाद Nifty: gap -0.52% पहले से दाम में, उसी दिन नहीं भरता; सिर्फ़ gap-down<=-0.5% पर open खरीद 5d +0.44 vs +0.17 (तीनों दौर +, cost बाद +0.19) → अभी analysis में (r066)
 - Test AI-C62277b PSU vs private 12m momentum switch (4 sectors): CAGR +21.1 vs private 18.0 / 50/50 16.7 / placebo 11.4, तीनों दौर आगे, पर सिर्फ़ 16 switch → अभी analysis में; banks वाला switch (AI-248E4Cb) हमेशा-private से कमज़ोर → बेकार (r066)
 - Notebook: r066 + r01 i110, i111; i109 note update.
+
+PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but work folder not connected (connectedFolders empty), could not list/stage

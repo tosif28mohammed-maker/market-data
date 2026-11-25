@@ -87,3 +87,4 @@ Updated: 2026-11-25 06:40 Kuwait
 - PC transcripts 23 Nov 10:24: PC मिला, पर yt_transcripts फ़ोल्डर इस run से जुड़ा नहीं था और PC shell (device_bash) नहीं मिला → script नहीं चला (ok 0, fail 0). Browser fallback छोड़ा (Gemini अब video खुद देखता है, Claude usage बचाने के लिए). Tosif: Cowork में scheduled task के लिए फ़ोल्डर दोबारा जोड़ें.
 - PC transcripts 24 Nov 10:24: PC मिला, पर yt_transcripts फ़ोल्डर फिर इस run से जुड़ा नहीं था और device_bash नहीं मिला → script नहीं चला (ok 0, fail 0). लगातार दूसरा दिन — Tosif: Cowork में इस scheduled task के लिए फ़ोल्डर दोबारा जोड़ें.
 - PC transcripts 24 Nov 15:24: 16 मिले, फिर YouTube ने PC IP को IpBlocked किया → रोका. Script में धीमा करना/बीच में रुकना चाहिए (अभी 1.5s gap).
+- PC transcripts 2026-11-25 10:24: work folder not connected to the scheduled task (connectedFolders empty) and no device_bash — Tosif to re-attach the yt_transcripts folder in the task settings or run `py pc_transcripts.py 30` by hand
