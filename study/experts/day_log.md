@@ -130,3 +130,11 @@
 - Test AI-48006E blue chip div yield>3% (adj factor से dividend): 250d +2.2pp vs बाकी blue chips (53% months), 2013-20 -1.6, 2021-26 +9.3; साल-वार -21..+30 → अभी analysis में (r065)
 - Test AI-C62277 PSU exclusion (utilities/metals/energy/industrials): private 2003-12 +13pp/yr, 2013-20 +10, पर 2021-26 PSU +18pp आगे → अभी analysis में (regime) (r065)
 - Notebook: r065 + r01 i108, i109.
+
+## 2026-11-25 06:11 (silent run)
+- Robot: collector 25 Nov 01:56 UTC — 62 sources, failed 0, नए 54 (33 रखे); YouTube transcripts 0 (RequestBlocked 5). Gemini reader 24 Nov 23:38 UTC: 3 book हिस्से, 5 rules, फिर 429; books_left 2, videos_left 175.
+- पढ़ा (Claude): queue के 33 नए (Kospi -5%/Nikkei -2.5% AI-trade डर, HPE -16%, Brent $91 Hormuz, Fed discount minutes, China funds 'trough' view, MarketSmith/Venkatraman picks — testable नया सिर्फ़ US-गिरावट→Nifty). NDTV Profit YouTube rating 1 (ज़्यादातर non-market). test_queue के 5 waiting (EP/PEP-G/PEG) → blocked (10y fundamentals नहीं).
+- नए claims: NW-02, AI-C62277b, AI-248E4Cb
+- Test NW-02 Nasdaq<=-2% के बाद Nifty: gap -0.52% पहले से दाम में, उसी दिन नहीं भरता; सिर्फ़ gap-down<=-0.5% पर open खरीद 5d +0.44 vs +0.17 (तीनों दौर +, cost बाद +0.19) → अभी analysis में (r066)
+- Test AI-C62277b PSU vs private 12m momentum switch (4 sectors): CAGR +21.1 vs private 18.0 / 50/50 16.7 / placebo 11.4, तीनों दौर आगे, पर सिर्फ़ 16 switch → अभी analysis में; banks वाला switch (AI-248E4Cb) हमेशा-private से कमज़ोर → बेकार (r066)
+- Notebook: r066 + r01 i110, i111; i109 note update.

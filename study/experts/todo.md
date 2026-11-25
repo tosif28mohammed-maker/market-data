@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-25 02:30 Kuwait
+Updated: 2026-11-25 06:40 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -47,8 +47,11 @@ Updated: 2026-11-25 02:30 Kuwait
 - [ ] Tosif से पूछा: 10 साल company fundamentals (RoE/PAT/dividend) और corporate profit/GDP — free source नहीं मिला (Screener/Prowess login/paid)
 
 ## Claude — भारी (हिस्सों में)
-- [ ] r065 आगे: PSU vs private 12m relative momentum switch (AI-248E4C के साथ एक test); div-yield>3% को bear regime (Nifty<200DMA) filter के साथ
-- [ ] AI-248E4C आगे: private vs PSU bank — 12m relative momentum switch (कौन सा group आगे) test; band हुए private banks (LVB) का असर
+- [x] r066: PSU vs private 12m switch (4 sectors analysis, banks बेकार)
+- [ ] r065 आगे: div-yield>3% को bear regime (Nifty<200DMA) filter के साथ
+- [ ] NW-02 आगे: futures cost (0.03%) + VIX/200DMA filter के साथ "Nasdaq<=-2% + gap-down" open खरीद; forward 25 Nov 2026 (Kospi -5%)
+- [ ] AI-C62277b forward: हर महीने 4-sector switch का चुनाव (25 Nov: private) देखना
+- [x] AI-248E4C switch (r066 बेकार); बाकी: band हुए private banks (LVB) का असर (data नहीं)
 - [ ] AI-062853 आगे: Hurst-high momentum पर stop/target (mfe_mae) + 200DMA regime, weekly/monthly hold
 - [x] MO-21 Porter test (r057: edge नहीं, analysis) + AI-184C53 बेकार
 - [ ] MO-21 + MO-25 आगे: Porter-hi और Consistent-sector group का गिरावट वाले महीनों (Nifty 200DMA के नीचे) में बचाव — defensive filter test (r060 के बाद)

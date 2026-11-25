@@ -1,0 +1,41 @@
+banks in panel: 40 psu banks: 13
+
+== A: 4 sectors PSU vs private (lookback 250d, 1 महीना hold) months=274 switches=16
+  ALL       n=274 CAGR: switch  +21.1 | private  +18.0 | PSU  +14.8 | 50/50  +16.7 | उल्टा(placebo)  +11.4 | switch>50/50 महीने 60%
+  2004-12   n=108 CAGR: switch  +20.3 | private  +19.8 | PSU  +12.2 | 50/50  +16.3 | उल्टा(placebo)  +11.5 | switch>50/50 महीने 62%
+  2013-20   n= 96 CAGR: switch  +14.2 | private  +13.9 | PSU   +6.9 | 50/50  +10.6 | उल्टा(placebo)   +6.3 | switch>50/50 महीने 58%
+  2021-26   n= 70 CAGR: switch  +32.5 | private  +20.8 | PSU  +31.1 | 50/50  +26.2 | उल्टा(placebo)  +18.7 | switch>50/50 महीने 60%
+  last 6m   n=  7 CAGR: switch   +8.4 | private  +14.5 | PSU   -2.3 | 50/50   +5.8 | उल्टा(placebo)   +2.3 | switch>50/50 महीने 57%
+  last 12m  n= 13 CAGR: switch   -2.2 | private   -1.9 | PSU   -2.8 | 50/50   -2.3 | उल्टा(placebo)   -4.3 | switch>50/50 महीने 54%
+  maxDD: switch -74 private -74 PSU -61 50/50 -68
+  आज का चुनाव: private (12m past pvt +19.9% psu +7.5%)
+
+== B: banks PSU vs private (lookback 250d, 1 महीना hold) months=274 switches=29
+  ALL       n=274 CAGR: switch  +15.7 | private  +17.7 | PSU   +9.3 | 50/50  +14.0 | उल्टा(placebo)  +10.5 | switch>50/50 महीने 54%
+  2004-12   n=108 CAGR: switch  +25.1 | private  +29.8 | PSU  +22.3 | 50/50  +26.5 | उल्टा(placebo)  +25.8 | switch>50/50 महीने 49%
+  2013-20   n= 96 CAGR: switch   +0.2 | private   +6.9 | PSU  -13.7 | 50/50   -3.3 | उल्टा(placebo)   -8.4 | switch>50/50 महीने 58%
+  2021-26   n= 70 CAGR: switch  +25.1 | private  +15.5 | PSU  +27.1 | 50/50  +21.8 | उल्टा(placebo)  +16.9 | switch>50/50 महीने 54%
+  last 6m   n=  7 CAGR: switch  +28.8 | private  +29.3 | PSU   +6.2 | 50/50  +17.5 | उल्टा(placebo)   +5.8 | switch>50/50 महीने 71%
+  last 12m  n= 13 CAGR: switch  +12.1 | private  +21.5 | PSU   +3.5 | 50/50  +12.4 | उल्टा(placebo)  +10.1 | switch>50/50 महीने 62%
+  maxDD: switch -70 private -70 PSU -84 50/50 -67
+  आज का चुनाव: private (12m past pvt +33.8% psu +11.1%)
+
+== A: 4 sectors PSU vs private (lookback 120d, 1 महीना hold) months=274 switches=44
+  ALL       n=274 CAGR: switch  +18.1 | private  +18.0 | PSU  +14.8 | 50/50  +16.7 | उल्टा(placebo)  +13.6 | switch>50/50 महीने 54%
+  2004-12   n=108 CAGR: switch  +16.8 | private  +19.8 | PSU  +12.2 | 50/50  +16.3 | उल्टा(placebo)  +14.0 | switch>50/50 महीने 55%
+  2013-20   n= 96 CAGR: switch  +12.8 | private  +13.9 | PSU   +6.9 | 50/50  +10.6 | उल्टा(placebo)   +7.0 | switch>50/50 महीने 57%
+  2021-26   n= 70 CAGR: switch  +27.8 | private  +20.8 | PSU  +31.1 | 50/50  +26.2 | उल्टा(placebo)  +22.5 | switch>50/50 महीने 50%
+  last 6m   n=  7 CAGR: switch   +1.2 | private  +14.5 | PSU   -2.3 | 50/50   +5.8 | उल्टा(placebo)   +9.6 | switch>50/50 महीने 43%
+  last 12m  n= 13 CAGR: switch   -4.8 | private   -1.9 | PSU   -2.8 | 50/50   -2.3 | उल्टा(placebo)   -1.6 | switch>50/50 महीने 54%
+  maxDD: switch -66 private -74 PSU -61 50/50 -68
+  आज का चुनाव: private (12m past pvt +12.9% psu -0.9%)
+
+== B: banks PSU vs private (lookback 120d, 1 महीना hold) months=274 switches=54
+  ALL       n=274 CAGR: switch  +12.9 | private  +17.7 | PSU   +9.3 | 50/50  +14.0 | उल्टा(placebo)  +12.6 | switch>50/50 महीने 51%
+  2004-12   n=108 CAGR: switch  +29.2 | private  +29.8 | PSU  +22.3 | 50/50  +26.5 | उल्टा(placebo)  +21.3 | switch>50/50 महीने 49%
+  2013-20   n= 96 CAGR: switch   -7.2 | private   +6.9 | PSU  -13.7 | 50/50   -3.3 | उल्टा(placebo)   -1.8 | switch>50/50 महीने 52%
+  2021-26   n= 70 CAGR: switch  +20.0 | private  +15.5 | PSU  +27.1 | 50/50  +21.8 | उल्टा(placebo)  +21.2 | switch>50/50 महीने 53%
+  last 6m   n=  7 CAGR: switch  +28.8 | private  +29.3 | PSU   +6.2 | 50/50  +17.5 | उल्टा(placebo)   +5.8 | switch>50/50 महीने 71%
+  last 12m  n= 13 CAGR: switch   +5.8 | private  +21.5 | PSU   +3.5 | 50/50  +12.4 | उल्टा(placebo)  +15.6 | switch>50/50 महीने 38%
+  maxDD: switch -70 private -70 PSU -84 50/50 -67
+  आज का चुनाव: private (12m past pvt +12.9% psu -3.2%)
