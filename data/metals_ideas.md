@@ -1,9 +1,9 @@
-# Metals Idea Factory — run 1 (23 Nov 2026 Kuwait)
+# Metals Idea Factory — run 2 (25 Nov 2026 Kuwait)
 
 Gold & silver: USD/oz, INR (Indian), KWD (Kuwait), ETF. Har idea long aur short, 1/5/20 din, us saal ke apne average se fark, 0.15% kharcha.
 PASS = 2000-14 me t>=3, 2015-26 me bhi (t>=2), har daur me same disha, 2008/COVID hata kar bhi, aur INR/KWD version bhi sahmat.
 Series: GOLD_USD (2000-), SILVER_USD (2000-), GOLD_INR (2003-), SILVER_INR (2003-), GOLD_KWD (2003-), SILVER_KWD (2003-), GOLDBEES (2009-), SILVERBEES (2022-)
-Is run me 594 idea: PASS 0, data-mining jaal 0. Ab tak kul 594, PASS 0.
+Is run me 400 idea: PASS 0, data-mining jaal 0. Ab tak kul 994, PASS 0.
 
 ## Is run ke PASS
 - koi nahi
