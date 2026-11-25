@@ -1,0 +1,7 @@
+How Pro Traders Spot BIG Moves Before It Happens! | Price + Volume Explained
+
+A stock is moving up. Is trading activity picking up too, or is the move happening on light volume? We explain how to read volume bars alongside price action and use Dhan and ScanX to build a watchlist of active stocks.
+
+The chart examples compare rising prices on higher volume with periods when activity dries up and price trades sideways or declines. The walkthrough then shows how to find the most active stocks by volume and build a custom ScanX screen using 10 lakh shares traded and a ₹200 minimum price as example filters. The screen creates a shortlist, not a trade signal.
+
+📱 

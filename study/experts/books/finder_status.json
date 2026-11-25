@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-11-25 08:36",
+ "run_utc": "2026-11-25 13:58",
  "gutenberg_new": [],
  "arxiv_new": [],
  "wishlist_new": [],
@@ -7,7 +7,8 @@
   "gutenberg catalog: HTTP Error 503: Service Unavailable",
   "gutendex stock market: The read operation timed out",
   "gutendex speculation: The read operation timed out",
-  "gutendex stock exchange: The read operation timed out"
+  "gutendex stock exchange: The read operation timed out",
+  "gutendex tape reading: The read operation timed out"
  ],
  "books_total": 25
 }

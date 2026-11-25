@@ -3,22 +3,22 @@ gap==0 दिनों का हिस्सा (पुराना bad open da
 == Nasdaq <= -2% (पिछली रात): N=308
   gap: signal mean -0.52% median -0.29% | सब दिन mean +0.09%  | win% 25 vs 64
   oc: signal mean -0.30% median -0.13% | सब दिन mean -0.05%  | win% 44 vs 48
-  c5: signal mean -0.57% median -0.26% | सब दिन mean +0.27%  | win% 47 vs 56
-  o5: signal mean -0.04% median +0.33% | सब दिन mean +0.17%  | win% 53 vs 54
-  open खरीद 5d after 0.25% cost: mean -0.29%  win 50%
+  c5: signal mean -0.56% median -0.25% | सब दिन mean +0.27%  | win% 47 vs 56
+  o5: signal mean -0.03% median +0.34% | सब दिन mean +0.18%  | win% 54 vs 54
+  open खरीद 5d after 0.25% cost: mean -0.28%  win 50%
    2007-12: N=116 gap -0.29 oc -0.77 o5 -0.75 (सब दिन o5 +0.17)
    2013-20: N=84 gap -0.81 oc +0.06 o5 +0.20 (सब दिन o5 +0.17)
-   2021-26: N=108 gap -0.54 oc -0.07 o5 +0.55 (सब दिन o5 +0.19)
-   last 2m: N=7 gap +0.12 oc +0.16 o5 +2.64
-   last 4m: N=8 gap +0.00 oc +0.19 o5 +2.72
-   last 6m: N=10 gap -0.13 oc +0.27 o5 +2.65
+   2021-26: N=108 gap -0.54 oc -0.07 o5 +0.57 (सब दिन o5 +0.19)
+   last 2m: N=7 gap +0.12 oc +0.16 o5 +2.54
+   last 4m: N=7 gap +0.12 oc +0.16 o5 +2.54
+   last 6m: N=10 gap -0.13 oc +0.27 o5 +2.58
    last 12m: N=15 gap -0.37 oc -0.10 o5 +2.10
 
 == Nasdaq <= -3%: N=117
   gap: signal mean -0.83% median -0.37% | सब दिन mean +0.09%  | win% 21 vs 64
   oc: signal mean -0.33% median -0.12% | सब दिन mean -0.05%  | win% 44 vs 48
   c5: signal mean -1.11% median -0.31% | सब दिन mean +0.27%  | win% 46 vs 56
-  o5: signal mean -0.27% median +0.54% | सब दिन mean +0.17%  | win% 54 vs 54
+  o5: signal mean -0.27% median +0.54% | सब दिन mean +0.18%  | win% 54 vs 54
   open खरीद 5d after 0.25% cost: mean -0.52%  win 52%
    2007-12: N=48 gap -0.27 oc -0.97 o5 -1.24 (सब दिन o5 +0.17)
    2013-20: N=35 gap -1.63 oc +0.01 o5 -0.23 (सब दिन o5 +0.17)
@@ -28,31 +28,31 @@ gap==0 दिनों का हिस्सा (पुराना bad open da
    last 6m: N=3 gap -0.24 oc -0.02 o5 +3.21
    last 12m: N=3 gap -0.24 oc -0.02 o5 +3.21
 
-== Kospi उसी दिन <= -3%: N=111
-  gap: signal mean -0.64% median -0.14% | सब दिन mean +0.09%  | win% 30 vs 64
-  oc: signal mean -0.93% median -0.29% | सब दिन mean -0.05%  | win% 36 vs 48
+== Kospi उसी दिन <= -3%: N=112
+  gap: signal mean -0.63% median -0.13% | सब दिन mean +0.09%  | win% 30 vs 64
+  oc: signal mean -0.91% median -0.29% | सब दिन mean -0.05%  | win% 37 vs 48
   c5: signal mean -0.48% median +0.04% | सब दिन mean +0.27%  | win% 50 vs 56
-  o5: signal mean +0.16% median +0.53% | सब दिन mean +0.17%  | win% 54 vs 54
+  o5: signal mean +0.16% median +0.53% | सब दिन mean +0.18%  | win% 54 vs 54
   open खरीद 5d after 0.25% cost: mean -0.09%  win 50%
    2007-12: N=44 gap -0.25 oc -1.97 o5 +0.32 (सब दिन o5 +0.17)
    2013-20: N=17 gap -2.29 oc -1.05 o5 -2.94 (सब दिन o5 +0.17)
-   2021-26: N=50 gap -0.43 oc +0.03 o5 +1.11 (सब दिन o5 +0.19)
-   last 2m: N=11 gap +0.24 oc +0.53 o5 +3.00
-   last 4m: N=19 gap +0.14 oc +0.37 o5 +1.83
-   last 6m: N=29 gap +0.01 oc +0.17 o5 +1.28
-   last 12m: N=37 gap -0.23 oc +0.17 o5 +1.22
+   2021-26: N=51 gap -0.40 oc +0.05 o5 +1.11 (सब दिन o5 +0.19)
+   last 2m: N=12 gap +0.32 oc +0.54 o5 +3.00
+   last 4m: N=19 gap +0.25 oc +0.38 o5 +1.76
+   last 6m: N=30 gap +0.05 oc +0.19 o5 +1.28
+   last 12m: N=38 gap -0.19 oc +0.18 o5 +1.22
 
 == Nasdaq<=-2% और Nifty gap-down <= -0.5%: N=124
   gap: signal mean -1.34% median -0.91% | सब दिन mean +0.09%  | win% 0 vs 64
   oc: signal mean +0.04% median -0.02% | सब दिन mean -0.05%  | win% 49 vs 48
   c5: signal mean -0.91% median -0.90% | सब दिन mean +0.27%  | win% 40 vs 56
-  o5: signal mean +0.44% median +0.43% | सब दिन mean +0.17%  | win% 55 vs 54
+  o5: signal mean +0.44% median +0.43% | सब दिन mean +0.18%  | win% 55 vs 54
   open खरीद 5d after 0.25% cost: mean +0.19%  win 52%
    2007-12: N=25 gap -1.17 oc +0.07 o5 +0.42 (सब दिन o5 +0.17)
    2013-20: N=45 gap -1.72 oc +0.09 o5 +0.41 (सब दिन o5 +0.17)
    2021-26: N=54 gap -1.11 oc -0.02 o5 +0.48 (सब दिन o5 +0.19)
    last 2m: N=1 gap -0.57 oc +1.71 o5 +nan
-   last 4m: N=2 gap -0.71 oc +1.07 o5 +3.03
+   last 4m: N=1 gap -0.57 oc +1.71 o5 +nan
    last 6m: N=3 gap -0.88 oc +0.77 o5 +3.19
    last 12m: N=7 gap -0.94 oc -0.28 o5 +1.99
 
@@ -60,7 +60,7 @@ gap==0 दिनों का हिस्सा (पुराना bad open da
   gap: signal mean +0.56% median +0.39% | सब दिन mean +0.09%  | win% 86 vs 64
   oc: signal mean +0.29% median +0.16% | सब दिन mean -0.05%  | win% 54 vs 48
   c5: signal mean +0.80% median +1.16% | सब दिन mean +0.27%  | win% 63 vs 56
-  o5: signal mean +0.23% median +0.39% | सब दिन mean +0.17%  | win% 55 vs 54
+  o5: signal mean +0.23% median +0.39% | सब दिन mean +0.18%  | win% 55 vs 54
   open खरीद 5d after 0.25% cost: mean -0.02%  win 52%
    2007-12: N=97 gap +0.37 oc +0.76 o5 +0.72 (सब दिन o5 +0.17)
    2013-20: N=62 gap +0.78 oc +0.08 o5 -0.29 (सब दिन o5 +0.17)
@@ -68,7 +68,7 @@ gap==0 दिनों का हिस्सा (पुराना bad open da
    last 2m: N=0 gap +nan oc +nan o5 +nan
    last 4m: N=4 gap +0.07 oc -0.25 o5 -1.04
    last 6m: N=7 gap +0.29 oc -0.07 o5 -0.07
-   last 12m: N=12 gap +0.45 oc -0.24 o5 +0.13
+   last 12m: N=11 gap +0.48 oc -0.22 o5 +0.13
 
 Nasdaq<=-2%: Nifty gap और US ret का corr 0.21 | सब दिन corr 0.42
 gap का कितना हिस्सा उसी दिन भरा (oc/-gap median, gap<-0.5%): -0.01
