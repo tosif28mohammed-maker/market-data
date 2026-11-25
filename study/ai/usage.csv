@@ -479,3 +479,43 @@ utc,provider,model,ok,note
 2026-11-25 02:31,groq,openai/gpt-oss-20b,1,5s
 2026-11-25 02:31,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-25 02:31,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-25 09:44,gemini,gemini-3.6-flash,1,49s
+2026-11-25 09:44,gemini,gemini-3.6-flash,1,25s
+2026-11-25 09:45,gemini,gemini-3.6-flash,1,21s
+2026-11-25 09:46,gemini,gemini-3.6-flash,1,32s
+2026-11-25 09:47,gemini,gemini-3.6-flash,1,36s
+2026-11-25 09:47,gemini,gemini-3.6-flash,1,17s
+2026-11-25 09:51,gemini,gemini-3.6-flash,1,167s
+2026-11-25 09:52,gemini,gemini-3.6-flash,1,81s
+2026-11-25 09:52,gemini,gemini-3.6-flash,1,15s
+2026-11-25 09:52,gemini,gemini-3.6-flash,1,9s
+2026-11-25 09:53,gemini,gemini-3.6-flash,1,20s
+2026-11-25 09:53,gemini,gemini-3.6-flash,1,10s
+2026-11-25 09:53,gemini,gemini-3.6-flash,1,16s
+2026-11-25 09:53,gemini,gemini-3.6-flash,1,12s
+2026-11-25 09:53,gemini,gemini-3.6-flash,1,17s
+2026-11-25 09:55,gemini,gemini-3.6-flash,1,24s
+2026-11-25 09:55,gemini,gemini-3.6-flash,1,33s
+2026-11-25 09:56,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-25 10:02,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-25 10:02,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-25 10:03,gemini,gemini-3.5-flash,1,33s
+2026-11-25 10:03,gemini,gemini-3.6-flash,1,34s
+2026-11-25 10:04,gemini,gemini-3.6-flash,1,32s
+2026-11-25 10:04,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-25 10:05,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-25 10:05,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-25 10:06,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-25 10:06,gemini,gemini-flash-latest,0,HTTP 503
+2026-11-25 10:06,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-25 10:07,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-25 10:07,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-25 10:08,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-25 10:08,gemini,gemini-3.5-flash,0,HTTP 429
+2026-11-25 10:08,gemini,gemini-flash-latest,0,HTTP 503
+2026-11-25 10:08,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-25 10:08,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-25 10:09,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-25 10:09,gemini,gemini-3.7-flash,0,quota 429 x4 -> stop
+2026-11-25 10:09,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-25 10:09,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
