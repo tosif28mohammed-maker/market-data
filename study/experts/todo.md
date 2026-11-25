@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-25 21:30 Kuwait
+Updated: 2026-11-26 Wednesday deep run
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -48,7 +48,8 @@ Updated: 2026-11-25 21:30 Kuwait
 
 ## Claude — भारी (हिस्सों में)
 - [x] r066: PSU vs private 12m switch (4 sectors analysis, banks बेकार)
-- [ ] r065 आगे: div-yield>3% को bear regime (Nifty<200DMA) filter के साथ
+- [x] r065 आगे: div-yield>3% + bear regime (26 Nov, r070: bear +9.95pp, target 45.8% — analysis में)
+- [ ] r070 आगे: episode-स्तर (हर bear दौर एक बार) + आज के 18 hi-yield blue chips paper watch
 - [ ] NW-02 आगे: futures cost (0.03%) + VIX/200DMA filter के साथ "Nasdaq<=-2% + gap-down" open खरीद; forward 25 Nov 2026 (Kospi -5%)
 - [ ] AI-C62277b forward: हर महीने 4-sector switch का चुनाव (25 Nov: private) देखना
 - [x] AI-248E4C switch (r066 बेकार); बाकी: band हुए private banks (LVB) का असर (data नहीं)

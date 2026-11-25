@@ -154,3 +154,6 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - पढ़ा (Claude): queue के 58 नए (Nasdaq -4%/bear zone, Nifty +2% best session, gold -₹4,420, SEBI BSE200/CPSE significant indices, LG promoter 2% बिक्री, PhonePe IPO, NDTV non-market videos). Testable नया: US crash पर Nifty decoupling.
 - नया claim: NW-03. Test: Nasdaq<=-2% + Nifty>=+1% (N34) 20d +3.02 vs +0.85, पर 5d -0.45 और Nasdaq<=-3% पर फेल → अभी analysis में (r068).
 - Notebook: r068 + r01 i114.
+
+## 2026-11-25 रात (Wednesday deep study, silent)
+- भाग A — AI-48006Eb (r065 आगे): div yield>3% blue chips सिर्फ़ Nifty<200DMA महीनों में: 250d +9.95pp vs बाकी blue chips (N52, 73% महीने, तीनों दौर +), bull में +1.5 (2013-20 -5.5); -10/+20 stop/target: target 45.8%, exp +3.43 vs बाकी 40.3%/+1.74 → अभी analysis में (~10 असली bear दौर). आज Nifty<200DMA, 18 hi-yield blue chips (r070).

@@ -1,0 +1,37 @@
+formation months by regime, mean basket returns (raw, before cost):
+  h regime     era  months    hi  ctrl  diff  pct_better
+ 60   bull     ALL     157  3.58  2.44  1.14        51.6
+ 60   bull 2003-12      31  5.34  3.63  1.71        58.1
+ 60   bull 2013-20      75  1.36  1.66 -0.30        44.0
+ 60   bull 2021-26      51  5.78  2.86  2.91        58.8
+ 60   bear     ALL      59  6.46  6.55 -0.08        49.2
+ 60   bear 2003-12      22  8.90  5.43  3.47        63.6
+ 60   bear 2013-20      21  7.99  7.79  0.20        52.4
+ 60   bear 2021-26      16  1.11  6.45 -5.35        25.0
+ 60    all     ALL     216  4.37  3.56  0.81        50.9
+ 60    all 2003-12      53  6.81  4.38  2.44        60.4
+ 60    all 2013-20      96  2.81  3.00 -0.19        45.8
+ 60    all 2021-26      67  4.66  3.72  0.94        50.7
+250   bull     ALL     154 13.84 12.37  1.48        51.3
+250   bull 2003-12      31 10.68  4.25  6.42        67.7
+250   bull 2013-20      75  7.16 12.63 -5.47        32.0
+250   bull 2021-26      48 26.33 17.19  9.14        70.8
+250   bear     ALL      52 46.91 36.96  9.95        73.1
+250   bear 2003-12      21 51.97 44.42  7.56        81.0
+250   bear 2013-20      21 50.71 38.36 12.35        52.4
+250   bear 2021-26      10 28.30 18.39  9.90       100.0
+250    all     ALL     206 22.19 18.58  3.61        56.8
+250    all 2003-12      52 27.35 20.47  6.88        73.1
+250    all 2013-20      96 16.69 18.26 -1.57        36.5
+250    all 2021-26      58 26.67 17.40  9.27        75.9
+
+per-trade 250d (hi-yield blue chips), after cost:
+regime        kind    n  win  avg_win  avg_loss   exp  years
+  bull     hold250 2241 59.8    44.23    -21.18 17.93     17
+  bull SL-10/TP+20 2241 44.8    19.57    -10.20  3.12     17
+  bear     hold250  699 82.0    69.62    -16.77 54.05     15
+  bear SL-10/TP+20  699 45.8    19.62    -10.24  3.43     15
+
+bear-regime trades by year:  {2008: {'count': 70, 'mean': 85.1}, 2009: {'count': 67, 'mean': 137.4}, 2010: {'count': 7, 'mean': 10.2}, 2011: {'count': 68, 'mean': 2.2}, 2012: {'count': 18, 'mean': 36.0}, 2013: {'count': 64, 'mean': 87.4}, 2015: {'count': 36, 'mean': 24.9}, 2016: {'count': 59, 'mean': 70.3}, 2017: {'count': 8, 'mean': 24.8}, 2018: {'count': 10, 'mean': -1.2}, 2019: {'count': 30, 'mean': -11.9}, 2020: {'count': 87, 'mean': 72.4}, 2022: {'count': 88, 'mean': 22.5}, 2023: {'count': 18, 'mean': 86.5}, 2025: {'count': 69, 'mean': 21.1}}
+
+today 2026-11-02 Nifty>200DMA: False | hi-yield blue chips: ['BANKBARODA', 'BPCL', 'CANBK', 'COALINDIA', 'HCLTECH', 'HEROMOTOCO', 'HINDPETRO', 'INDUSTOWER', 'ITC', 'NATIONALUM', 'ONGC', 'PFC', 'POWERGRID', 'RECLTD', 'TCS', 'TECHM', 'VEDL', 'WIPRO']

@@ -1,0 +1,1 @@
+bear ctrl SL-10/TP+20: n 5175 win 40.3 avg_win 19.5 avg_loss -10.23 exp 1.74
