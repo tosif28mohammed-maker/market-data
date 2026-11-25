@@ -148,3 +148,9 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - Test AI-PE-01 Nifty PE/EY÷G-sec (2015-26): सबसे सस्ते 20% दिन अगले 1 साल +24.5% (2020 crash हटाकर +18.8) vs सब दिन +13.0; Motilal के EY/GS≥1.4, PE≤12, <0.87 avoid कभी नहीं लगे (range 0.38-0.87) → अभी analysis में; आज PE 21.0, EY/GS 0.64 (r067)
 - Test BS-01 लगातार 8 down close (n11.5k): 5d excess +0.31 (placebo -0.07) cost बाद ~0; -5/+10 target 30.8% → बेकार (r067)
 - test_queue: AI-D1EDA5/7292D2/CB739F/0811E2 → done. Notebook: r067 + r01 i112, i113.
+
+## 2026-11-25 21:11 (daily report run)
+- Robot: collector 25 Nov 17:54 UTC — failed 0, नए 91 (58 रखे); YouTube transcripts 0 (RequestBlocked 9).
+- पढ़ा (Claude): queue के 58 नए (Nasdaq -4%/bear zone, Nifty +2% best session, gold -₹4,420, SEBI BSE200/CPSE significant indices, LG promoter 2% बिक्री, PhonePe IPO, NDTV non-market videos). Testable नया: US crash पर Nifty decoupling.
+- नया claim: NW-03. Test: Nasdaq<=-2% + Nifty>=+1% (N34) 20d +3.02 vs +0.85, पर 5d -0.45 और Nasdaq<=-3% पर फेल → अभी analysis में (r068).
+- Notebook: r068 + r01 i114.

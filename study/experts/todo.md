@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-25 18:30 Kuwait
+Updated: 2026-11-25 21:30 Kuwait
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -90,3 +90,5 @@ Updated: 2026-11-25 18:30 Kuwait
 - PC transcripts 2026-11-25 10:24: work folder not connected to the scheduled task (connectedFolders empty) and no device_bash — Tosif to re-attach the yt_transcripts folder in the task settings or run `py pc_transcripts.py 30` by hand
 
 - [ ] PC-01: SEBI closing auction नया ढाँचा कब से — लागू होने पर ET-02b close entry बनाम 3:20 entry दोबारा देखना
+
+- [ ] NW-03 forward (r068): 2, 6, 20 Nov 2026 decoupling signals — 20d बाद (दिसंबर मध्य) देखना
