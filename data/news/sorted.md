@@ -1,38 +1,32 @@
 # छँटी हुई खबरें — 2026-11-25 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 1140, छँटी 990, काम की (ताकत ≥3, fact, एक कहानी एक बार) 324, अफ़वाह/राय/clickbait 170
+कुल headlines 1140, छँटी 1019, काम की (ताकत ≥3, fact, एक कहानी एक बार) 332, अफ़वाह/राय/clickbait 241
 
-- [5/negative] : Sensex Today Tanks 1,484 Points | Nifty Below 25,350 | 4 Reasons Why Indian Share Markets Are Falling - Equitymaster
-- [5/positive] TATASTEEL: Tata Steel to acquire APL Apollo control in ₹15,511-cr deal | Tap to know more | Inshorts - Inshorts
-- [5/negative] market: शेयर बाजार में भारी गिरावट: निवेशकों के एक दिन में डूब गए ₹5.30 लाख करोड़, 25400 के नीचे बंद हुआ निफ्टी - Jagran
-- [5/negative] market: शेयर बाजार में मचा हाहाकार, सेंसेक्स 1483 अंक और निफ्टी 450 अंक लुढ़का, निवेशकों के ₹6 लाख करोड़ से ज्यादा - India TV Hindi
-- [5/mixed] TATASTEEL: Tata Steel share price in focus on announcement to acquire 26.38% stake in APL Apollo Tubes for ₹15,511 crore - Livemint
-- [5/positive] Technology: Adani Is Seeking $1.5 Billion For Data Centres, Reliance's $110 Billion AI Push And India's Race For Digital Infrastructure - Inventiva
-- [5/positive] Construction: Sterling and Wilson shares gain 7% on winning orders worth ₹2,050 crore - Business Standard
-- [5/negative] trade: Trump set to unveil new set of tariffs on India, China, EU, 13 other trade partners - The Indian Express
-- [5/negative] AXISBANK,SBIN: Bank Nifty Crashes Nearly 1,000 Points in Early Trade as Banking Stocks Sell Off; Axis Bank, SBI Lead Losses - Kotak Neo
-- [5/positive] LT: Larsen & Toubro Secures (Large*) Order for Deploying AI Cluster - Larsen & Toubro
+- [5/negative] Indices: Sensex Today Tanks 1,484 Points | Nifty Below 25,350 | 4 Reasons Why Indian Share Markets Are Falling - Equitymaster
+- [5/negative] commodity: Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows; - The Times of India
+- [5/positive] HCL-INS: HCL Infosystems shares skyrocket 20% to hit upper circuit after work order from Defence Ministry – check... - Moneycontrol.com
+- [5/positive] CSY: Cochin Shipyard Share Price Jumps 7% After ₹5,000 Cr Navy Deal Win - Univest
+- [5/negative] Trade: Trump set to unveil new set of tariffs on India, China, EU, 13 other trade partners - The Indian Express
+- [5/negative] Energy: US Bombs Iran for Ninth Day as Standoff Over Hormuz Deepens - EnergyNow.com
+- [5/mixed] AI: AI Selloff Splits Global Markets: SPY, QQQ Rebound After Worst Weekly Rout In Years, While South Korea Slides Despite Government Support - TradingView
+- [5/positive] RELIANCE: Reliance to invest Rs 15,000 crore in nearly 100 compressed biogas plants by 2030 - BioEnergy Times
+- [5/negative] HDFCBANK: Bank Nifty crashes over 2,000 points, plunges 3.1%; HDFC Bank, ICICI Bank, Axis Bank, SBI among top losers - Moneycontrol.com
 - [5/positive] LT: Larsen & Toubro secures ₹10,000-15,000 crore AI order - Multibagg AI
-- [5/positive] LT: India's L&T wins large AI cluster order - TradingView
-- [5/positive] LT: L&T Secures Large Order for AI Computing Expansion at Chennai Data Centre - T&D India
-- [5/positive] LT: L&T bags large order worth ₹5,000 crore to deploy AI cluster in Chennai - Business Standard
-- [5/positive] LT: Larsen & Toubro Wins Up to INR50 Billion AI Data Center Order - marketscreener.com
 - [5/positive] ADANIENT: Adani Enterprises Limited Says 360 ONE Will Invest ₹2,790 Crore - Multibagg AI
-- [5/negative] metals,banks: Closing Bell: Sensex plunges 1,484 points, Nifty slips below 25,400; Metals, banks lead losses - ET Now
-- [5/negative] : Why is stock market falling today? India VIX jumps over 7%; Nifty, Sensex falls 1.1% - Check key reasons - ET Now
-- [4/positive] Corporate earnings: Nifty-500 companies post Rs 5.14 lakh crore profit in Q2 FY27, strongest earnings growth in 12 quarters: Report - ChiniMandi
-- [4/positive] : Investors become richer by ₹34.61 trillion as Sensex surges in November - Business Standard
-- [4/negative] : Stock Market Crash: Sensex Falls 1.77%, Nifty at 25,350 - HDFC Sky
-- [4/positive] : Indian Stocks Rally 21% From October Lows, but After Q2 Results Now Trade 14% Above the S&P 500 - NiftyTrader
-- [4/positive] TATASTEEL: Stocks to Watch Today, Nov 23: Tata Steel’s ₹15,511-Cr APL Apollo Deal Leads - NiftyTrader
-- [4/positive] ITI,PREMEX,THOMASCOOK: ITI, Premier Explosives, Thomas Cook: 5 stocks surge up to 17% on heavy volumes; check full list - Upstox
+- [5/positive] ADANIENT: Adani Enterprises Says AAHL To Issue Equity Shares For 27.90 Billion Rupees - TradingView
+- [5/positive] ADANIENT: Adani signs $1 billion copper supply deal with recycler Attero to cut import dependence: Reuters - CNBC TV18
+- [5/positive] ADANIENT: 360 One Alts to invest $300 mn in Adani Airports - VCCircle
+- [5/positive] ADANIENT: Adani Airports raises ₹2,790 crore from 360 ONE Asset at $18 billion valuation - Fortune India
+- [4/positive] Earnings: Nifty-500 companies post Rs 5.14 lakh crore profit in Q2 FY27, strongest earnings growth in 12 quarters: Report - ChiniMandi
+- [4/positive] ITI,PREMEXPL,TCOM: ITI, Premier Explosives, Thomas Cook: 5 stocks surge up to 17% on heavy volumes; check full list - Upstox
 - [4/negative] MARUTI: SENSEX crashes over 1,100 points, NIFTY below 25,500; Maruti Suzuki, Sterling & Wilson among buzzing stocks - Upstox
-- [4/positive] ADANIENT: Adani Enterprises' airport arm enters agreement with 360 ONE Asset to raise up to ₹2,790 crore - Upstox
-- [4/mixed] economy: S&P Global sees India’s GDP growing 7% in FY27 and FY28; expects 25 bps RBI rate hike in December - Fortune India
+- [4/positive] macro: India's GDP growth seen at 7% this fiscal & next: S&P - Fibre2Fashion
+- [4/mixed] macro: S&P Global sees India’s GDP growing 7% in FY27 and FY28; expects 25 bps RBI rate hike in December - Fortune India
+- [4/mixed] macro: India to grow 7% in FY27, El Nino to push inflation up: S&P Global - The New Indian Express
 - [4/negative] rates: S&P Global sees RBI hiking rates in December, cuts India’s FY28 growth forecast to 7% - Moneycontrol.com
-- [4/positive] ITI: ITI Share Price Rallies Despite Market Sell-off as Stock Gains 134% in Five Years and Q2 Losses Narrow - Kotak Neo
-- [4/positive] GLAXO: GlaxoSmithKline Pharmaceuticals Launches BLENREP in India - Multibagg AI
-- [4/positive] Investment: Private investment announcements jump 58.5% to ₹26.6 trn in H1 FY27: CII - Business Standard
+- [4/mixed] macro: India to be one of APAC champions with 7% GDP forecast for FY27, but El Nino will prove costly: S&P - The Economic Times
+- [4/negative] retail: Lenskart Shares Close 4% Down After ₹921 Crore Block Deal Executed Earlier at 2.6% Discount to Previous Close - Kotak Neo
+- [4/mixed] TATASTEEL: Tata Steel to acquire APL Apollo control in ₹15,511-cr deal | Tap to know more | Inshorts - Inshorts
 - [4/negative] Trade: India faces fresh US tariff threat as Trump prepares to raise duties on 16 nations - India Today
 - [4/negative] Trade: US Tariffs on India: Fresh Levies Loom as Trade Deal Awaits Clarity - NiftyTrader
 - [4/negative] Trade: US plans tariff hike on India, China among several nations - Rediff.com
@@ -40,5 +34,11 @@
 - [4/negative] Trade: US To Impose Tariffs On India For Excess Manufacturing Capacity: Report - Deccan Chronicle
 - [4/negative] Trade: White House Weighs Fresh Tariff Round, With India Facing Steeper Duties Than Japan or the EU - BigGo Finance
 - [4/negative] Trade: India in US tariff crosshairs as Trump targets 16 trading partners in fresh industrial probe - Telegraph India
-- [4/negative] trade: US planning to hike tariffs against India, 15 other countries: Report - Business Standard
-- [4/negative] metal,banking: शेयर बाजार में हाहाकार, मेटल और बैंकिंग शेयरों में भारी बिकवाली, सेंसेक्स 82,450 के नीचे फिसला - Upstox
+- [4/negative] Metals: Copper rout threatens Chile’s budget recovery hopes - Mining.com
+- [4/positive] Precious Metals: Gold price forecast: Goldman Sachs sees $4,650 by 2027 despite US rate pressures — what investors should do - Livemint
+- [4/negative] Precious Metals: Global Gold Prices Plunge 36% From Peak, Fed Interest Rates Blamed - BigGo Finance
+- [4/positive] INFY: Infosys Limited Shares Rise 12.9% as AI Deals Build - Multibagg AI
+- [4/negative] ROUTE: Route Mobile stock falls 37.69% in year as growth trails - Multibagg AI
+- [4/positive] PTC: PTC Industries rebounds, up 3% from day's low on major defence order win - Business Standard
+- [4/positive] PTC: PTC Industries shares gain after securing 400-tonne titanium order from defence sector - CNBC TV18 - LinkedIn
+- [4/positive] PREMEX: India's Premier Explosives secures defence export deal - TradingView
