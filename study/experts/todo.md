@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-26 Wednesday deep run
+Updated: 2026-11-26 06:11
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -40,6 +40,9 @@ Updated: 2026-11-26 Wednesday deep run
 - [ ] test_queue pending 4 mcap-tier: AI-0B9866/AI-EF9B89/AI-867542/AI-6EF0EE mcap-tier (पुराना mcap proxy = price×आज के shares)
 - [ ] book_finder: Gutenberg 503/timeouts — mirror (gutenberg.pglaf.org) या बाद में; Gemini WCS 17 हिस्सा HTTP 404 जाँचना
 
+- [ ] universe500 daily data 2 Nov 2026 पर रुका — robot workflow जाँचना (26 Nov 06:11 देखा)
+- [ ] world_claims.csv खाली (world scan से claims नहीं आ रहे) — world_scan.py/ai_manager log जाँचना
+
 ## Data कमी → robot (23 Nov 22:00, Tosif: "कमी हो तो download करो / किसी और को दो, नहीं हो सके तो मुझे बताओ")
 - [x] GDP + macro: scripts/macro_history.py → data/macro/ (World Bank 1960-2025: GDP INR/USD, real growth, CPI, mcap/GDP, lending rate; FRED: 10y G-sec 2011-26 monthly, CPI index, USDINR daily, IIP, India quarterly real GDP 2004-26, US 10y). workflow macro_data.yml (रोज़ 6:55 PM IST)
 - [x] Nifty PE (2015-26) से AI-D1EDA5/7292D2/CB739F/0811E2 test (25 Nov 18:11, r067). बाकी: AI-5C5C39 (mcap/GDP); Nifty PE 2015 से पहले (robot 2011 404) — दूसरा source; Next50/Midcap PE पर भी r067 दोहराना
@@ -49,7 +52,8 @@ Updated: 2026-11-26 Wednesday deep run
 ## Claude — भारी (हिस्सों में)
 - [x] r066: PSU vs private 12m switch (4 sectors analysis, banks बेकार)
 - [x] r065 आगे: div-yield>3% + bear regime (26 Nov, r070: bear +9.95pp, target 45.8% — analysis में)
-- [ ] r070 आगे: episode-स्तर (हर bear दौर एक बार) + आज के 18 hi-yield blue chips paper watch
+- [x] r070 आगे: episode-स्तर (26 Nov 06:11, r072: 14 दौर, +7.4pp, 10/14 +)
+- [ ] r070 forward: आज के दौर (Feb 2026 से) के 17 hi-yield blue chips — 250d बाद देखना (paper watch)
 - [x] NW-02 आगे (26 Nov, r071): control gap-down बिना US crash बेहतर (+0.57 vs +0.41) → NW-02 बेकार
 - [ ] AI-C62277b forward: हर महीने 4-sector switch का चुनाव (25 Nov: private) देखना
 - [x] AI-248E4C switch (r066 बेकार); बाकी: band हुए private banks (LVB) का असर (data नहीं)
