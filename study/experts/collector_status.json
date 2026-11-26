@@ -1,12 +1,16 @@
 {
- "run_utc": "2026-11-26 08:33",
- "sources": 62,
- "failed": [],
- "new_items": 196,
- "kept": 148,
+ "run_utc": "2026-11-26 08:54",
+ "sources": 74,
+ "failed": [
+  "r/IndianStreetBets",
+  "r/IndiaInvestments",
+  "r/IndianStockMarket"
+ ],
+ "new_items": 243,
+ "kept": 195,
  "transcripts_ok": 0,
  "transcript_errors": {
-  "RequestBlocked": 10
+  "RequestBlocked": 2
  },
  "books_new": []
 }
