@@ -1,7 +1,5 @@
-ADFFOODS | ADF Foods
+ACE | Action Construction Equipment
 AEROENTER | Aeroflex Enterprises
-AGARIND | Agarwal Industrial
-AJAXENGG | Ajax Engineering
 AJMERA | Ajmera Realty & Infra
 ALICON | Alicon Castalloy
 AMBER | Amber Enterprises
@@ -11,46 +9,45 @@ APLAPOLLO | APL Apollo Tubes
 APOLLOHOSP | Apollo Hospitals Enterprise
 APOLLOPIPE | Apollo Pipes
 ARIS | Arisinfra Solutions
-ASHOKA | Ashoka Buildcon
 ASTERDM | Aster DM Quality Care
+AVALON | Avalon Technologies
 AXISBANK | Axis Bank
 AYE | Aye Finance
 BAJAJHCARE | Bajaj Healthcare
+BAJAJHIND | Bajaj Hindusthan Sugar
 BETA | Beta Drugs
 BFINVEST | BF Investment
+BHAGERIA | Bhageria
 BLKASHYAP | B. L. Kashyap and Sons
 BLUESTARCO | Blue Star
 BLUSPRING | Bluspring Enterprises
 BUILDPRO | Shankara Buildpro
 CANHLIFE | Canara HSBC Life Insurance
-CAPLIPOINT | Caplin Point Laboratories
+CARYSIL | CARYSIL
 CENTUM | Centum Electronics
 CHALET | Chalet Hotels
+CLSEL | Chaman Lal Setia Exports
 COMSYN | Commercial Syn Bags
 CREDITACC | CREDITACCESS GRAMEEN
 CUB | City Union Bank
 DABUR | Dabur
 DBOL | Dhampur Bio Organics
-DCAL | Dishman Carbogen Amcis
+DCBBANK | DCB Bank
 DEEDEV | DEE Development Engineers
 DELTACORP | Delta Corp
-DHANBANK | Dhanlaxmi Bank
+DHAMPURSUG | Dhampur Sugar Mills
 DSSL | Dynacons Systems & Solutions
-EASEMYTRIP | Easy Trip Planners
+DWARKESH | Dwarikesh Sugar
 EBGNG | GNG Electronics
 EIHOTEL | EIH
 EPACK | EPACK Durable
 FABTECH | Fabtech Technologies
-FCL | Fineotex Chemical
-FEDFINA | Fedbank Financial Services
 FISCHER | Fischer Medical Ventures
 GALAXYSURF | Galaxy Surfactants
 GLOBUSSPR | Globus Spirits
 GREAVESCOT | Greaves Cotton
-GREENLAM | Greenlam
+HEGAM | HEG Advanced Materials
 HESTERBIO | Hester Biosciences
-HEXAGON | Hexagon Nutrition
-HIMATSEIDE | Himatsingka Seide
 HINDOILEXP | Hindustan Oil Exploration
 HINDUNILVR | Hindustan Unilever
 HITECH | Hi-Tech Pipes
@@ -59,19 +56,19 @@ HUBTOWN | Hubtown
 IIFL | IIFL Finance
 IIFLCAPS | IIFL Capital Services
 IITL | Industrial Investment Trust
+IKS | Inventurus Knowledge Solutions
+INDIACEM | The  Cements
 INDIAGLYCO | Glycols
-INDIASHLTR | Shelter Finance
-INDOCO | Indoco Remedies
 INDUSINDBK | IndusInd Bank
 INNOVACAP | Innova Captab
 INOXGREEN | Inox Green Energy Services
-INOXINDIA | INOX
 INSECTICID | Insecticides ()
 INTELLECT | Intellect Design Arena
 IPL | Pesticides
 IREDA | Indian Renewable Energy Development Agency
 ITI | ITI
 J&KBANK | The Jammu & Kashmir Bank
+JAMNAAUTO | Jamna Auto
 JGCHEM | J.G.Chemicals
 JISLJALEQS | Jain Irrigation Systems
 JLHL | Jupiter Life Line Hospitals
@@ -81,20 +78,24 @@ KALAMANDIR | Sai Silks (Kalamandir)
 KDDL | KDDL
 KOPRAN | Kopran
 KRISHNADEF | Krishna Defence And Allied
-KTKBANK | The Karnataka Bank
 LASERPOWER | Laser Power & Infra
 LINDEINDIA | Linde
+MAHABANK | Bank of Maharashtra
 MANALIPETC | Manali Petrochemicals
+MANBA | Manba Finance
 MANINDS | Man  ()
 MARSONS | Marsons
 MARUTI | Maruti Suzuki
 MCLOUD | Magellanic Cloud
+MCX | Multi Commodity Exchange of
 MOBIKWIK | One Mobikwik Systems
+MOREPENLAB | Morepen Laboratories
 NAVA | NAVA
 NAZARA | Nazara Technologies
-NDRAUTO | Ndr Auto Components
 OMPOWER | Om Power Transmission
-PARACABLES | Paramount Communications
+ONWARDTEC | Onward Technologies
+ORIENTELEC | Orient Electric
+PARAGMILK | Parag Milk Foods
 PAYTM | One 97 Communications
 PFOCUS | Prime Focus
 PGEL | PG Electroplast
@@ -102,21 +103,23 @@ PINELABS | Pine Labs
 POKARNA | Pokarna
 POLICYBZR | PB Fintech
 PREMEXPLN | Premier Explosives
+PRESTIGE | Prestige Estates Projects
 QUADFUTURE | Quadrant Future Tek
 RATNAVEER | Ratnaveer Precision Engineering
 RBZJEWEL | RBZ Jewellers
 REGAAL | Regaal Resources
-RELAXO | Relaxo Footwears
+RENUKA | Shree Renuka Sugars
 RIR | RIR Power Electronics
 RISHABH | Rishabh Instruments
 ROSSTECH | Rossell Techsys
+RUBICON | Rubicon Research
 SAKAR | Sakar Healthcare
 SALASAR | Salasar Techno Engineering
 SAMBHV | Sambhv Steel Tubes
 SANDHAR | Sandhar Technologies
-SANGAMIND | Sangam ()
 SGFIN | SG Finserve
 SGMART | SG Mart
+SHAILY | Shaily Engineering Plastics
 SHANTIGOLD | Shanti Gold International
 SHILPAMED | Shilpa Medicare
 SHRINGARMS | Shringar House of Mangalsutra
@@ -127,36 +130,34 @@ SOLARWORLD | Solarworld Energy Solutions
 SPANDANA | Spandana Sphoorty Financial
 SPORTKING | Sportking
 SSWL | Steel Strips Wheels
-STANLEY | Stanley Lifestyles
 STEELCAS | Steelcast
 SUBEXLTD | Subex
 SUBROS | Subros
 SUNTV | Sun TV Network
 SURAKSHA | Suraksha Diagnostic
-SYNCOMF | Syncom Formulations ()
 TATASTEEL | Tata Steel
 TCIEXP | TCI Express
 THOMASCOOK | Thomas Cook  ()
 THOMASCOTT | Thomas Scott ()
 THYROCARE | Thyrocare Technologies
 TINNARUBR | Tinna Rubber and Infrastructure
-TITAN | Titan
 TTKHLTCARE | TTK Healthcare
 TURTLEMINT | Turtlemint Fintech Solutions
 TVSHLTD | TVS Holdings
 UGROCAP | Ugro Capital
+UJJIVANSFB | Ujjivan Small Finance Bank
 UNICHEMLAB | Unichem Laboratories
-URBANCO | Urban
+UNITECH | Unitech
+UTKARSHBNK | Utkarsh Small Finance Bank
 UTLSOLAR | Fujiyama Power Systems
+UTTAMSUGAR | Uttam Sugar Mills
 V2RETAIL | V2 Retail
-VAML | Vedanta Aluminium Metal
 VERANDA | Veranda Learning Solutions
-VESUVIUS | Vesuvius
-VIMTALABS | Vimta Labs
 VISHNU | Vishnu Chemicals
 VOLTAS | Voltas
 WELSPUNLIV | Welspun Living
 WINDMACHIN | Windsor Machines
 WOCKPHARMA | Wockhardt
-YATRA | Yatra Online
+WSTCSTPAPR | West Coast Paper Mills
+ZAGGLE | Zaggle Prepaid Ocean Services
 ZEEL | Zee Entertainment Enterprises

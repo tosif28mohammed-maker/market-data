@@ -1,5 +1,5 @@
 {
- "last": "2026-11-25",
+ "last": "2026-11-26",
  "open": [
   {
    "id": "T00570",
@@ -13,7 +13,7 @@
    "note": "dist -6.9% (limit -5.5%)",
    "entry_date": "2026-11-17",
    "entry_price": 262.4,
-   "days": 6
+   "days": 7
   },
   {
    "id": "T00577",
@@ -23,12 +23,12 @@
    "qty": 1351,
    "signal_date": "2026-11-17",
    "sl": 68.09,
-   "target": 76.77,
+   "target": 76.66,
    "note": "WMA 20: दूरी -3.0% (सीमा -2.8%); 2021-26 जीत 74%; RSI 46; MACD नीचे; BB %B 0.42; 50 SMA नीचे, 200 SMA नीचे; 52w high से -14%; support 68.8 / resistance 83.5, volume 0.6x",
    "entry_date": "2026-11-18",
    "entry_price": 74.0,
-   "days": 5,
-   "mark": 2229.0
+   "days": 6,
+   "mark": 2567.0
   },
   {
    "id": "T00599",
@@ -38,12 +38,12 @@
    "qty": 531,
    "signal_date": "2026-11-19",
    "sl": 171.68,
-   "target": 200.28,
+   "target": 199.8,
    "note": "SMA 56: दूरी -6.4% (सीमा -6.1%); 2021-26 जीत 71%; RSI 40; MACD नीचे (मुड़ रहा); BB %B 0.15; 50 SMA नीचे, 200 SMA नीचे; 52w high से -27%; support 185.3 / resistance 208.9, volume 1.1x",
    "entry_date": "2026-11-20",
    "entry_price": 188.05,
-   "days": 3,
-   "mark": -1328.0
+   "days": 4,
+   "mark": -1094.0
   },
   {
    "id": "T00617",
@@ -57,7 +57,7 @@
    "note": "dist -8.7% (limit -4.2%)",
    "entry_date": "2026-11-25",
    "entry_price": 163.17,
-   "days": 1
+   "days": 2
   },
   {
    "id": "T00618",
@@ -71,24 +71,39 @@
    "note": "dist -3.9% (limit -3.4%)",
    "entry_date": "2026-11-25",
    "entry_price": 384.25,
-   "days": 1
-  }
- ],
- "pending": [
+   "days": 2
+  },
   {
    "id": "T00627",
    "strategy": "EQ_FOCUS",
    "symbol": "HUBTOWN",
    "side": "Buy",
-   "qty": 0,
+   "qty": 515,
    "signal_date": "2026-11-25",
    "sl": 161.44,
-   "target": 200.85,
-   "note": "HMA 2: दूरी -3.3% (सीमा -1.6%); 2021-26 जीत 47%; RSI 64; MACD ऊपर (मुड़ रहा); BB %B 0.96; 50 SMA ऊपर, 200 SMA ऊपर; 52w high से -43%; support 142.2 / resistance 202.0, volume 11.1x"
+   "target": 221.99,
+   "note": "HMA 2: दूरी -3.3% (सीमा -1.6%); 2021-26 जीत 47%; RSI 64; MACD ऊपर (मुड़ रहा); BB %B 0.96; 50 SMA ऊपर, 200 SMA ऊपर; 52w high से -43%; support 142.2 / resistance 202.0, volume 11.1x",
+   "entry_date": "2026-11-26",
+   "entry_price": 194.0,
+   "days": 1,
+   "mark": 10836.0
   }
  ],
- "seq": 632,
- "gap_last": "2026-11-25",
- "usfade_last_BANKNIFTY": "2026-11-25",
- "usfade_last_NIFTY": "2026-11-25"
+ "pending": [
+  {
+   "id": "T00634",
+   "strategy": "EQ_FOCUS",
+   "symbol": "MAHABANK",
+   "side": "Buy",
+   "qty": 0,
+   "signal_date": "2026-11-26",
+   "sl": 84.36,
+   "target": 100.62,
+   "note": "HMA 19: दूरी -6.4% (सीमा -4.0%); 2021-26 जीत 77%; RSI 60; MACD ऊपर; BB %B 0.67; 50 SMA ऊपर, 200 SMA ऊपर; 52w high से -6%; support 78.1 / resistance 100.7, volume 0.8x"
+  }
+ ],
+ "seq": 639,
+ "gap_last": "2026-11-26",
+ "usfade_last_BANKNIFTY": "2026-11-26",
+ "usfade_last_NIFTY": "2026-11-26"
 }
