@@ -681,3 +681,38 @@ utc,provider,model,ok,note
 2026-11-26 02:27,groq,openai/gpt-oss-120b,1,4s
 2026-11-26 02:27,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-26 02:27,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-26 09:40,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-26 09:41,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-26 09:41,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-26 09:43,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-26 09:43,gemini,gemini-flash-latest,0,HTTP 503
+2026-11-26 09:43,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-26 09:44,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-26 09:44,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-26 09:44,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-26 09:45,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-26 09:50,gemini,gemini-flash-latest,0,HTTP 503
+2026-11-26 09:50,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-26 09:51,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-26 09:51,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-26 09:51,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-26 09:52,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-26 09:52,gemini,gemini-flash-latest,0,HTTP 503
+2026-11-26 09:52,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-26 09:54,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-26 09:54,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-26 09:54,gemini,gemini-3.7-flash,0,HTTP 429
+2026-11-26 09:55,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-26 09:55,gemini,gemini-flash-latest,0,HTTP 429
+2026-11-26 09:55,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-26 09:55,gemini,gemini-3.6-flash,0,HTTP 503
+2026-11-26 09:59,gemini,gemini-3.8-flash,0,HTTP 503
+2026-11-26 09:59,gemini,gemini-3.7-flash,0,HTTP 503
+2026-11-26 09:59,gemini,gemini-3.5-flash,0,HTTP 503
+2026-11-26 10:00,gemini,gemini-flash-latest,0,HTTP 429
+2026-11-26 10:00,gemini,gemini-2.5-flash,0,HTTP 404
+2026-11-26 10:00,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-26 10:00,gemini,gemini-3.8-flash,0,HTTP 429
+2026-11-26 10:00,gemini,gemini-3.7-flash,0,quota 429 x4 -> stop
+2026-11-26 10:00,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-26 10:00,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
