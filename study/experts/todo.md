@@ -131,3 +131,4 @@ Updated: 2026-11-26 21:11
 - [ ] FII-02 (FII 15+ सत्र streak) + BB-01 (buyback सूचना event) — FII daily इतिहास (NSDL) और BSE announcements इतिहास आने पर test
 
 - 2026-11-26: manual video list (study/experts/manual/video_list.md, 167 links, priority) — Tosif free hone par transcript copy-paste karenge; jo aaye wo transcripts/ me + list status=done. Har hafte build_list.py dobara chalao.
+- [ ] PROMPT BANK (Tosif 26 Nov): study/experts/friend_claude/PROMPT_BANK.md ko har run update karo — bahar ho sakne wala kaam (web research, kitab, YouTube bina transcript, company deep-dive) ka poora prompt PENDING/AGLE IDEAS me; YouTube pending list queue.csv se. Tosif ko sirf tab do jab woh maange.
