@@ -498,4 +498,37 @@ run,symbol,company,series,issue_start,issue_end,price_band,size,category,offered
 2026-11-23_1817,WATRANA,Watrana Rentals Limited,SME,19-Nov-2026,23-Nov-2026,Rs.232 to Rs.245,3516000.0,Others,,454800.0,,139.76
 2026-11-23_1817,WATRANA,Watrana Rentals Limited,SME,19-Nov-2026,23-Nov-2026,Rs.232 to Rs.245,3516000.0,Total,0.0,314245200.0,0.0,139.76
 2026-11-25_1240,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000.0,Total,0.0,0.0,0.0,0.31
-2026-11-25_1820,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Total,0.0,0.0,0.00,0.38
+2026-11-25_1820,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000.0,Total,0.0,0.0,0.0,0.38
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Qualified Institutional Buyers(QIBs),0,282000,0.00,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Foreign Institutional Investors(FIIs),,0,,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0,,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Mutual funds,,0,,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Others,,282000,,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Non Institutional Investors,0,2385000,0.00,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),0,2090000,0.00,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Corporates,,330000,,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Individuals(Other than RIIs),,1760000,,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Others,,0,,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),0,295000,0.00,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Corporates,,0,,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Individuals(Other than RIIs),,295000,,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Others,,0,,0.86
+2026-11-26_1238,SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,SME,25-Nov-2026,27-Nov-2026,Rs.130 to Rs.142,6596000,Total,0.0,2667000.0,0.00,0.86
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Qualified Institutional Buyers(QIBs),5613270,0,0.0,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Foreign Institutional Investors(FIIs),,0,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Domestic Financial Institutions(Banks/ Financial Institutions(FIs)/ Insurance Companies),,0,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Mutual funds,,0,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Others,,0,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Non Institutional Investors,2916467,569868,0.19539669058487547,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Non Institutional Investors(Bid amount of more than Ten Lakh Rupees),1944312,309270,0.1590639773863454,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Corporates,,5382,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Individuals(Other than RIIs),,298584,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Others,,5304,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Non Institutional Investors(Bid amount of more than Two Lakh Rupees upto Ten Lakh Rupees),972155,260598,0.26806219172868523,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Corporates,,0,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Individuals(Other than RIIs),,259506,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Others,,1092,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Retail Individual Investors(RIIs),1944311,2884206,1.4834077470116664,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Cut Off,,2701920,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Price bids,,182286,,0.19457462864405434
+2026-11-26_1238,FOODLINK,Foodlink F&B Holdings (India) Limited,EQ,26-Nov-2026,30-Nov-2026,Rs.181 to Rs.191,10474048,Total,1.0474048E7,3454074.0,0.32977450552069265,0.19457462864405434

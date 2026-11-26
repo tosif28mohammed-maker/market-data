@@ -1,0 +1,36 @@
+[
+ {
+  "companyName": "Shree Siddhivinayak Greentech Industries Limited",
+  "issueEndDate": "27-Nov-2026",
+  "issuePrice": "Rs.130 to Rs.142",
+  "issueSize": "6596000",
+  "issueStartDate": "25-Nov-2026",
+  "orderEndDate": "2026-11-27 00:00:00",
+  "orderStartDate": "2026-11-25 00:00:00",
+  "segment": "SME",
+  "series": "SME",
+  "status": "Active",
+  "symbol": "SHREESIDHI",
+  "noOfsharesBid": "5703000",
+  "noOfSharesOffered": "6596000",
+  "noOfTime": "0.86"
+ },
+ {
+  "companyName": "Foodlink F&B Holdings (India) Limited",
+  "issueEndDate": "30-Nov-2026",
+  "issuePrice": "Rs.181 to Rs.191",
+  "issueSize": "10474048",
+  "issueStartDate": "26-Nov-2026",
+  "orderEndDate": "2026-11-30 00:00:00",
+  "orderStartDate": "2026-11-26 00:00:00",
+  "segment": "Equity",
+  "series": "EQ",
+  "status": "Active",
+  "symbol": "FOODLINK",
+  "category": "Total",
+  "noOfSharesOffered": "1.0474048E7",
+  "noOfTime": "0.19457462864405434",
+  "noOfsharesBid": "2037984.0",
+  "srNo": null
+ }
+]
