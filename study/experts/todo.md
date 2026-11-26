@@ -107,3 +107,10 @@ Updated: 2026-11-26 06:11
 - [ ] Dost ke Claude se aane wale jawab (Prompt 1 tariff, 2 breakout niyam, 3 afwah playbook, 4 WCS-30 kitab) jab Tosif paste kare tab test/jodna.
 - [ ] WCS30 (dost-Claude P4) baaki tests: R4 mid-cap band 101-250 (mcap rank har saal; agar itihaas ka shares-outstanding nahi to turnover rank proxy, saaf likhna), R2 trailing PEG<1, R3 RoE>15 + PE<Nifty PE ka BASE RATE (report ne kabhi nahi diya), R1 MTD screen bina qualitative step, R5/R6 sasta PE/PB + Nifty -30% ke baad. Pehle dekho itihaas wala PE/RoE kahan se (screener/BSE annual data robot se). R12 consistency = done (f96 BEKAAR).
 - [ ] Afwah score (notebook daily_strategy/d12-afwah-score) har 'hot topic' par lagao; rumour_cases.csv me naye case jodte raho (outcome 3/10/30 din).
+- [ ] FUNDAMENTAL ITIHAAS (dost-Claude P5, study/experts/friend_claude/2026-11-26_P5_fundamental_data.md) — ROBOT kaam, is kram me:
+  1. AMFI categorisation XLSX (half-yearly, 2017 H2 se; https://www.amfiindia.com/otherdata/categorisation-of-stocks) -> data/fund/amfi_rank/*.xlsx -> har company ka 6-mahine avg mcap rank. Isse WCS30 R4 (rank 1-100/101-250/251-1000, 2018-21 start, 5y hold) turant test.
+  2. DPE Public Enterprises Survey PDFs (PSU list) + Nifty PSU Bank -> data/fund/psu_flag.csv.
+  3. niftyindices monthly constituent files (2013-04 se, Equity Capital column -> shares = equity capital / face value) + press release PDFs (index add/drop) -> survivorship-free universe.
+  4. BSE XBRL results (2017-04 se) known_at ke saath -> data/fund/fund_pit (PAT, sales, EPS, net worth). Phir R2 PEG, R3 base rate, R1 MTD screen (2018+ start, chhota sample — saaf likhna).
+  5. Pre-2017 free point-in-time fundamentals NAHI (sirf Prowess/EODHD paid) — 2003-16 ke liye nateeje 'kamzor sabut' label.
+  NIYAM: NSE ki terms automated collection mana karti hain (circular WEB45032) — koi NAYA NSE-website scraping mat jodo; AMFI/DPE/niftyindices static files/BSE XBRL hi. Delisted share ko -100% / exit price se gino, chhodo mat.
