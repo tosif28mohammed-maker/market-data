@@ -69,7 +69,7 @@ Zerodha Daily Brief,blog,https://thedailybrief.zerodha.com/feed,India,en,daily 3
 Zerodha Aftermarket Report,blog,https://aftermarketreport.zerodha.com/feed,India,en,daily post-market rundown,new,0,0,2026-11-26
 ValuePickr forum,blog,https://forum.valuepickr.com/latest.rss,India,en,deep company research threads (posters may hold),new,0,0,2026-11-26
 TradingQnA,blog,https://tradingqna.com/latest.rss,India,en,rules/tax/platform Q&A,new,0,0,2026-11-26
-r/IndianStreetBets,social,https://www.reddit.com/r/IndianStreetBets/.rss,India,en,retail F&O mood (contrarian gauge; pump risk),new,0,0,2026-11-26
-r/IndiaInvestments,social,https://www.reddit.com/r/IndiaInvestments/.rss,India,en,long-term investor discussion,new,0,0,2026-11-26
-r/IndianStockMarket,social,https://www.reddit.com/r/IndianStockMarket/.rss,India,en,retail stock chatter (pump risk),new,0,0,2026-11-26
+r/IndianStreetBets,off,https://www.reddit.com/r/IndianStreetBets/.rss,India,en,retail F&O mood (contrarian gauge; pump risk),off 26 Nov: GitHub robot से 3 बार fail (Reddit GitHub IP block); दूसरा रास्ता (old.reddit .json / cloud browser) बाद में,0,0,2026-11-26
+r/IndiaInvestments,off,https://www.reddit.com/r/IndiaInvestments/.rss,India,en,long-term investor discussion,off 26 Nov: GitHub robot से 3 बार fail (Reddit GitHub IP block); दूसरा रास्ता (old.reddit .json / cloud browser) बाद में,0,0,2026-11-26
+r/IndianStockMarket,off,https://www.reddit.com/r/IndianStockMarket/.rss,India,en,retail stock chatter (pump risk),off 26 Nov: GitHub robot से 3 बार fail (Reddit GitHub IP block); दूसरा रास्ता (old.reddit .json / cloud browser) बाद में,0,0,2026-11-26
 Google News Nifty,news_rss,https://news.google.com/rss/search?q=Nifty&hl=en-IN&gl=IN&ceid=IN:en,India,en,aggregated headlines (check original),new,0,0,2026-11-26
