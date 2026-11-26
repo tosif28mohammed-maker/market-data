@@ -1,44 +1,44 @@
-# छँटी हुई खबरें — 2026-11-25 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
+# छँटी हुई खबरें — 2026-11-26 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 1140, छँटी 1019, काम की (ताकत ≥3, fact, एक कहानी एक बार) 332, अफ़वाह/राय/clickbait 241
+कुल headlines 1096, छँटी 1027, काम की (ताकत ≥3, fact, एक कहानी एक बार) 365, अफ़वाह/राय/clickbait 181
 
-- [5/negative] Indices: Sensex Today Tanks 1,484 Points | Nifty Below 25,350 | 4 Reasons Why Indian Share Markets Are Falling - Equitymaster
-- [5/negative] commodity: Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows; - The Times of India
-- [5/positive] HCL-INS: HCL Infosystems shares skyrocket 20% to hit upper circuit after work order from Defence Ministry – check... - Moneycontrol.com
-- [5/positive] CSY: Cochin Shipyard Share Price Jumps 7% After ₹5,000 Cr Navy Deal Win - Univest
-- [5/negative] Trade: Trump set to unveil new set of tariffs on India, China, EU, 13 other trade partners - The Indian Express
-- [5/negative] Energy: US Bombs Iran for Ninth Day as Standoff Over Hormuz Deepens - EnergyNow.com
-- [5/mixed] AI: AI Selloff Splits Global Markets: SPY, QQQ Rebound After Worst Weekly Rout In Years, While South Korea Slides Despite Government Support - TradingView
-- [5/positive] RELIANCE: Reliance to invest Rs 15,000 crore in nearly 100 compressed biogas plants by 2030 - BioEnergy Times
-- [5/negative] HDFCBANK: Bank Nifty crashes over 2,000 points, plunges 3.1%; HDFC Bank, ICICI Bank, Axis Bank, SBI among top losers - Moneycontrol.com
-- [5/positive] LT: Larsen & Toubro secures ₹10,000-15,000 crore AI order - Multibagg AI
-- [5/positive] ADANIENT: Adani Enterprises Limited Says 360 ONE Will Invest ₹2,790 Crore - Multibagg AI
-- [5/positive] ADANIENT: Adani Enterprises Says AAHL To Issue Equity Shares For 27.90 Billion Rupees - TradingView
-- [5/positive] ADANIENT: Adani signs $1 billion copper supply deal with recycler Attero to cut import dependence: Reuters - CNBC TV18
-- [5/positive] ADANIENT: 360 One Alts to invest $300 mn in Adani Airports - VCCircle
-- [5/positive] ADANIENT: Adani Airports raises ₹2,790 crore from 360 ONE Asset at $18 billion valuation - Fortune India
-- [4/positive] Earnings: Nifty-500 companies post Rs 5.14 lakh crore profit in Q2 FY27, strongest earnings growth in 12 quarters: Report - ChiniMandi
-- [4/positive] ITI,PREMEXPL,TCOM: ITI, Premier Explosives, Thomas Cook: 5 stocks surge up to 17% on heavy volumes; check full list - Upstox
-- [4/negative] MARUTI: SENSEX crashes over 1,100 points, NIFTY below 25,500; Maruti Suzuki, Sterling & Wilson among buzzing stocks - Upstox
-- [4/positive] macro: India's GDP growth seen at 7% this fiscal & next: S&P - Fibre2Fashion
-- [4/mixed] macro: S&P Global sees India’s GDP growing 7% in FY27 and FY28; expects 25 bps RBI rate hike in December - Fortune India
-- [4/mixed] macro: India to grow 7% in FY27, El Nino to push inflation up: S&P Global - The New Indian Express
-- [4/negative] rates: S&P Global sees RBI hiking rates in December, cuts India’s FY28 growth forecast to 7% - Moneycontrol.com
-- [4/mixed] macro: India to be one of APAC champions with 7% GDP forecast for FY27, but El Nino will prove costly: S&P - The Economic Times
-- [4/negative] retail: Lenskart Shares Close 4% Down After ₹921 Crore Block Deal Executed Earlier at 2.6% Discount to Previous Close - Kotak Neo
-- [4/mixed] TATASTEEL: Tata Steel to acquire APL Apollo control in ₹15,511-cr deal | Tap to know more | Inshorts - Inshorts
-- [4/negative] Trade: India faces fresh US tariff threat as Trump prepares to raise duties on 16 nations - India Today
-- [4/negative] Trade: US Tariffs on India: Fresh Levies Loom as Trade Deal Awaits Clarity - NiftyTrader
-- [4/negative] Trade: US plans tariff hike on India, China among several nations - Rediff.com
-- [4/negative] Trade: Trump administration may raise tariffs on many countries including India and China: Report - The Times of India
-- [4/negative] Trade: US To Impose Tariffs On India For Excess Manufacturing Capacity: Report - Deccan Chronicle
-- [4/negative] Trade: White House Weighs Fresh Tariff Round, With India Facing Steeper Duties Than Japan or the EU - BigGo Finance
-- [4/negative] Trade: India in US tariff crosshairs as Trump targets 16 trading partners in fresh industrial probe - Telegraph India
-- [4/negative] Metals: Copper rout threatens Chile’s budget recovery hopes - Mining.com
-- [4/positive] Precious Metals: Gold price forecast: Goldman Sachs sees $4,650 by 2027 despite US rate pressures — what investors should do - Livemint
-- [4/negative] Precious Metals: Global Gold Prices Plunge 36% From Peak, Fed Interest Rates Blamed - BigGo Finance
-- [4/positive] INFY: Infosys Limited Shares Rise 12.9% as AI Deals Build - Multibagg AI
-- [4/negative] ROUTE: Route Mobile stock falls 37.69% in year as growth trails - Multibagg AI
-- [4/positive] PTC: PTC Industries rebounds, up 3% from day's low on major defence order win - Business Standard
-- [4/positive] PTC: PTC Industries shares gain after securing 400-tonne titanium order from defence sector - CNBC TV18 - LinkedIn
-- [4/positive] PREMEX: India's Premier Explosives secures defence export deal - TradingView
+- [5/negative] Construction: Lexus Granito (India) Reports Q2 FY27 Revenue Down 30.0% - Multibagg AI
+- [5/negative] SIMBHALS: Simbhaoli Sugars NSE:SIMBHALS Q2 FY27 Results Under CIRP - Kalkine India
+- [5/none] policy: Taking aim at Atmanirbhar Bharat, US proposes 25% tariffs on Indian goods, 17% if trade deal is signed - ThePrint
+- [5/none] policy: Trump caps 17% tariffs on India if trade deal is reached, 25% otherwise - India Today
+- [5/none] policy: India faces 17-25% tax threat as US floats new trade measures, fresh tariffs for partners - Telegraph India
+- [5/none] policy: US Proposes 25% Tariffs On India. Centre Says "Notice Under Examination" - NDTV
+- [5/negative] gold: Global Gold Prices Plunge 36% From Peak, Fed Interest Rates Blamed - BigGo Finance
+- [5/negative] Macro: US Federal Reserve raises interest rates - Yeni Safak English
+- [5/positive] Power: Multibagger Alert! Up 102% in 1 year, more rally seen in this small-cap power stock - here's why | Check target, upside - Livemint
+- [5/positive] ADANIENT: Adani Enterprises Strikes $1 Billion Copper Deal With Local Recycler Attero - marketscreener.com
+- [5/positive] Index: Sensex surges over 1,500 points, Nifty settles above 25,800 amid foreign inflows, falling oil prices - ANI News
+- [5/negative] IRCTC: IRCTC shares down 65% from record high, where's the rail stock headed? - Business Today
+- [4/positive] : Bumper rally in markets; Sensex opens over 1,000 points higher, Nifty jumps 1.2% on reverse AI trade - ChiniMandi
+- [4/positive] : Stock Market Update 25 November 2026: Sensex Zooms Over 1,450 Points; Nifty 50 Above 25,750 in Early Trading - Kotak Neo
+- [4/positive] : Sensex, Nifty surge nearly 2% to post their best session since November 6 - Business Standard
+- [4/positive] : GIFT Nifty jumps 280 pts today, signals strong start for Sensex, Nifty despite Asian markets rout; FIIs... - Moneycontrol.com
+- [4/negative] : Sensex crashes over 1,000 pts from day’s high, Nifty below 25,650; key reasons behind market paring... - Moneycontrol.com
+- [4/positive] : Indian Equities Defy Asian Trend, Sensex Jumps 1,502 Points - Rediff.com
+- [4/positive] : Mid-market update: Indian equities defend opening gains; NIFTY50 trades above 25,700, SENSEX jumps 1700 pts - Upstox
+- [4/positive] : Indian Stocks Rally 21% From October Lows, but After Q2 Results Now Trade 14% Above the S&P 500 - NiftyTrader
+- [4/positive] INFY,MPHASIS,TCS: Infosys, Mphasis, TCS: IT stocks rally over 4% intraday, NIFTY IT gains 2.6%; what’s powering today’s momentum? - Upstox
+- [4/positive] PNGS: Dhanteras does the magic! PNGS Reva Diamond's festive sales jump 54%, single-day revenue surges 61% - Upstox
+- [4/positive] LT: L&T shares jump over 2% on securing BESS order worth ₹1,000-2,500 crore in Gujarat; key details - Upstox
+- [4/positive] PBFIN: PB Fintech shares jump 8%, insurance stocks rally: Is IRDAI review raising hopes of regulatory relief? - Upstox
+- [4/positive] Monetary Policy: RBI May Hike Rates by 25 bps in Dec Amid Easing Oil, Inflation - Rediff MoneyWiz
+- [4/positive] macro: India's top 500 listed companies posted a record ₹5.14 lakh crore profit in July-September, up 32% year-on-year, says Motilal Oswal data. Reliance, SBI and Indi
+- [4/positive] Retail: Ikea India FY26 revenue rises 14%, looks to be profitable by FY29 - Business Standard
+- [4/positive] Chemicals: India Glycols Ltd Filed Q2 FY27 Call Transcript After 30% Growth - Multibagg AI
+- [4/positive] Chemicals: Stallion India Fluorochemicals Files Transcript, H1 Revenue Up 19.18% - Multibagg AI
+- [4/negative] Trade: U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken - The Hindu
+- [4/negative] Trade: 25% proposed US tariffs: India rejects excess capacity charge, seeks early trade deal - The New Indian Express
+- [4/mixed] Trade: US Tariff Proposal Raises Stakes for India to Clinch Trade Deal - Bloomberg
+- [4/negative] Trade: US proposes up to 25% tariff on India, offers 17% upon trade deal - Business Standard
+- [4/none] policy: India to take up fresh US tariff threat once findings of excess manufacturing capacity probe are clear - Moneycontrol.com
+- [4/positive] HUL,NESTLEIND: शेयर बाजार में तूफानी तेजी से निवेशकों की बल्ले-बल्ले, सेंसेक्स 1,502 अंक उछला; HUL और Nestle समेत ये शेयर - India TV Hindi
+- [4/positive] overall: Share Market Closing Bell: शेयर बाजार में बंपर तेजी, सेंसेक्स 1502 अंक उछला और निफ्टी 25819 के पार बंद, रुपए में भी आई मजबूती - दैनिक भास्कर हिन्दी
+- [4/positive] overall: Stock Market Rally: खुलते ही तूफानी रफ्तार से भागा बाजार! Sensex 1,550 अंक चढ़ा, Nifty 25,750 के पार; ये 4 फैक्टर बने बूस्टर - Moneycontrol Hindi
+- [4/positive] HDFCBANK,INFY: शेयर बाज़ार में ज़ोरदार रिकवरी: सेंसेक्स 84,405 पर, HDFC बैंक और इंफोसिस की अगुवाई में तेज़ी - Navabharat
+- [4/negative] metals: Copper enters bear market as tariff fears and tech slump rattle demand - MiningMX
+- [4/negative] metals: Copper rout threatens Chile’s budget recovery hopes - Mining.com
