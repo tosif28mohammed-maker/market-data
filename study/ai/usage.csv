@@ -800,3 +800,8 @@ utc,provider,model,ok,note
 2026-11-26 19:37,gemini,gemini-3.7-flash,0,quota 429 x4 -> stop
 2026-11-26 19:37,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-26 19:37,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-26 23:42,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-26 23:42,gemini,gemini-3.8-flash,0,HTTP 429
+2026-11-26 23:42,gemini,gemini-3.7-flash,0,quota 429 x4 -> stop
+2026-11-26 23:42,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-26 23:42,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
