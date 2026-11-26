@@ -177,3 +177,8 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - Test BR-01 (r073) Nifty 52wH के पास + >=60% शेयर अपने 52wH से 15%+ नीचे: N367/13 दौर, 60d -4.65 vs अच्छी breadth +3.66, 120d -3.68 vs +6.2, तीनों दौर minus; 250d मिला-जुला; ख़बर वाली ATH परिभाषा में संकेत नहीं → अभी analysis में. 2 Nov को 36.5% (चेतावनी नहीं).
 - Test NM-01 (r073) Nifty >=8% महीना: N18 12m +13.5 vs +11.3, पर crash-rebound हटाकर N11 12m -2.5 → अभी analysis में (छोटा N).
 - Notebook: r073 + r01 i116, i117.
+
+## 2026-11-26 21:11 (daily report run)
+- Robot: universe500 data 26 Nov 15:19 UTC ताज़ा (u1000 का 879 शेयर); u2000 हिस्सा अभी 2 Nov पर. Gemini quota 429 (आज 3 NDTV videos पढ़े — सब काम का नहीं). Groq 429/404. Queue: new 0 (सब पढ़ा).
+- Test r078 BR-01 आज: denominator bug ठीक (बिना भाव वाले शेयर गिने जा रहे थे; 18:11 का "2 Nov 36.5%" ग़लत, असली ~75%). इतिहास वही (60d -4.7 vs +3.7). आज Nifty 98.3% of 52wH + 64.3% शेयर 15%+ नीचे → caution flag चालू (अभी analysis में, 13 दौर).
+- Workflow cron (universe1000/extra हर शनिवार) जोड़ना permission से रुका → Tosif से.

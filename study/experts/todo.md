@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-26 18:11
+Updated: 2026-11-26 21:11
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -40,7 +40,7 @@ Updated: 2026-11-26 18:11
 - [ ] test_queue pending 4 mcap-tier: AI-0B9866/AI-EF9B89/AI-867542/AI-6EF0EE mcap-tier (पुराना mcap proxy = price×आज के shares)
 - [ ] book_finder: Gutenberg 503/timeouts — mirror (gutenberg.pglaf.org) या बाद में; Gemini WCS 17 हिस्सा HTTP 404 जाँचना
 
-- [x] universe500 data 2 Nov पर रुका: universe1000.yml/universe_extra.yml सिर्फ़ workflow_dispatch — 26 Nov 18:11 दोनों trigger किए. [ ] अगले run में देखो data ताज़ा हुआ? फिर इन्हें हफ़्ते में 1 बार cron देना (Sat)
+- [x] universe500 data 2 Nov पर रुका: universe1000.yml/universe_extra.yml सिर्फ़ workflow_dispatch — 26 Nov 18:11 दोनों trigger किए. [x] 26 Nov 15:19 u1000 ताज़ा. [ ] u2000 हिस्सा अभी 2 Nov पर (जाँचो). [ ] Sat cron जोड़ना — 26 Nov workflow edit permission classifier ने रोका; Tosif से अनुमति/ख़ुद जोड़ें
 - [ ] world_claims.csv खाली (world scan से claims नहीं आ रहे) — world_scan.py/ai_manager log जाँचना
 
 ## Data कमी → robot (23 Nov 22:00, Tosif: "कमी हो तो download करो / किसी और को दो, नहीं हो सके तो मुझे बताओ")
@@ -124,6 +124,7 @@ Updated: 2026-11-26 18:11
   Har badlav ke baad 3-5 din dono source ka data milao, phir NSE wala hatao. Pragati study/experts/day_log.md me.
 - [ ] ANDAZA DIARY robot (dost-Claude P10 method): paper/andaza_diary.csv APPEND-ONLY (kabhi prob/reason edit nahi; naya view = nayi row). Robot scripts/andaza_score.py: resolution_date aane par outcome+brier bharo (Q1-Q6 NIFTY/BANKNIFTY/INDIAVIX csv se; E-questions manual), weekly calibration table + Brier Skill Score vs base_rate -> data/andaza_diary.md. Har shaam (research run) Q1-Q6 ki nayi row; base rate script se (VIX bucket x 200DMA, shrink m=30, 5-din overlap = n/5). Asli paisa sirf: 300+ resolved, BSS>0, calibration +-5, quarter-Kelly, max 1% risk.
 
-- [ ] BR-01 (r073) आगे: universe500 ताज़ा होने पर आज की breadth (% शेयर 52wH से 15%+ नीचे) निकालना; daily_strategy में caution flag के रूप में watch
+- [x] BR-01 आज की breadth (r078): 64.3% → signal ON. [ ] forward: 26 Nov Nifty 25884.5 से 20/60/120 दिन (60d ≈ फ़रवरी 2027 अंत)
+- [ ] (पुराना) BR-01 (r073) आगे: universe500 ताज़ा होने पर आज की breadth (% शेयर 52wH से 15%+ नीचे) निकालना; daily_strategy में caution flag के रूप में watch
 - [ ] NM-01 forward: Nov 2026 (+~12%) के बाद Nifty 1/3/6 महीने
 - [ ] Reddit: GitHub से block — old.reddit .json या cloud browser से पढ़ने का रास्ता (कम ज़रूरी)
