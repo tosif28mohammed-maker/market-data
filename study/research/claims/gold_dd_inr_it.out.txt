@@ -15,14 +15,14 @@ GOLD_INR now: 333240.7 on 2026-11-25, dd from peak -31.9%
 SILVER_INR now: 3829.7 on 2026-11-25, dd from peak -63.6%
 
 ## ET-02 IT basket ['TCS', 'INFY', 'WIPRO', 'HCLTECH', 'TECHM', 'MPHASIS', 'PERSISTENT', 'COFORGE', 'LTTS'], months 275 (2004-01-31..)
-rupee strong fx<=-1.5: n=39 same-month IT excess=-2.61 next1m=0.51 (IT ahead 38%) next3m=0.59
-   2003-12: n=22 same=-1.45 next1m=0.79 next3m=1.89
-   2013-26: n=17 same=-4.12 next1m=0.14 next3m=-1.19
-rupee weak fx>=+1.5: n=53 same-month IT excess=3.92 next1m=1.31 (IT ahead 58%) next3m=3.02
-   2003-12: n=26 same=3.93 next1m=2.45 next3m=4.83
-   2013-26: n=27 same=3.91 next1m=0.22 next3m=1.28
-middle: n=183 same-month IT excess=-0.42 next1m=-0.35 (IT ahead 48%) next3m=-0.73
-   2003-12: n=60 same=-1.10 next1m=-1.15 next3m=-1.17
-   2013-26: n=123 same=-0.08 next1m=0.04 next3m=-0.51
+rupee strong fx<=-1.5: n=39 same-month IT excess=-2.67 next1m=0.51 (IT ahead 38%) next3m=0.60
+   2003-12: n=22 same=-1.46 next1m=0.78 next3m=1.89
+   2013-26: n=17 same=-4.23 next1m=0.15 next3m=-1.18
+rupee weak fx>=+1.5: n=53 same-month IT excess=3.92 next1m=1.31 (IT ahead 58%) next3m=3.00
+   2003-12: n=26 same=3.94 next1m=2.45 next3m=4.83
+   2013-26: n=27 same=3.91 next1m=0.20 next3m=1.25
+middle: n=183 same-month IT excess=-0.40 next1m=-0.34 (IT ahead 48%) next3m=-0.71
+   2003-12: n=60 same=-1.11 next1m=-1.16 next3m=-1.20
+   2013-26: n=123 same=-0.05 next1m=0.06 next3m=-0.47
 corr(fx 1m, IT excess same month)=0.29, next month=0.03
-last 6 months fx: [-1.31, 0.94, -0.32, 0.7, -0.94, -2.47] IT excess: [-12.71, 15.65, -0.26, -8.47, 26.18, -1.63]
+last 6 months fx: [-1.31, 0.94, -0.32, 0.7, -0.94, -2.47] IT excess: [-12.72, 15.64, -0.27, -8.53, 30.3, -3.6]
