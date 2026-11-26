@@ -183,3 +183,10 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - Test r078 BR-01 आज: denominator bug ठीक (बिना भाव वाले शेयर गिने जा रहे थे; 18:11 का "2 Nov 36.5%" ग़लत, असली ~75%). इतिहास वही (60d -4.7 vs +3.7). आज Nifty 98.3% of 52wH + 64.3% शेयर 15%+ नीचे → caution flag चालू (अभी analysis में, 13 दौर).
 - Workflow cron (universe1000/extra हर शनिवार) जोड़ना permission से रुका → Tosif से.
 - पढ़ा (Claude, 21:11): queue के 77 नए titles (18:15 UTC robot): FII 18 सत्र लगातार खरीद (₹5,843 cr), JPM Nifty 29,000 end-2027 (worst 22,000), buyback सूचनाएँ, BSE Index Services को SEBI registration, NSE corp bond index futures RBI मंज़ूरी, Parliament 30 Nov. नए claims: FII-02, BB-01 (दोनों data का इंतज़ार).
+
+## 2026-11-27 02:11 (silent run)
+- Robot: collector 26 Nov 17:59 UTC — 74 sources, नए 115 (77 रखे, 21:11 में पढ़े); YouTube transcripts 0. Gemini reader 19:30 UTC: 1 video (NDTV FMCG re-rating — FMCG P/E<5y avg नियम; FMCG-01 r072 से जुड़ा, P/E इतिहास sector का नहीं), quota ख़त्म, videos_left 231, books_left 0. Queue new 0.
+- पढ़ा (Claude): Gemini MpE4ymHOy-0 + test_queue के 33 waiting/pending (ज़्यादातर fundamentals/mcap इतिहास चाहिए → blocked जैसे).
+- Test r080 MSCI-01 (MSCI review महीने Nifty long): Nifty +0.25% vs बाकी +1.14%, हर दौर कम, placebo sets से बुरा → बेकार.
+- Test r080 ENG-01/02 (support/resistance पर high-volume engulfing): bull 20d excess -0.73, high vol से बेहतर नहीं, 2R target 28.6% (bar fail); bear short raw +1.6% (घाटा) → बेकार.
+- Notebook: r080 + r01 i125, i126.

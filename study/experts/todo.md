@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-26 21:11
+Updated: 2026-11-27 02:11
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -37,6 +37,7 @@ Updated: 2026-11-26 21:11
 - [ ] 10-साल fundamentals का source (blocked 7 नियम) — sirf 4 saal yfinance hai
 
 - [x] AI-48006E + AI-C62277/C7791E (25 Nov 02:11, r065 analysis; dividend adj factor से निकला)
+- [x] 27 Nov 02:11: test_queue MSCI months + engulfing (support/resistance) → r080 बेकार. बाकी waiting ज़्यादातर fundamentals चाहिए
 - [ ] test_queue pending 4 mcap-tier: AI-0B9866/AI-EF9B89/AI-867542/AI-6EF0EE mcap-tier (पुराना mcap proxy = price×आज के shares)
 - [ ] book_finder: Gutenberg 503/timeouts — mirror (gutenberg.pglaf.org) या बाद में; Gemini WCS 17 हिस्सा HTTP 404 जाँचना
 
