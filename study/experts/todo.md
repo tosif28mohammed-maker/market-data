@@ -97,3 +97,5 @@ Updated: 2026-11-26 06:11
 - [ ] PC-01: SEBI closing auction नया ढाँचा कब से — लागू होने पर ET-02b close entry बनाम 3:20 entry दोबारा देखना
 
 - [ ] NW-03 forward (r068): 2, 6, 20 Nov 2026 decoupling signals — 20d बाद (दिसंबर मध्य) देखना
+
+- [ ] PC transcripts 26 Nov: PC मिला पर connected folder खाली + device_bash नहीं — scheduled task में yt_transcripts folder दोबारा जोड़ना होगा

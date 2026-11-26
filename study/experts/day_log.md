@@ -166,3 +166,4 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - Test FMCG-01 sector का 5-साल record महीना: N35, 60d excess -2.0 (34% +), 250d -3.8; top-5% control +1.3 → बेकार (r072)
 - Test AI-48006Ec div yield>3% blue chips episode-स्तर: 14 bear दौर, पहले महीने 250d +7.4pp (median +5.2), 10/14 + → अभी analysis में (r072)
 - Notebook: r072 + r01 i115, i108 note. Note: universe500 daily data 2 Nov 2026 पर रुका है (robot जाँचे).
+- PC transcripts 26 Nov 2026 10:24 Kuwait: ok 0 new — no device_bash, और work folder इस run से जुड़ा नहीं (connectedFolders खाली), इसलिए script नहीं चला और कोई .txt stage नहीं हुई
