@@ -61,3 +61,15 @@ Motilal WCS 27 (2017-22),book,https://www.motilaloswal.com/content/dam/mofsl-web
 Motilal WCS 28 (2018-23),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc28.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",2 (read 24 Nov; EP needs fundamentals),1,0,2026-11-24
 Motilal WCS 29 (2019-24),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc29.pdf,India,en,"annual wealth creation study (multibagger traits, themes)","2 (read 24 Nov; Bruised Blue Chips = hindsight, forward test fail)",1,0,2026-11-24
 Motilal WCS 30 (2020-25),book,https://www.motilaloswal.com/content/dam/mofsl-website-adobe/investor-relations/wealth-creation/wc30.pdf,India,en,"annual wealth creation study (multibagger traits, themes)",4-read; claims MO-04..11,0,0,2026-11-22
+RBI notifications,govt,https://rbi.org.in/notifications_rss.xml,India,en,circulars/directions,new,0,0,2026-11-26
+RBI speeches,govt,https://www.rbi.org.in/speeches_rss.xml,India,en,governor/DG speeches (policy hints),new,0,0,2026-11-26
+Fed speeches,govt,https://www.federalreserve.gov/feeds/speeches_and_testimony.xml,USA,en,chair/governor speeches,new,0,0,2026-11-26
+BSE notices,govt,https://www.bseindia.com/data/xml/notices.xml,India,en,exchange notices,new,0,0,2026-11-26
+Zerodha Daily Brief,blog,https://thedailybrief.zerodha.com/feed,India,en,daily 3-5 big business stories (no tips),new,0,0,2026-11-26
+Zerodha Aftermarket Report,blog,https://aftermarketreport.zerodha.com/feed,India,en,daily post-market rundown,new,0,0,2026-11-26
+ValuePickr forum,blog,https://forum.valuepickr.com/latest.rss,India,en,deep company research threads (posters may hold),new,0,0,2026-11-26
+TradingQnA,blog,https://tradingqna.com/latest.rss,India,en,rules/tax/platform Q&A,new,0,0,2026-11-26
+r/IndianStreetBets,social,https://www.reddit.com/r/IndianStreetBets/.rss,India,en,retail F&O mood (contrarian gauge; pump risk),new,0,0,2026-11-26
+r/IndiaInvestments,social,https://www.reddit.com/r/IndiaInvestments/.rss,India,en,long-term investor discussion,new,0,0,2026-11-26
+r/IndianStockMarket,social,https://www.reddit.com/r/IndianStockMarket/.rss,India,en,retail stock chatter (pump risk),new,0,0,2026-11-26
+Google News Nifty,news_rss,https://news.google.com/rss/search?q=Nifty&hl=en-IN&gl=IN&ceid=IN:en,India,en,aggregated headlines (check original),new,0,0,2026-11-26

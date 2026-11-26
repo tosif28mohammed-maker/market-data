@@ -1,0 +1,89 @@
+name,handle_or_url,platform,group,language,gives,speed,reliability,reliability_reason,bias_or_conflict,robot_access,label
+NSE Financial Results RSS,https://nsearchives.nseindia.com/content/RSS/Financial_Results.xml,RSS,1,English,Company result filings,minutes,high,Primary exchange filing (feed ttl 5 min),Company-supplied text not pre-verified by exchange,RSS,CONFIRMED
+NSE RSS index (Announcements/Board Meetings/Insider Trading/Corp Actions/Circulars),https://www.nseindia.com/rss-feed,RSS,1,English,All corporate filing feeds incl. insider trading + circulars,minutes,high,Primary exchange filings,None,RSS (copy XML URLs from this page; they sit on nsearchives host),CONFIRMED
+NSE India,@NSEIndia,X,1,English,Holidays/halts/listings + lots of PR,hours,high,Official but PR-heavy,None,manual only (X API is paid),CONFIRMED
+BSE Notices RSS,https://www.bseindia.com/data/xml/notices.xml,RSS,1,English,Exchange notices,minutes,high,Official exchange,BSE says corp announcements are not pre-verified,RSS,CONFIRMED
+BSE Sensex RSS,https://www.bseindia.com/data/xml/sensexrss.xml,RSS,1,English,Sensex values,minutes,high,Official,None,RSS,CONFIRMED
+BSE India,@BSEIndia,X,1,English,Listings/SME/PR,hours,high,Official but PR-heavy,None,manual only,CONFIRMED
+SEBI RSS,https://www.sebi.gov.in/sebirss.xml,RSS,1,English,Press releases + circulars + orders,minutes-hours,high,Regulator primary source,None,RSS,CONFIRMED
+SEBI updates,@SEBI_updates,X,1,English,Regulations/orders/circulars (official since Apr 2025),minutes,high,Official handle,None,manual only,CONFIRMED
+SEBI investor education,@SEBI_India,X,1,English/Hindi,Investor awareness,day,high,Official (was locked Aug 2024 then restored),None,manual only,CONFIRMED
+SEBI FPI statistics,https://www.sebi.gov.in/statistics/fpi-investment.html,web,4,English,FPI daily/derivative/sector links,day,high,Regulator page pointing to NSDL/CDSL,None,HTML scrape (light),CONFIRMED
+RBI Press Releases RSS,https://rbi.org.in/pressreleases_rss.xml,RSS,1,English,Policy/liquidity/auction/penalty releases (~7/day),minutes,high,Central bank primary,None,RSS,CONFIRMED
+RBI Notifications RSS,https://rbi.org.in/notifications_rss.xml,RSS,1,English,Circulars/directions,minutes-hours,high,Primary,None,RSS,CONFIRMED
+RBI Speeches RSS,https://www.rbi.org.in/speeches_rss.xml,RSS,1,English,Governor/DG speeches (policy hints),hours,high,Primary,None,RSS,CONFIRMED
+RBI Publications RSS,https://www.rbi.org.in/Publication_rss.xml,RSS,1,English,Bulletins/reports/data,day,high,Primary,None,RSS,CONFIRMED
+RBI,@RBI,X,1,English/Hindi,Policy livestream links + releases,minutes,high,Official (handle not re-checked this session),None,manual only,UNSURE
+PIB RSS index,https://www.pib.gov.in/ViewRss.aspx,RSS,1,English/Hindi,All ministry releases (Finance/Commerce/Cabinet),minutes,high,Govt primary,Govt messaging (political framing possible),RSS (RssMain.aspx?ModId=6...; Lang param picks language - check),CONFIRMED
+PIB Ministry of Finance releases,https://www.pib.gov.in/newsite/pmreleases.aspx?mincode=15,web,1,English,Finance ministry releases,minutes,high,Govt primary,Govt messaging,HTML scrape,CONFIRMED
+Ministry of Finance,@FinMinIndia,X,1,English/Hindi,Budget/GST/tax statements,minutes,high,Official (handle not re-checked),Govt messaging,manual only,UNSURE
+MCA RSS,https://www.mca.gov.in/content/mca/global/en/notifications-tender/rss-feeds.html,RSS,1,English,Company-law notices,day,high,Govt primary,None,RSS,CONFIRMED
+Fed RSS index (incl. Monetary Policy press feed),https://www.federalreserve.gov/feeds,RSS,1,English,FOMC statements/press releases,minutes,high,Primary,None,RSS,CONFIRMED
+Fed speeches & testimony RSS,https://www.federalreserve.gov/feeds/speeches_and_testimony.xml,RSS,1,English,Chair/governor speeches,minutes,high,Primary,None,RSS,CONFIRMED
+Fed Board meetings RSS,https://www.federalreserve.gov/feeds/boardmeetings.xml,RSS,1,English,Meeting notices,day,high,Primary,None,RSS,CONFIRMED
+Federal Reserve,@federalreserve,X,1,English,FOMC releases,minutes,high,Official (handle not re-checked),None,manual only,UNSURE
+SEC EDGAR latest filings,https://www.sec.gov/developer,API/RSS,1,English,8-K/10-Q/Form 4 of US firms (ADRs/peers),minutes,high,Primary filings,None,RSS/JSON free; declare User-Agent; max 10 req/s,CONFIRMED
+Donald Trump (Truth Social),truthsocial.com/@realDonaldTrump,Truth Social,1,English,Tariff decisions announced here first (e.g. Apr 9 2025 pause),minutes,high,Primary for US tariff moves,Political; also posted market-moving hints,manual only (RSS availability not verified),REPORTED
+Adani Group,@AdaniOnline,X,1,English,Company IR statements (example of IR handle),hours,medium,Primary but self-interested,Company defends itself,manual only,CONFIRMED
+CNBC-TV18 ticker,@CNBCTV18Live,X,2,English,Breaking flashes; results vs CNBC poll,minutes,medium-high,Very fast tier-1 Indian TV desk,Ad-funded; flashes can be partial,manual only,CONFIRMED
+CNBC-TV18,@CNBCTV18News,X,2,English,Stories/interviews,minutes-hours,medium-high,Tier-1 newsroom,Ad-funded,manual only,CONFIRMED
+CNBC-TV18 YouTube,https://www.youtube.com/@CNBC-TV18,YouTube,6,English,Live TV + pre/post market shows,minutes,medium,Tier-1 TV,Guest stock tips (not data-tested),YouTube RSS (need channel_id),CONFIRMED
+NDTV Profit,@NDTVProfitIndia,X,2,English,Market flashes,minutes,medium-high,Tier-1 newsroom,Ad-funded,manual only,CONFIRMED
+NDTV Profit YouTube,https://www.youtube.com/@NDTVProfitIndia,YouTube,6,English,Live market TV,minutes,medium,Tier-1 TV,Guest tips,YouTube RSS (need channel_id),CONFIRMED
+ET Markets,@ETMarkets,X,2,English,Markets news,minutes,medium-high,Tier-1 (Economic Times),Ad-funded,manual only,REPORTED
+Moneycontrol Telegram,https://t.me/s/moneycontrolcom,Telegram,5,English,Headlines + opening/closing bell links,minutes,medium-high,Tier-1 portal official channel,Ad-funded; some promo posts,Telegram web preview (last ~20 posts),CONFIRMED
+Moneycontrol,@moneycontrolcom,X,2,English,Markets news,minutes,medium-high,Tier-1 portal,Ad-funded,manual only,UNSURE
+ET Now,@ETNOWlive,X,2,English,TV flashes,minutes,medium,Tier-1 TV,Ad-funded,manual only,UNSURE
+Mint,@livemint,X,2,English,Business news,minutes-hours,medium-high,Tier-1 paper,Ad-funded,manual only,UNSURE
+Business Standard,@bsindia,X,2,English/Hindi,Policy/market news,minutes-hours,high,Tier-1 paper; strong regulator beat,Ad-funded,manual only,UNSURE
+Moneylife,https://www.moneylife.in,web,2,English,Deep SEBI-order/finfluencer coverage,hours-day,high,Investigative + detailed order reading,Advocacy for investor protection,HTML/RSS (feed URL not verified),CONFIRMED
+Reuters,@Reuters,X,2,English,Sourced scoops on RBI/govt (e.g. CRR use plan),minutes,high,Tier-1 wire; multi-source rule,Wire can be disputed by officials,manual only; public Reuters RSS stopped in 2020,UNSURE
+Bloomberg Markets,@markets,X,2,English,Global market flashes,minutes,high,Tier-1 wire,Paywall,manual only,UNSURE
+Financial Times,@FinancialTimes,X,2,English,Global business,hours,high,Tier-1,Paywall,manual only,REPORTED
+Wall Street Journal,@WSJ,X,2,English,US policy/markets,minutes-hours,high,Tier-1,Paywall,manual only,UNSURE
+CNBC (US),@CNBC,X,2,English,US market flashes,minutes,medium-high,Tier-1 TV; aired false pause headline Apr 7 2025,Ad-funded,manual only,UNSURE
+Google News search RSS,https://news.google.com/rss/search?q=Nifty,RSS,2,English/Hindi,Aggregated tier-1 headlines for any query,minutes,medium,Aggregator only - check original,Ranking opaque,RSS (format from memory - test),REPORTED
+Zerodha Pulse,https://pulse.zerodha.com,web,2,English,Indian business headline aggregator,minutes,medium,Aggregator of mainstream sites,Run by a broker,HTML scrape (RSS not verified),REPORTED
+Redbox India,@RedboxIndia,X,2,English,Fast market headlines,minutes,medium,Recommended by traders on TradingQnA; record not verified,Unknown,manual only,UNSURE
+Ira Dugal,@dugalira,X,3,English,Markets/economy journalism; shared Reuters Hindenburg story Jan 25 2023,hours,medium-high,Senior financial journalist (current employer not verified),None known,manual only,CONFIRMED
+Andy Mukherjee,@andymukherjee70,X,3,English,India/Asia macro opinion,day,medium-high,Bloomberg Opinion columnist - analysis not scoops,Opinion writer,manual only,REPORTED
+Liz Ann Sonders,@LizAnnSonders,X,3,English,US macro/market charts,hours,high,Chief strategist at Schwab; data charts,Schwab employee,manual only,CONFIRMED
+Porinju Veliyath,@porinju,X,3,English,Small/mid-cap views,hours,low-medium,SEBI-registered PMS manager,Holds positions he talks about,manual only,REPORTED
+Walter Bloomberg,@DeItaone,X,2,English,Rapid headline relay (not affiliated with Bloomberg),seconds-minutes,medium-low,Fast but posted false Hassett tariff-pause headline Apr 7 2025,Anonymous; no source links,manual only,CONFIRMED
+Hammer Capital,@yourfavorito,X,2,English,Headline relay,minutes,low,Sent similar misleading tariff-pause tweet Apr 7 2025,Anonymous,manual only,CONFIRMED
+Hindenburg Research,@HindenburgRes,X,3,English,Short-seller reports (Adani Jan 2023),minutes,medium,Primary for its own report; allegations contested,Held short positions; current activity not verified,manual only,CONFIRMED
+NSDL FPI daily (Latest),https://www.fpi.nsdl.co.in/web/Reports/Latest.aspx,web,4,English,Confirmed FPI equity/debt flows + derivative trades,day (T+1),high,Depository data mandated by SEBI,None,HTML table scrape,CONFIRMED
+NSDL FPI monthly,https://www.fpi.nsdl.co.in/web/Reports/Monthly.aspx,web,4,English,Month-to-date FPI flows,day,high,Official,None,HTML scrape,CONFIRMED
+NSDL fortnightly sector FPI,https://www.fpi.nsdl.co.in/web/Reports/FPI_Fortnightly_Selection.aspx,web,4,English,Sector-wise FPI moves,2 weeks,high,Official,None,HTML scrape,CONFIRMED
+NSDL DII daily data (new Jun 2026),https://nsdl.com/ddp-custodian/fpi-statistics,web,4,English,DII flows by MF/AIF/insurer etc.,day,high,Depository data,None,HTML scrape (exact report URL not verified),REPORTED
+CDSL FII daily,https://www.cdslindia.com/Publications/FIIDailyData.aspx,web,4,English,FII daily flows (cross-check NSDL),day,high,Depository data,None,HTML scrape,CONFIRMED
+NSE FII/DII provisional (unofficial JSON),https://www.nseindia.com/api/fiidiiTradeReact,API,4,English,Same-day provisional FII/DII cash flows,hours (evening),high,Exchange data,None,JSON but needs NSE cookies; often blocks cloud IPs,REPORTED
+NSE option chain (unofficial JSON),https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY,API,4,English,Nifty/BankNifty OI + PCR,minutes,high,Exchange data,None,JSON with cookies; fragile,REPORTED
+NSE block deals (unofficial JSON),https://www.nseindia.com/api/block-deal,API,4,English,Block deals,minutes-day,high,Exchange data,None,JSON with cookies; fragile,REPORTED
+NSE event calendar (unofficial JSON),https://www.nseindia.com/api/event-calendar,API,4,English,Results/board-meeting calendar,day,high,Exchange data,None,JSON with cookies; fragile,REPORTED
+Chittorgarh IPO subscription,https://www.chittorgarh.com,web,4,English,Live IPO subscription by category + GMP,minutes,medium-high,Mirrors exchange bid data,Runs SME IPO advisory; GMP is grey market,HTML scrape (check site terms),CONFIRMED
+Zerodha Z-Connect,https://zerodha.com/z-connect,web,4,English,Plain explainers of SEBI rule changes,day,high,Accurate circular summaries (e.g. Oct 2024 F&O rules),Broker - affected by F&O rules,WordPress JSON/RSS (wp-json seen),CONFIRMED
+Markets by Zerodha,https://www.youtube.com/@marketsbyzerodha,YouTube,6,English,Daily Brief morning show (3-5 big stories),day (morning),medium-high,Explains news; no tips,Owned by a broker,YouTube RSS (need channel_id),CONFIRMED
+The Daily Brief (newsletter),https://thedailybrief.zerodha.com,Substack,6,English,Daily written version of the show,day,medium-high,Same as above,Broker-owned,Substack RSS (/feed),CONFIRMED
+The Daily Brief Hindi (podcast),https://podcasts.apple.com/podcast/id1773252636,Podcast,6,Hindi,Daily Hindi market stories,day,medium-high,Same team,Broker-owned,Podcast RSS (URL not verified),CONFIRMED
+Aftermarket Report,https://aftermarketreport.zerodha.com,Substack,6,English,Daily post-market rundown,day (evening),medium-high,Factual wrap,Broker-owned,Substack RSS (/feed),CONFIRMED
+Varsity by Zerodha,https://www.youtube.com/@varsitybyzerodha,YouTube,6,English/Hindi,Education (options/OI basics),week,high,Educational,Broker-owned,YouTube RSS,CONFIRMED
+r/IndianStreetBets,https://www.reddit.com/r/IndianStreetBets/.rss,Reddit,7,English/Hinglish,Retail F&O mood (contrarian gauge),minutes,low,Anonymous; memes,Pump risk,RSS only (.json blocked since May 2026; RSS throttled),REPORTED
+r/IndiaInvestments,https://www.reddit.com/r/IndiaInvestments/.rss,Reddit,7,English,Long-term investor discussion,hours,medium,Moderated discussion,Anonymous,RSS only,REPORTED
+r/IndianStockMarket,https://www.reddit.com/r/IndianStockMarket/.rss,Reddit,7,English,Retail stock chatter,minutes,low,Anonymous,Pump risk,RSS only,REPORTED
+ValuePickr forum,https://forum.valuepickr.com/latest.rss,Forum,7,English,Deep company research threads,day,medium-high,Long-form fundamental work,Posters may hold stocks,Discourse RSS (pattern; test),REPORTED
+TradingQnA,https://tradingqna.com/latest.rss,Forum,7,English,Rules/tax/platform Q&A (Zerodha forum),hours,medium,Practitioner answers,Broker-run,Discourse RSS (pattern; test),REPORTED
+Unofficed forum,https://forum.unofficed.com,Forum,7,English,NSE data/API scraping help,day,medium,Developer community,Sells tools,Discourse RSS (pattern; test),REPORTED
+Google Trends (India),https://trends.google.com,web/API,8,Any,Search attention spikes (e.g. 'stock market crash'),hours,medium,Attention not direction,None,manual; official API is alpha by application,CONFIRMED
+Polymarket Gamma API,https://gamma-api.polymarket.com/events,API,8,English,Event odds (Fed/tariffs/elections),minutes,medium,Real-money odds; thin on India,Crypto venue; manipulation possible,Free public JSON no key,CONFIRMED
+Kalshi API,https://api.elections.kalshi.com/trade-api/v2/markets,API,8,English,Fed/CPI/econ event odds,minutes,medium,CFTC-regulated market,Thin on India,Free public JSON no key (orderbook may need auth),CONFIRMED
+India VIX (via NSE indices JSON),https://www.nseindia.com/api/allIndices,API,8,English,Fear gauge for Nifty options,minutes,high,Exchange index,None,JSON with cookies; fragile,REPORTED
+StockTwits,https://stocktwits.com,web,8,English,US ticker sentiment,minutes,low,Not researched this session,Unknown,not verified,UNSURE
+AVOID - Baap of Chart (Md Nasiruddin Ansari),Baap of Chart (X/YouTube/Telegram),X/YouTube/Telegram,5,Hindi/English,AVOID - SEBI order,n/a,low,SEBI interim Oct 2023 (Rs17.2cr impound); 7 banned Dec 2024; recovery 2025,Sold 'courses' while giving tips,blocklist,CONFIRMED
+AVOID - Avadhut Sathe Trading Academy,Avadhut Sathe (YouTube/courses),YouTube,6,Marathi/Hindi,AVOID - SEBI order,n/a,low,SEBI interim Dec 2025 + final Oct 2026: refund Rs546.17cr + Rs11.5cr penalty,Courses with live-market tips,blocklist,CONFIRMED
+AVOID - Asmita Patel Global School of Trading,Asmita Patel (YouTube/Telegram),YouTube/Telegram,5,Hindi/English,AVOID - SEBI order,n/a,low,SEBI Feb 2025 order; Rs53cr+ impounded; tips via private Telegram,Courses,blocklist,CONFIRMED
+AVOID - Safebulls,Telegram channel Safebulls,Telegram,5,English/Hindi,AVOID - SEBI order,n/a,low,SEBI order Apr 30 2024 (pump and dump via Telegram),Pump and dump,blocklist,CONFIRMED
+AVOID - Intraday Jackpot / Professional Day Trading Institute,Telegram 'Intraday Jackpot',Telegram,5,Hindi/English,AVOID - SEBI order,n/a,low,SEBI 2026 order: free channel funnelling to paid tip channels,Unregistered advice,blocklist,CONFIRMED
+AVOID - Superior Finlease tip channels,Telegram channels (Superior Finlease case),Telegram,5,Hindi/English,AVOID - SEBI order,n/a,low,SEBI barred 17 entities for 5 yrs (May 2024),Pump and dump,blocklist,CONFIRMED
+AVOID - Hemant Gupta family ('Den of Wealth'),X/Telegram/WhatsApp groups,X/Telegram,5,Hindi/English,AVOID - SEBI order,n/a,low,SEBI interim May 22 2026: Rs20.25cr gains; 82 SME stocks,Traded against own tips,blocklist,CONFIRMED
+AVOID - Sadhna Broadcast promo YouTube channels,YouTube channels run by Manish Mishra (5),YouTube,6,Hindi,AVOID - SEBI order,n/a,low,SEBI Mar 2023 interim; May 2025 final (59 entities incl. Arshad Warsi),Paid promo videos,blocklist,CONFIRMED
