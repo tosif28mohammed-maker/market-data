@@ -182,3 +182,4 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - Robot: universe500 data 26 Nov 15:19 UTC ताज़ा (u1000 का 879 शेयर); u2000 हिस्सा अभी 2 Nov पर. Gemini quota 429 (आज 3 NDTV videos पढ़े — सब काम का नहीं). Groq 429/404. Queue: new 0 (सब पढ़ा).
 - Test r078 BR-01 आज: denominator bug ठीक (बिना भाव वाले शेयर गिने जा रहे थे; 18:11 का "2 Nov 36.5%" ग़लत, असली ~75%). इतिहास वही (60d -4.7 vs +3.7). आज Nifty 98.3% of 52wH + 64.3% शेयर 15%+ नीचे → caution flag चालू (अभी analysis में, 13 दौर).
 - Workflow cron (universe1000/extra हर शनिवार) जोड़ना permission से रुका → Tosif से.
+- पढ़ा (Claude, 21:11): queue के 77 नए titles (18:15 UTC robot): FII 18 सत्र लगातार खरीद (₹5,843 cr), JPM Nifty 29,000 end-2027 (worst 22,000), buyback सूचनाएँ, BSE Index Services को SEBI registration, NSE corp bond index futures RBI मंज़ूरी, Parliament 30 Nov. नए claims: FII-02, BB-01 (दोनों data का इंतज़ार).

@@ -128,3 +128,4 @@ Updated: 2026-11-26 21:11
 - [ ] (पुराना) BR-01 (r073) आगे: universe500 ताज़ा होने पर आज की breadth (% शेयर 52wH से 15%+ नीचे) निकालना; daily_strategy में caution flag के रूप में watch
 - [ ] NM-01 forward: Nov 2026 (+~12%) के बाद Nifty 1/3/6 महीने
 - [ ] Reddit: GitHub से block — old.reddit .json या cloud browser से पढ़ने का रास्ता (कम ज़रूरी)
+- [ ] FII-02 (FII 15+ सत्र streak) + BB-01 (buyback सूचना event) — FII daily इतिहास (NSDL) और BSE announcements इतिहास आने पर test
