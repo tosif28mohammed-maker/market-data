@@ -115,3 +115,10 @@ Updated: 2026-11-26 06:11
   5. Pre-2017 free point-in-time fundamentals NAHI (sirf Prowess/EODHD paid) — 2003-16 ke liye nateeje 'kamzor sabut' label.
   NIYAM: NSE ki terms automated collection mana karti hain (circular WEB45032) — koi NAYA NSE-website scraping mat jodo; AMFI/DPE/niftyindices static files/BSE XBRL hi. Delisted share ko -100% / exit price se gino, chhodo mat.
 - [ ] SOCIAL SOURCES (dost-Claude P6, study/experts/india_market_sources.csv 88 source): 12 RSS sources.csv me jode (26 Nov). Baaki: (a) Telegram web preview reader (https://t.me/s/moneycontrolcom, HTML; last ~20 post) — chhota parser; (b) Polymarket gamma-api + Kalshi public JSON (Fed/tariff/India event odds) -> data/events/odds.csv roz; (c) NSDL FPI daily/monthly/sector + CDSL FII + NSDL DII (naya Jun 2026) HTML -> FII data ka NSE-mukt source; (d) YouTube channel_id dhoondo: Markets by Zerodha, CNBC-TV18, NDTV Profit; (e) blocklist_sebi.csv ke naam kabhi source mat banao, har mahine SEBI orders se update. NSE RSS/JSON jodna Tosif ke NSE-terms faisle ke baad.
+- [ ] NSE FAISLA (Tosif 26 Nov: option 1 = DHEERE-DHEERE BADLO): koi NAYA NSE website/API scraping nahi jodna (NSE terms, circular WEB45032). Purani NSE scripts tab tak chalti rahein jab tak unka doosra source taiyaar na ho; har ek ka replacement, is kram me:
+  1. fii_dii.py / probe_fii.py -> NSDL FPI daily (fpi.nsdl.co.in Reports/Latest.aspx) + CDSL FIIDailyData + NSDL DII daily.
+  2. corp_actions.py (dividend/record date) -> BSE corporate actions / BSE announcements RSS.
+  3. ipo.py -> BSE IPO pages / chittorgarh (terms check).
+  4. deliv_daily.py (delivery %) -> BSE delivery/bhavcopy (BSE ToS check) ya band.
+  5. condor_paper.py / rare_setup.py / index_pe_history.py / fetch_nse_hist.py / tips_tracker.py -> Yahoo (^NSEI, .NS), niftyindices static files, BSE; jo na mile use 'NSE-only' likh kar Tosif ko batao.
+  Har badlav ke baad 3-5 din dono source ka data milao, phir NSE wala hatao. Pragati study/experts/day_log.md me.
