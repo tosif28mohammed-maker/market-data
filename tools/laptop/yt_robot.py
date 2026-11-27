@@ -23,6 +23,8 @@ OUT = os.path.join(HERE, "scripts"); os.makedirs(OUT, exist_ok=True)
 DONE = os.path.join(HERE, "done.txt"); FAIL = os.path.join(HERE, "no_subtitle_v2.txt")   # purani no_subtitle.txt ab nahi maani jaati
 TOKEN_FILE = os.path.join(HERE, "github_token.txt")
 GAP = (25, 40)            # har video ke beech second (YouTube block na kare)
+LOOP = "--loop" in sys.argv or os.path.exists(os.path.join(HERE, "loop.txt"))   # office PC: 24 ghante chalta rahe
+if LOOP: GAP = (60, 90)   # Tosif 27 Nov: office PC par 1 video/minute bhi chalega - dheere, par block na ho
 MAX_PER_RUN = 150         # ek baar mein zyada se zyada
 CHANNEL_LAST = 200        # har channel ki aakhri kitni videos
 
@@ -133,4 +135,10 @@ def main():
     print("Khatam. Is baar scripts:", ok)
 
 if __name__ == "__main__":
-    main()
+    if not LOOP:
+        main()
+    else:
+        while True:          # har chakkar: GitHub se nayi list, kaam, phir aaram. Block par 3 ghante ruko.
+            try: main()
+            except Exception as e: print("galti:", str(e)[:150])
+            print(time.strftime("%H:%M"), "- agla chakkar 3 ghante baad (window band mat kijiye)"); time.sleep(3 * 3600)
