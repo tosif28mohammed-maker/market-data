@@ -1,44 +1,44 @@
-# छँटी हुई खबरें — 2026-11-26 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
+# छँटी हुई खबरें — 2026-11-27 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 1096, छँटी 1007, काम की (ताकत ≥3, fact, एक कहानी एक बार) 353, अफ़वाह/राय/clickbait 188
+कुल headlines 1146, छँटी 974, काम की (ताकत ≥3, fact, एक कहानी एक बार) 374, अफ़वाह/राय/clickbait 188
 
-- [5/negative] SIMBHALS: Simbhaoli Sugars NSE:SIMBHALS Q2 FY27 Results Under CIRP - Kalkine India
-- [5/negative] Geopolitics: US Bombs Iran for Ninth Day as Standoff Over Hormuz Deepens - EnergyNow.com
-- [5/positive] Technology: Nvidia Market Value Surges $952 Billion on Jensen Huang's First Day Back; Asia-Pacific Chip Stocks Erupt, South Korean Market Triggers Upward Circuit Breaker - 
-- [5/positive] LT: India's L&T wins large AI cluster order - TradingView
-- [5/none] TATASTEEL,APLAPOLLO: Explained| Tata Steel's ₹28,000-crore APL Apollo deal: What are the assets really worth, and what is APL paying for? - Fortune India
-- [5/negative] ONGC: Dehradun Police Book Three Over Alleged ₹36 Lakh ONGC Recruitment Fraud - The 420.in
-- [5/negative] ONGC: Woman dupes job seekers of over Rs 37 L with fake ONGC offers - Pioneer Edge
-- [4/positive] : Bumper rally in markets; Sensex opens over 1,000 points higher, Nifty jumps 1.2% on reverse AI trade - ChiniMandi
-- [4/positive] : Stock Market Update 25 November 2026: Sensex Zooms Over 1,450 Points; Nifty 50 Above 25,750 in Early Trading - Kotak Neo
-- [4/positive] : Sensex, Nifty surge nearly 2% to post their best session since November 6 - Business Standard
-- [4/positive] : GIFT Nifty jumps 280 pts today, signals strong start for Sensex, Nifty despite Asian markets rout; FIIs... - Moneycontrol.com
-- [4/negative] : Sensex crashes over 1,000 pts from day’s high, Nifty below 25,650; key reasons behind market paring... - Moneycontrol.com
-- [4/positive] : Indian Equities Defy Asian Trend, Sensex Jumps 1,502 Points - Rediff.com
-- [4/positive] : Sensex rallies 1,502 points, Nifty ends near 25,820 on FII inflows, lower crude oil - Telegraph India
-- [4/positive] : Mid-market update: Indian equities defend opening gains; NIFTY50 trades above 25,700, SENSEX jumps 1700 pts - Upstox
-- [4/positive] : Indian Stocks Rally 21% From October Lows, but After Q2 Results Now Trade 14% Above the S&P 500 - NiftyTrader
-- [4/positive] INFY, MPHASIS, TCS: Infosys, Mphasis, TCS: IT stocks rally over 4% intraday, NIFTY IT gains 2.6%; what’s powering today’s momentum? - Upstox
-- [4/positive] PNGS: Dhanteras does the magic! PNGS Reva Diamond's festive sales jump 54%, single-day revenue surges 61% - Upstox
+- [5/positive] TATAMOTORS: Best-Selling Electric Cars in October 2026 – Tata Punch EV Creates History With 5,000+ Sales - Autopunditz
+- [5/positive] BHARTIARTL: Bharti Airtel to invest ₹1,200 crore in three data centres in Assam - Business Standard
+- [5/positive] LT: L&T wins order worth up to ₹2,500 cr for battery storage project in Gujarat - Business Standard
+- [5/negative] policy: US Proposes 25% Tariffs On India. Centre Says "Notice Under Examination" - NDTV
+- [5/negative] policy: Trump raises tariff stakes for India: 25% without a trade deal, 17% with one - NewsDrum
+- [5/negative] policy: Donald Trump's Fresh Tariff Move: India Faces Up To 25% Duty Over 'Excess Manufacturing Capacity' - Outlook India
+- [5/negative] rates: Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos
+- [5/positive] NTPC: Juniper Green Energy & NTPC Sign 150 MW Hybrid Energy PPA - Rediff MoneyWiz
+- [5/positive] NTPC: Juniper Green Energy arm signs 150 MW NTPC deal, expects ₹155 crore annual revenue - CNBC TV18
+- [5/positive] NTPC: NTPC pays Rs 2,908.99 crore interim dividend for FY27, extends 34-year dividend streak - PSU Watch
+- [5/positive] NTPC: 【SMM News Flash】 Juniper subsidiary signs NTPC PPA for 150 MW wind-solar hybrid project - Shanghai Metals Market
+- [4/positive] : Stock Market Today: Nifty gains 1.85%, Sensex up 1,502 points - Multibagg AI
+- [4/positive] WIPRO: Sensex Today Ends 390 Points Higher | Nifty Above 25,850 | Wipro Up 4% - Equitymaster
+- [4/positive] INFY,MPHASIS,TCS: Infosys, Mphasis, TCS: IT stocks rally over 4% intraday, NIFTY IT gains 2.6%; what’s powering today’s momentum? - Upstox
 - [4/positive] LT: L&T shares jump over 2% on securing BESS order worth ₹1,000-2,500 crore in Gujarat; key details - Upstox
-- [4/positive] Monetary Policy: RBI May Hike Rates by 25 bps in Dec Amid Easing Oil, Inflation - Rediff MoneyWiz
-- [4/positive] macro: India projects 7.6% GDP growth for FY26, nominal growth at 8.6% - DD News
-- [4/negative] inflation: RBI: India Inflation Broadens, CPI Hits 6.1% in October - Rediff MoneyWiz
-- [4/positive] macro: India’s economy likely to grow 7.3% in Q2 FY27: Finance Ministry - DD News
-- [4/positive] macro: ADB raises India’s GDP growth forecast to 7pc on stronger-than-expected Q1 growth - DD News
-- [4/positive] market: India's top 500 listed companies posted a record ₹5.14 lakh crore profit in July-September, up 32% year-on-year, says Motilal Oswal data. Reliance, SBI and Indi
-- [4/positive] Retail: Ikea India FY26 revenue rises 14%, looks to be profitable by FY29 - Business Standard
-- [4/negative] Construction: Lexus Granito (India) Reports Q2 FY27 Revenue Down 30.0% - Multibagg AI
-- [4/positive] Chemicals: India Glycols Ltd Filed Q2 FY27 Call Transcript After 30% Growth - Multibagg AI
-- [4/positive] Chemicals: Stallion India Fluorochemicals Files Transcript, H1 Revenue Up 19.18% - Multibagg AI
-- [4/positive] Forex: RBI says forex inflows under swap facility reach $72.85 billion - News On AIR
+- [4/positive] PBFIN: PB Fintech shares jump 8%, insurance stocks rally: Is IRDAI review raising hopes of regulatory relief? - Upstox
+- [4/negative] Trading: Trans India House Impex Q2FY27 Results: Zero revenue, auditor flags ₹60.5 cr tax demand - scanx.trade
+- [4/negative] SIMBHALS: Simbhaoli Sugars SIMBHALS Q2 FY27 Results Under CIRP - Kalkine India
+- [4/positive] WELCORP: Welspun Corp Shares Surge After It Bags Global Orders Worth ₹2,264 Crore; Order Book Expands to ~₹50,000 Crore - Kotak Neo
 - [4/positive] Trade: US to cap India tariff at 17% if trade deal is reached, USTR says - Reuters
-- [4/negative] Trade: U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken - The Hindu
-- [4/negative] Trade: 25% proposed US tariffs: India rejects excess capacity charge, seeks early trade deal - The New Indian Express
-- [4/negative] Trade: US proposes 25% tariff on India, 17% after trade deal - The Indian Express
-- [4/negative] trade: India faces 17-25% tax threat as US floats new trade measures, fresh tariffs for partners - Telegraph India
-- [4/positive] market: Nifty50, Sensex Today: सेंसेक्स में 2000 अंकों की सुनामी! 25,850 के पार दौड़ा निफ्टी; निवेशकों की चांदी - ETV Bharat
-- [4/positive] market: Stock Market Rally: खुलते ही तूफानी रफ्तार से भागा बाजार! Sensex 1,550 अंक चढ़ा, Nifty 25,750 के पार; ये 4 फैक्टर बने बूस्टर - Moneycontrol Hindi
-- [4/positive] HDFCBANK: शेयर बाज़ार में ज़ोरदार रिकवरी: सेंसेक्स 84,405 पर, HDFC बैंक और इंफोसिस की अगुवाई में तेज़ी - Navabharat
-- [4/positive] Metals: Southern Copper Corp Stock (SCCO) Closed Up by 3.03% on Nov 25: Facts Behind the Movement - TradingKey
-- [4/negative] Metals: Copper enters bear market as tariff fears and tech slump rattle demand - MiningMX
+- [4/negative] policy: U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken - The Hindu
+- [4/positive] HUL,NESTLEIND: शेयर बाजार में तूफानी तेजी से निवेशकों की बल्ले-बल्ले, सेंसेक्स 1,502 अंक उछला; HUL और Nestle समेत ये शेयर - India TV Hindi
+- [4/positive] commodity: Copper Prices Jump 3.4% in a Single Day to Reclaim $12,000; UBS Pours Cold Water: Technical Bear-Market Repair, Not a Trend Reversal - BigGo Finance
+- [4/positive] silver: Trade Setup for Today: Silver Surges, Asian Indices Rally as GIFT Nifty Holds Steady Near 26,000 as of November 26, 2026 - scanx.trade
+- [4/negative] copper: Copper enters bear market as tariff fears and tech slump rattle demand - MiningMX
+- [4/negative] copper: Copper sinks to 11-month low as US inflation and AI sell-off deepen metals rout - Proactive financial news
+- [4/positive] Commodity: Silver Prices Jump 3% on MCX to ₹1,48,336 per Kg; Kotak Neo Sees Scope for Further Recovery - Kotak Neo
+- [4/positive] Commodity: MCX Share Price rise over 7% as Gold and Silver prices bounce back - India Infoline
+- [4/negative] Commodity: Silver price falls over 6% as US dollar strength and Fed rate hike prospects pressure metals - Traders Union
+- [4/negative] Commodity: Gold price prediction: Will gold fall to Rs 1.10 lakh per 10 grams? Check outlook on November 26, 2026 - The Times of India
+- [4/positive] Finance: FPI buying lifts markets, but India's external outlook remains uncertain - Business Standard
+- [4/positive] INFY,TCS: IT Stocks Rally Despite Global AI Selloff: Infosys, TCS Lead Gains - NiftyTrader
+- [4/positive] Banking, FMCG: Sensex surges 1,502 points, Nifty gains 1.85pc as banking and FMCG stocks rally - Telangana Today
+- [4/positive] Indices: BSE SENSEX Jumps to 83,938.28 as FMCG Rally and Rupee Strength Defy Asia’s AI Rout - BBN Times
+- [4/positive] Indices: Taking Stock: Markets bounce back; Sensex rises 1,502 pts, Nifty closes above 25,800 - Moneycontrol.com
+- [4/positive] Indices: 7 factors driving D-Street rally: Sensex, Nifty close with 2% gains, Rupee at 8-mth high - The Financial Express
+- [4/positive] auto retail: Auto retail sales hit record 25.37 lakh units in September, up 31.82% yoy - DD News
+- [4/positive] industrial: India's industrial indicators remain firm in Oct'26 as steel and auto production record impressive growth - BigMint
+- [4/positive] auto: PLI Auto Scheme records Rs 4,385 cr incentive disbursement in current fiscal: Govt - The Economic Times
+- [4/positive] BHARTIARTL: Airtel plans 40 MW data centre capacity in Assam with ₹705 crore investment - CRN Asia
