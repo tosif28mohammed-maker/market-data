@@ -157,3 +157,9 @@ Updated: 2026-11-27 21:11
 - [ ] ANDAZA calibration (60%→52%): isotonic/bucket calibration andaza_log से, scenario (tezi/flat/giravat) %, cause-chain
 - [ ] MULTIBAGGER: multibagger_precursors.py (universe500 branch) + fundamentals/theme; हर Jan walk-forward; data/multibagger_watch.md
 - [ ] दुनिया के बाज़ार: US/Japan/Korea/Taiwan/China/Gulf (Yahoo) → data/world_watch.md
+
+## 27 Nov रात — DATA की कमी = काम रुकना नहीं (Tosif का नियम)
+- [x] study/ai/data_gaps.csv: G1-G7 (1-5 min candles, option bhaav history, stock minute data, 10y fundamentals, Nifty PE, FII F&O, index changes) + पहले से मिले sources
+- [x] scripts/data_hunter.py (ai_manager: हर शनिवार + data_gaps.csv बदलने पर): Gemini+Google search और Groq से free/legal sources → study/ai/data_hunt.md
+- [ ] अगला Claude run: data_hunt.md पढ़ना → सबसे अच्छे source का robot fetcher (पहले Zenodo options 1-min 2017-20 → ATM option bhaav table, फिर GitHub/Drive minute data)
+- [ ] Tosif से (options के साथ): Kaggle free account + API token (GitHub secret KAGGLE_KEY) → 1-min Nifty 2015-24; Angel SmartAPI key/TOTP (angel_data.yml तैयार)

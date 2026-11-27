@@ -10,10 +10,10 @@ on:
     - cron: '0 23 * * *'    # 4:30 AM IST: reader
     - cron: '0 12 * * 6'    # Saturday 5:30 PM IST: weekly scoreboard
   push:
-    paths: ['study/experts/user_links.txt', 'study/ai/run_now.txt']   # Claude adds Tosif's links -> reads right away
+    paths: ['study/experts/user_links.txt', 'study/ai/run_now.txt', 'study/ai/data_gaps.csv']   # Claude adds Tosif's links -> reads right away
   workflow_dispatch:
     inputs:
-      what: { description: 'reader / news / world / scoreboard / all', default: 'all' }
+      what: { description: 'reader / news / world / scoreboard / datahunt / all', default: 'all' }
 permissions:
   contents: write
 concurrency: { group: ai_manager, cancel-in-progress: false }
@@ -31,15 +31,17 @@ jobs:
       MAX_BOOK_CHUNKS: '8'
     steps:
       - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
       - name: decide jobs
         run: |
           W="$WHAT"
           case "$CRON" in
-            "0 1 * * *") W=news;; "30 13 * * *") W="reader news";; "0 12 * * 6") W=scoreboard;; "") ;; *) W=reader;;
+            "0 1 * * *") W=news;; "30 13 * * *") W="reader news";; "0 12 * * 6") W="scoreboard datahunt";; "") ;; *) W=reader;;
           esac
           [ "$EVENT" = push ] && W="reader news"
+          [ "$EVENT" = push ] && git diff --name-only HEAD~1 HEAD | grep -q data_gaps.csv && W="$W datahunt"
           grep -qi test study/ai/run_now.txt 2>/dev/null && [ "$EVENT" = push ] && echo "MAX_VIDEOS=3" >> $GITHUB_ENV
           [ "$W" = all ] && W="reader news world scoreboard"
           [ -z "$W" ] && W="reader news scoreboard"
@@ -53,6 +55,9 @@ jobs:
       - name: Groq news sort (+ Gemini fact-check of big doubtful ones) — auto-retry once
         if: contains(env.W, 'news')
         run: python scripts/groq_news.py || (sleep 60; python scripts/groq_news.py) || echo "news sort failed twice"
+      - name: Data hunter (Gemini+search, Groq) - free sources for missing data (Tosif 27 Nov)
+        if: contains(env.W, 'datahunt')
+        run: python scripts/data_hunter.py || echo "data hunter failed - next week"
       - name: weekly scoreboard (pure Python)
         if: contains(env.W, 'scoreboard')
         run: python scripts/scoreboard.py > /dev/null
