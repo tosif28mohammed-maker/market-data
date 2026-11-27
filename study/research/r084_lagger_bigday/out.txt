@@ -1,0 +1,27 @@
+sectors ['Consumer Defensive', 'Financial Services', 'Energy', 'Industrials', 'Basic Materials', 'Utilities', 'Consumer Cyclical', 'Healthcare', 'Communication Services', 'Technology', 'Real Estate']
+BIG3.5+LAG N 20 {5: np.float64(-1.19), 20: np.float64(-0.96), 60: np.float64(-6.2)} %+20 30 %+60 30
+   03-12 N 18 {5: np.float64(-1.12), 20: np.float64(-0.54), 60: np.float64(-6.59)} %+20 33 %+60 33
+   13-20 N 1 {5: np.float64(-3.13), 20: np.float64(-5.76), 60: np.float64(-1.7)} %+20 0 %+60 0
+   21-26 N 1 {5: np.float64(-0.48), 20: np.float64(-3.59), 60: np.float64(-3.7)} %+20 0 %+60 0
+BIG3.5 no lag N 34 {5: np.float64(-0.65), 20: np.float64(-0.43), 60: np.float64(-2.64)} %+20 41 %+60 38
+BIG2.5+LAG N 64 {5: np.float64(-0.43), 20: np.float64(-0.81), 60: np.float64(-3.48)} %+20 41 %+60 34
+   03-12 N 46 {5: np.float64(-0.74), 20: np.float64(-0.86), 60: np.float64(-4.69)} %+20 39 %+60 30
+   13-20 N 11 {5: np.float64(0.24), 20: np.float64(-0.51), 60: np.float64(0.52)} %+20 55 %+60 36
+   21-26 N 7 {5: np.float64(0.62), 20: np.float64(-0.97), 60: np.float64(-1.8)} %+20 29 %+60 57
+BIG2.5 no lag N 124 {5: np.float64(-0.54), 20: np.float64(-0.66), 60: np.float64(-2.15)} %+20 49 %+60 42
+LAG baseline (any day, 30d gap) N 711 {5: np.float64(-0.3), 20: np.float64(-1.22), 60: np.float64(-3.19)} %+20 37 %+60 36
+shuffle p(sim>=obs) 20d: 0.254
+IT events:
+/home/claude/market-data/study/research/r084_lagger_bigday/test.py:35: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  print('IT events:'); print(ev((d1>=2.5)&(e126<=-10)).query("sec.str.contains('IT') or sec.str.contains('Tech')",engine='python').tail(12).round(2).to_string())
+           sec          d     5     20     60    lag    bd
+29  Technology 2003-06-02 -0.67  -5.11 -23.56 -36.20  2.56
+30  Technology 2003-07-10 -9.31 -13.24 -15.97 -38.44  7.12
+31  Technology 2003-08-20 -0.90   4.89  -5.58 -47.72  2.84
+32  Technology 2003-09-26 -0.72  -8.02  -8.56 -36.95  2.82
+33  Technology 2003-12-09 -2.01  -3.46 -14.17 -20.23  3.22
+34  Technology 2004-04-13 -2.68  -6.81  -0.44 -18.20  2.54
+35  Technology 2004-05-18  4.22   2.90   9.55 -18.29  2.76
+36  Technology 2007-12-07 -4.04  -2.42  -9.78 -29.22  3.03
+today 2026-11-26 {'Consumer Defensive': 0.06, 'Financial Services': -0.39, 'Energy': -0.13, 'Industrials': 0.41, 'Basic Materials': 0.19, 'Utilities': -0.33, 'Consumer Cyclical': -0.72, 'Healthcare': -0.33, 'Communication Services': -0.67, 'Technology': 0.7, 'Real Estate': 2.73}
+126d {'Consumer Defensive': 0.2, 'Financial Services': 0.6, 'Energy': 3.2, 'Industrials': -4.1, 'Basic Materials': -5.2, 'Utilities': -19.9, 'Consumer Cyclical': 8.5, 'Healthcare': 9.8, 'Communication Services': -2.6, 'Technology': -2.6, 'Real Estate': 5.9}

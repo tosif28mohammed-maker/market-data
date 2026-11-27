@@ -1,0 +1,2 @@
+r083 (27 Nov 2026, i06) IPO lock-in expiry. test.py (K=30/90/180/365/540 + placebo offsets), scen.py, path.py, scen2.py, supply.py; out.txt.
+Verdict: 90-day anchor lock-in (rule from Apr 2022) -> last 10 trading days before expiry excess -2.4% (N363, median -3.1, 64% neg, shuffle p<0.001; pre-rule 2013-22 -0.5; no rebound after). PASS (avoid/timing filter, not a long setup). Others ~ baseline new-listing drift (~-1%/20d).

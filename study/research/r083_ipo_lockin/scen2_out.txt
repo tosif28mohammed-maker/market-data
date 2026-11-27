@@ -1,0 +1,7 @@
+run {'losers': {'count': 121, 'mean': -2.28}, 'mid': {'count': 121, 'mean': -2.16}, 'winners': {'count': 121, 'mean': -2.74}}
+absrun {'above listing': {'count': 184, 'mean': -1.06}, 'below listing': {'count': 179, 'mean': -3.77}}
+bull {False: {'count': 65, 'mean': -1.65}, True: {'count': 298, 'mean': -2.56}}
+%neg pre 64 median -3.07
+panel last date 2026-11-26
+recent listings in panel: 0
+Series([], )
