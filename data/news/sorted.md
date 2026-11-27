@@ -1,44 +1,44 @@
 # छँटी हुई खबरें — 2026-11-27 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 1146, छँटी 840, काम की (ताकत ≥3, fact, एक कहानी एक बार) 326, अफ़वाह/राय/clickbait 155
+कुल headlines 1146, छँटी 161, काम की (ताकत ≥3, fact, एक कहानी एक बार) 95, अफ़वाह/राय/clickbait 25
 
-- [5/negative] International Trade: Trump Administration Unveils New Tariffs for China, the European Union, and More - Time Magazine
-- [5/negative] International Trade: US Proposes 25% Tariffs On India. Centre Says "Notice Under Examination" - NDTV
-- [5/negative] International Trade: Make In India Faces Heat As Trump Threatens 25% Tariffs. What Happens To Exports - شبكة تواصل الإخبارية
-- [5/negative] International Trade: Trump raises tariff stakes for India: 25% without a trade deal, 17% with one - NewsDrum
-- [5/negative] International Trade: Donald Trump's Fresh Tariff Move: India Faces Up To 25% Duty Over 'Excess Manufacturing Capacity' - Outlook India
-- [5/negative] YESBANK: Yes Bank AT1 bond verdict: 60 lakh retail shareholders face ₹8,415-crore bill - The Hindu
-- [5/negative] COFFEEDAY: SEBI appoints forensic auditor for fresh probe into Coffee Day Enterprises fund diversion allegations - ETLegalWorld
-- [5/negative] COFFEEDAY: Coffee Day Enterprises Ltd: SEBI Appoints Forensic Auditor - Multibagg AI
-- [5/positive] COALINDIA: Coal India Leads Government Dividend Collections With ₹7,912 Crore as CPSE Payouts Reach ₹32,626 Crore - Kotak Neo
-- [5/none] Coal: Mahanadi Coalfields IPO Allotment Today: 4.95x QIB Demand, Zero GMP - NiftyTrader
-- [5/positive] RELIANCE: Reliance and Jio to invest Rs 10 lakh crore over seven years for India’s AI transformation: Mukesh Ambani - DD News
-- [5/positive] HDFCBANK,ICICIBANK: Bank Nifty Jumps Over 1,100 Points Today as HDFC Bank and ICICI Bank Shares Rally Over 3%; Private Banks Lead Gains - Kotak Neo
-- [5/positive] ICICIBANK,HDFCBANK,RELIANCE,AIRTEL: ICICI Bank, HDFC Bank, Reliance, and Airtel lead Nifty to 45% rally - India Infoline
-- [5/positive] ICICIBANK: ICICI Bank rallies 4%, hits all-time high; market cap nears ₹12 trillion - Business Standard
-- [5/positive] ICICIBANK: ICICI Bank Ltd. Hits All-Time High of Rs 1,651.45 as Momentum Builds Across Timeframes - MarketsMojo
-- [4/positive] overall: Sensex Soars Close to 400 Pts, Nifty Nears 26,600: 3 Reasons Why the Stock Market Is Up Today - Kotak Neo
-- [4/positive] WIPRO: Sensex Today Ends 390 Points Higher | Nifty Above 25,850 | Wipro Up 4% - Equitymaster
-- [4/mixed] STALLION: Stallion India Q2 FY27: Sales Up 29%, Profit Down 79%, and an ESOP the Chairman Says Is Not an Expense - Howl.Link
+- [5/negative] Metals: Copper enters bear market as tariff fears and tech slump rattle demand - MiningMX
 - [4/positive] LT: L&T shares jump over 2% on securing BESS order worth ₹1,000-2,500 crore in Gujarat; key details - Upstox
-- [4/positive] PNGS: Dhanteras does the magic! PNGS Reva Diamond's festive sales jump 54%, single-day revenue surges 61% - Upstox
-- [4/negative] LGEL: LG Electronics India Share Price Drops 3% After ₹2,464 Crore Block Deal Involving 2.05% Equity - Kotak Neo
+- [4/positive] insurance: PB Fintech shares jump 8%, insurance stocks rally: Is IRDAI review raising hopes of regulatory relief? - Upstox
+- [4/positive] : US GDP growth revised sharply higher to 4.3% in third quarter on strong consumer spending, AI investment - The Times of India
+- [4/positive] Energy: SIEMENS ENERGY INDIA Q2 Results FY27: PAT Rs 652.50 Cr - Univest
+- [4/negative] Manufacturing: Trans India House Impex Q2FY27 Results: Zero revenue, auditor flags ₹60.5 cr tax demand - scanx.trade
 - [4/negative] SIMBHALS: Simbhaoli Sugars SIMBHALS Q2 FY27 Results Under CIRP - Kalkine India
-- [4/positive] WELCORP: Welspun Corp Shares Surge After It Bags Global Orders Worth ₹2,264 Crore; Order Book Expands to ~₹50,000 Crore - Kotak Neo
-- [4/negative] trade: U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken - The Hindu
-- [4/positive] HUL,NESTLEIND: शेयर बाजार में तूफानी तेजी से निवेशकों की बल्ले-बल्ले, सेंसेक्स 1,502 अंक उछला; HUL और Nestle समेत ये शेयर - India TV Hindi
-- [4/mixed] indices: Stock Market Today: विदेशी निवेशकों की खरीदारी से चमका शेयर बाजार, निफ्टी 25,000 के पार; घरेलू फंडों की रिकॉर्ड बिकवाली - Business Standard
-- [4/positive] commodity: Copper Prices Jump 3.4% in a Single Day to Reclaim $12,000; UBS Pours Cold Water: Technical Bear-Market Repair, Not a Trend Reversal - BigGo Finance
-- [4/negative] Copper: Copper Faces a Major Global Demand Test as LME Prices Swing on China and US Rate Signals - kalkine.co.uk
-- [4/positive] Silver: Trade Setup for Today: Silver Surges, Asian Indices Rally as GIFT Nifty Holds Steady Near 26,000 as of November 26, 2026 - scanx.trade
-- [4/negative] Copper: Copper enters bear market as tariff fears and tech slump rattle demand - MiningMX
-- [4/negative] Copper: Copper sinks to 11-month low as US inflation and AI sell-off deepen metals rout - Proactive financial news
-- [4/negative] Rates: Higher borrowing costs weigh on G4 economies, cloud 2027 rate hike outlook: Report - The Times of India
-- [4/negative] Metals: Gold price prediction: Will gold fall to Rs 1.10 lakh per 10 grams? Check outlook on November 26, 2026 - The Times of India
-- [4/positive] Private Equity: PE/VC investments in India reach US$8.7 billion October 2026, highest monthly level in five years: EY-IVCA Report - EY
-- [4/negative] IT, Metal, PSU Bank: Sensex, Nifty Under Pressure as IT, Metal and PSU Bank Shares Fall - DD News
-- [4/positive] Index: Sensex Today: Sensex surges past 84,000, Nifty gains over 500 points - India Infoline
-- [4/positive] Index: Indian Stocks Rally as Sensex Jumps 773 Points, Nifty Closes Above 25,250 - INDIA New England News
-- [4/positive] Banking, FMCG: Sensex surges 1,502 points, Nifty gains 1.85pc as banking and FMCG stocks rally - Telangana Today
-- [4/positive] Index: BT Closing Bell: Sensex, Nifty extend gains; over Rs 5 lakh crore investor wealth added in two days - Business Today
-- [4/positive] Index: Big boom in stock market today; ₹2.2 lakh cr wealth for investors! Sensex up 1,400 points, Nifty 600 | 3 main reasons - Livemint
+- [4/positive] Electronics: Tonbo Imaging Q2FY27: Net profit ₹235 crore, revenue jumps 1975% YoY - scanx.trade
+- [4/positive] Manufacturing: Welspun Corp Shares Surge After It Bags Global Orders Worth ₹2,264 Crore; Order Book Expands to ~₹50,000 Crore - Kotak Neo
+- [4/positive] Tax: PM Modi shares FM Sitharaman’s article highlighting next-gen GST reforms - DD News
+- [4/positive] Tax: Cancellation of GST registration to get automatic from December 1 - The Economic Times
+- [4/positive] Budget: Budget 2027: From AI to affordable housing, key demands - prameyanews.com
+- [4/positive] Banking: Public Sector Banks (PSBs) grow stronger with prudent banking practices and strong underwriting capabilities - www.pib.gov.in
+- [4/positive] Technology: Tech industry seeks AI transformation fund, tax reforms in Budget 2027-28 - ETHRWorld.com
+- [4/positive] Trade: Tariff threat likely to hasten India-US trade deal, says Jefferies report - Business Standard
+- [4/negative] Trade: US Tariff Plan Raises Stakes for India to Clinch Trade Deal - Bloomberg.com
+- [4/negative] Trade/Labor: Deal will soften tariff blow, labour-intensive sectors to face brunt - The New Indian Express
+- [4/positive] Trade: US to cap India tariff at 17% if trade deal is reached, USTR says - Reuters
+- [4/none] Trade: India Faces a Tough Choice Over Lower Tariffs, Rushed US Trade Deal - Bloomberg.com
+- [4/none] Trade: 25% proposed US tariffs: India rejects excess capacity charge, seeks early trade deal - The New Indian Express
+- [4/none] Trade: Make In India Faces Heat As Trump Threatens 25% Tariffs. What Happens To Exports - NDTV
+- [4/negative] Trade: U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken - The Hindu
+- [4/positive] Indices: Nifty50, Sensex Today: सेंसेक्स में 2000 अंकों की सुनामी! 25,850 के पार दौड़ा निफ्टी; निवेशकों की चांदी - ETV Bharat
+- [4/positive] Metals: Copper Prices Jump 3.4% in a Single Day to Reclaim $12,000; UBS Pours Cold Water: Technical Bear-Market Repair, Not a Trend Reversal - BigGo Finance
+- [4/mixed] Metals: Copper Faces a Major Global Demand Test as LME Prices Swing on China and US Rate Signals - kalkine.co.uk
+- [4/positive] Metals: Trade Setup for Today: Silver Surges, Asian Indices Rally as GIFT Nifty Holds Steady Near 26,000 as of November 26, 2026 - scanx.trade
+- [4/positive] Metals: Gladiator Metals Shares Rally as Copper Exploration Potential and Resource Growth Fuel Investor Optimism - kalkine.ca
+- [4/positive] Energy: The Commodities Feed: Oil extends rally as copper rebounds - ing think
+- [4/negative] Metals: Copper sinks to 11-month low as US inflation and AI sell-off deepen metals rout - Proactive financial news
+- [3/negative] : Tighter financial conditions put RBI policy decision in focus next week - Business Standard
+- [3/negative] : Retail inflation likely to stay elevated in November as food prices remain high: RBI bulletin - The Indian Express
+- [3/none] : INDIA BONDS-Indian bonds seen rangebound; oil, RBI decision in focus - bfsi.economictimes.indiatimes.com
+- [3/positive] : RBI sees India’s growth resilient at 6.9 percent in FY27 despite West Asia conflict risks - DD News
+- [3/negative] : Inflation pressures broaden across India, raising rate-hike risks ahead of RBI's December review - The Economic Times
+- [3/negative] : Overnight rates cross RBI’s MSF rate as liquidity tightens; VRR demand surges - Moneycontrol.com
+- [3/mixed] : US PCE Inflation Data and Q3 GDP Due Today; Key Numbers to Watch Ahead of December Fed Rate Decision - Kotak Neo
+- [3/negative] : India's RBI sees broad food inflation pressures; was net dollar buyer in Sept, bulletin shows - Reuters
+- [3/negative] : Inflation more generalised, more categories seeing price hikes: RBI paper - Business Standard
+- [3/negative] : RBI: India Inflation Broadens, CPI Hits 6.1% in October - Rediff MoneyWiz
+- [3/positive] : India’s data overhaul will improve RBI forecasts, Deputy Governor Gupta says - Digg
