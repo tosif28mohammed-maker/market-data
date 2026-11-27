@@ -1136,3 +1136,9 @@ utc,provider,model,ok,note
 2026-11-27 19:45,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
 2026-11-27 19:45,gemini,gemini-3.6-flash,0,HTTP 429
 2026-11-27 19:45,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-27 23:40,gemini,gemini-3.6-flash,1,11s
+2026-11-27 23:41,gemini,gemini-3.6-flash,1,3s
+2026-11-27 23:41,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-27 23:41,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop
+2026-11-27 23:41,gemini,gemini-3.6-flash,0,HTTP 429
+2026-11-27 23:42,gemini,gemini-3.8-flash,0,quota 429 x4 -> stop

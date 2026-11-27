@@ -1,16 +1,16 @@
 {
- "run_utc": "2026-11-27 19:41",
+ "run_utc": "2026-11-27 23:40",
  "videos_ok": 0,
  "videos_fail": [
-  "transcript HN8ni8UGljc: HTTP 429",
-  "transcript HRO-BW7MWnQ: quota used up this run"
+  "transcript JZbuLchDbbw: HTTP 429",
+  "transcript KD04RV9IU8c: quota used up this run"
  ],
- "rules_added": 3,
+ "rules_added": 1,
  "book_chunks": 0,
  "stopped": "Gemini free quota khatam - agle run me",
- "transcripts_ok": 4,
- "transcripts_left": 27,
+ "transcripts_ok": 2,
+ "transcripts_left": 25,
  "books_left": 0,
  "book_chars_left": 0,
- "videos_left": 249
+ "videos_left": 251
 }
