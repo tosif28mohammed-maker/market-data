@@ -190,3 +190,10 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - Test r080 MSCI-01 (MSCI review महीने Nifty long): Nifty +0.25% vs बाकी +1.14%, हर दौर कम, placebo sets से बुरा → बेकार.
 - Test r080 ENG-01/02 (support/resistance पर high-volume engulfing): bull 20d excess -0.73, high vol से बेहतर नहीं, 2R target 28.6% (bar fail); bear short raw +1.6% (घाटा) → बेकार.
 - Notebook: r080 + r01 i125, i126.
+
+## 2026-11-27 06:11 (silent run)
+- Robot: collector 27 Nov 01:56 UTC — 74 sources, नए 73 (54 रखे); YouTube transcripts 0.
+- पढ़ा (Claude): queue के 54 नए titles/summary (Brent $96-97 Houthi हमला, Dollar 22-महीने high + लंबी monthly तेज़ी, Tokyo CPI 2.9% BOJ hike, BofA S&P 7800, JPM Nifty 29k + RBI 75bps hike, PL Nifty 28,561, Nifty 5वाँ weekly gain (LM-01 पहले ही tested), NDTV non-market). नए testable: RH-01, DXY-01.
+- Test r081 RH-01 (RBI hike cycle शुरू): 6 cycles Sensex 250d +15.3 vs आम +14.5, placebo 45%; बैंक पीछे नहीं → बेकार.
+- Test r081 DXY-01 (dollar ≥4 महीने लगातार ऊपर): Sensex 3m +6.4 vs +3.3 (2013-26 N6 +2.4), EEM 3m +0.6 vs +2.8 → India के लिए नुकसान नहीं → बेकार. अभी streak 3.
+- Notebook: r081 + r01 i127, i128.
