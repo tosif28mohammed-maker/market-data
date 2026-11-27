@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-27 18:11
+Updated: 2026-11-27 21:11
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -142,7 +142,10 @@ Updated: 2026-11-27 18:11
 - [x] laptop robot (tools/laptop/yt_robot.py + ROBOT_CHALAO.bat): 23 पूरी transcripts बनीं, Tosif ने browser से study/experts/transcripts/ में upload कीं (27 Nov 21:00)
 - [x] gemini_reader.py: transcripts/*.txt भी पढ़ता है (step 1b, MAX_TRANSCRIPTS=8/run, transcripts_done.txt; video पहले देखा हो तो note <id>_tr.md — दोनों की तुलना)
 - [ ] 91 video बाकी (hotspot IP को YouTube ने रोका): study/experts/laptop_links_pending.txt — Tosif office PC पर robot लगाएगा (28 Nov)
-- [ ] अगले Claude run: gemini/*_tr.md और नए transcript notes पढ़ना, video-वाले note से तुलना (कुछ छूटा?), नए testable नियम test करना
+- [x] 27 Nov 21:11: 23 laptop transcripts Claude ने छाँटे (Chanakya BB-01/CH-02 → r085). [ ] gemini/*_tr.md notes आने पर तुलना
+- [ ] BB-01 forward paper watch: कोई NSE sector index पहली बार upper BB(20,2) के ऊपर close करे → 2R plan लिखना, 30 सौदे गिनना
+- [ ] CH-03 (weekly 20EMA filter) किसी daily setup के साथ test
+- [ ] (पुराना) अगले Claude run: gemini/*_tr.md और नए transcript notes पढ़ना, video-वाले note से तुलना (कुछ छूटा?), नए testable नियम test करना
 - [ ] laptop robot: Python urllib SSL (CERTIFICATE_VERIFY_FAILED) — certifi fix tools/laptop में है, Tosif ने अभी नहीं चलाया
 
 ## 27 Nov रात — Tosif के कहे बड़े काम (रात का run, बाकी आगे)

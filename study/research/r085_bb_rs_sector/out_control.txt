@@ -1,0 +1,2 @@
+today RS126 top4: ['Healthcare', 'Consumer Cyclical', 'Real Estate', 'Energy']
+RANDOM-DAY control top4 RS126 3R (20 reps): N~305 tgt% 33.5 avg +1.59 (range +0.38..+2.46)

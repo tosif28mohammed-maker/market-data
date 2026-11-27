@@ -1,0 +1,61 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+^NSEI 4709 2007-09-17
+^NSEBANK 4724 2007-09-17
+^CNXIT 4724 2007-09-17
+^CNXPHARMA 3896 2011-01-31
+^CNXAUTO 3770 2011-07-12
+^CNXFMCG 3881 2011-01-31
+^CNXMETAL 3770 2011-07-12
+^CNXREALTY 4017 2010-07-19
+^CNXENERGY 3882 2011-01-31
+^CNXPSUBANK 3882 2011-01-31
+^CNXINFRA 4017 2010-07-19
+^CNXMEDIA short 1
+^CNXFIN short 1
+^CNXCONSUM 3768 2011-07-12
+^CNXPSE 3882 2011-01-31
+^CNXMNC 3882 2011-01-31
+^CNXSERVICE short 1
+HTTP Error 404: Not Found{"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ^CNXCOMMODITIES"}}}
+$^CNXCOMMODITIES: possibly delisted; no timezone found
+
+1 Failed download:
+['^CNXCOMMODITIES']: possibly delisted; no timezone found
+^CNXCOMMODITIES short 0
+NIFTY_PVT_BANK.NS short 1
+NIFTY_HEALTHCARE.NS short 1
+NIFTY_OIL_AND_GAS.NS short 1
+NIFTY_CONSR_DURBL.NS short 1
+^NSEMDCP50 4677 2007-09-24
+^CNXSC short 1
+REAL TOP4 RS126 3R: N271 tgt%35.4 avg+1.22 W+10.12 L-3.73 risk3.1
+   2005-2013 N91 tgt%36 avg+1.73
+   2014-2019 N84 tgt%37 avg+0.74
+   2020-2026 N96 tgt%33 avg+1.16
+   last2m N1 avg+8.55
+   last4m N3 avg+3.77
+   last6m N3 avg+3.77
+REAL TOP4 RS126 2R: N304 tgt%45.7 avg+0.99 W+6.60 L-3.81 risk3.1
+   2005-2013 N102 tgt%48 avg+1.62
+   2014-2019 N96 tgt%43 avg+0.27
+   2020-2026 N106 tgt%46 avg+1.03
+   last2m N1 avg+5.62
+   last4m N2 avg+4.53
+   last6m N3 avg+4.86
+REAL TOP4 RS63 3R: N288 tgt%35.1 avg+1.14 W+10.15 L-3.80 risk3.1
+   2005-2013 N92 tgt%37 avg+1.55
+   2014-2019 N92 tgt%30 avg+0.03
+   2020-2026 N104 tgt%38 avg+1.77
+   last2m N2 avg+8.83
+   last4m N5 avg+2.09
+   last6m N7 avg+0.65
+REAL ALL (no RS) 3R: N798 tgt%36.3 avg+1.24 W+9.68 L-3.60 risk2.9
+   2005-2013 N172 tgt%35 avg+1.58
+   2014-2019 N293 tgt%31 avg+0.35
+   2020-2026 N333 tgt%41 avg+1.85
+   last2m N6 avg+5.71
+   last4m N14 avg+1.33
+   last6m N18 avg+0.92
+RANDOM-DAY control TOP4 3R: avg +0.57 range -0.22..+1.43
+today above upper BB: [] 2026-11-27
+today RS126 top4: ['^CNXREALTY', '^CNXPHARMA', '^CNXPSUBANK', '^NSEBANK']

@@ -205,3 +205,10 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - Test r082 BRD-02 (Nifty -1% पर ≥50% शेयर ऊपर): N12, 5d +1.0 vs +0.41, 20d कम → बेकार.
 - Test r082 AI-FD88E6 (sector +20% महीना = बचो): N134, 63d -0.03 vs बाज़ार → बेकार.
 - Notebook: r082 + r01 i129-i131. BSE/Wockhardt single-stock tips → pending (forward watch).
+
+## 2026-11-27 21:11 (daily report run)
+- Robot: collector 13:58 UTC (74 sources, failed 0, YouTube transcripts 0 RequestBlocked). Gemini reader 14:32 UTC 5 videos, quota ख़त्म. Tosif laptop robot से 23 transcripts आए (repo में).
+- पढ़ा (Claude): 23 नए transcripts छाँटे — 8 Trading Chanakya (setup वाले 5 ध्यान से), बाकी MF/gold/crypto/stock tips/PR Sundar weekly view (testable नहीं या सिर्फ़ forward). Claims: BB-01, CH-02, CH-03, CH-04.
+- Test r085 BB-01 (sector close>upper BB + RS top4, signal-high entry, low-1% SL, 3R): असली NSE index N271 target 35.4% +1.22 vs random +0.57; 2R 45.7%; RS filter से फ़ायदा नहीं → अभी analysis में (breakout हिस्सा), RS बेकार.
+- Test r085 CH-02 (2x volume + 10d high breakout, 6/12): +0.25 vs random uptrend +1.31 → बेकार.
+- Notebook: r085 + r01 i134, i135. Sources: Trading Chanakya rating medium.

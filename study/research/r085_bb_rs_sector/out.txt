@@ -1,0 +1,39 @@
+sectors 11 2004-01-01 2026-11-26
+TOP4 RS63 3R: N318 tgt%40.3 win%40.3 avg+2.97 avgW+15.93 avgL-5.75 risk%5.1 days21
+   2004-13 N146 tgt%41 avg+3.13
+   2014-19 N78 tgt%40 avg+2.68
+   2020-26 N94 tgt%39 avg+2.96
+   last2m N0 avg+nan
+   last4m N1 avg-5.11
+   last6m N3 avg+1.21
+TOP4 RS126 3R: N316 tgt%41.8 win%41.8 avg+3.49 avgW+16.17 avgL-5.61 risk%5.1 days25
+   2004-13 N135 tgt%48 avg+4.91
+   2014-19 N80 tgt%34 avg+1.65
+   2020-26 N101 tgt%40 avg+3.05
+   last2m N0 avg+nan
+   last4m N2 avg-4.71
+   last6m N3 avg+1.46
+TOP4 RS126 2R: N365 tgt%50.1 win%50.1 avg+2.51 avgW+10.60 avgL-5.62 risk%5.1 days14
+   2004-13 N162 tgt%52 avg+2.97
+   2014-19 N90 tgt%46 avg+1.60
+   2020-26 N113 tgt%51 avg+2.57
+   last2m N0 avg+nan
+   last4m N3 avg-4.61
+   last6m N5 avg+0.86
+ALL sectors (no RS) 3R: N784 tgt%38.5 win%38.5 avg+2.69 avgW+15.99 avgL-5.65 risk%5.1 days21
+   2004-13 N335 tgt%40 avg+3.12
+   2014-19 N208 tgt%36 avg+1.85
+   2020-26 N241 tgt%39 avg+2.81
+   last2m N0 avg+nan
+   last4m N4 avg-4.87
+   last6m N7 avg-2.31
+BOTTOM4 RS126 3R (placebo): N299 tgt%35.5 win%35.5 avg+2.12 avgW+15.91 avgL-5.46 risk%5.0 days20
+   2004-13 N123 tgt%38 avg+2.86
+   2014-19 N88 tgt%31 avg+0.98
+   2020-26 N88 tgt%36 avg+2.21
+   last2m N0 avg+nan
+   last4m N1 avg-5.06
+   last6m N4 avg-4.95
+approx CAGR (25%/trade, sequential) 12.5 % yrs 22.3
+today above upper BB: []
+today RS126 top4: ['Healthcare', 'Consumer Cyclical', 'Real Estate', 'Energy']

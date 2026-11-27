@@ -1,0 +1,43 @@
+signals 90604
+CH-02 SL6/T12: N89435 tgt%34.3 win%35.2 avg+0.25 W+12.51 L-6.42
+   2003-13 N26306 tgt%34 avg+0.53
+   2014-19 N22661 tgt%34 avg-0.00
+   2020-26 N39953 tgt%34 avg+0.20
+   last2m(+60d hold) N1271 avg-0.49
+   last4m(+60d hold) N2695 avg-0.37
+   last6m(+60d hold) N3484 avg+0.26
+   control(uptrend random) SL6/T12: N89467 tgt%37.5 win%38.9 avg+1.31 W+13.49 L-6.46
+   2003-13 N28869 tgt%40 avg+2.36
+   2014-19 N22514 tgt%36 avg+0.51
+   2020-26 N37445 tgt%37 avg+1.01
+   last2m(+60d hold) N1252 avg-0.40
+   last4m(+60d hold) N2583 avg+0.16
+   last6m(+60d hold) N3301 avg+0.69
+CH-02 SL6/T18: N89435 tgt%26.0 win%29.1 avg+0.63 W+17.80 L-6.42
+   2003-13 N26306 tgt%26 avg+0.97
+   2014-19 N22661 tgt%25 avg+0.23
+   2020-26 N39953 tgt%26 avg+0.65
+   last2m(+60d hold) N1271 avg-0.67
+   last4m(+60d hold) N2695 avg-0.19
+   last6m(+60d hold) N3484 avg+0.57
+   control(uptrend random) SL6/T18: N89467 tgt%28.5 win%32.8 avg+1.81 W+18.77 L-6.45
+   2003-13 N28869 tgt%31 avg+3.02
+   2014-19 N22514 tgt%27 avg+0.89
+   2020-26 N37445 tgt%28 avg+1.47
+   last2m(+60d hold) N1252 avg-0.41
+   last4m(+60d hold) N2583 avg+0.42
+   last6m(+60d hold) N3301 avg+1.13
+CH-02 SL10/T10: N89435 tgt%51.6 win%52.9 avg+0.76 W+10.57 L-10.25
+   2003-13 N26306 tgt%53 avg+1.54
+   2014-19 N22661 tgt%51 avg+0.28
+   2020-26 N39953 tgt%52 avg+0.51
+   last2m(+60d hold) N1271 avg-0.67
+   last4m(+60d hold) N2695 avg-0.06
+   last6m(+60d hold) N3484 avg+0.63
+   control(uptrend random) SL10/T10: N89467 tgt%54.2 win%56.0 avg+1.78 W+11.15 L-10.13
+   2003-13 N28869 tgt%57 avg+3.05
+   2014-19 N22514 tgt%52 avg+0.87
+   2020-26 N37445 tgt%54 avg+1.38
+   last2m(+60d hold) N1252 avg-0.64
+   last4m(+60d hold) N2583 avg+0.41
+   last6m(+60d hold) N3301 avg+1.08
