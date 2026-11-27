@@ -1,56 +1,56 @@
 symbol,industry,close,trailingPE,secPE,roe,rev_g1,np_g1,q_np_yoy,quality_score,vs200,vs20,r6m,up,naya,near,results,entry_ok
-AADHARHFC,Mortgage Finance,426.9,15.554,17.57,0.158,0.195,0.202,0.157,6,-9.82,-0.174,-9.794,False,False,False,,False
-APTUS,Mortgage Finance,186.91,9.522,17.57,0.201,0.27,0.255,0.22,6,-23.54,-0.661,-28.81,False,False,False,,False
-BAJAJ-AUTO,Auto Manufacturers,10850.0,23.074,29.262,0.29,0.226,0.467,0.619,7,4.323,1.31,3.422,True,False,False,,True
-BALUFORGE,Metal Fabrication,528.9,20.826,29.375,0.196,0.192,0.27,0.178,8,9.235,4.215,13.328,True,False,False,,True
-BANCOINDIA,Auto Parts,678.5,19.428,29.262,0.322,0.213,0.229,0.191,9,8.801,4.31,8.603,True,True,False,,True
-BLS,Specialty Business Services,215.77,13.087,29.375,0.328,0.367,0.351,0.063,9,-14.186,-2.762,-19.803,False,False,False,,False
-CANFINHOME,Mortgage Finance,786.2,8.927,17.57,0.197,0.206,0.267,0.227,6,-4.826,3.408,-6.226,False,False,True,,False
-CAPLIPOINT,Drug Manufacturers - Specialty & Generic,2003.4,23.014,38.235,0.199,0.13,0.196,0.166,8,-9.084,-12.204,-3.585,False,False,False,,False
-CARYSIL,"Furnishings, Fixtures & Appliances",857.65,24.454,29.262,0.173,0.133,0.54,0.043,8,-16.173,-9.817,-23.187,False,False,False,,False
-CHOLAHLDNG,Credit Services,1389.3,9.474,17.57,0.175,0.168,0.123,0.168,6,-9.712,-0.95,-14.489,False,False,False,,False
-CRIZAC,Education & Training Services,144.78,12.563,24.695,0.403,0.227,0.414,-0.209,8,-25.126,-3.359,-35.363,False,False,False,,False
-DPABHUSHAN,Luxury Goods,1794.2,18.632,29.262,0.409,0.222,0.88,-0.228,8,34.18,-6.249,84.058,True,False,False,,True
-ECLERX,Information Technology Services,1498.0,18.85,23.783,0.29,0.223,0.305,0.273,9,-10.893,-3.963,-5.673,False,False,False,,False
-EMMVEE,Solar,268.2,12.434,23.783,0.511,1.164,1.931,0.606,8,-4.783,4.27,-7.597,False,False,False,,False
-EPACKPEB,Engineering & Construction,200.1,20.313,29.375,0.17,0.347,0.562,0.004,9,-6.603,-3.484,4.6,False,False,False,,False
-FIEMIND,Auto Parts,2013.0,19.788,29.262,0.227,0.161,0.247,0.319,9,-6.008,2.74,-11.462,False,False,False,,False
-FORCEMOT,Auto Manufacturers,20362.0,22.366,29.262,0.335,0.122,0.513,-0.162,9,5.213,6.773,0.732,True,True,False,,True
-GODFRYPHLP,Tobacco,1764.9,22.229,24.695,0.266,0.139,0.424,-0.467,8,-14.799,-0.195,-23.946,False,False,False,,False
-GOKULAGRO,Packaged Foods,204.96,13.538,24.695,0.3,0.222,0.504,0.446,9,-3.162,-5.984,-6.308,False,False,False,,False
-GOLDIAM,Luxury Goods,284.8,16.182,29.262,0.185,0.251,0.458,0.575,8,-7.738,-5.319,-6.917,False,False,False,,False
-HEROMOTOCO,Auto Manufacturers,5789.0,18.475,29.262,0.281,0.156,0.311,0.422,9,10.021,7.099,16.268,True,True,False,,True
-HEXT,Information Technology Services,502.15,21.156,23.783,0.235,0.122,0.164,0.134,9,-2.625,0.419,-0.79,False,False,False,,False
-INDIASHLTR,Mortgage Finance,621.35,12.831,17.57,0.17,0.301,0.332,0.195,6,-13.835,-1.442,-20.319,False,False,False,,False
-INDOTECH,Electrical Equipment & Parts,2312.6,24.566,29.375,0.284,0.277,0.452,0.054,8,-11.898,-10.755,-5.179,False,False,False,,False
-INDRAMEDCO,Medical Care Facilities,350.2,17.65,38.235,0.275,0.09,0.141,0.362,9,-6.748,3.842,-3.699,False,False,False,,False
-INTERARCH,Engineering & Construction,1541.7,20.59,29.375,0.165,0.306,0.248,-0.049,8,-13.834,-2.089,-14.964,False,False,False,,False
-IOB,Banks - Regional,30.88,9.35,17.57,0.156,0.116,0.596,0.666,6,-7.184,0.719,-8.612,False,False,False,,False
-JAYKAY,Specialty Business Services,175.62,12.236,29.375,0.405,1.972,32.143,-0.782,8,2.893,-9.661,-11.173,True,False,False,,True
-JSLL,Medical Care Facilities,307.2,15.643,38.235,0.613,0.704,1.775,0.286,9,-44.798,-6.396,-51.645,False,False,False,,False
-KARURVYSYA,Banks - Regional,370.0,12.324,17.57,0.193,0.153,0.293,0.511,8,16.321,0.041,26.712,True,False,False,,True
-KISSHT,Credit Services,333.3,14.894,17.57,0.24,0.629,0.752,1.004,6,,-0.214,31.99,False,False,False,,False
-LUPIN,Drug Manufacturers - Specialty & Generic,2005.0,17.748,38.235,0.269,0.239,0.625,-0.052,9,-10.059,0.476,-12.338,False,False,False,,False
-MAHABANK,Banks - Regional,94.2,9.426,17.57,0.227,0.148,0.266,0.42,6,19.105,5.441,16.053,True,False,False,,True
-MUTHOOTFIN,Credit Services,2558.0,8.394,17.57,0.309,0.577,0.986,0.341,6,-17.298,-4.078,-23.742,False,False,False,,False
-NMDC,Steel,67.24,8.144,23.621,0.234,0.342,0.139,-0.152,8,-17.932,-2.457,-25.446,False,False,False,,False
-OSWALPUMPS,Electrical Equipment & Parts,211.78,7.256,29.375,0.351,0.448,0.341,-0.609,8,-35.609,-3.906,-41.27,False,False,False,,False
-PACEDIGITK,Communication Equipment,163.58,10.323,23.783,0.176,0.083,0.112,0.465,8,-7.06,1.781,-14.086,False,False,False,,False
-PANAMAPET,Oil & Gas Refining & Marketing,419.5,3.679,16.444,0.156,0.097,0.136,3.592,8,8.253,-4.272,25.205,True,False,False,,True
-POCL,Specialty Chemicals,353.25,23.169,23.621,0.191,0.421,1.272,1.16,8,-26.828,-7.321,-41.418,False,False,False,,False
-POWERMECH,Engineering & Construction,2416.3,18.884,29.375,0.156,0.159,0.115,0.119,8,1.325,3.892,-5.135,True,True,False,,True
-RAILTEL,Telecom Services,246.42,22.669,23.516,0.162,0.232,0.155,0.037,9,-14.849,1.568,-24.998,False,False,False,,False
-SAMBHV,Steel,174.04,23.176,23.621,0.184,0.599,1.482,0.992,9,41.124,5.707,62.018,True,False,False,,True
-SANDUMA,Steel,160.7,9.676,23.621,0.224,0.621,0.397,0.879,9,-19.273,-6.952,-30.858,False,False,False,,False
-SANGHVIMOV,Rental & Leasing Services,396.65,15.728,29.375,0.15,0.369,0.177,0.112,8,7.55,8.875,4.768,True,True,False,,False
-SARDAEN,Steel,479.95,14.819,23.621,0.162,0.226,0.58,-0.054,9,-6.675,6.424,-11.758,False,False,False,,False
-SEAMECLTD,Marine Shipping,1464.3,11.719,29.375,0.218,0.46,1.805,,9,-3.486,-5.626,-10.259,False,False,False,,False
-SHRINGARMS,Luxury Goods,241.3,16.492,29.262,0.263,0.883,0.89,0.728,8,6.601,-13.971,11.604,True,False,False,,False
-SUZLON,Specialty Industrial Machinery,36.29,22.537,29.375,0.406,0.537,0.527,0.215,8,-22.638,-2.14,-32.784,False,False,False,,False
-SWARAJENG,Farm & Heavy Construction Machinery,3434.7,19.723,29.375,0.432,0.194,0.183,0.212,9,-5.993,-1.157,-8.193,False,False,False,,False
-TRANSRAILL,Engineering & Construction,433.75,13.791,29.375,0.194,0.301,0.228,0.125,8,-12.302,-0.766,-15.026,False,False,False,,False
-VAIBHAVGBL,Luxury Goods,156.03,9.697,29.262,0.178,0.094,0.735,0.108,9,-28.589,-4.095,-31.93,False,False,False,,False
-VIKRAMSOLR,Solar,141.04,21.196,23.783,0.213,0.403,2.364,-0.956,9,-22.441,3.357,-29.701,False,False,False,,False
-VINCOFE,Beverages - Non-Alcoholic,148.34,24.63,24.695,0.166,0.793,0.798,0.573,8,-2.533,-4.233,6.444,False,False,False,,False
-WAAREEENER,Solar,2385.2,19.201,23.783,0.31,0.806,0.987,-0.036,9,-15.291,-0.994,-20.072,False,False,False,,False
-WAAREERTL,Engineering & Construction,688.1,15.538,29.375,0.689,1.085,1.089,-0.365,9,-22.595,-3.427,-29.628,False,False,False,,False
+AADHARHFC,Mortgage Finance,422.65,15.554,17.57,0.158,0.195,0.202,0.157,6,-10.667,-1.077,-11.616,False,False,False,,False
+APTUS,Mortgage Finance,187.78,9.522,17.57,0.201,0.27,0.255,0.22,6,-23.037,0.09,-27.832,False,False,False,,False
+BAJAJ-AUTO,Auto Manufacturers,10485.0,23.074,29.262,0.29,0.226,0.467,0.619,7,0.77,-2.098,-1.02,True,False,False,,True
+BALUFORGE,Metal Fabrication,529.95,20.826,29.375,0.196,0.192,0.27,0.178,8,9.328,3.576,6.694,True,False,False,,True
+BANCOINDIA,Auto Parts,687.55,19.428,29.262,0.322,0.213,0.229,0.191,9,10.188,4.908,10.423,True,True,False,,True
+BLS,Specialty Business Services,216.85,13.087,29.375,0.328,0.367,0.351,0.063,9,-13.687,-2.26,-18.278,False,False,False,,False
+CANFINHOME,Mortgage Finance,795.3,8.927,17.57,0.197,0.206,0.267,0.227,6,-3.646,4.125,-5.271,False,False,True,,False
+CAPLIPOINT,Drug Manufacturers - Specialty & Generic,2062.7,23.014,38.235,0.199,0.13,0.196,0.166,8,-6.435,-9.007,1.321,False,False,False,,False
+CARYSIL,"Furnishings, Fixtures & Appliances",865.15,24.454,29.262,0.173,0.133,0.54,0.043,8,-15.401,-8.486,-22.083,False,False,False,,False
+CHOLAHLDNG,Credit Services,1368.5,9.474,17.57,0.175,0.168,0.123,0.168,6,-10.961,-2.657,-17.176,False,False,False,,False
+CRIZAC,Education & Training Services,145.02,12.563,24.695,0.403,0.227,0.414,-0.209,8,-24.795,-3.179,-39.282,False,False,False,,False
+DPABHUSHAN,Luxury Goods,1806.1,18.632,29.262,0.409,0.222,0.88,-0.228,8,34.804,-5.026,88.824,True,False,False,,True
+ECLERX,Information Technology Services,1548.3,18.85,23.783,0.29,0.223,0.305,0.273,9,-7.647,0.284,-1.212,False,False,False,,False
+EMMVEE,Solar,268.5,12.434,23.783,0.511,1.164,1.931,0.606,8,-4.783,3.887,-9.122,False,False,False,,False
+EPACKPEB,Engineering & Construction,202.62,20.313,29.375,0.17,0.347,0.562,0.004,9,-5.433,-1.892,6.952,False,False,False,,False
+FIEMIND,Auto Parts,2062.6,19.788,29.262,0.227,0.161,0.247,0.319,9,-3.662,4.213,-8.378,False,False,True,,False
+FORCEMOT,Auto Manufacturers,20179.0,22.366,29.262,0.335,0.122,0.513,-0.162,9,4.263,4.965,1.745,True,True,False,,True
+GODFRYPHLP,Tobacco,1797.0,22.229,24.695,0.266,0.139,0.424,-0.467,8,-13.212,1.384,-21.815,False,False,False,,False
+GOKULAGRO,Packaged Foods,204.31,13.538,24.695,0.3,0.222,0.504,0.446,9,-3.557,-6.191,-10.891,False,False,False,,False
+GOLDIAM,Luxury Goods,289.85,16.182,29.262,0.185,0.251,0.458,0.575,8,-6.135,-3.599,-5.324,False,False,False,,False
+HEROMOTOCO,Auto Manufacturers,5701.0,18.475,29.262,0.281,0.156,0.311,0.422,9,8.355,5.103,14.409,True,True,False,,True
+HEXT,Information Technology Services,498.9,21.156,23.783,0.235,0.122,0.164,0.134,9,-3.042,0.507,-1.772,False,False,False,,False
+INDIASHLTR,Mortgage Finance,634.1,12.831,17.57,0.17,0.301,0.332,0.195,6,-11.966,0.672,-18.736,False,False,False,,False
+INDOTECH,Electrical Equipment & Parts,2374.7,24.566,29.375,0.284,0.277,0.452,0.054,8,-9.693,-7.528,-7.267,False,False,False,,False
+INDRAMEDCO,Medical Care Facilities,354.5,17.65,38.235,0.275,0.09,0.141,0.362,9,-5.554,4.484,-4.627,False,False,False,,False
+INTERARCH,Engineering & Construction,1526.5,20.59,29.375,0.165,0.306,0.248,-0.049,8,-14.514,-3.136,-15.448,False,False,False,,False
+IOB,Banks - Regional,30.79,9.35,17.57,0.156,0.116,0.596,0.666,6,-7.4,0.137,-8.445,False,False,False,,False
+JAYKAY,Specialty Business Services,178.37,12.236,29.375,0.405,1.972,32.143,-0.782,8,4.484,-7.692,-11.117,True,False,False,,True
+JSLL,Medical Care Facilities,326.6,15.643,38.235,0.613,0.704,1.775,0.286,9,-41.128,-0.2,-48.555,False,False,False,,False
+KARURVYSYA,Banks - Regional,371.1,12.324,17.57,0.193,0.153,0.293,0.511,8,16.545,0.055,26.504,True,False,False,,True
+KISSHT,Credit Services,333.05,14.894,17.57,0.24,0.629,0.752,1.004,6,,-0.452,26.031,False,False,False,,False
+LUPIN,Drug Manufacturers - Specialty & Generic,2016.0,17.748,38.235,0.269,0.239,0.625,-0.052,9,-9.531,0.917,-11.033,False,False,False,,False
+MAHABANK,Banks - Regional,95.73,9.426,17.57,0.227,0.148,0.266,0.42,6,20.795,6.216,19.394,True,False,False,,True
+MUTHOOTFIN,Credit Services,2609.5,8.394,17.57,0.309,0.577,0.986,0.341,6,-15.494,-2.543,-21.672,False,False,False,,False
+NMDC,Steel,67.96,8.144,23.621,0.234,0.342,0.139,-0.152,8,-16.984,-1.445,-25.047,False,False,False,,False
+OSWALPUMPS,Electrical Equipment & Parts,216.5,7.256,29.375,0.351,0.448,0.341,-0.609,8,-34.004,-1.921,-38.773,False,False,False,,False
+PACEDIGITK,Communication Equipment,168.22,10.323,23.783,0.176,0.083,0.112,0.465,8,-4.389,3.827,-16.383,False,False,True,,False
+PANAMAPET,Oil & Gas Refining & Marketing,439.0,3.679,16.444,0.156,0.097,0.136,3.592,8,13.087,0.47,25.232,True,False,False,,True
+POCL,Specialty Chemicals,372.65,23.169,23.621,0.191,0.421,1.272,1.16,8,-22.688,-1.98,-33.169,False,False,False,,False
+POWERMECH,Engineering & Construction,2414.6,18.884,29.375,0.156,0.159,0.115,0.119,8,1.184,3.353,-3.18,True,True,False,,True
+RAILTEL,Telecom Services,246.74,22.669,23.516,0.162,0.232,0.155,0.037,9,-14.608,1.335,-23.857,False,False,False,,False
+SAMBHV,Steel,177.3,23.176,23.621,0.184,0.599,1.482,0.992,9,43.27,7.3,65.949,True,False,False,,True
+SANDUMA,Steel,161.86,9.676,23.621,0.224,0.621,0.397,0.879,9,-18.564,-6.063,-31.802,False,False,False,,False
+SANGHVIMOV,Rental & Leasing Services,397.9,15.728,29.375,0.15,0.369,0.177,0.112,8,7.748,8.469,4.285,True,True,False,,False
+SARDAEN,Steel,469.85,14.819,23.621,0.162,0.226,0.58,-0.054,9,-8.608,4.016,-11.831,False,False,False,,False
+SEAMECLTD,Marine Shipping,1434.2,11.719,29.375,0.218,0.46,1.805,,9,-5.534,-7.112,-10.093,False,False,False,,False
+SHRINGARMS,Luxury Goods,253.0,16.492,29.262,0.263,0.883,0.89,0.728,8,11.697,-9.29,16.327,True,False,False,,True
+SUZLON,Specialty Industrial Machinery,36.38,22.537,29.375,0.406,0.537,0.527,0.215,8,-22.341,-1.775,-33.346,False,False,False,,False
+SWARAJENG,Farm & Heavy Construction Machinery,3455.3,19.723,29.375,0.432,0.194,0.183,0.212,9,-5.413,-0.589,-8.17,False,False,False,,False
+TRANSRAILL,Engineering & Construction,435.95,13.791,29.375,0.194,0.301,0.228,0.125,8,-11.762,-0.339,-16.018,False,False,False,,False
+VAIBHAVGBL,Luxury Goods,158.75,9.697,29.262,0.178,0.094,0.735,0.108,9,-27.2,-1.544,-30.22,False,False,False,,False
+VIKRAMSOLR,Solar,138.75,21.196,23.783,0.213,0.403,2.364,-0.956,9,-23.54,1.264,-30.563,False,False,False,,False
+VINCOFE,Beverages - Non-Alcoholic,151.41,24.63,24.695,0.166,0.793,0.798,0.573,8,-0.523,-2.218,1.102,False,False,False,,False
+WAAREEENER,Solar,2377.0,19.201,23.783,0.31,0.806,0.987,-0.036,9,-15.473,-1.618,-23.027,False,False,False,,False
+WAAREERTL,Engineering & Construction,825.7,15.538,29.375,0.689,1.085,1.089,-0.365,9,-7.067,14.653,-16.831,False,False,False,,False
