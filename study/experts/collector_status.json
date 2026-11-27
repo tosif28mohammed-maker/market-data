@@ -1,12 +1,14 @@
 {
- "run_utc": "2026-11-27 01:56",
+ "run_utc": "2026-11-27 08:32",
  "sources": 74,
- "failed": [],
- "new_items": 73,
- "kept": 54,
+ "failed": [
+  "NSE circulars"
+ ],
+ "new_items": 239,
+ "kept": 199,
  "transcripts_ok": 0,
  "transcript_errors": {
-  "RequestBlocked": 6
+  "IpBlocked": 12
  },
  "books_new": []
 }

@@ -1,14 +1,15 @@
 {
- "run_utc": "2026-11-27 01:57",
+ "run_utc": "2026-11-27 08:33",
  "gutenberg_new": [],
  "arxiv_new": [],
  "wishlist_new": [],
  "fails": [
   "gutenberg catalog: HTTP Error 503: Service Unavailable",
-  "gutendex stock market: The read operation timed out",
+  "gut 75570: HTTP Error 503: Service Unavailable",
+  "gut 73647: HTTP Error 503: Service Unavailable",
+  "gut 73648: HTTP Error 503: Service Unavailable",
   "gutendex speculation: The read operation timed out",
-  "gutendex stock exchange: The read operation timed out",
-  "gutendex tape reading: The read operation timed out"
+  "gutendex stock exchange: The read operation timed out"
  ],
  "books_total": 25
 }
