@@ -163,3 +163,14 @@ Updated: 2026-11-27 21:11
 - [x] scripts/data_hunter.py (ai_manager: हर शनिवार + data_gaps.csv बदलने पर): Gemini+Google search और Groq से free/legal sources → study/ai/data_hunt.md
 - [ ] अगला Claude run: data_hunt.md पढ़ना → सबसे अच्छे source का robot fetcher (पहले Zenodo options 1-min 2017-20 → ATM option bhaav table, फिर GitHub/Drive minute data)
 - [ ] Tosif से (options के साथ): Kaggle free account + API token (GitHub secret KAGGLE_KEY) → 1-min Nifty 2015-24; Angel SmartAPI key/TOTP (angel_data.yml तैयार)
+
+## 27 Nov रात run 2 — नतीजे
+- [x] ANDAZA calibration: andaza.py में isotonic (walk-forward bucket table) → [sach ~X%]. सच: top picks भी ~49% (बाज़ार से आगे) — model का किनारा पतला; पैसा इस पर अकेले नहीं
+- [x] VRP iron condor (study/vrp_condor_walkforward.py): 1SD weekly +1.9% risk पर 2010-26, VRP filter 2023+ FAIL → रखना/analysis
+- [x] Halchal→straddle (study/halchal_straddle_walkforward.py): FAIL (-4.7%/सौदा, 2 साल data) → बेकार; universe500 पर लंबा test बाकी
+- [x] Zenodo options fetcher (scripts/zenodo_options.py + workflow) — पहला run structure file देगा; अगला Claude run पढ़कर parser ठीक करे, फिर jackpot/condor असली भाव से
+- [x] data_hunt पहला run: Gemini 429 (quota), Groq ने list दी (बिना verify) → शनिवार दोबारा
+- [x] AI helpers top3 (TOSIF_LIST E): Cerebras, Mistral, OpenRouter(:free/$10)
+- [ ] scenario % (तेज़ी/flat/गिरावट) andaza में — combo_model.py में per-row outcomes save करके
+- [ ] ai_client.py में Cerebras/Mistral fallback (Tosif key दे तब)
+- [ ] MULTIBAGGER walk-forward, दुनिया के बाज़ार (बाकी)

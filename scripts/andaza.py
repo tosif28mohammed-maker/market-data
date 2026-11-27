@@ -38,6 +38,25 @@ D[X] = D[X].fillna(0.5)
 today = a.index[-1]
 D['p'] = mdl.predict_proba(D[X].values)[:, 1] * 100
 D['dec'] = pd.qcut(D.p.rank(method='first'), 10, labels=False) + 1
+# ---- calibration (27 Nov 2026): model ka % itihaas mein zyada bharosa dikhata tha (60% kaha -> 52% hua).
+# Walk-forward bucket table (study/results/combo_share_calibration.csv) par isotonic (PAV, n-weighted) -> 'p_sach' = itihaas mein asal kitna hua.
+def _iso(x, y, w):
+    blk = [[yi * wi, wi, [xi]] for xi, yi, wi in zip(x, y, w)]
+    i = 0
+    while i < len(blk) - 1:
+        if blk[i][0] / blk[i][1] > blk[i + 1][0] / blk[i + 1][1]:
+            blk[i] = [blk[i][0] + blk[i + 1][0], blk[i][1] + blk[i + 1][1], blk[i][2] + blk[i + 1][2]]; del blk[i + 1]; i = max(i - 1, 0)
+        else: i += 1
+    xs, ys = [], []
+    for sy, sw, xl in blk:
+        for xi in xl: xs.append(xi); ys.append(sy / sw)
+    return np.array(xs), np.array(ys)
+try:
+    _C = pd.read_csv(P('study', 'results', 'combo_share_calibration.csv'))
+    CX, CY = _iso(_C.kaha.values, _C.hua.values, _C.n.values)
+    D['p_sach'] = np.interp(D.p.values, CX, CY).round(1)
+except Exception:
+    D['p_sach'] = D.p
 D['liq'] = [liqcls.get(s) for s in D.index]; D['industry'] = ind.reindex(D.index)
 try:
     F = pd.read_csv(P('data', 'fund', 'summary.csv')).set_index('symbol')
@@ -62,14 +81,15 @@ L.to_csv(LF, index=False)
 done = L.dropna(subset=['exc20'])
 o = [f'# Mila-jula andaza — {today:%d %b %Y} (f87)', '',
      'Har A/B share ka mauka (%) ki wo agle 20 din bazaar se AAGE rahe. 20+ ishaare milakar (chaal, momentum, DMA, 52w, volume, jhatke, industry).',
-     'Itihaas (2008-26, walk-forward): dekho study/results/combo_model.md. Ye ANDAZA hai, pakka nahi; fundamentals/khabar alag se jaancho.', '']
+     'Itihaas (2008-26, walk-forward): dekho study/results/combo_model.md. Ye ANDAZA hai, pakka nahi; fundamentals/khabar alag se jaancho.',
+     'NAYA (27 Nov): pehla % = model, [sach ~X%] = itihaas mein waise andaze par ASAL kitni baar hua (model zyada bharosa dikhata tha). Faisla [sach] se.', '']
 top = D[(~D.avoid)].sort_values('p', ascending=False).head(20)
-o += ['## Sabse achha andaza (top 20, AVOID hata kar)'] + [f'- {s} ({r.liq}) {r.p:.0f}% | {r.industry} | quality {r.quality if pd.notna(r.get("quality")) else "-"}' for s, r in top.iterrows()] + ['']
+o += ['## Sabse achha andaza (top 20, AVOID hata kar)'] + [f'- {s} ({r.liq}) {r.p:.0f}% [sach ~{r.p_sach:.0f}%] | {r.industry} | quality {r.quality if pd.notna(r.get("quality")) else "-"}' for s, r in top.iterrows()] + ['']
 bot = D.sort_values('p').head(10)
 o += ['## Sabse kamzor andaza (bottom 10)'] + [', '.join(f'{s} {r.p:.0f}%' for s, r in bot.iterrows())] + ['']
 try:
     Hd = pd.read_csv(P('paper', 'my_holdings.csv')).symbol.astype(str)
-    o += ['## Hamari holdings ka andaza'] + [f'- {s}: {D.p[s]:.0f}% (10 mein se hissa {int(D.dec[s])})' + (' ⚠️ kamzor' if D.dec[s] <= 2 else '') for s in Hd if s in D.index] + ['']
+    o += ['## Hamari holdings ka andaza'] + [f'- {s}: {D.p[s]:.0f}% [sach ~{D.p_sach[s]:.0f}%] (10 mein se hissa {int(D.dec[s])})' + (' ⚠️ kamzor' if D.dec[s] <= 2 else '') for s in Hd if s in D.index] + ['']
 except Exception: pass
 if len(done):
     cal = done.groupby('dec').exc20.agg(['count', 'mean']).round(2)

@@ -11,6 +11,7 @@ Updated: 2026-11-27 22:00 Kuwait. Tosif poochhein "kya pending hai" -> ye list (
 | A5 | Angel One SmartAPI | India account, Tosif Kuwait -> nahi chal raha. Hal data_hunter (G8) dhoondh raha | — | PENDING (delete nahi) |
 | A6 | Options ki 2-3 kitaabein (Natenberg, Sinclair 'Positional Option Trading', Connors) — sirf agar khareedna ho | asli option knowledge | — | Tosif ka faisla |
 | A7 | SEBI F&O P&L reports 2023/2024 + intraday 2024 PDF (laptop/office se download -> books/) | robot cloud se nahi le pa raha | 5 min | pending |
+| A9 | Cerebras + Mistral muft API key -> GitHub secrets CEREBRAS_API_KEY, MISTRAL_API_KEY | Gemini quota khatam par bhi robot chale | 10 min | pending |
 | A8 | Bahut zaroori video jo robot na le paaye -> Tosif manually transcript/notes | kaam na ruke | — | jab Claude bataye |
 
 ## B. YouTube
@@ -26,8 +27,12 @@ Updated: 2026-11-27 22:00 Kuwait. Tosif poochhein "kya pending hai" -> ye list (
 
 ## E. Aur AI helpers (Tosif: muft ya bahut sasta, achhi quality, kam limit wale bekaar)
 - Abhi: Gemini (free key), Groq (free key), dost ka Claude.
-- Jaanch karni hai (Claude, raat run): kaunsa free/sasta AI sabse zyada kaam ka — limits, quality, API milta hai ya nahi
-  (jaise OpenRouter free models, Mistral, DeepSeek, Cerebras, GitHub Models, Cloudflare Workers AI, Perplexity). Nateeja yahan likhna.
+- Jaanch (27 Nov raat, web): robot ke liye top 3 (sab OpenAI-jaisa API, bina card):
+  1. Cerebras — ~1M tokens/din muft, bahut tez -> Gemini quota khatam (aaj 429) hone par backup. Account + key = 5 min.
+  2. Mistral La Plateforme — sabse bada muft token hissa, achhi quality -> transcripts/notes padhna.
+  3. OpenRouter :free — ek key se 25+ models; 50 req/din muft, EK BAAR $10 dalne par 1000/din (sabse sasta upgrade).
+  Bonus: GitHub Models — aapke GitHub se hi (nayi account nahi), par limits tight. Groq pehle se hai.
+  Tosif ke liye: Cerebras + Mistral ki muft key banana (har ek 5 min) -> robot ka 'free AI chain' (ek ruke to agla). Paisa: abhi nahi; OpenRouter $10 tabhi jab muft kam pade.
 
 ## F. Ho gaya (yaad ke liye)
 - 27 Nov: laptop YouTube robot bana, 23 scripts GitHub par; Gemini ab transcripts padhta hai; data_hunter robot; US-fade + jackpot walk-forward.

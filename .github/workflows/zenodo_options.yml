@@ -1,0 +1,22 @@
+name: zenodo_options
+# G2 data gap: Nifty options asli 1-min bhaav 2017-20 (Zenodo, free) -> chhoti daily table. Ek baar + manual.
+on:
+  workflow_dispatch:
+  push:
+    paths: ['scripts/zenodo_options.py']
+permissions:
+  contents: write
+jobs:
+  get:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install pandas openpyxl xlrd
+      - run: python scripts/zenodo_options.py || echo "fail - structure file dekho"
+      - run: |
+          git config user.name "market-data-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/options_hist; git commit -m "zenodo options 2017-20 daily table" || echo none
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 7; done
