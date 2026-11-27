@@ -5,6 +5,8 @@ No life story, no 'X se Y crore' claims, no generic advice. Already-known rules 
 
 Order of work each run:
  1) study/experts/user_links.txt  (links Tosif sends in chat; Claude appends them) - always first
+ 1b) study/experts/transcripts/<id>.txt full word-for-word transcripts from Tosif's laptop robot (27 Nov) - read as TEXT,
+     same PROMPT rules; if Gemini already watched that video, the note gets a '_tr' twin so both can be compared
  2) BOOKS FIRST (Tosif 22 Nov): books/*.txt in books/order.txt order, ~150k-char chunks, up to MAX_BOOK_CHUNKS per run
  3) YouTube queue videos ONLY after every book is fully read
 Outputs:
@@ -23,6 +25,8 @@ DONE, BOOKP, STATUS = os.path.join(G, 'done.txt'), os.path.join(G, 'book_progres
 RULES, TQ, LINKS = os.path.join(E, 'rules_ai.csv'), os.path.join(E, 'test_queue.csv'), os.path.join(E, 'user_links.txt')
 MAX_VIDEOS = int(os.environ.get('MAX_VIDEOS', '12'))
 MAX_BOOK_CHUNKS = int(os.environ.get('MAX_BOOK_CHUNKS', '1'))
+MAX_TRANSCRIPTS = int(os.environ.get('MAX_TRANSCRIPTS', '8'))
+TR_DONE = os.path.join(G, 'transcripts_done.txt')
 CHUNK = 150_000
 RCOLS = ['rule_id', 'date', 'source', 'link', 'title', 'rule', 'type', 'market', 'timeframe', 'entry', 'exit', 'stop',
          'conditions', 'testable', 'data_needed', 'new_or_known', 'duplicate_of', 'gemini_confidence']
@@ -117,6 +121,32 @@ def main():
             stat['videos_ok'] += 1; stat['rules_added'] += len(added); done.add(vid); n += 1
             open(DONE, 'a').write(vid + '\n')
     do_videos(todo_user, MAX_VIDEOS)
+    # 1b) Tosif's laptop transcripts (full text, nothing summarised) - before books (user material first)
+    trd = set(open(TR_DONE).read().split()) if os.path.exists(TR_DONE) else set()
+    trs = [f for f in sorted(glob.glob(os.path.join(E, 'transcripts', '*.txt'))) if not f.endswith('.desc.txt')
+           and os.path.basename(f)[:-4] not in trd]
+    stat['transcripts_ok'] = 0
+    for f in trs:
+        if stat['transcripts_ok'] >= MAX_TRANSCRIPTS or stat['stopped'] or time.time() - T0 > BUDGET: break
+        vid = os.path.basename(f)[:-4]; body = open(f, encoding='utf-8', errors='ignore').read()
+        head = dict(l.split(': ', 1) for l in body.splitlines()[:3] if ': ' in l)
+        url = head.get('video', f'https://www.youtube.com/watch?v={vid}'); title = head.get('title', '')
+        src = 'transcript: ' + (head.get('channel') or 'Tosif laptop')
+        print(f'transcript {vid}: {title[:70]}', flush=True)
+        txt, info = gemini(PROMPT.format(kind='YouTube video ki POORI shabd-ba-shabd transcript (auto-caption, numbers galat ho sakte hain - shak ho to "(transcript galat ho sakti hai)" likho)', known=known)
+                           + '\n\n---- TRANSCRIPT ----\n' + body[:CHUNK], json_out=True)
+        js = parse_json(txt) if txt else None
+        if isinstance(js, list): js = {'rules': [r for r in js if isinstance(r, dict)]}
+        if not js:
+            stat['videos_fail'].append(f'transcript {vid}: {info if not txt else "bad json"}')
+            if info == 'quota used up this run': stat['stopped'] = 'Gemini free quota khatam - agle run me'
+            continue
+        note_id = vid + '_tr' if os.path.exists(os.path.join(G, vid + '.md')) else vid
+        write_note(note_id, src, url, title, js); stat['rules_added'] += len(save_rules(src, url, js.get('title') or title, js, done))
+        stat['transcripts_ok'] += 1; trd.add(vid); open(TR_DONE, 'a').write(vid + '\n'); done.add(vid)
+        if vid not in open(DONE).read().split() if os.path.exists(DONE) else True: open(DONE, 'a').write(vid + '\n')
+        time.sleep(15)
+    stat['transcripts_left'] = len(trs) - stat['transcripts_ok']
     # 2) books: finish a started book first, then the next one in books/order.txt (mix: study reports, classics, papers)
     prog = json.load(open(BOOKP)) if os.path.exists(BOOKP) else {}
     files = {os.path.basename(b): b for b in glob.glob(os.path.join(E, 'books', '*.txt'))}

@@ -137,3 +137,10 @@ Updated: 2026-11-27 18:11
 
 - 2026-11-26: manual video list (study/experts/manual/video_list.md, 167 links, priority) — Tosif free hone par transcript copy-paste karenge; jo aaye wo transcripts/ me + list status=done. Har hafte build_list.py dobara chalao.
 - [ ] PROMPT BANK (Tosif 26 Nov): study/experts/friend_claude/PROMPT_BANK.md ko har run update karo — bahar ho sakne wala kaam (web research, kitab, YouTube bina transcript, company deep-dive) ka poora prompt PENDING/AGLE IDEAS me; YouTube pending list queue.csv se. Tosif ko sirf tab do jab woh maange.
+
+## 27 Nov रात — Tosif laptop YouTube robot
+- [x] laptop robot (tools/laptop/yt_robot.py + ROBOT_CHALAO.bat): 23 पूरी transcripts बनीं, Tosif ने browser से study/experts/transcripts/ में upload कीं (27 Nov 21:00)
+- [x] gemini_reader.py: transcripts/*.txt भी पढ़ता है (step 1b, MAX_TRANSCRIPTS=8/run, transcripts_done.txt; video पहले देखा हो तो note <id>_tr.md — दोनों की तुलना)
+- [ ] 91 video बाकी (hotspot IP को YouTube ने रोका): study/experts/laptop_links_pending.txt — Tosif office PC पर robot लगाएगा (28 Nov)
+- [ ] अगले Claude run: gemini/*_tr.md और नए transcript notes पढ़ना, video-वाले note से तुलना (कुछ छूटा?), नए testable नियम test करना
+- [ ] laptop robot: Python urllib SSL (CERTIFICATE_VERIFY_FAILED) — certifi fix tools/laptop में है, Tosif ने अभी नहीं चलाया
