@@ -1,0 +1,32 @@
+^NSEI 4708 2007-09-17 2026-11-26
+^CNXSC 1 2026-11-27 2026-11-27
+NIFTY_CONSR_DURBL.NS 1 2026-11-27 2026-11-27
+^CNXCONSUM 3767 2011-07-12 2026-11-26
+
+=== AI-14BEFA Smallcap250 minus Nifty 12m return; fwd relative (SC - Nifty), monthly samples
+ 3m ALL       N0
+ 3m rel>17%   N0
+ 3m rel>25%   N0
+ 3m rel<-17%  N0
+ 6m ALL       N0
+ 6m rel>17%   N0
+ 6m rel>25%   N0
+ 6m rel<-17%  N0
+ 12m ALL       N0
+ 12m rel>17%   N0
+ 12m rel>25%   N0
+ 12m rel<-17%  N0
+ episodes (first cross >17%), fwd 6m/12m rel:
+Traceback (most recent call last):
+  File "/home/runner/work/market-data/market-data/study/research/claims/sc_rotation_durables.py", line 31, in <module>
+    print(' today rel 12m', round(rel.iloc[-1]*100,1), D.index[-1].date())
+                                  ~~~~~~~~^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1342, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 2432, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 2365, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+fail study/research/claims/sc_rotation_durables.py
