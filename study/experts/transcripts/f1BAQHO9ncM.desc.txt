@@ -1,0 +1,7 @@
+5 ScanX Features for Intraday Traders | Heatmap, MTF & Top Deliveries
+
+ScanX does more than screen stocks. In this walkthrough, explains five features active traders can use to read the market, build a watchlist, and put price moves in context.
+
+See how the Heatmap changes when you switch from Nifty 50 to F&O stocks, what SLBM Insights shows about stock borrowing and lending, and how MTF Insights tracks changes in funded positions. The walkthrough also explains how to read delivery percentages and use the IPO tab to keep track of upcoming listings. None of these features is a standalone buy or sell signal.
+
+📱 

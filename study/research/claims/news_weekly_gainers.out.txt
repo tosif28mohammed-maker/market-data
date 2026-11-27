@@ -75,6 +75,6 @@ bottom10 +6/-6 20d 2021-26: n=3087 target_hit=47.0% stop=49.5% avg_net=-0.42%
 bottom10 +6/-6 20d last6m: n=267 target_hit=41.2% stop=47.6% avg_net=-0.73%
 
 ## BS-01 Nifty weekly (from 2007-09-21)
-next 1w: after +2.5% week n=145 avg=0.47 up=66% | all weeks avg=0.20 up=56% || since2015 strong n=57 0.57 vs all 0.20
+next 1w: after +2.5% week n=145 avg=0.46 up=65% | all weeks avg=0.20 up=56% || since2015 strong n=57 0.55 vs all 0.20
 next 4w: after +2.5% week n=143 avg=1.78 up=64% | all weeks avg=0.80 up=60% || since2015 strong n=55 2.07 vs all 0.81
-next 12w: after +2.5% week n=142 avg=3.33 up=64% | all weeks avg=2.28 up=64% || since2015 strong n=54 4.63 vs all 2.29
+next 12w: after +2.5% week n=142 avg=3.33 up=64% | all weeks avg=2.27 up=64% || since2015 strong n=54 4.63 vs all 2.29
