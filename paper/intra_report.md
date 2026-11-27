@@ -2,15 +2,15 @@
 
 Asli paisa nahi. Stocks kharcha 0.1%, options Rs 60/leg + 0.5 pt. Option bhaav andaza (BS + VIX).
 
-## LIVE (asli din, robot ne us din chalaya): 11 din
+## LIVE (asli din, robot ne us din chalaya): 12 din
 ```
            trades  win_pct  total_rs   avg_rs  avg_R
 strat                                               
-GAPBOUNCE       9       44    3045.0   338.33   0.54
+GAPBOUNCE      10       50    3345.0   334.50   0.68
 GAPFADE         5       40   -1039.0  -207.80  -0.17
 TRENDDAY        3      100    3017.0  1005.67   1.10
 USNIGHT         5       40    6821.0  1364.20  -0.08
-KUL            22       50   11844.0   538.36   0.31
+KUL            23       52   12144.0   528.00   0.39
 ```
 Galtiyon ki ginti:
 ```
@@ -25,13 +25,13 @@ Discipline niyam ki jaanch (base vs har niyam; jo base se behtar ho wahi rakheng
 ```
                                                  trades  total_rs  win_pct  sabse_bura
 niyam                                                                                 
-Bina niyam (base)                                    22   11844.0     50.0     -3670.0
-D1 din mein 2 haar ya -Rs2,000 -> band (akela)       22   11844.0     50.0     -3670.0
-D2 R:R >= 1.5 warna skip (akela)                     19   14668.0     58.0     -3670.0
-D3 +1R ke baad stop entry par (akela)                22   11844.0     50.0     -3670.0
-D4 Nifty ki disha ke khilaaf entry nahi (akela)      20   12044.0     55.0     -3670.0
-D5 din +Rs3,000 -> band (lalach nahi) (akela)        22   11844.0     50.0     -3670.0
-SAB niyam ek saath                                   17   14868.0     65.0     -3670.0
+Bina niyam (base)                                    23   12144.0     52.0     -3670.0
+D1 din mein 2 haar ya -Rs2,000 -> band (akela)       23   12144.0     52.0     -3670.0
+D2 R:R >= 1.5 warna skip (akela)                     20   14968.0     60.0     -3670.0
+D3 +1R ke baad stop entry par (akela)                23   12144.0     52.0     -3670.0
+D4 Nifty ki disha ke khilaaf entry nahi (akela)      21   12344.0     57.0     -3670.0
+D5 din +Rs3,000 -> band (lalach nahi) (akela)        23   12144.0     52.0     -3670.0
+SAB niyam ek saath                                   18   15168.0     67.0     -3670.0
 ```
 ## REPLAY (pichhle data par wahi niyam — shuruaati andaza): 59 din
 ```
@@ -63,6 +63,6 @@ D4 Nifty ki disha ke khilaaf entry nahi (akela)      91   26856.0     57.0     -
 D5 din +Rs3,000 -> band (lalach nahi) (akela)       110   27756.0     55.0     -3229.0
 SAB niyam ek saath                                   60   21633.0     48.0     -3229.0
 ```
-## Aakhri din 2026-11-25
+## Aakhri din 2026-11-27
 
-- GAPBOUNCE HFCL 09:30->09:30 TARGET: Rs +570 (+2.00R). gap -5.0%, pehle 15 min hara, Nifty gap +1.15%. 
+- GAPBOUNCE MOREPENLAB 09:30->09:35 TARGET: Rs +300 (+2.00R). gap -5.0%, pehle 15 min hara, Nifty gap -0.17%. 
