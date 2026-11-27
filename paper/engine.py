@@ -340,11 +340,41 @@ if os.path.exists(USF) and 'BANKNIFTY' in DAY:
                        mode='live' if str(day.date())>=LIVE_FROM else 'replay')
                 journal.append(j); USFADE_TODAY.setdefault(str(day.date()),[]).append(j)
             state[key]=str(day.date())
+# ---------- IDX_USFADE_OPT (27 Nov 2026, Tosif: 'jackpot' option chhoti rakam, stop ke saath) ----------
+# Same US-fade signal, but Nifty ATM weekly option (CE if long, PE if short) bought at 9:15 open, budget Rs 50k,
+# stop = premium 50% down (intraday extreme se jaancha), warna 15:15 close. Expiry kam se kam ~4 din door.
+# SAHI walk-forward (study/jackpot_walkforward.py, theta poora gina): 2010-26 avg -3.5%/sauda (FAIL), sirf pichhle 3 saal +5.8%.
+# Pehle wala '+1%/+11%' model ki galti thi (intraday theta kam gina). Ye paper sirf SEEKHNE ke liye; asli paisa nahi.
+OPT_LIVE='2026-11-28'
+if os.path.exists(USF) and 'NIFTY' in DAY and 'INDIAVIX' in DAY:
+    d=DAY['NIFTY']; vx=DAY['INDIAVIX'].close; key='usfadeopt_last'; start=state.get(key) or '2025-12-31'
+    for day in [x for x in d.index if str(x.date())>start]:
+        if dates and day>dates[-1]: break
+        prev_us=mv[mv.index<day]; pv=vx[vx.index<day]
+        if not len(prev_us) or not len(pv) or (day-prev_us.index[-1]).days>4: state[key]=str(day.date()); continue
+        m=float(prev_us.iloc[-1]); side=-1 if m>=hi_t else (1 if m<=lo_t else 0)
+        if side:
+            o,h,l,c=(float(d.loc[day,k]) for k in ('open','high','low','close'))
+            v0=float(pv.iloc[-1]); v1=float(vx.loc[day]) if day in vx.index else v0
+            cp='C' if side==1 else 'P'; K=round(o/50)*50; exp=next_tuesday(day,4)   # 1-din expiry wala theta bahut khaata hai (27 Nov test)
+            nb=max(int(np.busday_count(day.date(),exp.date())),1); T0=nb/252; T1=max(nb-1,0)/252+0.25/252
+            p0=bs(o,K,T0,ivol(o,K,v0),cp)
+            if p0>=1:
+                bad=l if cp=='C' else h; worst=bs(bad,K,(T0+T1)/2,ivol(bad,K,v0),cp)
+                qty=max(1,int(50000//(p0*LOT)))*LOT
+                if worst<=0.5*p0: ex,why=0.5*p0,'SL 50% premium'
+                else: ex,why=bs(c,K,T1,ivol(c,K,v1),cp),'15:15 बंद'
+                pnl=(ex-p0)*qty-80-0.02*p0*qty
+                j=dict(id=nid(),strategy='IDX_USFADE_OPT',symbol=f'NIFTY {K} {"CE" if cp=="C" else "PE"} {exp.date()}',side='Buy',qty=qty,entry_date=str(day.date()),
+                       entry_price=round(p0,2),sl=round(0.5*p0,2),target=None,note=f"S&P {m*100:+.2f}%, VIX {v0:.1f}, model bhaav (BS+skew)",
+                       exit_date=str(day.date()),exit_price=round(ex,2),exit_reason=why,pnl_rs=round(pnl,0),mode='live' if str(day.date())>=OPT_LIVE else 'replay')
+                journal.append(j); USFADE_TODAY.setdefault(str(day.date()),[]).append(j)
+        state[key]=str(day.date())
 # ---------- save ----------
 J=pd.DataFrame(journal); J.to_csv(JF,index=False)
 json.dump(state,open(SF,'w'),ensure_ascii=False,indent=1,default=str)
 NAME={'EQ_DIP':'Equity swing (dip)','EQ_FOCUS':'Focus शेयर (Top-1000 नियम)','FUT_DIP':'Nifty future (dip)','FUT_EXP':'Nifty future (expiry के बाद)','INTRA_ORB':'Intraday Nifty ORB',
-      'OPT_SELL':'Option sell (naked strangle)','HEDGE_IC':'Hedge: Iron condor','WEEKLY_IC':'Weekly iron condor (expiry se pehle din, f75)','WEEKLY_IC_NS':'Weekly iron condor bina stop (wings tak risk)','OPT_BUY_EXP':'Option buy (expiry के बाद CE)','OPT_BUY_DIP':'Option buy (dip CE)','INTRA_GAPFADE':'Intraday gap-up 2%+ short (9:20)','IDX_USFADE':'Index: America के बड़े दिन के बाद उल्टा'}
+      'OPT_SELL':'Option sell (naked strangle)','HEDGE_IC':'Hedge: Iron condor','WEEKLY_IC':'Weekly iron condor (expiry se pehle din, f75)','WEEKLY_IC_NS':'Weekly iron condor bina stop (wings tak risk)','OPT_BUY_EXP':'Option buy (expiry के बाद CE)','OPT_BUY_DIP':'Option buy (dip CE)','INTRA_GAPFADE':'Intraday gap-up 2%+ short (9:20)','IDX_USFADE':'Index: America के बड़े दिन के बाद उल्टा','IDX_USFADE_OPT':'US-fade दिशा में Nifty ATM option ख़रीद (₹50k, stop 50%)'}
 def summary(J):
     rows=[]
     for st in NAME:

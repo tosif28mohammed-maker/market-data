@@ -144,3 +144,13 @@ Updated: 2026-11-27 18:11
 - [ ] 91 video बाकी (hotspot IP को YouTube ने रोका): study/experts/laptop_links_pending.txt — Tosif office PC पर robot लगाएगा (28 Nov)
 - [ ] अगले Claude run: gemini/*_tr.md और नए transcript notes पढ़ना, video-वाले note से तुलना (कुछ छूटा?), नए testable नियम test करना
 - [ ] laptop robot: Python urllib SSL (CERTIFICATE_VERIFY_FAILED) — certifi fix tools/laptop में है, Tosif ने अभी नहीं चलाया
+
+## 27 Nov रात — Tosif के कहे बड़े काम (रात का run, बाकी आगे)
+- [x] US-fade walk-forward → study/usfade_walkforward.py (edge BankNifty में; Nifty अकेला कमज़ोर; stop 0.5-1%)
+- [x] Jackpot option walk-forward → study/jackpot_walkforward.py: अंधा strangle/squeeze FAIL; US-fade+ATM option भी पूरा theta गिनने पर FAIL (2010-26 -3.5%/सौदा, सिर्फ़ 2023+ +5.8%). पहला '+1%' model की गलती — Tosif को बताना
+- [x] paper IDX_USFADE_OPT (₹50k, ATM, expiry ≥4 दिन, stop 50%) live 28 Nov से — सिर्फ़ सीखने के लिए
+- [ ] F&O paper ज़्यादा: WEEKLY_IC/CONDOR रोज़ की सीमा, BankNifty US-fade 0.5% stop की अलग paper line
+- [ ] 5 options ideas test: VIX ऊँचा hedged selling (realized vs VIX), results-day straddle selling, halchal→straddle ख़रीद, FII index futures position (non-NSE source), US-fade stock futures
+- [ ] ANDAZA calibration (60%→52%): isotonic/bucket calibration andaza_log से, scenario (tezi/flat/giravat) %, cause-chain
+- [ ] MULTIBAGGER: multibagger_precursors.py (universe500 branch) + fundamentals/theme; हर Jan walk-forward; data/multibagger_watch.md
+- [ ] दुनिया के बाज़ार: US/Japan/Korea/Taiwan/China/Gulf (Yahoo) → data/world_watch.md
