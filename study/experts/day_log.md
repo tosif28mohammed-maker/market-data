@@ -212,3 +212,11 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - Test r085 BB-01 (sector close>upper BB + RS top4, signal-high entry, low-1% SL, 3R): असली NSE index N271 target 35.4% +1.22 vs random +0.57; 2R 45.7%; RS filter से फ़ायदा नहीं → अभी analysis में (breakout हिस्सा), RS बेकार.
 - Test r085 CH-02 (2x volume + 10d high breakout, 6/12): +0.25 vs random uptrend +1.31 → बेकार.
 - Notebook: r085 + r01 i134, i135. Sources: Trading Chanakya rating medium.
+
+## 2026-11-28 02:11 (silent run)
+- Robot: collector 27 Nov 17:57 UTC — 74 sources, failed 1 (SEBI), नए 114 (74 रखे); YouTube transcripts 0 (RequestBlocked 5).
+- पढ़ा (Claude): queue के 74 नए (NSE दुनिया का 3rd exchange, Zee/Dalmia buyback, SEBI FPI commodity, Nifty best November 21 साल, FPI $16bn Nov, JP Morgan 2027 31000/22000, RBI KYC/VRR routine, PIB/IFFI बेकार). नया testable नहीं (NM-01/BS-01 पहले हो चुके); JPM-27 forward watch.
+- Test r087 AI-A63247 (DXY+US10y ऊपर → gold से निकलो): gold fwd20 +0.30% बनाम +0.94%, fwd60 +2.39 बनाम +2.80 → बेकार.
+- Test r087 AI-B14C35 (swing 8 दिन में +3% नहीं → बाहर): 186k trades; रुके trades रखना -1.2 बनाम निकलना -2.3 → सामान्य बाज़ार में नुकसान, पिछले 2-4 कमज़ोर महीनों में फ़ायदा → अभी analysis में.
+- Robot को दिया: claims/sc_rotation_durables.py (AI-14BEFA smallcap>17% rotation, AI-CCEDA6 Consumer Durables 2y) — यहाँ Yahoo 429.
+- Notebook: r087 + r01 i136, i137.

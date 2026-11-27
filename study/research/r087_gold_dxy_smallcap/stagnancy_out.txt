@@ -1,0 +1,48 @@
+=== breakout20 exit day8 if max high < +3% | N 93155 stagnated 10%
+ 2003-12   N 25520 A(SL7/TG15/30d) avg +1.96 tgt 37.2% days 10.1 | B avg +1.83 days  9.2 | stag N1725 keep -0.35 vs exit -2.27 | per-day A +0.194 B +0.198
+ 2013-20   N 32074 A(SL7/TG15/30d) avg +1.44 tgt 33.6% days 11.8 | B avg +1.31 days 10.3 | stag N3655 keep -1.16 vs exit -2.31 | per-day A +0.122 B +0.127
+ 2021-26   N 35235 A(SL7/TG15/30d) avg +1.43 tgt 33.2% days 12.3 | B avg +1.31 days 10.9 | stag N3861 keep -1.38 vs exit -2.41 | per-day A +0.116 B +0.121
+ Nov23-now N 17505 A(SL7/TG15/30d) avg +0.71 tgt 29.7% days 12.8 | B avg +0.67 days 11.3 | stag N2087 keep -2.16 vs exit -2.46 | per-day A +0.055 B +0.059
+ last6m    N  3566 A(SL7/TG15/30d) avg +0.42 tgt 28.5% days 12.8 | B avg +0.35 days 11.3 | stag N434 keep -1.96 vs exit -2.61 | per-day A +0.033 B +0.031
+ last4m    N  1865 A(SL7/TG15/30d) avg -0.18 tgt 27.3% days 12.3 | B avg -0.16 days 10.6 | stag N261 keep -2.84 vs exit -2.70 | per-day A -0.014 B -0.015
+ last2m    N   545 A(SL7/TG15/30d) avg -2.27 tgt 21.1% days  8.7 | B avg -2.18 days  8.2 | stag N38 keep -3.71 vs exit -2.47 | per-day A -0.257 B -0.265
+=== breakout20 exit day7 if max high < +0% | N 93155 stagnated 0%
+ 2003-12   N 25520 A(SL7/TG15/30d) avg +1.96 tgt 37.2% days 10.1 | B avg +1.96 days 10.1 | stag N53 keep -2.31 vs exit -3.18 | per-day A +0.194 B +0.195
+ 2013-20   N 32074 A(SL7/TG15/30d) avg +1.44 tgt 33.6% days 11.8 | B avg +1.44 days 11.8 | stag N123 keep -3.01 vs exit -4.08 | per-day A +0.122 B +0.122
+ 2021-26   N 35235 A(SL7/TG15/30d) avg +1.43 tgt 33.2% days 12.3 | B avg +1.42 days 12.3 | stag N110 keep -2.50 vs exit -3.76 | per-day A +0.116 B +0.116
+ Nov23-now N 17505 A(SL7/TG15/30d) avg +0.71 tgt 29.7% days 12.8 | B avg +0.70 days 12.8 | stag N67 keep -2.98 vs exit -3.58 | per-day A +0.055 B +0.055
+ last6m    N  3566 A(SL7/TG15/30d) avg +0.42 tgt 28.5% days 12.8 | B avg +0.42 days 12.8 | stag N15 keep -3.64 vs exit -3.76 | per-day A +0.033 B +0.033
+ last4m    N  1865 A(SL7/TG15/30d) avg -0.18 tgt 27.3% days 12.3 | B avg -0.18 days 12.2 | stag N14 keep -3.38 vs exit -3.82 | per-day A -0.014 B -0.015
+ last2m    N   545 A(SL7/TG15/30d) avg -2.27 tgt 21.1% days  8.7 | B avg -2.27 days  8.7 | stag N0 keep +nan vs exit +nan | per-day A -0.257 B -0.257
+=== breakout20 exit day8 if max high < +5% | N 93155 stagnated 19%
+ 2003-12   N 25520 A(SL7/TG15/30d) avg +1.96 tgt 37.2% days 10.1 | B avg +1.67 days  8.4 | stag N3491 keep +0.61 vs exit -1.54 | per-day A +0.194 B +0.199
+ 2013-20   N 32074 A(SL7/TG15/30d) avg +1.44 tgt 33.6% days 11.8 | B avg +1.18 days  9.1 | stag N6522 keep -0.31 vs exit -1.60 | per-day A +0.122 B +0.129
+ 2021-26   N 35235 A(SL7/TG15/30d) avg +1.43 tgt 33.2% days 12.3 | B avg +1.20 days  9.6 | stag N7385 keep -0.53 vs exit -1.60 | per-day A +0.116 B +0.126
+ Nov23-now N 17505 A(SL7/TG15/30d) avg +0.71 tgt 29.7% days 12.8 | B avg +0.64 days 10.0 | stag N3914 keep -1.34 vs exit -1.65 | per-day A +0.055 B +0.064
+ last6m    N  3566 A(SL7/TG15/30d) avg +0.42 tgt 28.5% days 12.8 | B avg +0.34 days 10.0 | stag N791 keep -1.46 vs exit -1.83 | per-day A +0.033 B +0.034
+ last4m    N  1865 A(SL7/TG15/30d) avg -0.18 tgt 27.3% days 12.3 | B avg -0.07 days  9.5 | stag N431 keep -2.47 vs exit -2.00 | per-day A -0.014 B -0.007
+ last2m    N   545 A(SL7/TG15/30d) avg -2.27 tgt 21.1% days  8.7 | B avg -2.00 days  7.8 | stag N64 keep -4.53 vs exit -2.27 | per-day A -0.257 B -0.255
+=== dip_uptrend exit day8 if max high < +3% | N 92814 stagnated 9%
+ 2003-12   N 26023 A(SL7/TG15/30d) avg +1.08 tgt 33.1% days 10.5 | B avg +0.98 days  9.8 | stag N1438 keep -0.31 vs exit -2.12 | per-day A +0.103 B +0.100
+ 2013-20   N 32304 A(SL7/TG15/30d) avg +0.89 tgt 31.2% days 12.3 | B avg +0.79 days 11.2 | stag N2999 keep -1.23 vs exit -2.28 | per-day A +0.072 B +0.071
+ 2021-26   N 34204 A(SL7/TG15/30d) avg +0.96 tgt 31.4% days 12.9 | B avg +0.88 days 11.6 | stag N3594 keep -1.51 vs exit -2.27 | per-day A +0.074 B +0.076
+ Nov23-now N 16991 A(SL7/TG15/30d) avg +0.57 tgt 29.4% days 13.3 | B avg +0.57 days 11.9 | stag N1954 keep -2.29 vs exit -2.30 | per-day A +0.043 B +0.048
+ last6m    N  3602 A(SL7/TG15/30d) avg +0.82 tgt 30.3% days 14.1 | B avg +0.76 days 12.6 | stag N457 keep -2.03 vs exit -2.52 | per-day A +0.058 B +0.061
+ last4m    N  1926 A(SL7/TG15/30d) avg -0.61 tgt 24.9% days 13.9 | B avg -0.46 days 12.2 | stag N282 keep -3.60 vs exit -2.59 | per-day A -0.044 B -0.038
+ last2m    N   650 A(SL7/TG15/30d) avg -2.60 tgt 19.2% days 11.1 | B avg -2.35 days 10.4 | stag N57 keep -5.68 vs exit -2.76 | per-day A -0.233 B -0.224
+=== dip_uptrend exit day7 if max high < +0% | N 92814 stagnated 0%
+ 2003-12   N 26023 A(SL7/TG15/30d) avg +1.08 tgt 33.1% days 10.5 | B avg +1.08 days 10.4 | stag N31 keep -3.93 vs exit -3.94 | per-day A +0.103 B +0.104
+ 2013-20   N 32304 A(SL7/TG15/30d) avg +0.89 tgt 31.2% days 12.3 | B avg +0.89 days 12.3 | stag N70 keep -3.11 vs exit -3.79 | per-day A +0.072 B +0.072
+ 2021-26   N 34204 A(SL7/TG15/30d) avg +0.96 tgt 31.4% days 12.9 | B avg +0.95 days 12.9 | stag N101 keep -1.97 vs exit -3.95 | per-day A +0.074 B +0.074
+ Nov23-now N 16991 A(SL7/TG15/30d) avg +0.57 tgt 29.4% days 13.3 | B avg +0.57 days 13.3 | stag N62 keep -3.50 vs exit -4.07 | per-day A +0.043 B +0.043
+ last6m    N  3602 A(SL7/TG15/30d) avg +0.82 tgt 30.3% days 14.1 | B avg +0.82 days 14.1 | stag N11 keep -3.08 vs exit -3.87 | per-day A +0.058 B +0.058
+ last4m    N  1926 A(SL7/TG15/30d) avg -0.61 tgt 24.9% days 13.9 | B avg -0.60 days 13.8 | stag N6 keep -7.25 vs exit -3.83 | per-day A -0.044 B -0.043
+ last2m    N   650 A(SL7/TG15/30d) avg -2.60 tgt 19.2% days 11.1 | B avg -2.58 days 11.1 | stag N4 keep -7.25 vs exit -3.49 | per-day A -0.233 B -0.231
+=== dip_uptrend exit day8 if max high < +5% | N 92814 stagnated 19%
+ 2003-12   N 26023 A(SL7/TG15/30d) avg +1.08 tgt 33.1% days 10.5 | B avg +0.81 days  8.9 | stag N3417 keep +0.79 vs exit -1.30 | per-day A +0.103 B +0.091
+ 2013-20   N 32304 A(SL7/TG15/30d) avg +0.89 tgt 31.2% days 12.3 | B avg +0.66 days  9.8 | stag N6494 keep -0.23 vs exit -1.39 | per-day A +0.072 B +0.067
+ 2021-26   N 34204 A(SL7/TG15/30d) avg +0.96 tgt 31.4% days 12.9 | B avg +0.77 days 10.2 | stag N7412 keep -0.51 vs exit -1.40 | per-day A +0.074 B +0.075
+ Nov23-now N 16991 A(SL7/TG15/30d) avg +0.57 tgt 29.4% days 13.3 | B avg +0.56 days 10.4 | stag N3963 keep -1.39 vs exit -1.42 | per-day A +0.043 B +0.054
+ last6m    N  3602 A(SL7/TG15/30d) avg +0.82 tgt 30.3% days 14.1 | B avg +0.74 days 10.9 | stag N945 keep -1.39 vs exit -1.70 | per-day A +0.058 B +0.068
+ last4m    N  1926 A(SL7/TG15/30d) avg -0.61 tgt 24.9% days 13.9 | B avg -0.23 days 10.6 | stag N566 keep -3.16 vs exit -1.86 | per-day A -0.044 B -0.022
+ last2m    N   650 A(SL7/TG15/30d) avg -2.60 tgt 19.2% days 11.1 | B avg -1.93 days  9.4 | stag N141 keep -5.35 vs exit -2.22 | per-day A -0.233 B -0.205

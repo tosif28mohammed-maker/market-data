@@ -1,0 +1,70 @@
+--- g fwd 20d (sampled every 20d, non-overlap)
+ALL                              2001-10  N 125 avg  +1.44% up   59%
+ALL                              2011-18  N 101 avg  +0.01% up   44%
+ALL                              2019-26  N  99 avg  +1.23% up   54%
+ALL                              all      N 324 avg  +0.94% up   55%
+DXY up & 10y up                  2001-10  N  31 avg  +1.46% up   68%
+DXY up & 10y up                  2011-18  N  26 avg  -0.54% up   38%
+DXY up & 10y up                  2019-26  N  33 avg  +0.42% up   39%
+DXY up & 10y up                  all      N  89 avg  +0.30% up   54%
+DXY up & 10y up & Nasdaq down    2001-10  N  11 avg  +1.74% up   64%
+DXY up & 10y up & Nasdaq down    2011-18  N   5 avg  -1.72% up   40%
+DXY up & 10y up & Nasdaq down    2019-26  N  15 avg  +1.81% up   60%
+DXY up & 10y up & Nasdaq down    all      N  30 avg  +0.71% up   53%
+DXY down & 10y down              2001-10  N  43 avg  +0.72% up   53%
+DXY down & 10y down              2011-18  N  25 avg  +0.50% up   52%
+DXY down & 10y down              2019-26  N  27 avg  +2.70% up   63%
+DXY down & 10y down              all      N  94 avg  +0.78% up   54%
+--- g fwd 60d (sampled every 60d, non-overlap)
+ALL                              2001-10  N  42 avg  +4.16% up   71%
+ALL                              2011-18  N  34 avg  +0.06% up   59%
+ALL                              2019-26  N  33 avg  +3.78% up   67%
+ALL                              all      N 108 avg  +2.80% up   62%
+DXY up & 10y up                  2001-10  N  11 avg  +4.40% up   91%
+DXY up & 10y up                  2011-18  N   9 avg  +0.62% up   56%
+DXY up & 10y up                  2019-26  N  11 avg  +2.98% up   64%
+DXY up & 10y up                  all      N  29 avg  +2.39% up   72%
+DXY up & 10y up & Nasdaq down    2001-10  N   4 avg  -1.01% up   50%
+DXY up & 10y up & Nasdaq down    2019-26  N   5 avg  +6.03% up   60%
+DXY up & 10y up & Nasdaq down    all      N  10 avg  +3.18% up   60%
+DXY down & 10y down              2001-10  N  15 avg  +1.72% up   40%
+DXY down & 10y down              2011-18  N   9 avg  +1.98% up   67%
+DXY down & 10y down              2019-26  N   9 avg  +5.37% up   78%
+DXY down & 10y down              all      N  32 avg  +1.99% up   53%
+--- s fwd 20d (sampled every 20d, non-overlap)
+ALL                              2001-10  N 125 avg  +1.89% up   58%
+ALL                              2011-18  N 101 avg  -0.33% up   41%
+ALL                              2019-26  N  99 avg  +1.53% up   51%
+ALL                              all      N 324 avg  +1.15% up   51%
+DXY up & 10y up                  2001-10  N  31 avg  +2.79% up   71%
+DXY up & 10y up                  2011-18  N  26 avg  -1.60% up   35%
+DXY up & 10y up                  2019-26  N  33 avg  -0.07% up   58%
+DXY up & 10y up                  all      N  89 avg  +0.68% up   52%
+DXY up & 10y up & Nasdaq down    2001-10  N  11 avg  +3.86% up   64%
+DXY up & 10y up & Nasdaq down    2011-18  N   5 avg  -0.82% up   40%
+DXY up & 10y up & Nasdaq down    2019-26  N  15 avg  +6.09% up   53%
+DXY up & 10y up & Nasdaq down    all      N  30 avg  +3.64% up   60%
+DXY down & 10y down              2001-10  N  43 avg  +2.36% up   67%
+DXY down & 10y down              2011-18  N  25 avg  +1.38% up   52%
+DXY down & 10y down              2019-26  N  27 avg  +2.96% up   63%
+DXY down & 10y down              all      N  94 avg  +1.96% up   57%
+--- s fwd 60d (sampled every 60d, non-overlap)
+ALL                              2001-10  N  42 avg  +5.48% up   69%
+ALL                              2011-18  N  34 avg  -1.20% up   50%
+ALL                              2019-26  N  33 avg  +4.86% up   58%
+ALL                              all      N 108 avg  +3.24% up   58%
+DXY up & 10y up                  2001-10  N  11 avg  +6.17% up   64%
+DXY up & 10y up                  2011-18  N   9 avg  +0.41% up   56%
+DXY up & 10y up                  2019-26  N  11 avg  +6.79% up   55%
+DXY up & 10y up                  all      N  29 avg  +3.52% up   59%
+DXY up & 10y up & Nasdaq down    2001-10  N   4 avg  +2.41% up   75%
+DXY up & 10y up & Nasdaq down    2019-26  N   5 avg +17.15% up   60%
+DXY up & 10y up & Nasdaq down    all      N  10 avg  +9.52% up   70%
+DXY down & 10y down              2001-10  N  15 avg  +5.59% up   73%
+DXY down & 10y down              2011-18  N   9 avg  +2.92% up   56%
+DXY down & 10y down              2019-26  N   9 avg  +2.76% up   56%
+DXY down & 10y down              all      N  32 avg  +3.74% up   59%
+last 2m signal days 19 gold fwd20 avg -4.67% (all days -6.05%)
+last 4m signal days 29 gold fwd20 avg -3.37% (all days -3.06%)
+last 6m signal days 55 gold fwd20 avg -1.68% (all days -1.94%)
+last date 2026-11-25 signal today False
