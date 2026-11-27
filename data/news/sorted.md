@@ -1,44 +1,44 @@
 # छँटी हुई खबरें — 2026-11-27 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 1146, छँटी 974, काम की (ताकत ≥3, fact, एक कहानी एक बार) 374, अफ़वाह/राय/clickbait 188
+कुल headlines 1146, छँटी 1056, काम की (ताकत ≥3, fact, एक कहानी एक बार) 398, अफ़वाह/राय/clickbait 204
 
-- [5/positive] TATAMOTORS: Best-Selling Electric Cars in October 2026 – Tata Punch EV Creates History With 5,000+ Sales - Autopunditz
-- [5/positive] BHARTIARTL: Bharti Airtel to invest ₹1,200 crore in three data centres in Assam - Business Standard
 - [5/positive] LT: L&T wins order worth up to ₹2,500 cr for battery storage project in Gujarat - Business Standard
-- [5/negative] policy: US Proposes 25% Tariffs On India. Centre Says "Notice Under Examination" - NDTV
-- [5/negative] policy: Trump raises tariff stakes for India: 25% without a trade deal, 17% with one - NewsDrum
-- [5/negative] policy: Donald Trump's Fresh Tariff Move: India Faces Up To 25% Duty Over 'Excess Manufacturing Capacity' - Outlook India
-- [5/negative] rates: Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos
-- [5/positive] NTPC: Juniper Green Energy & NTPC Sign 150 MW Hybrid Energy PPA - Rediff MoneyWiz
-- [5/positive] NTPC: Juniper Green Energy arm signs 150 MW NTPC deal, expects ₹155 crore annual revenue - CNBC TV18
+- [5/positive] Industrial Automation: Adisoft Technologies Hits 5% Upper Circuit After Bagging ₹12.56 Cr Domestic Industrial Automation Order - Trade Brains
+- [5/negative] Rates: Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos
+- [5/positive] MINDACORP: Minda Corporation raises Rs. 315,56,25,000 through warrant conversion - Business Upturn
+- [5/positive] MINDACORP: Minda Corporation converts 76,50,000 warrants into equity shares totalling Rs. 315,56,25,000 - Business Upturn
+- [5/positive] RELIANCE,JIOFIN: Reliance and Jio to invest Rs 10 lakh crore over seven years for India’s AI transformation: Mukesh Ambani - DD News
+- [5/negative] TATASTEEL,APLAPOLLO: Tata Steel and APL Apollo May Rework Deal Structure After Investor Backlash; Shares Under Pressure - Kotak Neo
+- [5/negative] TATASTEEL,APLAPOLLO: India Shareholder Backlash Puts APL Apollo, Tata Steel Deal on Back Foot - Bloomberg
 - [5/positive] NTPC: NTPC pays Rs 2,908.99 crore interim dividend for FY27, extends 34-year dividend streak - PSU Watch
-- [5/positive] NTPC: 【SMM News Flash】 Juniper subsidiary signs NTPC PPA for 150 MW wind-solar hybrid project - Shanghai Metals Market
+- [4/positive] : Sensex Soars Close to 400 Pts, Nifty Nears 26,600: 3 Reasons Why the Stock Market Is Up Today - Kotak Neo
 - [4/positive] : Stock Market Today: Nifty gains 1.85%, Sensex up 1,502 points - Multibagg AI
 - [4/positive] WIPRO: Sensex Today Ends 390 Points Higher | Nifty Above 25,850 | Wipro Up 4% - Equitymaster
-- [4/positive] INFY,MPHASIS,TCS: Infosys, Mphasis, TCS: IT stocks rally over 4% intraday, NIFTY IT gains 2.6%; what’s powering today’s momentum? - Upstox
+- [4/mixed] STALLION: Stallion India Q2 FY27: Sales Up 29%, Profit Down 79%, and an ESOP the Chairman Says Is Not an Expense - Howl.Link
 - [4/positive] LT: L&T shares jump over 2% on securing BESS order worth ₹1,000-2,500 crore in Gujarat; key details - Upstox
-- [4/positive] PBFIN: PB Fintech shares jump 8%, insurance stocks rally: Is IRDAI review raising hopes of regulatory relief? - Upstox
-- [4/negative] Trading: Trans India House Impex Q2FY27 Results: Zero revenue, auditor flags ₹60.5 cr tax demand - scanx.trade
+- [4/negative] bonds: Indian bonds tumble as Brent tops $95 per barrel, RBI flags food inflation risks - BusinessLine
+- [4/positive] SCHAEFFLER: Schaeffler India Shares in Focus as Schaeffler AG Plans ₹3,188 Crore Block Deal at ₹3,400 Per Share - Kotak Neo
+- [4/negative] Diversified: Trans India House Impex Q2FY27 Results: Zero revenue, auditor flags ₹60.5 cr tax demand - scanx.trade
+- [4/negative] LGEL: LG Electronics India Share Price Drops 3% After ₹2,464 Crore Block Deal Involving 2.05% Equity - Kotak Neo
 - [4/negative] SIMBHALS: Simbhaoli Sugars SIMBHALS Q2 FY27 Results Under CIRP - Kalkine India
+- [4/positive] Imaging: Tonbo Imaging Q2FY27: Net profit ₹235 crore, revenue jumps 1975% YoY - scanx.trade
 - [4/positive] WELCORP: Welspun Corp Shares Surge After It Bags Global Orders Worth ₹2,264 Crore; Order Book Expands to ~₹50,000 Crore - Kotak Neo
-- [4/positive] Trade: US to cap India tariff at 17% if trade deal is reached, USTR says - Reuters
-- [4/negative] policy: U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken - The Hindu
+- [4/negative] trade: U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken - The Hindu
 - [4/positive] HUL,NESTLEIND: शेयर बाजार में तूफानी तेजी से निवेशकों की बल्ले-बल्ले, सेंसेक्स 1,502 अंक उछला; HUL और Nestle समेत ये शेयर - India TV Hindi
-- [4/positive] commodity: Copper Prices Jump 3.4% in a Single Day to Reclaim $12,000; UBS Pours Cold Water: Technical Bear-Market Repair, Not a Trend Reversal - BigGo Finance
-- [4/positive] silver: Trade Setup for Today: Silver Surges, Asian Indices Rally as GIFT Nifty Holds Steady Near 26,000 as of November 26, 2026 - scanx.trade
-- [4/negative] copper: Copper enters bear market as tariff fears and tech slump rattle demand - MiningMX
-- [4/negative] copper: Copper sinks to 11-month low as US inflation and AI sell-off deepen metals rout - Proactive financial news
-- [4/positive] Commodity: Silver Prices Jump 3% on MCX to ₹1,48,336 per Kg; Kotak Neo Sees Scope for Further Recovery - Kotak Neo
-- [4/positive] Commodity: MCX Share Price rise over 7% as Gold and Silver prices bounce back - India Infoline
-- [4/negative] Commodity: Silver price falls over 6% as US dollar strength and Fed rate hike prospects pressure metals - Traders Union
-- [4/negative] Commodity: Gold price prediction: Will gold fall to Rs 1.10 lakh per 10 grams? Check outlook on November 26, 2026 - The Times of India
-- [4/positive] Finance: FPI buying lifts markets, but India's external outlook remains uncertain - Business Standard
+- [4/positive] market: Nifty50, Sensex Today: सेंसेक्स में 2000 अंकों की सुनामी! 25,850 के पार दौड़ा निफ्टी; निवेशकों की चांदी - ETV Bharat
+- [4/positive] copper: Copper Prices Jump 3.4% in a Single Day to Reclaim $12,000; UBS Pours Cold Water: Technical Bear-Market Repair, Not a Trend Reversal - BigGo Finance
+- [4/mixed] Copper: Copper Faces a Major Global Demand Test as LME Prices Swing on China and US Rate Signals - kalkine.co.uk
+- [4/negative] Copper: Copper enters bear market as tariff fears and tech slump rattle demand - MiningMX
+- [4/negative] Copper: Copper sinks to 11-month low as US inflation and AI sell-off deepen metals rout - Proactive financial news
+- [4/positive] MCX: MCX Share Price rise over 7% as Gold and Silver prices bounce back - India Infoline
 - [4/positive] INFY,TCS: IT Stocks Rally Despite Global AI Selloff: Infosys, TCS Lead Gains - NiftyTrader
-- [4/positive] Banking, FMCG: Sensex surges 1,502 points, Nifty gains 1.85pc as banking and FMCG stocks rally - Telangana Today
-- [4/positive] Indices: BSE SENSEX Jumps to 83,938.28 as FMCG Rally and Rupee Strength Defy Asia’s AI Rout - BBN Times
-- [4/positive] Indices: Taking Stock: Markets bounce back; Sensex rises 1,502 pts, Nifty closes above 25,800 - Moneycontrol.com
-- [4/positive] Indices: 7 factors driving D-Street rally: Sensex, Nifty close with 2% gains, Rupee at 8-mth high - The Financial Express
-- [4/positive] auto retail: Auto retail sales hit record 25.37 lakh units in September, up 31.82% yoy - DD News
-- [4/positive] industrial: India's industrial indicators remain firm in Oct'26 as steel and auto production record impressive growth - BigMint
-- [4/positive] auto: PLI Auto Scheme records Rs 4,385 cr incentive disbursement in current fiscal: Govt - The Economic Times
-- [4/positive] BHARTIARTL: Airtel plans 40 MW data centre capacity in Assam with ₹705 crore investment - CRN Asia
+- [4/positive] VC/PE: PE/VC investments in India reach US$8.7 billion October 2026, highest monthly level in five years: EY-IVCA Report - EY
+- [4/negative] AI: AI firms' $4 trillion exposure amplifies global market risks: BOE - Business Standard
+- [4/positive] Textile & Apparel: | US tariff deal could give India's T&A exporters competitive edge - Fibre2Fashion
+- [4/positive] Defence: Omnitech Engineering Receives Development Order From BrahMos Aerospace For Airframe And Canister Subsystems - Sahi
+- [4/positive] Defence: Defence stocks: ₹3.7 lk cr order pipeline, 20% capex boost–3 stocks Motilal Oswal prefers - The Financial Express
+- [4/positive] INOX: INOX India's Order Book Hits ₹2,268 Crore: Can LNG, Space and Semiconductor Opportunities Drive Its Next Growth Phase? - Trade Brains
+- [4/positive] Energy: Patel Engineering Shares Jump 7% After Receiving ₹1,441 Cr Order for 144 MW Hydropower Project - Trade Brains
+- [4/positive] IT/Datacenter: 2 data centre stocks. One tripled factory capacity with Rs 3,065 cr in industrial orders - The Financial Express
+- [4/positive] Banking,FMCG: Sensex surges 1,502 points, Nifty gains 1.85pc as banking and FMCG stocks rally - Telangana Today
+- [4/positive] FMCG: BSE SENSEX Jumps to 83,938.28 as FMCG Rally and Rupee Strength Defy Asia’s AI Rout - BBN Times
