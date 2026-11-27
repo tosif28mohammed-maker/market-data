@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-27 06:11
+Updated: 2026-11-27 18:11
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -39,6 +39,9 @@ Updated: 2026-11-27 06:11
 - [x] AI-48006E + AI-C62277/C7791E (25 Nov 02:11, r065 analysis; dividend adj factor से निकला)
 - [x] 27 Nov 02:11: test_queue MSCI months + engulfing (support/resistance) → r080 बेकार. बाकी waiting ज़्यादातर fundamentals चाहिए
 - [x] 27 Nov 06:11: queue 54 पढ़े; RH-01 RBI hike cycle + DXY-01 dollar streak → r081 दोनों बेकार
+- [x] 27 Nov 18:11: queue 347 पढ़े; r082 BNK-01 (analysis), BRD-02 + AI-FD88E6 बेकार
+- [ ] BNK-01 forward: 20 Nov 2026 BankNifty 64,635 → 63/126/250 दिन (पहला: फ़रवरी 2027 अंत)
+- [ ] test_queue waiting ~35: अगले run में AI-A63247 (gold vs DXY/US10y — data/global में है?) + AI-CCEDA6 (Consumer Durables index — sector EW proxy)
 - [ ] test_queue pending 4 mcap-tier: AI-0B9866/AI-EF9B89/AI-867542/AI-6EF0EE mcap-tier (पुराना mcap proxy = price×आज के shares)
 - [ ] book_finder: Gutenberg 503/timeouts — mirror (gutenberg.pglaf.org) या बाद में; Gemini WCS 17 हिस्सा HTTP 404 जाँचना
 

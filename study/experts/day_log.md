@@ -197,3 +197,11 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - Test r081 RH-01 (RBI hike cycle शुरू): 6 cycles Sensex 250d +15.3 vs आम +14.5, placebo 45%; बैंक पीछे नहीं → बेकार.
 - Test r081 DXY-01 (dollar ≥4 महीने लगातार ऊपर): Sensex 3m +6.4 vs +3.3 (2013-26 N6 +2.4), EEM 3m +0.6 vs +2.8 → India के लिए नुकसान नहीं → बेकार. अभी streak 3.
 - Notebook: r081 + r01 i127, i128.
+
+## 2026-11-27 18:11 (silent run)
+- Robot: collector 27 Nov 13:58 UTC — 74 sources, failed 0, नए 281 (148 रखे); YouTube transcripts 0 (RequestBlocked 10). Gemini reader 14:32 UTC: 5 videos, 8 नियम test_queue में, quota ख़त्म, videos_left 249, books_left 0. world_claims.csv अभी भी खाली.
+- पढ़ा (Claude): queue के 347 नए titles/summary (Sensex -989 IT/HDFC, crude $97-98, rupee 92.98, Nifty 4-हफ़्ते की तेज़ी टूटी, Nifty Bank 1 महीने +18%, gold/silver उछाल 15-month low से, defence +3-15%, RBI CRR 90% वापस, SEBI FPI commodity June 2027, Jefferies earnings upgrade, NDTV/RBI routine) + test_queue के 12 नए Gemini नियम. Testable नया: BNK-01, BRD-02, AI-FD88E6.
+- Test r082 BNK-01 (BankNifty 21d ≥15%): 18 दौर, 250d +27.9 vs आम +15.8, Nifty से आगे +9.5 vs +4.3 (76% +); 21d सिर्फ़ 47% + → अभी analysis में (forward 20 Nov 2026 BN 64,635).
+- Test r082 BRD-02 (Nifty -1% पर ≥50% शेयर ऊपर): N12, 5d +1.0 vs +0.41, 20d कम → बेकार.
+- Test r082 AI-FD88E6 (sector +20% महीना = बचो): N134, 63d -0.03 vs बाज़ार → बेकार.
+- Notebook: r082 + r01 i129-i131. BSE/Wockhardt single-stock tips → pending (forward watch).
