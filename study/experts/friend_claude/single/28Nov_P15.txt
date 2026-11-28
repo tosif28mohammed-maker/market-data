@@ -1,0 +1,12 @@
+[Tosif ke liye: 28 Nov P15 — Technical analysis: किसका सबूत है (ख़ासकर India). Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a quantitative researcher who has reviewed the academic and practitioner evidence on technical analysis.
+
+CONTEXT: We have already tested about 760 simple price/volume rules on 1,850 Indian stocks (2003-2026), and almost all failed after costs. Tested so far: moving-average crosses and touches, breakouts (20/55-day, base), candle patterns (marubozu, inside day), RSI, ADX, MACD-type momentum, gap fade/follow, opening-range breakout, pivots/PDH-PDL zones, Hurst, streaks, 52-week high, volume spikes, breadth thrust, seasonality/weekday/month-start, delivery %.
+
+TASK:
+(1) List methods with PUBLISHED positive evidence after costs (prefer India; otherwise global), with the exact rule, parameters, period, the result numbers, and the paper link. Examples to check: time-series momentum, 52-week-high momentum, VWAP-based intraday, order-flow / open-interest buildup, market profile / value area, volatility-contraction, overnight vs intraday return split, post-earnings drift, short-term reversal, Indian F&O ban-period effects, circuit-limit magnet effect, block-deal and bulk-deal effects.
+(2) For each method say whether it is likely still alive in 2024-26 or has been arbitraged away.
+(3) Give 15 NEW exact testable rules NOT in our tested list above (entry, stop, target, exit time, universe, holding period).
+
+OUTPUT: table + 15 rules (one line each) + links.

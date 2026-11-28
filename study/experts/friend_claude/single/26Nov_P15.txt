@@ -1,0 +1,15 @@
+[Tosif ke liye: 26 Nov P15 — Results season (Q3 FY27) ka playbook. Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are an event-study researcher for Indian equities. Use web search a lot (20+ searches). Facts with sources; label CONFIRMED / REPORTED / UNSURE; never invent dates.
+
+GOAL: A playbook for the Q3 FY27 results season (roughly 10 Jan – 15 Feb 2027) for NSE stocks, backed by evidence.
+
+PART A — EVIDENCE (India-specific studies first, then global): 1) post-earnings announcement drift (PEAD) in India: size, duration, which stocks (small/large, high/low analyst coverage), after costs, still alive after 2018? 2) pre-results run-up and "sell the news"; 3) reaction to beat/miss vs consensus (how measured in India: Bloomberg/Reuters/CNBC-TV18 polls); 4) management commentary/guidance changes vs numbers — which moves price more; 5) gap behaviour on result day (gap up/down continuation or fade in the next 1-20 days); 6) results announced during vs after market hours; 7) sector patterns (IT results first, banks, etc.) and index-heavyweight effects on Nifty during the season.
+
+PART B — CALENDAR: expected Q3 FY27 result dates (CONFIRMED only if announced; otherwise last year's date as estimate, labelled) for: Nifty 50 heavyweights (TCS, Infosys, HCL, Wipro, HDFC Bank, ICICI Bank, Reliance, Kotak, Axis, SBI, L&T, ITC, HUL, Bharti) and these holdings: AJANTPHARM, GCSL (Gretex Corporate Services), KARURVYSYA, MAHABANK, NAVINFLUOR, SANSERA, SHYAMMETL, WELCORP; watchlist HEROMOTOCO, MCX.
+
+PART C — RULES I CAN TEST on my data (daily OHLCV 2002-2026 for ~1,850 stocks; results dates I can get from exchange announcements 2017+): write 6-10 codeable rules (e.g. "buy at close on result day if gap > +3% and close in top 25% of day's range; hold 20 days; stop -6%"), each with the evidence that suggests it, expected effect size, and what would falsify it.
+
+PART D — RISK RULES for holders through results: what history says about holding vs reducing before results for stocks at high PE (e.g. >60x) vs moderate PE; typical result-day move sizes by PE/volatility bucket.
+
+OUTPUT (this order): 1) evidence table (effect, size, period, sample, after costs, still alive?, source); 2) result-date table with labels; 3) testable rules list; 4) risk rules for holders; 5) sources. Under 170 lines. English fine. Study only.

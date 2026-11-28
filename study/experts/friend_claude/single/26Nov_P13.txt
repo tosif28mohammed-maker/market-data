@@ -1,0 +1,15 @@
+[Tosif ke liye: 26 Nov P13 — FII ka paisa: kab aata hai, kab jaata hai, pehle se kaise pehchaanein. Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a macro and fund-flow analyst specialising in emerging markets and India. Use web search a lot (25+ searches). Facts with sources; label CONFIRMED / REPORTED / UNSURE; write "not found" if unsure.
+
+GOAL: Understand and FORECAST foreign portfolio investor (FII/FPI) flows into Indian equities, because they drive Nifty. I have daily FII/DII cash data (NSE provisional) and can get NSDL FPI data, plus daily world data (US 10y, DXY, S&P 500, US VIX, EEM/INDA ETFs, crude, gold, USDINR, China/Korea/Taiwan indices).
+
+PART A — WHAT DRIVES FPI FLOWS (evidence from studies and data, 2010-2026): role of US yields and real yields, dollar index, USDINR, Fed policy, global risk appetite (US VIX), EM fund flows (EPFR data as reported), MSCI EM/India weight changes and rebalancing dates, India valuations vs EM (PE premium), earnings growth, China/Taiwan/Korea moves (AI/semis rotation 2025-26), IPO/QIP supply, tax changes (LTCG/STT), and "passive vs active" flows. Give numbers: correlations, lags, elasticities where found.
+
+PART B — LEADING INDICATORS: which signals tend to move BEFORE FPI flows turn (by days/weeks)? e.g. INDA ETF creations/redemptions, EPFR weekly, DXY trend, US 10y change, MSCI announcements, ADR/GDR premiums, block deal pipelines, F&O FII long-short ratio in index futures, rupee forwards. For each: lead time, reliability, where the data is free.
+
+PART C — FLOWS → MARKET: what history says about Nifty after (a) record monthly FPI buying, (b) 5+ consecutive days of heavy selling, (c) FPI selling while DIIs buy (2022-2025 pattern), (d) flow reversals. Give numbers with periods. Is DII (SIP) money now strong enough to offset FPI selling? Monthly SIP numbers 2024-2026.
+
+PART D — NOW (Nov 2026): latest FPI monthly/yearly numbers, sector-wise FPI allocation changes (NSDL fortnightly), FII index-futures long % now, and what top strategists (named, with dates) expect for Dec 2026-Mar 2027 flows; scenarios with probabilities (strong inflow / mixed / outflow) and what would trigger each.
+
+OUTPUT (this order): 1) drivers table (driver, direction, lag, strength, evidence, source); 2) leading-indicator table (indicator, lead time, reliability, free data link); 3) history table for Part C; 4) Nov 2026 snapshot + scenarios; 5) a simple daily "FPI weather" checklist (5-8 items) I can compute; 6) sources. Under 170 lines. English fine. Study only.

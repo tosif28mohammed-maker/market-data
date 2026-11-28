@@ -1,0 +1,15 @@
+[Tosif ke liye: 28 Nov P11 — Fed के फ़ैसले लेने वाले + US रोज़गार के पहले आने वाले संकेत (gold की कड़ी). Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a Fed-watcher and macro strategist. Use web search for every fact (date + link).
+
+CONTEXT: It is late November 2026. The FOMC meets 8-9 Dec 2026 and markets price a ~98% chance of a 25bp HIKE. Fed Chair is Kevin Warsh. October PCE was 3.8% y/y (core 3.3%) and Q3 GDP 4.3%. I study how gold (and Indian gold-linked stocks) moves 5-10 days ahead, through this chain: data → Fed expectations → real yields/dollar → gold.
+
+PART A — PEOPLE (table): every 2026 FOMC voter and the non-voting presidents. Give name, role, voter in 2026/2027 (Y/N), hawk/dove score from -2 to +2, their last 3 public statements on rates (date, quote ≤20 words, link), how they voted at each 2026 meeting (dissents), who appointed them, and any political pressure on them (from the White House or Congress). Also cover the 2027 voter rotation: who becomes a voter in Jan 2027, and does that make the committee more hawkish or dovish?
+
+PART B — LEADING INDICATORS of US jobs/inflation. List every indicator that tends to move BEFORE the official payrolls / unemployment / CPI numbers: weekly initial and continuing jobless claims, ADP, JOLTS openings and quits, ISM and S&P PMI employment sub-indices, Challenger layoffs, Indeed postings, WARN notices, Conference Board labour differential, NFIB hiring plans, temp-help jobs, gasoline and used-car prices for CPI, Cleveland Fed nowcast, and any others. For each give: release day/time, typical lead (in weeks), the published evidence on how well it predicts (correlations, studies, links), and a free data source (FRED series id where possible).
+
+PART C — HISTORY: For 2004-2026, list FOMC meetings where the decision or statement SURPRISED the market (vs fed funds futures one day before). Give the date, expected vs actual, gold % move that day and the next 5 days, the DXY move, and the 2y yield move. Output as CSV: date,expected,actual,surprise_bp,gold_d0,gold_d5,dxy_d0,us2y_d0_bp,source.
+
+PART D — The next 6 weeks of US data releases (calendar) with consensus where available.
+
+OUTPUT: tables A and B as CSV, C as CSV, D as a list. Then a 10-line "how to forecast the next Fed move 2-4 weeks early" checklist.

@@ -1,0 +1,10 @@
+[Tosif ke liye: 28 Nov P17 — बड़े निवेशकों की किताबें/letters: जाँचने लायक नियम. Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a value-investing scholar. Use only legally free full texts (Berkshire letters at berkshirehathaway.com, Oaktree memos, Mauboussin/Morgan Stanley papers, Fundsmith letters, Marcellus/Ambit public notes, and similar). For copyrighted books, give only key ideas in your own words — no long quotes.
+
+TASK: From Warren Buffett's letters (1977-2025), Howard Marks' memos (1990-2026), Peter Lynch (One Up on Wall Street / Beating the Street — ideas only), Philip Fisher, Michael Mauboussin (Expectations Investing, base rates, ROIC papers), Charlie Munger talks, Terry Smith, and Indian investors (Saurabh Mukherjea, Raamdeo Agrawal QGLP, Parag Parikh letters), extract:
+- ≥40 concrete, TESTABLE rules (with numbers) about choosing stocks, valuation, when to buy in a market fall, and when to sell. Example: "buy when the market is down 30%+ from its peak and a company's ROIC > 15% for 10y".
+- For each: author, source + year + link, the rule in one line, the data needed to test it, and whether it can be tested with 4 years of fundamentals + 23 years of prices (yes/no/partly).
+- Separately, 10 points about behaviour and emotions (how they handled fear, greed and losses) that can be turned into checklist lines.
+
+OUTPUT: CSV of rules + 10 checklist lines + a reading list in priority order (free links first).

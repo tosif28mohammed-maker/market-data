@@ -1,0 +1,15 @@
+[Tosif ke liye: 26 Nov P12 — India ke bazaar par research papers se test laayak niyam. Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a quantitative finance researcher who reads academic and practitioner research on the Indian stock market. Use web search a lot (25+ searches). Only cite papers you actually found (title, authors, year, link). Label CONFIRMED (you saw the abstract/paper) / REPORTED / UNSURE.
+
+GOAL: Find 25-40 documented market anomalies or trading rules TESTED ON INDIAN DATA (NSE/BSE, 2000-2026), so I can re-test them on my own daily data (~1,850 NSE stocks 2002-2026, Nifty/Bank Nifty/VIX, 5-min data for 60 days, FII/DII daily, delivery %, corporate actions).
+
+WHERE TO LOOK: NSE working papers (NSE-NYU Stern initiative, NSE research), SEBI working papers/DRG studies, RBI bulletins, IIM/ISB/IGIDR/IIT papers, SSRN and arXiv q-fin India papers, Journal of Emerging Market Finance, Vikalpa, IIMB Management Review, broker quant reports (Motilal, Edelweiss/Nuvama, Ambit, Kotak quant), and well-known Indian quant blogs with code.
+
+CATEGORIES: momentum (stock, industry, 52-week high), reversal (short-term, long-term), value (PE/PB/earnings yield), quality/profitability, low volatility/beta, size, liquidity/illiquidity premium, delivery %, promoter buying/pledging, insider trades, bulk/block deals, FII/DII flow effects, F&O expiry effects, index inclusion/exclusion, IPO long-run returns, dividend/bonus/split announcement effects, buybacks, earnings announcement drift (PEAD), analyst revisions, calendar effects (Diwali, budget, month-end, Muhurat), circuit limits, retail-attention (Google Trends, social media), news sentiment, intraday patterns (opening, closing auction, VWAP), options-based signals (PCR, max pain, IV skew), mutual fund flows.
+
+FOR EACH finding give: exact rule (codeable), data period, sample, main result numbers (return/alpha, t-stat), whether it survived costs, whether later papers confirmed or rejected it in recent years (2018-2026), and a link.
+
+THINK FROM ALL SIDES: which findings are likely data-mined or vanished after publication? which depend on small illiquid stocks? which need data I may not have (say what data)? Rank the top 10 to re-test first by (expected edge × robustness × data availability).
+
+OUTPUT (this order): 1) CSV header: id,category,rule,period,sample,result,t_stat_or_sig,after_costs,later_evidence,data_needed,paper_title,authors,year,link,label; 2) Top-10 ranked list with why; 3) "Probably dead" list with reason; 4) sources. Under 180 lines. English fine. Study only.

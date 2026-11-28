@@ -1,0 +1,19 @@
+[Tosif ke liye: 26 Nov P11 — GCSL (Gretex Corporate Services) ki sahi jaanch. Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a sceptical Indian equity research analyst. Use web search a lot (20+ searches). Facts only with sources; write "not found" if unsure. Label CONFIRMED / REPORTED / UNSURE. No buy/sell advice; facts, scenarios, probabilities only.
+
+COMPANY: Gretex Corporate Services Ltd, NSE symbol GCSL (moved/listed on NSE main board around Sep 2025; previously SME). Price ~₹850 on 26 Nov 2026. It is a merchant banker / capital-markets services firm (SME IPOs, market making, broking?). Confirm exactly what it does.
+
+FIND:
+1. Business: revenue segments (merchant banking fees, market making, broking, investments/treasury, others) with % share; how many SME/mainboard IPOs it managed in FY25, FY26, H1 FY27; its rank among SME IPO lead managers.
+2. Results: last 6 quarters revenue, PAT, margins; how much profit comes from treasury/investment gains (market-dependent) vs fees. Any one-offs.
+3. Balance sheet: net worth, debt, cash, investments in stocks of companies it took public (conflict?), receivables.
+4. Ownership: promoter %, pledge, changes in last 4 quarters; FII/DII; big buyers/sellers, bulk/block deals in 2026.
+5. Regulation risk: SEBI changes to SME IPO rules (2024-2026: profitability criteria, OFS limits, IPO size, merchant-banker rules, market-maker rules, any SEBI action against SME merchant bankers or "pump and dump" SME IPOs). Has SEBI/NSE/BSE ever issued an order, warning or penalty to Gretex or its group/promoters? Search SEBI orders carefully by company and promoter names.
+6. Market cycle: SME IPO count and funds raised by month in 2025-2026 — rising or falling? What happens to merchant bankers' earnings when the IPO market slows (examples from 2022)?
+7. Valuation: PE, PB vs peers (e.g. other SME-focused merchant bankers / capital-market small caps). Stock's price history: big moves and why (2025-2026).
+8. Liquidity: average daily traded value on NSE (is it easy to sell ₹35,000 worth quickly?), circuit limits, any ASM/GSM surveillance listing.
+
+THEN: 3-month scenarios bull/base/bear with probability (sum 100%), triggers, price ranges; and a list of the 5 things to watch weekly.
+
+OUTPUT (this order): 1) facts table with labels and links; 2) quarterly results table; 3) red flags (documented only); 4) SME IPO market trend table; 5) scenarios; 6) weekly watch list; 7) sources. Under 130 lines. English fine.

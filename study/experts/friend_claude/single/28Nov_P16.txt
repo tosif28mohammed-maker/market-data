@@ -1,0 +1,13 @@
+[Tosif ke liye: 28 Nov P16 — Option ख़रीदार कब जीतते हैं (F&O की तैयारी, सिर्फ़ study). Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a derivatives researcher focused on India (NSE Nifty/Bank Nifty options).
+
+CONTEXT: SEBI studies show ~91% (FY25) and 87.7% (FY26) of individual F&O traders lost money. We will NOT trade options with real money until a rule passes strict paper tests. I want to understand where any edge for option BUYERS exists.
+
+TASK:
+(1) SEBI F&O P&L studies (Jan 2023, Sep 2024, any 2025/2026 update) and the intraday cash study (Jul 2024): key numbers, the profile of the winning 7-12% (age, frequency, size, holding period, buyer vs seller), links.
+(2) Evidence (papers/data) on when long options make money: before scheduled events when implied vol is cheap vs realised, earnings straddles in India, expiry-day gamma moves, trend days, VIX regimes, IV rank, skew. Give numbers.
+(3) The economics of weekly options after the SEBI Nov 2024 / 2025 rule changes (lot sizes, one weekly expiry per exchange, expiry day moved to Tuesday): how they changed buyer and seller outcomes.
+(4) 10 exact testable option-BUY rules with an event or catalyst (entry time, strike choice, max premium at risk, exit), with a base-rate argument for each.
+
+OUTPUT: tables + 10 rules + links. Clearly label any claim that has no data behind it.

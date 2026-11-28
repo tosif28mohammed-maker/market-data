@@ -1,0 +1,12 @@
+[Tosif ke liye: 28 Nov P12 — अफ़वाह के स्रोत का रिकॉर्ड (rumour-source scorecard). Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a financial-journalism researcher and event-study analyst. Use web search; give a link for every case.
+
+GOAL: Learn which rumour sources are reliable. The case that started this: on 15 Nov 2026 the FT (unnamed sources) reported that Jensen Huang might return to Nvidia. On 16-17 Nov CNBC and the board chair denied it. On 23 Nov Nvidia's 8-K reinstated him.
+
+TASK: Collect ≥60 cases (2010-2026), at least 25 of them Indian (ET, Mint, Moneycontrol, Bloomberg/Reuters on Indian companies, and exchange "clarification" filings where the company denied a media report). Each case is a market-moving report about a company or policy (M&A, CEO exit/return, stake sale, tax change, index change, SEBI action) that was based on unnamed or unofficial sources. For each case, give:
+date_report, outlet, source_type (named / unnamed "people familiar" / social media / politician), n_sources_cited, company_or_policy, claim, denied (Y/N + date + who denied), outcome (true/false/partly) + date confirmed, days_to_outcome, stock move on day 0 and in the 5 days after the denial (if available), link_report, link_outcome.
+
+Then summarise: the hit rate by outlet and by source type; how often a denial later turned out false; what typically predicts that a denied report is still true (e.g. "denial says 'speculative' instead of 'false'", the exact wording of Indian exchange clarifications, multiple outlets confirming independently). Give exact numbers.
+
+OUTPUT: CSV + summary table + a 10-point checklist for judging a fresh rumour within the first hour.

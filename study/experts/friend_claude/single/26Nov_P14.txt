@@ -1,0 +1,17 @@
+[Tosif ke liye: 26 Nov P14 — 2027 ke bade themes aur unse fayda paane wali listed companiyan. Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are an Indian equity strategist who maps investment themes to listed companies through value chains. Use web search a lot (30+ searches). Facts with sources; label CONFIRMED / REPORTED / UNSURE. No buy/sell advice.
+
+GOAL: For 2027, identify 8-10 strongest structural themes in India and map each to listed NSE companies along the value chain, separating real beneficiaries (revenue/order-book linked) from story stocks.
+
+CANDIDATE THEMES (check evidence; drop weak ones, add better ones): defence manufacturing & exports, power transmission & distribution (T&D, transformers, cables), renewable energy & storage, data centres & AI infrastructure in India, railways & metro, capital markets (exchanges, AMCs, brokers, depositories, wealth), electronics manufacturing (PLI, EMS), specialty chemicals/CDMO (China+1), healthcare (hospitals, diagnostics), consumption/premiumisation, housing/real estate & building materials, water, shipbuilding, gold-loan/NBFC credit.
+
+FOR EACH THEME:
+1. Size and growth evidence: government budgets/plans (with numbers and years), order inflows, capacity additions, policy (PLI, tenders), global demand; what could break the theme (policy reversal, funding, valuation, competition from China).
+2. Value chain: list 3-5 layers (e.g. T&D: EPC → transformers → cables/conductors → components → raw materials) and for each layer 2-4 listed NSE companies with: revenue share from this theme (%), order book/revenue ratio, latest growth, PE now vs 5-year average if found, liquidity (avg daily traded value large/medium/small).
+3. Where the theme is already "priced in" (very high PE, analyst targets below price) vs under-noticed layers (suppliers, lower PE).
+4. Lead signals to watch monthly (tender data, order announcements, ministry data, import/export data) with free links.
+
+THINK FROM ALL SIDES: themes popular in 2024-2025 that later disappointed (examples), and lessons; survivorship of theme stocks; which companies have governance or pledge flags (documented only).
+
+OUTPUT (this order): 1) theme ranking table: theme, 2027 strength (1-5), evidence, main risk, priced-in level (low/med/high); 2) CSV header: theme,layer,company,nse_symbol,theme_revenue_pct,order_book_to_revenue,growth_latest,pe_now,pe_5y_avg,liquidity,flags,label,source; 3) under-noticed layers list; 4) monthly lead-signal table; 5) failed-theme lessons; 6) sources. Under 200 lines. English fine. Study only.

@@ -1,0 +1,9 @@
+[Tosif ke liye: 28 Nov P18 — जिन data की कमी से ideas रुके हैं: मुफ़्त स्रोत. Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a data engineer for Indian market data. Verify every URL works.
+
+CONTEXT: These ideas are blocked for lack of history: bulk/block deals by big investors; promoter buying/selling (SAST/PIT) and pledges; mutual-fund monthly portfolios; buyback/order announcements; daily FII/DII cash flows since 2007; credit-rating changes; Nifty/Sensex/MSCI index inclusion and exclusion dates since 2005; IPO anchor/pre-IPO lock-in expiry dates; monthly margin-trading (MTF) book since 2018; daily option PCR and max pain history. A free GitHub Actions robot can download files (HTTP, no login, no captcha).
+
+TASK: For each dataset give: the best free source(s) (exact URL or API endpoint), format, how far back it goes, update frequency, whether a robot can fetch it without login, rate limits, a sample file name, and a 5-10 line Python download sketch (requests + pandas) with correct headers (e.g. NSE needs cookies from the homepage first). Also give any public GitHub repos or Kaggle datasets that already have the history (with licence).
+
+OUTPUT: table + code snippets + caveats (what breaks often).

@@ -1,0 +1,10 @@
+[Tosif ke liye: 28 Nov P14 — Middle East युद्ध / तेल झटके: इतिहास का playbook. Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a commodities and geopolitics historian. Use web search plus price data you can verify.
+
+TASK: For each oil/geopolitical shock — 1990 Kuwait invasion, 2003 Iraq war, 2011 Libya, Sep 2019 Abqaiq attack, Jan 2020 Soleimani, Feb 2022 Russia-Ukraine, Oct 2023 Israel-Hamas, Apr 2024 Iran-Israel strikes, Jun 2025 Israel-Iran war, Feb-Mar 2026 US-Israel war on Iran / Hormuz closure — give:
+start date, the trigger, Brent level at day 0 and peak (date), days to peak, the % fall from the peak and what ended the shock (ceasefire / SPR release / OPEC / demand), gold day 0 → +20d, the S&P 500 and Nifty moves at 1, 5, 20 and 60 days, and if possible Indian OMCs (BPCL, HPCL, IOC), paints (Asian Paints), aviation (IndiGo) and upstream (ONGC) at 5/20/60 days.
+
+Also: the 2026 Hormuz timeline to date (Feb-Nov 2026) with Brent on each key date, daily transit counts (Kpler/JMIC/UKMTO), and the current state of US-Iran talks (Qatar mediation, Iran's 7 conditions).
+
+OUTPUT: CSV of episodes + a 2026 timeline table + "what usually happens next" rules with base rates (e.g. "X of N shocks gave back half the oil spike within 60 days").

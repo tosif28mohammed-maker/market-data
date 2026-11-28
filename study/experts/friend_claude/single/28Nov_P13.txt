@@ -1,0 +1,10 @@
+[Tosif ke liye: 28 Nov P13 — Trump के बयान बनाम असली काम (2025-26) और बाज़ार. Is line ke NEECHE ka sab copy karke dost ke Claude ki nayi chat mein paste karein, Web search ON.]
+
+ROLE: You are a political-risk analyst. Use web search; give a date and link for every row.
+
+TASK: Make a log of Donald Trump's market-relevant statements from Jan 2025 to Nov 2026, covering Iran/Israel/Hormuz, tariffs (including the 25 Nov 2026 Section 301 notice on 14 economies incl. India), China, India, oil/OPEC, the Fed and rates, and big companies (Nvidia etc.). For each statement give:
+date, channel (Truth Social / interview / speech / executive order), quote (≤25 words), type (threat / deadline / deal-hope / reversal / praise / attack), what actually happened afterwards (and when), days_to_action, followed_through (Y/N/partly), and the Brent, gold, S&P 500 and Nifty % moves on the next trading day and over 5 days.
+
+Then summarise: what share of threats were carried out, and how fast; which statement types moved oil and gold most; whether the markets "learned" to ignore him over time (2025 vs 2026); and the "TACO" (Trump Always Chickens Out) pattern — is there evidence for it, with numbers?
+
+OUTPUT: CSV (≥80 rows) + summary with numbers + 5 testable rules (exact conditions → expected move → horizon).
