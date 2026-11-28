@@ -1,3 +1,5 @@
+> 28 Nov 2026: "कंप्यूटर रोबोट बनाना" chat ka handoff -> study/ai/h-computer-robot.md (CLAUDE.md captain niyam bhi padho)
+
 # >>> HANDOFF 25 Nov 2026 (पाँचवाँ chat)
 - पूरी स्थिति notebook notes/n42 के सबसे ऊपर 'HANDOFF 25 Nov' में (holdings 7, HFCL बिका 19 Nov @193, pending GTT MCX/MAHABANK, stop GTT भाव, खुले सवाल).
 - नई files: paper/my_sold.csv (बिके असली सौदे), scripts/tt_flags.py → data/tt_flags.csv (Tickertape हाँ/ना, export बाकी).
