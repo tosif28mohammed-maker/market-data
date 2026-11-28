@@ -220,3 +220,11 @@ PC transcripts 2026-11-25 10:24: ok 0 new — no device_bash; PC reachable but w
 - Test r087 AI-B14C35 (swing 8 दिन में +3% नहीं → बाहर): 186k trades; रुके trades रखना -1.2 बनाम निकलना -2.3 → सामान्य बाज़ार में नुकसान, पिछले 2-4 कमज़ोर महीनों में फ़ायदा → अभी analysis में.
 - Robot को दिया: claims/sc_rotation_durables.py (AI-14BEFA smallcap>17% rotation, AI-CCEDA6 Consumer Durables 2y) — यहाँ Yahoo 429.
 - Notebook: r087 + r01 i136, i137.
+
+## 2026-11-28 06:11 (silent run)
+- Robot: collector 01:53 UTC — 74 sources, failed 1 (SEBI फिर), नए 5. Robot script sc_rotation_durables.py fail (Yahoo ^CNXSC/Durables सिर्फ़ 1 row).
+- पढ़ा (Claude): queue के 32 नए (Brent $96+ पर Sensex -990, large गिरे mid/small टिके, OPEC+ स्थिर, copper/China support, gold 15-month low से वापसी, RBI घरेलू gold 740t, dollar लंबी monthly streak, Cem Karsan S&P view, Axis LargeMidcap250 NFO, tips/live junk). नया testable नहीं (DXY/gold पहले हो चुके).
+- Test r088 AI-14BEFA (universe proxy): small rel>17% के बाद भी 12m +6.95pp small आगे (आम +12pp) → बेकार (survivorship caveat).
+- Test r088 Gemini swing screen (EMA20>50+Supertrend+ADX+RSI55-70+12d>5%+vol): N47k target 30.9%, net -0.04 बनाम random uptrend +0.73 → बेकार.
+- Test r088 multi-tier trailing SL: fixed 5/10 से ख़राब → बेकार.
+- AI-CCEDA6 → blocked (index history नहीं), data_gaps में नया gap. Notebook r088 + r01 i138-i140.

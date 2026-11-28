@@ -1,0 +1,25 @@
+months 242 2006-10 2026-11
+ 3m ALL      N227 small-large  +2.22pp small better   59%
+ 3m rel>17   N 62 small-large  +2.51pp small better   58%
+ 3m rel>25   N 36 small-large  +3.45pp small better   61%
+ 3m rel<-17  N  2 small-large +17.73pp small better  100%
+ 6m ALL      N224 small-large  +5.00pp small better   61%
+ 6m rel>17   N 62 small-large  +4.17pp small better   58%
+ 6m rel>25   N 36 small-large  +5.07pp small better   61%
+ 6m rel<-17  N  2 small-large +21.04pp small better  100%
+12m ALL      N218 small-large +11.98pp small better   68%
+12m rel>17   N 62 small-large  +6.95pp small better   71%
+12m rel>25   N 36 small-large  +8.76pp small better   69%
+12m rel<-17  N  2 small-large +34.30pp small better  100%
+episodes:
+  2009-11 rel +22 -> 6m +24.6 12m +28.8
+  2014-04 rel +28 -> 6m +31.7 12m +38.8
+  2015-07 rel +23 -> 6m +12.1 12m +14.0
+  2015-10 rel +18 -> 6m +5.9 12m +16.2
+  2016-03 rel +20 -> 6m +6.1 12m +16.4
+  2017-09 rel +17 -> 6m +0.2 12m -9.1
+  2017-11 rel +20 -> 6m -4.4 12m -14.3
+  2018-02 rel +19 -> 6m -11.7 12m -15.7
+  2021-03 rel +38 -> 6m +15.9 12m +11.1
+  2023-07 rel +19 -> 6m +10.1 12m +5.4
+today rel12 3.0 2026-11

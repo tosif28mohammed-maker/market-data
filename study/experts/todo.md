@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-28 02:11
+Updated: 2026-11-28 06:11
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -42,7 +42,7 @@ Updated: 2026-11-28 02:11
 - [x] 27 Nov 18:11: queue 347 पढ़े; r082 BNK-01 (analysis), BRD-02 + AI-FD88E6 बेकार
 - [ ] BNK-01 forward: 20 Nov 2026 BankNifty 64,635 → 63/126/250 दिन (पहला: फ़रवरी 2027 अंत)
 - [x] 28 Nov 02:11: AI-A63247 gold/DXY बेकार; AI-B14C35 time-exit analysis (r087); queue 74 पढ़े
-- [ ] r087 robot नतीजा पढ़ना: study/research/claims/sc_rotation_durables.out.txt (AI-14BEFA, AI-CCEDA6)
+- [x] r087 robot नतीजा: Yahoo fail → r088 में AI-14BEFA universe proxy से (बेकार); AI-CCEDA6 blocked (data_gaps नया gap: NSE ind_close_all archive robot)
 - [ ] AI-B14C35 आगे: time-exit + Nifty<200DMA regime split (कमज़ोर बाज़ार में ही लगाना?)
 - [ ] JPM-27 forward: 27 Nov 2026 Nifty 25,607 → Dec 2027 (bull 31000 / bear 22000)
 - [ ] collector: SEBI feed fail (27 Nov 17:57) — अगले run में देखो
@@ -178,3 +178,7 @@ Updated: 2026-11-28 02:11
 - [ ] scenario % (तेज़ी/flat/गिरावट) andaza में — combo_model.py में per-row outcomes save करके
 - [ ] ai_client.py में Cerebras/Mistral fallback (Tosif key दे तब)
 - [ ] MULTIBAGGER walk-forward, दुनिया के बाज़ार (बाकी)
+
+- [x] 28 Nov 06:11: queue 32 पढ़े; r088 AI-14BEFA, swing screen, multi-tier trailing — तीनों बेकार
+- [ ] Robot: NSE indices archive (ind_close_all_DDMMYYYY.csv) से sectoral/smallcap index इतिहास → data/indices/ (data_gaps नया gap) — फिर AI-CCEDA6 + AI-14BEFA असली index से
+- [ ] SEBI feed लगातार fail (27 Nov 17:57, 28 Nov 01:53) — URL बदलना है
