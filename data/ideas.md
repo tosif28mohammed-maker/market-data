@@ -1,8 +1,8 @@
-# Idea Factory — run 4 (21 Nov 2026)
+# Idea Factory — run 5 (28 Nov 2026)
 
 Har idea: 1,500 shares 2003-26, bazaar se fark, 0.25% kharcha ghata kar. Pehle 2003-16 mein t>=3, phir 2017-26 mein bhi + (t>=2), har naye daur mein +, 2008/COVID hata kar bhi +.
 Is run mein 150 idea jaanche: PASS 0, data-mining jaal 0, baaki FAIL.
-Ab tak kul 763 idea jaanche, PASS 1.
+Ab tak kul 913 idea jaanche, PASS 1.
 
 ## Is run ke PASS
 - koi nahi
