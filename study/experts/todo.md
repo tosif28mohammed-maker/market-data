@@ -188,3 +188,8 @@ Updated: 2026-11-28 12:50
 - [x] OFFICE_PC_24_GHANTE.bat: python/py dono, truststore install, token paste prompt, Startup shortcut (restart par khud chale); ek zip tools/laptop/office_pc_robot.zip
 - [ ] Tosif office PC par chalaye -> transcripts aana dekhna (pending 64 baaki 28 Nov)
 - [ ] 28 Nov 13:05: 65 transcripts 9 batch files (Batch_01..09, ~250KB) Tosif ko diye -> dost-Claude video prompt se; jawab aaye to friend_claude/2026-11-xx_video_batchN.md, Gemini notes se tulna
+- [x] 28 Nov 13:20 DHAN-06b 'bracket width' (R1/S1+PDH/PDL; Dhan "Boring but works" ep2): narrow width -> trend day? study/bracket_width_test.py, NIFTY+BANKNIFTY 2007-26 by era: narrow bucket trend-day% 28-45 vs base ~38; ulta/chance, era-wise palat-ta -> BEKAAR. Wide width -> din ki range badi (sirf volatility ka tikna, pehle se pata). DHAN-06 entry niyam (engulfing pullback) 5-min data par abhi baaki.
+- [x] 5paisa 17 Nov tips (AXIS/HDFC/TATACONSUM/KOTAK) -> paper/tips.csv T015-T018 (tips_tracker score karega). 27 Nov tak: AXIS target hit, 3 khule munafe mein, SL koi nahi (4 tip = chhota sample)
+- [ ] IPO-01 (Compound): bade IPO pehle saal kabhi na kabhi 30-50% girte -> India: u1000/all_ranked pehli tareekh = listing proxy, issue price chahiye (chittorgarh/BSE) -> data_gaps
+- [ ] FD-01 (Groww): FII aur DII holding dono +1% (quarter) -> agla quarter return? shareholding itihaas chahiye (BSE shareholding XBRL) -> data_gaps
+- [ ] dost-Claude batches 1,3 (aur ek 4-video batch) bina instructions ke aaye = sirf saar; naye batch (prompt andar) se dobara
