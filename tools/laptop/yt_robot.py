@@ -84,13 +84,28 @@ def upload(path, name, token):
     req = urllib.request.Request(api, data=json.dumps(body).encode(), headers=hdr, method="PUT")
     with urllib.request.urlopen(req, timeout=60, context=CTX) as r: return r.status in (200, 201)
 
+def repo_done():
+    """GitHub par jo transcripts pehle se hain (kisi bhi PC/laptop se) - unhe dobara mat nikaalo."""
+    hdr = {"Accept": "application/vnd.github+json", "User-Agent": "yt-robot"}
+    if os.path.exists(TOKEN_FILE): hdr["Authorization"] = "Bearer " + open(TOKEN_FILE).read().strip()
+    try:
+        with urllib.request.urlopen(urllib.request.Request(
+                f"https://api.github.com/repos/{REPO}/contents/study/experts/transcripts", headers=hdr), timeout=30, context=CTX) as r:
+            return {x["name"].split(".")[0] for x in json.load(r)}
+    except Exception as e:
+        print("GitHub par bani scripts ki list nahi mili:", str(e)[:60]); return set()
+
 def main():
     links = read_lines(os.path.join(HERE, "links.txt"))
     try:
         with urllib.request.urlopen(f"https://raw.githubusercontent.com/{REPO}/main/study/experts/user_links.txt", timeout=20, context=CTX) as r:
             links += [l.strip() for l in r.read().decode("utf-8", "ignore").splitlines() if "youtu" in l]
     except Exception: print("GitHub ki link list nahi mili (koi baat nahi)")
-    done = set(read_lines(DONE)) | set(read_lines(FAIL))
+    try:   # 28 Nov: laptop par jo video block hue, unki list bhi (office PC robot ke liye)
+        with urllib.request.urlopen(f"https://raw.githubusercontent.com/{REPO}/main/study/experts/laptop_links_pending.txt", timeout=20, context=CTX) as r:
+            links += [l.strip() for l in r.read().decode("utf-8", "ignore").splitlines() if "youtu" in l and not l.startswith("#")]
+    except Exception: print("pending list nahi mili (koi baat nahi)")
+    done = set(read_lines(DONE)) | set(read_lines(FAIL)) | repo_done()
     ids = []
     for u in links:
         v = vid_of(u)

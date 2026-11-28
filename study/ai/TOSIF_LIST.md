@@ -1,10 +1,10 @@
 # Tosif ki list — jab samay ho, yahin se (Claude update karta rehta hai)
-Updated: 2026-11-27 22:00 Kuwait. Tosif poochhein "kya pending hai" -> ye list (chhoti karke) batao.
+Updated: 2026-11-28 12:50 Kuwait. Tosif poochhein "kya pending hai" -> ye list (chhoti karke) batao.
 
 ## A. Tosif se chahiye (aasaan se mushkil)
 | # | Kaam | Kyun | Kitna time | Status |
 |---|---|---|---|---|
-| A1 | Office PC par YouTube robot (Python + 3 files, tools/laptop/; OFFICE_PC_24_GHANTE.bat) | 24 ghante 1 video/min, din ki ~600 tak | 15 min | 28 Nov karenge |
+| A1 | Office PC par YouTube robot: Python install + office_pc_robot.zip (tools/laptop/) -> OFFICE_PC_24_GHANTE.bat (token ek baar paste; Startup mein khud judta) | 24 ghante 1 video/min; pending 64 + nayi | 10-15 min | 28 Nov steps diye (direct link) |
 | A2 | Laptop robot: naya yt_robot.py (SSL fix) se 23 scripts ka backup upload | — (scripts browser se already upload ho gayi) | 2 min | optional |
 | A3 | Dost ke Claude: 8 research prompts P11–P18 (study/experts/friend_claude/prompts_2026-11-28_P11-P18.md) | Fed/gold, afwaah record, Trump, war-oil, TA saboot, option buyers, bade niveshak, data sources | har prompt 1 chat | jab maangein tab file dena |
 | A4 | Kaggle free account + API token -> GitHub secret KAGGLE_KEY | Nifty 1-min 2015-24 (intraday niyam ka lamba test) | 10 min | pending |

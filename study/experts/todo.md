@@ -1,5 +1,5 @@
 # Source study — todo (कुछ भी भूलना नहीं)
-Updated: 2026-11-28 06:11
+Updated: 2026-11-28 12:50
 
 ## Robot (GitHub) — दिया हुआ
 - [x] 22 Nov 22:15 Tosif: **पहले किताबें, YouTube बाद में.** gemini_reader अब: Tosif links → books (हर run 8 हिस्से तक) → YouTube queue सिर्फ़ सारी किताबें ख़त्म होने के बाद. World scan reader के बाद.
@@ -182,3 +182,8 @@ Updated: 2026-11-28 06:11
 - [x] 28 Nov 06:11: queue 32 पढ़े; r088 AI-14BEFA, swing screen, multi-tier trailing — तीनों बेकार
 - [ ] Robot: NSE indices archive (ind_close_all_DDMMYYYY.csv) से sectoral/smallcap index इतिहास → data/indices/ (data_gaps नया gap) — फिर AI-CCEDA6 + AI-14BEFA असली index से
 - [ ] SEBI feed लगातार fail (27 Nov 17:57, 28 Nov 01:53) — URL बदलना है
+
+## 28 Nov dopahar — office PC robot
+- [x] yt_robot.py: ab GitHub ki laptop_links_pending.txt bhi padhta hai + GitHub par bani transcripts (repo_done) skip karta hai (office PC par dobara kaam nahi)
+- [x] OFFICE_PC_24_GHANTE.bat: python/py dono, truststore install, token paste prompt, Startup shortcut (restart par khud chale); ek zip tools/laptop/office_pc_robot.zip
+- [ ] Tosif office PC par chalaye -> transcripts aana dekhna (pending 64 baaki 28 Nov)
