@@ -1,16 +1,12 @@
 {
- "run_utc": "2026-11-27 23:18",
+ "run_utc": "2026-11-28 01:53",
  "sources": 74,
  "failed": [
-  "SEBI",
-  "Moneycontrol market reports"
+  "SEBI"
  ],
- "new_items": 37,
- "kept": 28,
+ "new_items": 5,
+ "kept": 4,
  "transcripts_ok": 0,
- "transcript_errors": {
-  "RequestBlocked": 5,
-  "VideoUnplayable": 1
- },
+ "transcript_errors": {},
  "books_new": []
 }
