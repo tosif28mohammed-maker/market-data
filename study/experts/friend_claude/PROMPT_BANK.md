@@ -4,7 +4,7 @@ Har run (research / source-study): jo kaam Claude usage bachaane ke liye bahar h
 
 ## STATUS
 - DONE 26 Nov: P1 tariff, P2 breakout, P3 afwah, P4 WCS30 kitab, P5 fundamental data, P6 social sources, P7 gold NRI, P9 holdings, P10 forecasting (files is folder me)
-- PENDING (Tosif ko diye, jawab baaki): P8 events calendar Dec-Feb, P11 GCSL Gretex, P12 India research papers anomalies, P13 FII flow drivers, P14 2027 themes value chain, P15 Q3 results playbook — poora text 26 Nov chat me diya; neeche saar + zaroori baatein, poora text dobara banana ho to inhi points se.
+- PENDING (Tosif ko diye, jawab baaki): P8 events calendar Dec-Feb, P11 GCSL Gretex, P12 India research papers anomalies, P13 FII flow drivers, P14 2027 themes value chain, P15 Q3 results playbook — poora text ab file prompts_2026-11-26_P8_P11-P15.md (naam 26N-P8, 26N-P11..P15); 28 Nov 13:05 Tosif ko dobara file di.
 
 - DIYE 28 Nov 12:50 (jawab baaki): naya set prompts_2026-11-28_P11-P18.md (Fed/jobs, afwah scorecard, Trump, war-oil, TA saboot, option buyers, bade niveshak, data sources) + video_transcripts_prompt.txt. DHYAN: 26 Nov wale P11-P15 (Gretex...) alag hain — jawab aaye to file naam me tareekh se pehchano.
 
