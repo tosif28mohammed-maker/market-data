@@ -8,6 +8,9 @@ Har run (research / source-study): jo kaam Claude usage bachaane ke liye bahar h
 
 - DIYE 28 Nov 12:50 (jawab baaki): naya set prompts_2026-11-28_P11-P18.md (Fed/jobs, afwah scorecard, Trump, war-oil, TA saboot, option buyers, bade niveshak, data sources) + video_transcripts_prompt.txt. DHYAN: 26 Nov wale P11-P15 (Gretex...) alag hain — jawab aaye to file naam me tareekh se pehchano.
 
+- DONE 28 Nov 13:20 (jawab aaye, files 2026-11-28_*): 26N-P11 GCSL, 26N-P13 FII, 26N-P14 themes, 26N-P15 results, 28N-P16 option buyers. BAAKI: 26N-P8 events, 26N-P12 papers, 28N-P11/12/13/14/15/17/18.
+- Video: 7 purane batch (bina prompt) ke sirf saar -> video_summaries/*_old.md. Naye batch (prompt andar) se rules+CSV abhi baaki (sab 9).
+
 ## PENDING prompt saar (poora banane ke liye)
 - P8 EVENTS: 1 Dec 2026-28 Feb 2027 calendar (Fed 8-9 Dec + Jan, US CPI/PCE/jobs, USTR 301 India: comments 5 Jan, hearing 25 Jan; RBI MPC Dec/Feb, Budget ~1 Feb, GDP/CPI/IIP/GST/auto sales; expiry din, MSCI/FTSE rebalance, Nifty review, NSE chhuttiyan; Q3 results shuru; IPO/lock-in; OPEC+/BOJ/ECB; gold events). Har event type ka 2015-26 asar (Nifty din ka avg |move|, agle 5 din, % up, sector), 2-3 scenario+prob. OUTPUT CSV: date_ist,time_ist,event,country,type,importance,confirmed,scenarios_with_prob,past_day_abs_move,past_next5d,past_pct_up,sectors,source.
 - P11 GCSL = Gretex Corporate Services (SME IPO merchant banker; NSE ~Sep 2025; ~Rs850): segments %, IPO count/rank, 6 quarter results (treasury vs fee), balance sheet, promoter/pledge/bulk deals, SEBI SME IPO niyam + koi SEBI order Gretex/promoter par, SME IPO cycle 2025-26, valuation vs peers, liquidity/ASM; 3 mahine scenario; weekly watch.
