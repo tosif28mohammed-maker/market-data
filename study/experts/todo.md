@@ -187,3 +187,4 @@ Updated: 2026-11-28 12:50
 - [x] yt_robot.py: ab GitHub ki laptop_links_pending.txt bhi padhta hai + GitHub par bani transcripts (repo_done) skip karta hai (office PC par dobara kaam nahi)
 - [x] OFFICE_PC_24_GHANTE.bat: python/py dono, truststore install, token paste prompt, Startup shortcut (restart par khud chale); ek zip tools/laptop/office_pc_robot.zip
 - [ ] Tosif office PC par chalaye -> transcripts aana dekhna (pending 64 baaki 28 Nov)
+- [ ] 28 Nov 13:05: 65 transcripts 9 batch files (Batch_01..09, ~250KB) Tosif ko diye -> dost-Claude video prompt se; jawab aaye to friend_claude/2026-11-xx_video_batchN.md, Gemini notes se tulna
