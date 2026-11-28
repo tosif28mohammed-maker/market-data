@@ -1,44 +1,44 @@
-# छँटी हुई खबरें — 2026-11-27 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
+# छँटी हुई खबरें — 2026-11-28 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 1146, छँटी 161, काम की (ताकत ≥3, fact, एक कहानी एक बार) 95, अफ़वाह/राय/clickbait 25
+कुल headlines 1136, छँटी 722, काम की (ताकत ≥3, fact, एक कहानी एक बार) 266, अफ़वाह/राय/clickbait 178
 
-- [5/negative] Metals: Copper enters bear market as tariff fears and tech slump rattle demand - MiningMX
-- [4/positive] LT: L&T shares jump over 2% on securing BESS order worth ₹1,000-2,500 crore in Gujarat; key details - Upstox
-- [4/positive] insurance: PB Fintech shares jump 8%, insurance stocks rally: Is IRDAI review raising hopes of regulatory relief? - Upstox
-- [4/positive] : US GDP growth revised sharply higher to 4.3% in third quarter on strong consumer spending, AI investment - The Times of India
-- [4/positive] Energy: SIEMENS ENERGY INDIA Q2 Results FY27: PAT Rs 652.50 Cr - Univest
-- [4/negative] Manufacturing: Trans India House Impex Q2FY27 Results: Zero revenue, auditor flags ₹60.5 cr tax demand - scanx.trade
+- [5/negative] indices: Stock market today: Sensex tumbles nearly 1000 points, Nifty50 below 25,650 after 2-day rally - key reaso - The Times of India
+- [5/negative] indices: Sensex down 990 points, Nifty near 25600 - ChiniMandi
+- [5/negative] indices: Sensex falls 1120 pts intraday post 2-day rise: Consolidation here to stay? - Business Standard
+- [5/negative] rates: Hawkish Fed poised to raise rates despite stock market turmoil - Financial Times
+- [5/negative] rates: Fed likely to raise rates by 25 bps in December amid inflation concerns - KuCoin
+- [5/negative] rates: Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos
+- [5/negative] Trade: US Tariffs on India are Driven by Concerns About Make In India, Chinese Imports - TheWire.in
+- [4/negative] funds: Domestic institutional investors sell ₹55,570 crore in rally - Multibagg AI
+- [4/negative] bonds: Indian bonds tumble as Brent tops $95 per barrel, RBI flags food inflation risks - BusinessLine
+- [4/positive] AVROIND: Avro India Limited Recycling Revenue Rises 102.6% in Q2 FY27 - Multibagg AI
 - [4/negative] SIMBHALS: Simbhaoli Sugars SIMBHALS Q2 FY27 Results Under CIRP - Kalkine India
-- [4/positive] Electronics: Tonbo Imaging Q2FY27: Net profit ₹235 crore, revenue jumps 1975% YoY - scanx.trade
-- [4/positive] Manufacturing: Welspun Corp Shares Surge After It Bags Global Orders Worth ₹2,264 Crore; Order Book Expands to ~₹50,000 Crore - Kotak Neo
-- [4/positive] Tax: PM Modi shares FM Sitharaman’s article highlighting next-gen GST reforms - DD News
-- [4/positive] Tax: Cancellation of GST registration to get automatic from December 1 - The Economic Times
-- [4/positive] Budget: Budget 2027: From AI to affordable housing, key demands - prameyanews.com
-- [4/positive] Banking: Public Sector Banks (PSBs) grow stronger with prudent banking practices and strong underwriting capabilities - www.pib.gov.in
-- [4/positive] Technology: Tech industry seeks AI transformation fund, tax reforms in Budget 2027-28 - ETHRWorld.com
-- [4/positive] Trade: Tariff threat likely to hasten India-US trade deal, says Jefferies report - Business Standard
-- [4/negative] Trade: US Tariff Plan Raises Stakes for India to Clinch Trade Deal - Bloomberg.com
-- [4/negative] Trade/Labor: Deal will soften tariff blow, labour-intensive sectors to face brunt - The New Indian Express
-- [4/positive] Trade: US to cap India tariff at 17% if trade deal is reached, USTR says - Reuters
-- [4/none] Trade: India Faces a Tough Choice Over Lower Tariffs, Rushed US Trade Deal - Bloomberg.com
-- [4/none] Trade: 25% proposed US tariffs: India rejects excess capacity charge, seeks early trade deal - The New Indian Express
-- [4/none] Trade: Make In India Faces Heat As Trump Threatens 25% Tariffs. What Happens To Exports - NDTV
-- [4/negative] Trade: U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken - The Hindu
-- [4/positive] Indices: Nifty50, Sensex Today: सेंसेक्स में 2000 अंकों की सुनामी! 25,850 के पार दौड़ा निफ्टी; निवेशकों की चांदी - ETV Bharat
-- [4/positive] Metals: Copper Prices Jump 3.4% in a Single Day to Reclaim $12,000; UBS Pours Cold Water: Technical Bear-Market Repair, Not a Trend Reversal - BigGo Finance
-- [4/mixed] Metals: Copper Faces a Major Global Demand Test as LME Prices Swing on China and US Rate Signals - kalkine.co.uk
-- [4/positive] Metals: Trade Setup for Today: Silver Surges, Asian Indices Rally as GIFT Nifty Holds Steady Near 26,000 as of November 26, 2026 - scanx.trade
-- [4/positive] Metals: Gladiator Metals Shares Rally as Copper Exploration Potential and Resource Growth Fuel Investor Optimism - kalkine.ca
-- [4/positive] Energy: The Commodities Feed: Oil extends rally as copper rebounds - ing think
-- [4/negative] Metals: Copper sinks to 11-month low as US inflation and AI sell-off deepen metals rout - Proactive financial news
-- [3/negative] : Tighter financial conditions put RBI policy decision in focus next week - Business Standard
-- [3/negative] : Retail inflation likely to stay elevated in November as food prices remain high: RBI bulletin - The Indian Express
-- [3/none] : INDIA BONDS-Indian bonds seen rangebound; oil, RBI decision in focus - bfsi.economictimes.indiatimes.com
-- [3/positive] : RBI sees India’s growth resilient at 6.9 percent in FY27 despite West Asia conflict risks - DD News
-- [3/negative] : Inflation pressures broaden across India, raising rate-hike risks ahead of RBI's December review - The Economic Times
-- [3/negative] : Overnight rates cross RBI’s MSF rate as liquidity tightens; VRR demand surges - Moneycontrol.com
-- [3/mixed] : US PCE Inflation Data and Q3 GDP Due Today; Key Numbers to Watch Ahead of December Fed Rate Decision - Kotak Neo
-- [3/negative] : India's RBI sees broad food inflation pressures; was net dollar buyer in Sept, bulletin shows - Reuters
-- [3/negative] : Inflation more generalised, more categories seeing price hikes: RBI paper - Business Standard
-- [3/negative] : RBI: India Inflation Broadens, CPI Hits 6.1% in October - Rediff MoneyWiz
-- [3/positive] : India’s data overhaul will improve RBI forecasts, Deputy Governor Gupta says - Digg
+- [4/positive] COALINDIA: Centre Hits 44% Of FY27 PSU Dividend Target, Coal India Leads The Charge With ₹7,912 Crore Payout - Free Press Journal
+- [4/negative] Commodity: Gold has crashed from $5,500 to below $3,500 — how much further could it fall? - Mitrade
+- [4/negative] Commodity: Gold Falls Below $3,500 Mark as Russia Offloads 72 Tons Over Ten Straight Months, Becoming Biggest Selling Pressure - BigGo Finance
+- [4/negative] Commodity: Silver price down 66%: Can it recover? - IG Bank
+- [4/positive] Defence: Omnitech Engineering hits upper circuit on BrahMos Aerospace order; NIFTY India Defence index jumps 4% - Upstox
+- [4/positive] BEML,BDL,HAL: Defence shares skyrocket up to 17%; BEML, BDL, HAL lead gains - TradingView
+- [4/positive] BEML: BEML shares surge 17% to hit 52-week high amid rally in defence stocks; here’s what investors should know - Upstox
+- [4/positive] BEML,BEL,HAL: BEML, BEL, HAL, Cochin Shipyard, Bharat Dynamics shares: Defence stocks rise up to 14%; here's why | Top 5 stocks to buy - Livemint
+- [4/positive] defence: Defence Stocks Jump by Up to 17% in Today's Trading Session; Check the Reason Why - Trade Brains
+- [4/positive] BEML: BEML, Data Patterns, Solar Industries, other defence stocks rally up to 11%. What Choice analysts are sayi - The Economic Times
+- [4/positive] overall: Indian Stocks Rally as Sensex Jumps 773 Points, Nifty Closes Above 25,250 - INDIA New England News
+- [4/positive] HDFCBANK,SBI,ICICIBANK: Banking stocks hit the accelerator! Nifty Bank index up 18% in 1 month; HDFC Bank, SBI, ICICI Bank- 9 best stocks to buy - Livemint
+- [4/negative] commodity: Copper heads for worst monthly drop since 2015: Prices slide 16% to 11-month low - The Financial Express
+- [4/positive] HINDZINC,VEDL,NALCO: NIFTY Metal soars 2% as Hindustan Zinc, Vedanta, NALCO shares lead gains on Nov 27; check details - Upstox
+- [4/positive] BALAJI: Balaji Amines gets FDA approval to manufacture Propylene Glycol for pharma industry - CNBC TV18
+- [4/positive] WAAREENR: Top Gainers Today 27-Nov-2026: Waaree Renewable Soars 20% - Multibagg AI
+- [4/positive] WAAREENR: Waaree Renewable Technologies shares surge up to 14% after winning 120 MWp EPC order - The Economic Times
+- [4/negative] BRITANNIA,NESTLE,ITC: Britannia, Nestle, ITC: FMCG stocks decline as SC orders separate warning labels for high sugar, salt, fat - Upstox
+- [4/negative] YESBANK: Yes Bank AT1 bond verdict: 60 lakh retail shareholders face ₹8,415-crore bill - The Hindu
+- [4/negative] Legal: P&H HC Denies PMLA Bail to CA Accused of Facilitating Rs. 1,626 Crore Bank Fraud - TaxGuru
+- [4/none] Power: PFC creates encumbrance on 56% of Vedanta Power promoter shares - scanx.trade
+- [4/negative] Retail: Le Lavoir shares hit 5% lower circuit as SEBI issues interim order - Moneycontrol.com
+- [4/none] Retail: Sebi bars Le Lavoir chairman, 13 others over suspected stock manipulation, fund diversion - India Today
+- [4/none] Food & Beverage: SEBI Appoints Forensic Auditor to Probe ₹3,535 Crore Coffee Day Fund Diversion - The420
+- [4/none] Financial Services: Motilal Oswal Financial Services fined ₹10 lakh by SEBI for KYC lapses - scanx.trade
+- [4/none] COFFEEDAY: Coffee Day Enterprises (NSE: COFFEEDAY) Says SEBI Appointed a Forensic Auditor - Kalkine India
+- [4/positive] ADISOFT: Adisoft Technologies Hits 5% Upper Circuit After Bagging ₹12.56 Cr Domestic Industrial Automation Order - Trade Brains
+- [4/positive] Consumer Goods: PL Capital High Conviction Stocks: HUL, Astral, Grindwell - Univest
+- [4/positive] GLENMARK: Glenmark Pharma hits new high, up 5th straight day; gains 35% from Oct low - Business Standard
