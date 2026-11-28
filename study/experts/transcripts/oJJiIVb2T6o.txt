@@ -1,0 +1,115 @@
+video: https://www.youtube.com/watch?v=oJJiIVb2T6o
+title: New UPI Charges 2026 | UPI Transaction Limits & MDR Rules Explained
+channel: Asset Yogi
+
+UPI transactions will no longer remain free. Which transactions will have charges, how much,
+and who will pay them? How much money will go where? How will charges apply to UPI transactions
+in our mutual fund SIPs and demat accounts? Who will pay them? You'll get the full details
+in this video. Make sure you watch it fully.
+On September 15, 2026, NPCI announced that charges will now apply on UPI transactions,
+and the name given to this charge is MDR, i.e. Merchant Discount Rate, and these
+charges will come into effect from October 15, 2026. Now the biggest
+clarification in this is that any person-to-person transactions we
+make — for instance, if I sent ₹5,000 to a friend, or sent money to
+an aunt, uncle, or relative — whether it's ₹5,000, ₹15,000, or even
+₹1 lakh — on such person-to-person transactions, no charge will apply.
+This charge will apply only on merchant transactions. And when we buy
+something, whether online or offline, we will not be the ones
+bearing this charge. This charge will be borne by the merchant — meaning the shopkeeper
+or the e-commerce platform will be the ones bearing that charge. And how much will this
+charge be? It's 0.4% of the transaction value. For example, if you bought something
+online for ₹10,000, 0.4% of that comes to how much? ₹40. This ₹40 will have
+to be borne by the e-commerce platform. You don't have to pay it
+out of your own pocket. Similarly, if you go to buy something from a shopkeeper's
+store, in that case too you won't have to bear these charges. Besides that, there's
+another limit — on transactions up to ₹2,000, there's no charge of any kind. Whether
+you buy something online or buy something from a merchant, no
+charge will apply there either. But above ₹2,000, even if it's just ₹1 more, then charges
+of 0.4% will apply on the full ₹2,001. But after this, an upper cap has also
+been set. No more than ₹300 transaction charge will apply in any case.
+That means if we made a transaction of more than ₹75,000 — let's say a transaction of
+₹1 lakh — even in that case, the merchant only has to pay a
+maximum of ₹300. But now, as we all know, whenever this kind of transaction
+happens, as soon as we go to a merchant or shopkeeper, they tell us,
+"Please make a cash transaction instead." So a big concern arising from
+this is whether cash transactions will start increasing because of this, or
+whether people will try to split larger transaction values into smaller
+ones, asking you to make multiple transactions, or asking you to transfer the money not
+into their account but into someone else's account. So you might feel it becomes a hassle —
+when you're making a transaction, either you might have to make multiple
+transactions, or you might face a demand for cash, or, since we're used to getting so many
+discounts on e-commerce, the platform fee that used to apply
+might now have something extra included in it by the e-commerce platform. For
+example, say you bought something from Amazon or Flipkart. You were getting a ₹100
+discount there. Now, instead of ₹100, if this fee of ₹40 is also being applied, that
+platform might now give you only a ₹60 discount, because all these platforms
+and shopkeepers have to recover that charge from somewhere. Besides this,
+extra limits have been set in some cases too. For instance, if there's a small merchant,
+a category has been created called P2P merchant — person-to-person merchant. That means
+merchants whose receipts total up to only ₹1 lakh per month —
+whose income through UPI doesn't exceed that — in that case too, that merchant won't
+have to pay any transaction charge. For example, if the vendor you buy vegetables from, or
+some other small vendor you buy things from, doesn't have UPI receipts of more than
+₹1 lakh per month, then they won't have to pay any charge either.
+Then there are some essential services. Such as railways, telecom, insurance, when we
+purchase fuel, when we buy petrol or diesel, utility bills like our
+electricity bill, our water bill, education when we pay school fees, or
+when we buy agricultural supplies — for all these essential services, there's
+a flat fee of ₹5. No merchant will have to pay more than that. Besides
+this, when we do auto-pay on UPI — recurring mandates, such as when we
+subscribe to Netflix, buy a Prime membership, or any other such service
+we're paying for every month — if we've set up a UPI mandate for it, no charges of
+any kind apply on that. But there's one category here that many
+people will wonder about. When we purchase mutual funds and stocks, if we transfer
+money via UPI, will a charge apply on that or not? Yes, a charge will
+apply here, but its value has been kept quite low. Instead of the standard 0.4%
+charge, here the charge will be 0.02%, and its upper limit has also been set at
+₹300. But who will pay this? You won't be the one paying here.
+Either the AMC — the mutual fund company — will pay it in the case of mutual funds,
+or if you're transferring money into stocks, if you transferred money via UPI into
+your demat account, then the broker will have to pay this amount. Of course, they won't pay
+it out of their own pocket — so where will they get the money from? So they might
+raise their brokerage charge, or raise their AMC. But with mutual funds
+and stocks, what matters more than these small charges is how much return you're
+generating on your portfolio, and how we can maximize our returns — how to
+build a smart long-term portfolio. We discuss all of this in our free
+webinar. You can register for the next webinar — the link is in the
+description below. It adds a lot of value, so do attend. Now let's talk about
+how many transactions these charges are actually going to apply
+to. If we look by volume, 96% of our transactions are less than ₹2,000
+by volume. So no transaction charge will apply to
+those. But if we look by value, then out of all our transactions, 67% of the
+transaction value ends up being subject to these charges. Now another point comes up
+— where is the money being collected going? Like we took the example of ₹10,000,
+where the merchant has to pay ₹40 on top of it — where does this ₹40
+ultimately go? So here, the Finance Ministry has clarified that this money
+gets distributed among all the participants of the entire UPI system.
+So let's say ₹100 was collected — out of that ₹100, 40% of the money,
+i.e. ₹40, goes to the customer's issuing bank. Say your transaction
+was made through HDFC Bank — if that was the bank behind your UPI
+app, then 40% will go to HDFC Bank. After that, the merchant's acquiring bank — meaning,
+say you made a transaction with a shopkeeper and their bank was
+Axis Bank, and Axis Bank received the payment — then 30% of the money goes
+to that acquiring bank. Then there's a third party, the UPI app. Say I made this
+payment using PhonePe — then that UPI app gets 20% of the money. Then the
+fourth party is the UPI app's bank — the bank behind it on the back end,
+which we call the Payment Service Provider Bank, or PSP bank. Say the bank behind
+that UPI app is Yes Bank — then Yes Bank gets 10%. Now, for mutual funds and
+stocks, a bit more clarification is probably needed. If, for stocks, you transfer
+say ₹1 lakh into your demat account, then at 0.02% that comes
+to ₹20. Now, although the stockbroker has to bear this ₹20 themselves, they
+will end up recovering this money from somewhere, in some other form — maybe they'll
+raise brokerage. Similarly, if we make a lump-sum investment in a mutual fund,
+and we put in ₹1 lakh, then that ₹20 has to be borne by the AMC
+itself. But the good thing here is that when we do an SIP, we set up an auto-mandate
+for it. Money is automatically deducted from our bank. In such a case, whether
+it's a UPI mandate or money being deducted directly and automatically from
+your bank, no UPI charges will apply on this at all. So we should keep our mutual fund SIPs
+going as usual. Yes, it's important to pay attention to your returns. For that, you
+can attend our next free webinar, where you'll learn how to do research-based
+investing. The webinar link is in the description. Do attend. Please like and
+share this video — a lot of people have been confused about these new UPI
+rules, so this should give some clarification. And if you haven't
+subscribed to this channel yet, please subscribe on your phone and hit
+the bell icon so you get notified about our latest finance videos. I'll see
+you in the next one. Until then, keep learning, keep earning, and stay happy as always.
