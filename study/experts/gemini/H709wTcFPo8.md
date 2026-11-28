@@ -1,0 +1,18 @@
+# The AI Bubble Already Popped | TCAF 269 (The Compound)
+स्रोत: transcript: The Compound · https://www.youtube.com/watch?v=H709wTcFPo8 · Gemini ने पढ़ा 2026-11-28 09:17 UTC
+
+## Point-by-point
+- Jenny Harrington aur Bryn Talkington ne CNBC aur portfolio management ke anubhav se several concrete screening, valuation, aur ETF strategies share kiye.
+- Jenny ki FCF Yield Growth Screen: Mag 7 aur tech growth stocks me se sirf unhe chunna jinka Free Cash Flow Yield minimum 5.0% ho (jaise Meta aur Cisco), baaki low FCF ya high dilution risk wale stocks ko filter out karna.
+- Mega IPO Seasoning Rule: SpaceX, Anthropic, SK Hynix, Alibaba jaise bade IPOs me pehle din gap-up pe khareedne ke bajaye 1 saal ka seasoning period rukna chahiye kyunki historical data ke mutabiq bade IPOs pehle saal me 30% se 50% drawdown dikhate hain.
+- Cisco (CSCO) Value-Growth Tech Setup: 5% FCF yield, 17x forward P/E, 40% earnings growth aur strong enterprise networking backbone par long-term accumulation.
+- Freeport-McMoRan (FCX) Hard Asset Pullback Rule: 7% FCF yield, 13x forward P/E aur peak se 26% giravat par copper hard asset miner me entry strategy.
+- Kimberly-Clark (KMB) Dividend King Synergy Setup: 4.5% dividend yield, 54-saal ka continuous dividend payout track record, 15.5x forward P/E aur M&A synergy ($2B cost savings) par 5-year doubling target setup.
+- GPIQ Nasdaq-100 Dynamic Covered Call Strategy: 10.5% targeted annual yield ke saath portfolio par 20%-50% ATM call options sell karna, aur market dip par coverage ghatakar 25% kar dena taaki 75% upside participation barkarar rahe.
+
+## Niyam
+- [new/yes] Bade IPOs pe pehle din buy mat karo; pehle saal me 30% se 50% drawdown (seasoning window) aane par hi positional entry lo. | entry: IPO ke pehle saal me jab stock price post-IPO high/peak se 30% se 50% neeche correct ho jaaye tab staggering manner me buy karein. | exit: 3 se 5 saal holding period ya All-Time High recovery target. | stop: number nahi diya
+- [new/yes] Tech/Growth stocks screening me sirf unhi companies ko chuniyen jinka Free Cash Flow (FCF) Yield minimum 5.0% ho aur Forward P/E <= 17x ho. | entry: Kharido jab Trailing/Forward FCF Yield >= 5.0%, Forward P/E <= 17x ho aur earnings growth double-digit (>= 10% se 40%) ho. | exit: FCF Yield 3.0% se neeche gir jaaye ya fundamental breakdown ho. | stop: number nahi diya
+- [new/yes] Hard Asset Copper Mining stock ko tab buy karo jab share price peak se >= 25% gir chuka ho, FCF Yield >= 7% ho aur Forward P/E <= 13x ho. | entry: Buy position lein jab stock price 52-week high ya recent peak se 25% se 30% discount par mil raha ho, provided Forward P/E <= 13x aur FCF Yield >= 7.0%. | exit: Previous peak recovery ya 5-saal ke investment horizon par exit. | stop: number nahi diya
+- [new/yes] Dividend King (+50 saal dividend growth) me 4.5% yield aur 15.5x Forward P/E par M&A synergy catalyst aate hi 5-saal compounding setup buy karein. | entry: Kharido jab Dividend Yield >= 4.5%, Dividend Growth Track Record >= 50 consecutive years, Forward P/E <= 15.5x ho aur large M&A synergy catalyst ($2B+ cost synergy) declare hua ho. | exit: 5-year holding period target jisme 100% total return (doubling) ki aasha ho (~25% cumulative dividends + price expansion). | stop: number nahi diya
+- [new/yes] Nasdaq-100 Equity Income setup: 10.5% annual income yield ke liye portfolio par 20%-50% ATM Covered Calls sell karein, aur dip me call coverage 25% kar dein. | entry: Portfolio holdings par 20% se 50% portion ke At-The-Money (ATM) Calls sell karke 10.5% target income yield earn karein. | exit: Jab index me drawdown/dip ho to call option coverage ghata kar 25% kar dein taaki market rebound me 75% upside capture ho sake. | stop: number nahi diya
