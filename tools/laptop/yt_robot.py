@@ -9,7 +9,13 @@ Chalana:  python yt_robot.py
 import os, re, sys, time, json, base64, random, subprocess
 import urllib.request, ssl
 
-def _ctx():   # purane Windows ke certificate puraane hote hain -> pip/certifi ka bundle use karo
+def _ctx():
+    # 28 Nov: certifi bhi fail ("unable to get local issuer") -> laptop par antivirus/network HTTPS jaanch karta hai,
+    # jiska certificate sirf Windows ki list mein hai (isiliye Chrome chalta hai). Hal: Windows ki hi list use karo (truststore).
+    for mod in ("truststore", "pip._vendor.truststore"):
+        try:
+            m = __import__(mod, fromlist=["SSLContext"]); return m.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+        except Exception: pass
     for mod in ("certifi", "pip._vendor.certifi"):
         try:
             m = __import__(mod, fromlist=["where"]); return ssl.create_default_context(cafile=m.where())
