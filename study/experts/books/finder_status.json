@@ -1,14 +1,25 @@
 {
- "run_utc": "2026-11-28 01:55",
+ "run_utc": "2026-11-28 08:19",
  "gutenberg_new": [],
  "arxiv_new": [],
  "wishlist_new": [],
  "fails": [
   "gutenberg catalog: HTTP Error 503: Service Unavailable",
   "gutendex stock market: The read operation timed out",
-  "gutendex speculation: The read operation timed out",
-  "gutendex stock exchange: The read operation timed out",
-  "gutendex tape reading: The read operation timed out"
+  "gut 26841: HTTP Error 503: Service Unavailable",
+  "gut 73647: HTTP Error 503: Service Unavailable",
+  "gut 59518: HTTP Error 503: Service Unavailable",
+  "gut 75687: HTTP Error 503: Service Unavailable",
+  "gut 73648: HTTP Error 503: Service Unavailable",
+  "gut 60082: HTTP Error 503: Service Unavailable",
+  "gut 59518: HTTP Error 503: Service Unavailable",
+  "gut 70656: HTTP Error 503: Service Unavailable",
+  "gut 44052: HTTP Error 503: Service Unavailable",
+  "gut 29443: HTTP Error 503: Service Unavailable",
+  "gut 1903: HTTP Error 503: Service Unavailable",
+  "gut 59042: HTTP Error 503: Service Unavailable",
+  "gut 29379: HTTP Error 503: Service Unavailable",
+  "gutendex wyckoff: The read operation timed out"
  ],
  "books_total": 25
 }

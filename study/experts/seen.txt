@@ -34,6 +34,7 @@ Alpha Architect|https://alphaarchitect.com/?p=98286
 Alpha Architect|https://alphaarchitect.com/?p=98291
 Alpha Architect|https://alphaarchitect.com/?p=98336
 Angel One (YouTube)|8nVsK0OfSDM
+Angel One (YouTube)|9oOyeSf0K5I
 Angel One (YouTube)|GR6Fz3kDM6E
 Angel One (YouTube)|H77DQyPLJQE
 Angel One (YouTube)|HTDIRde_juM
@@ -212,6 +213,7 @@ Business Standard markets|https://www.business-standard.com/markets/commodities/
 Business Standard markets|https://www.business-standard.com/markets/commodities/oil-prices-fall-as-supply-glut-concerns-offset-west-asia-disruption-fears-126112500071_1.html
 Business Standard markets|https://www.business-standard.com/markets/commodities/oil-prices-rise-on-houthi-attacks-on-riyadh-supply-disruption-concerns-126112000113_1.html
 Business Standard markets|https://www.business-standard.com/markets/commodities/oil-prices-rise-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-126112600085_1.html
+Business Standard markets|https://www.business-standard.com/markets/cryptocurrency/binance-gets-preliminary-approval-to-establish-asia-hub-in-bhutan-126112800208_1.html
 Business Standard markets|https://www.business-standard.com/markets/cryptocurrency/binance-lifts-withdrawal-suspension-after-6-3-billion-crypto-heist-126112700104_1.html
 Business Standard markets|https://www.business-standard.com/markets/interviews/allocation-rebalancing-key-to-wealth-creation-over-3-5-yrs-than-single-investment-call-sandeep-jethwani-dezerv-126112000461_1.html
 Business Standard markets|https://www.business-standard.com/markets/ipo/foodlink-f-b-holdings-rs-361-cr-ipo-to-open-on-nov-26-price-band-set-at-rs-181-191-126112300171_1.html
@@ -279,6 +281,7 @@ Business Standard markets|https://www.business-standard.com/markets/news/india-e
 Business Standard markets|https://www.business-standard.com/markets/news/india-s-pension-funds-pivot-to-govt-bonds-as-equity-exposure-nears-cap-126112500091_1.html
 Business Standard markets|https://www.business-standard.com/markets/news/india-vix-up-9-tops-17-mark-analysts-say-fii-flows-keep-bulls-in-control-126112000547_1.html
 Business Standard markets|https://www.business-standard.com/markets/news/indian-investors-show-strong-appetite-for-anthropic-s-blockbuster-ipo-126112001087_1.html
+Business Standard markets|https://www.business-standard.com/markets/news/indian-markets-rebound-in-november-after-months-of-underperformance-hsbc-126112800271_1.html
 Business Standard markets|https://www.business-standard.com/markets/news/indigo-up-22-in-a-month-anand-rathi-sees-macro-tailwinds-aiding-recovery-126112600733_1.html
 Business Standard markets|https://www.business-standard.com/markets/news/individual-investor-count-hits-two-year-high-but-trading-share-declines-126112500745_1.html
 Business Standard markets|https://www.business-standard.com/markets/news/indusind-bank-down-1-after-terminating-ex-ceo-kathpalia-invoking-clawback-126112300170_1.html
@@ -637,6 +640,7 @@ BusinessLine markets|article-71751509
 BusinessLine markets|article-71751564
 BusinessLine markets|article-71751565
 BusinessLine markets|article-71751821
+BusinessLine markets|article-71753794
 CA Rachana Ranade|6NS3M1-bv-U
 CA Rachana Ranade|ChjVdkxkyB0
 CA Rachana Ranade|DFWiTr6lNVc
@@ -697,8 +701,10 @@ CNBC-TV18 market|https://www.cnbctv18.com/business/jensen-huang-returns-to-nvidi
 CNBC-TV18 market|https://www.cnbctv18.com/business/nvidia-doesnt-need-a-succession-plan-says-jensen-huang-after-returning-to-company-20040693.htm
 CNBC-TV18 market|https://www.cnbctv18.com/business/pardoning-jensen-huang-always-an-option-says-trump-report-nvidia-spy-scandal-20040640.htm
 CNBC-TV18 market|https://www.cnbctv18.com/business/rbi-retains-sbi-icici-bank-hdfc-bank-as-domestic-systemically-important-banksin-2026-20040123.htm
+CNBC-TV18 market|https://www.cnbctv18.com/business/tata-sons-files-caveats-in-bombay-hc-sc-after-court-refuses-interim-relief-to-tata-trusts-20043492.htm
 CNBC-TV18 market|https://www.cnbctv18.com/business/tata-trusts-moves-bombay-hc-against-chandrasekarans-reappointment-noel-tata-tata-sons-20041763.htm
 CNBC-TV18 market|https://www.cnbctv18.com/business/tvs-family-dispute-venu-srinivasan-likely-to-cite-2024-mou-2020-family-arrangement-in-reply-to-lakshmis-notice-20037758.htm
+CNBC-TV18 market|https://www.cnbctv18.com/business/us-black-friday-online-sales-to-cross-13-billion-adobe-says-20043540.htm
 CNBC-TV18 market|https://www.cnbctv18.com/economy/china-industrial-profits-growth-rises-20-at-5-month-high-20042599.htm
 CNBC-TV18 market|https://www.cnbctv18.com/economy/fm-nirmala-sitharaman-poverty-eradication-linkedin-post-12-years-of-modi-20039743.htm
 CNBC-TV18 market|https://www.cnbctv18.com/economy/hawkish-bank-of-japan-member-seeks-quick-rate-hikes-on-inflation-20041912.htm
@@ -897,6 +903,7 @@ CNBC-TV18 market|https://www.cnbctv18.com/market/jensen-lori-huangs-foundation-g
 CNBC-TV18 market|https://www.cnbctv18.com/market/jp-morgan-sees-indian-stocks-rise-further-in-2027-after-great-comeback-of-2026-20042274.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/jupiter-wagons-share-price-rallies-company-signs-jv-with-south-koreas-woojin-20040866.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/karnataka-bank-share-price-udaya-kumar-hebbar-md-ceo-appointment-20036642.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/kec-international-share-price-bags-new-orders-worth-rupees-1400-crore-in-transmission-distribution-transportation-cables-segments-20043479.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/kospi-rises-nikkei-up-asian-markets-post-wall-street-gains-sparked-by-nvidia-surge-20040320.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/largecap-financials-can-extend-market-rally-as-fund-flows-remain-strong-kivah-advisors-mithun-aswath-global-cues-us-fed-indian-equities-bond-yields-20039983.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/largecap-rally-earnings-global-fund-flows-dsp-mutual-fund-alpha-article-20042741.htm
@@ -917,6 +924,7 @@ CNBC-TV18 market|https://www.cnbctv18.com/market/mahanadi-coalfields-mcl-coal-in
 CNBC-TV18 market|https://www.cnbctv18.com/market/manappuram-muthoot-finance-share-price-fall-factors-behind-it-gold-rates-us-fed-us-dollar-strength-implications-20036527.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/market-hours-extension-not-a-priority-sebi-mulling-to-strengthen-margin-trading-facility-pandey-20037108.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/markets-espresso-aag-lage-basti-me-indian-markets-apni-masti-me-or-are-they-20038992.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/markets-espresso-main-wapas-aaunga-ft-jensen-huang-fiis-rohit-sharma-and-tariffs-20043517.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/marksans-pharma-share-price-fall-extends-two-session-loss-us-fda-form-483-six-observations-goa-plant-inspection-20039668.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/maruti-suzuki-india-share-price-top-nifty-auto-gainer-commodity-cost-tailwind-aluminium-copper-buy-sell-returns-20037438.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/mcx-share-price-record-high-fourth-straight-year-of-positive-returns-buy-sell-upside-20042045.htm
@@ -988,6 +996,8 @@ CNBC-TV18 market|https://www.cnbctv18.com/market/schaeffler-india-share-price-bl
 CNBC-TV18 market|https://www.cnbctv18.com/market/sebi-advises-market-intermediaries-to-stop-publishing-ipo-grey-market-premium-figures-20040213.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/sebi-aims-to-cut-fpi-onboarding-time-to-5-business-days-chairman-pandey-20043145.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/sebi-chairman-tuhin-kanta-pandey-regulator-looking-at-tata-steel-apl-apollo-tubes-deal-minority-shareholder-rights-implications-20042838.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/sebi-chairman-tuhin-pandey-apl-apollo-tata-steel-deal-minority-shareholders-corporate-governance-rpt-framework-20043519.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/sebi-chairman-tuhin-pandey-f-o-market-regulation-pre-ipo-apl-apollo-tata-steel-20043553.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/sebi-clarifies-no-change-proposed-to-age-limit-for-mii-managing-directors-20043184.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/sebi-closes-proceedings-against-lloyds-enterprises-executives-after-settlement-20041367.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/sebi-exploring-ai-sandbox-domestically-governed-ai-model-for-securities-market-chairman-pandey-20041248.htm
@@ -1041,6 +1051,7 @@ CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/atul-share-price-us-subs
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/aye-finance-share-price-approves-rs-325-crore-ncd-issue-with-interest-rates-up-to-9-75-20037124.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/balaji-amines-share-price-gets-fda-approval-to-manufacture-propylene-glycol-for-pharma-industry-20043254.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/bharat-forge-share-price-invests-rs-291-crore-in-kalyani-strategic-systems-through-rights-issue-20036985.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/bpcl-share-price-board-approves-rs-1-27-lakh-crore-refinery-and-petrochemical-complex-in-andhra-pradesh-20043571.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/brigade-enterprises-share-price-buys-2-25-acre-secunderabad-land-for-rs-180-crore-eyes-rs-1000-crore-revenue-20040135.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/cesc-share-price-subsidiary-awards-153-7-mw-wind-power-project-contract-to-venwind-refex-power-20041304.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/stocks/city-union-bank-share-price-shuts-neft-rtgs-gateways-after-unauthorised-customer-account-transaction-20037220.htm
@@ -1139,6 +1150,7 @@ CNBC-TV18 market|https://www.cnbctv18.com/market/voltas-blue-star-share-price-fa
 CNBC-TV18 market|https://www.cnbctv18.com/market/voltas-signs-jv-agreement-with-atomberg-for-room-ac-compressors-to-acquire-50-stake-20038040.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/waaree-energies-arm-seci-700-mw-solar-project-2800-mwh-energy-storage-maharashtra-20038727.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/wall-street-asks-what-can-save-ai-trade-after-anthropic-wipeout-20039314.htm
+CNBC-TV18 market|https://www.cnbctv18.com/market/wall-street-ends-a-chaotic-week-on-high-as-ai-remains-in-focus-nasdaq-dow-jones-sp-500-20043465.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/welspun-corp-share-price-additional-order-win-2264-crore-lsaw-pipes-total-order-book-execution-timeline-20041701.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/welspun-living-share-price-3200-crore-capex-plan-terry-towel-capacity-20039501.htm
 CNBC-TV18 market|https://www.cnbctv18.com/market/welspun-living-share-price-plans-rs-3200-crore-investment-capacity-expansion-december-2028-20039282.htm
@@ -1216,6 +1228,7 @@ Dhan (YouTube)|Cxg70XgH2Lg
 Dhan (YouTube)|E5UN25afLdk
 Dhan (YouTube)|G_o3hSSwkVo
 Dhan (YouTube)|Gg-887ej3X0
+Dhan (YouTube)|HezqfNxLc4Y
 Dhan (YouTube)|LpCo69ZZBRg
 Dhan (YouTube)|O79vXGw_Mm8
 Dhan (YouTube)|P3Hbhx0D5z8
@@ -1237,6 +1250,7 @@ ECB press|https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28
 ECB press|https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html
 ECB press|https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html
 ECB press|https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html
+ECB press|https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html
 ECB press|https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html
 ECB press|https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html
 ECB press|https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html
@@ -1257,6 +1271,7 @@ ECB press|https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333
 ECB press|https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html
 ECB press|https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html
 ET Markets|https://economictimes.indiatimes.com/markets/bonds/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million/articleshow/136178950.cms
+ET Markets|https://economictimes.indiatimes.com/markets/bonds/bond-market-to-stay-cautious-ahead-of-rbi-policy-equirus/articleshow/136240295.cms
 ET Markets|https://economictimes.indiatimes.com/markets/bonds/german-bond-yields-edge-higher-as-equity-rebound-eases-safe-haven-demand/articleshow/136097404.cms
 ET Markets|https://economictimes.indiatimes.com/markets/bonds/india-bonds-decline-ahead-of-fresh-debt-sale-as-elevated-oil-prices-fan-inflation-worries/articleshow/136211546.cms
 ET Markets|https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136090974.cms
@@ -1279,7 +1294,9 @@ ET Markets|https://economictimes.indiatimes.com/markets/commodities/crude-oil-fu
 ET Markets|https://economictimes.indiatimes.com/markets/commodities/gold-pares-gains-as-fed-hike-risks-linger-eyes-first-weekly-rise-in-three-weeks/articleshow/136231951.cms
 ET Markets|https://economictimes.indiatimes.com/markets/commodities/news/brent-trades-near-months-high-as-mideast-conflict-threatens-supply/articleshow/136207059.cms
 ET Markets|https://economictimes.indiatimes.com/markets/commodities/news/crude-prices-may-normalise-to-usd-70-by-end-2027-as-global-oil-market-moves-into-surplus-report/articleshow/136045576.cms
+ET Markets|https://economictimes.indiatimes.com/markets/commodities/news/from-war-premium-to-demand-concerns-what-is-driving-the-sharp-fall-in-crude-oil-prices/articleshow/136238953.cms
 ET Markets|https://economictimes.indiatimes.com/markets/commodities/news/gold-extends-losses-as-hot-us-inflation-cements-fed-hike-bets/articleshow/136176262.cms
+ET Markets|https://economictimes.indiatimes.com/markets/commodities/news/gold-pares-gains-as-fed-hike-risks-linger-eyes-first-weekly-rise-in-three-weeks/articleshow/136237788.cms
 ET Markets|https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-fall-is-indias-23-lakh-crore-gold-loan-market-at-risk-the-morning-brief-decode/videoshow/136206854.cms
 ET Markets|https://economictimes.indiatimes.com/markets/commodities/news/gold-recovers-from-14-month-low-focus-turns-to-us-inflation-data/articleshow/136086840.cms
 ET Markets|https://economictimes.indiatimes.com/markets/commodities/news/gold-steady-heads-for-weekly-gain-as-markets-await-fed-signals/articleshow/136206965.cms
@@ -1294,6 +1311,7 @@ ET Markets|https://economictimes.indiatimes.com/markets/digital-real-estate/real
 ET Markets|https://economictimes.indiatimes.com/markets/forex/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets/articleshow/136118031.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-edges-off-19-month-high-after-market-rout-yen-softens/articleshow/136086760.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-lingers-near-22-month-peak-as-ai-worries-simmer/articleshow/136207046.cms
+ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-set-for-weekly-gain-as-risk-appetite-returns/articleshow/136237831.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-steady-as-sliding-yields-temper-safe-haven-bid/articleshow/136176300.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms
 ET Markets|https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-weaker-as-fed-fueled-rally-stalls-lower-us-yields-help-yen/articleshow/136045620.cms
@@ -1336,6 +1354,7 @@ ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/blackstone-s
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/britannia-industries-among-4-stocks-closing-above-vwap/slideshow/136177856.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/capital-market-industry-hopes-for-relief-in-capital-gains-taxation-in-budget-2027-28-axis-capital-md/articleshow/136224186.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/carlyle-pares-7-4-stake-in-piramal-pharma-for-over-rs-2211-crore/articleshow/136165837.cms
+ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-that-gain-for-5-days-in-a-row/slideshow/136241215.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-these-13-stocks-gained-for-5-days-in-a-row-all-rose-over-27/slideshow/136047969.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/deutsche-bank-pnb-ink-pact-to-fund-mas/articleshow/136176118.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/eternal-adani-enterprises-among-10-stocks-with-highest-fii-buying-in-q2-how-many-do-you-have/slideshow/136178864.cms
@@ -1350,8 +1369,10 @@ ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/indias-rupee
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/investors-mint-rs-34-61-lakh-cr-in-november-as-markets-rally-nearly-11/articleshow/136123662.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/ion-exchange-india-among-6-stocks-hitting-52-week-low-shares-slipped-up-to-20-in-a-month/slideshow/136219516.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/jupiter-wagons-among-8-stocks-showing-white-marubozu-pattern/slideshow/136177975.cms
+ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/lic-portfolio-stocks-10-stocks-where-lic-had-the-highest-stake-in-q2-how-many-do-you-own/slideshow/136241053.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-tech-mahindra-angel-one-among-5-stock-recommendations-for-friday/slideshow/136196068.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms
+ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/microcap-winners-greaves-cotton-thomas-cook-among-10-stocks-with-gains-of-up-to-50/slideshow/136238905.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-4-stocks-dropped-below-their-200-dmas/slideshow/136147014.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/nifty-eyes-26200-as-rally-strengthens-6-sectors-signal-outperformance/articleshow/136050218.cms
 ET Markets|https://economictimes.indiatimes.com/markets/stocks/news/nse-among-6-stocks-hitting-52-week-highs-stock-rallies-up-to-35-in-a-month/slideshow/136192775.cms
@@ -1560,6 +1581,7 @@ ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/asia-step
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/asian-stocks-rally-as-huangs-nvidia-return-revives-ai-trade/articleshow/136117829.cms
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/can-spacexs-ai-ambitions-drive-further-upside-in-its-stock/slideshow/136213079.cms
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/dubai-seals-deal-for-159-billion-islamic-banking-giant/articleshow/136206936.cms
+ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-log-strong-weekly-gains-markets-await-spanish-election/articleshow/136237685.cms
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-post-worst-week-in-over-a-year-as-ai-trade-unravels/articleshow/136045442.cms
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/eurozone-bond-yields-rise-as-investors-return-to-riskier-assets-oil-prices-rebound/articleshow/136218279.cms
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/fed-policymakers-at-odds-over-causes-of-high-inflation/articleshow/136160394.cms
@@ -1584,6 +1606,7 @@ ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/sp-warns-
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/tech-leads-global-stocks-rout-treasury-yields-fall/articleshow/136045354.cms
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/uk-stocks-sink-as-global-selloff-weighs-on-banks-and-miners/articleshow/136045502.cms
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/volatility-weary-us-investors-side-swiped-as-tariff-mayhem-adds-to-tech-pain/articleshow/136175666.cms
+ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/wall-st-week-ahead-volatile-stock-market-confronts-jobs-data-rate-view-as-next-tests/articleshow/136237710.cms
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-black-friday-brings-consumer-spending-into-focus-for-ai-rocked-market/articleshow/136044202.cms
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/who-is-roaring-kitty-the-man-behind-gamestops-meme-rally/slideshow/136017912.cms
 ET Markets|https://economictimes.indiatimes.com/markets/us-stocks/news/why-is-alphabet-stock-sliding-key-factors-behind-the-sell-off/slideshow/136178516.cms
@@ -1677,6 +1700,7 @@ Google News Nifty|CBMi2AFBVV95cUxNTlhIcTB1VnZzOVpad3NXblZsaDhZV2Z1Z0ZRcjFLRGxwZ2
 Google News Nifty|CBMi2AFBVV95cUxNbzRTNjJTQUh6WEU1ZGxGVWo5TUZYRFFrVC00SjdyR2QzQTJfNUVmdVNJc25OOGlSWkd2RW9uLXd2MXkxNnBnYUNaWmMycmFHSzF3QzZrRzlhMDNkOUVlNi0wdFlBeE45QmhEalpMejVtNjZSX2p3aDVnSG95ZzlzNjZxVW5rSEpnWEpIWjFtRkxKQ2szWmk4ejlOWGhqYmpQVW92dGQzZnM0ZWZiOE5nVjUxUWIzNzFBX0dmX1R0SmY5NXFmZDNLdkFkWGRNRjIxZmtwUVV0eEfSAd4BQVVfeXFMT295NExDbGpvMXppQk9UdkJhakZxZXYzdk5QY192MU1HdWFiTEh4azNab2JRamZld1BJU0hZTkFxaXFtZnVZVjhrQWlVV2JzUGFOSDJYSHB0Yi16azNUQjVtdVE0WmpyY1JQLWw1UTNBQnMxUExwYTM5OWZJdEhsU09xZ001ZTVDWmg4QV9FZHhULU9uXzZ1ZVoxMklyeGxTZTN1Y1RVdFJlODJhUHZIWWpZdzlkVVRidHJsbEo0TmktMFFjVXpTWnpqTnh3ZTN0SkV2dEVTNTlLbmJ5bmdn
 Google News Nifty|CBMi2AFBVV95cUxOeExCZlFqVHgwWml5UkNwcEJUcjhQWjVLdGFIOHRpSmJiREx2anJNWG5NUGVxekhWV3pya3NubHdhUVZiLXBuSWpIVnBRbnB3dmZ2c1ZLWm1vRC14by1OYTk4QW9falpvSTVrQXpZQnFLWGc3cGJzX3g2cU11T0FqZnlRZk1JZW1BSm1mTkpRTUI4R0RNSUZxQnlRZEtmcWVTS25VMUI5TWQ1R1dpZmJrT2xEaU84cGFwSzB4ZWd2Z1dGcmxveV9USVZiVkYtSnR1WGZVTVJXQlrSAd4BQVVfeXFMTzM2SEo2QVAyYVBvenNhYTE1Uk1JcnJQRmc0OU9Wdko1ZkE5VklKS1NZYmVrVXI3RmlLU1JEMTVWUW50QVdzaHp6YWNiSGw0UFBJRGQyWjZEUXpaTzNSZUduVGc0N19BM1Q0b2J5eFN1TkduVnpiUWFoaENabjZrVmRjMGloOV82RklMMmo5cWlMTmZYTXN2WU5IbjlqSGdlQ1pxdzE5UENGZDdBUVhkTEpXYWJHdlF1bFd3M2huMXUtcG9NWllleHNkUUJmNHdRRHk3QkV5NXFobllkQjdB
 Google News Nifty|CBMi2AFBVV95cUxPY09SVlNiVmlPcmYxUFo5TjdGVzRLZHJIVENqVGhlblFhNXVlYnAzRy1nYTlSR0dTeE50OEpSV05qRzByeXdaYTlzZm5XaDVwcW14REhXeDJ3Q0cxcjVyeUdTd3QzODNZRkZKWjBJLW1xYjl5N1FJU3NpRnZBU0hhMGYydTZnVHVZQ2VmSmphbW5RQ1VwRU5aMzh2LXYwb1VBX3pWLTJDdFhfSzA0LU50dHlUSW1mSEI0alk1LVB3NWt5ME84azNWUFQ2T2MtRGFLb3JGbTNmNFbSAdsBQVVfeXFMUFRrOWhUNGpmRWNCSTZFU0NXZy1NdHAtemd2SFRkNVdlamVYS2MwMVRfNk92NzdidUR4NlkwRnFIZEI2by1EdXA1VkpzSEx5RFhocHJzeFdFZEpWM0JXXzVnQzZRc3JhWm11empYdXVvWHVQZ01GSmYzVUU4QXc3WWFTWTBMUTBXTHVQQTVXX0dpYTltTHB4MVRTVmk5X3RmN0JWYTVycGJzSHVvNXVaRkhoN25mNXpqN0d3eU95LU9HeDVRZHBSelBTaXJJbFc2VW9xWFFINkJIWDlJ
+Google News Nifty|CBMi2AFBVV95cUxPa1FvRDdrVFlNa2tHaGFaWEh6aGxhZ29mbUYtcmllMllfSm1nTEJkb01OcWNyZEdsYThoS1l6d2R1aUFRY1lpUllZMkNDTnpCeW0xdU8wX2gteUNKblFZMnZhVThEMk5ZWVpIYi0ySDhaVmNNa3drT25tTHVwRXBTUEZub0IyVzhLUXNYTEV3Um43YTlwRW00cVljc1BhRnJTRDA0T3k0eGljd1NtWF9odHE3YU9WbmtWVU9uVzNUbWdQZ2c5bVR2VXpDeDBKSWRrVFd4dHJqeUPSAd4BQVVfeXFMT0l5NW5OXzQtU0FMZzAxSWQ2X1VjSWUtQXpnbkNpRzMzSmVVZkxUNU9YbWQzWGlUaF9WOVNMLXc2aTdlbVhVN1dPWkdscld5VGRVWU5lRzQ1cUN6ME9NQ21lQU5IamxJMDdlck5uSHRtcC1qYUZadE9VdTlrd2lSYzQtdzM3amRweVN4RVo3QVhMbVQzdkg5THFpeVYzeDdkRmdoWXRZUVJ6T1JyRkVuRC1XVjY0YjhKUUwzNklqdTIwMjI4YUFKcnBSbkk1VnlDc3BvZXlIc20tbWstVUZ3
 Google News Nifty|CBMi2gFBVV95cUxNOVBlcTZmTV9DRlhaSnUxWkU3bzhrUVpzb2YyRWtLVFpwYXBVZjMzUG5Jb3NsU0x3akRfd1pWQ2N3T1FXeU5haDMtZmMwZHE4Z3NOdkY2em9BNi14cE5hNG9zOU9xbmtiSk5SUHlJRWJJME1iU2REaFU5bFBnRWhDclNib2xfSlpuNEpKSzczRDhib1J3bWFRN1Jta0t5eTBlWGw5dnhVZ3cxRkZCLTN1M2RPTjdzekxPYWNoTUtwbHZMQXB1TWx0MGxlLWVLUWZhU3lzVm5Xci02QdIB5wFBVV95cUxQU25YTFJQVmM0cXZ3N25kb2NMbDljMkI3R3ltbzRhWVFoRGZQX3hqcG9lUi10VzN2b3F0bi1pNHlualZTbDhtaHhSZVdDcjUzQzRxX2dFZzRCbmtwVFZWLXBsSUNOQmpTcjRuRlQ2cEZYbkNhcUpaa0JCN1AzbVdoYXlpM1BlRV9TS3V3TFUxS1ljT0ZWWXJKS3Q4VXQzTW5jVkZ0MHRGUGRONGNfUDZDaF96eTNkMnpYNEVQalFXZVVsVDZtNnFuSmYxeUpLLUxmYlVsRW5kdG5jU0dxaXlFRHBxd2x3eUk
 Google News Nifty|CBMi2gFBVV95cUxPNWNLVHV6X0M1V0xVdnVYeWtMbU5tOUpMeWhCenBnb05XdVo0NktsdGZQTVlwNlZEUWt0TnlfT0Z0WHRfTTJIbmFKLXozMEthVmNQeHZTQTVIUVBacmV5WER3WnVNNFVLeWszX2ljcjVUVzFHSDJWQzMxYVp3MXpTUnI4REdlM055N1VCaV9vb0FVYmFRd2pWYVNiSzlaeG5URUFLaEJjLTVuaDNIbVlCNS1IdEFkNnYxMHZyMGY1dzVoa0JIaG95Z0pLSWpHNHluZHJoSkN6ODU2dw
 Google News Nifty|CBMi2gFBVV95cUxPWkZBZzVYNjQyc3NPOVUxNm96SWNveHBTa09hMkVLVy0xYlYxbk8tOXBBS0ttcUdNeUI5TjVMTzByaGgtclZaNHJGM25MV2hzb1NWQ2FKSzVZaGhLb01rekxiNGt5X1NMd0JGbkw5VmJrUGVuaDlPeGpFRlVXcXNwOEoyaWNKR3diOFlFZDE1RW9XOEpXT2J5cU9raGk3Y2thel9XczdaVTlrSG1OQkdFOEVIcm9oYmV3a3AwYjhHWm1YTTc0SEJ4bjBjbEFvYlVleGNIZVBVOHV6Z9IB3wFBVV95cUxQdTZ6NjBRSVNYY2NvSWpwSGV5U0htSjdyRzZXbXJ5b3dBdkJadVBFck1wTFJNVnlzY3N4eDd2WVEzWTlJcVFxeXotX0tibllRUkg2d3dqOWVFRE1RZXE5ZjU0NzBzRFdpWUhpNGVZREtpMjFzTVR1b3JucnBHRjNXS1BjZ0JCdElJc2ZLSjE2bEk4RWZYQUZCVU5DdUZhRUU3eFIxZ1FuQWtqclZneFlDWUZLN0t0Wno5OTNjYXgzSjBQYVBCeU5mOXYxSmpRWllxUVlQaVVycW9vNFA2LV9F
@@ -1691,6 +1715,7 @@ Google News Nifty|CBMi2wFBVV95cUxPa0hzbFEtUHFCejQ5c0FKbGZfYTNhU3A3ekRKbHA0MkM0aE
 Google News Nifty|CBMi3AFBVV95cUxPajd1NW5FaHBsSlBKc01JcW1BandubENjdnNOTElDNG56OEoxVEFYSm15TUZRdFppNHpVY1JhaWJkaTNTdW9lNGRjMjREM2tmcGQwUTJqMlZ2SGpXUTliQ2dmSkx3ckpEcTBhZmR3dVpGVUlkS0NNZDNiaGlMSnNxajVlWTJwQTREYTl1eGhuTnE0TWxGcVJQa3R6aEI1V2NsNmpzRFR4LVNCa1ZGUG9vYWNCUENxeHphc2c4MGJTOFhhMzFqRkFPNjV2blhFRG5Ldm1tV2MzVEpsdG9z
 Google News Nifty|CBMi3AFBVV95cUxQWWRSdnh0aVd4OHNPWl9FNXNjWVhxSC1MTkE4eWZFOHNiZmRkc1Q1N0ZlUVZINE0zR2xZRVlHOHZpUjlOeHNLLVZOd0J4Sm1SN0J2YmJGd0ZOb3ZXaWpwZzJwSVZob1BNRm5ac2xkTVRHbFllRjloWTgwVzM5THJqRFNyMnBlcURhWnk5U1VwR2RULW9mUFNfZ0dHRTg2Ymh3dlM5a3U0SkdhSHhvQ2JkNHZjN21FS2lFWmZqYlhxOXZfLWs5UXlreUFaMHNuUHZCb3lTeHBPLUdtdDBQ
 Google News Nifty|CBMi3gFBVV95cUxPSXk1bk5fNC1TQUxnMDFJZDZfVWNJZS1BemduQ2lHMzNKZVVmTFQ1T1htZDNYaVRoX1Y5U0wtdzZpN2VtWFU3V09aR2xyV3lUZFVZTmVHNDVxQ3owT01DbWVBTkhqbEkwN2VyTm5IdG1wLWphRlp0T1V1OWt3aVJjNC13MzdqZHB5U3hFWjdBWExtVDN2SDlMcWl5VjN4N2RGZ2hZdFlRUnpPUnJGRW5ELVdWNjRiOEpRTDM2SWp1MjAyMjhhQUpycFJuSTVWeUNzcG9leUhzbS1tay1VRnfSAd4BQVVfeXFMT0l5NW5OXzQtU0FMZzAxSWQ2X1VjSWUtQXpnbkNpRzMzSmVVZkxUNU9YbWQzWGlUaF9WOVNMLXc2aTdlbVhVN1dPWkdscld5VGRVWU5lRzQ1cUN6ME9NQ21lQU5IamxJMDdlck5uSHRtcC1qYUZadE9VdTlrd2lSYzQtdzM3amRweVN4RVo3QVhMbVQzdkg5THFpeVYzeDdkRmdoWXRZUVJ6T1JyRkVuRC1XVjY0YjhKUUwzNklqdTIwMjI4YUFKcnBSbkk1VnlDc3BvZXlIc20tbWstVUZ3
+Google News Nifty|CBMi3gFBVV95cUxPSjJfVERZQ0Q4eVBUWjFveWF1ZE80eWdmcjR0bnotSWdqZUlYVjh0SWdmS2lBQTdLQ1JwTGxIZDVEbTRxNm9kRFVmYi1Ba3htTFhjWlhDRUE4YlVxUnhXbXY0eHd0SThyd3hucGdTZHoxeUVndl9WOWVVTVRzOTlqUlZqNEhseE0xTm9aV1RtX1liOUJtNHNKbWF2TnN1NnVUek1mNll0OG5IejViVzVMZU1Kc3pYUC1NNnF2TVExTGVKMlA4REx2OXpuaUw3QW95WHFKVVBKLVV2YWlXYnc
 Google News Nifty|CBMi3gFBVV95cUxQU0FUTHh4SkhqcFNIZDR4YWlkdm96Q21GX0VSXzk1S1J5SEVUdTlYUE1tV2FjRERHTjF2YmFpdlZpVVgtNDdhbzBzQkhZbWVaQlVYVUxtMEd6cEh1dnhnUVpMZ1AwVGMzRHFWVG12TTMtbEUwWHJkM0IzXzRlTUJfRTFCc1Q2RzRIZ0ZrNXJIYXBITm45bUFERE9HcjZpMGYxOWdBblFYR1hiQXlWZlZRNW83NzlJa1h5b0NRQjV5MWRjdmQxNHZPVWMzbU5odXp6emFGVk1Ia2ZNRVpOZGc
 Google News Nifty|CBMi3wFBVV95cUxPNi1iVUNKcl9yclFUMC1Ua3BQcWRLSUItMTJidFNDSm9pZVlmMkxnY2g3NXNvMjRRS3FCMjE2NzJTTS05aUVEdk1BUGcybllyZUI4elVudDRfNXJSTUxHU2R0dkctRWoyNUpzVl9xQzRxV2FmM2pKUjVfaGszeTJpNEdEOEZOcnRrYXQ5SkdHZmZxWVVUbW1xUzBWbmpKUldab2UySmdRd3dOLUhzWWR6VlVFNDVtN0lYRUdlMlFGbUxUOEE1andnMURZR1c2ZUxTYXZpWlRKRVMzdXVyQ0lV0gHkAUFVX3lxTFBIWTdzSzY5THowX3gwRldZWEM0dHZuempxTG9NZnJaeFJxVENvVE02M1RpekV5QjJ2M05veTctTTZWTnV5SDJWa3lscFhaSmIzSGEwSVB3U1VHcVJMMk1XWTVBN3lNVkRITk13M2ZXRHhobWhuMHZKMWNtZEpyMGhIcWtRektVby1UaWVxZUFKRWJyWHVNOVhOUUN2ZHpDQXN6bkROdndCZlBfdVhpZ2xxcXdQU0Y2SWZqS29zdmZ1NlJBTmxhV3pYdW5EUi1jNF9TazI5RW9tZm82Y0lCb0l5TzBkRQ
 Google News Nifty|CBMi3wFBVV95cUxPTVhfYTBpRHVoZTk3N0k0ejhFVUFac21qYTY1VGhQTmVJaVgyck8zREFCSlN3bkJ6TEswaENYSUNlanVpRnVYY0g4ZUQ4d2dJekp0NVd2elVKbmQycFNVLTBKSGZsMWttRUZkZTN1X2RkVWZWOFowY3pMNmpFcWtjZFdadzFheDBoVGRmWmNYVFY5ajhhRm5DWGEyV1RzNXNZTTJjYUhfaVlZWFhxUmR3bVpBMFZlRVJVWHlGQWNlU0VpVXIzVmtkOUhoYzQwSmZ2c0RGcWo5NHpORlJ0Nzcw
@@ -1725,14 +1750,17 @@ Google News Nifty|CBMi7gFBVV95cUxNbXVTak1sTHpQcjRaSV9ITWhCRmxHRVpTcmNfTjh6QUFoa2
 Google News Nifty|CBMi7gFBVV95cUxOVUZmazdrT21RbU9zdzhZdWt3OWgyQWVLMDExLW94aVFHNzg4ZDMyVnpkTWhXX0hTbEpvWDRuSDlySEdjZGtBRzI4ZWJPUHlkVVR4b19PV3RMUzI1VWh3MjFMMHB1d285SHlqMWhpdGlvRFF3ZXZ6eHRnN0x0QVpBYjZfX05kS0xNLV9JaDZZLUlJUGVnMXZ2dEFicTEya3pOVDc2bjhkZTVsX09OLU1naVNSVXZ4ekF4UHdsS05KbU1qWFF0OEktUkVELVRpTkt3M2MyYmdSSkM5d1FQOUYtbm4wTGdMbkFSdTZKeUh3
 Google News Nifty|CBMi7gFBVV95cUxOWDM0T2lfY19fdWNzeGtJbkpBTHJGMDFiMUlYZjVjX3hVa1lmQlFfQmxXYnphaG4wSXJOSm95RHA4TnJRdTlCaXhMdlRNUlNDZnVQR2RYQ19JV0x2bDRwVFd1V2ptVkRNU1NrTk1Ya09iaDk1dE85T3ZETGxpb3RwR2FmYmlmRFlVYlJ5MWxranJUdFVvNHBQbjNSbXZkMFBoblRmT05DcU1zWmMycDVoRjQ5b1M5eUlQcW12elZmUUtWUDhhaEtnS1MzWUduYUs1Ym0xQlI5TFV1Sk1sSFhaWUJKNFBDdFVkeEJkdm5B0gHzAUFVX3lxTE5zc0N3Rlp5ZmU2eDVPOWFQRWFZNEc4bE5MckU3bDNaN3ZfaElFQ2VnT01ydE1ORWZhb3lXQjg3ZmRaM3VaX2hmNEhIZWg3bko3Q1JDdGtXQWV6aTNXQWxia3Z4dHRleEhucHZSazdKcjdtWUNJclA1a1JINmxrOFlxT2JVc3lEUm1nSU1Sb3N6YUdDWUpQdVZpX3JUcmNpbmgzUklpMV9Fb1BDME9HRHlvTGZMS21UdXNGazZsNF85VlNWdFo0NGR1M3ljaFBkYlFKVVZuWG5jc2FnNHBubEdBZWwteWxjbzUtTkdCajB3ZVU0Yw
 Google News Nifty|CBMi7wFBVV95cUxPaFlXdG9xVFZIVE5kUFdBMWVXblZQcmhLVVlPMnVZMkdGVi01MENOZHFEWDAxWmNnTFNrb0NYQ2lMMENGVWFlMXdhVDBFOHBVcXhpbDNlb2V0NkJFb0RSZzlxR3ItRmNla2J4OFBsRU5WTlhYZDFraUJvX2FTWFplOXZBTjJkaGUwd2VVNjVuUURZc0R1ODV6Zkt0ZFR1UGg0MV9uMmNLNldZeHRlQWZ2Xy1BdGpub3hyZVIxeURCdzB1Rk5WRFBCZ2NNcHo1Q2g5Mld4V1dGRnV2ZERhcE5uM1l2MjBSYzg4Qm1OT1ZGQQ
+Google News Nifty|CBMi7wFBVV95cUxQUDRtX29Qa2EtTm1rQ3FkamdTbHlTUkpUNDAzV0JrOFN0dDNVTlRRQTlwYkxUS1AyUmZiNjllekFGckstUk5KM0ZycGdNX3loRTFJYnlXOGhiSkZmVzhmZmQ2TS1obEFLRTZxSkw5Nmg0NS1rYWp0WEo4MmtMYVFBMHZjVlh1QkVXV21sOXRkN1loVmVYRldlbVlWUFRUaHowOG1WdXJTYml0a3ZoTzVZVlRuNmJnRmE5bnk2RVIzdFEzTk1KOU4yX2V4REhMd1lWcWI0dnQ0bEp1emEtMlROcVgxVnpaTUdldjZaVTRra9IB9AFBVV95cUxQYWE2ZlhYLW5hXzlQcDhya0d2TWZkUHAxQ21nUFdjTEU5OGYzWlJ4U0hjd1EyMmtOR3B3dng4VjdxbzZMbjkwQ3ZyZHd6M1UxWEdMdnBfM0Z3UjVWc01Vc2ttNmxKVkphX1VpWlFOVnI5WXJFUzJWeG81Ymt0RnJOY3dqajQ5ZzNxMkhYUEpJcE15cm5PQjc1NXVVS25aUWxiaGdQMU9lZmtzQVVWcVdkS3Z0YWpHbXJiVEQ4UHBJWUgybFhVWS1SUWVWT29vODhBRXlBRUotYUQ3V3JaMGtKWUlCTVFYTkNiY1J4c1ZpY1JwSmlR
 Google News Nifty|CBMi8AFBVV95cUxNaHlsV0VsR2Zlc196dnk4WnU3SEFnSWVmVS1uVFExMW9rTmxNTUR3ZkYtR25Ka2V1cm01SEJhY2hIS2lBQ3RJZ0ZXX0VyYzdPcDZWNFU3OFZQaGE2bjZZdHN1d21yY2thQzJpZDNjc19SVzZLQjMzMzBUalc1Tm5ELUR5RjI1b3ZJZk5LbXJFaW5sbjdJUkRwT21VX2R6SlhnZERpUE10SzJLT0dsaUJzVmhWcVJtVWM2SzJsanM2ZmEyZElIeFo5QUJQcFVqTDNNbGZ5bnNaNmQ3d0U0enZXemlFMGhhR1p1cFJTcm96OUM
 Google News Nifty|CBMi8AFBVV95cUxOcUFMT051al8wRXBJOVJoTnRjSUFRMi0wRmhBS3Y5dVFvbm9qZHdLcHFnbk5sOHdSRld4X2RsMzlXSERQSS1mR1J2QXNZR0RJQlBaQ09VN2llZ0JCVnFhYTFsRmpmVGEwb3ExeS1UNnVjVnV4N3hwZUNoQUVLTGtQYWIwQ2FUZ2FndWdBRUxTNGdsQTc4Q0dPZmtoM3FZMmZRT2ljZW1NWHJJTnk5cVI2UWlLSmhxU1ViTDUteGJ0VnZxRXR6NTJ2Qm9ydTZGQk1YSjVQY19DUkdmcUhPVDI3MUc2MTc0MFQ2aEdweVlDbEfSAfYBQVVfeXFMTmI4OWNGbWxVRnhEQmVGekpidjJGUzBXdW9tVXotalprX19FQ0JEMVNFSnRaazA3enNhWXZWU3UyTEJtamNTQS1ScXVEOGQ5ZWZ0RUNpTzFncnRFS1N4a3BjMDM2SDRkeW1HUmFSbEZnb0ppWHhqRVdBVE1JbEgxTlJ2dkxBOGFCeVF6OS0wakxvQWlIM1RONnFER1hwZG41ZVV1X1lPT2tOeTZZeUM4ek16ZGxzM2lJNmZrQlhucHdzMXJ0TlpWZ1pHSTBxUGpwVHNwNUFhSDVlSTl2bkg1bkJ1czBIMFJPUHVqbzJwcVQ1bUJPajN3
 Google News Nifty|CBMi8AFBVV95cUxPOVBhbjcyanBWeERhZlZQdWdaak0zN2hhZzU1bDR6a0lPdmlBOV9UMmdWejBuT1BMRG96QVJFNk9Qb2J6X0REV1QycTY4TTJ4eG50QktrMFBHYnZWeXgtc016RVpSclhyQ0t1ZlJ4UE1fMU9XLTViZVhKTXJCVmNYaGF3cWxwM0UyU0s2OWkzNHNJN1F5VWR1X3cwXzRqdTRtdzMxX1I1VXFJekhwa0puUGR4OFZkSFViSWhsbWNFSFJYcEJaM3RzM2tMUk83QmEtd00xVkozdlNWVUp2U3dtSVE5QVp4NjJibzcwa2pDS1jSAfYBQVVfeXFMTk9XOS12NHlLVUxRZ1A1Z240empGb3RqcUdGRXY0dmpRbUl5N0R2SG5kWkVYQ1UxalBYd0RMeVJDY2hyc2F2SklzVktmOXp6RVBmcW4zXzZxbDdUV3h0NzV2clh4bjZhUjFRcGJ1eWpxQmsxd3psZGtjMlR4b0s1eTljZElBUVduQzF1OGYxcWh1RGVwMll2NnotaFUySDB4MjZ3bE83WnNMSk5Tb1VCbFBtTWpVRWdYVHgxdHR2ek1LQVI5YWxWQmZ6Y1BMV3g0TXdEQmZnVi1VSGN4a3BJZVB6MWRpYUd4a2tqeWZxU1dUY19OV1Z3
+Google News Nifty|CBMi8AFBVV95cUxQMzZJUGk3TWxSQ1g5YmMyY3JRNDdXdF9vYVk5RklYRVJhMHg5QTU1a3lDWUhwX2RuSkRXVE84aUtDUlhBeWFNMjM1aGJicU1rV2JyVy1PaFBSZ09FQzkydVRtaTZXTy1Sc2JtRWRULXdOWlhDUlJteFludUtjc1lZemJLM1NFcVFzQUN6ZzJjSVl0N2hoY24tNVhXTmlBdlpjTVBmZG80bzc4SFdGN3F6U2VrUmxoTTROUGhLVE9CcVdxWDBOWXJlSVQtbXhDTFA0LXQ2dlpLRFdhWXB3SmNMZnhSWlpNRGhpWFZ3aEpwYkY
 Google News Nifty|CBMi8AFBVV95cUxQMzZJUGk3TWxSQ1g5YmMyY3JRNDdXdF9vYVk5RklYRVJhMHg5QTU1a3lDWUhwX2RuSkRXVE84aUtDUlhBeWFNMjM1aGJicU1rV2JyVy1PaFBSZ09FQzkydVRtaTZXTy1Sc2JtRWRULXdOWlhDUlJteFludUtjc1lZemJLM1NFcVFzQUN6ZzJjSVl0N2hoY24tNVhXTmlBdlpjTVBmZG80bzc4SFdGN3F6U2VrUmxoTTROUGhLVE9CcVdxWDBOWXJlSVQtbXhDTFA0LXQ2dlpLRFdhWXB3SmNMZnhSWlpNRGhpWFZ3aEpwYkbSAfYBQVVfeXFMTlhNSkJ0VHhkT0h1anpxSS13YndKS2lZbHMyLVI5aXFsVnVpRWF3dFFWMW9jTmF5RkRmWGpnUU5aWndKSTR2SHVrYlI5NGtSZVdHeGZ1VkVGSi0yWlM5bWZjQ0V6Y1RnSF9BdWtuTFhma0VpMlcxMDQ2OUtVVEo3S0ZDaFdZY2xkTXgtV2J6VWlsOExxS041Y0hORE1Id0ZfZ25RSEZrMkp4VjVEZXdRejhPYUotTm5EZUNhVkwtb0F3QmY5SUQ2aUlLSmcyTnNON01nXzhIbFU2dVNERG1GNWdEcUxLSS1ZLTNIQWhtZXVPN2N3UXdB
 Google News Nifty|CBMi8gFBVV95cUxNWGcwVUVTbFJ0VVJDTFh1U1ZwUDA4MXJ5bnpHcjY3RExubnZfRmdLbmVTRTd4NDRkdHpoNFVfUUE4ZW54b1ZtSXYzY0hKdmFnWnlZcGFENzdXOF9NLVdpTWh0ckZHVE4xQUY1UGdmTGlCNG5ySTJMT1k4ald4RzJJT1B6WF95QzRKRXd6T3JFU2U5XzRodXhuekFMYzZScVJQOG95WnZ5M0VnVnBya2Z3Y0d6R1ZjNEsxSkdHZlZ1UWgzQ0xjZnp1VzNxVzZiWWdxTmJneUpTQkVnSnVOdDJOTUFVeVV3MnJfN1RJc0x1MEs1Zw
 Google News Nifty|CBMi8gFBVV95cUxOTnRmNW4yU1lvNVpObGJJUks1RXV5cllKQ1Bvd1l4a2E4VG1oeUhybHpVVnNSQkRKZ2UxbkwxUFE5SzZaVmR5TmtjTDR3dklRSXhGV0RvRDBlQm5oeFZHLUtBZGJiMERKMjhtNXJoS1VLNldiN2NiVlZhOE5xbVZCYjlOdnk3WmJrU2ZPZklhcEdWREFKSnJxcFZodmF2NnRmaV9hV3NJblZ1UVViMjR4Q3NQUGdsS1lBMVBGaUFjb2ZkdDVyeWY5Tk52UVRhUTJFMWtTYUV0NDhZM1E4ZDR4S05Tc0FjYkx5MXdkYWNtaXhVUQ
 Google News Nifty|CBMi8gFBVV95cUxQd25VOG9Cc3BWNU9JdzltaGQweUpKMndpc19lTmZoYjYyRlBGajZNUzBaWGxzUFlKbHZrZUxBZmVOTGNXYnF5U1AzVVRZNmJNNVhBOHdGQnQxa0g3LTJTNmxGMGFDMlY4VFdwQkVlakI1QlhMeS1mV0xPYTRUVTlIY0E3ZlZqM2xDbGlYbGVvdllYMllia0RMZ2VjaGZkYnBIT0N6ZjFHMDlGTkRWUFZzWW1fa1FfYzFGd2xzTDRrUzJaVzh1a2RzcGdJbzlzalkxTFd6V25IWXNPVzAzN3lvNEFMUkdDVGdzRlRGZV9xYUUyd9IB9wFBVV95cUxOR3AyZHlLVlU5bUJvazR2M092VFVmU0FQRUsxMm5EU0dVTUl6cDNOdGxwYmNyd2JkLVVwT3pWZkZtSjRLbVY4S3JXZnBKM1Bxb0ctZ1E4R1pUMWIwTW1PdXlWMEQ5RUFXdVhTMHY2cWRkZi1MNzJlMGNXdWNIck9pekVha2JoV3ZSaXB4bFlUbnZpRWlvTEltNFBtUDEyQnRyVGN2UHZzYXZVanRUa3F0aUZ4Z1h3dW1QbTJsSDFqa0lYNXVmUUx0anZNRUhxbmFURDNnWHhodUwweUZjSk1FcE9mMjE4eWN3QUJGXzFUSnd5N1daTDNV
 Google News Nifty|CBMi8wFBVV95cUxNRG9mNXZQbmU5YkdVRThqRHhxTDY4U0FKcXN3Y0ZXbUJuX00tYmI0bFJFc3JIdWZTZG5ESWs5QW1PWmVIOHViYVFPS0s0OWZmNGdMcXE1ODhZOXRJOE10QTl5QV91OWU5SWpaTWNyR1phZHJVQ0t2OVF5UjZHX0s2V2VTd20wZi1VMFBmVUItNGF4dzlrbGJZQmVsT1JEUWtaYlR1QnpXUkZ6bG51bTBsOGQ3SE9uTlNYRVpPcm94RUI5Q3FjZlA2eV9Ma0RYZk5HaUZNTHg4NEh1Vkg1MlVzV2ZHQmdsaU1SZnpSNi1XYWVpa0U
+Google News Nifty|CBMi8wFBVV95cUxQMXdQY3RBNlF1ai13aUVNVzBLSjVYZWEwTFpaNmxYTy1kaE8zWVU1ZkJRakh0aHp6VlY1UDFRTjcyQ1NRUGYwaGR4UjN1R0ZhekZsUC16LVd6MmpKZnhfRXhOTEdqTXdQQVpYMTN0eEFkaWpmdWpvMVNpWnd6ZUxlZ1FVakstVWQ0bjRJYnlOdTR5amdXWmxZbWZOOURyTzJOWVphbTNvUDR6Qk8yUWxlNTJKZTV0cmJObmNBQ3RSd0ZvZ2QzSzA2Z1BPTXNnZ3NaLWlNaGIwbnpCbHZWTzc2V3JleWxQeWdmZ2JmbzZScHFDc2c
 Google News Nifty|CBMi9AFBVV95cUxOeXA5d3NqbHNOTXlFNVVQdkJIV3oxUmFxZ3MxT3R3OHRXM3NzdHkxelJUMTlaUFFCSHc2eE51NnpfRWt2bWdLaFhrTkdITkJSdlM5SjM4UUdaclJ3djI0Ri15bXUwdnRoajlKb1c4Qi00R2ZoVVNUYno3TU4tWXExTTBqWElOM2plWDJvTUNsc1hYRHZHcWlldnkzZmYyYVVNZUxFSzc3R0JaNkVJQWxrWWRtcnVCZkZYMll1cm5Yd1BjMG1RS2JCLVFTRUxqMWxNMXpZU01GMHNlRWJTaDZYQWhmZldfN2VGbFBmMTFvRjdkRy1i0gH6AUFVX3lxTE5zc09GZmtFZGRsaUJqNHJRUjFOb1dvSVpPTmlPdDF2eXlXLTN4eHh0ODNxVTJ5RnNTYXhFamVyMUNzS2Vuam1FY3d2bzkxVXByYlFTWmt6WkJOTXByU0pST1dnZ3JVOFhEcXdhT0pxLTluRlF0THlaUDZfR2wteVVnWjk5enRxWGZMYUFJazROYUNuS2pwRXdZMmxWTHZibGNTQWNOSHdOcEFteFcyeV9FdmN4WWVNeDhKczBvLXA2WUJ3c1RxTVBRemZwM05qZE5rVlUwYTYzZndabUhpWVFnVEVob1o5OHBTQ1kxanAzN1BTNlVyUGE4bWc
 Google News Nifty|CBMi9gFBVV95cUxOOWJ2YUlIMWtnMVRzd0dLNGJnQkdhZE1JN2lySFd1NDlMWXViNHUzZkNfZF9oQUZhanRBSms1b0NQdTdaQmdReXZMWXlFd3phWWt5enl5X3UwOXRBNlZVbHA3Z0poOW14ZWRiQ3Nwc2JSWGt1ZG9ma2RWS1ZPX1BEd0lWWTFUTEFQZDBhWWp1Q1RFRWZFdV9YUzY4T0lrU0hTOEhVcmFMd3l1NDlGRVdRZVpMSmNHMTViQzlEQkpxUkJ0WmVvWWJrQ1J1c3dIeGY5OF9pandEclFMeE9BVDl5aEFmcmZzb2NXa2N1Z0hKUkc2allrcEHSAfwBQVVfeXFMTXdPeThSeWdEX05kMGFzX1RLVkdYUXBGUEJNbEU1SU56NlByQTlfY0J2cWhzQ1ZnNFNLNExwZk1jSmRvQ3Q2SDNIX3l6WmhPb0V1RmNaR0lSS2Y1NTdZUDlta0oxMUpKenBkNEIyNUMzc3VEUDVDbXIwczNfWTkwSlR6enlqQ1JQRFZTUjdNVEN1MklQTjRpX1NkeDlkVTc4T2VfU09pSlFQRU9HNWdSeGZWbjlGbmdWZmlBc1R6MF9Ncm00ZHlTVThTMTduODFIblB3by1TNXhucm52RkNmSld1TVl6dllya0pIclA2dF9XNE5UQkJaTFRwcmdX
 Google News Nifty|CBMi9gFBVV95cUxPSE1VQzFjSzJROFFkNDFUaWRuLXExeS1JSjhRTm13bzJmbGlUZmc2QTliWWh4aDVQZVJ3WHhzTXQ2dEwtWk5LVHRXbmZxcl80VUVFU2hGM3ROZnpQV3NyS3J4bXU0M3NPNm1ST2lyWEgwdV9TeHY0VmlCQVpaXzdEemNocDE0UVhMdld4aGx4bFQ2VjF0c2o4WWtYYl9PVlJqNVYtWjVxRllzUmd5Y0NOR2o2WEtpOC1ORXF6dHVlTVpKOHA0WHFBTG04Qkp1SnduRWYzekJrX1JJQU8tOUU1TUtvWFRiSFdrLXBubV9yZWw5cVFtSmc
@@ -1811,7 +1839,9 @@ Google News Nifty|CBMimgFBVV95cUxPV0lwUTI5X3djRjcwNHJlSkdmb3dfSy1XZFhicFRlRHNoaj
 Google News Nifty|CBMimwJBVV95cUxPenp6MmhLd1gxOU15aUZLak56NFNpMjBqZVhzME5RYUF5enpXajdRenhmZ0xrWXRQQzVCWDNiWmUwOW1uOUJSWmJoYzNjejk5UEh5TUpwbGtZVEhUVVdidkc2a0NEalVqQ0ZzMUhVQ2xTS2cxSnk3Z0JmY1J1OUJuNlVGYzJxY0dZOG1RYU9mcTZCNFQ5cGU0bEVwektyUXRWZFpXdkRsOTNsRVJ5VjFOQ0JRMWNKSTVQaVJURzRlVDhpNkFyMzZkN1NqWFpHanJINlVicVZFd0tqbHA1LWw2bkR0dnMzTkVkemk0NVY3aWJuRWU3VjhBODFDcl9rOVpUWW05aDVUcmhlbEdWOVhLeTFDMFlhZTAtc0JN0gGgAkFVX3lxTE8yLUx5amhXNS1TSzByQng1bnc0QTI3QTRVazF1YjFLM2xuOWprb1pZTDJzdGtKTC15RDR6c0t6dE1fbGtLZE5PR3JSU0h5VXd3UnJ0Q1JjQW9ObXRpZG9Lb1hsN0V5REItTWkwdFJIUFhzTkMtdDJ0TjQ0NmNXZGpKU2J0dC1HTlhFaUhEc1dfUlB6X0tiUFVaekZzWEVEYVpDQTl6a3JYbzJpZWRabkN1cWZNa2xCS0NYNExWWFpkVERkQ29ZTERqYlc1cnMyVnFJTzBpZk03UzFWTElTaE9xYjdUN1RGc3F3U2E0REh2bEM3RTY4cmtoOEFua0V6SEQ5dkpUNUdFX2lLRU5vVFFEdk5Qd3MwMFNpQndYVXdHRw
 Google News Nifty|CBMingFBVV95cUxNYU8tZGk0SnZIZ3hlNXVvQUJxM1Y3WUFGTkFuYjVRbXBFandHOExkbm02eVhWc2p1cmZtZU14cTFWSDFqem9tM2xPTTBVdFBEb0ZQaGhIeFFPa012NC00N3hPblRQeUh5dVUyaXdoZ3pvRGFqdzllWnFOa2dBb05JVVhnWlpSUm1ERlhINVJIbndtZFYydnJab2xFQ0h3dw
 Google News Nifty|CBMingFBVV95cUxNekh0dnR3YlV6SzZldVFaeE1WME5sZm11N3hZdTFtNHFpLWVQaEE3X1BlVGJWMVUzZlR3VFp3RExVUmV6d3lMYXkyZmJaX29KVFMwZXBEOVJNdjFMMUpsMFFfVTRSWlFHVFFVTjQ1Yjk5NVl3SEw5SkpJaFRtQXJQYmZ0eFY0NVBtYmMwSmRtcHF2OU9yX2hQV3B5NFZ5QQ
+Google News Nifty|CBMingFBVV95cUxQQy1KN3VDb2tLRUlPclRBX2wzOHp4ay1yOHBXMjZ6VTcyLXE2bjNrN0NhRDVrVnRZa3JwS0ZYYnlJY0FIbGRTTzh6eU05WnBjZ04tcklWNnJDa1N3WVgxbGJ2aFl5LUtTYlFoN1Z3dHk2YkRnY1ZVTkxIeTBIQjJ4UHZQWFI0Q2dYczFZajEtVTlOOGYzQ3ZTQ0VvWEtaUQ
 Google News Nifty|CBMingFBVV95cUxQbGszanEyRlZmUHF2MTNNVVE3NndMeXZIUlpKZWdYWFNhcjBZN2R6cGlLaG9KSTE0NGJabVEwaGhjV3ZEQnZoY1c1blJqM2hPYjFZMF9XbGgzRVFyUzBjbVpKNU1xR1V3a0Z3bVRGUmVfd3RBZU1zUUJBdVUyTlpYQVlkU1hZMHB4YUdlY1B6eGpfQm5ISGRFWjR6SmRCQQ
+Google News Nifty|CBMinwFBVV95cUxPMC1odms4ZmZHNjh0R1FUanFSZjJmcU5zM3B3T1pjYVhCTC1iS05sR3VabFItM1haR0RERnBlUjloUUJNRUNCM3lxeENYTWRzXzhOcllTdWp4eW1LcTlYcXhlcjdqcGNMUldRbjdjNFAwWDh0TTlSZjBaNUpGUWJLN0ZWTXFkRGFBMVdoWjRwR0kxWi1fcFpGOTNpUFZjdzg
 Google News Nifty|CBMioAFBVV95cUxNcXNHWHg4dkNqeXd5RjNZYi0yMkotcks0a3c0RjMzS2RsTUpGanJBcXRUN1VqTUxwM2dZRDJvZkt1MElSZXV0WjVmZU94SUdvSkpiMkhyQlAyY0VjRmRTS05SWm5LQ1JGbF85TXdRcVB5a1MwQUNadWhUbDJKS2EyeG5Da25YUW91RWVnNXU5RXVOenQ2bTVGNmdJaDI5ek9P
 Google News Nifty|CBMioAFBVV95cUxPVzFkMTl5eWlEd0hsY1B2QklOV1VJMDV5THZCRXhFQ3JoUUd6a0FBYy03bk5TUGRWVURfV1A5cm5TVW1oVlBRaFRsSEQ5Ukp5cWJvd3RpdnI0QU5VbjV3a2NRNWxuOFlHNnlKNUQ0WExPNTlmUXFBMUFvZzFGVGtXYzh2dTNBMnU2bkdqbU54bHQ3eWpVbGJuQllWRmZVN1ZD
 Google News Nifty|CBMiogFBVV95cUxOejZHM0dZekUyZFoyR1pOa1VMZGcyc3V1LVZqWF9hYVVqdzBSNTNqdFUxRUhJLXJrWUhJOWw5RW8xWDBydzVsM19mWkphdFJZc0FaZnROMFN6dW5vWllxcXNUQ2pJRjY2aUo1NmhmY1pTcHJhV29NdDcxMVlkc2pKY0tiNk9TZ3d0d1k0cGsxYXdoOU9FS0p1MGpHRUoxSURISHc
@@ -1828,6 +1858,7 @@ Google News Nifty|CBMipwFBVV95cUxPWkJtU2RkWm80b0Y3UGtKNmtqb0hMbjN0RnFCRzg3REtIcz
 Google News Nifty|CBMipwJBVV95cUxPNkhJTEZQZWR5UGtmNWl6MzdIM0hqM3lRbWZzT0xsZ1J0LVplVXNZejNGU1dueVdQRXlVRkExQzllbzlJZ0RRQmxvbHdCbmEtRWxEU1M0WXRLSDlaS2Y4aFMtSl9LSnRDN2lsWGd4dlBicHlkTjNpd2M4MGF0SjVmbHdNOGtwVDBsS2xFZG8zV0tPVW0tOFBNdTZUY2I2WmtPZE1PYmV3OHZGLU9SLXhJeGM1YVJKa0NtZm9WX2pqLWNRVVVSUnFzOXR5dVZtSzN4YjJOY2dHZ1NhZmFvRmtkVkcwQWVkaXV4dmhVemV6WFk4V1FyR1ZtZVBia0czLU96Z0pCYjdEbHlyUGw3MUg0STA3bURTS0ppMGRUeDdlNTlyX3NRLVpF0gGsAkFVX3lxTE5nM18zX0ZQVm9IOE56clFkZGpCVGRBN2lDelNiZnU5Z2V3X3JLbG9XZEtKbzN5VjR1ems3eEZmTktaM3VWN3JzT1B6TllmUk5TRU9zQzgzUHBIS0k1SHVHY2VwclVNcUFjcUZzN0ZJdVFHb2VPOFAtWXg0eVBWYnZMcHFZTTRuVEhKQVRvcW5kcnN6bDN3Y1BlaWFodVVwXy05YWUtazZQd2FOMHA1elZVSUI5T1h4WV9yREw2RFE3U3JkTHVPV2k2T0Q2alRRNER6dl9qREtxdDZYWUhJdHRLV19zbnpyNk5zNGVhX29mWWJEV0VEUHRXM0F1WkdHVGJnM080M3ZRSXBVVDFTeHliSmF3a3AwSkZ3N1o2a3Z4Y2dHNDlqNlQ1ZmZwUA
 Google News Nifty|CBMiqAFBVV95cUxNRmRZMzdMaHhiRGVvUUdPMXh5bzFkVjlDZnkxRjctY191Wkktem1oWVpZQTUxWFhhMkZsSEZwdWJmQl9kb3Z5UEpoelRiN09XeDlsbURYS2tncHBSZm1DNkVhcHA1c3NPaFpXUnNpNDhXOUIyWTQ4aGwxLVE1TkJpNVB0SksyaGlBR3YxUDhTanBKQ2d4WlpCNF92aXotTU9zcjZjd1lYY2k
 Google News Nifty|CBMiqAFBVV95cUxON2RDWTU2RzYteUJVak91b2huVUVKSVlDa2xueUJ1OW1rMlVuRXVSeU5ZSGd2eUxWU1dKRFk5UEVrdF9CbjJqQmVZcW1xLTR5bWNwSUNIYU1EdGpVVDJ6T084eDZRMXRkUmFoNUtKQUhxZlowaDZGM2gyMl9kOHFRMDQ0c2hzTXFfZUFQaHBRQzVQVUhjWHYzd2JqMEdOSndEUFIwVldHMkI
+Google News Nifty|CBMiqAFBVV95cUxOWU82Tkxxb3JQa0R4MVhLSDdoUXZudHRBYTZlalJLN3lEOVlZQ1ROZWVEcllfUmxpdVQtcDJ3UGJBUU5VcWNUTmVhWlY3U2NUdEx0aDVvUFdnMjM5MTU2dFNtU2pHYUhZS1lsTnpIMjBCa0J3NFBBMUlISXpzd1JMUkJKV3cwVHZ0RXpYNVNWeTRmX3ZVSkRSbk1SdjJPRUhMWHJsOEFjZHQ
 Google News Nifty|CBMiqAFBVV95cUxOcmFfcWhyazUycEdmZXNJU1BGalg5dEZMSENiVEtIeHRZRHNPemxOb19OQUpLZXNXS05qZW9uNDVMMUZUYzVrX0NfTVAzclZhRGlfRWM1a1h6VVVmNTgzaWZTUXJlc1dIVXRNTUZReFZrNExuNFdDVVoxWW44WXFnNzh2d0NHYUlBZ3lrNi1jNWVmTkFvWnd6WmZMdGZHUTBlMmUtby04TTI
 Google News Nifty|CBMiqAFBVV95cUxPNU9EdnlDTzFVQ3RMOXNadnR4Y1A4TnVreEN2YjVCZnN1ZGtpOEdJVmtDUVNHdllEYmRKa1ZHRUM3VGhtVm04WjVycU9nOTQtLWk1ZGtjYnVHeU0wMVBTMERSLXRrWkE3VUk5WFhON29TOE83TWRGUXVCc2Z6SU1mc1ZsWl9Gc0xnQllveFNSd1NZZjRxNWVUbW5LTmlfbEdaLWo2RGpla1Y
 Google News Nifty|CBMiqAFBVV95cUxPRDBuNVhsaEhlSnBHVnpZd013Z3J2azQyV203YW1XTTVPT1dFRVhaOE9uazJsd19ZQXpra0ZHQ1JDTld3djdYaTRKUEVDU09uR0N0eTZDa00zYVV0NFlOb3J2d2h4LVlDLTh5NlZZVWxvb3NuOGE4MmtnVEh5b0hjUk9jRGtoTmpITm45RmVqTnhNQ3JxLXVnRWFaUFdLNWtFbnNIYk9hVWE
@@ -1867,7 +1898,9 @@ Google News Nifty|CBMitgFBVV95cUxNaFNpUUtwZFZtOGJfeWpnWmFqTVRMbnFJaXFOOVh2QUVaLV
 Google News Nifty|CBMitgFBVV95cUxPR0gyQVFYUWpiOUFMdFRUdG96WS0xMXNIajFTMks2ZXctN2laTDYxTDFyTzhUSjJEQ0l5SzZ3LTh3YVUtWXdiUG1nWXZja1ZSVHR4VVg0bXNxbG9QQUJWUXBOZWtvcHhCeHlTbjJpX3drSUZCNmNyZ2ZIU1RXUkxvbFNWekFBMHdzS19NV0xyT0w2NU1fQVRieHRuM1B3anIwUFNJb0RHSFJDOWV5dWJQN3owT0JZZw
 Google News Nifty|CBMitgJBVV95cUxQYU5Yam5fQllmNHJfQmZpN3Y3dWlVYWZVUEtMS29KYjltcHB3a0N4U01mSFdqejA4NEEtaWd2SDcwY2s4UVdwU1JPYVVKeW5hWll1U0hyUkRHb1hWS0FkVGNrQmtjWW1CSkI0WUM2elhTc2tKTmNBQnZ5TWlrYmdVS1pLbkx0cUMxRTVvbWJacUhnMDlvLWZQY2ZTQlE5SGQtX0xGc2R5ZTNWSVpqVTlmSTZyM2pDbkN3S0RybUtIcGgzNUwxbWtqUHdGNUthSDVOMG1LU3gweUhJdVdFVGFmMXN4SlhSQXhhT0NFMU9PREZVTzB4Y3lhYlE5aHROODNBSFVtRk5Sc3pHbUNlNDNYdGtEVjFCdkt3TGpBcFhjQ28wc0NZWWRMWHF0V1FyQWFNNjM3RDZ30gG7AkFVX3lxTE9hM0VsVGdwbU9MNl9Ccjk4dG93LWlGTi02MmxTRHVjaVhWc0hOZ0d3aW1kaHVmVDhZcmpPbk40UVBxZ2NBQXMtTGJDeXJtX2dvQnBqcmladVl1M3d3cVFTb1ppbFR3TlVHSTRpeEoza0xZdzIzdHZQUUdxSHNNa2dsLVQ3U2FaZzc0MWdOOWNNWklFOGpmc2t1YnB2c244NDBTX1EtSUlzamJQTnBBVmw4c3JfNU9QM1pSczh4ZGtMYlg4Z0kzM3F0cW1kMVlWZmZRNHNtVVRDMmpUSC1NSU1KS20tZDV0MmpFa0JBaVVkV2hTOTNrWnZKcmdiNzBZU0VmWkhST2Y3UEhHQjlEdnVLOEt0SDFscTJsdjlxc3luNVhnTzN5NGE1MDAyeE53R1hTTDhlM2ZfaHkxSQ
 Google News Nifty|CBMitwFBVV95cUxOMkdyYVpJMG96cU1OUTNaQW1sSFd2TVA3RnB5YTlpOWFwMnRHZ1Uxazg5V09Wb1ZuT1JsZWFCcjh6em9Da05iLWd5UHhSMEN4RVBHTXQzNnp1d3hYb1ljSUxvWkVpVEVFdWtIdFBVTmtUbkYxZ0lSdnlvdW9rekdSTGZYT1dHR3ZEZzM5VUdOSWh3WnFaTVppVjdFbmI4ZE1WZUlfSGl6T19yZ0FteU44WS1BZ0dCX1U
+Google News Nifty|CBMitwFBVV95cUxOOUVwNGR3VndRbGliblJ0V1VRMFN5SDlrbTNnbXRhN2Q5dU5YV25ueGhMODdLVDctZEU5WWNHX0ljWC1fLXJBV242TUgtbFVvVlVDT3lSVGpZYngxZlJKWUxtUWNMWHgwTGQweWRfZThaeUItaDB4S3lIc194bW5JUFk4c25wV21jZUxXN19abTlyMnZSc0RJemhRS3lVWGh2dXRzVmRqdFNIM0FVUjNweUdSWGtIb1E
 Google News Nifty|CBMitwFBVV95cUxQWjlEM1R2ZnBxSF9Bd3RfT1V2RTd1eUZ4elN1Yk1LSXd5RVFoWi1Ha1ZQWXI5dWNLaFlleUUtbTVTTi1UdEd6TmFrMWtaSWc2WlZ4NXcyQU03V1pYSEpZSjRmWkNjUXhQWGZEZTZaakIyNmdqOURIc3IxbWc1VjhDcmtzTk9XVk5menpJTFZEa1hORFlvQkRWamZiUEtUMVdhQUtJd1BPVm9WSGwtQXprYTk2NFNwMFk
+Google News Nifty|CBMitwFBVV95cUxQZnhNaDZMSkVLdVlTZWx1STVMcVcxNUpycVNRejU1ek53LWNjNGJ5WVZ2WXV0V0E1ZTBuZFE4MFBLaWxSNnFhcWR1LVd0MzFkVHVFOVptMkJnRXRvWmJaYmhDbF9naWQxcXdHRW5wNG1hMEpmZlI2aFJYSDNDNUt5RG83YU5yckJfY0NmQzFQM1lTVWFDRm52RWZ6Q3IxaDBkQUpjVmNSbTAySFNYUmZQOWY2QTY2ZnM
 Google News Nifty|CBMiuAFBVV95cUxNR3MxeG1GcGVEZVdPcVA5TDdYS1BfQkV3UlpUaWVtTkRRSnVtQU1ZWEhiZmxOSTVKbnZnU3lNX2xUZ1NWclJKeEZMNVlhWUNTM1R3YVViUmRvS2tJUTlua0psalFSUUlQYVNxTk5fNGhWOW5sM0ZKUUdwN1llMkc0ZzRGM2poV05aS0dPUS1DbDlqbXpBc2xnQW9KS2lMUHBPTWhKM1NfZVg4a1NLS3JBSGtOWm9mQ0dz
 Google News Nifty|CBMiuAFBVV95cUxNWks5WDVwWE9ULWNmYVItRHFralBSMTNFeEFBWXlTaFNBWnUxVkxPQnVQUTgzTlVEOE5hSzF5OUhTR1ozblZIUndqZXRCcWxJN05nd1NocTZmMVFKZGZ3emRkSXoteTlrMVB3b2FWNUpkRkc0VTRPcUZnc05ZV1o0VnR0QUdXWGJPcl8zYlBJQ1cyT2VaX19GNmZkNVpiMmxSb09hdC1hcUcwLWNMLUhQZl9rblZBX01H
 Google News Nifty|CBMiuAFBVV95cUxORnppRklmU1l6eWRiQzhBeml6QkhPVnU0OU93dUNRMXNuUDRjektoWWk3NEFwTnZNRnJzY2c0Wlp0a0JrUi1hZDhxQ25BcUdsZEhURGZmTnNUbElPZk03cl9BcXMtNWhKZkpQYnZVbUM3MUFtcHhBZXZaMGhYcHMtSk9QY0JFUWNDbFBqUDBiQVJxZGRKTWNFTmw1dUwwM1I4Q2RTSGZGU1VUb0x1SWNPRmw0aVRpMU1l0gHGAUFVX3lxTE9zb0xhQ1lrUXNzX1Q0MVpRVTVBQzFKZEtWYVZvSS1JU1JKM21mbU5xVEM0MVFtSmE0UkhhbEVMYm1HWHJqc1RKSEhFLVdpamxZaW1HSWxMYnZrWVRMSi1qZ1c1X1M4TC15WHdOQTdCRlhGMTNEdXFvbzVJN25ra3ZGem8tRVptc0d1bnl6ejNIOGxJY0tPZWxTNmYzQ3RsaGNNWkp3MHZyTUhRY3ltSGdIdkxhVlVDaG82UHlVSjJadzd3ZHE0Zw
@@ -1881,6 +1914,7 @@ Google News Nifty|CBMivAFBVV95cUxQdUIwYmVwLWhJTjk3NThjVmlOSi1ULWt6eXphcWxHeXl6eU
 Google News Nifty|CBMivAFBVV95cUxQeUFvdnVub1Mzd0ZZWkFPT2lHV0lRZkszWEs1NEszNTI5bkJhUXBuQlBnbHItQXIwak0yQ3piQURJSlZUS3RDTkxSWmlFVFBJZXFKNEtkcS1YYkdraHJta0JEWE45b3htSXRBemhnWThwTzh4blhrRjczYlpJSWp4azEtN3VyVUhhZTJYdDJVMTRORGR4ekRlZW5iUXYzMDVjNTBTNUZQdVdpWXFLMmxXVDJCTVBNQ2JweVlObg
 Google News Nifty|CBMivAFBVV95cUxQeUpnc1V3SjdxLUs4aXBTcUpzMDVwVUhKZGFlZEtkeF9lc2tlRC1ucVNhdXlPcHEwYjFzVXlCTkxGcXp6R214OFBkVFlDWU9TbDhmbzI5MlZFZFJfdHdYUUtYUUlQR2RQSUZseDlxUWNyTjZ3dnF5emxZSGZ4M3RJdVhuRmdqVVBES0czOUZEam9FclB0Zk9qNE9zTWdMS1RVQTFrb1hXOVRqVVdOVy1UbUZMcGY1cXI3Mm9YWNIBxAFBVV95cUxPMHV2TElMeEVTaEdBZWhBVEE1QnhtRThnZkxTS3k0LUhodGdpQ2p0Zl8yOTVLUC1wdWk2UE4wMTBzYTBfeFNpZ2dXQ3VVZVZKQzIxdUNiX0NXdi0wMGZENlBhb0duMmM1WTdDb3U5S0wxdm1rd21ZZmRwSTJHZEt5eUFZQ01DcjBWUnJjT3VKck4ybGVTaXVIVFB1UGl5RDZHTDZlRjkwZWRCajBka0ZMWGlrNUpVZDVaNFRsRERTd2FmbDFN
 Google News Nifty|CBMivgFBVV95cUxNNEtIREp2RFJocmlvdmhLX0tGUVFjaTd2czFxMDdDc2dFUjZkSlRhdTE0T21UME0zZTEtMXZzTjgyXzVIcmVnNDN2SVZXYjlfa1VIbkotMnJvc0h3MDlIY2FQZEN5bkV4R3haQjIySFVzdEIxeFJtaDROMWVzVko4YTMzbXhXYnIzMFJMVlN5bVRlek5xdHB3dUN2MzloX0prQzY2Y19WZFRRS240ZzZMTEpuSzZlcU54NFcwSVJn0gHEAUFVX3lxTE8zTXNXM2Q3Uk9vWWp2RWVpTW5WUHpqeURqRDk3SFRxZU5nRDRHUk5FY1ZSSnJYbzJFakZrNVljWEhwcHFSSzVrY09nZVVYU2JVRG03VHZDWDQyUTE2ZVZMb1c5TEdQaWFkWUZ4WFlqazdnS0NwcHd4dmxaYkFUZmEtT2xXdFZWbkFiQ2lFR0NPcW9rbUQwbDA3OXFMWWdvaXNvbXV5a2kwM3VZcnV0T2dTVnFJQ0VCRnpaVW5lWFRqWWhDWlE
+Google News Nifty|CBMivgFBVV95cUxOUEFsOE1CUlpFUlpxdFFOYWdWb184ZUMwZWI0WUlMQm15aExPRkw5c0tyM2RZeGNVcHMwR3VXUXFROUN2QmhmYi12djlwWnNKZm1BeXJpejV3d1V5QjhfRmZPMkNCMEZJRVZtdXNaVVQ0WDhFVW9naU1YRmtVc3k5LWprWk1qbmRoSFgwZEd0ZU15V3N6QUVkdkZRSzQ1LTBzbm1vUTZSYjJ2RHhoQkZpM2pTV3M4TDhFUmwxRzhR0gHLAUFVX3lxTE51a1ktY2UxMDdIZGVMVmRVZWFUNWVQNTJwWkNFTGZnZmxQcVNPRExFdWpvelFOaEozY0c2NEdCcnQ1VHlCTU5VaUJnRUpRRXdCd3R6dktfdzE2c2tPS2I3SVFRcG54NXZ2UUd6S1JOczlCZllKalFwUzZ1LTZ0OEJhNXRLYm5VUEI4UEpyMV9vLXlCbmdSR3hfQ1ZXZWZ1RnRZLW1tdXAtOGdWYVliNFl0QWxiTVZPNC13dlBRendWNlNkUEdyMVF0R0c4
 Google News Nifty|CBMivwFBVV95cUxNS1c0VjBfN2RISlhVb3UyWVY5VGZuM2ZzLUlDWGk5T19ESG5MRWlxZXY3eFRvQTdWQnZVVTZUNWozQWQ3TW55NGpJdmZtZlowVkVEOGRwa1MxN3BVSnltQUxOTi02SUhIRGxTUVF2YmJTLURGMlZ5S1FEV1NEOTBNODJrR2NKSlRWODRnX1hDQXVONkgzclRpelFJSVlaN1J4bHZMMjctMTZVbVlTeE9XZGxzNklNcEdfcTFXNlNqVdIBxwFBVV95cUxPVC1BSjk3UzJqUFRPaFc0b1ZJTU4wclh2eURaNGVBYWg0NGhwTlAtaDZmbFJzMVdUZTg1Uzcxblg4YWxRUi1jX1ZHMWQza2FGZXN1NGRSY0NKM0JJUHA5SlJQVi14WFFzTzVUZ1VqN0VJdHp0TTVaLVBaUnNuWFlDcmlFSEtSenRYMnhaelViWVZrZ0RQM0x4dEprelQzbU1DWkZGOXByeUlBR2dzQ0xPV3ZrVGl5UkxYRDRTaklmVFZXLVBtU3BR
 Google News Nifty|CBMivwFBVV95cUxNcFN3M1R4MjBCQnZyWHU3aFNILTJobDZkVVhOckRIaXZPZmZldFQ2djQwMDFhTm1uRUdWTFl6bWpHMld4czZ1ZEZGWWdXWFFlRG02bXB1dkFGVFJibVFDY1ZtRWNYYlpESHNKT1hBeEZXTVgxcnUxTFlzZVAyQVhFMjl3aWhOZmFyUGV5d2lpaW5INnBVc01MVnlxY0RNai1feHlONDhxZWZNcFNBV25xVS1ZbWlDR0dqRWxsNnh4b9IBxgFBVV95cUxOeHFISjFPVEM5STZDRm9YRWZCY3FZa2F1UEpuV0UyMDMwekxoQ0VkVXdOY2ZJOTl1ZVlZVUlweEI1ZkxYYXoxU01fTzYwLVRzbGoydGNZNWFHSWJtYnFPY1M4NHFTd210RXlIRjBrWTZaSGtJeDZLc09QVEc1MkZ1TmthOW9Xc01hSXdvR25KRENNWktYeGt6VG5LS016OE5QWkIwTnkwSDBadTZyWmdnUTZRME1FM2Z6Mm1vY1JnVi1pVjRqU2c
 Google News Nifty|CBMiwAFBVV95cUxNYTYxanFQeHd5bTRrYTdkNENieFVpTGx3bEVDUnRIRG1JVTVHeU9hOE9LdGdENHNOWllENmNBSG1OZTdPQ3lVYnRvZG81d0xLNm1FcU54aDh3bjZhUzRDQWxVcDB2amZQY2I3RTNIaWhFN3ppOUFCblk0RUk4U3Jjd245M0haX1ZIeFUzQThKQjNxU3VTQW9TaEQ4WlBjei1HajBFVmFlWkZGeTdMSUZmSEIwSTFkcmtqZmZSNk1iYms
@@ -1978,6 +2012,7 @@ LiveMint markets|https://www.livemint.com/market/bonds/rbi-deputy-governor-urges
 LiveMint markets|https://www.livemint.com/market/canadian-dollar-holds-on-to-weekly-gain-as-investors-bet-on-december-rate-hike-11795807102867.html
 LiveMint markets|https://www.livemint.com/market/chicago-soybeans-higher-on-meal-demand-wheat-gains-on-supply-concerns-11795459844011.html
 LiveMint markets|https://www.livemint.com/market/china-state-funds-ramp-up-etf-buying-to-record-as-rout-deepens-11795400099413.html
+LiveMint markets|https://www.livemint.com/market/commodities/gold-price-prediction-2027-should-investors-buy-yellow-metal-after-the-recent-correction-experts-views-11795848428672.html
 LiveMint markets|https://www.livemint.com/market/commodities/gold-price-prediction-despite-27-decline-from-january-peak-ubs-still-retains-rs-1-50-lakh-10-gram-target-for-2027-11795601553956.html
 LiveMint markets|https://www.livemint.com/market/commodities/gold-price-today-27-november-2026-mcx-gold-rate-jumps-but-still-31-down-from-record-high-is-it-the-right-time-to-buy-11795752383038.html
 LiveMint markets|https://www.livemint.com/market/commodities/gold-price-today-in-india-rs-58-500-away-from-record-high-right-time-to-buy-amid-rebound-from-14-month-low-11795679635348.html
@@ -2098,6 +2133,7 @@ LiveMint markets|https://www.livemint.com/market/stock-market-news/ashoka-buildc
 LiveMint markets|https://www.livemint.com/market/stock-market-news/asian-markets-follow-wall-street-nikkei-kospi-jump-up-to-8-as-jensen-huang-s-return-sparks-rally-in-ai-stocks-11795485047635.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/banking-stocks-hit-the-accelerator-nifty-bank-index-up-18-in-1-month-hdfc-bank-sbi-icici-bank-9-best-stocks-to-buy-11795758901361.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/beml-bel-hal-cochin-shipyard-bharat-dynamics-shares-defence-stocks-rise-up-to-14-heres-why-top-5-stocks-to-buy-11795757838194.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-manappuram-finance-bel-sbi-life-by-sumeet-bagadia-targets-stoploss-nifty-bank-nifty-outlook-11795833212780.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-100-idfc-first-bank-jayaswal-neco-industries-sagility-by-sumeet-bagadia-targets-sl-11795278599364.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-200-jammu-and-kashmir-bank-canara-bank-bank-of-india-by-mehul-kothari-of-anand-rathi-11795191036501.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-200-ncc-geojit-financial-patel-engineering-shares-by-mehul-kothari-of-anand-rathi-11795777963069.html
@@ -2115,6 +2151,7 @@ LiveMint markets|https://www.livemint.com/market/stock-market-news/check-nifty-t
 LiveMint markets|https://www.livemint.com/market/stock-market-news/circuittocircuit-stock-sc-agrotech-finds-no-seller-for-21-days-in-a-row-bonus-stock-split-dividend-record-date-11795694308081.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/crash-proof-stocks-sensex-nifty-bleed-but-these-shares-come-out-in-flying-green-colour-hcl-tcs-infy-maruti-list-11795417938149.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/current-rally-in-large-caps-a-bear-market-one-veteran-investor-shankar-sharma-11795325109594.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/defence-stocks-set-for-fresh-rally-bel-solar-industries-hal-motilal-oswal-names-3-shares-to-buy-as-big-orders-loom-11795769903953.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/despite-stock-market-up-today-why-sg-mart-shares-hit-20-lower-circuit-up-117-in-2026-what-lies-ahead-key-levels-11795584028110.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/devyani-intl-doms-industries-shares-top-2-stocks-to-buy-in-near-term-check-target-price-stop-loss-by-nagaraj-shetti-11795622752268.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/dividend-buyback-rights-issue-record-date-nov-25-zee-vraj-iron-bonlon-and-more-5-stocks-to-turn-ex-date-tomorrow-11795491976798.html
@@ -2130,6 +2167,7 @@ LiveMint markets|https://www.livemint.com/market/stock-market-news/gold-etfs-vs-
 LiveMint markets|https://www.livemint.com/market/stock-market-news/gold-finance-stocks-rally-manappuram-muthoot-finance-gain-up-to-4-as-mcx-gold-prices-recover-which-stock-to-buy-11795754757869.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/gold-prices-near-14-month-low-what-does-sharp-price-crash-mean-for-titan-kalyan-pc-jeweller-other-jewellery-stocksg-11795184261882.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/gold-silver-bitcoin-rates-crash-rich-dad-poor-dad-author-robert-kiyosaki-has-this-wealth-creation-tip-for-investors-11795404307920.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/gold-silver-prices-stage-stunning-comeback-after-15-month-low-can-the-rally-sustain-key-levels-trading-strategy-11795851316845.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/gold-vs-silver-price-crash-compared-white-metal-loses-65-gold-sheds-37-from-record-highs-wealth-wiped-returns-11795241673262.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/greed-fear-report-jefferies-chris-wood-hikes-india-exposure-for-2nd-time-in-3-weeks-cuts-taiwan-new-allocations-11795235087351.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/hdfc-bank-shares-recover-22-in-nov-adds-rs-2-38-lakh-crore-in-market-value-whats-fuelling-the-rebound-11795182150085.html
@@ -2158,8 +2196,10 @@ LiveMint markets|https://www.livemint.com/market/stock-market-news/mcx-vs-nse-vs
 LiveMint markets|https://www.livemint.com/market/stock-market-news/missed-50-rally-in-samvardhana-motherson-choices-sumeet-bagadia-spots-another-buying-opportunity-target-stop-loss-11795233784659.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/missed-anthropics-record-ipo-shares-cool-off-after-nasdaq-debut-heres-how-indians-can-invest-11795176413482.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-alert-up-102-in-1-year-more-rally-seen-in-this-small-cap-power-stock-heres-why-check-target-upside-11795594809008.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-circuit-to-circuit-stock-jumps-2350-in-2026-hits-5-upper-circuit-for-14-days-in-a-row-do-you-own-11795845287136.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-defence-stock-dips-12-from-record-high-is-this-a-stock-to-buy-experts-decode-with-36-upside-target-11795601425876.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-defence-stock-to-buy-experts-see-35-gain-on-msci-index-rebalancing-despite-55-ytd-return-target-sl-11795425473171.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-defence-stock-to-buy-up-200-ytd-returns-why-is-share-rising-experts-explain-with-4-reasons-target-sl-11795836918691.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-railway-stock-jupiter-wagons-shares-jump-30-in-2-days-after-south-korean-jv-game-changer-for-vande-bharat-11795665959629.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-small-cap-stock-announces-5-9-bonus-issue-shares-jump-over-800-in-1-year-record-date-key-details-11795671667814.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/multibagger-stock-pitti-engineering-shares-snap-5-day-losing-streak-gains-13-on-high-volumes-up-291-in-5-years-11795673038293.html
@@ -2225,6 +2265,7 @@ LiveMint markets|https://www.livemint.com/market/stock-market-news/stock-recomme
 LiveMint markets|https://www.livemint.com/market/stock-market-news/stock-recommendations-for-27-november-from-marketsmith-india-11795693778136.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/stock-split-reset-sandisk-stock-crashes-87-5-overnight-heres-what-investors-need-to-know-about-its-8-for-1-split-11795267376660.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/stockgro-expert-explains-wework-india-share-price-target-should-investors-buy-sell-or-hold-11795184993421.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/suzlon-energy-shares-down-36-in-6-months-will-it-rebound-after-winning-wind-repowering-project-from-tata-group-11795841310470.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/swami-ramdev-fame-company-patanjali-foods-announces-2nd-interim-dividend-check-amount-record-date-history-11795691413030.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/sweet-surge-why-sugar-stocks-jumped-up-to-14-today-balrampur-chini-shree-renuka-bajaj-hindusthan-rally-reason-11795667663817.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/tanla-platforms-shares-plunge-12-in-6-days-amid-scs-setback-for-subsidiary-karix-mobile-details-about-375-cr-dispute-11795678641223.html
@@ -2241,6 +2282,7 @@ LiveMint markets|https://www.livemint.com/market/stock-market-news/top-3-stocks-
 LiveMint markets|https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-swiggy-tata-chemicals-amber-enterprises-by-ganesh-dongre-of-anand-rathi-targets-stoploss-11795312924053.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/top-defence-stocks-to-buy-apollo-micro-systems-bel-data-patterns-grse-zen-technologies-check-choices-top-picks-11795507257890.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/top-nifty-bank-gainer-today-hdfc-bank-shares-jump-4-as-index-soars-2-should-you-buy-or-book-profit-experts-advice-11795580304968.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-on-monday-nov-30-suzlon-zee-tata-group-stocks-kec-bosch-apl-apollo-among-10-shares-in-focus-11795845823543.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-bharti-airtel-hdfc-bank-lg-electronics-lupin-alembic-pharma-ksb-and-7-others-in-focus-11795659069403.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-nse-tata-group-texmaco-rail-tata-motors-shares-in-focus-on-friday-27-november-full-list-11795742921342.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-tata-steel-apl-apollo-tubes-maruti-suzuki-rvnl-waaree-energies-17-others-in-focus-11795399384907.html
@@ -2252,6 +2294,7 @@ LiveMint markets|https://www.livemint.com/market/stock-market-news/up-115-in-6-m
 LiveMint markets|https://www.livemint.com/market/stock-market-news/up-32-in-one-month-small-cap-stock-under-rs-50-hits-5-upper-circuit-despite-weak-trends-on-dalal-street-do-you-have-11795422451498.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/up-55-ytd-healthcare-stock-park-medi-world-shows-resilience-against-the-indian-stock-market-crash-should-you-buy-11795765259630.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/upcoming-dividend-split-rights-issue-record-dates-next-week-nov-23-27-pashupati-cotspin-zee-ent-varvee-and-more-11795245232145.html
+LiveMint markets|https://www.livemint.com/market/stock-market-news/upcoming-stock-split-bonus-issue-record-dates-next-week-nov-30-dec-4-tech-mahindra-indus-finance-interarch-beeyu-11795837936736.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/us-pce-inflation-rises-in-oct-is-a-us-fed-rate-hike-confirmed-in-dec-meet-how-will-it-impact-sensex-nifty-and-gold-11795764103649.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/us-stock-market-open-or-closed-today-friday-27-nov-check-nyse-and-nasdaq-trading-schedule-holiday-calendar-11795773710345.html
 LiveMint markets|https://www.livemint.com/market/stock-market-news/us-stock-market-open-or-closed-today-thursday-26-nov-check-nyse-and-nasdaq-trading-schedule-holiday-calendar-11795689325619.html
@@ -2335,6 +2378,7 @@ NDTV Profit (YouTube)|AOAWvPBTO_A
 NDTV Profit (YouTube)|AXBjFVFpNtQ
 NDTV Profit (YouTube)|Au84_gJnqjY
 NDTV Profit (YouTube)|BS-y1zRISRs
+NDTV Profit (YouTube)|BqeegkYovLc
 NDTV Profit (YouTube)|C0fsP9lA_I8
 NDTV Profit (YouTube)|CFyblOTVVz4
 NDTV Profit (YouTube)|COhLNvy_lxU
@@ -2343,6 +2387,7 @@ NDTV Profit (YouTube)|DJaK0Ix0NY0
 NDTV Profit (YouTube)|DLUNnOAMNoo
 NDTV Profit (YouTube)|DQlt7s6uIwE
 NDTV Profit (YouTube)|DfyXemKtyXo
+NDTV Profit (YouTube)|DitxJ9TyZ4E
 NDTV Profit (YouTube)|DjwamxROQEc
 NDTV Profit (YouTube)|DmhJFl5qdUY
 NDTV Profit (YouTube)|DoP0cxf05Us
@@ -2372,6 +2417,7 @@ NDTV Profit (YouTube)|K5F3QHnxPRM
 NDTV Profit (YouTube)|KcRlRiTu7Kg
 NDTV Profit (YouTube)|L15s62Ys4wM
 NDTV Profit (YouTube)|LRFnQNL0MyM
+NDTV Profit (YouTube)|LmMNc0EngZA
 NDTV Profit (YouTube)|LrSE-j6YJGg
 NDTV Profit (YouTube)|MpE4ymHOy-0
 NDTV Profit (YouTube)|MrPqxXTdQh4
@@ -2381,6 +2427,7 @@ NDTV Profit (YouTube)|NfGJhVnZeY0
 NDTV Profit (YouTube)|NmEErguNVg4
 NDTV Profit (YouTube)|O-B-xOswgUQ
 NDTV Profit (YouTube)|O4eMmjstcx0
+NDTV Profit (YouTube)|O87GAkVySFA
 NDTV Profit (YouTube)|Ob9sg6FiJq4
 NDTV Profit (YouTube)|OfidYRFN3Kc
 NDTV Profit (YouTube)|OoNLyzz9i30
@@ -2411,6 +2458,7 @@ NDTV Profit (YouTube)|ULxJQ1c0Ons
 NDTV Profit (YouTube)|U_-qFsmwDCc
 NDTV Profit (YouTube)|VBSddQ3g59M
 NDTV Profit (YouTube)|VBXvoF-AwCM
+NDTV Profit (YouTube)|VRcudgIQDk4
 NDTV Profit (YouTube)|VY2qjvJDjo0
 NDTV Profit (YouTube)|VtXqaPx0OKg
 NDTV Profit (YouTube)|W3iKaTuvSBI
@@ -2419,6 +2467,7 @@ NDTV Profit (YouTube)|W9AsaUWr4KM
 NDTV Profit (YouTube)|W9MtArskU7w
 NDTV Profit (YouTube)|WC8CT_bHOUE
 NDTV Profit (YouTube)|WPwa2cv4lnc
+NDTV Profit (YouTube)|WUEPfIdtKn4
 NDTV Profit (YouTube)|WeperqiKoXs
 NDTV Profit (YouTube)|WlAmyYTrcFI
 NDTV Profit (YouTube)|WxAzO7HMiCo
@@ -2470,12 +2519,14 @@ NDTV Profit (YouTube)|eiWJlseOl4M
 NDTV Profit (YouTube)|ejXHr47nsN8
 NDTV Profit (YouTube)|f6FeftJ373c
 NDTV Profit (YouTube)|fBqar7ZAkQQ
+NDTV Profit (YouTube)|fPrttRxlp3g
 NDTV Profit (YouTube)|fbnxDybxgWg
 NDTV Profit (YouTube)|fc1pq760iRc
 NDTV Profit (YouTube)|fnRM3ACRzns
 NDTV Profit (YouTube)|gGO_hm1Yp_w
 NDTV Profit (YouTube)|gOyoBaufiVw
 NDTV Profit (YouTube)|gfJfmAFmswU
+NDTV Profit (YouTube)|gy2EvVzDKSE
 NDTV Profit (YouTube)|gzV9Bf6a2g8
 NDTV Profit (YouTube)|h0Cob6K8rQQ
 NDTV Profit (YouTube)|h7LH0O4mTug
@@ -2514,6 +2565,7 @@ NDTV Profit (YouTube)|mSr9SH0-7AY
 NDTV Profit (YouTube)|mWwGF-zX5A8
 NDTV Profit (YouTube)|mfGEQaf3Maw
 NDTV Profit (YouTube)|mrZMurDJiUs
+NDTV Profit (YouTube)|n-FrCP4hgfM
 NDTV Profit (YouTube)|n1WgUPu2iuY
 NDTV Profit (YouTube)|n7yzubGldtY
 NDTV Profit (YouTube)|nKqPxgj1vpw
@@ -2535,10 +2587,13 @@ NDTV Profit (YouTube)|qAJpQbCIY2o
 NDTV Profit (YouTube)|qAKLCQIkJRg
 NDTV Profit (YouTube)|qDIfV_TDwu4
 NDTV Profit (YouTube)|qNjDwoObI7Y
+NDTV Profit (YouTube)|qWk93LvclYw
 NDTV Profit (YouTube)|qny1_QgqayM
+NDTV Profit (YouTube)|qqKv4ar3oko
 NDTV Profit (YouTube)|r4BL8fauKSs
 NDTV Profit (YouTube)|rQzzoAqCW4c
 NDTV Profit (YouTube)|rR8nT7hWwdI
+NDTV Profit (YouTube)|rkoSd58rFts
 NDTV Profit (YouTube)|rmZ4QIH50X0
 NDTV Profit (YouTube)|s6MvMweSscA
 NDTV Profit (YouTube)|sSwgQb9YDms
@@ -2585,6 +2640,7 @@ NDTV Profit|https://www.ndtvprofit.com/business/apl-apollo-deal-could-get-a-make
 NDTV Profit|https://www.ndtvprofit.com/business/apl-apollo-to-buy-tata-steels-tubes-and-colors-business-for-rs-28-000-crore-12362748#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/audi-india-to-hike-vehicle-prices-by-up-to-2-percent-from-january-1-12369860#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/barc-trp-blackout-timeline-new-rules-and-what-it-means-for-tv-advertising-12359381#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/business/bisleri-in-trouble-again-west-bengal-water-sample-tests-positive-coliform-bacteria-12387297#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/black-friday-s-ai-paradox-retailers-fight-cyber-threats-amazon-takes-charge-to-block-them-12386587#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/ccpa-slaps-rs-10-lakh-fine-on-firm-for-listing-anti-drone-gun-on-indiamart-12361811#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/chatgpt-down-openai-says-users-facing-elevated-conversation-errors-12375755#publisher=newsstand
@@ -2615,6 +2671,7 @@ NDTV Profit|https://www.ndtvprofit.com/business/mistake-corrected-why-elon-musk-
 NDTV Profit|https://www.ndtvprofit.com/business/nothing-much-we-can-do-sc-dismisses-idbi-bank-officers-pension-appeals-after-fairfax-sale-nod-12376723#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/nvidia-blackwell-tech-used-at-china-site-tied-to-alice-huang-12386670#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/o-m-operation-mole-box-office-collection-day-3-dhanush-mammootty-starrer-wraps-up-its-opening-weekend-12362562#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/business/opinion-leather-jacket-off-rulebook-too-joining-the-dots-12388127#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/pnb-md-says-ecl-provision-requirement-is-around-rs-5-000-crore-with-no-impact-on-profitability-12362961#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/ramayana-outruns-dhurandhar-2-becomes-first-non-kannada-film-to-cross-rs-150-crore-in-karnataka-12361206#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/remember-when-bike-taxis-sounded-impossible-the-story-behind-rapido-12379175#publisher=newsstand
@@ -2626,6 +2683,7 @@ NDTV Profit|https://www.ndtvprofit.com/business/tata-social-welfare-trust-can-no
 NDTV Profit|https://www.ndtvprofit.com/business/tata-sons-board-meeting-postponed-fresh-date-to-be-decided-12364691#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/tata-sons-board-meeting-rescheduled-to-nov-30-after-noel-tatas-letter-12366130#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/tata-trust-vs-tata-trust-tata-sons-says-deferring-nov-30-meet-will-breach-dec-10-rbi-listing-deadline-12385449#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/business/tata-trusts-legal-challenge-can-wait-why-bombay-hc-let-tata-sons-board-meet-on-nov-30-12388256#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/tata-trusts-move-bombay-hc-against-tata-sons-seek-relief-against-all-directors-except-noel-tata-12379142#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/this-self-driving-excavators-startup-is-worth-4-1-billion-two-years-after-it-started-12375911#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/business/titan-sharpens-premium-fragrance-play-with-skinn-fastrack-bets-on-smaller-cities-for-growth-12380096#publisher=newsstand
@@ -2643,6 +2701,7 @@ NDTV Profit|https://www.ndtvprofit.com/economy/8th-pay-commission-govt-employees
 NDTV Profit|https://www.ndtvprofit.com/economy/8th-pay-commission-jpmorgans-1-83-fitment-factor-math-could-surprise-govt-employees-12382377#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/economy/a-newspaper-by-grade-5-the-unusual-budget-2027-suggestion-made-to-the-finance-ministry-12381769#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/economy/india-banking-cash-turns-to-deficit-for-first-time-since-june-12368477#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/economy/india-based-acg-capsules-to-move-production-to-u-s-after-trump-trade-crackdown-12387812#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/economy/india-european-union-likely-to-sign-free-trade-agreement-on-dec-16-12362098#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/economy/india-us-trade-deal-nearing-completion-eu-fta-likely-to-signed-this-year-piyush-goyal-12385320#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/economy/india-well-placed-to-navigate-us-tariff-hurdles-industry-veterans-say-12379615#publisher=newsstand
@@ -2651,7 +2710,9 @@ NDTV Profit|https://www.ndtvprofit.com/economy/modi-50-crore-people-lifted-out-o
 NDTV Profit|https://www.ndtvprofit.com/economy/no-structural-excess-capacity-in-any-sector-india-pushes-back-as-us-proposes-up-to-25-tariffs-12377514#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/economy/oil-prices-may-hit-100-as-houthi-attacks-raise-supply-risks-peter-mcguire-12383443#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/economy/rbi-guv-sanjay-malhotra-urges-banks-to-step-up-small-business-lending-for-greater-economic-gains-12359792#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/economy/rbi-steps-up-gold-loan-scrutiny-as-bullion-rout-signals-strain-12388153#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/economy/tax-ai-token-use-reward-training-raghuram-rajan-s-plan-to-protect-jobs-from-ai-12359535#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/education/30-000-applicants-1-000-seats-delhi-universitys-10-pg-expansion-plan-faces-pushback-12388214#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/ailet-2027-admit-cards-released-ahead-of-schedule-nlu-delhi-sets-december-6-as-download-deadline-12374102#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/bizarre-reasons-behind-uk-student-visa-rejections-raise-concerns-among-higher-education-aspirants-12375882#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/is-coding-no-longer-enough-in-india-ai-eats-into-campus-placements-as-it-hirings-take-a-hit-12376851#publisher=newsstand
@@ -2660,8 +2721,10 @@ NDTV Profit|https://www.ndtvprofit.com/education/jee-main-2027-session-1-over-15
 NDTV Profit|https://www.ndtvprofit.com/education/recruitment-cheating-racket-busted-in-jammu-and-kashmir-board-tightens-exam-security-12361754#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/rssb-cet-12th-level-admit-card-2026-to-be-out-today-direct-link-and-steps-to-download-rajasthan-cet-exam-hall-ticket-12379294#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/sbi-clerk-2026-mains-exams-today-vacancies-duration-of-exam-questions-marks-and-more-12379090#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/education/take-an-80-pay-cut-and-relocate-to-india-or-quit-by-december-31-ibm-employee-highlights-career-dilemma-12388042#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/telangana-inter-exams-2027-no-change-in-colleges-for-practical-tests-as-tsbie-drops-jumbling-plan-12374310#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/education/ugc-net-2026-candidates-can-change-exam-city-till-november-29-check-steps-12381929#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/education/uk-student-visa-rules-change-from-november-30-why-indians-must-recheck-their-bank-balance-12388287#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/a-joyful-face-is-always-beautiful-sadhgurus-response-to-tamannaah-bhatia-goes-viral-12372386#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/aakasamlo-oka-tara-box-office-collection-day-7-dulquer-salmaan-starrer-nears-rs-25-crore-holds-steady-12382167#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/after-red-look-kavya-maran-dazzles-in-white-gown-at-2nd-reception-with-anirudh-12366376#publisher=newsstand
@@ -2672,12 +2735,14 @@ NDTV Profit|https://www.ndtvprofit.com/entertainment/angelina-jolie-brad-pitt-se
 NDTV Profit|https://www.ndtvprofit.com/entertainment/anirudh-kavya-wedding-reception-tamil-nadu-cm-vijay-and-sangeetha-make-separate-appearances-12361070#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/anirudh-ravichander-kavya-maran-wedding-reception-couple-bring-royal-elegance-in-first-appearance-as-newlyweds-12361073#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/anirudh-ravichander-kavya-maran-wedding-reception-newlyweds-steal-the-spotlight-in-chennai-12359664#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/entertainment/atif-aslam-sings-dhurandhars-jaan-se-guzarte-hain-at-dubai-concert-crossover-nobody-could-have-scripted-12387989#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/avengers-doomsday-advance-booking-gets-into-high-gear-crosses-rs-60-crore-ahead-of-release-12375815#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/avengers-doomsday-advance-booking-marvel-fans-turn-up-the-heat-ahead-of-release-12359413#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/avengers-doomsday-advance-booking-marvels-next-big-film-off-to-a-strong-start-12385219#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/avengers-doomsday-tickets-now-available-on-disney-how-the-new-booking-feature-works-12367675#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/before-her-bollywood-debut-deepika-padukone-struggled-to-play-a-maid-in-anupam-kher-s-acting-class-12366079#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/bhogi-advance-booking-sharwanand-starrer-fires-up-the-ticket-counters-ahead-of-release-12381824#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/entertainment/bhogi-box-office-collection-day-1-sharwanand-starrer-opens-on-a-positive-note-12388251#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/bhuvan-bam-reveals-shah-rukh-khan-gave-him-a-champi-during-their-first-meeting-i-couldn-t-wash-my-hair-12369723#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/bigg-boss-and-teri-aakhya-ka-yo-kajal-sapna-choudhary-files-for-divorce-from-husband-veer-sahu-after-6-years-of-marriage-12364737#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/blade-runner-2099-ott-release-date-time-plot-episodes-cast-where-to-watch-streaming-online-prime-video-web-series-12371139#publisher=newsstand
@@ -2705,6 +2770,7 @@ NDTV Profit|https://www.ndtvprofit.com/entertainment/khushbu-sundar-opposes-fawa
 NDTV Profit|https://www.ndtvprofit.com/entertainment/king-song-daddy-cool-15-years-later-shah-rukh-khan-and-kareena-kapoor-share-the-dance-floor-again-12386255#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/love-scam-aur-dhokha-sukesh-chandrashekhars-journey-from-fake-identities-to-tihar-jail-in-netflix-documentary-12380944#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/music-grand-theft-auto-vi-video-game-gta-6-album-song-flower-in-a-hurricane-tops-spotify-global-chart-12372072#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/entertainment/naam-hai-tera-2-0-is-coming-himesh-reshammiya-reveals-release-date-and-first-details-12388134#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/naseer-sahab-would-have-hit-me-manoj-bajpayee-recalls-awkward-first-meeting-with-naseeruddin-shah-12380897#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/om-operation-mole-box-office-collection-day-7-dhanush-mammootty-starrer-continues-its-run-check-earnings-12382093#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/om-operation-mole-box-office-collection-on-day-5-dhanushs-film-crosses-rs-100-crore-worldwide-but-slows-down-12373043#publisher=newsstand
@@ -2720,6 +2786,7 @@ NDTV Profit|https://www.ndtvprofit.com/entertainment/ravi-kishan-reveals-father-
 NDTV Profit|https://www.ndtvprofit.com/entertainment/scene-box-office-collection-day-17-suriya-starrer-crosses-key-milestone-on-third-sunday-12362651#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/scene-box-office-collection-day-18-suriya-starrer-slows-down-on-third-monday-12367345#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/scene-box-office-collection-day-21-suriya-starrer-continues-its-steady-theatrical-run-into-week-three-12382285#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/entertainment/shah-rukh-khan-reveals-how-abram-introduced-him-to-aura-farming-while-watching-tu-mil-jaaye-12387833#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/shahid-kapoor-brings-home-a-new-land-rover-defender-octa-priced-at-rs-3-crore-12371085#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/shark-tank-india-season-6-namita-thapar-shares-five-reasons-she-loves-the-show-12369525#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/tom-hanks-impressed-by-sachana-namidass-performance-in-maharaja-says-what-an-incredible-actor-12380495#publisher=newsstand
@@ -2728,8 +2795,10 @@ NDTV Profit|https://www.ndtvprofit.com/entertainment/watch-sapna-choudhary-gets-
 NDTV Profit|https://www.ndtvprofit.com/entertainment/ye-prem-mol-liya-box-office-collection-day-1-ayushmann-khurrana-sharvari-film-records-a-good-opening-12383696#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/entertainment/yeh-prem-mol-liya-advance-booking-ayushmann-sharvari-starrer-makes-early-waves-at-box-office-12381667#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/1-700-year-old-history-unearthed-in-nashik-ancient-shivling-nandi-found-beneath-steps-in-ramkund-12374162#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/india/air-quality-on-november-28-how-bad-is-the-aqi-in-your-city-today-12388168#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/bagdogra-airspace-row-india-says-talks-with-nepal-strictly-limited-tp-civilian-connectivity-rejects-military-access-report-12361781#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/bengaluru-assam-man-stabs-himself-in-stomach-slits-neck-in-apparent-suicide-attempt-12376850#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/india/bisleri-disputes-fssai-findings-on-west-bengal-batch-cites-clean-reports-from-two-independent-labs-12388318#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/cars-acs-govt-jobs-yet-getting-free-ration-study-finds-13-of-pmgkay-beneficiaries-ineligible-12366177#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/cii-proposes-15-financial-sector-reforms-to-boost-long-term-growth-ambitions-12362018#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/cjps-abhijeet-dipke-backs-goa-villagers-against-mega-township-alleges-attack-on-petitioner-12359848#publisher=newsstand
@@ -2737,10 +2806,12 @@ NDTV Profit|https://www.ndtvprofit.com/india/congress-vs-meta-party-alleges-poli
 NDTV Profit|https://www.ndtvprofit.com/india/crustos-pizza-british-brewing-co-instamart-outlet-big-names-in-tukaram-mundhes-latest-crackdown-12366831#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/deepam-row-supreme-court-issues-contempt-notices-to-15-tamil-nadu-officials-12386682#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/deepam-row-supreme-court-orders-lamp-lighting-at-deepathoon-pulls-up-tamil-nadu-officials-12385088#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/india/delhi-crime-28-year-old-man-killed-after-lpg-cylinder-thrown-from-third-floor-balcony-in-bindapur-12388285#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/delhi-records-poor-aqi-despite-marginal-dip-check-most-polluted-locations-12361238#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/delhi-weather-temperature-drops-to-single-digit-air-quality-remains-severe-12383511#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/delimitation-bill-explained-what-is-it-who-supports-it-who-opposes-it-5-key-things-to-know-12383808#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/deputy-cm-abdul-owaisi-chandrashekhar-azads-big-up-promise-as-parties-vie-for-muslim-vote-12380996#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/india/diljit-dosanjh-concert-two-test-positive-for-drugs-during-anti-narcotics-cell-action-12387865#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/dk-shivakumar-bomb-scare-how-a-bengaluru-man-used-an-auto-drivers-phone-to-threaten-karnataka-cm-12385393#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/drink-and-drive-crash-former-gokul-director-and-ranjitsinh-patil-son-runs-over-two-at-midnight-12364896#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/drive-by-firing-outside-jewellery-store-in-mumbais-mahim-sparks-panic-what-police-know-so-far-12377109#publisher=newsstand
@@ -2779,6 +2850,7 @@ NDTV Profit|https://www.ndtvprofit.com/india/punjab-assembly-elections-2027-bjp-
 NDTV Profit|https://www.ndtvprofit.com/india/raj-thackeray-led-mns-distances-itself-from-opposition-to-diljit-dosanjhs-mumbai-concert-nothing-to-do-12386384#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/rs-5-000-monthly-allowance-25-lakh-govt-jobs-akhilesh-yadavs-up-manifesto-revealed-12380880#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/rs-5-58-lakh-chairs-rs-3-43-lakh-tv-whats-inside-ex-cm-and-aap-leader-arvind-kejriwals-sheesh-mahal-12383870#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/india/sharad-pawar-undergoes-tests-at-cancer-hospital-12387692#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/stock-market-holiday-today-november-24-are-bse-nse-open-or-closed-for-guru-nanak-jayanti-12368474#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/stray-dogs-kill-8-year-old-boy-in-amritsar-family-left-devastated-attack-raises-fresh-questions-over-safety-12366206#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/india/supreme-court-allowed-deepam-at-hilltop-but-vijay-government-chose-traditional-spot-12372132#publisher=newsstand
@@ -2988,6 +3060,7 @@ NDTV Profit|https://www.ndtvprofit.com/trending/black-friday-is-packed-with-fake
 NDTV Profit|https://www.ndtvprofit.com/trending/buying-a-bmw-on-credit-cards-reddit-user-shares-his-rs-85-lakh-payment-split-12369211#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/trending/claude-used-to-build-software-for-a-new-client-in-a-weekend-developer-says-12373774#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/trending/couples-visiting-the-park-should-behave-properly-mumbai-mayor-trolled-over-remark-on-assault-case-12369636#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/trending/dunzos-collapse-to-1-5-billion-ai-venture-how-mukund-jha-made-a-stunning-comeback-with-emergent-12388023#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/trending/eating-your-first-meal-after-noon-a-study-of-31-000-adults-links-it-to-a-higher-risk-of-death-12370931#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/trending/fiona-the-hippo-to-get-special-tribute-at-fc-cincinnatis-mls-playoff-match-12372299#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/trending/from-a-black-monolith-to-instamart-timer-the-mystery-gripping-gurugram-and-mumbai-12382123#publisher=newsstand
@@ -3014,9 +3087,11 @@ NDTV Profit|https://www.ndtvprofit.com/world/hackers-breach-fbis-crime-database-
 NDTV Profit|https://www.ndtvprofit.com/world/indians-nationals-among-several-killed-in-tragic-road-accident-in-uaes-ras-al-khaimah-12371926#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/iranian-singer-parastoo-ahmadi-and-four-crew-members-receive-74-lashes-each-lawyers-say-12369552#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/is-nvidia-rtx-5090-scalping-bubble-bursting-a-140-000-gpu-stash-tests-the-market-12371959#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/world/italy-approves-school-face-covering-ban-restricting-burqas-and-niqabs-during-activities-12388044#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/jeff-bezos-ex-wife-mackenzie-scott-donates-12-5-million-to-two-us-nonprofits-who-gets-the-money-12374200#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/lahore-is-worlds-most-polluted-city-as-aqi-crosses-500-three-indian-cities-rank-in-top-10-12362034#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/meghan-markles-father-thomas-charged-in-us-for-possessing-child-sex-abuse-images-12376687#publisher=newsstand
+NDTV Profit|https://www.ndtvprofit.com/world/netanyahu-ready-to-serve-as-second-pm-in-rotation-with-eisenkot-say-reports-12388219#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/toxic-wasteland-gazas-air-water-and-soil-contaminated-due-to-israeli-bombardment-says-oxfam-report-12367546#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/un-climate-talks-collapse-in-acrimony-as-nations-reject-deal-12362459#publisher=newsstand
 NDTV Profit|https://www.ndtvprofit.com/world/who-was-paolo-bulgari-bvlgari-chairman-whose-jewellery-adorned-hollywood-stars-royalty-dies-at-89-12366261#publisher=newsstand
@@ -3423,6 +3498,10 @@ PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342835
 PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342836
 PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342839
 PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342918
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342954
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342955
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342965
+PIB (Finance etc)|https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342975
 PR Sundar|-9bVWf986mI
 PR Sundar|2RYso8RJ3wQ
 PR Sundar|4uWtxPq8mOg
@@ -3433,6 +3512,7 @@ PR Sundar|F8bxEb0F3bg
 PR Sundar|GswBIOdJmPI
 PR Sundar|Lll4Yd38lSQ
 PR Sundar|NqJMel1R0_4
+PR Sundar|UUeXEgZIykk
 PR Sundar|VNoa7vVCkF0
 PR Sundar|bKMrls8zz1E
 PR Sundar|doaqVWigjig
@@ -3647,6 +3727,7 @@ SCMP business|https://www.scmp.com/business/china-business/article/3375983/spiri
 SCMP business|https://www.scmp.com/business/china-business/article/3375991/nvidias-31-surge-20-40-us-tariffs-china-5-figures-investors-are-watching-week
 SCMP business|https://www.scmp.com/business/china-business/article/3376011/chinas-state-council-says-it-considering-more-measures-bolster-flagging-stocks
 SCMP business|https://www.scmp.com/business/china-business/article/3376043/failed-california-billionaire-tax-proposal-gets-close-look-china-tax-circles
+SCMP business|https://www.scmp.com/business/china-business/article/3376048/chinese-heavy-machinery-giants-xcmg-sany-deploy-driverless-electric-fleets-global-push
 SCMP business|https://www.scmp.com/business/china-evs/article/3375184/catls-china-battery-market-share-extends-six-month-slide-amid-carmaker-diversification
 SCMP business|https://www.scmp.com/business/china-evs/article/3375583/catls-grip-chinese-ev-makers-loosens-xpeng-doubles-down-battery-production
 SCMP business|https://www.scmp.com/business/china-evs/article/3375711/byd-eyes-second-european-plant-enters-talks-ineos-over-french-assembly-france
@@ -3962,6 +4043,7 @@ Zerodha Daily Brief|https://thedailybrief.zerodha.com/p/the-worlds-oil-has-a-bur
 Zerodha Daily Brief|https://thedailybrief.zerodha.com/p/weekly-tidbits-12
 Zerodha Daily Brief|https://thedailybrief.zerodha.com/p/weekly-tidbits-13
 Zerodha Daily Brief|https://thedailybrief.zerodha.com/p/weekly-tidbits-14
+Zerodha Daily Brief|https://thedailybrief.zerodha.com/p/weekly-tidbits-15
 Zerodha Daily Brief|https://thedailybrief.zerodha.com/p/who-pays-to-invent-the-energy-future
 Zerodha Z-Connect|https://zerodha.com/z-connect/?p=445134
 Zerodha Z-Connect|https://zerodha.com/z-connect/?p=445190

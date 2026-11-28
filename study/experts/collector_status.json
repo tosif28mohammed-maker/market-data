@@ -1,12 +1,14 @@
 {
- "run_utc": "2026-11-28 01:53",
+ "run_utc": "2026-11-28 08:17",
  "sources": 74,
  "failed": [
   "SEBI"
  ],
- "new_items": 5,
- "kept": 4,
+ "new_items": 82,
+ "kept": 62,
  "transcripts_ok": 0,
- "transcript_errors": {},
+ "transcript_errors": {
+  "RequestBlocked": 7
+ },
  "books_new": []
 }

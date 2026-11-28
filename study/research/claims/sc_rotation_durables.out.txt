@@ -1,7 +1,9 @@
-^NSEI 4708 2007-09-17 2026-11-26
+/home/runner/work/market-data/market-data/study/research/claims/sc_rotation_durables.py:32: Pandas4Warning: Sorting by default when concatenating all DatetimeIndex is deprecated.  In the future, pandas will respect the default of `sort=False`. Specify `sort=True` or `sort=False` to silence this message. If you see this warnings when not directly calling concat, report a bug to pandas.
+  E=pd.concat({'n':N,'cd':CD},axis=1).dropna()
+^NSEI 4709 2007-09-17 2026-11-27
 ^CNXSC 1 2026-11-27 2026-11-27
 NIFTY_CONSR_DURBL.NS 1 2026-11-27 2026-11-27
-^CNXCONSUM 3767 2011-07-12 2026-11-26
+^CNXCONSUM 3768 2011-07-12 2026-11-27
 
 === AI-14BEFA Smallcap250 minus Nifty 12m return; fwd relative (SC - Nifty), monthly samples
  3m ALL       N0
@@ -17,16 +19,15 @@ NIFTY_CONSR_DURBL.NS 1 2026-11-27 2026-11-27
  12m rel>25%   N0
  12m rel<-17%  N0
  episodes (first cross >17%), fwd 6m/12m rel:
+ today rel 12m nan 2026-11-27
+
+=== AI-CCEDA6 Consumer Durables vs Nifty, 2y hold (monthly start points)
 Traceback (most recent call last):
-  File "/home/runner/work/market-data/market-data/study/research/claims/sc_rotation_durables.py", line 31, in <module>
-    print(' today rel 12m', round(rel.iloc[-1]*100,1), D.index[-1].date())
-                                  ~~~~~~~~^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1342, in __getitem__
-    return self._getitem_axis(maybe_callable, axis=axis)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 2432, in _getitem_axis
-    self._validate_integer(key, axis)
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 2365, in _validate_integer
-    raise IndexError("single positional indexer is out-of-bounds")
-IndexError: single positional indexer is out-of-bounds
+  File "/home/runner/work/market-data/market-data/study/research/claims/sc_rotation_durables.py", line 37, in <module>
+    f=fr2[a:b].reindex([x for x in mm if str(a)<=str(x.year)<=str(b)]).dropna()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/market-data/market-data/study/research/claims/sc_rotation_durables.py", line 37, in <listcomp>
+    f=fr2[a:b].reindex([x for x in mm if str(a)<=str(x.year)<=str(b)]).dropna()
+                                                     ^^^^^^
+AttributeError: 'numpy.datetime64' object has no attribute 'year'
 fail study/research/claims/sc_rotation_durables.py
