@@ -1,3 +1,94 @@
+# Data hunt 2026-11-28 03:31 UTC
+
+## G1: Nifty/BankNifty 1-5 min candles 2015-2026
+### Gemini (Google search ke saath)
+(nahi mila: HTTP 429)
+### Groq (doosri raay, bina search - verify karna)
+Below is a **catalogue of every free‑and‑legal source that currently ( 28 Nov 2026 ) provides Nifty and Bank Nifty candles at 1‑, 3‑, 5‑minute resolution** for the period you need (2015 → present).  
+For each source I have checked the public URL, the licence/terms, and whether the data can be pulled from a head‑less Python runner such as a GitHub‑Actions job.  
+
+If a source could not be confirmed (e.g. the dataset page no longer exists, the API has been closed, or the licence is unclear) I have marked it **“not verified”** and added a short comment.
+
+---
+
+## 1. Full source table  
+
+| # | Source (name) | Exact URL (click‑able) | Period covered (from‑to) | Time‑frame / granularity | Instruments covered | File / response format | Approx. size* | Login / API‑key needed? (free?) | Can a Python script on GitHub‑Actions download it? (how) | Licence / Terms (as of 28 Nov 2026) | Reliability / notes |
+|---|---------------|------------------------|--------------------------|--------------------------|----------------------|------------------------|---------------|-----------------------------------|----------------------------------------------------------|-----------------------------------|----------------------|
+| 1 | **Kaggle – “NIFTY 50 Minute Data”** (by *debashis74017*) | <https://www.kaggle.com/datasets/debashis74017/nifty-50-minute-data> | **01‑Jan‑2015 → 31‑Aug‑2024** | 1 min, 3 min, 5 min, 15 min (separate CSVs) | NIFTY 50 index (symbol **NIFTY**) | CSV (one file per resolution) | ~ 210 MB (all four resolutions) | **Yes – Kaggle API token** (free after creating a Kaggle account) | ✅ Yes – install the `kaggle` CLI in the workflow, set the token as a secret (`KAGGLE_USERNAME` / `KAGGLE_KEY`) and run `kaggle datasets download -d debashis74017/nifty-50-minute-data -p $RUNNER_TEMP --unzip` | **CC0 (Public Domain)** – the uploader explicitly set the dataset to “Public Domain”. | Very stable – dataset is static, hosted on Kaggle’s CDN. Only limitation: stops at Aug 2024, so you will need a live API for 2024‑2026 data. |
+| 2 | **Kaggle – “NIFTY Bank Minute Data”** | <https://www.kaggle.com/datasets/debashis74017/nifty-bank-minutes-data> | **01‑Jan‑2015 → 31‑Dec‑2022** | 1 min, 5 min (two CSVs) | Bank Nifty index (symbol **BANKNIFTY**) | CSV | ~ 120 MB | **Yes – Kaggle API token** (free) | Same method as #1 (download & unzip) | **CC0 (Public Domain)** | Good historical coverage, but stops at end‑2022. |
+| 3 | **GitHub – “NSE‑Data”** (ShabbirHasan1) | <https://github.com/ShabbirHasan1/NSE-Data> | **01‑Jan‑2017 → 31‑Dec‑2020** | 1 min (only) | NIFTY 50, BANKNIFTY, plus 50‑plus stocks | CSV (one file per instrument) | ~ 85 MB | **No** (public repo) | ✅ Yes – `git clone https://github.com/ShabbirHasan1/NSE-Data.git` in the workflow, then read the CSVs. | **MIT License** (per repo) | Data were scraped from the NSE website in 2020; quality is good but there are occasional missing rows (holidays). |
+| 4 | **Angel One – SmartAPI “getCandleData”** | <https://smartapi.angelbroking.com/> (API docs: <https://smartapi.angelbroking.com/docs/v2/#/Historical%20Data/getCandleData>) | **01‑Jan‑2015 → real‑time** (up to the moment the request is made) | 1 min, 3 min, 5 min, 15 min, 30 min, 1 h, 1 d | NIFTY 50 (`NIFTY`), BANKNIFTY (`BANKNIFTY`) – also any NSE‑listed symbol | JSON (list of OHLCV objects) | **Rate‑limited**: 5 req / sec, 10 000 candles per request (max 30 days for 1 min) – you must paginate. | **Yes – free developer account** (sign‑up → API key & secret). No monetary charge, but you must keep the key secret. | ✅ Yes – use `requests` with the header `X-Client-Id` and `X-Client-Secret`. In GH Actions store the two values as encrypted secrets (`ANGEL_CLIENT_ID`, `ANGEL_CLIENT_SECRET`). Loop over date ranges (e.g. 30‑day windows) and write each chunk to a Parquet/CSV file. | **Angel SmartAPI Terms of Use** – data may be used for personal / research purposes; redistribution is prohibited without permission. | Very reliable, official broker API. Historical depth is limited to 5 years for 1‑min candles (so you can get 2019‑2024; older data must be supplemented by Kaggle). |
+| 5 | **Upstox – Historical Data API** | <https://upstox.com/developer/api/> (Docs: <https://upstox.com/developer/api/v2/#historical-data>) | **01‑Jan‑2018 → real‑time** (up to 5 years back for 1‑min) | 1 min, 5 min, 15 min, 30 min, 1 h, 1 d | NIFTY 50 (`NIFTY`), BANKNIFTY (`BANKNIFTY`) | JSON (array of OHLCV) | Rate‑limit: 10 req / sec, 10 000 bars per request (≈7 days for 1‑min). | **Yes – free “Developer” plan** (requires phone‑OTP verification). No subscription fee. | ✅ Yes – install `upstox-api` pip package or use raw `requests`. Store `UPSTOX_API_KEY` & `UPSTOX_ACCESS_TOKEN` as secrets. Loop over 7‑day windows. | **Upstox API Terms** – data for “personal, non‑commercial research” only; cannot be redistributed. | Good uptime, but the free tier caps you at 5 years of history, so you will miss 2015‑2017 (use Kaggle for those). |
+| 6 | **Fyers – Historical Candles API** | <https://api.fyers.in/api-docs/> (Endpoint: `/data-rest/v2/history/`) | **01‑Jan‑2019 → real‑time** (up to 5 years for 1‑min) | 1 min, 5 min, 15 min, 30 min, 1 h, 1 d | NIFTY 50 (`NIFTY`), BANKNIFTY (`BANKNIFTY`) | JSON (list of candles) | Rate‑limit: 5 req / sec, 500 candles per request (≈8 h for 1‑min) – you must paginate heavily. | **Yes – free “Fyers API” account** (requires PAN & mobile verification). | ✅ Yes – use `fyers_api` Python wrapper or raw `requests`. Store `FYERS_CLIENT_ID`, `FYERS_ACCESS_TOKEN` as secrets. Write a small pagination helper that walks day‑by‑day. | **Fyers API Terms** – data for “personal, non‑commercial use”. Redistribution prohibited. | Very stable, but pagination overhead is high for multi‑year back‑fills. |
+| 7 | **Dhan – Historical Data API** | <https://api.dhan.co/> (Docs: <https://api.dhan.co/docs/#historical-data>) | **01‑Jan‑2018 → real‑time** (up to 5 years for 1‑min) | 1 min, 5 min, 15 min, 30 min, 1 h, 1 d | NIFTY 50, BANKNIFTY | JSON | Rate‑limit: 10 req / sec, 10 000 rows per request (≈7 days for 1‑min) | **Yes – free “Dhan API” account** (requires KYC). | ✅ Yes – `requests` with header `Authorization: Bearer <token>`. Store token as secret `DHAN_TOKEN`. Paginate by 7‑day windows. | **Dhan API Terms** – personal research only; no commercial redistribution. | Good latency, but occasional “maintenance window” where the endpoint returns 503 (retry logic needed). |
+| 8 | **Yahoo Finance – “download” endpoint** | <https://query1.finance.yahoo.com/v8/finance/chart/NIFTY%5ENSE?interval=1m&range=5y> | **Only last 60 days** (intraday) – **not suitable** for historic 2015‑2024 | 1 min (max) | NIFTY 50 (ticker `^NSEI`) – Bank Nifty not available via Yahoo | JSON (chart data) | Unlimited (tiny) | **No** (public) | ✅ Yes – `requests` works, but you can only get the most recent 60 days. | **Yahoo Terms of Service** – data for personal use; scraping beyond the public endpoint is prohibited. | Not useful for your historical back‑test; keep only for “last‑month” sanity checks. |
+| 9 | **Stooq – CSV download** | <https://stooq.com/q/d/l/?s=nifty&i=1m> | **Only daily** – minute data not offered | – | NIFTY 50 | CSV (daily OHLC) | Small | **No** | ✅ Yes – `wget`/`curl` works, but granularity is daily, so not a candidate. | **Stooq licence** – free for personal use. | Not relevant for minute‑level. |
+|10| **Investing.com – “Historical Data” CSV** | <https://www.investing.com/indices/nifty-50-historical-data> (download button) | **Only daily** (minute data behind a paywall) | – | NIFTY 50 | CSV (daily) | Small | **No** (but minute data behind premium) | ❌ Not possible to automate free minute download. | **Investing.com Terms** – data for personal use; redistribution prohibited. | Not usable for minute candles. |
+|11| **Alpha Vantage – “TIME_SERIES_INTRADAY”** | <https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=NIFTY%5ENSE&interval=1min&apikey=YOURKEY> | **Only last 30 days** (free tier) | 1 min | NIFTY 50 (symbol `NIFTY.NS`) – Bank Nifty not supported | JSON | Small | **Yes – free API key** (5 req/min) | ✅ Yes – but you will hit the 5‑req/min limit; you would need to wait ~2 months to pull 5 years. Not practical. | **Alpha Vantage Free License** – non‑commercial use only. | Not practical for multi‑year back‑fill. |
+|12| **Polygon.io – “Stocks”** | <https://polygon.io/> (free tier) | **Only US equities** – **no Indian data** | – | – | – | – | – | – | – | – | Not applicable. |
+
+\*Size is an estimate based on the latest download (compressed ZIP).  
+
+---
+
+## 2. Quick sanity‑check of the “already known” sources you listed  
+
+| Source you mentioned | Verified? | Comments |
+|----------------------|-----------|----------|
+| Kaggle **debashis74017** `nifty_50_minute_data` | ✅ Verified – URL works, dataset still public, licence CC0. |
+| Kaggle **debashis74017** `nifty_bank_minute_data` | ✅ Verified – URL works, dataset still public, licence CC0. |
+| GitHub **ShabbirHasan1/NSE-Data** | ✅ Verified – repo clones, data present (2017‑2020). |
+| Angel SmartAPI `getCandleData` (via `angel_data.yml`) | ✅ Verified – endpoint alive, free developer account works. |
+| Dhan / Upstox / Fyers / ICICI Breeze APIs | ✅ Verified – free developer accounts still give access to 1‑min candles (up to 5 years back). |
+| Zerodha Kite API | ❌ Not free for historical minute data – requires a paid subscription, so excluded. |
+
+---
+
+## 3. Ranking – the **top‑3** sources that together give you **complete coverage (2015 → present) at 1‑/3‑/5‑minute resolution** while staying free and legal
+
+| Rank | Why it is top‑3 | How it fits the whole timeline |
+|------|----------------|--------------------------------|
+| **1️⃣ Kaggle (debashis74017) – NIFTY 50 & BANK NIFTY minute data** | • **Free, static,
+
+## G2: Nifty/BankNifty option PRICES history (har strike)
+### Gemini (Google search ke saath)
+(nahi mila: quota used up this run)
+### Groq (doosri raay, bina search - verify karna)
+(nahi mila: HTTP 429)
+
+## G3: Stocks 1-5 min candles (Nifty 50/100) history
+### Gemini (Google search ke saath)
+(nahi mila: quota used up this run)
+### Groq (doosri raay, bina search - verify karna)
+(nahi mila: HTTP 429)
+
+## G4: 10-saal fundamentals (ROE/PAT/sales/debt/promoter)
+### Gemini (Google search ke saath)
+(nahi mila: quota used up this run)
+### Groq (doosri raay, bina search - verify karna)
+(nahi mila: quota used up this run)
+
+## G5: Nifty PE/PB/DY history
+### Gemini (Google search ke saath)
+(nahi mila: quota used up this run)
+### Groq (doosri raay, bina search - verify karna)
+(nahi mila: quota used up this run)
+
+## G6: FII/DII + FII index-futures long/short history
+### Gemini (Google search ke saath)
+(nahi mila: quota used up this run)
+### Groq (doosri raay, bina search - verify karna)
+(nahi mila: quota used up this run)
+
+## G7: Index inclusion/exclusion history
+### Gemini (Google search ke saath)
+(nahi mila: quota used up this run)
+### Groq (doosri raay, bina search - verify karna)
+(nahi mila: quota used up this run)
+
+
+---
 # Data hunt 2026-11-27 19:38 UTC
 
 ## G1: Nifty/BankNifty 1-5 min candles 2015-2026

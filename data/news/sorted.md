@@ -1,44 +1,44 @@
 # छँटी हुई खबरें — 2026-11-28 (Groq ने छाँटी, बड़ी शक वाली Gemini+Google से जाँची)
 
-कुल headlines 1136, छँटी 722, काम की (ताकत ≥3, fact, एक कहानी एक बार) 266, अफ़वाह/राय/clickbait 178
+कुल headlines 1136, छँटी 120, काम की (ताकत ≥3, fact, एक कहानी एक बार) 54, अफ़वाह/राय/clickbait 26
 
-- [5/negative] indices: Stock market today: Sensex tumbles nearly 1000 points, Nifty50 below 25,650 after 2-day rally - key reaso - The Times of India
-- [5/negative] indices: Sensex down 990 points, Nifty near 25600 - ChiniMandi
-- [5/negative] indices: Sensex falls 1120 pts intraday post 2-day rise: Consolidation here to stay? - Business Standard
-- [5/negative] rates: Hawkish Fed poised to raise rates despite stock market turmoil - Financial Times
-- [5/negative] rates: Fed likely to raise rates by 25 bps in December amid inflation concerns - KuCoin
-- [5/negative] rates: Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos
-- [5/negative] Trade: US Tariffs on India are Driven by Concerns About Make In India, Chinese Imports - TheWire.in
-- [4/negative] funds: Domestic institutional investors sell ₹55,570 crore in rally - Multibagg AI
-- [4/negative] bonds: Indian bonds tumble as Brent tops $95 per barrel, RBI flags food inflation risks - BusinessLine
-- [4/positive] AVROIND: Avro India Limited Recycling Revenue Rises 102.6% in Q2 FY27 - Multibagg AI
+- [4/negative] indices: Stock market today: Sensex tumbles nearly 1000 points, Nifty50 below 25,650 after 2-day rally - key reaso - The Times of India
+- [4/negative] indices: Sensex down 990 points, Nifty near 25600 - ChiniMandi
+- [4/negative] institutional: Domestic institutional investors sell ₹55,570 crore in rally - Multibagg AI
+- [4/none] AKMEFIN: Akme Fintrade (India): This is to inform you that pursuant to Regulation 30 read with… - Howl.Link
+- [4/negative] currency: Indian Rupee: RBI tightening bias into inflation risks – DBS - FXStreet
+- [4/negative] monetary policy: Nomura raises RBI rate hike call to 50 bps, sees inflation above 6% for two quarters - https://www.indiagazette.com/
+- [4/negative] monetary policy: 50 bps rate hike still possible in Dec amid stronger growth, higher inflation: Report - Telangana Today
+- [4/negative] debt: Indian bonds tumble as Brent tops $95 per barrel, RBI flags food inflation risks - BusinessLine
+- [4/negative] monetary policy: Nomura ups December RBI hike forecast to 50 bps; BoB maintains 25 bps view - FlipItMoney
+- [4/negative] securities: SEBI MTF Funding Requires 50% Cash Collateral From July 2026 - Multibagg AI
+- [4/mixed] IIFCL,UCOBANK: IIFCL, UCO Bank eye debut dollar debt before RBI window shuts, say bankers - Business Standard
 - [4/negative] SIMBHALS: Simbhaoli Sugars SIMBHALS Q2 FY27 Results Under CIRP - Kalkine India
-- [4/positive] COALINDIA: Centre Hits 44% Of FY27 PSU Dividend Target, Coal India Leads The Charge With ₹7,912 Crore Payout - Free Press Journal
-- [4/negative] Commodity: Gold has crashed from $5,500 to below $3,500 — how much further could it fall? - Mitrade
-- [4/negative] Commodity: Gold Falls Below $3,500 Mark as Russia Offloads 72 Tons Over Ten Straight Months, Becoming Biggest Selling Pressure - BigGo Finance
-- [4/negative] Commodity: Silver price down 66%: Can it recover? - IG Bank
-- [4/positive] Defence: Omnitech Engineering hits upper circuit on BrahMos Aerospace order; NIFTY India Defence index jumps 4% - Upstox
-- [4/positive] BEML,BDL,HAL: Defence shares skyrocket up to 17%; BEML, BDL, HAL lead gains - TradingView
-- [4/positive] BEML: BEML shares surge 17% to hit 52-week high amid rally in defence stocks; here’s what investors should know - Upstox
-- [4/positive] BEML,BEL,HAL: BEML, BEL, HAL, Cochin Shipyard, Bharat Dynamics shares: Defence stocks rise up to 14%; here's why | Top 5 stocks to buy - Livemint
-- [4/positive] defence: Defence Stocks Jump by Up to 17% in Today's Trading Session; Check the Reason Why - Trade Brains
-- [4/positive] BEML: BEML, Data Patterns, Solar Industries, other defence stocks rally up to 11%. What Choice analysts are sayi - The Economic Times
-- [4/positive] overall: Indian Stocks Rally as Sensex Jumps 773 Points, Nifty Closes Above 25,250 - INDIA New England News
-- [4/positive] HDFCBANK,SBI,ICICIBANK: Banking stocks hit the accelerator! Nifty Bank index up 18% in 1 month; HDFC Bank, SBI, ICICI Bank- 9 best stocks to buy - Livemint
-- [4/negative] commodity: Copper heads for worst monthly drop since 2015: Prices slide 16% to 11-month low - The Financial Express
-- [4/positive] HINDZINC,VEDL,NALCO: NIFTY Metal soars 2% as Hindustan Zinc, Vedanta, NALCO shares lead gains on Nov 27; check details - Upstox
-- [4/positive] BALAJI: Balaji Amines gets FDA approval to manufacture Propylene Glycol for pharma industry - CNBC TV18
-- [4/positive] WAAREENR: Top Gainers Today 27-Nov-2026: Waaree Renewable Soars 20% - Multibagg AI
-- [4/positive] WAAREENR: Waaree Renewable Technologies shares surge up to 14% after winning 120 MWp EPC order - The Economic Times
-- [4/negative] BRITANNIA,NESTLE,ITC: Britannia, Nestle, ITC: FMCG stocks decline as SC orders separate warning labels for high sugar, salt, fat - Upstox
-- [4/negative] YESBANK: Yes Bank AT1 bond verdict: 60 lakh retail shareholders face ₹8,415-crore bill - The Hindu
-- [4/negative] Legal: P&H HC Denies PMLA Bail to CA Accused of Facilitating Rs. 1,626 Crore Bank Fraud - TaxGuru
-- [4/none] Power: PFC creates encumbrance on 56% of Vedanta Power promoter shares - scanx.trade
-- [4/negative] Retail: Le Lavoir shares hit 5% lower circuit as SEBI issues interim order - Moneycontrol.com
-- [4/none] Retail: Sebi bars Le Lavoir chairman, 13 others over suspected stock manipulation, fund diversion - India Today
-- [4/none] Food & Beverage: SEBI Appoints Forensic Auditor to Probe ₹3,535 Crore Coffee Day Fund Diversion - The420
-- [4/none] Financial Services: Motilal Oswal Financial Services fined ₹10 lakh by SEBI for KYC lapses - scanx.trade
-- [4/none] COFFEEDAY: Coffee Day Enterprises (NSE: COFFEEDAY) Says SEBI Appointed a Forensic Auditor - Kalkine India
-- [4/positive] ADISOFT: Adisoft Technologies Hits 5% Upper Circuit After Bagging ₹12.56 Cr Domestic Industrial Automation Order - Trade Brains
-- [4/positive] Consumer Goods: PL Capital High Conviction Stocks: HUL, Astral, Grindwell - Univest
-- [4/positive] GLENMARK: Glenmark Pharma hits new high, up 5th straight day; gains 35% from Oct low - Business Standard
+- [3/mixed] IT: Sensex, Nifty Trade Lower as IT Drags; Metals Outperform - HDFC Sky
+- [3/negative] IT: Closing Bell, 27 November 2026: Sensex, Nifty Fall as IT Stocks Face Selling Pressure - Kotak Neo
+- [3/negative] indices: Stock markets snap 2-day rally; Sensex, Nifty end in red amid profit booking - DD India
+- [3/negative] commodities: Sensex, Nifty open lower as Brent crude surges above $96; Geopolitical tensions weigh on market sentiment - ChiniMandi
+- [3/positive] institutional: FIIs and DIIs raised stakes in 5 stocks; both hold ~24% each in one - FlipItMoney
+- [3/negative] IT: Sensex slips 300 pts, Nifty snaps 2-day rally as IT, FMCG stocks fall; mid and smallcaps buck trend - The Economic Times
+- [3/positive] ICICIBANK,LAURUSLABS: MCX, ICICI Bank, Laurus Labs: 8 stocks that hit record highs on November 26; here’s what charts show - Upstox
+- [3/positive] WIPRO,HZL: NIFTY trades above 25,850, SENSEX jumps over 370 pts; Wipro, HZL, Siemens Energy among buzzing stocks - Upstox
+- [3/negative] rates: India swaps, treasury bills signal possibility of outsized RBI rate hike next week - Reuters
+- [3/negative] rates: RBI restores 90% daily CRR requirement for banks as liquidity tightens - Business Standard
+- [3/negative] rates: Indian Bond Markets Signal Risk of a 50-Basis-Point RBI Rate Hike - Tekedia
+- [3/negative] rates: Nomura Now Sees India’s RBI Hiking by 50 Basis Points in December - Bloomberg.com
+- [3/negative] rates: RBI Rate Hike In December? Deutsche Bank Sees 50 Bps Move, Repo At 6.25% - NDTV Profit
+- [3/positive] macroeconomics: India’s economy likely to grow 7.3% in Q2 FY27: Finance Ministry - DD News
+- [3/mixed] macroeconomics: India's resilient GDP growth story rubs up against sticky inflation - Nikkei Asia
+- [3/positive] macroeconomics: ADB raises India’s GDP growth forecast to 7pc on stronger-than-expected Q1 growth - DD News
+- [3/negative] macroeconomics: GDP growth likely to ease to 7.6% in Q2; most economists expect policy rate at 6% by March 2027 - Moneycontrol.com
+- [3/negative] macroeconomics: Inflation more generalised, more categories seeing price hikes: RBI paper - Business Standard
+- [3/negative] macroeconomics: Retail Inflation Hits 6.09%, Food Prices Squeeze Budgets - India Business Trade
+- [3/negative] macroeconomics: Core inflation in Tokyo hits 16-month high, bolsters case for rate hike - Nikkei Asia
+- [3/negative] macroeconomics: India's GDP growth likely slowed to 7.6% in Q2FY27, India Ratings projects - The Economic Times
+- [3/positive] debt: India’s debt-to-GDP ratio set to fall to 75.1% by 2031, defying global trend: EY - Firstpost
+- [3/negative] AVROIND: Avro India H1 FY27 Revenue Rises 28.9% as PAT Falls 9.2% - Multibagg AI
+- [3/negative] company: Mitshi India cancels Q2FY27 results board meeting citing delay - scanx.trade
+- [3/positive] manufacturing: Capex Revival, Manufacturing & FII Flows: Abhay Laijawala's Playbook - Moneycontrol.com
+- [3/positive] ASAHI: Asahi India Glass Share Price: Rs 1,161 as Q2 Profit Jumps - Univest
+- [3/positive] ABDL: Allied Blenders and Distillers Q2 FY27 Results Revenue Rises 15.8% to ₹1,152 Crore as Quarterly Sales Cross 10 Million Cases - Aabkari Times
+- [3/positive] PIIND: PI Industries Plans Investor Meetings Following Q2 Financial Results - Sahi
