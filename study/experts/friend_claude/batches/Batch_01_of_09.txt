@@ -1,0 +1,1559 @@
+===== INSTRUCTIONS (follow exactly) =====
+" se "
+
+This file is BATCH 1 of 9. Do the full work for every video in THIS file now, in the format above. Do not ask what to do.
+===== END INSTRUCTIONS — TRANSCRIPTS START BELOW =====
+
+BATCH 1 of 9 — 5 YouTube transcripts. Each file starts with "##### FILE:".
+
+
+
+##### FILE: 1MtJpWlooyo.txt
+video: https://www.youtube.com/watch?v=1MtJpWlooyo
+title: Safety and NAV of Mutual Funds | Finology Academy of Mutual Funds EP -2
+channel: Pranjal Kamra
+
+हां तो फिनोलॉजी एकडमी ऑफ़ म्यूच्यूल फंड्स के सेकंड एपिसोड में हम डिस्कस करेंगे सेफ्टी के बारे में। ये एक बहुत इंपॉर्टेंट सवाल है। और इसे हम ना जितना पूछना चाहिए उतना पूछते नहीं है। म्यूच्यूल फंड्स में सेफ्टी का क्या? हम भरोसा क्यों करें? हर महीने सेविंग्स करके हम इस फंड में डालेंगे। हमारा पैसा डूब गया तो कंपनी बंद हो गई तो मार्केट में रिटर्न्स जैसे एक्सपेक्टेड है वैसे नहीं आए तो बहुत सारे रिस्क है ना तो हम भरोसा कैसे करें और ये बहुत अच्छी बात है मुझे बहुत खुशी होती है जब कोई किसी पे डाउट करता है डाउट अच्छी बात है हम पता नहीं इसको बुरा क्यों बोलते हैं। इनफैक्ट मुझे डर लगता है जब कोई मुझे भी ना कभी सोशल मीडिया में अगर कमेंट आ जाए कि सर हम आप पे आंख बंद करके भरोसा करते हैं तो मुझे बहुत डर लगता है कि आंख बंद करके भरोसा क्यों करना है किसी पे भी। देखो इस बात को समझो कि धोखा वहीं हो सकता है टेक्निकली लॉजिकली जहां भरोसा है। मैं किसी पे भरोसा ही नहीं करता तो वो मुझे धोखा क्या देगा? तो धोखा पूरे इतिहास में वहां दिया गया है जहां भरोसा होता है। तो भरोसा बहुत ही प्रेशियस चीज है। बहुत ही मूल्यवान है। बहुत रेयरली बहुत मुश्किल से और आंख बंद करके तो कभी भी नहीं। सिर्फ मुझसे नहीं सरकार हो, आपके आसपास के लोग हो, थोड़ा बहुत संदेह करना ठीक है। वो आपको सेफ रखेगा और फाइनेंस में तो यह बहुत ज्यादा जरूरी है। आंख बंद करके भरोसा मत करिए। तो अब हम म्यूच्यूल फंड्स पर आते हैं कि हम इस पर भरोसा कैसे करें? इसमें रिस्क क्या है? सेफ्टी का इसमें टेक्निकली लॉजिकली क्या तरीका है? देखो थोड़ी टेक्निकिटीज स्ट्रक्चर की बात होगी तो यह वीडियो बोरिंग लग सकता है। लेकिन यह जरूरी है। एक बहुत अच्छी फाउंडेशन यह वीडियो बनाएगा जिंदगी भर आपके म्यूच्यूल फंड इन्वेस्टमेंट्स के लिए। और अक्सर फाइनेंस में बोरिंग थिंग्स ज्यादा प्रॉफिटेबल होती है, ज्यादा जरूरी होती है। तो शुरू करें। देखो सबसे पहला सवाल यह आता है मैं जो पैसा डाल रहा हूं वो पैसा डूब गया तो अगर कंपनी बंद हो गई मान लो मैं HDFC के फंड में इन्वेस्ट कर रहा हूं ICICI या कोई भी वो कंपनी बंद हो गई तो क्या होगा? बहुत वाजिब सवाल है। इस सवाल से ना हम म्यूच्यूल फंड के स्ट्रक्चर को समझते हैं। देखो एक म्यूच्यूल फंड एंटिटी में ना बेसिकली पांच प्लेयर्स इनवॉल्वड होते हैं। सबसे पहला तो स्पॉन्सर। यह वो है जो म्यूच्यूल फंड को शुरू कर रहा है। कंपनी में ना इन्हें हम प्रमोटर कहते हैं। तो यह वो हैं जो सारी फॉर्मेलिटीज पूरी करेंगे। बाकी सारी एंटिटीज को खड़ा करेंगे। सेबी से लाइसेंस लेंगे। जैसे कोई कंपनी शुरू करता है तो प्रमोटर होता है। जब कोई खुद का बिजनेस शुरू करता है तो प्रोपराइटर होता है। तो स्पॉन्सर वो है। दूसरा है ट्रस्ट और ट्रस्टीज। तो जो पैसा फंड में आता है वो एक्चुअली इन्वेस्टर्स के बिहाफ में ट्रस्ट उसकी देखभाल करती है और इसमें इंडिपेंडेंट मेंबर्स होते हैं। तीसरा है फंड हाउस। तो जो हम ये नाम सुनते हैं Zerodha म्यूच्यूल फंड ग्रो म्यूच्यूल फंड ICICI HDFC ये जो पब्लिक फेसिंग एंटिटी होती है जो फंड को मैनेज करती है तो फंड मैनेजर्स हो रिसर्च टीम हो सेल्स टीम हो जो डे टू डे ऑपरेशनल पार्ट है फ्रंट एंड वाला वो ये एंटिटी देखती है यही फ्रंट एंड पे होती है इसी से हम ज्यादातर इंटरेक्शंस करते हैं। चौथा कस्टोडियंस ये अगेन सेबी से रेगुलेट होता है। ज्यादातर ये एक बैंक होता है और ये जब आप किसी स्कीम में पैसे डालते हो और वो स्कीम जब उस पैसे से शेयर्स खरीदती है या बॉन्ड्स खरीदती है यानी वो स्कीम जो भी इन्वेस्टमेंट करती है तो वो इन्वेस्टमेंट के यूनिट्स जैसे अगर आपने उस फंड में पैसा डाला उस पैसे से उस फंड ने कोई शेयर्स खरीदे तो वो जो शेयर्स हैं ना वो इस कस्टोडियन अकाउंट में होते हैं। और ध्यान रखिएगा ये जो शेयर्स हैं ना यह स्कीम के नाम पे होते हैं। एएमसी के नाम पे नहीं होते हैं। यह बहुत जरूरी है। यानी आपने पैसा डाला HDFC म्यूच्यूल फंड में जो यूनिट्स खरीदे गए वह यूनिट्स कंपनी की बुक्स में HDFC AMC के नाम पे नहीं होंगे जो भी स्कीम का नाम है उस नाम पे होंगे। अब ये क्यों जरूरी है इसको हम आगे समझेंगे। पांचवा है आरटीए। यह आप कैम्स के फinटेक आप यह बहुत नाम सुनते हो। ये वो हैं जो ट्रांजैक्शनल डिटेल्स, अकाउंट्स, ट्रांसफर, केवाईसी ये सारी चीजों का ध्यान रखते हैं ताकि ताकि वही खाता अकाउंट्स सही से चलते रहे। लेकिन यहां भी खत्म नहीं होता है। इसके ऊपर सेबी आता है जो इस पूरे इकोसिस्टम को आरटीए हो, कस्टोडियंस हो, एएमसी हो सबको रेगुलेट करता है। उनसे रिलेटेड रूल्स रेगुलेशंस बनाता है। इसके अलावा, एक इंडस्ट्री बॉडी भी है एम्फी जिसके आप बहुत सारे एड्स देखते हो। म्यूच्यूल फंड सही है इंडियन क्रिकेटर्स वाले। तो यह एक सेल्फ गवर्निंग बॉडी है। सारे म्यूच्यूल फंड हाउसेस ने खुद ही मिलके बनाई है ताकि वो बेस्ट प्रैक्टिससेस को बढ़ावा दे सकें। अब हम उस सवाल पे आते हैं जिससे हमने शुरुआत की थी। व्हाट इफ कोई म्यूच्यूल फंड डूब जाए। आपने उसकी किसी एक या दो स्कीम में या सारी स्कीम्स में भी पैसा लगाया था। तो अब क्या होगा? मैंने आपको एक इंपॉर्टेंट चीज बताई थी कस्टोडियन डिस्कस करते समय कि जो शेयर्स वह स्कीम खरीदती है या जो बॉन्ड्स खरीदती है वह स्कीम के नाम पे होते हैं। उस म्यूच्यूल फंड एएमसी के नाम पे नहीं होते। यानी अगर म्यूच्यूल फंड डूब भी गया तो हमें समझना होगा कि हम किसके डूबने की बात कर रहे हैं। हम यूजुअली वो जो पांच एंटिटीज डिस्कस हुई थी उसमें से हम डिस्कस कर रहे हैं कि थर्ड एंटिटी जो फंड हाउस है वो डूब गया। अब वो क्यों डूबेगा? यूजुअली स्पॉनसर से कुछ गलती हुई होगी या वहां कुछ बैंकरप्स का फंड्स का प्रॉब्लम हुआ होगा। देखो कस्टोडियन तो एक यूजुअली सेफ बैंक होता है। उसका इस एएमसी के डूबने ना डूबने से लेना देना नहीं होता। आरटीए के भी फाइनशियल्स डायरेक्टली सब्सटेंशियली लिंक्ड नहीं होते। तो ये दो एंटिटीज तो बिल्कुल सेफ हैं। स्पोंसरर में प्रॉब्लम आएगा। आएगा तो और उसके कारण फंड हाउस में प्रॉब्लम आएगा। लेकिन आपका जो पैसा है वह उस फंड हाउस की एक स्कीम में है और वह स्कीम के सारे यूनिट्स कस्टोडियन के पास हैं। तो मान लेते हैं कि आपने एक्स वzेड म्यूच्यूल फंड में इन्वेस्ट किया था वो एएमसी डूब गई। अब क्या होगा? दो चीजें हो सकती हैं। या तो कोई और फंड हाउस वो स्कीम को टेकओवर कर लेगा। और यूनिट्स तो पहले ही स्कीम के नाम पे थे। म्यूच्यूल फंड हाउस के नाम पे थे नहीं। तो स्कीम वैसी की वैसी चलती रहेगी। या दूसरा सिनेरियो वो स्कीम को लिक्विडेट किया जाएगा और जो पैसा था वह सबको वापस मिलेगा। इसका एक उदाहरण है इंडिया में। 2020 में फ्रैंकलिन टेंपल्टन की छह डेप्ट स्कीम्स इंडिया में बंद हुई थी। यही लिक्विडेशन का प्रोसेस हुआ। दो ढाई साल लगे लेकिन बाय 2023 हर किसी को उसका पैसा वापस मिल गया। और जितना लगाया था उतना नहीं उसका 8% ज्यादा यानी टोटल रिटर्न था प्रिंसिपल प्लस 8% ज्यादा। तो ये एक मैं रिस्क मान सकता हूं कि इन अ वेरी अनफॉर्चूनेट इवेंट बहुत रेयर हुआ है इंडिया में ऐसा कि आपकी स्कीम बंद हो जाती है। फंड हाउस डूब जाता है। तो दो चीजें होंगी या तो कंटिन्यूटी मेंटेन रहेगी। फंड हाउस का ब्रांड बदल जाएगा या दूसरा वो स्कीम लिक्विडेट होगी। 2 साल शायद आपका पैसा फंसा रहे लेकिन मिल जाएगा। लॉस नहीं होगा। इसका अब मैं लॉजिकल रीजन भी बताता हूं कि लॉस क्यों नहीं होगा। नहीं तो एक सवाल ये भी आ सकता है इस केस में तो चलो मिल गया आगे ना मिले इसलिए पैसा मिल जाएगा और वो जो स्कीम ने इन्वेस्ट किया था वो चाहे शेयर्स हो बोंड्स हो वो तो कस्टोडियन के पास रखे हुए हैं ना तो पैसा रखा हुआ है। पैसा डूबा नहीं है। जो मैनेज करने वाली एंटिटी है वो डूबी है। जो शेयर उन्होंने खरीदे थे वो भी है। जो बॉन्ड्स उन्होंने खरीदे थे वो भी है। तो यह प्रोसेस का टाइम लग सकता है कि उसको लिक्विडेट करो। लेकिन इस कारण से पैसा डूबे ऐसा इंडिया में हुआ तो नहीं है। फ्रॉम दैट सेंस इट्स वेरी वेरीरी सेफ। लेकिन फंड हाउस डूब जाएगा तो आपके पैसे नहीं डूबेंगे। यह रिस्क ना के बराबर है मैं मानता हूं। लेकिन दैट डजंट मीन कि आपको स्कीम में लॉस नहीं हो सकता। स्कीम ने जो शेयर्स में इन्वेस्ट किया वो कंपनीज़ डूब गई। तो स्कीम का ही एनएवी कम हो गया। या फिर जो बॉन्ड्स उस स्कीम ने खरीदे थे वो कंपनी पैसा नहीं दे रही। ब्याज नहीं लौटा रही। वो कंपनी दिवालिया हो गई तो परफॉर्मेंस रिस्क है। रेगुलेटरी या लीगल रिस्क भले ही ना के बराबर है पर परफॉर्मेंस रिस्क प्रिंसिपल भी आपको वापस मिले इसकी कोई गारंटी नहीं है। मार्केट अगर लॉस में है तो कई-कई साल आपको लॉस हो सकता है। और यह मैं इक्विटी स्कीम की बात कर रहा हूं। डेप्ट में भी यह रिस्क है कि कंपनी ना लौटा पाए, ब्याज ना दे पाए। तो एफडी से जब आप कंपेयर कर रहे हो तो मैंने कहा एफडी से ज्यादा रिटर्न यह काफी ज्यादा रिटर्न आपको दे सकता है। एट व्हाट कॉस्ट एट अ कॉस्ट ऑफ इंक्रीज्ड रिस्क। देखो एक ना जनरल रिस्क रिटर्न टेबल होता है। ब्रॉडली ये कैटेगरी वाइज टेबल ऐसा होता है कि जो सेफेस्ट इंस्ट्रूमेंट्स होते हैं गवर्नमेंट के ट्रेजरी बॉन्ड। हम यह मानते हैं कि भारत सरकार पे करेगी ही करेगी। देश दिवालिया हो जाएगा। ऐसी हालत तो नहीं है तो उसको सेफेस्ट माना जाता है इसलिए वो सबसे कम रिटर्न देता है। उसके बाद हम एसबीआई की एफडी में आते हैं जिसे उससे सेफ माना जाता है। ये माना जाता है कि एसबीआई तो डूबेगा नहीं। डूबेगा तो सरकार बचाएगी। तो इट्स एज ऑलमोस्ट एज सेफ एज ट्रेजरी बॉन्ड। इसलिए फिर उसकी एफडी होती है। फिर हम आते हैं कुछ प्राइवेट बैंक जो उससे ज्यादा एफडी देते हैं। हम फिर स्मॉल फाइनेंस बैंक पेमेंट बैंक की तरफ आते हैं जो उससे ज्यादा एफडी में रिटर्न देते हैं। कई बार हम गड़बड़ भी करते हैं। इन अनसेफ बैंक्स में इन्वेस्ट करते हैं एफडी में और बाद में पछताते हैं। इससे ज्यादा रिटर्न हमको कॉर्पोरेट डिबेंचर्स, बॉन्ड्स देते हैं। वहां तो मुझे लगता है बिल्कुल इन्वेस्ट नहीं करना चाहिए। रिटर्न ज्यादा होता है लेकिन बहुत रिस्की होता है उसके ऊपर यूजुअली फिर गोल्ड रियलस्टेट आता है जहां हमें यह पता है कि लॉन्ग टर्म में मोस्ट प्रोबेब्ली पैसा बढ़ेगा लेकिन वोलेटिलिटी बहुत है तो बीपी ऊपर नीचे बहुत होता है तो वोलेटिलिटी को भी रिस्क माना जाता है और उसके ऊपर इक्विटी आता है तो इक्विटी म्यूचुअल फंड्स बहुत वोलेटाइल होते हैं जैसे हम देख रहे हैं अभी तो ये वीडियो मैं अक्टूबर 2026 में बना रहा हूं और पिछले दो सालों से इक्विटी मार्केट्स ने रिटर्न नहीं दिया है ब्रॉडर मार्केट ने तो 2 साल जो रिटर्न नहीं आया आया इनफ्लेशन तो बढ़ी महंगाई तो 5-प% बढ़ी पूरा देश 10% महंगा हो गया लेकिन रिटर्न ज़ीरो रहा तो यह भी तो रिस्क है ना वोलेटिलिटी है ना तो रिस्क रिटर्न हायरार्की में फिर इक्विटी आता है लेकिन जब यह रिटर्न देता है अगर मैं पिछले 40 सालों का हिस्ट्री उठा के देखूं तो 12% के आसपास के रिटर्न दिया है तो बाकी ब्रॉड एसेट क्लास से बेटर रिटर्न दिया है वोलेटाइल दिया है और यह हिस्टोरिकल परफॉर्मेंस है ध्यान रखिएगा इससे फ्यूचर की कोई गारंटी नहीं है हम एक अंदाजा लगा सकते हम एक एक्सपेक्टेशन क्रिएट कर सकते हैं। लेकिन कोई भी अगर आपको बोले कि देखो पहले इतना रिटर्न दिया है तो आगे भी देगा। यह इललीगल है। फिक्स्ड रिटर्न्स म्यूच्यूल फंड्स इक्विटी म्यूच्यूल फंड्स में प्रॉमिस करना इज़ इललीगल। स्टॉक्स में प्रॉमिस करना इज़ इललीगल। क्योंकि रिटर्न्स क्या होंगे पता नहीं। आगे 10 साल में 12% से कम भी हो सकते हैं। काफी कम भी हो सकते हैं। 12% से ज्यादा भी हो सकते हैं, काफी ज्यादा भी हो सकते हैं। तो एक ब्रॉड अंदाजे के लिए तो ठीक है हिस्ट्री। लेकिन प्रॉमिस अगर कोई कर रहा है मैं देखता हूं बहुत सारे WhatsApp ग्रुप्स हो टेलीग्राम हो जहां गारंटी दे देते हैं एक महीने में 2% फिक्स्ड 4% फिक्स्ड स्कैम है इललीगल है कभी-कभी ये मेरे नाम पे भी इललीगली हुआ है मैं देखता हूं कभी Zerodha के फाउंडर नितिन कामत के नाम पे हो रहा है किसी और के नाम पे हो रहा है इस तरह की चीजें अगर आप देख रहे हो WhatsApp पे Telegram पे खास करके प्लीज बी 100% श्योर कि वो एक स्कैम है भरोसा मत मत करिए जल्दी से और यह रिस्क हायरार्की टेबल याद रखिए जितना ज्यादा रिटर्न किसी चीज में हिस्टोरिकली आया है वो जनरली उतनी ज्यादा रिस्की है। इसके ऊपर और चीजें आती हैं। एफ एंडओ आता है, क्रिप्टो आता है। अब हम मेरे नजर में तो गैंबलिंग और स्पेककुलेशन की तरफ जा रहे हैं। मेरी रिस्क एपेटाइट तो इक्विटी पे आके बंद हो जाती है। मुझे लगता है वो वहां तक आप इन्वेस्ट कर सकते हो क्योंकि आप फॉरकास्ट एक रीज़नेबल फॉरकास्ट कर सकते हो कि क्या सही प्राइस है। मुझे कब लेना चाहिए? एफएओ हो, क्रिप्टो हो, फॉरेक्स हो, लीगलिटी भी ग्रे है और मुझे वो स्पेकुलेशन एंड गैंबलिंग लगता है। तो ध्यान रखिएगा इस टेबल में म्यूचुअल फंड्स भी काफी आगे हैं। इसलिए यह वोलेटाइल होते हैं। तो पैसा एएमसी डूबने के कारण नहीं डूबेगा का यह मतलब नहीं है कि आपका प्रिंसिपल इज़ 100% सेफ। हमेशा हम सुनते हैं ना म्यूच्यूल फंड रिटर्न्स आर सब्जेक्ट टू मार्केट रिस्क। तो मार्केट वोलिटी मार्केट का जो इनहेरेंट रिस्क है वो आपको झेलना पड़ेगा इसी उम्मीद में कि मुझे एफडी से ज्यादा रिटर्न्स मिलेंगे लेकिन ये उम्मीद है ये गारंटी नहीं है और यह होगा भी मोस्टली इन द लॉन्ग रन। अब हम आते हैं एनएवी पे। पिछले वीडियो में हमने ब्रीफली डिस्कस किया था नेट एसेट वैल्यू। जरा इसको समझते हैं क्योंकि देखो आप जब म्यूच्यूल फंड यूनिट खरीद रहे हो तो आपको कितने यूनिट मिलेंगे यह एनएवी से डिसाइड होता है। मान लो एक यूनिट का एनएवी है ₹20 और आप ₹100 डाल रहे हो तो आपको पांच यूनिट्स मिलेंगे। अब इन द लॉन्ग रन आपका परफॉर्मेंस वो होगा जितनी ग्रोथ इस एनएवी में आएगी। तो एनएवी अगर ₹20 से ₹21 हो जाती है। यानी 5% की ग्रोथ आई। आपने ₹100 लगाए थे। 5 यूनिट थे आपके पास। हर यूनिट की वैल्यू ₹1 बढ़ी तो आपके ₹100 ₹15 हो गए। यानी 5% का रिटर्न आया। तो एनएवी की ग्रोथ डिटरमाइंस कि हमारी ग्रोथ कितनी आएगी? अब ये एनएवी कैलकुलेट कैसे होती है? बहुत सिंपल है। जो कुछ इन्वेस्टमेंट उस स्कीम में हुआ है टोटल मान लीजिए 1000 करोड़ का इन्वेस्टमेंट हुआ है वो प्लस जो अभी इन्वेस्टमेंट नहीं हुआ है। मान लीजिए फंड ने कुछ कैश रखा हुआ है बाद में डिप्लॉय करने के लिए या लिक्विडिटी पर्पस के लिए कि कोई रिडमशन आ जाए तो देने के लिए पैसा रहे वो भी ऐड होगा। तो मान लेते हैं ₹200 करोड़ का उसमें कैश भी था। तो ₹1200 करोड़। इसमें से फिर माइनस होता है जो कुछ खर्चे हैं जो उनकी खुद की फीस है ड्यूस हैं एक्सपेंसेस हैं वह सब माइनस होता है इसमें से। अब यह हम मान लेते हैं सिंपलीसिटी के लिए कि चलो ₹50 करोड़ रहे होंगे। तो ₹150 करोड़। अब इसको हम डिवाइड करेंगे कि टोटल यूनिट्स उस फंड में कितने हैं। तो ब्रॉडली टोटल इन्वेस्टमेंट्स प्लस कैश माइनस एक्सपेंसेस को डिवाइड कर देंगे टोटल यूनिट से। अब एक चीज का ध्यान रखिए इस फार्मूले का एक बहुत बड़ा बेनिफिट है कि मानते हैं हम कि अभी तो चलो 1000 यूनिट थे उतना ही इन्वेस्टमेंट लोगों ने किया था। अब मान लेते हैं कोई आके और दो यूनिट खरीदना चाह रहा है तो होगा क्या कि 2 यूनिट का पैसा फंड में डलेगा तो दो यूनिट नीचे तो बढ़ गए लेकिन ऊपर वो जो पैसा डला वो कहां जाएगा? या तो इन्वेस्टमेंट्स में जाएगा या कैश में जाएगा। तो ये चीज हमेशा आपस में बैलेंस होती रहेगी। यानी फंड में अगर नया पैसा आ रहा है या कुछ पैसा निकल रहा है उससे एनएवी अफेक्ट नहीं होगी। एनएवी अफेक्ट होगी फंड के परफॉर्मेंस से। जो स्टॉक्स जो बॉन्ड्स उस फंड ने लिए हैं वो कैसा कर रहे हैं इससे एनएवी में ग्रोथ आएगी। अब एनएवी हर दिन मार्केट बंद होने के बाद उस दिन मार्क टू मार्केट होती है। यानी उस दिन जो स्टॉक प्राइस ऊपर नीचे हुए उसके हिसाब से एनएवी उस दिन कम ज्यादा होती है। तो आपको हर दिन पता चल सकता है कि आज आपके फंड ने कैसा परफॉर्म किया। बहुत ही ट्रांसपेरेंट चीज है यह। हर महीने आपको इन्वेस्टमेंट स्टेटमेंट भी आ जाएगा कि आपके कितने यूनिट्स इन्वेस्ट हुए। बेसिकली आपकी पासबुक आ जाएगी म्यूच्यूल फंड्स की। तो बहुत सिंपल है, इजी टू ट्रैक है। नेक्स्ट अब आते हैं एनएफओस में न्यू फंड ऑफर्स में। यह बेसिकली म्यूच्यूल फंड्स का आईपीओ वर्जन है। नया स्टॉक मार्केट में आता है उसे हम इनिशियल पब्लिक ऑफरिंग कहते हैं। जब नया म्यूच्यूल फंड मार्केट में आता है उसे हम एनएफओ कहते हैं। अब एनएफओ को लेके बहुत एक्साइटमेंट होता है क्योंकि कंपनीज़ इंसेंटिव खूब देती हैं। बहुत मार्केटिंग करती हैं और लोग कई बार एनएफओस में इन्वेस्ट करते हैं जिसके मैं सख्त खिलाफ हूं। जो चीज फाइनेंस में नई है, मैं उससे दूर रहता हूं। आई लाइक टू इन्वेस्ट माय लाइफ सेविंग्स इन प्रूवन थिंग्स। तो जब हजारों स्कीम्स पहले से हैं तो जो एक नई म्यूचल फंड स्कीम आ रही है और उसकी मार्केटिंग बहुत ज्यादा हो रही है तो आप उसमें इन्वेस्ट क्यों कर लोगे? तो मुझे पर्सनली यह कभी भी सही नहीं लगता। दूसरा एनएफओ में क्या होता है? अक्सर ₹10 के आसपास का एक यूनिट की एनएवी आती है तो मुझे लगता है मैं बहुत सारे यूनिट ले लूंगा। बहुत सारे। मेरे पास ₹1000 हैं और ₹10 करके तो मेरे पास 100 यूनिट आ जाएंगे। तो ज्यादा यूनिट रहेंगे ना ग्रोथ आएगी तो मैं जल्दी अमीर बनूंगा। बिल्कुल बिल्कुल गलत बात है। देखो म्यूचल फंड्स में या स्टॉक्स में भी रिटर्न आता है परसेंटेज ग्रोथ पे नंबर ऑफ यूनिट्स पे नहीं। या नहीं जैसा मैंने आपको पहले के एग्जांपल में बताया कि ज्यादा यूनिट आने से या यूनिट्स के कम होने से एनएवी को फर्क नहीं पड़ता। वो फंड के परफॉर्मेंस से बढ़ती है या घटती है। नंबर ऑफ यूनिट्स से नहीं। तो अब ऐसे सोचो कि मान लो कोई एनएफओ आया ₹10 पे। आपको ₹1000 लगाने थे। आपके पास 100 यूनिट्स आ गए। कोई दूसरा एनएफओ आया मानते हैं ₹20 पे। आपको ₹1000 लगाने थे। आपको 50 यूनिट्स ही मिले। अब आगे आपके ₹1000 पर रिटर्न कैसा आएगा यह डिपेंड करेगा कि परसेंटेज वाइज एनएवी कितनी ग्रो हो रही है। जैसे अगर फंड ए के केस में 10% की ग्रोथ आती है। तो वो जो ₹10 का यूनिट है वो ₹11 का हो गया। आपके पास 100 यूनिट थे। हर यूनिट एक बढ़ा यानी आपकी ₹100 की कमाई हो गई। आपने ₹1000 लगाए थे। आपके ₹1000 ₹1100 हो गए। 10% का ही रिटर्न आया। दूसरी स्कीम थी जिसमें ₹20 का यूनिट था। आपने उसमें भी ₹1000 लगाए थे। अब आपको 50 ही यूनिट मिले थे। लेकिन उसमें भी ग्रोथ आई 10% की। तो ₹20 हो गए ₹22। यानी हर यूनिट पे आपने ₹2 कमाया। 50 यूनिट्स पे आपने ₹2 कमाया। टोटल आपने ₹100 कमाया। इसमें भी आपके ₹1000 ₹1100 हो गए। तो नंबर ऑफ यूनिट ज्यादा होंगे तो मैं जल्दी अमीर बनूंगा। बिल्कुल गलत है। कई बार कुछ अनएथिकल लोग मैं कहूंगा यह लालच देते हैं कि उस फंड की तो ना एनएवी बहुत बढ़ गई है। वो अब बढ़ेगा नहीं। इसकी एनएवी देखो ₹10 है। यह तेजी से बढ़ेगा। यह सही नहीं है। इस मिस सेलिंग से दूर रहिएगा। हम बात करेंगे डायरेक्ट प्लांस, रेगुलर प्लांस। आपको कॉस्ट कितनी देनी पड़ती है? जो आपको फीस देनी पड़ती है, चाहे म्यूच्यूल फंड को हो, एडवाइजर को हो, डिस्ट्रीब्यूटर को हो, उससे आपकी इन्वेस्टमेंट में क्या फर्क पड़ता है? और आपको इनमें से किनको चुनना चाहिए, अपनी फीस को मिनिमाइज कैसे करना चाहिए? एट द सेम टाइम आपको बेस्ट एडवाइस मिले। यह एनश्योर कैसे करना चाहिए? तो अगले वीडियो में जानते हैं यह सब
+
+
+##### FILE: 5TmE_8W5-qU.txt
+video: https://www.youtube.com/watch?v=5TmE_8W5-qU
+title: The AI Trade May Have Just Hit Its Breaking Point!
+channel: Real Vision
+
+पहली बात यह है कि क्या हम रुझान में बदलाव देख रहे हैं? क्या एआई का वह अभूतपूर्व, न रुकने वाला दौर अब खत्म हो रहा है? अब जाहिर है, आप केवल पीछे मुड़कर ही जान सकते हैं कि क्या यह पूरी तरह खत्म हो चुका है, या फिर यह बस एक मामूली हलचल है और रुझान फिर से शुरू हो जाएगा? मैं नहीं जानता। मैं जो देख रहा हूं, उसके आधार पर कह रहा हूं। मुझे लगता है कि यह रुझान में बदलाव है और शायद इस दौर का यह उच्चतम स्तर है। लेकिन अगर ऐसा है, तो निवेश का आकार यहां बहुत महत्वपूर्ण है क्योंकि आप यकीन मानिए, बाजार में बहुत से निवेशक हैं जिनके पास ये स्टॉक बड़ी मात्रा में हैं। क्या आपके पास जरूरत से ज्यादा स्टॉक हैं? क्योंकि अब आपकी सहनशक्ति की असली परीक्षा का समय है।
+
+
+##### FILE: 5wNmprpBt3A.txt
+video: https://www.youtube.com/watch?v=5wNmprpBt3A
+title: Can Zudio Sustain Trent's Growth?
+channel: Groww
+
+ट्रेंट लिमिटेड का स्टॉक 86 टाइम्स अर्निंग्स पे ट्रेड कर रहा है। क्या ज़ोरियो के नए स्टोर्स की वैल्यूएशन को जस्टिफाई कर पाएंगे? पहले रिजल्ट्स देखिए। क्वार्टर टू फाइनेंशियल ईयर 27 में सेल्स 22% और प्रॉफिट 26% बढ़ गए। लेकिन ग्रोथ की स्पीड पहले जैसी नहीं। फाइनेंशियल ईयर 23 में सेल्स ग्रोथ 83% थी जो फाइनेंशियल ईयर 26 में 17% रह गई। हां, इसी दौरान एबिटा मार्जिन 14% से बढ़कर 19% हुआ। तो अब ग्रोथ का इंपॉर्टेंट ड्राइवर क्या है? स्टोर एक्सपेंशन। फाइनेंशियल ईयर 22 से 26 तक ज़ोरियो के स्टोर्स चार गुना और वेस्ट साइड के डेढ़ गुना हुए। सितंबर तक इनके 999 और 311 स्टोर्स थे। क्वार्टर टू में इन स्टोर्स की लाइक फॉर लाइक सेल्स ग्रोथ मिड सिंगल डिजिट्स यानी कि लगभग 5% रही। मतलब नए स्टोर्स ग्रोथ का इंपॉर्टेंट ड्राइवर रहे। मैनेजमेंट के मुताबिक क्वार्टर टू में 85% नए ज़ोरियो स्टोर्स छोटे शहरों में खुले। इन्हें मैच्योर होने में ज्यादा वक्त लग सकता है। फिर भी कंपनी एक्सपेंशन पेस मेंटेन करना चाहती है। [संगीत] अब वैल्यूएशन पे आते हैं। 86 एक्स पी पे एक्सपेक्टेशंस हाई है। अर्निंग्स ग्रोथ स्लो हुई तो पी आधा भी हो सकता है। इसलिए स्टोर काउंट के साथ एक्सिस्टिंग स्टोर सेल्स और एक्स्ट्रा सेल्स से बनने वाला प्रॉफिट भी ट्रैक करिए। नेक्स्ट किस स्टॉक का एनालिसिस चाहिए कमेंट्स में बताइए।
+
+
+##### FILE: GVg52KoFgNc.txt
+video: https://www.youtube.com/watch?v=GVg52KoFgNc
+title: Is IPO a trap in India? #face2face with Mr.Jayant Shilanjan Mundhra
+channel: Trading & Investing 1M+
+
+Investments in securities markets are
+subject to market risk. Read all related documents carefully
+before investing. If you are Indian, you must watch this
+video. Our enemy is not China. It's us. China is getting bigger anyway. Just accept that it's bigger than you. I'll say this: I'm a huge optimist. People often tell me, "You complain all
+the time. Why don't you just leave?" The biggest reason we've been left behind is that we've never solved the many problems we have. It's our own government. A minister comes on an interview and says we'll be an $18 trillion economy by 2047. Another comes and says 21. Another says
+30. On what basis do we throw out any number? But here, we don't make policy because it does good for the people. We make policy so that it looks good to
+the people. Let all this happen, let it be. Here, there's opportunity everywhere. Even the garbage on the road is an
+opportunity. You go to the UAE, China, Japan, Germany, you don't have to install an RO purifier
+at home. Here you have to install an RO, filters,
+all that. That is an added tax on the people of this
+country. Looks like the whole plan is made, but yes, it isn't transparent. Hello, Face to Face learners. Namaste. Hope you guys are doing well. You're doing well, you're doing great in
+your life. Friends, today's video is not face-to-face
+trading, nor would I call it pure investing, but I think this video is extremely
+important for us to see whether we are true Indians. If you are Indian, you must watch this
+video, because it will give you good insight into what kind of thinking you can develop for
+the country, taking everything that's going on in our
+country, good and bad, together. Right? The guest with me is probably a bullish-on-India person, but he also looks at things critically,
+analyzes them, and has balanced his own investment
+journey that way too. He is an investor, a self-taught investor. But more than that, he is a very good
+content creator on the internet. I wouldn't call him an influencer, because I think he's more of a
+philosopher. Very young, Chaitanya. I watch his regular videos, and many of
+his points struck me as very relevant for those of us who are involved in the share market. So let's invite our Face to Face guest for
+today, Jayant Mundra. Some of you may have heard about him and
+seen his videos. I recorded two hours of conversation with
+Jayant. We talked about all kinds of things. We talked about the market, but also
+philosophical things. We talked about the country, and I got a
+context for how it's fine to stay bullish on
+India, but there are some things that are wrong, things that aren't right, that we need to
+keep in mind. So let's invite our Face to Face guest,
+Jayant. Hello! Hello, Jayant ji. What's up? All
+good, sir? Really nice to be here. It feels very good to come to you, here in
+Bengal, and I'm really excited for today. I've been watching you for a very long
+time. I've been following you on Twitter for a
+long time. You've written many posts. I've watched many of your videos on
+YouTube. Oh wow! I'm not a trader, but when I lost money in
+trading, I started watching you. I started watching one or two other people
+too. But really, really nice to be here. Thank you so much. Thank you so much for
+coming. And what a lovely day to be here. It's puja time, and I've decorated the
+place for you, by the way. No, I arrived last night, and when I came
+from the road, I reached around 12:00, the roads were completely empty. Such beautiful lighting, everything
+spotless. I come from Delhi NCR, we don't have much
+to do with cleanliness. So I really loved being here and I'm really excited for today. Amazing. I heard from you while we were
+talking that you were born in Kolkata, sorry, in
+Bengal. Yes, Siliguri. And your parents were also
+here. So it's like a bit of a homecoming for one
+day. No, no, no. Kolkata is like my third and
+fifth home. I keep coming here, three or four rounds a
+year. And I have family out here and a lot of
+other people with whom I share a great bond. Now I'm forming a bond with you too, so there will be even more reasons to come
+here. But I love it personally, because I love
+cities with culture. I really like Ahmedabad. I really like
+this city. I really like Mumbai. There's an identity. Right? Some people
+may not like this, but Delhi doesn't have much in the name of
+culture. Yes. But these cities each have an
+identity, and that feels really nice. And I love being here. Superb. I just want to share with you, I didn't tell you how I came to know about
+you. It was Professor Sanjay Bakshi. He had posted. Yes, I remember. Everyone has to follow him anyway, and that's how I connected, because if the
+Professor says it, he doesn't say it casually. And that's how my journey of watching your
+videos started, and you know how social media is: once you watch someone, social media will
+keep showing them. And obviously, everything you say has a
+lot of weight. So I just thought I should also get the
+privilege, my learners should also get the privilege
+of hearing from you. The privilege is all mine. The biggest privilege is that Sanjay
+Bakshi ji, a very respected, learned name, did that. I think a video of mine on Ola
+had come out. Many have come out on Ola, but maybe he
+saw it and that's why he tweeted it. After that, many people showed me a lot of
+love, people I might never have reached. So I'm glad. Your door opened for me. And thanks to him. I've never met him, but I've been learning more and more from what he puts out. He has a podcast on Srishti Sahu's
+channel. Srishti is a good friend. The channel is
+called India Opportunity. It's lovely. If you haven't seen it,
+please watch. I'll put that video's link below. A lot will come out of you today. I think today we're going to have a very,
+very long conversation. Friends, if you feel like getting bored,
+stay till the end, because money is made from boring things. No, we won't let you get bored. From a social media point of view, the definition of entertainment is very
+different. In the share market, what is
+entertainment? So far, you haven't given any strategy. So far, you haven't named any stock. So for me, it's boring if you've discussed
+for two hours and I haven't discussed any stock yet, and people have stayed till the end. That
+is interesting. That is the real content we'll try to
+create. Hello, my name is Vivek Bajaj. I have more than 20 years of experience in
+the stock market. And I can suggest, if you are serious
+about the stock market, download the StockEdge app. It will really help you in your wealth
+creation journey from the stock market. Jayant, you have a lot, I know, not just about the market and
+understanding stocks, but as I've interacted with you, you think like a philosopher. Right? Maybe because of your background, etc. We haven't gone deep into it, so I'll try to get more of that part as
+well, because our country now can't be seen only
+from a business perspective. This purely capitalistic thinking no
+longer exists in our country. Somewhere we've also lovingly embraced
+socialism. So you'll allow me to touch on those
+things too, because a lot is happening in our country
+right now. Okay? Absolutely right. So, a disclaimer, friends. Well, he doesn't even pay anything, so
+what would I ask of him? But he hasn't given me any money, and I haven't given him any money, so it's a purely pro bono exercise. We all understand our regulator's rules and work accordingly. If any stock gets discussed in the
+conversation, please treat it as only a theoretical and
+academic discussion. I'm going to ask about two or three stocks that he keeps going after. No, from my side, this disclosure: I'm not a SEBI-registered RA advisor. I've cleared the RA exam, but it's cleared
+very easily. Many people will know this, so I don't
+take any fee for it. And whatever I say, I see it according to
+my studies, and I speak my own mind. This is my
+analysis. With hard-earned money, I always say one
+line: Whether you invest or trade with your
+hard-earned money, don't do it on someone else's say-so. Do
+it your own way. Yes. Yes. That's fantastic. That's a great way to start. So the topic I've kept is: India's story, hype or reality. Okay? The topic may sound a bit broad, but within this I'll go to the micro
+level, and I'll also discuss opportunities and sunshine sectors. We'll also understand the Indian consumer: is this consumer actually reliable? Can this consumer actually ride our growth
+or not? We'll talk about all of this. But just an open comment before I start my
+questions: India story, high power, reality, what's your immediate reaction? Sir, there's an India story that's being
+told outside, and there's one that I believe in. I'll say this, I'm a huge optimist. People often tell me, "You complain all
+the time. Why don't you leave? Go to Dubai, go to
+Singapore." Some even say, "Go to Pakistan." I say, I'm an eternal India optimist. I'm an India bull. That's why I'm sitting
+here. Otherwise I would have left. And I have no complaints against them. It's simple: I see a lot of opportunities. But when I see anything that takes us even slightly away from that opportunity, it hurts me. And when it hurts, I consider it a
+responsibility to raise questions, because only if enough people raise
+questions will we come back to that trajectory. For example, what's going on now: you raised STT, LTCG, STCG so much that people don't want to invest anymore. The money that used to come from abroad, we've come to depend entirely on DIIs, on domestic investors, on retail. So when that pressure built up, we forced it, somewhere, all of us
+together, that Nirmala Sitharaman ji is openly
+saying on TV, in the news media, that if there are any comments, we're
+ready to listen. Then a few days ago she made another
+comment that taxes should be imposed thoughtfully
+and properly so that they boost investments. Now those comments have started coming. So until that's done, stay an India
+optimist, because that is the beauty of India. If enough people ask questions, the country always keeps coming back to
+the right path. And that's the beauty of India. And that's why I always say there are huge
+opportunities in India. The biggest reason, somewhere, for why we've stayed behind is that we have so many problems that we've never solved to this day. Okay? Each of those becomes a sunshine
+opportunity. You go solve it. There's money all over
+the place. Abroad, that has already been done. You can't go there and solve it. Here, there's opportunity everywhere. Even garbage on the road is an
+opportunity. If you have used cooking oil at home and you just dump it, that's also an
+opportunity. There's opportunity everywhere in India. How could anyone not love such a place? I mean, love for the country aside, even in terms of money there should be
+love. That's what I believe. So Jayant, opportunity is there for
+everyone. Right? And the one who executes is ultimately the
+winner. There are many people who just think.
+Right? Now, this opportunity is there for people
+at home and for people outside too. When someone like Elon Musk tweets about Mr. Ambani, the President, the Prime Minister of India, what goes on in your mind at that time? What is this strategy? Is there genuinely
+a problem in our country, or is it acceptable that all this is happening, so let it happen,
+no problem? Sir, I'll say two things here. First, every person's time and energy are
+finite resources. Yes. Now if your time and energy are finite
+resources, you should spend them on things that will
+bring some change in your life, in the work you do, or in the life of your country. Yes. Elon Musk said this, and you rant about
+it, discuss it, and gossip about Nirmala ji. That's like going to the tea stall and discussing with four people, "Why didn't Modi ji do this about
+Pakistan? Why did he give oil to Bangladesh?" That doesn't bring change, does it? So we're basically wasting time. It's a
+distraction. Second thing, since you asked, I have a simple belief, a simple new
+answer that more people should probably discuss.
+It's my theory. Yes. Regarding Elon Musk's Starlink, there is also Bharti's OneWeb, Sunil
+Bharti Mittal's. All these platforms need multiple
+approvals. The last round of approvals for both of
+them came in January, January 2026. It came just after the 25% tariff that Trump had imposed on India was basically removed, and at that time India announced a
+framework. We decided on a bilateral framework on which we'd announce a trade deal in the coming period. Right? So somewhere a situation arises
+where India had given Elon Musk that in-principle approval earlier, and only then was it signed. Now comes a time when Piyush Goyal ji openly appears, and on the front page of the Indian
+Express his comment was printed that circumstances
+have changed. So we'll see what happens. And a few lines
+later he also says that Canada's foreign minister and commerce
+minister are both coming this week with a
+delegation of 300 people. They're coming with 300 people. Why? By
+December they want to seal the deal. This is a message to the US as well. That you keep doing your thing, we're
+doing it with 200 others. Hmm. When all this is happening, that's when Elon Musk shows up and starts this. In my view, it's more about the trade deal that the US wants, which isn't happening, so they're using every kind of tactic. And let us be very clear: Elon Musk should
+not be seen as very different from the US government. Trump came in with their money. However much they show they fight with
+each other, quarrel, afterwards they stand together, high-five each other, joke around, do everything. So I believe it's the trade deal that's
+going on here. As long as everything goes their way, they already praise India, call it a big
+opportunity. When things go off track, they do this. And they did this for the UK too. They openly attacked the UK's former Prime
+Minister. Why? Because OneWeb is the UK's. I mean, this OneWeb of Sunil Bharti Mittal has almost equal ownership by the UK
+government. They're favoring it, not favoring
+Starlink, so they started attacking. So ultimately there's an agenda in
+everything. If someone is posting anything, there's
+some broader agenda. Right? But in our country there's this
+unnecessary connecting-the-dots that keeps going on. And if an outsider makes any critical
+comment about our country, we start abusing our own people, saying, "What are you doing? The American
+is coming. Why aren't you allowing him?" How will we show our country that we are
+truly global? And now, his comment was merged into the Cockroach Janata Party
+initiative, saying, "Look, everyone is now coming
+together against Modi ji." Narratives are okay for our country, a huge country like a democracy. They will come. You can't do anything
+about it. Sir, I believe narratives will always be
+there. Pro-government and anti-government, both will always exist. It was always
+there and will continue to be, from inside the
+country and from outside. So again, you can't change any of that, and you shouldn't waste time thinking
+about it. Always focus on one thing: how much truth is in what's being said. Pick up whatever is true; the rest is
+nonsense. Right. Should Starlink come to India? Whether it should or shouldn't, I don't
+care. What I care about is: should India have
+satellite communication? Yes. It should. Yes. It should. For that, is there any player
+in India today? The answer is no. There's no major player. So for that... But now the claim is that
+Starlink isn't getting approval because Ambani is
+sitting in between. Yes. Sunil Bharti Mittal isn't getting it
+either. Yes. He'd also say go tell Ambani ji. Exactly. He himself is saying, "Our
+approval is stuck too." We have no problem. Why? Because let's be
+very clear. It's a simple thing. Our country's
+government, not just today's but the earlier ones too, have all been laggards. There's a very lovely quote. I don't know
+who said it. The US innovates, China replicates, Europe regulates. What does India do? India waits. India's is the waiting period. In every technology we go in 5 to 10 years
+later. That's the reality. 5G was the first telecom technology where within two or three years of the rest of
+the world going live, we had also done a full rollout. After that, all this satellite
+communication: how much earlier did it come to the rest
+of the world? Within three to four years, this Starlink
+and the other players. Probably in two more years it will come
+here too. Maybe by then Starlink will also get
+approval. We are slow. Why? We follow a simple
+principle. We observe what happens all over the
+world. Then we pick up best practices from there. Then we build our own full system. Then we bring it in. By those rules you have to do everything, and only then
+will you get approval. We are slow. I'm not praising this system. But I'm saying this is the case for
+everyone, Indian players included. Now if someone has a problem, saying "I'm
+being wronged," fine. Wrong is happening to everyone. Our country needs satellite communication. Yes. And our country isn't getting it. The government should think about how to
+speed up this entire process. But it shouldn't be "How do we speed up so that Elon Musk's Starlink doesn't come
+here." That's wrong. It should be "Let's make sure companies
+can work really well here on satellite
+communication." Let's go back to our core topic. We'll keep doing this, moving from one
+point to another so that I can cover more and more things
+with you. So, myth versus reality: what's your
+immediate reaction? Which side are you more tilted toward? I believe I'm somewhere in the middle. In the middle. Because some people say, "We are straight-
+up Vishwaguru. We're the best." Don't you belong to that
+club, the 2047 club? That everything is so good, by 2047
+everything will be great. I say that I belong to it, but the way it's being built, I'm unhappy.
+Let me tell you why. Who wouldn't like it? Any Indian citizen, even an NRI, would
+like it. Yes. That India will become a developed,
+Viksit Bharat by 2047. It would feel good. My only complaint is: how developed is developed? Our own government's minister comes and
+says in an interview we'll be an $18 trillion economy by 2047. Another comes and says 21. Another says
+30. Between 18 and 21 to 30, nine trillion dollars is more than double our country's economy today. That gap is huge, but we only have 25 years. On what basis are we saying any number? My only point is: what developed looks
+like should be a target put out openly. For example, there's a member of your own
+government's NDA, Chandrababu Naidu, the CM of Andhra Pradesh. I give examples
+from everywhere. The government should learn from him. He said openly that by 2047 we have to
+become an economy of this size, for which our GDP has to grow at 15% every
+year. If India grows at 7.8, we have to do 15. He set a target. How will it happen at 15, sir? That
+doesn't matter. One is that the target was set. His state is anyway growing at 12-13% each
+year. Wow. Yes. The previous government, yours, was Jagan, Jagan Reddy. Yes. Even under him that state was already growing at 8-9%. Okay. Now these people are saying we're doing
+around 12, doing 11. If we can't bring it below 15. Now you've put a number out openly. People can assess it. Where we need to
+reach, we need to grow at this rate. We're doing
+this, so there's a gap. For our country, what is that number? We
+don't know. And there are other parameters. We haven't
+even entered those yet. For example, what does developed look
+like? Will it only be roads, highways, airports
+everywhere, or will the air also be clean? Will everyone also get clean water? For example, you go to the UAE, China,
+Japan, Germany, you don't need to install a separate RO at
+home. Here you have to install an RO, filters,
+all that. That is an added tax on the people of this
+country. There's another tax that nobody talks
+about. I was reading about it just yesterday. There's a World Bank economist who
+published a report. They studied Delhi University. They found that a normal girl studying at
+DU, at Delhi University, the college she could get, the average
+girl picks a college eight ranks lower than
+that. Would a boy do that? Generally no. Why? Because the pressure is to stay in a
+college near home. Oh my god. Now this is a pink tax. Why? Because when she picks the lower college, somewhere you've put a tax on her lifetime earnings, on her economic prospects, on what her
+career could be. She's not achieving all that. This is a
+pink tax on the girls of this country. Right? So when we talk about developed, can we remove the pink tax? What do we need to do for that? What will
+it look like? That pink tax, which we're talking about
+today, where she picks the one eight ranks
+behind, can we bring it down to three? I'm not saying make it equal. It isn't
+easy. Our country's societal problems are there, infrastructure concerns, money concerns,
+everything. But can we try to bring it to three? There's a target at least. Right? Then we'll know, okay, 2040 has come,
+seven years left, we've only come from eight to six. We'll have to do something. Only then will we do something. Sir, you also run a business. You keep
+some targets, that "this quarter we have to do this and
+that." If there's no target, the company is
+running happily, whatever happened, happened. "It isn't
+fun, so then okay." That would also work. But if there's a
+target and two months have passed, only one month
+is left, you will sit down and recalibrate: "It's
+not happening. How do we do it?" But that must be happening inside, in
+board meetings, in the government. Sir, but the government's job is to be
+transparent and tell people what we're doing. When we talk about 2047, why does this
+become even more important? Today's leaders, not only at the center but at the state
+level too, the majority of them at that time will be
+in the 85 to 95 age bracket. They won't be in government. Tell me, the promises Advani ji made in
+2003, why does anyone ask him about them today? "Yes brother, what happened?" He is in that same bracket today, 85 to
+95. Who will ask Modi then? Nobody will. Nobody is asking Advani ji either. Nobody will ask Amit Shah ji. At that time maybe they'd still ask Piyush
+Goyal ji a little, maybe he'll still be in power. Nobody will ask Nirmala Sitharaman ji. That's why it becomes important: tell us what the target is, so that we know what to assess and what to
+expect. At least we'll know. We got the feel that
+Viksit Bharat will happen, but how does it look? That becomes very
+important. My complaint is only that much. Everyone wants developed, and everyone
+should demand it. It's a very good resolution. But what does
+it look like? The numbers should be put out for it, and
+we should prepare for it. That's right. Let me give you a simple
+example. We have the Steel Ministry. It came out openly. In 2017, or 16, they
+announced that our National Steel Policy says by
+2030 our nationwide steel-making capacity will
+be 300 million tonnes. Right? Now from all the numbers I see, most likely we will hit 250. Yes. Where we've come from, that's good
+too. But every year, for that, you have to sit
+with the industry, discuss what's happening. "Okay, it's not happening. What's the
+problem?" "Okay, should we give a PLI scheme for
+specialty steel?" All of it gets discussed. Then they
+calibrate subsidies. Then we are reaching 250, right? Now a new steel policy has come. They say
+we'll reach 600 million tonnes by 2047, or 2050. And when we're there, 100 million tonnes
+will be for export and 500 will be our domestic consumption. You're setting targets in such detail. So for developed, which they keep talking
+about, there should be targets like that too. Ultimately, developed flows down through multiple sub-headings. Right. Now the steel example you gave also takes us toward developed, doesn't it? As for the government, maybe they've made
+the whole plan, but yes, it isn't transparent. If we don't
+know, how would we know? Because whoever made
+the plan won't be in power then. Right. They themselves would be 85 to 95, maybe not even there. We don't know. The decisions we're taking today, saying
+"it will happen then," how do we assess whether they're right or
+wrong? I'm not saying the resolution is wrong. I'm saying bring transparency to the
+execution. Tell people what needs to be done. Because in the end, even if the government
+says "we're setting this target," the
+government won't execute it. The government's job is to enable.
+Industries and companies will execute it. And we, the common
+people. Right? We're the ones who will fund it. Are we ready for it? Is that company
+working accordingly or not? Is the FDI they need coming or not? All of that depends on this. Industries themselves don't know what to
+do for 2047, yet the government said we'll be developed
+in 2047. How? So overall, if a blue book is created and communicated to everyone, it will have
+a lot of transparency. That's all I'm asking for. Yes. And I'm saying again, you don't have
+to learn from anyone else. I'm not saying look at China. Look at... Yes, one you'd call a dictator, the other
+is too small, so don't look. Look at your own NDA's Chandrababu Naidu. So learn from within your own country. For the pink tax you mentioned about
+women, if you want to solve it, learn from Tamil
+Nadu. We can learn from our own, can't we? Yes. You have to see that, for every
+industry, why does Gujarat always bring the policy
+first? People from UP also say Gujarat, and it
+irritates me so much. By now enough people have understood that I'm not a hardcore fan of Modi ji or
+the BJP. That's fine. But yes, I have two favorite
+states: Tamil Nadu and Gujarat. Okay. I used to get so angry. People say every
+industry goes to Gujarat because of Modi ji. Yes. Brother, have you ever thought that for
+every industry they're the first to bring a dedicated
+industrial policy? Why does it matter? What happens? Whenever someone brings a big investment, they go to different states and say, "I want this. I need this." Yes. "I want a rebate on electricity duty. I want this much return on SGST. I want
+this. You'll have to give me this. If you build
+the road here, then it'll work." These are things that basically are a
+package you're demanding. The Gujarat government is the first to
+come out with a dedicated semiconductor policy. First of all. Right? It tells you in
+advance that whoever comes will get this. You don't even need to negotiate. It's
+basically already clear. It becomes easier. Everyone went there
+first. Who said that Odisha should come two years
+after the Gujarat government? Who said Tamil Nadu should come a year and
+a quarter after Gujarat? Who said UP's semiconductor policy should come two and a half years after
+Gujarat's? What were you doing for two and a half
+years? It came out two and a half years earlier,
+bring yours six months later. What stopped you? It was that. So learn from them. How do they do it? And in every industry they bring it first. This is also happening in the space
+sector, building rockets and everything. Right? Which is the first state to come out with
+a national space industry policy? Again, Gujarat. Oh my goodness. Who's stopping you? Who stopped Haryana, where I come from? Who stopped West Bengal? Bring a policy, man, so that industry
+comes here. I say it's a very good thing. Who told Odisha, Tamil Nadu or Kerala to
+come later? So this whole "developed" term we've
+given, 2047, needs fully synchronized engagement of the
+states. That's most important. We forget this. Otherwise it creates differences: Gujarat grows and grows and grows, while another state whose leader can't
+think... The reason is different. Again, people only talk in narratives.
+They don't have numbers. That's where the problem comes in. I believe Gujarat grows for its own
+reason. Industry comes to Gujarat for its own
+reason. And I'll tell you, with numbers. Around
+August 2024 I studied this. I'm giving the number from
+then, but anyone can easily do it. The RBI publishes a report every year,
+State Finances. What does it mean? It puts together all
+the numbers of each state and shows who stands where, and what we
+can see from it. My point is, whenever you want to analyze
+a state government, look at just five things. Of all its
+revenue receipts, all its income, how much goes to interest
+payments? How much goes to subsidies, how much goes
+to pensions, how much goes to salaries? What's left after that is for you, for your state's development: bringing
+industries, giving them incentives, building roads,
+hospitals, whatever. As of August 2024, Gujarat had about 42
+rupees left out of 100. 42%. Tamil Nadu had 33%. Maharashtra had 22%.
+Punjab had 11%. Okay? Industries don't go to Punjab because the Punjab government has no money
+left to give incentives. Industries go to Gujarat because they have
+it, they hand out incentives, so industries get set up there. And whether someone likes it or not,
+that's the money. Now tell me one simple thing, sir. Take Tata. Okay, I'm moving away from
+Gujarat. Now Tata goes to Andhra Pradesh. Yes, a nice sweet package. They negotiate and say they'll set up, in Andhra Pradesh, I said 7,800 crore or
+10,000 crore, one of the two, a 10-gigawatt ingot and wafer plant with an investment of about 7,800 crore. Okay, a big investment. Ingot and wafer, which isn't even made in India yet. Only Adani ji's plant exists, and that
+doesn't fully work yet. So that's basically a very good thing. On the way, it was seven, eight months
+ago, obviously news came that the whole project went to Odisha. Politics is basically the framework for
+the country's decision-making, which directly impacts business and
+economic outcomes for everybody. For example, the government decides that petrol will be taxed at 55%, state
+and center combined, and diesel will be taxed this much. That makes our entire country's logistics
+expensive, because this tax doesn't get GST credit, unlike other expenses. Our entire country's logistics get more
+expensive because of it. Our exports get more expensive. So this becomes something we want to
+track, and this is a political decision that is impacting business outcomes and
+economic outcomes. So people should care. If you're analyzing
+businesses, you also understand what's going on behind
+them. You have a company called Borosil
+Renewables. I think it's Kolkata-based. I'm not 100%
+sure. I mean, their base is a bit here, but
+mainly in Gujarat. Okay. So basically, think about them. They built a very good business at a very
+large scale. But practically speaking, their entire
+business was built on the fact that the government imposed an import duty
+on solar glass from China and punished it hard. Otherwise it
+couldn't have been built. So if somebody is investing in that
+sector, the entire solar sector, in fact, you can't understand what outcome will
+come here without studying politics. Otherwise you're practically gambling. Fair enough. And then people defame the
+stock market as gambling and betting. Fair enough. It isn't a casino. You play without studying. You play on
+tips. Study. Play accordingly. Then money does
+get made. Right. So let's understand your process
+once. Okay? Because you invest. Now you also invest in listed, and in
+unlisted quite a lot. Right? No, not in unlisted. No, I don't. I did one or two just to test how it all
+works. Okay. Then I realized I wasn't enjoying
+it, so I'm not doing it. Okay, fine. But yes, I made good friends
+from it. Yes, you'll make friends anyway. Whether you put in money or not. So tell me, what is your investment
+process? Sir, personally, I only play contrarian. Okay. Basically, I'd say I'm very blessed that a book came into my life. What book? I was reading something, and as
+I read, these big investors write notes every month or month and a half. Like Warren Buffett's notes, which are
+still golden notes today. Right? Everyone reads them. Even the old ones, the 1990s note, people
+still read today. There's also another investor called
+Howard Marks. Now he runs Oaktree Capital. Generally
+these people play the distress game. What does distress mean? Where the company
+is in deep trouble. They go there and give a loan or take equity, but with quite punitive
+terms, like if this happens, this covenant will
+be breached, we get this. If this happens, we get that,
+etcetera. And they built their entire business on
+that. So he has a book. When I read one of his
+notes, I was blown away. "What has this man
+written!" So I looked him up. Where else can I read
+him? Many times, even a single piece is enough
+to pump you up, "This man is something different." So I went and searched, and I found two of
+his books. Mastering the Market Cycle was one, and
+The Most Important Thing. The Most Important Thing was the thinner
+book. I said, let's order this one. I ordered and read it. Within three chapters my mind opened up.
+Why? I understood. There are books on stock
+markets, books on investments, and he didn't talk about stocks at all. Those who haven't read it, do read the
+book. The beauty of that book is it teaches you
+that stock market investing, in any part of the
+world, is 20% research and 80% psychology. What state of mind are you buying in? What are you thinking, with what thought
+are you buying? When you sell, what are you thinking as
+you do it? And in between, what are you doing? Panicking? Sitting calmly, unaffected? What other activities? It's about this. That determines what your actual outcome
+will be. True. True. When you reach chapters three
+to eight in that book, you understand. The second lesson: since childhood, at least I was learning
+this as much as I'd been reading, like Warren
+Buffett and anyone else. So we learn: buy quality businesses. Quality businesses. He's defined quality,
+gives examples. He says, quality doesn't matter at all. Can I use the word "ghanta" (damn)?
+Quality doesn't matter a damn. He said, yes, a fraud company. No governance. Shady dealings. It's still
+a company. It has some price. That's right. Everything has a price. Even garbage has a
+price. If you're getting something at a price
+lower than what its actual price is, pick it up. It's a screaming buy. Your objective in the stock market should
+be to make returns. Returns mean buy cheap and sell far above. If you're able to buy cheap, seeing that it's available for less than what its
+market value should be, what difference does it make that it's a
+"Lala company," or a fraud, or whatever? I love that thought. This makes sense. Finally someone says what's actually
+visible. Why? Otherwise the mind goes: "This man is such
+a fraud, and he made so much money and left." Now it makes sense that whatever he did, he must have bought very cheap, so he made
+it. So I said, this makes sense. I said okay, from now on we'll play
+accordingly. But then the question was, how do you
+identify whether something is cheap enough or not? He had a very good mechanism, which he
+explained in later chapters. He said, when you invest, you should look at your own risk appetite, your own investment horizon, all those
+factors. Along with it, a very good point that I haven't heard any leader say in any
+finance book: also see whether your body supports it or
+not. For example, you made an investment, he
+wasn't only talking about stocks, you made an investment in real estate where, brother, you're hanging on an EMI
+for the next 25 years. Okay? That for 25 years I'll pay the EMI
+for this home or office. How your own body will be in 25 years you don't know. Now think about it. I'm 31 years old,
+about to turn 32 in December. I often get back pain. Sometimes I get cramps in my legs, in the area below the thigh. And cervical is always like that. I've had
+glasses since eighth grade. My hair is already thinning. Receding
+hairline, everyone can see. A few white hairs have also appeared here. I'm 31. My father's hair also thinned, but that was around 35-40. I'm already in
+that state at 31. What can I tell you? These days people my
+age are already getting diabetes,
+hypertension, BP. I don't know what condition I'll be in 25
+years from now. I have a daughter, 20 months old. Maybe another child will come in two or
+three, four years, expenses will keep rising, and there will
+be responsibilities. Education spending is growing 14-15%,
+sometimes 20% a year. Healthcare expenditure is growing 14-15%. I don't know what my actual capacity to
+pay will be going forward. Sure. If you don't know, you have to see
+whether your income or your backstop has been
+built enough that you can take a 25-year bet, or a
+10-year one, or go for five. You have to decide accordingly, for every
+investment in your life. Interesting. I enjoyed reading this. He didn't say it in these exact words. He explained it in his own way. But what
+he explained, "yes, you have to look at this too." Elsewhere he explained that nowadays there's some fad going on: diversify,
+diversify, diversify. He explained it very well. First see
+whether you even have enough to diversify. People don't have a 1 lakh portfolio. A 4
+lakh one doesn't exist. They say, "I'm investing 20% in bonds,
+20%..." If you're 25 or 30 years old right now and you have a 2 lakh portfolio or a 5
+lakh portfolio, quite frankly, my belief is, if your 5
+lakh becomes 2.5, you'll earn it back. You'll make it again. So what did you save by diversifying? It's time to play. Diversification has a
+stage: after you've earned a certain level, you
+decide this money should not go, that you have freedom with it, that you can do anything. After that, set aside what comes in first in bonds or something else so it
+stays safe. Then put it into something else, do a
+little bit more with the rest. Then it makes sense. So again I learned
+this too. When all these aspects came together, I
+decided, okay, I'm at a stage where I want to take
+risk. Okay? But how does informed risk come
+about? A very clear concept from him: buy the one
+that's in the fear zone so that you get it cheap. Okay? What does fear zone mean? A stock that
+keeps falling and falling. But then someone could say, "It's a
+falling knife. It'll cut your hand, and if it falls
+further?" So his answer is: you can buy only when you do deep research. You should come to a
+confidence that if tomorrow the company's promoter
+sits in my mother-in-law's chair, whatever I discuss with him, after his
+two-hour flight, he should say, "Why don't you come to the
+office sometime? Let's sit down." Yes. The day you have that much
+confidence, that the company's highest... I know this
+much, brother. If I meet the promoter, I'll shake him up. And that confidence comes from this alone.
+Now read everything that's available on the net. Maybe you'll realize how much you know. Confidence comes from doing this
+repeatedly. When it starts coming, then you understand whether you're capable of playing this
+company or not. And after the research, if you feel that this one that's falling is overdone, and it will turn around from here, then I
+build a position. You took it, and it's not necessarily the
+bottom. After that it fell another 25%. The idea is very simple. Okay? After I buy, the stock can fall another
+30-40%. It can fall. But for me it's a screaming
+buy, isn't it? I'll average in more, because my thesis
+says it will turn around here. Now averaging down makes sense for me. So I do that. I build my position better. Then as long as the thesis is playing out. I've set it up that next month it'll turn
+around, so how will it happen? Until then, what are the things that are going to
+happen, that are publicly available? While those things are happening, the
+stock goes lower, buy more, buy more, buy more. As long as the ticks keep getting marked. If somewhere something is written that it
+went the opposite way, then, brother, reassess what happened to
+the thesis. And if that happens, even if it's down
+20%, book your losses. But as long as the thesis is running, keep
+sitting. Why? This contrarian approach, where the
+outcome... I'm not recommending it to anyone, because
+it needs so much research. Not everyone does it. How many hours of
+research on any single stock? I won't talk about one stock. I'll tell
+you this: a minimum of seven to eight hours of my
+day goes just in reading. Seven to eight hours a day of reading. Practically, it means I'm doing this full
+time. And you... yes. You're so good at trading. I'm not, brother. You can do it day and
+night. You've been doing it for so many years. I can't. There's a very big investor, my
+guruji too, I won't name him. I asked him, "What do
+you do?" He said, "I read, seven to eight hours." I said that's fine, but what do you do? He said, "This is also work. Seven to
+eight hours of reading." Warren Buffett. Yes, he read all day. And look how much money he made. So everything is an occupation. But still, sorry to interrupt, still a certain number
+of hours, doing research on any company to have deep
+conviction. I'd say a company is very... I want to go
+a bit deeper into this, because you're also an MBA. I'm also an
+MBA. Sir, I didn't attend classes. Okay? No
+sir. The answer is, my MBA is only a degree. Whatever else you want. The concepts we've
+also studied, that valuation, ultimately the thesis is
+okay. Every thesis is good. But there is a
+margin of safety in terms of valuation. Right? And typically we see that, say, the PE
+ratio has risen a lot. It started here and now has risen so much, so somewhere the thesis is intact, but the
+stock may not perform because it has already stretched
+valuation. My mentor Ajay bhaiya's book also has this
+point: in the journey from good to great we have
+to participate, but when great goes back to good, you have
+to exit then. All this still remains the same. So take
+the case of Suzlon: when you did it, at that time valuation must have looked attractive to you. It's a PE recovery story, so valuation
+benchmarking isn't usually done. But when it became 18 rupees, you must
+have seen, "Now it's become expensive," from a price
+movement perspective. Right? So should you exit because of low
+margin of safety? Sir, I don't do that. I don't. My point is simple: markets don't trade at
+true value. Yes. They either trade above true value,
+below it, or oscillate in between. They rarely stay
+at true value. It comes back to the mean, but doesn't
+stay there. Okay? Let's take an example. Sorry, am I interrupting you in the
+middle? No, not at all, sir. Actually, whatever comes to mind. That's
+how it should be, sir. I'm like that too. Take a company you're also somewhat
+associated with, Groww. Okay. They have an IPO. Okay. There are some
+things you may not be able to say. No problem. We all love whatever they are. So when it came, it looked very expensive, like how could it be that expensive? Look at other financial services
+companies, this is a fintech. Fine, it's a platform, it's very good, its
+valuation should be high. Now the price is stuck around 190-195.
+Right? The company is performing. Right? But the
+price isn't rising. Now in this scenario, suppose you're a
+Groww investor, because many people will be. They're
+asking you for an answer: what should we do? Hold? The thesis is
+still there. It's a 10-year, 20-year story. The way
+they're building the ecosystem, and in India nothing has really happened
+yet. From here they can build a base five times
+bigger, if they do all the right things, which I
+know Lalit will do for sure. But what do you do as an investor when you see that the price isn't going
+up? Sir, first, you've said two different
+things here, so let me address them separately. The first thing you said: it's a 10 to 20
+year story. Beyond that, a 10 to 20, or even a 50-year
+story. But that story is not the company's. It's the market's. Why am I saying this? For example, take a tile company. If it
+does an IPO today, I recently commented on one, in May, just
+now. And it sells you the theory that look how
+big the market will become. Most people haven't bought their homes.
+Those who did will renovate. Those who buy new ones will also renovate. Going forward, everything will happen, so
+the market will just expand and expand. I won't buy that, sir. Okay. Number one: why? There are other players
+in the market. The market will grow. Are you best suited
+to capture that growth? I don't know. So that's an important
+aspect. That's why I would never buy a stock like
+Lenskart, a company that makes, runs and sells
+eyeglasses, just because the company has repeatedly
+said it in its DRHP. Back then many people said the market is 48,000 or 50,000 crore today and by 2030 it'll be a 1.5 lakh crore
+market. Correct. Correct. It doesn't make a
+difference to me. You saw that in his video, I did too, where you said that Titan says something
+else, and the Titan people say the market is
+25-28,000 crore, and you're saying it's double. Yes. They're saying that by 2030 the
+market will be about 45-50,000 crore, and you're
+saying 1.5 lakh crore. That means today's market, between what
+you and they say, has a two-times difference. For 2030, there's a three-times
+difference. So I don't sit in these things at all.
+First point. Okay? Now coming to the Groww part. Now my belief: first, what Groww's true
+price will be, lower or higher, hasn't been discovered
+yet. Yes. Why? The company hasn't been listed
+for long. Only four or five quarters of results have
+come. Yes. And that shows the stock price stays
+extremely volatile. Yes. Okay? It goes very high, and comes
+down very low too. So how do you predict? My simple game is: you've invested on a thesis. "This company
+will do this, so it will certainly reach here." I'm tracking the journey until then. What things are getting ticked off until
+then. If such things are happening, and
+sentiment is holding, nothing has happened to spoil market
+sentiment, I'll keep sitting. So it's a game of
+thesis plus sentiment. I'm not a valuations person. Because I believe markets don't work on
+valuation. Some people might not like it, because I believe the market comes to valuation
+and goes away. It oscillates around it. We have to make
+money in the oscillation. So my belief is: what does that
+oscillation run on? It runs on how long the thesis holds, and while the thesis holds, whether
+sentiment has turned negative. If it's positive, keep sitting. Look,
+build a road to the port, just from here. Some 25 or 30 kilometers. You won't carry all this iron ore on a
+normal highway, because traffic gets badly blocked and
+there's heavy pollution. We don't want that. Build your own
+separate road and use it. Think about Vedanta. Building a 25-30 km
+road isn't difficult. It's no big deal. Like, this is a very good thing. Why?
+They'll finish this in 6-7, 12 months. After that, once iron ore starts moving,
+again, it's a very big positive. When multiple triggers like this keep
+coming, you play. So as long as they're there, keep ticking
+them off. All these things that are happening, I'm
+sitting there, ticking. Your stock had gone to 207, 206-something. I bought at 207 that same day. It was a
+small quantity. But then I had a lot of conviction, so I
+bought more at 211. Bought more at 246. Bought more at 273. After that we neither bought nor sold. It
+kept going up. I needed a bit of money, so around 370 or
+360 I took out a little. The rest I kept holding, and I stayed
+there. In the process the stock crossed 500, and
+around 470 I took out a little. But the full exit I took was around 540. But at that time the company also paid
+dividends, which is extra. Add the dividends too, and the return went somewhere far. Now people were saying, "It's going to be
+a Diwali company." But simple things: look at cash flow and
+everything. It's a "Lala company." I myself say
+they're number-one frauds. I myself say there's no corporate
+governance. I also say, those who do mining and all
+that, I have no proof, but talk to people, talk to people from the company, they
+themselves say that those who do mining, half the goods
+people take out in cash. I'm saying everything. But after that, what's reported has such lovely numbers. Even after that, how could it be Diwali?
+Then you trust the reported numbers? Sir, on reported ones you also have to
+read what's written in the auditor's report.
+Don't just look at numbers. Do you trust auditors now? Sir, it's very
+rare that they'd do something wrong and not
+really call it out. Correct. Now that language is such that many people don't follow it. But to be very frank, forget following, many people don't even look at the
+numbers. People only look: reported profit is this
+big, revenue is this big. People don't even look at the fact that
+revenue doesn't mean that brother, they've earned it. There was an IPO recently. I can take the
+name, no problem. Sunshine Pictures. Okay. They make films. This is the same Vipul Shah ji who earlier
+made Singh Is Kinng with Akshay Kumar and OMG, Oh My God, which was a hit. And recently, the company isn't him, the promoter is the
+same. And the company, Sunshine, has The Kerala
+Story, The Kerala Story 2, all these pictures,
+everything. So now they come with their IPO, bumper
+subscription, everything is good. I didn't understand why. When I analyzed
+it, what did I see? FY26 total revenue. It's listed now. Okay? And there's no recommendation against,
+nothing positive either. The IPO says look at the FY26 revenue: 89%
+is receivables. What does that mean? We showed revenue, we
+showed profit, but our cash is empty. Money hasn't come
+into the bank. This is a very old playbook. Do people
+still play it? Sir, I find studying SME IPOs a lot of fun, because companies come that we haven't seen before. There's a lot
+to learn. I don't invest in IPOs, but there's a lot
+to learn. But in SME, you see seven out of ten doing
+this. The IPO comes, and just before it two
+games are played. Just one year before the IPO, what you do
+is show big orders have come. Orders came, so revenue was made, you booked it, profit
+was made. Done. When will cash come? Nobody knows. Cash in the bank keeps getting depleted. Cash flow is negative, more negative than
+last year, more than that. This is the game being played. So Sunshine
+is a very beautiful example. One named Trenzet has also come recently,
+or has come and gone, I don't know. But recently, the same
+story. And if I open my laptop I'll show you, I
+can show you the whole list. Look, these eight names. Out of the 10 on
+this list, seven turned out this way in my analysis.
+So it's very common. Leave these aside. I have a very favorite
+company: Ola Electric. Read the annual report, man. You'll really
+enjoy it. First of all, the company gives so much
+content. I don't know how it sells scooters, how
+many it sells. It gives a lot of content. Now think about it. One thing they said, they have two sister entities. That is, the promoter's other companies. One is ANI Technologies, which runs the
+cab business, Ola Cabs. The other is Ola Financial Services, which was his brother's company, and some
+of the same investors, big investors there too. To give them an exit, they bought the
+company here. They wrote it off completely. Brother,
+wow. Okay, fine. What did that company do? Give
+loans? A distribution platform for loans and
+insurance, earning commission. Plus, now what did they say? Okay, now for
+whoever needs a loan for Ola Electric, it goes through
+their platform. Through that, Ola Financial Services gets
+business. What did they say? For the business we've given Ola Financial Services on our
+scooters, the loans, insurance, and so on they've
+sold, they give us a commission for that. The commission part, in two years, showed
+102 crore of revenue in Ola Electric, the listed company. Cash
+hasn't come. It's clearly written in the annual report.
+Sum both years: 102 crore. It hasn't come at all. Similarly your
+other one, the Ola Cabs company, ANI Technologies: Ola Electric sold scooters, "You run them
+in your fleet." The electric scooters they'd launched in
+between come from there. Scooters were sold, and 177 crore is due
+on that. Revenue has been shown. It's been added to
+profit. Cash hasn't come into the bank yet. So it's not that this happens only in
+SMEs. Big companies are doing this too. They add this to profit, so revenue is
+shown. GST is also paid on it. Sir, everything
+happens. Just by giving orders, everything happens.
+So this tax that goes out, the outflow, doesn't matter to anyone. Sir, the point is the objective became
+raising the stock price. It's no longer about the business. That's
+my belief. I'm not making any allegation. Whatever I
+said is in the annual report. Read it once. So when this happens, what's
+the outcome? For today, you reported the numbers. It
+all went through, done. Okay. A year or two later, if it still doesn't
+come, what will you do? You have to write it off. Now for that, there's a second situation. If you feel it's high risk and might not
+come, you make a provision for it. That's also
+very normal in the industry. You make a provision. Provision means from the profits coming in right now, you
+set some aside beforehand. You don't show it in today's profit, so that if there's a loss tomorrow, it
+gets adjusted there. "We've prepared for that in advance." They have no provision either. Sunshine
+had no provision either. So that becomes a major, major issue. So all these things happen too. So that's why, and the beauty is, people
+often curse, "What is SEBI doing?" SEBI is the only one whom you should fold
+your hands to, that it's doing amazing work. Why? SEBI's job isn't to say your IPO is a
+fraud or yours is right. Why? Then in a way you'd be running a casino, saying, "Okay,
+pay money, bring an IPO." They'd say you yourself are opening the
+shop. Right. SEBI is such a beautiful organization,
+where its only job is to ensure that if you have 100
+mistakes, all 100 must be disclosed. DRHP approval doesn't mean that SEBI has stamped it as a great
+company. DRHP approval means that whatever needs to
+be disclosed has been disclosed here. Now it's up to
+you, see for yourself. And how many times does SEBI do this? A company files its DRHP today. Someone gets approval in 3 months, someone
+takes 12 months, someone doesn't get it at all. Why? Because SEBI sends questions in repeated
+rounds. Why didn't you include this? Tell us this
+too. Do this too. We need disclosure on this, and on this. Why didn't you tell us these things? All of it happens. Now there's a tile
+company whose IPO also happened, Varmora. When they first filed the DRHP, it had data up to 2025. They gave no 2026
+data at all. Data up to FY25, no data for FY26. They'd filed a bit early, no problem. But if you look at the earlier DRHP and
+the addendum they added later, do you know what the difference was? There are so many data points that weren't disclosed earlier. Okay, they
+added those data points. Does the company add them on its own? SEBI
+is after them. What a joke. That's when it happens. So fold your hands to SEBI, brother. Whatever I pull out and say, and there are
+many people who pick every nit, those points are being
+told to you because SEBI made them disclose. Otherwise
+they wouldn't. The DRHP is their pitch document. They'll only sing their own praises. Okay, tell me, you're talking about IPOs,
+and your book is also coming. When is it coming? Sir, pre-orders open on 21st October, and it will be out in stores by the first
+week of November. On Amazon, at Crossword stores, at
+airports, everywhere. Yes. The IPO Trap, this is the book,
+friends. I'll put the link below once I get it. I'll give you the link when I have it. Surely everyone should buy. Some books are
+also necessary for society. I think you must have done a very good
+job. I'd like to read it, but let it come in
+its natural way. So you're talking about IPOs, so let's
+spend time on this. There's a company that genuinely wants to
+grow, but a merchant banker comes. If it's
+lucky, it gets the right merchant banker. If it's
+unlucky, it gets a corrupt merchant banker, who takes it down a path that isn't
+desirable. Okay? So if I want to talk to you a little about
+the merchant banker community: what's the difference between a good
+merchant banker and a bad merchant banker? Sir, first, I'll disagree with you on one
+line. Yes. It's this: you said that if you get the right merchant banker, this
+happens, and if wrong, that happens. I believe you get what you deserve. Okay. Why? It's simple. When you sit with
+someone and you realize he's giving you the wrong
+sessions, if you're not a person of wrong intent, you'll say, "No, respectfully, do your
+work. It's good, but ours won't happen." You say this in your normal business
+dealings too. And if you have a twisted mind, thinking "I'll make it this way, that way," and you find someone else who gives you
+such ideas, "Brother, you're great, you're a good
+man," you'll go, "Sir, ours won't happen with
+you, sorry." And you'll say, "You're a good man, tell
+me, how far can you take the valuation?" That
+game gets played. So you get what you deserve. Number one. There are both kinds in the market. Now, because we should look at the broader
+aspect, I'll tell you, remove the stock market
+here. Okay? The credit ratings ecosystem works like
+this. If someone needs a hefty loan, above a
+certain scale, they first have to bring a credit rating
+to the bank, saying these are independent institutions that say our company, if we take money
+from you, has the capacity to repay it. This is the
+quality of our business. There are eight or nine players, among
+which two or three have no credibility. So what happens here? Bank people say, "Sir, we only want this one." "We only
+want that rating." I'm not endorsing either. I'm saying we
+want this one. Why? Because practically, how does credit
+rating work? Suppose Jayant ji has a company that does
+shady things. Now to take a good loan, what would I do? I'd go to Vivek ji. "Vivek ji, you do
+credit rating, right? I'll pay you well. Make me a good report." Now because I'm the one paying you for the report, what if Vivek ji isn't a
+wise man or isn't a very, what do you call it,
+right, internal person? He'll say, "He's paying me and will give
+me more work. Let me make it a bit favorable." Right. And banks have gained so much experience that going around, there are only eight or
+nine credit players, so they know who's not good. The same goes for merchant banking. Who's your merchant banker? What kind of
+IPOs does he bring? What kind of companies does he support, or
+not? Big investors know all this. So they take their decisions accordingly. The problem is that the common man doesn't
+even see who the merchant banker is, what his track
+record is, what IPOs he's done before. That's where
+the problem comes. Now why is this important? In IPOs, if you
+look at the market, mainly there are two segments: SME and
+Main Board. Different kinds of merchant bankers work
+in both. Sure. When you go to the Main Board, mostly you look at merchant bankers who
+come on several factors. Some have a very strong global investor
+network, like Morgan Stanley, Goldman Sachs,
+etcetera. So if you're doing an IPO where you need
+to raise good money from abroad, like Jio is doing now, for example, you'll
+need that. It will be a bit difficult without it. It's not that the Kotak people don't know
+how to bring outside investors. They have a full network, everything. But it really helps that Goldman's name is
+there, Morgan Stanley's name is there. So that's
+one aspect. Second, there are also names that help you with various other tactics to get your IPO
+out, because there's a lot beyond the IPO. For
+example, I'm bringing an IPO. My books aren't
+maintained. I've done shady transactions, put money
+from the company into my account, moved it elsewhere,
+whatever, etcetera. Managing all that isn't an easy job
+either. And haven't worked on it. So there are
+some merchant bankers who help set that all up and get you
+ready. Right? So these are all the players. Most outsiders don't even know which player is famous for what. So that's one aspect. But when you come
+into SME, there the whole mess is spread out. Such things happen there. You'd know
+better than me, sir, you're in Kolkata. In Kolkata, the stock
+market culture is still going on, still very strong. Then you see there are a lot of such
+players. Their whole job is to find companies and say, "Why aren't you doing an IPO?" The company doesn't want to. The idea
+didn't even occur to the promoter. But it's their job. It's a legitimate
+business. It really happens. People reach out to me
+too. You know, so many people say, "Can you
+help us connect with companies where we can pitch an IPO
+prospect? And we'd love to pay you this much." All of that comes too. It surely comes to
+you too. Now what's the business model? They'll go and say, "We'll get your IPO
+done." "How much do you make? 50 crore revenue,
+right? You make this much profit, right? Okay. We'll get your IPO done at a valuation of
+400 or 500 crore." That's what happens. The man whose
+business earns him 5-10 crore a year, if he can get a
+valuation of 300, 400, 500 crore, and someone says
+"I'll get it done," if that scheme appeals to him, he says,
+"Let's do it." And this happens a lot. Most IPOs are
+coming this way. I'll give you an example now. I won't take
+the name because they're a slightly different type
+of people. But basically, that's how it goes. Then what's the next step? They don't just
+do IPOs like that. Mostly what you'll find is that these
+people also buy a 10% stake in that company at that day's valuation. Okay? They'll take a stake there, become part of
+it, and take a stake through one of their
+sister entities. All that gets done. Then, to get the IPO
+done, over the next 12 months, 6 months, the company is completely window-dressed, cleaned up, the books are put in order
+properly, new stories are created, "We'll do this
+and growth will come, this will happen, so on and so forth," a
+whole story. And after that the IPO is done. All that
+happens. There are such players too. And what's the
+difference here? There's one more angle that you see on
+both sides. The more shady work in an IPO, the more effort you have to put into
+selling it, the more commission these people eat. So, for example, when Ola Electric's IPO
+happened, the commission, meaning the percentage
+fee, it's called a fee, "commission" would be
+the wrong word, but the fee that was paid was close to 300
+crore. 300 crore. 300 crore is huge. What
+percentage is that? I don't remember well how much they
+raised. Maybe 8,000 crore, or maybe 5,000 crore. Paying 300 crore out of that is sizable. That's 4%, which is normal. Sir, this is
+the Main Board. In the Main Board, where does that happen?
+Okay. 3-4%. On the SME side, deals happen at
+5-5.5%. Yes. Why is there more risk in SME? We don't
+see so much in the Main Board. Yes. For example, let me give you another
+example. When Vodafone Idea did its FPO, yes, how much did they raise? Around
+18,000-19,000 crore. Hmm. The fee they paid was close to 280
+crore. By raising a quarter of that, someone has to pay as much money. Again, someone could ask, "Why do you keep
+talking about Ola?" I like it, brother. Otherwise, it gives
+content. It's not my fault. They're giving it. I'm
+not doing it myself. So the point is, merchant bankers do all
+this too. So it's a very mucky ecosystem. I don't expect every person to start keeping
+records of which merchant banker is good or not,
+etcetera. Don't go that deep. But there's an art to
+reading a DRHP. When you read a DRHP, you can understand
+one thing very well: what the company did in the last 12 months that it wasn't doing before. Why 12 months? Because a lot of
+preparation is done in 12 months. It's not easy to come. Very few companies come in six months of preparation. Mostly it takes 12 months, 18 months, even
+24 months. Why? You have to get the company ready. You
+have to create a story. You have to present numbers properly. You have to put brackets: this is in this
+window, this is in this one, and so on, all for
+packaging. For example, Ola was one business. It had
+one number. Suddenly, four quarters ago, one day,
+after the IPO, they started saying, "Okay, our scooter
+business has become profitable, and the rest of the
+business is negative." Why? What did they say? "From now on we'll
+disclose our scooter numbers separately, our cell
+numbers separately." Okay, fine, I understand, the cell
+business is separate. Then when the Mint people went and exposed
+them, that they put some expenses in the cell
+part, some in this one, and some 12% of total
+expenses weren't put in either. Whose are they?
+Common ones. Those were for tea and samosas. They'll go
+somewhere. You're only doing one business. They
+didn't put them anywhere. If you didn't put them anywhere, then of
+course, you could remove anything and say it. For example, legal is shared between both, so remove it all. You're spending 111
+crore a year on it, so remove it. I remember that
+presentation. It was the first, initial presentation. The founder was giving the presentation. It was written there, "World's number one
+EV scooter company," and below, in an asterisk, it said
+"excluding China." Let me tell you a great piece of data.
+There's a company, Tailg. Tailg. Okay. It's a Chinese company. The third biggest electric two-wheeler
+company in China. It has the capacity to make 1.5 crore
+scooters a year. It actually makes 1 crore. But even that 1
+crore, and its capacity, is more than the installed capacity of
+Ola, Ather, Bajaj, TVS, Hero, so-and-so, Okinawa, Hero, all of it
+put together, Greaves, Ampere, whatever you want, add
+them all. So it's very easy to just remove them and
+say it. These are all red flags, basically, you
+know. I won't count this particular thing. This asterisk saying "World's biggest
+after this," I wouldn't call that a red flag. It's more
+like, okay, it's my choice. I can interpret data
+however I want to present it. The red flag is tampering with numbers, or reporting something that makes you
+think "this doesn't make sense." For example, on Ola, and you want to talk,
+you tell me. I don't want to do the journey. We talk a
+lot. So on Ola, understand it like this. I have
+a simple thing. My content target, the content I make, Yes. I don't make it for the masses. Okay. I say it openly. My target audience is the benchmark that my content must
+definitely appeal to them. The rest, good. Right. But it must reach them for sure. That is
+the top 3 lakh people of India. So generally, people making content around
+finance won't say in their content, "They issued a convertible debenture." Half the people don't know why a
+convertible debenture is. They don't know that convertible is also a
+car. So how would they know debenture? Right? I say it in my content. My target audience
+is different. Now when I'm covering this, I have to look
+for this kind of thing. And when I'm looking, if I find something
+that makes no sense, I play with it. Ola gives me that. Now OT, we're talking. When I was
+studying, my mom had a simple doubt. Now all the content has been made.
+Everyone has already put it out. Bad scooters. Kunal Kamra made so much
+noise. Scooters catching fire. Someone's making a
+meme that in winter it works as a heater.
+Everything is going on. One simple thing I couldn't understand. If the scooter is that bad, why doesn't
+anyone file a case? There are no cases. They weren't filing. Because if there were a case, it would
+appear somewhere in the news. It wasn't appearing. The company isn't
+reporting anywhere "so many FIRs against us."
+Nothing was coming. I just couldn't understand. Some FIRs do
+exist, but given how much is happening, nothing was
+visible. I couldn't understand. So again, as I
+said, I reached out to people in the industry:
+"How do I understand this?" I can't. By the way, not an insider, not
+company people. You ask people who work in the ecosystem. For example, go to a dealership and just
+talk to the guy. So you ask them and understand, and
+someone gave a hint, "Brother, lawyers come a lot here." Lawyer things do happen. A bug bit my
+mind: how much is their legal spending? That
+would be in the annual report. But when I searched, I found that in four
+years, from FY26, sorry, FY25 and before that, in that four-
+year period, they distributed 365 crore to lawyers. My god. FY20... now this number of yours is at least that much. Now it's being distributed. An interesting
+thing I'll tell you when I was digging: what do we find? The company makes scooters. It has a big
+factory that it has leased. There would be lease
+costs. Right? Even if the government gave it
+subsidized, there'd be some lease cost. Sir, at that time, a few months ago, in
+August, it announced that we'll open our own
+dealerships too. But otherwise they did it themselves. All
+shops are their own, so rent is theirs, warehousing is theirs,
+everything. So what's their warehousing and rental
+lease cost? 86 crore a year. That's all. And in FY25 they distributed 111 crore to
+lawyers. For your business's fundamental
+infrastructure you spend 86 crore, and to lawyers you
+distributed 111 crore. So I couldn't understand where this is
+going. Only then did I understand. So lawyers are
+being paid, and no cases are happening. It means
+you've seated them everywhere. "Whoever comes, handle them in
+advance." Sir, that's my belief. There's no proof. What's written in the annual report, I'm
+telling you my interpretation. Obviously it's just an interpretation. When this comes out, I make content on it
+and play with it. When I say this, will the masses enjoy it, or will it be useful to the masses? Look,
+brother, those people have bought these scooters
+too. But more importantly, two new things are
+happening from here. Number one: I'm creating an impact. There are people who even today come and
+tell me everywhere, "Brother, what you did on Ola was great, I
+was suffering a lot. Thank you." Read the comments under every video. So
+many blessings. That's there. So I got goodwill. But more importantly, when the big people
+of India read that, one or two of them need my help. They say, "Will you research for me? Can
+you do this? How do you find this? Tell me." We start sitting together. Friendships
+begin to form. Doors where I previously had no entry. That's right. Because my parents made me
+capable enough that I can take on anything. I'm confident that I'll become a big man. But there's nothing else in the
+background. My parents gave me that much. But now this
+content value is opening doors so that I can enter that
+league. Very good. Okay, good. Thanks to Ola Electric and
+Bhavish. Now what would make you believe that Ola
+is probably good content? What are the three things you thought you genuinely wanted to believe? So I read its FY26 numbers just now. Why? In the headline numbers there was
+something that excited me. Genuinely, honestly. Yes. Why did that
+excite me? Simply, the legal expense which was 111
+crore in FY25 fell to 62 crore. I thought, "This is
+good, wow. How did this happen?" Then comes the
+exciting part. I said, let's play with the unit economics
+and see what happens. What have they done in the last two years? There's a concept called bill of
+materials: how much material goes into a scooter and
+what it costs. Two years ago, what went into their
+scooters, they've made that dramatically cheaper so that they can sell more scooters. How much cheaper? The average price, which
+is disclosed, they cut by about 24% in two years, the average selling price of a scooter. But what goes into the bill of materials got cheaper by 44%. Wow. That means either you found something that actually doesn't degrade quality but
+does the job for less, or you're using cheap, bad material. There
+are only two possibilities. Now why does this matter? The only way to verify it is: what's
+Ather's number, what's TVS's, what's the others'? Nobody's
+has fallen. Everyone's has gone up. So what does this
+tell you? Brother, something is upside down here. The first step: the scooters you see, they don't run for three or four months
+before reaching the service center. All the faults and problems that come up,
+everything burns out. Now not as many burning cases come, but
+electricals and everything. What's the reason? Perhaps people use bad
+material. But when you use bad material, you must be
+incurring legal costs. People will file cases. For that you have
+legal expenses. By that logic, from 111 crore it came down
+to 62. I said, how many scooters did they sell?
+Divide and see. Their lawyer cost per scooter a year ago
+was about, something like 2,250 rupees. Roughly 2,250 rupees per scooter was their
+legal cost. Divide and see; it's roughly that. That
+is, roughly 4,000-something... Scooters aren't selling at all. Their
+sales fell so much. From 53% market share at peak, they fell to 2.5% in between, and going around it's running at 7-8%, 9%.
+They've come to that. Scooters aren't selling, which is why
+legal spend is lower. But per scooter, earlier they paid about
+2,250 rupees to lawyers on a one lakh scooter. Now they're paying 4,000. Now when all
+this is coming, you also have to scale up more. You have
+to sell more. What are the ways? You'll do marketing,
+advertising. Per scooter, their marketing cost is
+around 5,500 rupees. Now the interesting thing is, have you
+seen any hoardings of Ola Electric? Very few. You saw some at the start. Have you seen a
+TV ad? No. So where are they advertising?
+Influencers. No other way is left, as far as I
+understand. Or no other way is left, or performance
+marketing. Because again, social media is the whole
+game. But on a scooter of one lakh that you
+make, you give 4,000 to lawyers, 5,500 you put into marketing and
+advertising. The number from a year ago, I haven't
+checked this number, don't know why I missed it, your warranty
+spend was 8.2% of total revenue. Wow, wow. For Ather it's 1.7%. Okay. I'm invested in Ather, I'm telling you
+upfront. I'm a biased man. Clearing that first. Don't take investment decisions based on
+this. See for yourself. Decide right or wrong on
+your own. But when I see this, and I look at Ather, it's in sync with TVS and Bajaj etcetera. They're in that same range. This one is
+8.2%. I said no, brother, this isn't contrarian
+for me. This is a falling knife, and it will fall
+further and tear my whole hand and tear my feet
+too. So that's why I didn't go in. Okay. But it's about reading annual
+reports, quarterly reports to see whether a thesis can form here. Is it making sense? Is a turnaround
+happening? I don't think it is. And there's a lot
+more material in this. If you want, I can give much more. No, you
+hold Ola, right? Because I think you've become quite an
+expert on Ola. Now, did you get a call from Bhavish? Never, no, never. But whenever I go to
+Bangalore, I go to Indiranagar. I have good friends
+there. And some others too. That whole street,
+100 Feet Road, when I go there, the place in Indiranagar, someone I meet says, "Brother, don't go to
+the Araku Cafe." He sits there. It's a very good cafe, but
+people say that he sits there two to three days a
+week, and a red scooter is parked outside. Whoever talks to him nicely, he makes sure
+they get one round. That's what they say. It was said
+jokingly. I was also told, "You'll sit on the red
+scooter, but afterwards you'll only find blood on
+the ground." Let's have fun. Yes. Let's change the
+topic. So let's come back to our core discussion, which started with India, the India story. I've made some pointers on my phone, so I
+want to talk about them. Okay? So let's change the tangent a bit. India's manufacturing story, China Plus
+One. We all know that we haven't become an
+alternate manufacturing hub, and I think India has done reasonably well
+in the last 10 years. Not as much as expected, I understand
+that. But the world has started seeing India as
+a manufacturing hub in some things. In the next 10 years, if I have to ask you five industries where India has some manufacturing edge, and that edge is becoming sharper. Sir, firstly, I disagree with you on the
+very premise itself. Okay. I don't think so. Let me explain fully. If you look at the
+aggregate, of course it's bigger. Okay? But you have to look at it in a
+different manner. Think of it this way. When 2014 came, and this isn't criticism of this
+government, these are genuine facts, the government that came in 2014 said it's
+launching Make in India. The target was, back then, about 15% of GDP coming from
+manufacturing, 14%. Yes. And 10 years before that, under
+Manmohan ji's government, it was 15%. So it had fallen from that. Manmohan's government didn't do such a
+good job on this. Yes. So they said we'll take it to 25%. Correct. Okay? From 14 to 25%. When 10 years of Make in India complete, we went from 14 to 13. So as a percentage of GDP, it hasn't
+really worked out in our favor. In aggregate, it's bigger. In 10 years
+everything is bigger. So that's that. In the 10 years before
+that, it would also be bigger. It grows every year. So that is one part. Now the second part is the China Plus One
+story. It's not a China Plus One story. It's a
+China Plus Many story. Okay. What's leaving China is going to
+many countries. Some is going to India, some to Vietnam,
+some to Malaysia. For some particular industries where raw material is abundant, Indonesia
+is going all in. For some. Yes, all this is happening, for
+many things. For a lot of things, the China Plus One
+factor is going to Europe. In fact, everyone thinks manufacturing in
+Europe is dying. A lot is also coming into Europe. Now when all this is happening, it's also
+going heavily to Latin America. So basically it's China Plus Many. People don't realize this. So India is
+competing with all of these to get a share of
+whatever is leaving China. Meanwhile, in the last 10 years, as much
+as we say China Plus One, China Plus Many, China's global share of manufacturing has
+only kept rising. It hasn't decreased. So China Plus One
+isn't really working. What does that imply? You'll have to see that in the other
+countries whose manufacturing has grown strongly because of the China Plus One factor, how much of that Plus One factor is Chinese companies coming there and
+making things. When you look at it, you realize that FDI
+inflow into Vietnam over this year... I'll give this year's
+number later. First the one for the previous five years. In the five years from 2020 to 2025, 67% of FDI inflow into Vietnam came only
+from China. Wow. That means what? The China story
+equals the Vietnam story. Chinese companies, because they can't sell
+directly to the US, are setting up their plants in Vietnam. But China has also brought many
+environmental restrictions. So the same, now they're focusing on other
+factors as well. But they're setting up their factories
+there. Yes, setting up factories there. That is
+one part. Okay? It's also important to see that the decision maker on who wins China Plus
+One, a very big factor in that is in China's
+hands. Where will it go? And our relations with China haven't been
+as good in the last five or six years. First we stepped out of RCEP, saying we
+won't do RCEP. I believe it was a good decision. RCEP
+wasn't in our favor either. Personally I support the government on
+that. After that we brought the PLI scheme.
+Other countries did too. But they were friendly to China. They
+invest there, so they get the PLI benefit there. Here
+they aren't allowing them to invest at all. So our relations
+are strained, so those people couldn't invest here. So again, that PLI benefit became negative
+for them. They took us to the WTO, the World Trade
+Organization, where we're fighting. So the deciding factor of China Plus One rests on that: who will win? Number one,
+no major has come to us. Number two, number
+three... You say a lot of work has happened in 10
+years. I believe it hasn't. I believe that in the
+last four to five years quite a lot of good has happened. Let's
+talk about that. Before that, we were somewhere asleep. It didn't matter to us. Why? The oil price
+had fallen so much. Everything else was going well. Roads were
+being built, airports were being built like crazy. We stayed there, in that, in expenses. After Covid, the government came up with
+the PLI scheme. Everyone knows I'm not a BJP supporter. Yes. Their PLI scheme seems very good to
+me. I have just one complaint with the
+government: put more money into it. Put in a massive amount of money. Why? Through the PLI scheme, we're finally
+solving that problem, because China has been doing it for so
+many years. However much we curse China, saying you
+did this, you did that, you're subsidizing your industries and
+that's why it's cheap. You have to understand that when they give
+these subsidies, they do it profitably. They earn extra
+money from it. As for the rest, how does the government? China's game is very simple, sir. And what I'm saying, these demands, the
+China story I'm telling you, the same thing, FICCI, CII here in India have been demanding from the government
+since long ago. They demanded from Manmohan ji's
+government, and even before that, and the same is happening today. Only then does the PLI scheme address a
+small part of it. What is the factor in China? They say, "Set up a factory for anything." The factories that are being set up, in
+any industry, you'll see there's PLI for every industry
+there. They don't call it PLI, but there's PLI
+for every industry. For those who don't know, PLI is
+Production Linked Incentive. The more you produce, the more money you
+get. The government says set up a factory at
+big global scale. Now you'll set up such a great factory. It's a simple thing: you capture the
+global market when you make it the cheapest. People say it's cheap because copying
+happens there. No. It's cheap because of what the government
+there does. Their simple message is: recover all your
+capex within 2 years, 3 years. Once that's recovered, you only have the
+running cost of the factory, and your raw material cost; you can crash
+prices. Correct. How do you recover it? They say, "I give you incentives for that." And the second thing they do: you have to
+sell. To sell, there has to be demand. What's
+needed for demand? For things that can be used in government
+companies, in hospitals, in all of these, bulk orders
+are placed. For other things, what happens?
+Consumption subsidies. For what do we give subsidies here? We
+know well. Do you know what they give it for there?
+Meta's glasses. Have you seen them? Yes. I give everyone this example. Yes. Think about it. The US gives
+subsidies for this reason. India will never give. If you want to buy
+Meta's glasses, you'd get a subsidy. Right? In the world, Meta is not the number one company making
+such glasses. Xiaomi is, and there are seven or eight
+other such companies there. For any new product line that comes, for two to three years the government
+there gives subsidies to people. At the point of sale, there's literally a
+subsidy: "Buy it." What a thing. China has the highest
+penetration of people wearing AI glasses because of
+that reason. Subsidy was given. The price of AI glasses became cheaper for domestic people too.
+Everyone bought like crazy. And everyone's money started getting
+recovered. Once recovered, they can make their AI
+glasses and sell them cheap across the world. And what they sell cheap, your capex is
+already over-recovered, so even selling cheap, you can sell
+profitably. When you sell it onward profitably at
+global scale, the profit that comes goes into the
+country. There's a tax on it that the government
+earns. All the investment that was made is
+recovered in 5 years. China can do that because China has almost packed up the currency against the
+dollar. Right? So if it needs to print, sir, it prints
+and gives it free. Sir, number one, that isn't a pick.
+Rather, the Chinese currency has appreciated a lot against the US
+dollar in the last couple of years. It's not a pick. Rather, China was
+notorious for the fact that it repeatedly devalued its currency to
+boost its exports. It wasn't a pick at all. Number two, this whole equation is about turning subsidies into a profit-making
+machine for the government. Subsidies aren't just you giving money to
+industry and making Ambani rich. You're making
+Ambani, Jindal rich. No. In Hindustan there's another problem. It doesn't go to everyone. There it's for
+everyone. For every industry. If you make toys, you
+get this. If you make cameras, you get this. For
+mics, this. There it exists for everything. What's our problem here? We brought PLI.
+It was an experiment. Okay, first we brought a big one for
+smartphones. Its outcome you could see within a year or
+two. What did you do? You brought it for some
+other industries. Some worked, some didn't, for different
+reasons. But where it worked, there was a very good
+outcome. For example, the PLI scheme for white
+goods, ACs, had a very positive outcome, and it's
+coming for others too. So now what happens is that more
+industries are coming and asking, and we're also asking: bring it for us
+too. The Toy Association of India is saying, you see, you imposed restrictions and
+duties on toys coming from China, and everything. We've already captured much of the Indian
+market. Even though inputs still come from there. Now address the input part, for which give
+us PLI too. We'll do capex for inputs. Otherwise,
+it'll be recovered quickly. We'll also capture the world. Support us. So every industry needs it, like there. Now people will say, where will the money
+come from? Where will the money come from? Exactly.
+Now I'll give you the answer. In the whole PLI scheme, how much money
+has been promised? Probably 40,000 crore. 1.5 lakh crore over
+5 years. Okay. That's 30,000 crore a year. There's nothing. Exactly. Until three or
+four years ago, I don't remember the exact year, we used
+to distribute about 2.5 to 3 lakh crore a year in cash, state and center combined, into people's
+hands. Subsidies are separate. I'm talking about cash. From today, we've
+increased it to 7-9 lakh crore. There's no shortage of
+money. There's a shortage of intent, of where to
+spend it. Now money is finite, but there is enough
+that you can decide: should I put it here instead? Should I put
+it into education? Should I give PLI to industries? We have
+the option. The decision has been taken now, it won't
+reverse. Sir, that's why I said what I said at the
+start: politics is a complete business decision. Where your country's economy and
+industries go is decided by it. Now that's why my message to the
+government is your PLI scheme is a very good thing, but put more money into it. It's too
+little. You're giving only a few hundred crore a
+year. Let me explain with an example. The
+Maharashtra government comes. Winning an election is so important,
+right? So what do you say? Ladki Bahin scheme, 46,000 crore a year,
+you're giving there. 46,000 crore. That wasn't enough. You have
+to please farmers. What did you say? Farm waiver, 35,000
+crore. That fell short too. You said farmers' electricity dues, 36,000 crore we're waiving. That didn't
+complete it. You asked, how much is needed? 41,000
+crore was needed. That's also being done. There is money. And that same Maharashtra
+government promised Bajaj EN in 2022, 3,000 crore. Did they get it within this many years?
+No. It's an intent problem, where to spend the
+money, every rupee. It's that. From China we should learn this
+thing. Why? When you do this and China's support isn't coming in China Plus One, then you
+have to address this part. The investment going into Europe, I told you Europe itself is a big
+beneficiary of China Plus One. Why? In Europe, when the rest of Europe is
+saying put tariffs on this, do that, some countries are saying this is an
+opportunity. Everyone is talking about imposing
+tariffs, everyone is speaking against them: "Bring
+it, impose it." Now the Hungary government has changed,
+which is a different matter. Before that, Viktor Orban rolled out a
+total red carpet. CATL's huge plant was set up, BYD's big
+plant is coming there, Huawei is setting up a big plant, so many
+are coming there. Hungary wrecked its environment. But even
+today it's very beautiful, more than ours. But a lot more damage was
+done than what existed. But wherever investments came, the
+majority came from China. The impact today is that that country has
+become a doorway for China to bypass tariffs left, right and center
+across all of Europe. And not just that. In the automotive
+sector, China has entered Spain and wrecked all of Europe. They're buying
+everything, and Spain isn't stopping it. So it's more about China Plus Many, not
+China Plus One. And its primary driver is Chinese
+investments themselves. And Chinese outbound investments are
+hitting a new record every single year. They're driving this. So finally, let me give another example, sir. We make
+solar cells here. Why is that important? The government
+said, brother, inside the module, the cells will
+also have to be India's. Plants are being set up for that. Are you
+invested in any solar company? Do you know any company? Next, Vikram Solar from Kolkata. I'm invested,
+brother. I'm telling you upfront. I think it's not a falling knife.
+Fortunately I got in there. I've built a position. Again, my price is
+different, so think carefully. I have recommendations for them. Okay. Vikram Solar, Waaree Solar, Premier
+Energies, Solex in Surat, Goldi Solar. Everyone is
+there. Right? Pick up anyone's and look. There are many
+others. Everyone makes two types of cells: DCR and
+non-DCR. DCR means domestic content, non-DCR means
+non-domestic content. Why is this important? In all the
+government tenders, PM-KUSUM, the rooftop scheme, the PM Surya
+Ghar scheme, you have to use DCR only. Okay. Waaree's official data, if you go read it,
+shows their overall price is 60% above the Chinese import cell. 60% above. But the DCR one sells. So because of that, what happens is an
+industry is being cultivated here. The non-DCR also comes in heavily. Now if
+you import non-DCR from China, what will happen? Quite a lot of import
+duty will apply. So where does it come from? There's a
+company in Indonesia. Everyone's cells are coming from there.
+The name, I can say it: PT Nusa Solar. The non-DCR that goes into
+Adani ji's cell plant, module plant, comes from PT
+Nusa Solar. Okay. If you go to Vikram Solar's plant, it
+comes from PT Nusa Solar. If you go to Waaree's, it comes from PT
+Nusa Solar. In Premier's, PT Nusa Solar. Who is this? Indonesia. Yes, how did Indonesia come in? Read about it and you'll find out it's
+owned by a web of Chinese enterprises. Officially, no one knows whose it is. But
+it's said to be linked to LONGi. LONGi is one of the
+top two of the world's largest players when it
+comes to manufacturing solar cells, modules, etcetera. So where did LONGi set up the plant? In
+Indonesia. Indonesia is becoming a solar powerhouse.
+Yes, but that's thanks to China. That's across the spectrum, particularly
+here. So it's not China Plus One. It's Many, and
+the driver of Many is China. And we can't benefit from that. So we'll
+have to compete more in this incentives game. Brother, give
+every industry incentives, through which we can play China's game, so that capex is recovered quickly, so they can sell their goods even cheaper.
+They can also export. That's the only way. What I was trying to
+say is that ultimately China is growing big
+anyway. Just accept that it's bigger than you. So why fight so much? Because there is a
+dependency on it anyway. Now we try to stay within ourselves,
+saying we are everything, and we tell our retail investor, "You keep standing for me." You know, wherever we think domestically we have to
+be strong. And China, fine, there are geographical
+issues, political issues, so that we say we want
+to keep China away. But it's powerful. Why don't we accept
+that? Sir, if someone isn't accepting it, I'd
+call it foolishness. Yes. That's the ground reality. Yes,
+everyone knows. I mean, China goes neck to neck with the
+US directly. The US does something, China gives an
+equal reply. I'll tell you a great story about the US
+folks. Yes. The Chinese said, "You know what? We're committed to the US. They fly US
+planes. We import from them. But we want that by
+2040, our own planes here, most of the pending orders then should be
+for domestic planes." Right? So the narrow-body planes that
+Airbus-type airlines fly, COMAC completely produced the C919 plane, made everything. They started making many
+things domestically. The engine still isn't made there. Where
+does the engine come from? The same GE of the US, which has also
+given us trouble. Our HAL's Tejas plane, they weren't giving
+its engine for a long time. Now, just in the last few months, they started
+delivering. Hopefully they continue. Now when they didn't give it, why? Because
+Trump came and said, "These people aren't giving us orders,
+they've gone for Airbus, so we won't supply them the engines." What does China do? It says, "We produce
+99% of the world's gallium. The gallium used worldwide isn't worth
+much, but without it your fighter plane can't be
+made." F-35, your Raptor, you won't be able to
+make the plane. F-22, and many of the missiles you make
+won't be made. It's 99% concentration, China controls it. So what happens? The US says, "Okay, what
+can we do?" Etcetera. Talks happen, a summit happens,
+and supply starts again. It happened. In one year they said, "This
+year we'll deliver 65." COMAC could only deliver 12. Back on track. Why? It showed its place. China is fighting neck to neck, dares to
+stay level. Can we compare ourselves with the US? The
+answer is no. We can't. So we won't compare with China
+either. We don't have to play the comparison game.
+We have to learn from them. Why is this important? The one thing we
+should solve first in our country is: things we can make, but we make only the raw material, we send that raw material to China at a
+good margin, and the end product comes back to our
+country even more expensive. That's wrong. What can we do about it? For example, iron ore. We have a lot of
+it. We mine it too. Our steel industry itself has to import,
+and we export. And then, in the end, the majority of our
+iron ore goes to China. It goes to China, and from there our steel
+industry also feels the pain. So capture that in India. Who is selling
+it? The government's own NMDC is selling it. The government has complete control over
+it. You can see what to do and what not to do. Why does it do that? Because Chinese
+buyers give a better price for iron ore than
+Indian players at that time. So they send it. Now another problem comes
+here. No, sorry, a bit of a positive thing comes
+here, that I'm saying capture it here. For that,
+what did NMDC do? Now it has just set up its own integrated
+steel plant. It has just gone active. Whether the plant
+is active or the pellet plant, I don't remember, but recently something
+became active. And they're working in that direction. We
+need this. And it doesn't end there. Aluminum. We
+make it in India. Then we export it. Then the same aluminum becomes plates or something else and we
+import it back. Vedanta comes. One of India's biggest
+aluminum producers. Maybe the biggest. They go to Odisha,
+where they have a huge plant at Jharsuguda and a lot more going on, and they're
+expanding. They go to the Odisha government and say,
+"You know what, we're going to build, right near this
+plant of ours, a full aluminum industrial park. We've written for outside players who are
+building it. But come inside. We'll give you great
+infra with really low logistics costs. Set up your plant here. We need this." Things that we can make but we're
+importing from outside after giving the raw material ourselves,
+solve that part first. Right. These are basics. It makes no sense that we have the thing, we sell it outside
+cheaply, and then import it ourselves at a higher
+price. That's foolish, isn't it? And we're doing this in every industry. Now think of it this way. We have such a
+big fertilizer crisis going on. Why? We need sulfur for it. Sulfur mostly
+comes from the Middle East. We need potash. Where does potash mostly
+come from? From there. We have potash available to meet all our
+needs. Where? In Rajasthan, in Hanumangarh and
+Bikaner. In that entire belt there are good potash
+deposits. We haven't been mining there for so many
+years. Why not? God knows. But now that our condition
+started worsening like this, what did we do? We had already found the
+mines, the deposits are here. You sold them off. Now work has started
+there, Vedanta won, it started work. It's
+happening there. The point is we have the capability. We
+can do it. Recently you must have seen that in the
+Andamans we discovered some gas. Correct. Right? Whether actual output can come from it,
+whether it's viable or not, all that will be seen. It'll take 10
+years. But the point is the government's 10 years
+are gone. Now this question should come: what
+happened that we found this only now? We found it now because when Covid came, after Covid the government liberalized a
+lot of things. We announce new reforms. Every year we're
+doing new reforms. Reforms aren't ending anywhere. The
+reforms we announced then, what did they do? They said that our total Exclusive Economic Zone in the sea, okay, 99.95% of it was earlier blocked by the Ministry of Defence and the
+Department of Space. The government said we are opening all of
+it. Now when it was opened, what does that
+mean? Until then, oil exploration and gas
+exploration weren't even allowed there. This is the
+government, which was a problem, not even this one. Only when all of that
+was removed did all these areas open up, some of which are now being auctioned.
+Everything started happening. And one of those blocks is where the
+Andaman gas was found. Practically, if this had been done in
+2014-15-16, then by the time we found gas there, maybe
+by 2019, production might have actually started. Now by the time it happens, what will
+come? 2040. These are ground realities. Our enemy is
+not China. It's us. It's our own policies. We've made
+ourselves this way. Our manufacturing... I find it so funny. I've said this in one or two other places
+recently. I may or may not cover it. It's a new
+thing that most people don't know yet. Go on,
+tell it. I was also running a different Ultratech
+Cement, India's biggest cement maker. A few days ago, their PR VR came out,
+everything happened, maybe some influencers were also hired. They're saying that competition is only
+among themselves. Adani's, Ultratech's, everyone's. We are
+saying we've installed 2 gigawatts of captive
+renewable capacity. Our cement price will fall, which is good,
+margins will rise. Okay. But a thought struck my mind, an itch: great, Adani sir is ahead, Adani is such a
+big player in renewables, and who else does it in the world? What's
+the standard? So that I can know what proportion of
+renewable or captive energy they usually keep per
+cement capacity. When I read, I thought that China would
+surely have good players who are ahead of Ultratech. I didn't find a single one. Not a single cement maker, and their
+cement capacity is close to 2,500 billion tonnes. Here, ours is about 600 billion tonnes or
+something like that. Billion or million tonnes? Billion and
+million could be swapped. I don't know. The point is... so I said it
+wrong. India's is about 600-700 million tonnes, and theirs is about 2,500 million tonnes.
+Million tonnes. So. Now when I'm thinking, how can this be? When I look, what do you find? In India,
+the energy you generate through waste heat recovery
+in cement plants, you also count that as renewable. In China
+they don't. I said okay, fine, include waste heat and
+tell me, who is there in China? I search, and only
+one player shows up. How can that be? When I read, I find out
+that in China all these companies and industries don't
+need to set up captive renewables, or captive
+thermal power plants, mostly. Why? Because they get cheap enough state-
+provided electricity. Why cheap? How much? At the rate at which India's industries get electricity, there
+it's available at a quarter to a third of that rate. Now think practically: why didn't
+Ultratech put its money into building more cement plants, sorting
+out its logistics, mining limestone? Why put it into this? Because the electricity it was getting was
+expensive. Why was it expensive? There are two
+reasons. If you take electricity directly from the government,
+they get it at 11, 12, 13, 14 rupees. The second is you set up your own captive
+thermal plant. In thermal, what will you use? Coal. And
+on coal, various royalties and so on have been
+slapped on coal mining, so first that rate gets inflated. Second, our Indian Railways, which runs passenger trains, burns 60,000
+crore a year on it. If it's burning 60,000 crore, where does
+it come from? People think the government gives it
+money. The government doesn't. We do. How? The 60,000 crore is subsidized from profitable freight operations. That
+is, goods trains. Correct. And more than half of the
+earnings from our country's goods train operations
+come from coal. Practically, goods trains run for coal. Cement also goes, iron ore also goes, cars
+also get transferred these days. But about 55% of earnings come from
+transporting coal. And where does that coal go? To power
+plants. So the 60,000 crore going there makes
+electricity in every household more expensive, and the industries' electricity, which
+already got expensive due to royalties, becomes even more
+expensive. That's why captive renewables have to be
+set up here. In China they don't need to. The money
+goes into this, rather than "How do I run my operations
+better and scale up?" But here, when we do this, we have to
+clap. Broadly, it all boils down to this: it's
+politics. Wherever there's a vote bank, you have to
+be liberal. You have to keep costs low there. You have
+to give subsidies there. You have to empower them there, because
+they are a vote bank. And in the other aspects, they have to
+subsidize vote bank politics. So because of that, the whole structure is
+such that in China this problem doesn't exist, that
+they don't have to please consumers. That's why they said we'll please the industrialists, the
+factory people, and ultimately the impact will
+automatically flow down. But the economics... But our country, because it's very
+consumer-oriented, it's not about consumer versus industry.
+It's a different problem. What is it? Sorry, it's a problem of the
+democratic setup. No, it's not democracy that's the problem
+here. Here it's a simple thing. Now I don't have an explanation for why they do this. But here we make policy not because it
+does good for the people. We make policy so that it looks good to
+the people. What do you mean by that? The 60,000 crore which you hide away and
+practically show people: "Look, we haven't raised rail fares in 8
+years." Yes, exactly. In the end, we are the ones paying its
+price, through electricity. When electricity
+rates rise, what do we do? We come and say we'll give
+200 units free, 400 units free. Who's paying in the end? Its money again, it comes back around into
+your hands. But we want to make the announcements that make leaders look good enough. That's
+what we care about. Right. Are we really helping anybody? The other problem, sir, is, when we're
+doing all these things, what's the outcome in the end? Our
+products get price-inflated this way. For example, it doesn't end here. Now you've made cement. You'll move cement
+from here to there. How will you do it? Either by truck, or by
+rail, or by ship. Say you do it by truck. In any industry, if you look, logistics and power are
+generally two of the biggest cost centers. Yes. The cost of trucking in our
+logistics: once we've bought the truck, what's the
+regular expense? Either maintenance, changing tires and so
+on, or what's the regular expense that comes?
+Diesel. Diesel, where 55% is all taxes. 55 to 60%, depending on which state you're in. Your central and state taxes, on which you
+don't get input tax credit. So you've made that expensive too. What's
+the outcome? On one side, for all the people of our
+country, whether it's a packet of Uncle Chips, or a TV screen, or these curtains placed
+here, the government has made everything more
+expensive than it ideally should be. This is a tax on us. Number one. Number two, because this cost doesn't come
+back to these companies as input tax credit, what's the impact?
+Your exports get expensive. Then we say our industries don't export at
+all. "Look, the Chinese go abroad and do this.
+Why can't ours?" You handicapped them. And behind all this
+there's a reason. Practically, in our country it's very easy
+to say, "Mukesh Ambani is setting up an ice cream
+factory. Why isn't he setting up a chips one?" He isn't doing it because of the many
+handicaps imposed. If he sets it up here, he can't produce at
+the rate at which he could capture the global
+market. And it's not their fault. Practically,
+it's yours. I'm not a fan of Mukesh Ambani ji. I've taken on Reliance on many things.
+Check my channel if you like. But I can't blame him for something that's
+wrong. You yourselves tied his hands and feet, so whatever he wants to sell, he has to
+sell in India. And to sell in India, where would he get
+that scale? So this is not only about Mukesh Ambani
+ji. It's about every industry. It's very easy to say that our people
+don't do this. They don't, because practically, how will
+you recover your capex? You simply can't make it at that rate. How will you compete abroad? That's why
+PLI becomes necessary for every single industry. Give it to
+industries, then it will happen. Diapers from our country now. I told you
+about Nobel Hygiene. Yes. Do you know, sir, what the price of
+diapers moves with? What does the diaper-making margin move
+with? It should be cotton. No sir, crude. Oh, that. A diaper is an oil product. Oh, it's a
+polymer? Think of it this way. Sir, you must have
+seen a baby's diaper. If someone urinates in it, the liquid goes
+in, and inside there's a thing called SAP,
+which is a crude derivative. What does SAP do? It turns that liquid
+into jelly. The reason is, when you touch it, you know
+there's liquid inside, but it doesn't leak out because it's
+become jelly. Jelly. That's a crude product. If crude
+prices go up, diaper prices will go up, or else the
+margin gets hurt. Right. It's bound to happen. Now this SAP, because of this, there was no factory in
+India. All diapers were imported. In just the last 5-7 years all this has
+happened. Nobel Hygiene was built. Swara Baby, First
+Cry's one. All this happened in the last 5-7 years. Big companies have actually been built.
+This one is doing a 10,000 crore IPO. Why did it happen? Because the government
+finally started giving incentives. Started giving grants. Because of these
+handicaps you yourselves imposed, you have to compensate them for it.
+Otherwise their capex can't be recovered. Correct. It's not for nothing that people
+say what we make things for here, the Chinese make there and deliver to our
+doorstep for that price. It happens because our own government made
+things expensive. It's not the industry's fault. Industry
+may have four flaws, but first look at the government. Ask the
+government, "You built the structure. What's its
+outcome?" And why is this question not asked?
+Because people don't read. Who will read? Okay. And to be very... Sir, let me add one more line. Look at Sri
+Lanka. A poorer country than us, sustained on our
+grants in a way. I'll even say it. Okay, some people might
+feel bad. But if our country doesn't support them,
+they can't run. There's corruption too. Granted, they went
+bankrupt just a few years ago. Their roads, built
+six years ago, are still fine today. Ours get built six
+times in six years. They may have fewer roads, but what they
+build is built properly. Burkina Faso is a dictatorship. The roads there shine. There's an Indian
+industrialist who is expanding mining operations there. I met him recently in Mumbai. And he was
+like, "What roads they have there, absolutely
+great." And his point was similar. It's built very
+well. So it's an intent problem. Nothing else.
+And that is what the problem basically comes down to. This is what we have to solve. People
+often say that when it comes to this, when we solve
+all this, what will happen? We won't be spending money six times on
+one road. That money will be saved, and with it we
+can run these one lakh schools we've built, with teachers in them. If teachers are
+there, what will happen? Let me tell you the benefit. There's a
+shape, a K. Let me show it lightly like this. Should I
+show it here? Let me do it once, on page 10. Now this is
+a K. Okay? A good chunk of our country's population
+is one that is getting good education and moving
+up. But there's a much larger population that
+isn't getting good education. What's the impact? For the economic
+opportunities being created in the country, most of the
+population isn't prepared to tap into them. They're going to schools from which their
+economic future won't be built. They don't even know how to tap into this
+opportunity. They can see it, because now the internet
+has come, Jio has come. They can see that okay, people there wear
+this, do that. But they don't know how to get into it. So the result is that the country is
+moving ahead. The answer is yes. Economic opportunities are being created.
+The answer is yes. But the number of people benefiting from
+it is very small. Okay. NCERT isn't delivering it. Okay. That is where the challenge comes
+in: how will you tap the demographic dividend? We aren't in a Latin America-like
+situation, but we aren't in what we call a dividend
+either. Why does that become a challenge? The
+other countries we look at when we say demographic
+dividend, they went from being a very poor nation to
+a very high-income nation before they turned old. Our country today, 6% of our population is above 60 years of
+age. By 2040 it's expected to be 20%. We are one of the youngest countries, the youngest major countries in the world,
+which is also aging very rapidly. In our country there are already economies
+that have aged a lot, which includes Tamil Nadu, our growth
+engine. Kerala. Kerala is the first state which is
+in a situation where one in five is already a senior
+citizen. It is the first state in India to have
+brought a senior citizen budget, a separate budget for what we're planning
+for senior citizens and where that money will go. We're
+already entering that territory. And if we get old before becoming rich, we end up in a trap with all of this. Now that is the reason I say there is no
+demographic dividend. It's an opportunity which, if you back it
+with investment into human capital, will turn into great outcomes. If you don't, it can equally go in a very
+different direction. Correct. Correct. So as an investor, where is the
+opportunity? Sir, I say on the urban side. Just think, opportunity is where money is already
+flowing. Let me explain with an example. Today everyone is making those things, whether it's Mukesh Ambani ji or other big
+industrialists, look at startups raising funding. Everybody is basically making products.
+Premiumization, which we keep hearing about. Everything is
+for the top 2 to 3% of India. That's where the
+opportunity is. Build for the top 2-3% of India. Why?
+Their income. The ones on the upper arm of the K. Their education keeps getting better and
+better. So what happens? They tap into the new
+opportunities being created. They earn even more money. I'm in that,
+maybe you are too. For us the opportunity keeps opening up.
+We keep moving ahead. So that's the opportunity. Our disposable
+income keeps growing, and we spend more. Three years ago, I couldn't even think of spending on what
+I spend on today. What I can't think of today, three years
+from now I'll do that too. But those on the other arm can't. So for
+them it's not an opportunity. Sure, so one has to find the opportunity. And rural India, I think, or not rural
+India, there's an opportunity there too, but
+that's a kind of trap, the young population that isn't able to be
+nurtured, which is a very different population. Those of us here are managing to prepare ourselves and our children, and the other
+population isn't able to prepare as much. That could
+be an area of concern. Let me clarify one line, when I say that there's no opportunity in rural, let me
+clear that up. Yes. What I'm trying to say is rural India is an opportunity. Why? You
+can sell them a lot. But the opportunity is for us, for what we
+can build for them. That's right. That's what's happening.
+It's not for them. We're already going into rural, and we
+take the benefit from there. Hero Honda, sorry, Hero MotoCorp. Correct. Parle. Yes. Their whole business runs on
+it. The entire FMCG industry. Yes. Who's running it? The people at the top,
+the top 3%. Where does the money come from? From these
+same people. And opportunity isn't being created for
+them. Correct. Okay Jayant, the conversation can't really
+end with you, for sure. But somewhere, given the limitation of
+time, I think we've done two hours. I think we've interacted for two hours, because it was very candid and without any
+presentation. It was fun interacting with you. And as I
+said initially when starting, that you're a philosopher, and that led to becoming a very good
+investor, and I'm hoping that whatever you do
+continues to empower the country. You're very kind. Thank you so much. It's lovely being here. I hope you gave me
+a platform, I could sit with you, your viewers got something valuable here, and is there any feedback for me? I'm
+super accessible. If you have any question, you can ask me. I take a week or 10 days to reply, but I
+do reply. So you can ask. If I can help anywhere, do
+reach out. You too, sir. Anyway, if I can be of help,
+do let me know. And I hope people get something useful out
+of this, and are able to bring some value into
+their lives. Surely, for the better. Lovely. So if someone has to connect with
+you, well, if someone wants to find you,
+they'll always find someone. But are you active on Twitter for replies? Sir, I'm active on Twitter. The account on Twitter isn't that big, but these days I've started posting a bit
+there. So that's there. On Twitter. On Instagram
+I'm super accessible. On LinkedIn I'm super accessible. I think there are enough mediums. On Instagram, you'll find my email ID. You
+can send it there too. Okay. So the venues are enough. Fine. So whoever looks will find it. Alright. Thank you so much. It was fun
+talking to you. Thank you, sir. Lovely being here. Thank you so much. Investments in securities markets are
+subject to market risk. Read all related documents carefully
+before investing.
+
+
+##### FILE: GYd8BILHxMo.txt
+video: https://www.youtube.com/watch?v=GYd8BILHxMo
+title: Anthropic IPO: Don't FOMO in!
+channel: Real Vision
+
+दूर रहें। मैं आमतौर पर IPO से दूर ही रहता हूँ। इसमें काफी उतार-चढ़ाव हो सकता है और अक्सर ऐसा होता है कि कीमत काफी नीचे आ जाती है, और वह समय निवेश करने के लिए सबसे अच्छा होता है। तो, आप कुछ हफ़्तों का इंतज़ार कर सकते हैं ताकि स्थिति स्थिर हो जाए, तब बाज़ार सही कीमत तय करता है। कई लोग जो सालों से निवेश कर रहे हैं, वे इस रणनीति का इस्तेमाल मुनाफ़ा लेकर बाहर निकलने के लिए करते हैं । इसलिए, आपको इस बारे में पता होना चाहिए । हाँ, मैं आमतौर पर इनसे बचता ही हूँ।

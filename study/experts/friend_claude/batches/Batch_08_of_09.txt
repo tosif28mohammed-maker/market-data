@@ -1,0 +1,981 @@
+===== INSTRUCTIONS (follow exactly) =====
+" se "
+
+This file is BATCH 8 of 9. Do the full work for every video in THIS file now, in the format above. Do not ask what to do.
+===== END INSTRUCTIONS — TRANSCRIPTS START BELOW =====
+
+BATCH 8 of 9 — 9 YouTube transcripts. Each file starts with "##### FILE:".
+
+
+
+##### FILE: uli9Dh5sM0Q.txt
+[0:00] We put hundreds of stocks through six
+[0:02] tough filters. Only eight survived and
+[0:05] only one of them is a large cap. Now you
+[0:07] probably know this company and its app
+[0:10] might be on your phone right now. Almost
+[0:13] 2.5 crore Indians have already invested
+[0:16] their money through this app and this
+[0:18] company got listed on the stock exchange
+[0:20] barely a year ago. I hope you have
+[0:22] guessed the company. The name of the
+[0:23] company is Groww. So is Groww a real
+[0:27] growth story or is it just a hype? Let's
+[0:29] find out. In today's video we are going
+[0:31] to first talk about the six filters that
+[0:34] we used and how Groww passed all these
+[0:36] filters. Then we'll talk about how Groww
+[0:38] makes money basically what is its
+[0:40] revenue split. Then we'll look at their
+[0:42] Q 2 FY 27 results and finally we'll
+[0:45] discuss about the new businesses that
+[0:47] management is building because once you
+[0:50] see this part of the video I'm sure it
+[0:52] could change the way you look at the
+[0:53] stock. The video is going to be
+[0:55] interesting so keep on watching the
+[0:56] video till the end.
+[0:57] Hey folks, CA Rachana Ranade here. Today
+[0:59] at the outset let's talk about a concept
+[1:02] which is called as GARP. What is GARP?
+[1:04] It's growth at reasonable price. So when
+[1:07] I'm talking about the six filters that
+[1:09] we used to actually filter out all the
+[1:12] stocks we said that it should fit it
+[1:14] should fit into the GARP category. What
+[1:16] do I mean by that? First G stands for
+[1:18] growth. So we took two parameters. We
+[1:21] talked about sales growth and profit
+[1:23] growth. The filter that we used is sales
+[1:25] growth should be more than 15% and
+[1:28] profit growth should be more than 15%.
+[1:30] Okay, so both sales growth, profit
+[1:32] growth should be more than 15%. If that
+[1:34] be so I'm saying okay this is a good
+[1:35] enough growth, right?
+[1:37] Second thing I wanted to check is that
+[1:39] okay growth is there agreed but that
+[1:40] would also be available at a reasonable
+[1:42] price. Okay. Now what is reasonable
+[1:44] price? We are saying that ideally the
+[1:46] PEG which is price earning to growth
+[1:50] ideally should be up to one.
+[1:52] Anything above one the stock keeps on
+[1:54] moving to an expensive side but then we
+[1:56] said that okay borderline cases 1.1 1.2
+[2:00] I mean
+[2:01] So we have taken the filter as PEG
+[2:05] should be less than 1.2. Okay. So GARP
+[2:08] concept is clear, growth
+[2:10] at reasonable price.
+[2:12] If this be so, I'm sure FIIs and DIIs
+[2:14] would also want to look into such
+[2:16] stocks. So we said let's check out
+[2:18] stocks whose FII holding has changed by
+[2:21] at least 1% and DII holding has also
+[2:25] changed by at least 1% and that too on a
+[2:27] quarter on quarter basis, right?
+[2:29] And ultimately we said that whatever
+[2:31] stocks we are going to filter out, they
+[2:33] should not be penny stocks. So we have
+[2:35] kept a market capitalization threshold
+[2:37] of at least 10,000 crores. So I hope all
+[2:41] filters are clear. We are going to talk
+[2:42] about how much is the sales growth and
+[2:44] profit growth and every all these
+[2:45] parameters in the coming sections of the
+[2:47] video. But if I were to talk about the
+[2:49] FII and DI holding change, you can see
+[2:51] that June 2026 FIIs were holding 6.89%
+[2:54] stake in the company. This moved up to
+[2:56] 10.9%
+[2:57] and if I'm talking about DIIs, their
+[2:59] holding moved up from 10.08% to 12.73%.
+[3:04] So this is an interesting one. I hope
+[3:06] you have understood the six filters that
+[3:08] we have used. In the next section we'll
+[3:10] talk about the revenue split of the
+[3:12] company.
+[3:12] Everybody has one relative with a sure
+[3:15] shot stock tip and many [music] of us
+[3:17] buy it without knowing what the company
+[3:19] does or why its price is moving.
+[3:22] Stop investing on someone else's
+[3:23] conviction. Learn to understand a
+[3:25] company's business with fundamental
+[3:27] analysis [music] and read its price
+[3:29] charts with technical analysis. To take
+[3:31] a step towards smarter investing and
+[3:33] trading, visit www.rachanaranade.in
+[3:36] and use this coupon code for some
+[3:37] special discount.
+[3:40] Now let's understand the revenue split
+[3:42] of growth. Basically, if Grow is earning
+[3:44] ₹100, from which income stream are they
+[3:47] generating how much? That's nothing but
+[3:48] the revenue split. Okay. First let's
+[3:50] stand start with equity derivatives, F
+[3:52] and O segment.
+[3:53] The primary income that they are
+[3:55] generating from this accounts for 44.8%
+[3:58] of their total income. And this the
+[4:01] nature of this income is
+[4:02] It's nothing but brokerage income. So
+[4:04] any trader, any person who is basically
+[4:07] trading in F and O, whatever trading is
+[4:10] done, brokerage has to be paid to the
+[4:13] broker that is Grow in this case. So
+[4:15] this portion accounts for 44.8% Second
+[4:18] one is stocks. Stocks accounts for 17.4%
+[4:21] same logic copy paste. If a person is
+[4:23] trading in stocks, brokerage has to be
+[4:25] paid to the broker. That's the income in
+[4:27] this case. Plus it could be something
+[4:29] like pledging shares. It could be even
+[4:31] DP charges. All these will come into
+[4:33] this segment only.
+[4:34] Third one is MTF. I'm sure you have
+[4:36] heard about this. MTF is margin trading
+[4:37] facility. This accounts for 10.1%
+[4:40] of their total income. In simple words,
+[4:42] this is as good as margin is nothing but
+[4:45] like
+[4:47] a loan given to the trader or to the
+[4:49] investor to buy more shares from that
+[4:52] money. Example, a person has only ₹100
+[4:54] in his pocket. But if the person wants
+[4:56] to trade worth 120, 130 whatever, that
+[4:59] is nothing but the trader takes a margin
+[5:01] from the broker and trades for a higher
+[5:04] amount. That is nothing but MTF and this
+[5:06] accounts for 10.1% of the total income.
+[5:08] Next one is float which accounts for
+[5:10] 8.4% now. This is an interesting one.
+[5:13] Let's say you have some money lying in
+[5:15] your Grow account. You pay in the money
+[5:17] and it's lying there in your account.
+[5:20] Grow basically can earn some money out
+[5:22] of this. So this is an extra income for
+[5:25] them which is called as float. Plus if
+[5:28] let say there is a delayed payment
+[5:30] on on your side you you make a delayed
+[5:32] payment to Grow. That will also be
+[5:33] considered under float charges.
+[5:36] Next one is commodity derivatives. This
+[5:38] is nothing but again brokerage whenever
+[5:40] you trade in commodities and this
+[5:41] accounts for 6.2% of the total revenue.
+[5:44] Personal loans plus loan against shares
+[5:46] also called as last accounts for 5.9% so
+[5:49] this is again as good as interest income
+[5:51] for company like Grow. They're going to
+[5:53] give you loan and whatever you pay in
+[5:56] return is the principal amount plus
+[5:58] interest amount. Interest will be their
+[6:00] income, right?
+[6:01] Ultimately two small other incomes.
+[6:03] Other operating income which accounts
+[6:05] for 4.8%
+[6:06] now this one can have something like IPO
+[6:08] application income. So for example if
+[6:10] you apply for any IPO through their app
+[6:13] some small amount grow is going to earn
+[6:15] out of that and that's that's the other
+[6:17] operating income category and wealth
+[6:20] products also they can earn some revenue
+[6:21] and that is what also comes under other
+[6:23] operating income. Finally 2.5% is
+[6:26] generated from other income and this is
+[6:28] nothing but
+[6:29] whatever money grow has for example the
+[6:31] profits they invested somewhere let's
+[6:33] say they invest in FDS they invest in
+[6:35] bonds whatever interest they are going
+[6:36] to earn that comes up in other income
+[6:38] right. So I hope overall
+[6:40] split revenue split is what is
+[6:42] absolutely clear but there's one very
+[6:44] interesting and important point here.
+[6:46] The biggest one which is 44.8% is equity
+[6:49] derivatives but you'll be surprised to
+[6:51] know that this biggest income
+[6:53] the revenue
+[6:54] split basically of 44.8% used to be
+[6:57] 56.9% a year ago and in fact in the
+[7:00] previous quarter also it accounted for
+[7:02] 51.9%
+[7:04] so drop from 51.9% to 44.3% that's
+[7:08] almost a 14.3% Q O Q drop.
+[7:13] Why did this happen? So management
+[7:14] basically attributes the bulk of this to
+[7:17] cash.
+[7:18] I'm sure everyone knows about cash you
+[7:20] have read a lot about cash many of them
+[7:21] have experienced cash it's closing
+[7:23] auction system and
+[7:25] any people who are typical traders I'm
+[7:28] sure they have experienced the pain in
+[7:30] cash last one minute candle and
+[7:34] whatever positions people had taken beat
+[7:36] in F and O segment it used to be a big
+[7:38] green candle upward or a big red candle
+[7:39] downward and positions used to go
+[7:41] haywire.
+[7:42] Many people were
+[7:44] really you know in pain because of this
+[7:47] cash a lot of people expressed their
+[7:50] dissatisfaction on this and ultimately
+[7:52] SEBI actually came up with a
+[7:54] clarification they came up with a
+[7:55] circular on 15th of October and they
+[7:57] said that from 7th of December 2026
+[8:00] they'll go back to the expiry settlement
+[8:02] system which used to happen earlier 30
+[8:04] minutes V V VAP basically they're going
+[8:06] to change the cash they're going to stop
+[8:07] that cash and go back to the original
+[8:09] system.
+[8:10] Management has said this is going to
+[8:11] come as a relief to the trailer to the
+[8:13] traders and they believe that the
+[8:15] trading volumes will definitely
+[8:16] normalize, not jump, but at least
+[8:18] normalize.
+[8:20] So I hope again the revenue split is
+[8:22] clear about the equity derivatives
+[8:24] portion point is also clear.
+[8:26] Next section we'll talk about Q2 FY27
+[8:28] results.
+[8:30] Now talking about the Q2 results, if I
+[8:32] were to give you a Q O Q analysis, you
+[8:34] will be like
+[8:36] Anyways, so look at this total income.
+[8:39] It's minus 0.5% on a Q O Q basis. EBITDA
+[8:43] minus 0.2%. PAT minus 1.4% and even PAT
+[8:47] margin it has dropped by minus 0.4
+[8:50] points. So nothing interesting about
+[8:53] this. And if you are like, why did this
+[8:54] happen? You already know the answer. I
+[8:56] told you because of cash. The overall
+[8:59] trading volumes itself dropped because
+[9:01] of which their income
+[9:03] was I mean income took a hit.
+[9:05] And was this only Grow with suffered
+[9:07] this because of this cash thing? No. In
+[9:09] fact, it was an industry wide thing that
+[9:12] whichever broker was dependent a lot on
+[9:16] derivatives income, they did see a hit
+[9:18] this quarter, right? But now let's look
+[9:20] at the brighter picture, the Y O Y
+[9:22] picture. Let's look at total income that
+[9:24] jumped 44 %. EBITDA jumped 60 %. PAT
+[9:28] jumped 54 %. And even PAT margin saw a
+[9:31] 300 basis points increase. Basically, it
+[9:34] went up from 44 % to 47 %. So all in
+[9:38] all, the overall Q2 results on face are
+[9:42] very interesting.
+[9:43] If I were to understand about their
+[9:45] market share also, that is also
+[9:47] important. See,
+[9:48] for me, if I am growing, basically my
+[9:51] revenue is growing, my profit is
+[9:52] growing, that is good. But if my market
+[9:55] share is also increasing, that is also
+[9:57] an encouraging sign, right? So if you
+[9:58] look at this, equity derivatives
+[10:00] trading, their market share again on a Y
+[10:02] O Y basis increased from 8.6 % to 11 %.
+[10:06] Stock trading increased from 12.9 % to
+[10:08] 15.4 %. MTF lending increased from 1.6%
+[10:13] to 2.7% and mutual funds increased from
+[10:16] 13.1%
+[10:17] to 14.8%.
+[10:20] So I hope entire Q2 analysis or Q2
+[10:23] snapshot I can say is absolutely clear,
+[10:25] but this is what has happened till now.
+[10:27] Question is what about the new products
+[10:29] that the management is building for
+[10:31] future? That's what we are going to
+[10:32] check in the last section of this week.
+[10:34] Moving on to the new businesses. Now I
+[10:36] feel this segment is particularly very
+[10:38] personalized. Why am I saying this?
+[10:40] Because when whenever you analyze new
+[10:42] businesses of any company, basically it
+[10:43] depends from a person to person whether
+[10:45] you feel that this can bring in a lot of
+[10:48] business to the company or not. Because
+[10:50] of course management definitely feels
+[10:51] that it can bring in a lot of business
+[10:53] and that's the reason why they enter
+[10:54] into newer and newer businesses. But if
+[10:56] you feel the same, then only
+[10:59] you can you know track the stock in a
+[11:01] much more closer fashion because that is
+[11:03] where you can dig down deep and get a
+[11:05] better understanding, right? So first
+[11:07] things first, new businesses we are
+[11:08] talking only about those announcements
+[11:10] that were made in Q2 FY27 or one or two
+[11:12] in the Q1 FY27 results. The very first
+[11:14] one is 915. 915 is a separate trading
+[11:17] platform for all the active traders.
+[11:20] Management has very clearly said that
+[11:21] right now it is not a meaningful
+[11:23] contributor to Gross business, but they
+[11:25] are saying that they are watching this
+[11:27] segment closely and they are
+[11:30] checking whether this existing
+[11:32] product finds the right fit for traders
+[11:35] or not. They will surely take feedbacks
+[11:37] and they'll keep on improving this
+[11:38] product based on the traders'
+[11:39] requirements, right? The second new
+[11:41] business that they are entering into is
+[11:43] US stocks and this is right now in the
+[11:46] beta phase, testing phase. Management
+[11:48] has very clearly said that there's no
+[11:49] launch date that has been fixed right
+[11:51] now. Again they said that they'll slowly
+[11:53] roll this out based on the user
+[11:55] feedback, right?
+[11:56] The third one is the wealth
+[11:58] segment that they have introduced and
+[12:00] this is especially for the larger
+[12:03] investors, basically the HNIs, high net
+[12:05] worth individuals who are interested in
+[12:07] products like PMS that is portfolio
+[12:09] management services or AIFs, alternate
+[12:11] investment funds,
+[12:12] different types of insurances and all
+[12:14] that, right?
+[12:15] They are not offering these products
+[12:16] like PMF, AIFs through the normal Grow
+[12:19] app, but they have a separate app called
+[12:20] W through which they provide these
+[12:22] services. But there's one important
+[12:24] thing which we have to understand that
+[12:26] wealth is a category of business where
+[12:28] crores, thousands of crores rupees could
+[12:30] be handled.
+[12:31] And in this case, management does need a
+[12:33] separate expertise to run such segment,
+[12:36] right? And that might be one of the
+[12:38] reasons why they bought a company called
+[12:40] Fisdom in October 2025 and they bought
+[12:43] it at a valuation of $150 million.
+[12:45] And that's where they started this
+[12:47] wealth segment. The integration of this
+[12:50] wealth of Fisdom was completed in this
+[12:52] quarter itself. And it will be really
+[12:54] interesting to watch how this wealth
+[12:56] segment specifically grows.
+[12:58] Ultimately, they have also introduced MF
+[13:00] Prime. This is an optional service on
+[13:01] the Grow app. This basically recommends
+[13:04] mutual funds to people who want
+[13:06] guidance. Now, if you've done my magic
+[13:08] of mutual funds course,
+[13:10] you already know that regular mutual
+[13:12] funds or regular plans typically cost
+[13:15] you higher because the expense ratio is
+[13:17] higher versus direct plans. But still,
+[13:19] there are some customers, some investors
+[13:21] who feel that I want guidance. I'm ready
+[13:23] to pay higher commission.
+[13:25] And for such category of people, they
+[13:27] said, okay, we'll give recommendations,
+[13:28] but then they'll be selling regular
+[13:30] plans and not direct plans. Management
+[13:33] in fact is saying that this is one of
+[13:35] the fastest growing products in the
+[13:37] wealth management business.
+[13:39] So I hope all in all, all the new
+[13:41] businesses are also clear. If you feel
+[13:42] that there is something that you would
+[13:44] want to add about this company, please
+[13:46] add that in the comment section below.
+[13:48] If you loved this video, please don't
+[13:49] forget to smash the like button. Please
+[13:50] don't forget to share this video with
+[13:51] your friends. I'll see you in the next
+[13:52] one. Till then, take care. Jai Hind and
+[13:54] bye-bye.
+[13:59] You might have come across such
+[14:00] advertisements on various social media
+[14:02] platforms. Please note, all of these are
+[14:04] fraudsters promising unbelievable
+[14:06] returns through stock tips. I don't
+[14:08] provide any calls or advisory services.
+[14:11] I provide only educational content
+[14:13] through my social media handles and
+[14:15] through my website rachanaranade.com and
+[14:17] rachanaranade.in.
+
+##### FILE: vLLpzE31JTk.txt
+[0:05] आज हम बात करने वाले हैं एक ऐसी
+[0:07] इन्वेस्टमेंट कैटेगरी के बारे में जो
+[0:09] इन्वेस्टर्स के लिए कुछ नए अपॉर्चुनिटीज
+[0:11] ओपन करती है।
+[0:12] वी आर टॉकिंग अबाउट स्पेशलाइज्ड
+[0:14] इन्वेस्टमेंट फंड्स और एसआईएफ
+[0:17] व्हिच आर नाउ लाइव ऑन धन। लेकिन एसआईएफ
+[0:19] क्या है? यह ट्रेडिशनल म्यूचुअल फंड से
+[0:21] कैसे डिफरेंट है और इन्वेस्टर्स के लिए
+[0:24] इनमें क्या इंटरेस्टिंग है? चलिए स्टेप
+[0:26] बाय स्टेप समझते हैं। एज एन इन्वेस्टर
+[0:28] आपके पास जनरली अपना पैसा इन्वेस्ट करने
+[0:30] के लिए मल्टीपल ऑप्शंस होते हैं। आप
+[0:32] डायरेक्टली स्टॉक्स में इन्वेस्ट कर सकते
+[0:34] हैं जहां कंपनीज रिसर्च करना, पोर्टफोलियो
+[0:37] बनाना और इन्वेस्टमेंट्स मैनेज करना आपकी
+[0:39] रिस्पांसिबिलिटी होती है या फिर आप
+[0:41] म्यूचुअल फंड्स में इन्वेस्ट कर सकते हैं
+[0:43] जहां प्रोफेशनल फंड मैनेजर्स आपके बिहाफ
+[0:45] पर रिसर्च और इन्वेस्टमेंट डिसीजंस लेते
+[0:47] हैं। लेकिन एक इंटरेस्टिंग सिचुएशन सोचिए
+[0:49] अगर आप ऐसी इन्वेस्टमेंट स्ट्रेटेजीज
+[0:51] एक्सप्लोर करना चाहते हैं जो सिर्फ
+[0:53] राइजिंग मार्केट्स में नहीं बल्कि फॉलिंग
+[0:55] मार्केट्स में भी अपॉर्चुनिटीज आइडेंटिफाई
+[0:56] कर सके तो ट्रेडिitionally ऐसी
+[0:59] सोफिस्टिकेटेड स्ट्रेटेजीज एक्सेस करने का
+[1:01] एक ऑप्शन रहा है जो कि है पोर्टफोलियो
+[1:03] मैनेजमेंट सर्विसेस यानी पीएमएस। पीएमएस
+[1:05] में प्रोफेशनल पोर्टफोलियो मैनेजर्स आपके
+[1:08] लिए कस्टमाइज्ड इन्वेस्टमेंट स्ट्रेटेजीज
+[1:10] मैनेज करते हैं। लेकिन पीएमएस के साथ एक
+[1:12] मेजर लिमिटेशन है। इसका मिनिमम
+[1:14] इन्वेस्टमेंट रिक्वायरमेंट रु 50 लाख है
+[1:16] व्हिच मींस रिटेल इन्वेस्टर्स के एक लार्ज
+[1:19] सेक्शन के लिए पीएमएस को एक्सेस करना
+[1:21] डिफिकल्ट हो जाता है। दूसरी तरफ ट्रेडिशनल
+[1:23] म्यूचुअल फंड्स कंपैरेटिवली एक्सेसिबल है
+[1:26] लेकिन उनके फंड मैनेजर्स के पास
+[1:27] इन्वेस्टमेंट स्ट्रेटेजीज इंप्लीमेंट करने
+[1:29] की फ्लेक्सिबिलिटी अलग होती है। तो क्या
+[1:31] इन दोनों के बीच कोई ऑप्शन हो सकता है?
+[1:40] म्यूचुअल फंड्स की तरह यहां भी आपका पैसा
+[1:43] प्रोफेशनल फंड मैनेजर्स मैनेज करते हैं।
+[1:45] वो मार्केट अपॉर्चुनिटीज रिसर्च करते हैं,
+[1:47] इन्वेस्टमेंट डिसीजंस लेते हैं और आपके
+[1:49] बिहाफ पर पोर्टफोलियो मैनेज करते हैं।
+[1:52] लेकिन एसआईएफ को इंटरेस्टिंग बनाती है
+[1:54] इनकी एडिशनल फ्लेक्सिबिलिटी
+[1:58] चलिए इसे एक एग्जांपल के थ्रू समझते हैं।
+[2:00] लीजिए एक फंड मैनेजर को लगता है कि कुछ
+[2:02] स्टॉक्स आने वाले टाइम में अच्छा परफॉर्म
+[2:04] कर सकते हैं, [संगीत] वाइल कुछ दूसरे
+[2:06] स्टॉक्स अंडरपरफॉर्म कर सकते हैं।
+[2:08] ट्रेडिショナル लॉन्ग ओनली स्ट्रेटेजी में फंड
+[2:10] मैनेजर प्राइमरली उन स्टॉक्स में इन्वेस्ट
+[2:11] करता है जिनसे प्राइस राइज़ होने की
+[2:13] एक्सपेक्टेशन होती है। लेकिन इक्विटी
+[2:15] लॉन्ग शॉर्ट स्ट्रेटेजी में फंड मैनेजर
+[2:17] दोनों तरह की पोजीशंस ले सकता है। एक तरफ
+[2:19] वो उन स्टॉक्स में लॉन्ग पोजीशन ले सकता
+[2:21] है जिनसे प्राइस बढ़ने की एक्सपेक्टेशंस
+[2:23] है और दूसरी तरफ डेरिवेटिव्स के थ्रू उन
+[2:26] स्टॉक्स में शॉर्ट पोजीशन ले सकता है
+[2:28] जिनसे प्राइस फॉल होने की एक्सपेक्टेशंस
+[2:30] है। इसका मतलब है कि फंड मैनेजर सिर्फ
+[2:32] राइजिंग मार्केट्स में नहीं बल्कि फॉलिंग
+[2:34] मार्केट्स में भी अपॉर्चुनिटीज एक्सप्लोर
+[2:35] कर सकता है। ऑफ कोर्स इसका मतलब यह नहीं
+[2:38] है कि मार्केट गिरने पर फंड ऑटोमेटिकली
+[2:40] प्रॉफिट करेगा। स्ट्रेटेजी की परफॉर्मेंस
+[2:41] फंड मैनेजर के डिसीजंस और मार्केट कंडीशंस
+[2:43] पर डिपेंड करती है। बट इन्वेस्टर्स के लिए
+[2:45] इंपॉर्टेंट बात यह है कि अब वो ऐसी
+[2:47] प्रोफेशनली मैनेज स्ट्रेटेजीज को एसआई ए
+[2:50] फ्रेमवर्क के थ्रू एक्सप्लोर कर सकते हैं।
+[2:54] [संगीत]
+[3:00] सबसे पहले अगर आप ऑलरेडी धन इन्वेस्टर या
+[3:02] यूजर हैं तो आपको कोई सेपरेट अकाउंट ओपन
+[3:04] करने या केवाईसी दोबारा करने की जरूरत
+[3:06] नहीं है।
+[3:09] यहां आप डिफरेंट एएमसी के 30 प्लस एसआई एफ
+[3:12] स्कीम्स एक्सप्लोर कर सकते हैं।
+[3:17] और सिर्फ स्कीम का नाम या रिटर्न्स देखने
+[3:19] के बजाय आप हर स्कीम के बारे में
+[3:21] इंपॉर्टेंट डिटेल्स भी समझ सकते हैं। फॉर
+[3:23] एग्ज़ाम्पल उसकी इन्वेस्टमेंट स्ट्रेटेजी
+[3:25] क्या है, फंड का अप्रोच क्या है,
+[3:27] एसोसिएटेड रिस्क क्या है और पोर्टफोलियो
+[3:29] एलोकेशन कैसा है।
+[3:35] जब भी हम किसी इन्वेस्टमेंट को इवैल्यूएट
+[3:36] करते हैं तो जनरली सबसे पहले रिटर्न्स
+[3:38] देखते हैं। लेकिन सिर्फ रिटर्न्स देखना
+[3:40] हमेशा इनफ नहीं होता। यह समझना भी जरूरी
+[3:42] है कि फंड मार्केट की कंपैरिजन में कैसा
+[3:44] परफॉर्म कर रहा है। विथ अल्फा व्यू आप
+[3:46] अपने एसआई एफ इन्वेस्टमेंट की डिटेल
+[3:48] परफॉर्मेंस ट्रैक कर सकते हैं। आप देख
+[3:50] सकते हैं कि फंड कितना अल्फा जनरेट कर रहा
+[3:52] है और रेलेवेंट मार्केट बेंचमार्क्स की
+[3:53] कंपैरिजन में उनकी परफॉर्मेंस कैसी है।
+[3:58] एक और यूजफुल फीचर है स्प्लिट ऑर्डर्स।
+[3:59] मान लीजिए आप ₹10 लाख इन्वेस्ट करना चाहते
+[4:01] हैं लेकिन आप पूरा अमाउंट एक ही
+[4:03] स्ट्रेटेजी में इन्वेस्ट नहीं करना चाहते।
+[4:04] इन
+[4:24] तो ओवरऑल
+[4:50] [संगीत]
+[4:54] इसीलिए इन्वेस्ट करने से पहले स्कीम
+[4:56] डॉक्यूमेंट्स, इन्वेस्टमेंट स्ट्रेटजी और
+[4:58] एसोसिएटेड रिस्क को प्रॉपर्ली अंडरस्टैंड
+[5:00] करना जरूरी है।
+
+##### FILE: w7ZkMNfK1FQ.txt
+video: https://www.youtube.com/watch?v=w7ZkMNfK1FQ
+title: GTA 6 Launch: Which Stocks Could Benefit?
+channel: Groww
+
+मच अवेटेड GTA सिक्स लॉन्च हो चुका है। लेकिन क्या आप जानते हैं कि इस एक गेम से यूएस और इंडियन स्टॉक मार्केट की कुछ कंपनीज को भी फायदा हो सकता है? सबसे पहले इस गेम का क्रिएटर कौन है? GTA बनाती है रॉकस्टार गेम्स जिसकी पैरेंट कंपनी है यूएस लिस्टेड टेक टू इंटरैक्टिव सॉफ्टवेयर। ये NBA 2K और WWE 2K भी पब्लिश करती है। अब फाइनेंशियल में इंटरेस्टिंग कैच है। इतने पॉपुलर गेम्स फिर भी लॉस। फाइनेंशियल ईयर 26 यानी कि अप्रैल 2025 से मार्च 2026 में 6.66 बिलियन डॉलर सेल्स के बावजूद 298 मिलियन डॉलर्स का लॉस हुआ। फाइनेंशियल ईयर 25 में लॉस 4.84 बिलियन डॉलर्स था। एक बड़ी वजह एक्वायर की हुई कंपनीज की अकाउंटिंग वैल्यू घटाना। आगे मैनेजमेंट फाइनेंशियल ईयर 27 में कंपनी वाइड 8 से 8.2 बिलियन डॉलर्स नेट बुकिंग एक्सपेक्ट कर रही है। फाइनेंशियल ईयर 26 से 19 से 22% ज्यादा। अब इंडियन स्टॉक्स का कनेक्शन क्या है? नजारा टेक्नोलॉजीज के स्पोर्ट्स कीड़ा प्लेटफॉर्म पे GTA कवरेज से ट्रैफिक बढ़ सकता है। क्रिएटिव न्यू टेक, रेजर, प्ले स्टेशन कंपैटिबल ईयर बड्स डिस्ट्रीब्यूट करती है और राशी पेरिफेरल्स, एनवीडिया, एएमडी और लॉजिटेक के प्रोडक्ट्स डिस्ट्रीब्यूट करती है। GTA सिक्स अभी प्ले स्टेशन और एक्स बॉक्स पर है। फ्यूचर पीसी वर्जन से गेमिंग हार्डवेयर की डिमांड बढ़ सकती [संगीत] है। GTA सिक्स तो आ गया लेकिन क्या इसकी हाइप कंपनीज के प्रॉफिट्स में भी दिखेगी? आपको क्या लगता है?
+
+
+##### FILE: 0H8wezRPA3c.txt
+video: https://www.youtube.com/watch?v=0H8wezRPA3c
+title: This Sector is a MultiBagger in India !!!! #Face2Face with Mr. Priyam Shah.
+channel: Trading & Investing 1M+
+
+प्रतिभूति बाज़ार में निवेश बाज़ार जोखिमों के अधीन है। निवेश करने से पहले सभी संबंधित दस्तावेज़ ध्यान से पढ़ें। सौभाग्य से, कोविड हमारे लिए वरदान साबित हुआ। इन उद्योगों के मुनाफ़े के अवसर केवल पिछले कुछ वर्षों तक सीमित नहीं हैं, बल्कि अगले एक-दो दशकों में 10 से 20 गुना तक बढ़ सकते हैं। बोइंग और एयरबस ने नए ऑर्डर लेना लगभग रोक दिया है, क्योंकि उनके पास करीब 15,000 विमानों का बैकलॉग है। आज ऑर्डर देने पर डिलीवरी 2035 के बाद मिल सकती है। राकेश जी दसवीं कक्षा के बाद पढ़ाई छोड़ चुके थे। वहाँ से दुनिया के सबसे कठिन एयरोस्पेस कंपोनेंट्स में से एक बनाने तक का उनका सफ़र काबिल-ए-तारीफ़ है। इंजन के हॉट सेक्शन में तापमान क्रिस्टल के गलनांक से भी अधिक होता है। ऐसे में सामग्री-विज्ञान की बहुत गहरी समझ चाहिए, ताकि ब्लेड पिघले नहीं और अपनी मजबूती बनाए रखे। दुनिया में बहुत कम कंपनियाँ यह तकनीक हासिल कर पाई हैं और एक भारतीय कंपनी ने यह कर दिखाया है। अभी उनके ग्राहकों के कुल खर्च में कंपनी की हिस्सेदारी केवल लगभग 1% है। कंपनी को भरोसा है कि अगले चार-पाँच वर्षों में यह हिस्सेदारी 2% या 5% तक पहुँच सकती है। नमस्कार, फेस-टू-फेस लर्नर्स। शेयर बाज़ार में इतना ज्ञान देखकर इंसान विनम्र महसूस करने लगता है। आज का वीडियो सीखने के लिहाज़ से बहुत उपयोगी है। मैंने एक ऐसे मेहमान को बुलाया है जिन्हें एक खास सेक्टर की गहरी समझ है। वे बताएँगे कि किसी सेक्टर का विश्लेषण कैसे करें और उसमें निवेश का भरोसा कैसे बनाएँ। हम एक शेयर को उदाहरण बनाकर उसका विस्तृत विश्लेषण भी करेंगे। यह किसी शेयर की सिफ़ारिश वाला वीडियो नहीं, बल्कि सीखने का अवसर है। आइए, हमारे मेहमान प्रियम शाह का स्वागत करते हैं। आज हम कमर्शियल एयरोस्पेस उद्योग पर बात करेंगे। आठ-दस साल पहले भारत की सूचीबद्ध कंपनियों में यह कोई बड़ा मुनाफ़ा कमाने वाला क्षेत्र नहीं था। कोविड के बाद यह उद्योग एक संरचनात्मक अवसर के रूप में उभरा है। इस सेक्टर की संभावनाओं, भारत की प्रतिस्पर्धात्मक स्थिति और सूचीबद्ध कंपनियों के उदाहरणों को समझेंगे। मैं बाज़ारों के माहौल में बड़ा हुआ हूँ। हमारा परिवार म्यूचुअल फंड और बीमा वितरण के कारोबार में रहा है। सात-आठ साल पहले मैंने बाज़ार में पूर्णकालिक रूप से काम शुरू किया। इस दौरान उतार-चढ़ाव, नुकसान और मुनाफ़े, दोनों से बहुत कुछ सीखा है। हमारा संगठन मुख्य रूप से स्मॉल-कैप और माइक्रो-कैप शेयरों पर रिसर्च करता है। इसके साथ हम सार्वजनिक और अपनी पूँजी का प्रबंधन भी करते हैं। बहुत बढ़िया। अब प्रस्तुति शुरू करते हैं। एक बात स्पष्ट कर दूँ: यह चर्चा केवल शिक्षा के उद्देश्य से है। किसी भी सेवा या निवेश का निर्णय अपनी समझ और रिसर्च के आधार पर लें। क्या मेरी स्क्रीन दिखाई दे रही है? चलिए, शुरू करते हैं। भारत का एयरोस्पेस उद्योग दो हिस्सों में बँटा है: सिविल एयरोस्पेस और डिफेंस एयरोस्पेस। आज हमारी मुख्य चर्चा सिविल एयरोस्पेस पर होगी, लेकिन डिफेंस क्षेत्र की भूमिका समझना भी ज़रूरी है। भारत ने राफेल विमान, C-130J परिवहन विमान और अपाचे हेलिकॉप्टर जैसे रक्षा सौदे किए हैं। इन सौदों में ऑफ़सेट क्लॉज़ होता है, जिसके तहत विदेशी कंपनियों को अनुबंध की कीमत का लगभग 25 से 35% भारत में निवेश करना पड़ता है। यह निवेश तकनीक हस्तांतरण, भारतीय कंपनियों से कंपोनेंट खरीदने या अनुसंधान एवं विकास के ज़रिए किया जा सकता है। इससे भारत में सटीक विनिर्माण का इकोसिस्टम बना है। प्रिसिजन इंजीनियरिंग का मतलब है किसी धातु को बिल्कुल तय आकार और टॉलरेंस के अनुसार तैयार करना। कई एयरोस्पेस पुर्ज़ों में एक माइक्रोन का अंतर भी स्वीकार्य नहीं होता। यह क्षमता केवल एयरोस्पेस तक सीमित नहीं है। ऑटो कंपोनेंट बनाने वाली कई भारतीय कंपनियाँ अपनी प्रिसिजन मैन्युफैक्चरिंग विशेषज्ञता को एयरोस्पेस में इस्तेमाल कर रही हैं। डिफेंस एयरोस्पेस में भारत में पहली बार C-130 परिवहन विमान की असेंबली लाइन स्थापित करने का प्रस्ताव आया। टाटा इस परियोजना में विमान के कई हिस्से बनाएगा और लगभग 500 भारतीय कंपनियाँ सप्लाई चेन का हिस्सा बनेंगी। डिफेंस और सिविल एयरोस्पेस की सप्लाई चेन में काफी समानता है। एक बार विदेशी कंपनियों का भारतीय आपूर्तिकर्ताओं पर भरोसा बनता है, तो सिविल एयरोस्पेस में भी भारत की हिस्सेदारी बढ़ सकती है। कमर्शियल एयरोस्पेस में विमान का डिज़ाइन, कंपोनेंट निर्माण और अंतिम असेंबली शामिल हैं। भारत में फिलहाल डिज़ाइन और अंतिम असेंबली का बड़ा हिस्सा नहीं होता; इसमें बोइंग और एयरबस प्रमुख हैं। निवेश के तीन रास्ते हैं: विमान बनाने वाली कंपनियों की सप्लाई चेन, विमानन कंपनियाँ जो विमान उड़ाती हैं, और MRO यानी रखरखाव, मरम्मत तथा ओवरहॉल का कारोबार। चीन की COMAC कंपनी ने अपना विमान विकसित किया है। चर्चा में यह भी बताया गया कि बौद्धिक संपदा की सुरक्षा को लेकर चिंताओं के कारण कई वैश्विक कंपनियाँ चीन से बाहर सप्लाई चेन का विकल्प तलाश रही हैं। यह उद्योग एक बड़े बदलाव के दौर में है। बोइंग और एयरबस की संयुक्त सालाना आय लगभग 160 से 170 अरब डॉलर के स्तर पर है। इनके वैश्विक कंपोनेंट सोर्सिंग में भारत की हिस्सेदारी अभी केवल लगभग 1 से 2% है। विमान निर्माण के अलावा रखरखाव और मरम्मत के लिए भी बड़ा बाज़ार मौजूद है। बोइंग और एयरबस इस उद्योग की प्रमुख कंपनियाँ हैं। इनके अलावा चीन की COMAC और ब्राज़ील की एम्ब्रेयर भी विमान निर्माता हैं। विमान की कुल कीमत का लगभग 25% हिस्सा इंजन का होता है। इंजन निर्माता केवल नया इंजन बेचकर बड़ा मुनाफ़ा नहीं कमाते। असली कमाई अगले 15 से 25 वर्षों तक चलने वाले रखरखाव और मरम्मत के अनुबंधों से होती है। इसे रेज़र-एंड-ब्लेड मॉडल की तरह समझ सकते हैं। टियर-2 और टियर-3 सप्लायर प्रोपल्शन सिस्टम और दूसरे कंपोनेंट बनाते हैं। भारत अभी मुख्य रूप से इसी स्तर पर है। टियर-4 में कच्चे माल की सप्लाई आती है, जैसे टाइटेनियम, निकल और सुपर-अलॉय। एयरोस्पेस में गुणवत्ता से कोई समझौता नहीं किया जा सकता। किसी सप्लायर को मंज़ूरी देने में कई चरण होते हैं, जिनमें फर्स्ट आर्टिकल इंस्पेक्शन, तकनीकी और वित्तीय जाँच शामिल हैं। डायनामैटिक टेक्नोलॉजीज़ को अपना पहला ऑर्डर मिलने में लगभग 17 साल लगे। इस उद्योग में सप्लायर बनने की प्रक्रिया लंबी है, लेकिन एक बार जगह बन जाने पर संबंध लंबे समय तक चल सकते हैं। बोइंग और एयरबस का दबदबा इसलिए भी मजबूत है क्योंकि नए प्रतिस्पर्धियों के लिए प्रमाणन, तकनीक और सप्लायर इकोसिस्टम तैयार करना बेहद कठिन है। भारत के पास इस उद्योग में आगे बढ़ने का अवसर है। आय बढ़ने के साथ लोग रेल और सड़क के बजाय हवाई यात्रा को प्राथमिकता देते हैं। इसके अलावा, लगभग 20 से 25 साल बाद पुराने विमानों को बदलने की माँग भी आती है। कोविड के बाद हवाई यात्रा की माँग तेज़ी से लौटी, लेकिन सप्लाई चेन उतनी तेज़ी से सामान्य नहीं हो पाई। 2025 में यात्रियों की संख्या और विमानों की क्षमता का उपयोग 2019 के स्तर से ऊपर पहुँच गया। जब क्षमता का उपयोग लगभग 85% या उससे अधिक हो जाता है, तो उद्योग को उत्पादन बढ़ाना पड़ता है। फिलहाल सप्लाई चेन एक बड़ी बाधा है। अगले लगभग 20 वर्षों में करीब 49,000 नए विमानों की आवश्यकता का अनुमान है। लेकिन बोइंग और एयरबस की मौजूदा उत्पादन क्षमता इस माँग को पूरा करने के लिए पर्याप्त नहीं है। यही माँग और सप्लाई का अंतर भारतीय सप्लायरों के लिए अवसर पैदा करता है। बोइंग की मुश्किलों और उसकी सप्लाई चेन पर चर्चा आगे की प्रस्तुति में की जाएगी। विमानों की डिलीवरी में गिरावट के बाद उत्पादन धीरे-धीरे लौटा है, लेकिन ऑर्डर बैकलॉग लगभग 15,000 विमानों का है। नए ऑर्डर की डिलीवरी 2035 के बाद तक जा सकती है। इससे मौजूदा सप्लायरों को लंबे समय तक काम मिलने की संभावना बनती है। भारत की एक ताकत उसकी युवा कार्यशक्ति है। यूरोप और अमेरिका में कई अनुभवी मशीनिस्ट अगले आठ से बारह वर्षों में रिटायर होंगे, जबकि नई पीढ़ी ब्लू-कॉलर नौकरियों में कम रुचि दिखा रही है। इससे भारत जैसे देशों के लिए अवसर बनता है। रूस-यूक्रेन युद्ध और प्रतिबंधों के कारण टाइटेनियम की सप्लाई प्रभावित हुई। टाइटेनियम विमान के इंजन, एयरफ्रेम और लैंडिंग गियर जैसे कई हिस्सों में इस्तेमाल होता है। सप्लाई चेन में व्यवधान आने पर उत्पादन सामान्य होने में वर्षों लग सकते हैं। यूरोप में श्रम लागत और ऊर्जा खर्च बढ़ने से फोर्जिंग तथा कास्टिंग जैसे काम महँगे हो गए हैं। कुछ सप्लायरों को निश्चित कीमत पर ऑर्डर पूरे करने पड़े, जबकि कच्चे माल की लागत तेज़ी से बढ़ गई। इससे उनके मार्जिन पर दबाव आया। MRO क्षेत्र में भी प्रशिक्षित कर्मचारियों की कमी है। विमान के इंजन और दूसरे हिस्सों की जाँच तथा मरम्मत के लिए बड़ी और कुशल कार्यशक्ति चाहिए। वैश्विक एयरोस्पेस बाज़ार में अमेरिका, यूरोप, चीन और एशिया-पैसिफिक क्षेत्र शामिल हैं। भारत की एयरलाइनों के बड़े विमान ऑर्डर के कारण वैश्विक कंपनियों का ध्यान भारत पर बढ़ रहा है। विमानन कंपनियाँ अक्सर सेल-एंड-लीज़-बैक मॉडल का इस्तेमाल करती हैं। विमान बेचने के बाद उसे लीज़ पर लेकर चलाया जा सकता है। रूस से टाइटेनियम की सप्लाई पर निर्भरता कम करने के लिए कंपनियाँ वैकल्पिक स्रोत तलाश रही हैं। भारत में भी कुछ कंपनियाँ स्थानीय स्तर पर टाइटेनियम की सप्लाई विकसित कर रही हैं। यूरोप में ऊर्जा लागत और औद्योगिक क्षमता बंद होने की घटनाओं ने सप्लाई चेन को प्रभावित किया है। क्षमता बंद होने पर उसे दोबारा शुरू करना आसान नहीं होता। बोइंग ने पहले अपनी सप्लाई चेन को हल्का रखने के लिए स्पिरिट एयरोसिस्टम्स को अलग किया था। 737 मैक्स से जुड़ी घटनाओं के बाद उत्पादन घटा, जिससे स्पिरिट के पास अतिरिक्त इन्वेंटरी जमा हो गई और कंपनी वित्तीय संकट में चली गई। बोइंग को एहसास हुआ कि स्पिरिट पर उसकी निर्भरता बहुत अधिक है। यदि सप्लायर बंद हो जाता, तो उसकी उत्पादन लाइन भी रुक सकती थी। इसलिए उसे स्पिरिट को वापस खरीदने और वित्तीय सहायता देने की दिशा में कदम उठाने पड़े। यह उदाहरण दिखाता है कि केवल बड़े पैमाने पर कारोबार होना लाभप्रदता की गारंटी नहीं है। सही स्थान, सही समय और सप्लाई चेन में सही भूमिका भी महत्वपूर्ण है। वैश्विक एयरोस्पेस उद्योग अलग-अलग क्षेत्रों में क्लस्टर के रूप में विकसित हुआ है। भारत ने पहले डिफेंस एयरोस्पेस के लिए क्षमता बनाई और अब वही कंपनियाँ सिविल एयरोस्पेस में प्रवेश कर रही हैं। एशिया की वैश्विक सोर्सिंग में हिस्सेदारी पहले लगभग 5% थी, जो बढ़कर करीब 13% हो गई है। यूरोप और उत्तरी अमेरिका की हिस्सेदारी घटी है। कम लागत और बेहतर जनसांख्यिकी के कारण यह बदलाव आगे भी जारी रह सकता है। भारत में अधिकतर कंपनियाँ अभी टियर-3 स्तर पर हैं। कुछ कंपनियाँ टियर-2 की ओर बढ़ी हैं, लेकिन इस क्षेत्र में आगे बढ़ने की अभी बहुत गुंजाइश है। भारत वैश्विक ऑर्डर बुक को नज़रअंदाज़ नहीं किया जा सकता। लागत का लाभ, उपलब्ध श्रमशक्ति और ऑटोमोबाइल उद्योग में विकसित विनिर्माण क्षमता भारत को एक मजबूत विकल्प बनाती है। भारत के ऑटो उद्योग में कास्टिंग, फोर्जिंग और मशीनिंग जैसी क्षमताएँ पहले से मौजूद हैं। कई ऑटो कंपोनेंट कंपनियाँ अब एयरोस्पेस के लिए भी पुर्ज़े बना रही हैं। एयरबस और बोइंग ने संकेत दिया है कि वे 2030 तक भारत से अपनी सोर्सिंग कम-से-कम दोगुनी करना चाहते हैं। लेकिन भारतीय कंपनियों को इन बड़े OEM ग्राहकों पर अत्यधिक निर्भरता से भी सावधान रहना होगा। एक कमर्शियल विमान की कीमत में इंजन का हिस्सा लगभग 20 से 35% हो सकता है। एयरफ्रेम, विंग्स, टेल, इंटीरियर, लैंडिंग गियर और एवियोनिक्स भी महत्वपूर्ण हिस्से हैं। भारत में सूचीबद्ध और गैर-सूचीबद्ध, दोनों तरह की कंपनियाँ एयरोस्पेस सप्लाई चेन का हिस्सा हैं। इस क्षेत्र का बड़ा कारोबार अभी गैर-सूचीबद्ध कंपनियों में है। आने वाले वर्षों में कुछ कंपनियाँ सूचीबद्ध हो सकती हैं। अब हम उद्योग की संरचना समझने के बाद कुछ कंपनियों का गहराई से विश्लेषण करेंगे। पहली कंपनी है आज़ाद इंजीनियरिंग। इसकी खासियत केवल इसका कारोबार नहीं, बल्कि इसके प्रमोटर राकेश जी की यात्रा भी है। दसवीं के बाद पढ़ाई छोड़कर उन्होंने कई साल फैक्ट्री के शॉप फ्लोर पर काम किया और 2008 में एक CNC मशीन से अपना उद्यम शुरू किया। आज़ाद का एक प्रमुख उत्पाद एयरफॉइल है। विमान के इंजन में घूमने वाले ब्लेड और उनसे जुड़े हिस्सों को अत्यधिक सटीकता से बनाना पड़ता है। घूमने वाले कंपोनेंट तैयार करना स्थिर कंपोनेंट की तुलना में कहीं अधिक कठिन है। टर्बाइन में हवा संपीड़ित होती है, ईंधन के साथ प्रतिक्रिया करती है और उससे ऊर्जा पैदा होती है। इंजन के कुछ हिस्सों में तापमान लगभग 1,500 डिग्री तक पहुँच सकता है। ऐसे में एयरफॉइल को अत्यधिक तापमान और दबाव सहना पड़ता है। इंजन का कोल्ड सेक्शन और हॉट सेक्शन होता है। आज़ाद पहले कोल्ड सेक्शन के लिए एयरफॉइल बनाती थी और अब हॉट सेक्शन के उत्पादों की क्षमता भी विकसित कर रही है। हॉट सेक्शन में सिंगल-क्रिस्टल ब्लेड बनाना बहुत कठिन है, क्योंकि वहाँ का तापमान क्रिस्टल के गलनांक से भी अधिक हो सकता है। इसके लिए विशेष सामग्री-विज्ञान और निर्माण तकनीक चाहिए। चर्चा में PTC इंडस्ट्रीज़ का भी उल्लेख किया गया। आज़ाद ने ऊर्जा, तेल और गैस क्षेत्र में भी काम किया है। कंपनी ने हनीवेल, GE, मित्सुबिशी और सीमेंस जैसी कंपनियों को कंपोनेंट सप्लाई किए हैं। इन वैश्विक ग्राहकों के लिए किसी एक कंपोनेंट को योग्य साबित करने में 36 से 48 महीने लग सकते हैं। आज़ाद ने ऐसे लगभग 1,400 कंपोनेंट्स के लिए योग्यता हासिल की है। कंपनी के प्रमोटर एयरोस्पेस में प्रवेश करना चाहते थे। उन्होंने शुरुआती वर्षों में आवश्यक प्रमाणन हासिल किया, लेकिन पहला एयरोस्पेस ऑर्डर मिलने में लगभग नौ साल लग गए। बाद में मौजूदा ग्राहकों के साथ संबंधों का उपयोग करके ऊर्जा क्षेत्र के उत्पाद एयरोस्पेस में भी सप्लाई किए गए। आज़ाद एयरोस्पेस और डिफेंस के लिए कई छोटे लेकिन अत्यंत सटीक कंपोनेंट बनाती है। इनमें बहुत कम टॉलरेंस की आवश्यकता होती है; एक माइक्रोन का अंतर भी गंभीर समस्या पैदा कर सकता है। कंपनी के अनुसार, उसके मौजूदा उत्पाद ग्राहकों के कुल खर्च में केवल लगभग 1% हिस्सेदारी रखते हैं। यदि यह 2% या 5% तक बढ़ता है, तो कारोबार में बड़ा विस्तार हो सकता है। कोविड के बाद कंपनी को ऐसे अवसर मिले जो शायद पहले उपलब्ध नहीं थे। वित्त वर्ष 2021 के बाद से कंपनी के राजस्व में तेज़ वृद्धि हुई और क्षमता का बेहतर उपयोग होने से मुनाफ़े में ऑपरेटिंग लीवरेज दिखा। इस उद्योग में कंपनियों को अधिक इन्वेंटरी रखनी पड़ती है, क्योंकि नए उत्पादों को मंज़ूरी मिलने में लंबा समय लगता है। इसी वजह से नकदी प्रवाह और मुनाफ़े के बीच अंतर हो सकता है। तेज़ विकास के लिए बाहरी पूँजी की भी ज़रूरत पड़ती है। लिस्टिंग के बाद आज़ाद की पुरानी फैक्ट्री लगभग पूरी क्षमता पर काम कर रही थी। कंपनी ने नई फैक्ट्री की क्षमता बढ़ाने की योजना बनाई, जिससे उसका आकार कई गुना हो सकता है। नई क्षमता आने से पहले ही कंपनी का ऑर्डर बुक बढ़ता रहा। कंपनी के कुछ उत्पादों के लिए भारत में प्रतिस्पर्धा सीमित है और लागत के मामले में वह वैश्विक स्तर पर प्रतिस्पर्धी है। कंपनी के ऑर्डर बुक और भविष्य की क्षमता को देखते हुए बाज़ार उसे ऊँचा मूल्यांकन दे रहा है। हालांकि, निवेशक को यह भी देखना चाहिए कि भविष्य की वृद्धि का कितना हिस्सा शेयर की मौजूदा कीमत में शामिल हो चुका है। एक ग्रोथ निवेशक के लिए अगले पाँच वर्षों की दृश्यता, क्षमता विस्तार और नए उत्पादों में प्रवेश महत्वपूर्ण हैं। हॉट सेक्शन के उत्पादों से प्रति पीस बेहतर प्राप्ति हो सकती है। आज़ाद ने भारत का पहला स्वदेशी टर्बोजेट इंजन विकसित किया है। यह लगभग 350 किलोग्राम थ्रस्ट श्रेणी का इंजन है, जिसका उपयोग छोटे UAV, ड्रोन और एंटी-शिप मिसाइलों में हो सकता है। यह कमर्शियल विमानों का इंजन नहीं है, बल्कि छोटे प्लेटफ़ॉर्म के लिए बनाया गया है। इस तरह की क्षमता का भारत में विकसित होना एक महत्वपूर्ण उपलब्धि है। कंपनी की विनिर्माण प्रक्रिया में कच्चे माल की खरीद, फोर्जिंग, मशीनिंग और विशेष कोटिंग शामिल हैं। एयरोस्पेस कंपोनेंट्स के लिए हर चरण में कठोर गुणवत्ता मानकों का पालन करना पड़ता है। कंपनी ने अपनी क्षमताएँ बढ़ाने के लिए अधिग्रहण भी किए हैं। इससे उसे हीट ट्रीटमेंट, कोटिंग और अन्य प्रक्रियाओं पर बेहतर नियंत्रण मिल सकता है। प्रस्तुति में आज़ाद की तुलना अमेरिका की एक बड़ी एयरोस्पेस कंपनी से की गई। इसका उद्देश्य यह दिखाना था कि विकसित बाज़ारों में भी इस तरह के व्यवसायों को ऊँचा मूल्यांकन मिल सकता है। प्रबंधन ने आम तौर पर 25 से 30% वृद्धि का अनुमान दिया है, लेकिन पिछले कुछ वर्षों में कंपनी कई बार अपने अनुमान से बेहतर प्रदर्शन कर चुकी है। कंपनी के लिए आगे की चुनौती अपनी नई क्षमता का सफल उपयोग करना और लगातार गुणवत्ता बनाए रखना है। भारत में टाइटेनियम और उसके मिश्रधातुओं की उपलब्धता सीमित है, इसलिए कुछ सामग्री आयात करनी पड़ती है। इसके बाद फोर्जिंग, पाँच-अक्ष CNC मशीनिंग, ड्रिलिंग और कोटिंग जैसी प्रक्रियाएँ होती हैं। आज़ाद ने अपनी सप्लाई चेन को अधिक एकीकृत बनाने के लिए अधिग्रहण किए हैं। इससे कंपनी कच्चे माल से लेकर अंतिम प्रक्रिया तक अधिक काम अपने नियंत्रण में कर सकती है। प्रबंधन ने पिछले वर्षों में अपने लक्ष्यों से बेहतर प्रदर्शन किया है। नई फैक्ट्री समय पर शुरू हुई और टर्बोजेट इंजन जैसी परियोजनाओं में भी प्रगति हुई है। आज कंपनी के राजस्व का बड़ा हिस्सा ऊर्जा, तेल और गैस कारोबार से आता है, जबकि एयरोस्पेस की हिस्सेदारी अभी छोटी है। आने वाले वर्षों में एयरोस्पेस का योगदान बढ़ने की उम्मीद है। दोनों कारोबार में कंपनी अच्छी वृद्धि कर रही है, लेकिन बाज़ार एयरोस्पेस कंपोनेंट्स को अधिक मूल्यांकन दे सकता है। आज की चर्चा का उद्देश्य उद्योग को समझना और एक कंपनी का गहराई से विश्लेषण करना था। यह किसी शेयर को खरीदने की सलाह नहीं है। दर्शकों को अपना शोध स्वयं करना चाहिए। हम यहीं रुकेंगे। प्रियम से अनुरोध है कि वे अपनी प्रस्तुति साझा करें, ताकि दर्शक रिसर्च की प्रक्रिया को और अच्छी तरह समझ सकें। इस चर्चा के लिए बहुत-बहुत धन्यवाद। एयरोस्पेस उद्योग एक संरचनात्मक विकास के दौर में है। निवेश करने से पहले अपनी रिसर्च करें और अपने पोर्टफोलियो में कितना निवेश करना है, यह निर्णय स्वयं लें। आपका बहुत धन्यवाद। उम्मीद है कि भविष्य में हम दूसरे उद्योगों पर भी ऐसी चर्चा करेंगे। प्रतिभूति बाज़ार में निवेश बाज़ार जोखिमों के अधीन है। निवेश करने से पहले सभी संबंधित दस्तावेज़ ध्यान से पढ़ें।
+
+
+##### FILE: 1VC4j2aYINQ.txt
+[0:00] दोस्तों जो इंट्राडे ट्रेडिंग होती है,
+[0:04] जहां पर स्टार्टिंग में 9:15 से 9:45
+[0:07] 10:00 बजे के आसपास तक वो शुरू के 15 ओवर
+[0:09] वाला मैच चल रहा होता है जहां पर
+[0:11] ताबड़तोड़ बैटिंग हो रही होती है। जहां पर
+[0:13] पावर प्ले चल रहा होता है, जहां पर बॉल्स
+[0:14] बार-बार बाउंड्री के बाहर जा रही होती है।
+[0:16] ऐसे टाइम पर मार्केट बहुत ज्यादा नाचती
+[0:18] है, बहुत ज्यादा स्पाइक करती है। अगर आपका
+[0:20] रिस्क एपेटाइट बहुत ज्यादा हाई है तो आप
+[0:21] यहां पर मार्केट में एंटर कर सकते हैं।
+[0:23] इसके बाद वक्त शुरू होता है उन मैच्योर
+[0:24] प्लेयर्स का जो टिकने के लिए आते हैं और
+[0:27] ये टाइम शुरू होता है एप्रोक्सीमेटली
+[0:29] 10:30 11:00 बजे से लेकर दोपहर को 1:00 से
+[0:32] 1:30 बजे के आसपास तक। डिपेंड करता है कौन
+[0:33] सा दिन चल रहा है। एक्सपायरी का दिन है तो
+[0:35] टाइम थोड़ा सा ऊपर नीचे हो जाता है।
+[0:37] नॉर्मल डे है तो कुछ और दिन होता है। बट
+[0:38] ब्रॉडली आप समझ के चलिए कि 10:30 बजे के
+[0:40] आसपास मार्केट शांत होना शुरू हो जाती है
+[0:43] जो कि 1:00 से 1:30 बजे के आसपास तक
+[0:44] मार्केट शांत रहती है जब तक पूरा यूरोप
+[0:47] नहीं खुल जाता है। आज जब हम यहां पर ऑप्शन
+[0:49] सेलिंग करेंगे कुछ कंडीशंस ऐसी हैं अगर ये
+[0:52] मीट हो रही होंगी किसी भी इंडेक्स में
+[0:53] निफ्टी में, बैंक निफ्टी में, सेंसेक्स
+[0:55] में, मिड कैप निफ्टी में या फिन निफ्टी
+[0:56] में और चाहे आज एक्सपायरी है या नहीं है
+[0:58] उससे फर्क नहीं पड़ता है। लेकिन अगर किसी
+[1:01] भी इंडेक्स में ये कंडीशंस मीट हो रही
+[1:02] होगी तो हम यहां पर ऑप्शन को सेल करेंगे।
+[1:04] आइए कैसे करेंगे पहले कुछ कंडीशंस हैं वो
+[1:06] हम देख लेते हैं। हमें चाहिए कोई ट्रेंड
+[1:09] ना हो मार्केट के अंदर। मैं दिखाता हूं
+[1:11] कैसे मिलेगा ऐसा एरिया। तो यहां पर अगर आप
+[1:13] देखें तो हमें चाहिए ऐसा एरिया जहां पर
+[1:16] मोमेंटम ना हो। मोमेंटम ना होने का मतलब
+[1:18] है कि आपका एडीएक्स नीचे आ रहा हो। ये चीज
+[1:21] आप 10 मिनट की कैंडल पे या 15 मिनट की
+[1:23] कैंडल पे देख सकते हैं। अगर 15 मिनट्स की
+[1:25] कैंडल में जैसे आप यहां पर देखिए अब ये
+[1:27] देखिए बहुत ही प्रेसाइजली देखिए ये कल का
+[1:29] दिन है। कल के दिन में आपका 11:15 बजे
+[1:32] वाली कैंडल पे आपका एडी एक्स नीचे आना
+[1:34] शुरू हो गया और इस पीरियड में अगर आप यहां
+[1:37] पर देखें इस पूरे पीरियड में बिल्कुल मूव
+[1:40] नहीं आया है और यही था हमारा पैसे कमाने
+[1:43] वाला पीरियड। देखिए यहां से लेकर एंड ऑफ द
+[1:45] दे तक आपको कोई मूव देखने को नहीं मिला है
+[1:48] और ये देखिए इस पूरे पीरियड के अंदर आपको
+[1:51] यहां पर पैसा कमाना था। ये वो एरिया था
+[1:53] जहां पर पैसा बन सकता था। इस पूरी जगह पे
+[1:55] आपका एडीएक्स नीचे आ रहा था तो इसका मतलब
+[1:57] ये है कि अगर एडीएक्स गिर रहा है और अच्छा
+[2:09] होगा अगर एडीएक्स 20 से भी नीचे है। 11:00
+[2:12] बजे के आसपास 10:30 11:00 बजे के बीच में
+[2:14] अगर ऐसा होता
+
+##### FILE: 37QfSHokop4.txt
+video: https://www.youtube.com/watch?v=37QfSHokop4
+title: Confusing Mutual Fund Schemes explained | Finology Academy of Mutual Funds Ep 3
+channel: Pranjal Kamra
+
+इन्वेस्टमेंट इन द सिक्योरिटीस मार्केट इज सब्जेक्ट टू मार्केट रिस्क। इन्वेस्टर्स आर एडवाइस टू रीड ऑल रिलेटेड डॉक्यूमेंट्स केयरफुली बिफोर इन्वेस्टिंग। हेलो इन्वेस्टर्स वेलकम टू द थर्ड चैप्टर ऑफ द फिनोलॉजी एकेडमी ऑफ़ म्यूच्यूअल फंड्स। आज ना हम फंड खरीदते समय बहुत सारी टेक्निकिटीज और कन्फ्यूजंस होते हैं। उसको डिस्कस करेंगे। जब भी आप फंड खरीदने जाओ तो यह कंफ्यूजन हर इन्वेस्टर को होता है। जैसे रेगुलर या डायरेक्ट ग्रोथ या डिविडेंड ये सब के डिफरेंसेस को समझेंगे। एक फंड के एग्जांपल से शुरू करते हैं। अभी आपके स्क्रीन पे दिख रहा है पराग पारेक फ्लेक्सी कैप फंड का डायरेक्ट प्लान और ग्रोथ ऑप्शन। अब पहला तो समझ में आता है कि चलो एएमसी का नाम है। दूसरा सेक्शन है फ्लेक्सी कैप। अब यह फ्लेक्सी कैप, लार्ज कैप, मिड कैप तरह-तरह के फंड्स होते हैं। सबके प्रोस एंड क्स क्या है? सबका मैंडेट क्या है? यह हम अगले कुछ वीडियोस में डिस्कस करेंगे। आज फोकस करते हैं आगे के दो सेक्शंस में। एक है ग्रोथ और दूसरा है डायरेक्ट। सबसे पहले बात करते हैं डायरेक्ट और रेगुलर की। देखो दो तरह के प्लांस होते हैं। रेगुलर जो हमेशा से जब से इस देश में म्यूच्यूल फंड है तब से है। यह वो फंड है जिसमें आप किसी डिस्ट्रीब्यूटर के थ्रू जाते हो। वो डिस्ट्रीब्यूटर कोई बैंक हो सकता है, कोई इंडिपेंडेंट डिस्ट्रीब्यूटर हो सकता है, कोई बुटीक फर्म हो सकती है, कोई भी हो सकता है। मुद्दे की बात यह है कि जब भी आप रेगुलर स्कीम या रेगुलर रूट के थ्रू इन्वेस्टमेंट करोगे तो जिसके थ्रू आपने इन्वेस्टमेंट किया बैंक, इंडिपेंडेंट डिस्ट्रीब्यूटर, बुटीक फर्म कोई भी उसे आपके पैसे में से एक कमीशन मिलेगा। कमीशन छोटा होता है। मोस्टली 1% से कम ही होता है। इंश्योरेंस के कंपैरिजन में देखो तो छोटा होता है। लेकिन ओवर द इयर्स बहुत साइजबल हो जाता है। ये अब तो क्या इसका ये मतलब है कि रेगुलर प्लान्स खराब है। पहले मैथमेटिक्स समझते हैं। देखो टोटल एक्सपेंस [नाक से की जाने वाली आवाज़] रेशियो जो सेबी ने तय किया है ना ये धीरे-धीरे करके कम हो रहा है। आज इसका कैप है 2.1% यानी जब आप ₹100 किसी फंड में लगा रहे हो तो उसमें से मैक्सिमम 2.1% [नाक से की जाने वाली आवाज़] हम सिंपलीसिटी के लिए इसको दो ही परसेंट मानते हैं। 100 में से ₹98 आपके एक्चुअली अगर वो इक्विटी फंड है तो इन्वेस्टमेंट्स में लगने ही लगने हैं। थोड़े समय के लिए फंड उसको कैश में भी रख सकता है। लेकिन बेसिकली वो पैसा इन्वेस्ट होगा। 100 में से ऑलमोस्ट 90 है। बाकी यह जो 2.1% है यह बढ़ता है। अगर रेगुलर प्लान है तो कुछ डिस्ट्रीब्यूटर्स को जाता है और कुछ एएमसी यानी म्यूच्यूल फंड कंपनी खुद रखती है अपने एक्सपेंसेस के लिए अपने प्रॉफिट्स के लिए। तो रेगुलर प्लान जो है ना उसमें दो हिस्से होते हैं। डिस्ट्रीब्यूटर को भी पैसा जा रहा है। रफली अगर मैं एक अंदाजे की बात करूं तो ये 7.8 के आसपास होता है। बहुत हुआ तो 1% होता है। रेगुलर इक्विटी या हाइब्रिड म्यूच्यूल फंड्स में डे फंड्स में इंडेक्स फंड्स में तो यह बहुत ही कम होता है। उतना ही पैसा लगभग 1% के आसपास एएमसी अपने खर्चों और अपने प्रॉफिट के लिए रख लेती है। तो यह हुआ रेगुलर प्लान। अब डायरेक्ट [नाक से की जाने वाली आवाज़] प्लान क्या होता है जिसमें ये डिस्ट्रीब्यूटर है ही नहीं। आप सीधा म्यूच्यूल फंड कंपनी के पास एएमसी के पास जा रहे हो, बोल रहे हो मुझे इन्वेस्ट करना है। ये चाहे उनकी वेबसाइट के थ्रू हो सकता है। चाहे कई सारी आजकल एप्स हैं जो डायरेक्ट प्लान्स ऑफर करती हैं। वहां से हो सकता है। अब इसका एडवांटेज क्या है? कि जो डिस्ट्रीब्यूटर को 8 या सिंपलीसिटी के लिए हम 1% मानते हैं। तो 100 में से ₹1 जो डिस्ट्रीब्यूटर को जाना था वो नहीं गया। यह ₹1 सीधासीधा आपके इन्वेस्टमेंट को बढ़ा देता है 1% से। तो पहले जहां 100 में से ₹98 इन्वेस्ट हो रहे थे, अब ₹99 इन्वेस्ट हो रहे हैं। तो 1% आपका एडिशनल इन्वेस्टमेंट हुआ जिस पे आपको रिटर्न्स मिलेंगे। यह तो सीधा-सीधा फायदा है डायरेक्ट प्लांस में। तो फिर रेगुलर प्लांस हैं ही क्यों? डायरेक्ट प्लांस में ही सबको इन्वेस्ट करना चाहिए ना। अच्छा तो वही लग रहा है। यहां इशू थोड़ा डिबेटेबल हो जाता है। देखो अगर तो आप इनफॉर्म्ड इन्वेस्टर हो और आप खुद ही म्यूच्यूल फंड्स पिक करना चाहते हो, ट्रैक करना चाहते हो, आपको साइकोलॉजिकल गाइडेंस, मार्केट में बने रहने की, डिसिप्लिन के लिए कोई और नज करे इसकी बिल्कुल जरूरत नहीं है। यू कैन हैंडल योर इमोशंस एंड यू कैन सेलेक्ट योर ओन फंड्स। डेफिनेटली आपको डायरेक्ट प्ल्स में ही जाना चाहिए। नो डाउट अबाउट इट। अब्सोलुटली नो डाउट। लेकिन रियल लाइफ में ऐसा होता नहीं है ना। देखो अगर तो आप यह कोर्स पूरा करते हो तो मैं कोशिश करूंगा कि आपको कभी डिस्ट्रीब्यूटर की जरूरत ना पड़े। यू कैन इन्वेस्ट ऑन योर ओन। लेकिन ऐसा होता हमेशा नहीं है। जब मार्केट गिरता है, हम पैनिकिक करते हैं, निकलना चाहते हैं। कई बार हो सकता है कि फंड्स की जरूरत हो जो बहुत टेंपरेरी है। तो शायद एक डिस्ट्रीब्यूटर आपको बता दे कि म्यूच्यूल फंड्स को बेचो मत। लोन अगेंस्ट सिक्योरिटी ले लो। इन्हीं म्यूचल फंड्स के अगेंस्ट में लोन ले लो। आप तो दो चार महीने में चुका ही दोगे। तो जब हम लो से गुजर रहे होते हैं तो कई बार एक प्रोफेशनल हमारी हेल्प कर सकता है। वहां म्यूच्यूल फंड डिस्ट्रीब्यूटर काम आता है। लेकिन सिर्फ म्यूचल फंड डिस्ट्रीब्यूटर ही वो हेल्प लेने का तरीका है। ऐसा नहीं है। प्रोफेशनल एडवाइस आपको फी ओनली तरीके से भी मिल सकती है। जिसे हम कहते हैं सेबी रजिस्टर्ड इन्वेस्टमेंट एडवाइर्स। ये एक कैटेगरी है जहां जो मार्केट एक्सपर्ट्स हैं पर्सनल फाइनेंसियल प्लानिंग इन्वेस्टमेंट प्लानिंग के जो एक्सपर्ट्स हैं वो सेबी से रेगुलेटेड रजिस्टर्ड होते हैं और वो फॉर अ फी आपकी फाइनेंसियल प्लानिंग यानी आपको कितना इंश्योरेंस में डालना है कितना एफडी में रखना है कितना म्यूच्यूल फंड्स कौन से म्यूच्यूल फंड और कौन से स्टॉक्स एंड टू एंड आपकी फाइनेंसियल प्लानिंग करके दे देते हैं इन पे ये कंपल्शन है कि ये डायरेक्ट प्लांस ही आपको रिकमेंड कर सकते हैं। ये कमीशन नहीं ले सकते क्योंकि ये ऑलरेडी आपसे फीस ले रहे हैं। तो सेबी ये बिल्कुल नहीं चाहता कि कोई ऐसा करे कि म्यूच्यूल फंड कंपनी से कमीशन भी ले लिया और आपसे फीस भी ले लिया। दो सोर्सर्सेस ऑफ इनकम कॉन्फ्लिक्ट ऑफ इंटरेस्ट क्रिएट करते हैं। ये नहीं किया जा सकता। इसलिए ये आपका चॉइस है कि अगर आपको एडवाइस भी लेना है तो आप किसी डिस्ट्रीब्यूटर से लेना चाहते हो या किसी एडवाइजर से। अब ये डिबेट क्यों है? अब आपको दोनों में से कौन सा चुनना चाहिए और दोनों में क्या प्रोज़ एंड कॉन्स हैं? देखो कई बार डिस्ट्रीब्यूटर्स पर यह आशंका जताई जाती है। मैं यह कभी नहीं कहूंगा कि सारे डिस्ट्रीब्यूटर ऐसा करते हैं। लेकिन एटलीस्ट इंसेंटिव्स ऐसे अलाइंड हैं कि यह पॉसिबिलिटी हमेशा रहती है कि आपका डिस्ट्रीब्यूटर आपको ऐसे फंड्स रिकमेंड कर दे जो कि उससे ज्यादा कमीशन दे रहे हैं। जैसे कोई फंड सिमिलर क्लास में बोल रहा हो कि मैं तो डिस्ट्रीब्यूटर को 8 दूंगा। कोई बोल रहा है मैं 1.1 दूंगा। तो 0.3% हायर कमीशन सब्सटैंशियली हायर कमीशन के लालच में वह कोई ऐसा फंड आपको बता सकता है जो आपके हित में ना हो। तो अगर आप डिस्ट्रीब्यूटर्स चुन रहे हैं तो इट्स हाइलीेंट कि आप उनका ट्रैक रिकॉर्ड देखें। उनके इंटरव्यूज, उनकी फिलॉसफी ये सब देखें। एडवाइर्स के बारे में यह कहा जाता है कि एडवांटेज यह है कि क्योंकि यह तो फी ओनली है। तो यह हमेशा वही करेंगे जो आपके हित में है क्योंकि यह आपसे कमा रहे हैं। आई एग्री वि द इंटेंशन टेक्निकली आल्सो दिस इज राइट लेकिन कोई म्यूचल फंड कंपनी उन्हें बैक डोर अगर इललीगली कुछ कमीशन दे रही है कैश में दे रही है मुझे नहीं पता यह कितना प्रिवेंट है होता है या नहीं होता है लेकिन यह नहीं ही होता है यह मैं आंख बंद करके भरोसे से कह सकूं मैं ऐसा नहीं कह सकता हो सकता है ऐसा होता हो मैं इसे इसकी पॉसिबिलिटी को डिनाई नहीं कर सकता एक फैक्टर और आता है। देखिए अगर तो आपका कॉर्पस यानी आपका इन्वेस्टमेंट बहुत ज्यादा है। हायर लैक्स में है। कुछ करोड़ में है। मान लीजिए आप ₹ लाख इन्वेस्ट करना चाहते हैं। और एक एडवाइर है जो फिक्स्ड फी एडवाइजर है। वो बोलता है कि मैं ना ₹25,000 लेता हूं फाइनेंसियल प्लानिंग की फीस। आपका इन्वेस्टमेंट है ₹ लाख का और एडवाइजर फीस ले रहा है ₹,000 की। तो यह वाजिब फीस है। आपके टोटल इन्वेस्टमेंट का 5% हो रहा है। आपको एडवाइजर के साथ जाना चाहिए। [नाक से की जाने वाली आवाज़] किसी का टोटल इन्वेस्टमेंट कॉर्पस है ₹5 लाख। एडवाइजर बोलेगा कि मैं तो टाइम उतना ही दूंगा। मैं मेहनत उतनी ही करूंगा। तो मेरी फीस तो ₹25,000 ही है। अब 5 लाख के कॉर्पस पे एडवाइजर की फीस हो जा रही है 5% बायबल नहीं है। वो कितना भी अच्छा काम करे वो अपनी फीस जस्टिफाई नहीं कर पाएगा। वहीं डिस्ट्रीब्यूटर क्या बोल रहा है? आपको जितना इन्वेस्टमेंट करना है करो। मैं आपसे तो कुछ ले नहीं रहा। मुझे तो 1% वहां से मिल रहा है। इनडायरेक्टली आप ही दे रहे हो। आपका इन्वेस्टमेंट से ही ₹1 कट रहा है। बट वो एक ही परसेंट है। आप कितना भी इन्वेस्ट करो तो मान लो आप ₹5 लाख इन्वेस्ट करते हो तो इनडायरेक्टली एडवाइजर को मिले ₹5,000। अगर आप ₹ लाख इन्वेस्ट करते हो तो एडवाइजर को मिले ₹00 अस्यूमिंग 1% तो आपके लिए एडवाइजर बेटर है या डिस्ट्रीब्यूटर ये ना ब्लैंकेट आंसर नहीं है। ये इस बात पे भी डिपेंड करता है कि दोनों की कंपैरेटिवली फीस कितनी आ रही है। आपका इन्वेस्टमेंट कॉर्पस कितना है। कई एडवाइर्स ऐसे भी होते हैं जो चार्ज करते हैं एसेट अंडर एडवाइज़री के बेसिस पे यानी डिस्ट्रीब्यूटर मॉडल जैसे कि आपका जितना भी इन्वेस्टमेंट है उसका 1% मैं लूंगा। तो उस केस में आपको कॉस्ट दोनों में बराबर आने वाली है। फिर आपको यह देखना है कि आपको दोनों में से ज्यादा पसंद कौन आ रहा है। आप दोनों में से किसे ज्यादा ट्रस्ट करते हो। या देयर इज़ दिस थर्ड रूट कि आप इस तरह का कोई कोर्स करो और आप कंप्लीटली दोनों को बायपास करके खुद ये कर सको। तीनों में से कौन सा बेटर रूट है? यह आपको एग्जामिन करना है। सरकमस्ट्ससेस, इंटरेस्ट, सीखने की कितनी इच्छा है, कितना टाइम देना है, मल्टीपल फैक्टर्स हैं। मैं किसी भी एक रूट को दूसरे से बेहतर नहीं करूंगा। मेरा काम है आपको इतना अवेयर बनाना कि आप खुद एक इनफॉर्म्ड डिसीजन ले सको ना कि किसी पे जजमेंट पास करना। दूसरा होता है ग्रोथ वर्सेस डिविडेंड प्लांस। डिविडेंड प्लांस को आजकल ऑफिशियली आईडीसीड यानी इनकम डिस्ट्रीब्यूशन कम कैपिटल विड्रॉल प्लांस कहा जाता है। बहुत टेक्निकल है। बेसिकली डिविडेंड आप समझ के रखिए। अब ग्रोथ [नाक से की जाने वाली आवाज़] प्लान्स में क्या होता है? ये मुझे बहुत पसंद है। इसमें ये होता है कि अगर ये इक्विटी फंड है तो इस फंड ने 40-50 शेयर्स ले रखे होंगे। वो शेयर्स वो कंपनीज़ जबजब डिविडेंड डिक्लेअ करती हैं तो अगर आपने डायरेक्टली उनके शेयर्स लिए होते तो साल में जब भी वो डिविडेंड डिक्लेअर करती आपके अकाउंट में आ जाता। लेकिन आपने तो म्यूचल फंड में इन्वेस्ट किया है। वो म्यूच्यूल फंड ने आपके बिहाफ पर वो शेयर्स खरीदे हैं। तो कंपनी जब डिविडेंड डिक्लेअ करती है तो वो डिविडेंड इस म्यूच्यूल फंड कंपनी को भेज देती है। अब [नाक से की जाने वाली आवाज़] म्यूच्यूल फंड कंपनी आपको दो ऑप्शंस देती है कि एक तो जो डिविडेंड आया उस पैसे को आप रीइन्वेस्ट कर दो। यानी उस पैसे से आप और ज्यादा यूनिट्स खरीद लो। सिंपलीसिटी के लिए इसे हम ग्रोथ प्लांस कहेंगे। यहां टेक्निकली यह माना जाता है कि आपने डिविडेंड क्लेम ही नहीं किया। डिविडेंड क्लेम करके रीइन्वेस्ट नहीं हो रहा है। जो भी डिविडेंड आ रहा है वो अनक्लेम्ड रहा और आप एएमसी ने आपके बिहाफ पे क्योंकि आपने ग्रोथ प्लान में इन्वेस्ट किया था तो उसने और यूनिट्स ले लिए। ये टैक्स फ्रेंडली है। आपको जो टैक्स लगता है डिविडेंड डिस्ट्रीब्यूशन पे ये पूरी तरीके से बायपास हो जाता है। यूजुअली जो हमारा कॉरपस होता है कि महीने के कुछ000 हम म्यूचल फंड्स में लगा रहे हैं। तो डिविडेंड एटलीस्ट इन द इनिशियल फ्यू इयर्स ज्यादा आता भी नहीं है। तो बेटर ये है कि आप ग्रोथ प्लान ही लो। दूसरा होता है आईडी सीडब्ल्यू। इसमें ये जो डिक्लेअ होते हैं डिविडेंड्स ये आपको मिलते हैं। अब उससे क्या होता है? आपको टैक्स देना है। लेकिन बेनिफिट क्या होता है? अगर किसी के पास बहुत बड़ा कॉरपस है, करोड़ों में कॉरपस है और वो पैसिव इनकम देख रहा है कि मुझे मंथली इनकम आती रहे तो ये एक तरीका होता है कि जब भी डिविडेंड्स डिक्लेअर हो रहे हैं वो एक्चुअली मुझ तक आते रहे। टैक्स इनफिशिएंट है भी तो भी मुझे गुजारे के लिए पैसिव इनकम मिल रही है। मोस्ट ऑफ योर वर्किंग एज आई वुड से ज्यादातर लोगों के लिए ग्रोथ प्लान्स बेटर होते हैं। वंस यू हैव एंटर्ड अ रिटायरमेंट स्टेज और बाकी कोई इनकम का सोर्स सब्सटैंशियल नहीं है। एंड यू वांट पैसिव इनकम तो आईडी सीडब्ल्यू प्लान्स बेटर होते हैं। अब जरा बात करते हैं एक्सपेंस रेशो की। देखो एक्सपेंस रेशियो के ना दो ब्रॉड कंपोनेंट्स होते हैं। एक होता है बेस एक्सपेंस रेशो जो बेसिकली एएमसी चार्ज कर रही है और उस पे ना कुछ टैक्सेस लगते हैं। गवर्नमेंट ने कोई एसटीटी ले लिया कोई और चार्जेस हो गए तो वो ऐड हो के बनता है टीईआर टोटल एक्सपेंस रेशियो। तो मैं जो आपको शुरू में कह रहा था कि अब टीईआर यानी सारे खर्चे मिला के मैक्सिमम जो कोई म्यूच्यूल फंड आपसे चार्ज कर सकता है वो है 2.1% ऑफ योर इन्वेस्टमेंट। ये जो [नाक से की जाने वाली आवाज़] पैसा लेता है इससे फंड करता क्या है? उसको आरटीए को पैसा देना है, कस्टोडियंस को पैसा देना है। हमने पहले कोर्स में जो जो एंटिटीज देखी थी वो सबके खर्चे निकालने हैं। अपने स्टाफ का, रिसर्च का, मार्केटिंग का, प्रमोशंस का बहुत सारे खर्चे होते हैं। तो वो इस एक्सपेंस रेश्यो से निकलते हैं। तो, आपको फंड सिलेक्शन के समय देखना है कि अगर दो बहुत ही सिमिलर फंड्स हैं, तो एक क्राइटेरिया ऑफ़ जजिंग कि कौन सा फंड मेरे लिए बेहतर है। वो यह भी है। वन ऑफ द फैक्टर्स आर कि किसका एक्सपेंस रेशियो कम है। अगर दो फंड्स बहुत ही ज्यादा सिमिलर है तो इसके अलावा ये टीईआर के अलावा आपको एक चार्ज और देना होता है जो है एग्जिट लोड। ये बेसिकली ये कहता है कि अगर आपने साल भर के अंदर पैसा निकाल लिया तो आपको एक पेनल्टी देनी पड़ेगी। फ्लेक्सिबल है। ज्यादातर फंड्स एक साल का क्राइटेरिया रखते हैं इक्विटी लॉन्ग टर्म फंड्स लिक्विड फंड में ये बहुत कम होता है। हफ्ते भर का होता है, कभी नहीं भी होता है। तो फंड का एग्जिट लोड देख लीजिएगा कि कितना लगता है और कितने टाइम तक लगता है। बेसिकली अगर मैं ये परंपारिक फंड का एग्जिट लोड देखूं तो ये कहता है अगर आप साल भर के पहले निकाल रहे हो तो जो भी आपका कॉर्पस है उसका 2% हम काट के देंगे। 2 साल के अंदर निकाल रहे हो तो जो भी कॉर्पस है उसका 1% हम काट के देंगे। ज्यादा है इस फंड का। ज्यादातर का 1 साल तक ही होता है और 1% होता है। लेकिन इससे मुझे ज्यादा प्रॉब्लम क्यों नहीं है? क्योंकि 2 साल के ऊपर तो कोई ईएमसी लगाती नहीं है इक्विटी फंड्स में। मैंने तो देखा नहीं है। और इक्विटी फंड्स में तो आपको पैसा डालना ही लॉन्ग टर्म के लिए चाहिए। तो इनफैक्ट ये तो थोड़ा डिसिप्लिन क्रिएट करने वाली चीज है। तो मुझे इससे ज्यादा दिक्कत नहीं होती है। अब जब आप पहली बार कर रहे हो तो फॉर्मेलिटीज क्या होती है? बहुत सिंपल है। केवाईसी करनी होती है। कंप्लीटली पेपरलेस ऑनलाइन केवाईसी है। चार चीजें लगती हैं। आपका एक लाइव वीडियो वेरिफिकेशन होता है। ऑनलाइन ही हो जाता है वो। एक एड्रेस प्रूफ लगता है, आधार कार्ड लगता है और पैन कार्ड लगता है। ये चार चीजें अगर आपके पास हैं। आप 18 से ऊपर हो तो बहुत फटाफट सी चीज है। दो-चार दिन में आपका अकाउंट चालू हो जाएगा। मोस्ट [नाक से की जाने वाली आवाज़] एएमसीस हो, ब्रोकिंग एप्स हो सब में या तो यह म्यूच्यूल फंड अकाउंट ओपनिंग पूरी तरह से फ्री है या 100 200400 अकाउंट ओपनिंग का वन टाइम का चार्ज है। जब आप [नाक से की जाने वाली आवाज़] इन्वेस्ट कर लेते हो तो एक सवाल यह भी आता है कि मुझे निकलना हुआ तो बहुत आसान है। आपने आज बेचा अगर आप फर्स्ट हाफ में बेचते हो तो कल पैसा आपके अकाउंट में है। सेकंड हाफ में बेचते हो तो परसों पैसा आपके अकाउंट में है। तो लिक्विडिटी बहुत अच्छी है। वर्किंग डज़ हैं तो एकद दिन के अंदर आपका पैसा आपके अकाउंट में। ऐसा भी कुछ नहीं है कि आपने शुरू में बोला था कि मैं 5 साल के लिए करूंगा और आप एक साल बाद निकलना चाहते हो तो कोई प्रॉब्लम है। हां अगर वो फंड में एक साल से आगे का एग्जिट लोड है तो वो एक आध पर% लग जाएगा। पर ऐसी कोई कमिटमेंट नहीं हो जाती ईएमआई जैसी कि शुरू में आपने बोला था 5 साल करूंगा तो पांच ही साल करना है। वो कोई इशू नहीं है। ज्यादातर इन्वेस्टमेंट्स आप ₹1000 महीने से भी शुरू कर सकते हो। तो टिकट साइज भी बहुत कन्वीनिएंट है। तो जो मल्टीपल मोड्स हैं पैसा डालने के, निकालने के, एसआईपी, लमसम, एसडब्ल्यूपी, एसटीपी ये सारी चीजें भी आगे हम इस कोर्स में डिस्कस करेंगे। आज के इस वीडियो में मैं बेसिक जो टेक्निकिटीज है वो डिस्कस करना चाहता था। मिलते हैं अगले वीडियो के साथ। बाई बाय।
+
+
+##### FILE: 48CUlVx0Z5U.txt
+video: https://www.youtube.com/watch?v=48CUlVx0Z5U
+title: 5 Stocks To Buy or Sell Today | 19 November 2026 | Share Market Today | 5paisa
+channel: 5paisa
+
+आ चुके हैं फाइव मोमेंटम स्टॉक्स जिन पर आपकी नजर होनी चाहिए फॉर थर्सडे अगर आप शॉर्ट टर्म ट्रेडिंग करते हैं तो और इनका होल्डिंग पीरियड आप 7 टू 10 डेज का कंसीडर कर सकते हैं। सो सबसे पहला स्टॉक रेकमेंडेशन है सिप्ला इसे आप बाय कर सकते हैं नियर 1417 पर स्टॉप लॉस 1375 लगा सकते हैं एंड टारगेट 1525 इस स्टॉक ने अपने ईएमए क्लस्टर से अबव एवरेज वॉल्यूम के साथ स्ट्रांग रिबाउंड दिखाया है। आरएसआई 60 के ऊपर मूव कर रहा है और रिलेटिव स्ट्रेंथ भी हायर टर्न ले रहा है। सेकंड स्टॉक की तरफ बढ़ते हैं जो है गेल इंडिया इसे आप बाय कर सकते हैं नियर 190 एंड स्टॉप लॉस 180 रख सकते हैं एंड टारगेट 205 पर रख सकते हैं। स्टॉक ₹190 के ऊपर फ्रेश हाइस पर ट्रेड कर रहा है। आफ्टर अ टाइट कंसोलिडेशन अबव इट्स राइजिंग 20 डे ईएमए। आरएसआई नियर 70 है और रिलेटिव स्ट्रेंथ भी पॉजिटिव बना हुआ है। थर्ड स्टॉक रेकमेंडेशन है एचडीएफसी बैंक इसे आप बाय कर सकते हैं 808.15 पर स्टॉप लॉस 755 लगा सकते हैं एंड टारगेट 875 स्टॉक अपने रीसेंट हाइस के करीब कंसोलिडेट कर रहा है। अबव द ₹800 ज़ोन आफ्टर अ शार्प रिवर्सल फ्रॉम द 200 डे ईएमए। आरएसआई नियर 70 है और रिलेटिव स्ट्रेंथ भी पॉजिटिव होल्ड कर रहा है। फोर्थ स्टॉक रेकमेंडेशन है सन फार्मास्यूटिकल इंडस्ट्रीज इसे आप बाय कर सकते हैं 1871.5 पर स्टॉप लॉस 1790 एंड टारगेट 2025 स्टॉक ₹1790 के ब्रेकआउट ज़ोन के ऊपर कंसोलिडेट कर रहा है और सभी की ईएमए रिक्लेम रहने के साथ बुलिश स्ट्रक्चर मेंटेन कर रहा है। आरएसआई नियर 61 है और मोमेंटम ग्रेजुअली इंप्रूव हो रहा है। फिफ्थ स्टॉक रेकमेंडेशन है स्टेट बैंक ऑफ इंडिया इसे आप बाय कर सकते हैं 1135 पर स्टॉप लॉस 1070 लगा सकते हैं एंड टारगेट 1200 यह स्टॉक हैवी वॉल्यूम के साथ ₹1130 के ऊपर फ्रेश मल्टी मंथ हाइस की तरफ रैली एक्सटेंड कर रहा है। एंड स्टीपली राइजिंग ईएमए आरएसआई नियर 79 और रिलेटिव स्ट्रेंथ सर्जिंग टू न्यू हाइस। याद रखिए दीस आर शॉर्ट टर्म मोमेंटम ट्रेड्स फॉर 7 टू 10 डेज प्रॉपर रिस्क मैनेजमेंट जरूर फॉलो करें और ऐसे ही डेली स्टॉक आइडियाज के लिए डोंट फॉरगेट टू सब्सक्राइब एंड फॉलो फाइव पैसा। आर सब्जेक्ट टू मार्केट रिस्क। रीड ऑल रिलेटेड डॉक्यूमेंट्स केयरफुली बिफोर इन्वेस्ट।
+
+
+##### FILE: 4UJ0GktXJjU.txt
+[0:03] आज के वीडियो में हम बात करने वाले हैं
+[0:05] इंट्राडे ट्रेडिंग के अंदर तीन ऐसे
+[0:07] पावरफुल इंडिकेटर्स की जो आप अपनी
+[0:10] ट्रेडिंग में यूज कर सकते हैं। अब देखिए
+[0:12] जैसा कि आपको स्क्रीन पर दिखाई दे रहा है
+[0:13] यह है धन चार्ट्स। अब यहां पे इंडिकेटर
+[0:16] सेक्शन में जा के जब आप इंडिकेटर्स की
+[0:18] लिस्ट देखेंगे तो यह कोई एक दो 10 15
+[0:21] इंडिकेटर नहीं है। यहां पे आपको 100
+[0:23] हंड्रेड्स ऑफ इंडिकेटर्स देखने को मिल
+[0:25] जाएंगे। सो एज एन इंट्राडे ट्रेडर आप यह
+[0:28] कैसे बता सकते हैं कि कौन सा इंडिकेटर
+[0:30] बेस्ट है आपकी ट्रेडिंग के लिए? सो इसीलिए
+[0:33] इस वीडियो का एजेंडा यही है कि मैं आपको
+[0:35] इन हंड्रेड्स ऑफ इंडिकेटर्स में वो ऐसे
+[0:38] तीन इंडिकेटर्स बताऊंगी जो आपको सिंपल भी
+[0:41] है और सबसे बेस्ट आपको सिग्नल दे सकते
+[0:43] हैं। तो सबसे पहला इंडिकेटर जो आप अपनी
+[0:46] इंट्राडे ट्रेडिंग में यूज कर सकते हैं वो
+[0:48] है ईएमएज यानी कि एक्सपोनेंशियल मूविंग
+[0:51] एवरेज। अगर आप लोगों को नहीं पता है कि
+[0:53] एक्सपोनेंशियल मूविंग एवरेज क्या होता है
+[0:55] तो बेसिकली एक्सपोनेंशियल मूविंग एवरेज एक
+[0:57] लाइन होती है जो प्राइस को जो भी आपका
+[0:59] प्राइस एक्शन है फॉर एग्जांपल यहां मैंने
+[1:01] निफ्टी 50 का 15 मिनट टाइम फ्रेम खोला हुआ
+[1:04] है और जो कैंडल स्टिक्स आप देख पा रहे हैं
+[1:06] यह 15 मिनट्स के प्राइस एक्शन को दर्शा
+[1:09] रही है। सो ईएमएज की जब हम बात करते हैं
+[1:11] तो जो ऊपर वाली लाइन है यह नाइन ईएमए की
+[1:14] लाइन है मतलब यह आपको पिछले नाइन कैंडल्स
+[1:17] का एवरेज प्राइस दर्शा रही है। उसी तरीके
+[1:20] से यह जो नीचे वाली लाइन है यह 21
+[1:22] एक्सपोनेंशियल मूविंग एवरेज की लाइन है
+[1:24] यानी कि यह हमें मूविंग एवरेज तो बता रही
+[1:27] है लेकिन कितने कैंडल्स का प्रीवियस 21
+[1:30] कैंडल्स का। तो जितना छोटा आपका
+[1:32] एक्सपोनेंशियल मूविंग एवरेज होगा वो उतना
+[1:35] क्लोजली प्राइस को फॉलो करता है। जैसे कि
+[1:38] आप यहां पे देख भी पा रहे हैं जो नाइन
+[1:39] ईएमए की लाइन है
+[1:40] That is closely following the
+[1:42] candlestick.
+[1:43] एंड 21 ईएमए की लाइन है वो कैंडल स्टिक से
+[1:46] थोड़ी डिस्टेंस में है। अब यह हमें क्यों
+[1:48] यूजफुल है? इंट्राडे ट्रेडर के लिए
+[1:50] बेसिकली यह एक लाइन जो है वो एज अ सपोर्ट
+[1:52] और रेजिस्टेंस काम करती है। जैसे कि आप
+[1:54] यहां पे देख पा रहे हैं इंडेक्स अभी अप
+[1:56] ट्रेंड में है नाइन ईएमए और 21 ईएमए से
+[1:59] ऊपर है लेकिन जब ये पुलबैक में जाता है तो
+[2:01] ये इन्हीं ईएमएज के पास कंसोलिडेट करके
+[2:04] फिर से ऊपर जा रहा है। आप देख पा रहे
+[2:06] होंगे जब तक ये ट्रेंड कंटिन्यू रहेगा,
+[2:08] कोई भी एक पर्टिकुलर ट्रेंड जब तक
+[2:10] कंटिन्यू रहता है तब तक ईएमएज जो हैं एज अ
+[2:13] लाइन ऑफ सपोर्ट और रेजिस्टेंस काम करते
+[2:15] हैं। उसी तरीके से अगर ट्रेंड चेंज हो
+[2:17] जाता है या रिवर्स हो जाता है। फॉर
+[2:19] एग्जांपल यहां पे अप ट्रेंड है। कैसे पता
+[2:20] चल रहा है? द इंडेक्स इज मेकिंग
+[2:22] कंटीन्यूअसली हायर हाइज एंड हायर लोस।
+[2:25] लेकिन जब ट्रेंड चेंज हो जाएगा तो सेम
+[2:27] लाइंस जो हैं ईएमएज की दैट विल एक्ट एज अ
+[2:30] लाइन ऑफ रेजिस्टेंस। मतलब कि जितने भी
+[2:32] पुलबैक्स आएंगे वो ईएमएज के आसपास ही आके
+[2:35] वहां से रिवर्स हो जाएगा प्राइस एक्शन। तो
+[2:38] जब हम इंट्राडे में बेस्ट इंडिकेटर्स की
+[2:40] बात करते हैं मतलब वो इंडिकेटर्स जो हमें
+[2:42] राइट सिग्नल्स दे सकें ट्रेंड को कैप्चर
+[2:44] करने के लिए, उनमें सबसे पहला नाम है ईएमए
+[2:47] क्रॉसओवर का। यहां हम इंडिपेंडेंट ईएमएज
+[2:50] यूज नहीं कर रहे हैं। यहां हम क्रॉसओवर
+[2:52] यूज कर रहे हैं। अब आइए समझते हैं कि इसको
+[2:54] हमने यूज कैसे करना है। अब देखिए अगर हम
+[2:57] यहां पे इस पर्टिकुलर टाइम में प्राइस
+[2:58] एक्शन की बात करें तो यहां पे मुझे दिखाई
+[3:00] दे रहा है स्टॉक थोड़ी देर यहां पे
+[3:02] कंसोलिडेट किया। उसके बाद जो ईएमएज हमने
+[3:04] यहां पे यूज किए हैं, उसमें क्रॉसओवर आया
+[3:07] है। सो जब भी हम ईएमए क्रॉसओवर्स को यूज
+[3:09] करते हैं एज इंडिकेटर्स फॉर इंट्राडे
+[3:11] ट्रेडिंग व्हाट इट मींस?
+[3:19] बुलिश क्रॉसओवर क्या होता है? ये जो छोटा
+[3:22] ईएमए यानी कि नाइन ईएमए की लाइन जो है 21
+[3:24] ईएमए को नीचे से क्रॉस करती है उसे हम
+[3:26] बुलिश क्रॉसओवर कहते हैं। यानी कि इसके
+[3:29] बाद इस चीज की हाई प्रोबेबिलिटी है कि
+[3:31] स्टॉक में एक अच्छा मोमेंटम देखने को मिल
+[3:33] सकता है। जैसे कि आपको यहां पे क्लियरली
+[3:35] दिखाई दे रहा है स्टॉक ने पहले दिया एक
+[3:37] क्रॉसओवर लेकिन उसके बाद प्राइस एक्शन
+[3:39] कैसा है? बहुत ही अच्छा है। मतलब दिन के
+[3:41] दौरान अगर आप इस स्टॉक को बाय करेंगे या
+[3:43] इंडेक्स को बाय करेंगे तो आपको गेंस हो
+[3:46] सकते हैं। उसी तरीके से जब तक ये बुलिश
+[3:48] क्रॉसओवर चलता जा रहा है आपकी ये पोजीशन
+[3:50] ऑन रह सकती है। सो इंट्राडे ट्रेडिंग,
+[3:52] बीटीएसटी ट्रेडिंग तक आप इसको ले जा सकते
+[3:55] हैं। अब दूसरा क्रॉसओवर जो आपको ध्यान में
+[3:57] रखना है वो है बियरिश क्रॉसओवर। बियरिश
+[3:59] क्रॉसओवर क्या होता है? मतलब जब 21 ईएमए
+[4:02] की लाइन नाइन ईएमए को ऊपर से क्रॉस करती
+[4:04] है, उसे हम कहते हैं बियरिश क्रॉसओवर। और
+[4:06] इसके बाद इस चीज की संभावना बढ़ जाती है
+[4:08] कि स्टॉक में एक अच्छा अह डाउन साइड आपको
+[4:11] देखने को मिल सकता है। तो इसी तरीके से
+[4:13] आपने इन क्रॉसओवर्स को यूज करना है जब भी
+[4:16] आप इंट्राडे ट्रेडिंग करते हैं। अब देखिए
+[4:18] यहां पे हमने कहा था हाईली इफेक्टिव
+[4:20] इंट्राडे ट्रेडिंग इंडिकेटर्स के बारे तो
+[4:22] इसमें इनका नाम क्यों रखा गया है? आप देख
+[4:24] पा रहे होंगे ये जो इंडिकेटर है ये हमें
+[4:26] मदद कर रहा है लार्ज ट्रेंड्स को कैप्चर
+[4:29] करने के लिए। देखिए यहां पे इंडेक्स किस
+[4:31] पॉइंट पे था? 22,350 के लेवल पे। ये एक
+[4:34] ट्रेंड बना इंडेक्स ने हायर हाइज एंड हायर
+[4:37] लोज़ बनाए और यहां तक ये ट्रेंड जो है
+[4:38] हमारा कायम रहा मतलब 22,700 तक। इस टाइम
+[4:43] पीरियड में आप देख पा रहे होंगे जो
+[4:44] इंडेक्स है उसने क्लियरली एक आपको यहां पे
+[4:47] बुलिश क्रॉसओवर दिया था। तो अगर आप सिर्फ
+[4:50] इस बेसिस पे इंडेक्स को या किसी स्टॉक को
+[4:52] बाय करते हैं इंट्राडे के अंतर्गत जब वो
+[4:54] एक बुलिश क्रॉसओवर दे रहा है तो लार्जली
+[4:56] आप सही साइट पे ही ट्रेड लेंगे क्योंकि
+[4:59] वहां से हमको बढ़त देखने को मिल रही है।
+[5:01] इसको आप ज़ूम आउट करके भी देख सकते हैं। अब
+[5:03] देखिए यहां पे एक बियरिश क्रॉसओवर है और
+[5:05] उसके बाद इंडेक्स में एक अच्छा फॉल यहां
+[5:07] पे देखने को मिला है। उसी तरीके से यहां
+[5:09] पे एक बियरिश क्रॉसओवर है। अगेन स्टॉक
+[5:11] इंडेक्स में अच्छा सा फॉल आया है। यहां पे
+[5:13] एक बुलिश क्रॉसओवर है तो यहां से इंडेक्स
+[5:16] ऊपर गया है। जनरली जब मार्केट साइडवेज
+[5:18] होती है तो ईएमए क्रॉसओवर के जो सिग्नल्स
+[5:21] हैं वो आपको अच्छे नहीं मिलेंगे। जैसे कि
+[5:23] इस पर्टिकुलर टाइम फ्रेम में आप देख पा
+[5:24] रहे हैं। यहां पे एक बुलिश क्रॉसओवर मिला
+[5:26] है लेकिन अगेन जो अंडरलाइंग स्टॉक का
+[5:28] प्राइस एक्शन है वो साइडवेज है तो यहां पे
+[5:30] आपको कोई प्रॉफिटेबल सिग्नल नहीं मिलेगा।
+[5:32] तो इसे हम कहते हैं कि यहां पे ये जो
+[5:34] सिग्नल्स आ रहे हैं इनको आपने अवॉइड करना
+[5:36] है। तो कैसा पता चलेगा हमको कि ये ईएमए
+[5:39] क्रॉसओवर का सिग्नल कब आपको लेना चाहिए और
+[5:41] कब नहीं? आपने देखना है कि जो अंडरलाइंग
+[5:43] प्राइस एक्शन है क्या वो साइडवेज है? अगर
+[5:46] साइडवेज आपको दिखाई दे रहा है तो आपने
+[5:48] वहां पे इन क्रॉसओवर्स को नहीं ट्रेड करना
+[5:51] है। दूसरा आपने देखना है कि इन दोनों ईएमए
+[5:53] के बीच में गैップ क्या बहुत कम होता चला जा
+[5:56] रहा है और क्रॉसओवर के बाद भी वो गैप बढ़
+[5:58] नहीं रहा है। अगर आप देखते हैं यहां पे
+[5:59] देखिए एक बुलिश क्रॉसओवर मुझे यहां देखने
+[6:01] को मिल रहा है पर और गैप्स हैं इनके बीच
+[6:04] में वो बहुत पास-पास ही रहा। तो मैं इसको
+[6:06] यहां पे ट्रेड नहीं करूंगी। तो ये कुछ
+[6:08] सिग्नल्स हैं जो आपको बताते हैं कि अभी जो
+[6:10] मार्केट है वो साइडवेज हो सकती है और आपको
+[6:13] ईएमए क्रॉसओवर के सिग्नल्स यहां से नहीं
+[6:15] पिक करने हैं। दूसरा सबसे इफेक्टिव
+[6:17] इंट्राडे ट्रेडिंग इंडिकेटर होता है सुपर
+[6:19] ट्रेंड। सुपर ट्रेंड एक ऐसा इंडिकेटर है
+[6:22] जो हमें ये बताता है कि अंडरलाइंग स्टॉक
+[6:24] में या इंडाइसेस में अभी जो मोमेंटम है वो
+[6:27] बुल्स के साइड है या बियर्स की साइड है।
+[6:29] मतलब अभी स्टॉक में डिमांड बढ़ने वाली है
+[6:31] या घटने वाली है। तो कैसा दिखता है ये
+[6:33] चार्ट्स में पहले वो समझते हैं। देखिए
+[6:35] आपने इंडिकेटर्स में जाना है और लिखना है
+[6:36] यहां पे सुपर ट्रेंड। अब जैसे ही आप सुपर
+[6:39] ट्रेंड लिखेंगे तो कुछ इस टाइप का ये
+[6:41] प्लॉट होके आ जाएगा। इसमें आपको दो कलर्स
+[6:43] देखने को मिल रहे हैं। एक ग्रीन एंड एक
+[6:45] रेड। सो बड़ा सिंपल इसका इंटरप्रिटेशन है।
+[6:50] इसका मतलब ये है कि अभी आगे वाले टाइम में
+[6:53] जो स्टॉक का जो ट्रेंड है वो नेगेटिव रह
+[6:56] सकता है। ट्रेंड नेगेटिव का क्या मतलब है?
+[6:58] मतलब स्टॉक में अभी एक गिरावट देखने को
+[7:00] मिल सकती है। स्टॉक में सेलर्स एक्टिवेट
+[7:03] हो सकते हैं और उसी तरीके से अगर आप देखते
+[7:06] हैं सुपर ट्रेंड ग्रीन है तो स्टॉक में एक
+[7:09] उछाल या फिर बुलिश मोमेंटम आपको देखने को
+[7:11] मिल सकता है। मतलब बायर्स एक्टिवेट हो
+[7:13] सकते हैं इस पर्टिकुलर काउंटर में। अब एक
+[7:16] चीज जो आपने यहां पे ध्यान रखनी है जैसे
+[7:18] ईएमए क्रॉसओवर में भी मैंने आपको बताया
+[7:28] उसी तरीके से सुपर ट्रेंड में भी एक ट्रिक
+[7:30] है जो आपने यूज करनी है। सुपर ट्रेंड की
+[7:32] लाइन में ना आपको एक ट्रेंड दिखना चाहिए।
+[7:35] जैसे प्राइस एक्शन में दिख रहा है ना उसी
+[7:36] तरीके से आपको दिखाई दे रहा है। कई बार
+[7:38] सुपर ट्रेंड की लाइन ग्रीन है, कई बार रेड
+[7:40] है। लेकिन कई बार आपको दिखाई देगा कि जो
+[7:42] सुपर ट्रेंड की लाइन है वो रेड या ग्रीन
+[7:44] तो है लेकिन वो स्ट्रेट लाइन है। वो नीचे
+[7:46] या ऊपर की साइड नहीं जा रही है। तो जब भी
+[7:48] आप देखेंगे सुपर ट्रेंड की लाइन स्ट्रेट
+[7:50] आपको दिखाई दे रही है अपने डिजायर्ड टाइम
+[7:53] फ्रेम में जैसे मैंने यहां पे 15 मिनट
+[7:55] टाइम फ्रेम यूज किया है। इसका मतलब है
+[7:57] आपने वो सिग्नल को फॉलो नहीं करना है
+[7:59] क्योंकि यहां पे जो मार्केट है अगेन क्या
+[8:01] हो सकती है? साइडवेज हो सकती है। यानी कि
+[8:04] कंसोलिडेट फेज में हो सकती है। उसी तरीके
+[8:06] से यहां पे एक साइडवेज कंसोलिडेशन देखने
+[8:09] को मिल रही है। अगेन यहां पे जो सुपर
+[8:11] ट्रेंड की लाइन है देखिए ग्रीन है। अब जब
+[8:13] ये लाइन ग्रीन है तो मार्केट कैसी है?
+[8:15] मार्केट शुरुआत में तो गिर रही थी लेकिन
+[8:17] यहां पे जा के साइडवेज कंसोलिडेट कर रही
+[8:19] है। देखिए लार्जली अगर हम देखेंगे ना ये
+[8:21] स्ट्रेट लाइन, यहां पे स्ट्रेट लाइन, अगेन
+[8:23] स्ट्रेट लाइन एंड अगेन स्ट्रेट लाइन। अब
+[8:26] अगर आप इस सुपर ट्रेंड को यहां से हटा दें
+[8:28] और सिर्फ प्राइस एक्शन को ऑब्जर्व करें तो
+[8:30] आप देखेंगे प्राइस एक्शन जो है लार्जली
+[8:32] साइडवेज है। मतलब ना हायर हाइज एंड हायर
+[8:35] लोज़ नहीं बन रहे एंड लोअर हाइज एंड लोअर
+[8:37] लोज़ भी नहीं बन रहे। मतलब ट्रेंड इस
+[8:39] एब्सेंट। सो व्हेन द ट्रेंड इस एब्सेंट द
+[8:41] प्राइस एक्शन इस लार्जली साइडवेज। सो
+[8:44] साइडवेज मार्केट वो टाइम होता है जब
+[8:46] इंट्राडे ट्रेडर कोई प्रॉफिट नहीं बना
+[8:48] सकता। तो एसेंशियली जब भी आप किसी
+[8:50] इंडिकेटर को यूज़ करें तो आपके दिमाग में
+[8:52] तीन चीजें क्लियर होनी चाहिए। बुलिश
+[8:54] सिग्नल कहां मिल रहा है? सेल सिग्नल यानी
+[8:56] बियरिश सिग्नल कहां मिल रहा है? कम इन
+[8:59] सिग्नल को मैंने चूज़ करना है और कब अवॉइड
+[9:02] करना है। ठीक है? तो सुपर ट्रेंड का मैंने
+[9:04] आपको बता दिया।
+[9:09] ईएमए क्रॉसओवर का भी मैंने आपको बता दिया।
+[9:15] अगर डिस्टेंस दो ईएमएज के बीच में बहुत कम
+[9:17] है और आप देख रहे हैं चॉपी सा वो सिग्नल्स
+[9:20] दे रहा है, साइडवेज है, वो ट्रेंडिंग नहीं
+[9:22] है आइदर डायरेक्शन में तो आपने उन
+[9:24] सिग्नals को वहां पे अवॉइड करना है
+[9:26] क्योंकि मार्केट वहां पे साइडवेज हो सकती
+[9:28] है। दोनों ही केसेस में आपने अंडरलाइन जो
+[9:31] प्राइस एक्शन है उसको भी ध्यान में रखना
+[9:33] है। तीसरा इंडिकेटर जो आप अपनी इंट्राडे
+[9:35] ट्रेडिंग में यूज़ कर सकते हैं जो कि बहुत
+[9:37] अच्छे रिजल्ट्स आपको दे सकता है वो है
+[9:39] आरएसआई यानी कि रिलेटिव स्ट्रेंथ इंडेक्स।
+[9:42] ये एक ऐसा इंडिकेटर है जो आपको ओवरबॉट एंड
+[9:44] ओवर सोल्ड ज़ोन्स के बारे में बताता है। तो
+[9:47] देखिए जैसा कि आपको चार्ट्स में दिखाई दे
+[9:49] रहा है यहां पे मैंने निफ्टी 50 का 15
+[9:51] मिनट्स टाइम फ्रेम का चार्ट लिया है। अब
+[9:53] देखिए यहां पे वैल्यूज को आपने कैसे रीड
+[9:55] करना है? जनरली ये कहा जाता है कि जब भी
+[9:57] आप आरएसआई मोमेंटम ऑसिलेटर को यूज़ कर रहे
+[10:00] हैं तो अगर ये ओवर सोल्ड ज़ोन से व्हिच इस
+[10:03] बिलो 30 वहां पे कुछ टाइम स्पेंड करके ऊपर
+[10:06] जाता है, 30 से ऊपर जाता है, 40 से ऊपर
+[10:08] जाता है ये इंडिकेशन है यहां से अभी स्टॉक
+[10:11] या इंडेक्स जो भी आप फॉलो कर रहे हैं,
+[10:13] उसमें भी एक उछाल देखने को मिल सकता है।
+[10:16] और जब ये 70 या उससे ऊपर चला जाता है,
+[10:18] वहां से गिरावट आपको देखने को मिल सकती
+[10:21] है। तो जैसा कि आप यहां पे नीचे देख पा
+[10:23] रहे हैं, ये जो डॉटेड लाइन है, ये 30 से
+[10:25] नीचे की वैल्यू है और यहां से ये ऊपर जा
+[10:27] रहा है। जैसे ही आरएसआई ने 30 की वैल्यूज
+[10:30] क्रॉस की, आप देख रहे हैं, रिस्पेक्टिव
+[10:31] अपसाइड मोमेंटम भी आपको यहां पे स्टॉक
+[10:34] में, इंडेक्स में दिखाई दे रहा है। एक
+[10:36] टाइम यहां 30 से ऊपर ऐसे गया, दूसरा टाइम
+[10:39] जब ये 30 के पास आया, नीचे से क्रॉस करके
+[10:41] ऊपर जा रहा है, उस केस में हमने क्या
+[10:43] देखा? इंडेक्स में भी एक अच्छा उछाल हमने
+[10:46] देखने को मिल रहा है। अब देखिए, अगर आप
+[10:48] सेल साइड सिग्नल्स आरएसआई को यूज करके
+[10:50] उठाना चाहते हैं, तो यहां पे जब वैल्यू 70
+[10:52] या 80 से ऊपर जा के वहां पे बहुत टाइम तक
+[10:55] आरएसआई की वैल्यूज रह सकती हैं, जबकि जो
+[10:57] इंडेक्स है या स्टॉक है, उसमें एक
+[10:59] अपट्रेंड आपको देखने को मिल सकता है। सो
+[11:01] इंपॉर्टेंट ट्रिक यहां पे क्या है कि बहुत
+[11:04] टाइम ओवरबॉट पोजीशन में रहने के बाद जब वो
+[11:06] ऊपर से नीचे आ रही है आरएसआई की लाइन, तो
+[11:09] आपने देखना है कि वहां पे एक सेलिंग
+[11:11] इंटेंसिफाई हो सकती है। जैसे कि इस केस
+[11:13] में यहां पे आप देख पा रहे हैं, जब आपने
+[11:15] देखना है ओवरबॉट ज़ोन से आरएसआई नीचे आ रहा
+[11:18] है, तब आपने वहां पे सेल पोजीशन को
+[11:20] इनिशिएट करना है और वही वो मौका होगा जब
+[11:22] आपको प्रॉफिट देखने को मिल सकता है। हो
+[11:24] सकता है आरएसआई 70 से ऊपर जाए, फिर 80 जाए
+[11:27] और फिर 90 जाए और फिर 100, ऐसा भी बहुत
+[11:29] केसेस में होता है और उस टाइम पे जो
+[11:31] इंडेक्स है या स्टॉक है, बहुत तेजी से ऊपर
+[11:34] जा सकता है। सो इट इज नॉट अबाउट कि आरएसआई
+[11:36] अभी 70 पे है या 80 पे। 70 या 80 का अपने
+[11:39] आप में ये मतलब नहीं होता है कि स्टॉक में
+[11:41] वीकनेस आनी ही है। हमने ये देखना है कि
+[11:43] ओवरबॉट ज़ोन से कब आरएसआई की लाइन जो है,
+[11:46] वो नीचे आ रही है। नीचे आने का मतलब है
+[11:48] वहां पे जो स्ट्रेंथ है, वो वीकेन हो रही
+[11:50] है। उसी तरीके से आप देखिए, जब भी आरएसआई
+[11:53] की वैल्यू नियर 70 जा रही है और वहां से
+[11:56] नीचे आ रही है, तो वहां पे एक प्रॉफिट
+[11:58] बुकिंग का मौका आपको जरूर देखने को
+[12:00] मिलेगा। ठीक है? तो जब भी ये आरएसआई को
+[12:03] आपने यूज करना है ना, तो एक चीज का ध्यान
+[12:05] रखना है। अगर ट्रेंडिंग मार्केट है, स्टॉक
+[12:07] बहुत तेजी से ऊपर जा रहा है, कैसे पता
+[12:09] चलेगा ट्रेंडिंग मार्केट है?
+[12:11] द स्टॉक विल बी मेकिंग हायर हाइज एंड हायर
+[12:13] लोस।
+[12:14] जो
+[12:15] होंगे उनके ऊपर ट्रेड कर रहा होगा स्टॉक
+[12:17] की जो प्राइस एक्शन है, साथ में जो ईएमए
+[12:19] क्रॉसओवर हमने देखा था उसमें एक बुलिश
+[12:21] क्रॉसओवर आपको देखने को मिलेगा। सो अगर
+[12:24] कोई ट्रेंडिंग मार्केट है तो आपने इस
+[12:26] मोमेंटम ऑसिलेटर को यूज करना अवॉइड करना
+[12:28] है। कब यूज करना है आपने आरएसआई को
+[12:31] इंट्राडे ट्रेडिंग के अंतर्गत जब आपको
+[12:32] दिखाई दे रहा है कि प्राइस एक्शन साइडवेज
+[12:35] है। तो ये चीज आपने बिल्कुल अपने ध्यान
+[12:38] में रखनी है क्योंकि जब हमने ईएमए
+[12:39] क्रॉसओवर भी देखे थे तो मैंने आपको क्या
+[12:41] कहा था जब मार्केट साइडवेज है तो आपने
+[12:44] ईएमए क्रॉसओवर
+[12:47] उसके सिग्नल्स नहीं उठाने। उसी तरीके से
+[12:49] आरएसआई जो कि एक लीडिंग इंडिकेटर है उसके
+[12:52] सिग्नल्स आपने कब नहीं उठाने
+[12:55] ठीक है। इसके सिग्नल्स कब उठाने आपने बाय
+[12:58] साइड एंड सेल साइड
+[13:01] तो ये जो तीन इंडिकेटर्स मैंने आपको बताए
+[13:03] हैं ये एक कॉम्बिनेशन मैंने बनाया है
+[13:05] लीडिंग और लैगिंग इंडिकेटर्स का सो दैट
+[13:07] आपको पता चले कि जब मार्केट ट्रेंडिंग है
+[13:10] कौन सा इंडिकेटर आपके लिए बेनिफिशियल हो
+[13:12] सकता है और जब मार्केट साइडवेज है तो किस
+[13:14] तरीके से आपने इंडिकेटर्स को यूज करना है।
+[13:17] इंडिकेटर्स को यूज करने का सही तरीका ये
+[13:19] होता है कि आप उसको प्राइस एक्शन के साथ
+[13:21] कॉम्प्लीमेंट करें या फिर अदर इंडिकेटर्स
+[13:23] के साथ कॉम्प्लीमेंट करके एक पूरा सिस्टम
+[13:25] बनाएं। तो चलिए
+[13:29] आपको मेरी ये इंफॉर्मेशन अच्छी लगी होगी।
+[13:32] अगर आपको मेरी टेक्निकल इनसाइट्स अच्छी
+[13:34] लगती हैं तो वीडियो को लाइक और चैनल को
+[13:37] सब्सक्राइब जरूर कीजिएगा। मैं हूं डॉ
+[13:39] प्रियंका
+[13:44] इन्वेस्टमेंट्स इन द सिक्योरिटीज मार्केट
+[13:46] आर सब्जेक्ट टू मार्केट रिस्क। रीड ऑल द
+[13:48] रिलेटेड डॉक्यूमेंट्स केयरफुली बिफोर
+[13:50] इन्वेस्टिंग।
+
+##### FILE: 9DRRaq00dfU.txt
+video: https://www.youtube.com/watch?v=9DRRaq00dfU
+title: Make your Trading Report Card using AI !! #Face2Face with Mr.Nikhil Zelawat.
+channel: Trading & Investing 1M+
+
+Investments in the securities market are subject to market risks. Read all the related documents carefully before investing. Whatever happens next in the stock market will be AI-enabled. AI is empowering us. This is my rulebook. Where should I place the initial stop-loss? Where should I move to breakeven? I have defined that in my rulebook. You define the parameters you need. As soon as I set them here, I get action pointers. Right now, I maintain my trading journal in an Excel sheet. I think you'll replace that today, 100%. Absolutely, 100%. The chart I was talking about is Tata Motors. It shows how many trades I've taken. This has become my complete TradingView chart. Looking at historical trades, he said first, 'I don't follow the news.' Second, for me, the market is only about the 15-minute timeframe. And third, what is my cumulative risk at any given time? You need to review this bigger picture every day. Earlier, developing a platform and connecting a broker took a week. You had to submit documents, explain the requirements, and a team would build it. Today, the process doesn't even take five minutes. You can do it yourself: define your entry, exit and risk-management rulebooks, create a rulebook for your overall portfolio, and even document the mistakes you've made. This is how you build your mindset. Hello, welcome to another Face-to-Face. This time, you're watching another AI Impact Face-to-Face. For the last few days, or rather the last few months, I've had just one focus: how can I make you AI-ready? Because whatever happens next in the stock market will be AI-enabled. If you keep doing things the old way, you won't be able to sustain yourself for very long, because AI is actually replacing us. Actually, I shouldn't put it that way. AI isn't replacing us; it's empowering us. Our guest on today's Face-to-Face is going to show you how to improve productivity, become successful, and approach trading and investing the right way. He'll also explain how to use AI to build your own framework. This is going to be a very interesting conversation. Stay until the end so we can get the full benefit. Our guest today is from Indore. Indore is my favourite city. I studied for my MBA there, and I think I made a mistake by not settling there. I came back, but that's alright. I have many friends there. So, let's welcome our friend Nikhil from Indore. Hello! Hi, Vivek ji. How are you? I'm good. How are you? I'm doing great. Did you bring anything for me from Indore? Of course, I did. I was thinking I must give it to you before I leave, or I'll forget. Lovely, lovely. Indore is also the city of our friend Ashwin bhai. So, sir, lovely to have you here. Yes, obviously, there's that connection, but Ashwin and I share a very close friendship. Some people are such that you can call them and talk for hours, without ever feeling that you've spent too much time talking. Ashwin is one of those people. And the entire Amavat family is fantastic. My own journey also began because of Ashwin sir. I'll tell you more about that later. Alright, we'll discuss that later. Lovely. So, Nikhil, here's today's agenda. First, obviously, we'll get to know you. That's part of our process. But the main topic is how an individual can use AI to build a highly efficient trading journal that can improve their trading journey. Is that right? Yes, absolutely. Great. I'm really looking forward to it. I want to do this myself as well. Right now, I'm maintaining my trading journal in Excel. I think you'll get me to replace it today. One hundred per cent. Absolutely. Let's begin. First, tell us about yourself, Nikhil, and then we'll move to the presentation. Sure, sure. My journey began ten years ago. But let me go back a little further. I completed my engineering degree in Electronics and Communication. After that, I was interested in software. I worked for two years at [company name unclear], where I was given a support role. I had thought I'd get to do some coding, but my interest in coding gradually started to decline. At that company, you get to interact with an international crowd. I used to read books there, including books by Robert Kiyosaki, a well-known international authority. I attended one of his workshops. There, I met a trader named Botney Smith. Okay. That turned out to be the biggest decision of my life. Why? First, I attended his demo seminar. But the workshop fee was equal to three months of my salary. Still, I made the decision to attend it. Eventually, the workshop cost me less, but— Hello, my name is Vivek Bajaj. I have more than 20 years of experience in the stock market. If you're serious about the stock market, I recommend downloading the StockEdge app. It can really help you on your journey of creating wealth through the stock market. My life took a major turn there. At that age, certain things you hear can completely captivate you. I'll explain that later. As I mentioned at the beginning, there were many people at that workshop. During the Q&A session, people were asking questions to Botney Smith. They said, 'I'm making losses. My stop-loss gets hit and then the stock goes up. My strategy isn't working.' They asked various questions about their careers and trading problems. Someone asked a question, and he said, 'I've been trading for the last 15 years.' 'I do it for a living, and I'm successful in the market.' I thought, 'I need to find this person and learn from him.' Eventually, it turned out that he was Ashwin sir. Oh! My goodness! I kept pursuing him. That was my goal: to meet him. We spoke, and I exchanged emails with him. I bombarded him with emails. Then, three or four months later, he invited me to meet him. At the time, I was working full-time, but my knowledge was purely theoretical. I love reading books. During those two years at the job, I had read around 40 to 50 books. But it was all theory. I had no practical exposure to the market. I hadn't even invested much money. I just did a little trading now and then. When I met him, I showed him the notes I used to make while reading. I maintained them very systematically, and he was a little impressed by them. But when he explained the trading style, he said, 'This style may not suit me; I have a friend, Navy sir, and I think it would suit you.' That's how I was introduced to him. In one meeting, we decided that I should leave my job and come over. So I did. Wow! My family supported me a lot. They didn't question my decision; they simply said, 'Alright, do what feels right.' Another advantage was that I got the opportunity to return to Indore. That's where the journey began. I came back in 2016 and started trading full-time. I began learning seriously. I had a coding background, although I hadn't coded directly in the last ten years. But I had worked with software such as Falcon, where you can do user-friendly coding. I developed quite a bit of expertise under Navy sir. We used to code, backtest, execute, and then forward-test our strategies. We followed the process in considerable detail. There's one more thing I'd like to share. When I joined sir, we had a small arrangement. He said, 'You read books, so let's do this.' 'You can join us, but there's one condition: pick a book related to the work and finish it in a week.' 'Every Saturday, we'll sit together, make notes, and start implementing what we've learnt from Monday.' We did this for two years. Navy can do that! Amazing. Sir brings that kind of enthusiasm. He is still doing it. We would learn something, execute it, instrument it, and then repeat the loop. Even the journaling we'll discuss today has been part of my process for a long time. I started maintaining proper journals around 2017–18, first in Excel sheets, then in software, and later by switching between different tools. So this was already part of my life. Gradually, after about a year, I brought in all my friends. They left their jobs too, and we started working together and learning trading. We struggled for three or four years. We made money, but couldn't retain it. It wasn't sustainable. We learnt a lot through that experience, and before COVID, things became a little more stable. From there, a new product journey began. We had built a research platform called StockX. After that, I partnered with an international company from the US and Canada called Traders. We launched their product in India, with some customisation. But it wasn't very feasible compared with what I was looking for in my own trading journey. It also required a lot of energy. So, that was the journey over the last six or so years. I've visited brokers' offices to pitch products and helped traders resolve queries related to journaling. I've had quite a lot of experience doing that over the last four or five years. And now we have our own trading team. There are around ten of us. We manage our own funds and conduct research for ourselves. Everything we'll discuss today is something we use in our own work. Wow, lovely. I already knew you, of course, because you had come and met me when you were talking about that platform. I also know that your journaling is very, very consistent. The thought you were trying to establish through that software was very relevant. But how many people actually follow it sensibly? Perhaps many more will after watching this video, because I think if you put everything in one place, including your strategy, and maintain your journal properly, many insights will emerge from your own trades. That's right. Even the small behavioural patterns you notice through trading can help you understand your behaviour in everyday life and apply those lessons there too. Absolutely. Very good. Welcome to this festival of the H-family. Let's move ahead. You seem to like the PowerPoint. It's right in front of you, with best wishes from your mentors, Navy and Mr Ashwin. Let's go. Alright. Our topic is: 'Trade Like You Have a Superpower.' I've attended many face-to-face sessions and workshops, and learnt a lot. We implement strategies and backtesting, especially with the help of AI. That's one part of your journey: the research you do. What's the next step? You execute that research. After executing it, you go back and review the results. You check whether there were mistakes and whether there's room for improvement. Do we actually follow this entire process? Right. Today, we'll go through that whole process. If there's a holy grail in the market, this journal is it. We'll use it to understand our own behaviour. There are three basic steps. Record your journal, reflect on it, and then rewire it through a feedback loop. Identify where adjustments need to be made. The market doesn't reward effort; it rewards your edge. True. So where do we find that edge? Let's discuss that. I want to go back a little. I mentioned that I attended a workshop by a trader. Three things he said really stuck with me. First, he said he never looks at the news while trading. Okay. Second, 'All I do is trade for 15 minutes a day, and that's it. I travel from place to place.' 'I don't have a fixed office.' As a newcomer, at that age, statements like these really impress you. But one sentence in particular stayed with me: 'I just trade 15 minutes a day.' People asked him, 'Sir, what can you possibly do in 15 minutes?' He said, 'The market is open for six hours.' 'You can't stay focused on the screen for all six hours. You need to identify your own time window.' I think I heard you say in one of your workshops that you generally trade after 10 a.m., between 10 and 11. Right? Yes, between 10 and 11. That's my market time. And my market time is from around 5:15 to 5:15 at the latest. So, 80% of the effort that produces my results happens between 9 and 10. That's largely true. That's an edge. But you have to discover that edge. Now, what should you do between 9 and 10? I'll take my own example. I can't decide on a strategy, look at the stocks that came up, study their movements, and do all that analysis during that time. Between 9 and 10, my work should be as precise as a laser: what needs to be executed, where to enter, where to trail the stop-loss, and where to book profits. That's it. The decisions should already have been made before the market opens. When the market opens, you only need to take action. We'll try to make the preparation that leads to those actions easier. Okay, right. When the market opens, we'll execute. When it closes, we'll study what happened and prepare for the next day. We'll create a complete loop and see how AI can support it, making your decision-making faster, more efficient and smarter. Sure. Let's try that. Alright. The first thing he said was that he doesn't look at the news. The second was that he only needs 15 minutes in the market. The third thing he said was that he could trade from anywhere. For the last six months, he hasn't needed an office. He can trade from anywhere. The reason he needs only 15 minutes is that his set of actions is already defined. He just has to execute them, so he completes his transactions in those 15 minutes. That's quite impressive. Now that I'm thinking about it, I spend an hour in front of the screen, mainly watching. But the actual decision-making takes only 15 minutes. Yes. The other 45 minutes are perhaps just a mental habit: sitting in front of the screen from 10 to 11. I once heard someone say that, whatever work you do in the office, whether trading or something else, you should step back and ask how much time you're pretending to work, compared with the time you're actually working. That's true. That's true. Alright, let's see how efficiently we can make this process so that you can detach from it and do something else as well. It's not as if, once the market is over, I spend all my time looking at screens or doing research. I have other things to do too, such as booking things and making time for them. You can also build a habit of managing your office, personal and professional life in a more systematic way. Okay. Earlier, when I traded full-time, I had very clearly allocated time slots. I knew when I would read books during market hours and had a separate time for lunch. But ever since I became an entrepreneur, my life has become hectic. None of that schedule really works now. Most of our time goes into helping people solve their problems. I hope that makes sense. Alright, let's move ahead. Today, we'll follow a process for journaling that has around five or six steps. First, we'll bring in our data. We'll see how to connect it to Claude or another AI tool. Then we'll discuss the architecture behind journaling. I don't think many people discuss or understand this part. Before looking at the data, it's important to organise it systematically. Sure. We spoke quite a few years ago. You may not remember, but I saw the StockEdge journey from a very small level too. You once told me that one of the toughest things was the data. There is so much data, whether fundamental or technical. Defining and structuring it, especially fundamental data, is a huge process. Here, we're dealing only with our trading-journal data, and even that is, I think, one of your biggest assets. People can see the data so freely and efficiently. Alright, we'll understand the architecture and see how you can set it up according to your needs. Then we'll cover the basics of decision-making, which differ for everyone. We'll understand what you need at the time of execution. There are also some advanced visualisations that let you look at things from a different perspective. Then we'll look at parameters that you can customise according to your own requirements. We'll also see how to interact with Claude. We'll use Claude as the example tool and build a trading journal from there. The entire tool and journaling journey should be personalised for you. The architecture is the same at a basic level: how data comes in and how it is organised. After that, the personalised journey begins: what questions you should ask and what answers you need daily or weekly. The system will be personalised for each person. Wow, that's exciting. So you're empowering people to build it themselves. Technically, they don't have to depend on another tool. Yes. At the very least, journaling is something everyone should do. You should have your own diary. That's where you write things down, so why depend on a third-party tool? This is great. I'm looking forward to it. And ultimately, the important thing is to turn it into a habit. Otherwise, there's no point in discussing all this and simply leaving you with some software. Alright. Let's go straight to Claude. First, we'll connect our data. Okay? After that, the building process will be very simple. We'll start with a prompt, and from there, we'll begin our personalised journey. We'll start our personalised journey from there. Okay. I'll guide you. We'll develop it based on what you need. Fantastic. One thing: will you share everything you build with us? Absolutely, every single thing. Friends, you'll have to stay until the end if you want the resources. This is a serious discussion now. The entertainment segment is over. If you came only for entertainment, you can leave now. Let's get into the serious stuff. This is the Claude desktop app. I've downloaded and installed it. You can do the same. I generally work on the desktop app and in VS Code. My developer team uses VS Code when they need to make code-level changes. But a regular user can start with Claude Desktop. Simply go to Projects and create a new project. Let's name it 'Trader Journal F2F'. That's it. I've created it. Now we'll go to Settings, then Memory. I'll copy and paste the memory that I've already prepared. This is the memory you've created earlier. You can copy and paste it here. We'll discuss the inputs in it shortly. You can modify the features and tabs topic by topic as you need. Will you share this memory with us? Yes, yes. Okay, very nice. We've saved it. Next, go to Environment Variables. Here we'll specify where the data should come from. For this example, I'm using Dhan Broker. Log in to Dhan. Go to your profile. Whatever broker you use, they provide API access. Generate an access token using the API key. You'll also have a client ID. Copy both of them. I've already generated them here. Next, go to the Claude environment and create an environment. You can name it 'Solve'. What does an environment mean? Think of logging in to a platform through Google using single sign-on. It's a similar idea. Here, you can access the data through an environment token, which remains available for 24 hours. So, basically, this environment is what connects the two. That's what an API does: it connects to the server and asks it to start providing the data. Earlier, when we developed platforms, connecting a broker was a week-long process. We had to collect documents, understand the requirements and have a team build it. Today, the process doesn't even take five minutes. You can do it yourself. Now go to Custom. Add the domain that you want to whitelist so it can access the data from that domain. Then paste the environment variable you copied earlier and click Add. I've already set this up. Sure. Let's take a look. I've allowed Dhan's domain. And I've added the environment variable here. Where do you get that variable? From the Dhan login you just completed? Yes. After logging in, you get a long token. That's called the API token. Fair enough. Got it. Let me add a small disclaimer. I studied engineering, but I haven't coded in the last ten years. My brother Hrithik helps me with all of this. Most people have a developer somewhere in their circle. The basics are quite simple. Beyond this, what you really need to learn is prompting, which we'll discuss. And even if you don't know how to do something, you can ask Claude, 'How do I do this?' It will explain it. Yes. I've realised that it has answers to almost every question. Right? We've saved what we want to build in Memory, and we've added the instructions for connecting to the broker. Now we simply type: 'Start building.' That's it. We'll return to the slides. This will take around 10 to 15 minutes because I've already had the architecture prepared. Let's go back to the slides. The architecture is being prepared. Let's discuss what that architecture contains. We'll discuss the changes you may need to make to it and how to personalise it according to your requirements. Before that, let's look at your trade file. Many people simply check their P&L by logging in to their broker. But if we want to go deeper, we need to understand the basic structure of a trade. Let's take an example. Here I'm using Tata Motors. You can see two things: an Order ID and a Trade ID. Suppose I buy 1,000 shares of Tata Motors. I enter the buy order for 1,000 shares. We'll leave aside whether it's a limit order or another type. I've placed an order to buy 1,000 shares. But how do those shares actually reach me? I may receive 200 shares from one seller, 150 from another, and three from someone else. Each execution gets a separate Trade ID. So the Order ID remains the same, while the Trade IDs are different. Why is it important to separate them? We'll understand that when we look at how to categorise trades within a strategy. For example, I may buy 1,000 shares in the morning and then add more during the day based on the position and another strategy. This makes it easy to categorise trades across multiple layers. Interesting. So there are three levels: Trade ID, Order ID, and the combined position. When you see the average buy and average sell, that's the position level. That's the basic architecture we've added here. We'll see it in action. Next, let's personalise it. Many people use different brokers, rather than just one. You can connect multiple brokers, and you can connect the different market segments in which you trade. For example, our team may want to view everyone's P&L from a single admin account. We can build that into the architecture. Before creating the journal, you should decide how you want the framework structured. If you manage a team, you may want to categorise performance by trader. Select a trader and you'll see that person's performance. A trader may also have different types of portfolios. For example, short-term, long-term, investing, or other portfolios. You can create separate categories for those. If you work across different segments, such as cash, F&O and commodities, you can categorise those separately too. If you define these things early, the framework will already be in place and the process will become much easier. We'll keep these things in mind from the beginning, especially multiple brokers, because many of you use at least two or three. Think of it like a typical software-development cycle. You provide the basic framework and requirements upfront so the output includes all these features. There are two ways to approach this. You can plan the structure in advance, especially if you've seen how international platforms work. Or you can build it as you go, giving Claude instructions one feature at a time as new requirements come up. Which approach is better? If people are learning about these possibilities for the first time, it's better to design the framework beforehand, just as we used to do when building software before AI. Earlier, developers would say that adding a new feature required going back and making changes to the architecture. That made things difficult. Claude can do it now, of course. But if you define things in advance, you can build a better, more structured solution with less code. I'm also building an ERP for my organisation through Claude. A friend of mine, Anand Kejriwal, made a lovely AI video with me. I'll share that video link too. If you're a business owner who wants to build your own system, you should watch it. We're following a similar approach there: as we understand each organisational process, we implement it and then add the next one. That creates some challenges, even though we know the tool can do a lot. The more homework we do upfront and the more context we provide, the more efficient the process becomes. I'm realising that this could have been a better way to build our own tool. Thank you for sharing that feedback. We've prepared the architecture. Let's check it. It may still be building. Okay, the setup has now been created. It's working on the data layer we discussed. I've also specified a FIFO engine, based on first-in, first-out trade matching. It will then create the settings and develop the tabs, and publish the artifact with sample data. We'll return to the slides while it finishes. This will take another 15 to 20 minutes. Alright. Once the architecture is ready, what do I need from this journey? We'll discuss that now. My portfolio is the first priority. My biggest priority is decision-making. I can analyse past trades later. What information is essential during market hours? Think about what you need too. I'll explain my thought process first. Then we'll personalise it based on the strategies I use, how I think, and the mistakes I make. The AI will then help us. The third step can come later, but the second step, personalising the journal, is extremely important. I have a rule: I don't go to sleep without recording my trades, mistakes and strategies in my journal. I spend about half an hour on this after market hours. I record what I did and didn't do. I've made the process more advanced by noting exactly how I traded a particular stock. If I broke a rule, the system maps it automatically. We can do that too. But this review process is very important. I'd like to mention one more thought. I recently started reading Ajay sir's book, 'Good to Great to Go'. In the beginning, he mentions something interesting. Pure iron rusts and breaks easily. But when a little carbon is added, it becomes steel. Steel is used to build skyscrapers and so on. In the same way, you need to add your own personal material to the journal. Otherwise, it has little value. You could just go and look at your P&L instead. Exactly. Just a minute. Friends, you can see three books here. One is Ajay bhaiya's book. Another is by my friend Alkesh, a terrific entrepreneur. He has written about entrepreneurship and how to become a relevant entrepreneur. The third book, by the person in the middle, is about trading. Why have I placed these three books here? I want you to comment: 'I am a serious learner.' Please write that in the comments. I'll select three people from those who comment, and we'll gift them these three books. So write, 'I am a serious learner.' My team will randomly select three people and send them the books. I believe these books can help clarify many of life's philosophies. Right? Absolutely. It's nice to know that you're already reading Ajay bhaiya's book. I met Ajay sir a few months ago. At that time, I was decluttering things and deciding what I should stop doing. I had even enrolled at a university, but dropped out after three or four months. Wow. It was a full scholarship, and there was an entire examination and admission process. During that process, I remembered something Ajay sir had said: 'When you're lost, read a book; and when you come back...' His book was the first book of my investing journey, and I'm still reading it. The idea is to revisit what your focus really is. Choose your actions according to that focus. Lovely. Fantastic. Very good. Let's move ahead. First, we'll work on the portfolio. We've already discussed the architecture. Now let's look beyond the holdings shown on your broker's terminal or app. I'm talking about the basics: quantity, buys and sells. What else do you need as a trader on a day-to-day basis? Let's spend some time on that. Think about what you need. I'll take an example. Suppose I've taken a trade in RS Banking. I use relative strength quite often. Sometimes I take a trade and realise in the evening that the stock's relative strength wasn't very good. Then I check which other stocks in the sector had better relative strength. That gives me clarity that a better option was available. It becomes a decision-making point for the next day. I also have a fundamental score that I can use as a reference. If the score is particularly poor, I may treat it as a purely technical trade. But it's useful as a reference point. I deliberately haven't implemented live MTM in my journal because I don't want to monitor it all day. I check MTM around 9:30 or 10:00, and then again after 2:00 p.m. I've created a tab for the information I don't want to see constantly. I want the details to appear only when I refresh. You need to define these rules for yourself. I've also implemented charts in the journal using the TradingView library. We'll discuss how charts can help us spot patterns during trading. Sometimes, because of market churn or panic, we may exit a position too early. Or while trying to build a position in another stock, we may miss the movement in a stock we already held. If your trades are plotted on a chart, you can refer to them quickly. We'll look at this live. You'll be able to see whether you're following your rules. You may realise, 'I exited unnecessarily; there was no reason to exit.' It gets marked right there. I've optimised the process so that anyone can do it. I have my buying price, my stop-loss and my target. Now, during the journey between those levels, if the stop-loss becomes stale, I can move a point up. Is that right? That will reduce my overall risk exposure in the system. We'll come back to that screen and discuss it. Basically, we need to make notes about the strategy we're working on, whether stop-losses are being hit, and any additional remarks that will help us implement changes later. These are the notes we're making now. We'll also see when and where to use them. Next come the action items: what do I need to do in the market, and what information should be ready for me to act? Let's take an example. I have two or three ways of setting stop-losses. One is a strict stop-loss at 57. Another is when the low of the five-day moving average breaks. The third is a time-based stop-loss. I can't decide during market hours which of these conditions has been breached. The end-of-day report will show me if one of the three conditions has become true. Then I need to act. If you're working with multiple strategies, you'll have multiple exposures. We've discussed stock-specific exposure. There's also overall portfolio exposure. For example, I may decide to exit when a certain amount of money is invested, or book profits once a particular profit level is reached. Whatever the reason, the more details you provide and the more you optimise the rules, the more clearly the system can show you what to do. You simply define it, and it creates your rulebook. We'll see all of this live. Yes, absolutely. So that's your rulebook for entries, exits and risk management, as well as the overall portfolio. You can also create a rulebook for the mistakes you've made. For example, I intended to take a 10% position in a stock, but I usually take only 5%. That discrepancy will become visible. As we build the rulebook, we'll also improve the stop-loss tracking. Ultimately, on my dashboard, I want to see something like this: I didn't set a stop-loss for Indigo. Every position should have a stop-loss, and my maximum position size is 5%, but this one is 9.4%. How will the system know where my stop-loss is? I've added another feature. When we get data from the broker, they also provide historical data. I've subscribed to it for ₹500 a month. Some brokers may provide it free, but you can also request it through the API. With that data, we can use the TradingView library to plot the trades on a chart. Once the chart and data are available, they can support decision-making. But how do you know that you haven't set a stop-loss? I've created a section under my holdings where I update the stop-loss manually every day. Yes, manually, because I haven't provided the stop-loss level through the API. I've also set a default rule. If I haven't set a stop-loss, the system assumes a default stop-loss in the range of 5% to 7%. So even if you forget to set one, there's a defined maximum risk. But whether you've actually set it still needs to be entered manually. I'm wondering why brokers don't provide the order book through an API, so we can see all the orders we've placed, including pending orders. Those orders are yet to be executed. You can collect that information too, actually. Personally, I use a terminal. We could manually take the orders from the terminal and feed that information into the journal in real time. Connecting it through the API is a little difficult at the moment. We'd have to download it to Excel and upload it. That's a somewhat cumbersome process. I'm just thinking: why haven't brokers considered that clients may want API access to their order book? Let clients evaluate whether their orders are correct. You've already placed the orders. Ideally, all the information should be available to me through the API. I can already access market information. But pending-order information isn't available. That's why you're having to enter these details manually. You have to write that a stop-loss has been set at a particular price. A stop-loss is a passive order. Brokers should provide that through the API too. Perhaps some broker is listening and will build this. You should also keep checking whether the order is a day order and whether it remains active. If it isn't there, the system should nudge you to place it. If you have a system for everything, this becomes possible. I've given brokers an idea; they could build their own journal and provide these nudges. That's good for the market. Let's move ahead. Let's check the screen. Is it ready? Yes, the dashboard is ready. Let's see what it has developed. I've created the basic journal architecture. Once this architecture is in place, our personalisation journey begins. First, let's look at it. So the basic journal is ready. It has four or five sections. The Overview gives us trade details, and I've loaded sample data here. These are my holdings, which I'll use to make decisions. Next is Journaling: what do I need to record? It includes basic trade-history details. I'll add my notes here, update my strategy, and enter targets, stop-losses and remarks. Then there's Advanced Visualisation, which we'll discuss shortly. After that comes personalisation, based on what you need, followed by simulations that can improve your trading journey. All of this is ready in one tab with dummy data. The tables below will be personalised during our discussion. The data is ready according to the architecture we decided on. So if we share this Memory with someone else, their journal can be generated in the same way. This is mock data for now. To add real data, use the Upload Data option. The API details and token we generated are already stored in the environment. We can tell Claude to retrieve the token from the environment, add it here and fetch the data. If you need specific data, it can fetch it directly from the broker through the API. So there's no complicated process? No need to download a CSV from the terminal and upload it? Not for this setup. I remember the old days too. We used to work through Odin and other terminals. Do you still use those? I do, and my team does too. Different terminals have different formats. The formats from the exchanges and systems can vary. I can show you some examples. So you have to download the CSV files, back them up, and upload them? Yes. The team downloads and uploads them. I tag the files in the evening, and then the analysis is ready. Could you point Claude to a folder and ask it to convert the files automatically? We trade across multiple systems and hardware setups. Does Cowork work only on one computer? I'm not technical enough to say how it handles a network. Sometimes I ask a teammate to place or exit a trade while I'm away from my system. Managing all those records becomes difficult. That's why I've built the architecture to merge trade files from wherever the trades are placed. Sometimes we buy on the NSE and sell on the BSE. There's no need to square off manually; the system can match them automatically. But you probably have a common risk-management tool that shows all trades on the terminal. Yes, but I want personalised details under my own ID. That part is a little manual if you're working with this setup. For retail users, you may not need to go into that much detail. Tell me, if I have accounts with multiple brokers, do I need to configure multiple APIs here? Yes. Then it will consolidate the data. In the filters, under Source and Mapping, you can select multiple brokers for the journal you've created. Select your broker and portfolio, then update or fetch the data accordingly. You can also upload a CSV, depending on your process. That way, all your positions will appear in one place in a consistent format. We've also provided a CSV option, but that means a manual daily process. In my experience, people don't keep up with it. Fair enough. The data is ready. Now let's discuss how much you want to personalise your own journey and what you'll be able to do. What do I need on my Holdings page? As I mentioned, I want something like this rulebook on the right-hand side. I mainly need to see the status each day: whether I should trim a position or whether it has reached the stop-loss level. I've created a separate tab for the reasons. During market hours, I don't want to analyse the reasons; I just want to focus on execution. For example, I've held HDFC Bank for 41 days. The stop-loss hasn't been hit, but the stock isn't moving either. My rulebook says to trim it. I generally don't hold a position for more than seven or eight days, so this helps with decision-making. For Tata Motors, the trailing stop is around 5 p.m. The position has a three-hour profit. Should I hold, book profits or start trimming? Where did you define this rulebook? I've created my own. Now let's create yours. The system you've built is now a tool. Yes. To create the rulebook, we need to go back into Claude, right? Because this is the personalised part. I'll create my own rulebook, but your approach may be different. You may use different stop-losses or market segments. Alright, let's create the rulebook. Create a Memory that I can use to define my... Do you type everything too, or do you speak? I actually use VS Code, where I can simply speak. It makes things much easier. Let's create a rulebook where I can define the scenarios for my targets, stop-losses, profit-taking, partial booking and so on. I should be able to enter variables for each category and update them in the system. It should appear in the Holdings section, where I can change those pointers for different situations. Ultimately, it should show me action pointers in the header of the Holdings section, telling me what action I should take in each situation. Okay, let's go. Have you seen this tool? I use it. Whisper? Yes, it's a crazy tool. I haven't used it yet. Whisper Flow is a crazy tool. You can speak naturally, and it uses AI to turn what you say into properly written sentences. It listens to whatever you say and uses AI to turn it into a well-formed sentence. There's also something like a recording feature. It can summarise conversations too. Since we're having this conversation, I had thought about getting it. I was thinking about using it during live market hours when the team is discussing a decision. For example, whether a stock has been bought or whether there's no demand showing up. I could record those analyses and correct them later. I'm considering it, but they haven't yet explained how I can integrate my data through the API. I don't want to do it manually. It can summarise everything, but I would still have to put it into my journal every day. That's interesting. Look, it's listening to you and entering everything as you speak. You can stop it. Close that below. Where is the option? Send the request into the same artefact. Has it sent it? Just a second. Open it again. Yes, it's doing that. Correct. It will ask you questions about the rulebook. It will ask you for parameters, right? Yes. It will create a console for you. I've already given it some basic parameters for the rulebook. I need to define what to enter and what stop-loss to use. Okay. When should I trail the stop-loss? Here's a basic example. My initial stop-loss is 5%. When I have a profit of 5%, after one unit of profit, I'll trail it to breakeven. If the profit reaches 2R, I'll trail it further. That's my rulebook. So it should also have access to real-time prices. If I do swing trading, for example, I need end-of-day analysis, not live analysis. Okay, so you're already getting historical data. Yes, for decision-making. So your trading journal will also receive real-time prices? Yes, from the broker. Yes, it's coming through. Okay. But I don't use it continuously. I want it to appear only when I refresh. Why? Because I don't want to watch the live MTM fluctuations. But you could still use live data to generate alerts. For example, if my profit is moving up by 5% or 7%, and I need to book profits, I can refresh once and see that decision point in front of me. Here, it's showing 'Book Profits'. We've started trimming the position. Do you foresee a future where people won't use the broker terminal at all, and instead use their trading journal as their primary terminal? There may be no watchlist, no bid-ask information and no P&L display. The trading journal, or intelligent decision-support system, becomes the primary interface, while the actual trades are executed in the background. You only receive alerts. Is the market moving in that direction? I have two opinions on this. When my journey began in 2016, there weren't so many platforms. I started my journey on a terminal, so I don't think I'll give that up completely. I have a saying about that. But I do think the support system you described is necessary. For people who entered the market especially after COVID, a support system like this may work well. We're also trying to build one ecosystem where research and decision-making can happen together. We can record our mistakes, create watchlists and run scans in the same place. I want one ecosystem, so I don't have to keep moving between different platforms. Brokers are already working on that. But what I'm saying is, everyone is doing that. What's the next step? An individual could build their own product, one that is more journal-first. The trading terminal and everything else would operate in the background. At present, those things are in the foreground because brokers want you to trade more. That's why they show you all the colourful prompts and displays. Usually, there's just one icon inside the entire software for the journal. So I guess it depends on the kind of trader you are. If you're an aggressive or short-term trader, especially a scalper, you need the terminal. You need to act quickly, again and again. Exactly. I also used to have five screens. Now I've reduced them to three. That's good. What I was trying to understand is this: we've all been market participants for many years, and we've realised that less is better in the market. If you trade less, you may have a higher probability of making money and you'll have more peace of mind. Right? So don't get caught up in the idea of making the terminal your first screen and the journal your second screen. Are you getting my point? Your day should begin with the journal too. Yes, that's what I'm saying. The first thing I should see shouldn't be everything appearing on my watchlist. I shouldn't be looking at every stock in the watchlist, because that creates unnecessary trading impulses. When you put the journal first, you're thinking about your positions first, rather than worrying about everything happening in the market. Why should it matter what Nifty or GIFT Nifty is doing? Exactly. Did that make any difference to your own portfolio, apart from affecting other people's portfolios? For many people, it made a big difference. But that's precisely the point. Controlling the mind is difficult too. Earlier, during the first 15 minutes, I used to feel a strong temptation. I would see one breakout or another and feel like taking a trade. Sometimes the stock wouldn't even be on my scans or watchlist. It's not that you should chase every opportunity that appears. But the temptation is there: 'I missed this one; I missed that one.' Now, if a trade has to be taken according to my strategy, I won't enter it before 9:30. What is my job until 9:30? I need to make sure my existing positions are in order and take action wherever required. Yes. Around 70–80% of my journal records show this pattern. More than 70% of the trades I took before 9:30 failed to make a new high and move further. That's fair. I've realised something similar. That's why I've set 10 o'clock as my start time. Most trades I took before 10 resulted in losses. I'm talking about the cash market, not derivatives. My profit-booking ratio is also highest in the cash market. You mean booking profits by selling into strength? Yes. I get very good results between 9:15 and 9:30. Nice, nice. This is a very interesting and important concept. I wonder how many people understand and appreciate it. The moment you become journal-first and put your second brain to work, as we discussed in the second-brain concept, your journal becomes that second brain. Then, in the morning, you work by looking at your own plan, rather than reacting to the market. That makes a real difference. At least for the first few hours. After that, you can look at the market too. I also think there should be an alert mechanism. You shouldn't sit watching the screen all the time. It doesn't really add value. What do you gain by continuously watching trading charts? You just keep watching them. What does that achieve? But if you have an alert engine running in the background, and it generates ideas based on your rules, you'll focus on those ideas. Why do you need to watch the entire market all the time? We shouldn't be watching TV either. We don't even have a TV in our room. That's such a waste. Let's move ahead. Let's return to the visualisations. Now that we've provided our feedback, strategies and mistakes, we can understand what works in each of our strategies. We'll discuss the complete cycle, including when to use each parameter. We've covered stock-specific actions. Now let's see how to evaluate performance strategy by strategy. There are different types of visualisations for this. We've started with the basics. For example, when we trade mid-cap and small-cap stocks, we can look at sector allocation. That helps me see, for example, that my largest position is in EMS. Am I actually aligned with the broader market? Some strategies go through periods when they don't make money. Should I reduce my exposure to that strategy? If so, put that thought into your rulebook and test it. Then validate it. For example, perhaps momentum hasn't worked over the last three months, but pullback strategies have performed well. You can add that to your rulebook after validating it. You'll be able to see where you're making profits and where you're taking losses. We'll understand these things more closely. Some ideas may emerge during our discussion, such as testing a strategy for three months and reviewing the results. Then you can make a decision based on those results. That's a one-time process. If you think you should do it every week, you can build your own engine and feed it the required information. Mapping every trade to its strategy is important. That part will be manual. Yes, it should be manual. I would strongly recommend doing it. Whatever else you do, make time for it. It hardly takes more than two minutes. Yes, yes. That time is worth setting aside. But if someone else is placing trades, the process is a little different. I think it's best to assign the strategy before placing the trade. That's a very good option. But the terminal doesn't give us that facility. Otherwise, if you enter it while placing the trade, the mapping will happen there and then. That's right. I think you can get that information from the broker. I'm not sure which brokers provide it through their APIs. We'll have to check. Okay. Let's return to the TradingView chart we were discussing. It's ready now. The parameters have been created. Nice. Let's open it and check. The rulebook is ready. Let's go into Holdings. This is my rulebook. Where should I place the initial stop-loss? Where should I move it to breakeven? I've defined that here. You can define whichever parameters you need. As soon as I set them here, it gives me action pointers. Amazing! I think this is what actual usage should look like. During market hours, execution should be laser-focused. Fifteen minutes a day, with everything ready in advance. That's crazy. This isn't just journaling. It's beyond journaling. Journaling usually means recording what you did after the market closes. This is a decision-support system during market hours. Yes, yes. Okay, so our action pointers are ready. Now let's take this a little further. The system has given me an action point. It can also check whether I actually followed it. Right. Then it can scold me later for not doing what it told me to do. It's basically a karma point system. Yes. We can definitely implement karma points. You can come back every day and check how you performed compared with the previous day or week. It's up to you which direction you want to take it in. Here are my trade details, and the analysis and decision-making actions I need to take are shown under Holdings. That's where all the information comes together. For a particular stock, you can also— You may need APIs or third-party software for that, which isn't recommended. But if you want to track results or know when to track fundamentals, you can sync that data too. We can discuss this later. Claude already has access to a lot of information. It can find things on the internet. We can ask it to add any relevant news here. Yes, because it can retrieve news from the internet very quickly. I've also added this to my journal. Oh, you've added it there? Yes. Oh, the results are coming up. The results calendar is here too. You can open it and see the details. Where did you get this data? Is it through an API? We previously had an API for live squawk. So you get all the fundamental data as well? Yes, we've set that up. Screener provides an open API, doesn't it? We can ask it to retrieve the information from the Screener website. I'm not sure whether that's possible, but we can explore a process for doing it. We have a few tools built on Screener that we use to calculate the fundamental score. We export the data in the format we need and upload it here. We only need to update it once the results session is over. That way, the system can also show details about which companies are doing well. Alright, those details are ready. Now, for example, let's look at the chart I was talking about. Take Tata Motors. I want to see how many times I've traded this stock. This gives me a complete TradingView-style chart with my historical trades. You don't generally get this from a broker; you have to view it separately. And a broker will show you only its own trades. If you use three or four brokers, you need to consolidate them. You might buy through one and sell through another. That's possible because the demat account is common, right? So all the data can be brought together here. During market hours, when I'm considering a trade, I often remember that I've traded this stock before. I can go back and check which strategy made money in it and what my record was. This is what you meant by having everything in one ecosystem, isn't it? Brilliant. I'm thinking about how I currently do this in an Excel sheet. If I could see my performance in every stock graphically, it would become much clearer where I've made mistakes and whether I should trade that stock again. There's always that one stock that never makes money for me, yet I keep trading it. Things look so clear graphically. Can you show us an example with one stock? Let's use Tata Motors. This is dummy data. You can see where I bought and sold, then bought again and sold. It also shows partial profit booking. I bought again, added more, and then sold in several parts. Then I sold the remaining quantity, bought lower down, averaged, and eventually sold again. So all that information appears here. Where does it come from? The Order ID? Yes. We've consolidated it using the Order ID. I don't need to know every individual execution chunk. I've also applied FIFO matching. That tells us which earlier trade was squared off by a later trade. For example, if I square off 500 out of 1,000 shares, the system plots that quantity on the chart. Let's look at a more advanced view. This is another stock's data, showing my percentage returns. Wow. Here's the position. If I need to trail the stop-loss, I can do that here. If I need to trail the target, I can set that too. You can make the process this simple, even at this level of detail. Why do you need the TradingView chart library? Why not build the charting yourself? We can plot it in a similar way. Almost everyone uses TradingView for charts. I use it too. Our watchlists and other things are already developed there. Here, I can look at the win rate of my historical trades. If I also want to see whether a particular market setup is forming, can that be plotted? Yes, we can bring the full setup into the chart. The chart here is small, so let me show you TradingView itself. This is TradingView. I want to clarify that the indicator I'm showing belongs to a third-party trader. It was publicly available. There's a green marker here, which means the condition has become true. Who made it? Please tell us; if it's free, we'd like to use it too. It's a Mark Minervini pocket-pivot breakout indicator. The green signal means the condition is true. I use the same idea in my journal. I have a basic filtering criterion. If a condition isn't true according to my rules, but I still take the trade, it will be marked as a rule violation. You can personalise it to this extent, combine your setups and scans with the journal, and get a complete picture of your past data. Alright. I've completed the stock-specific analysis and the strategy-wise analysis. Now I want to understand the overall picture. If I'm making a profit day by day, that will appear on the graph. I've also created a consolidated risk curve. For example, suppose I have ₹1 lakh in each stock and the risk in each position is 5%. The overall portfolio risk may also add up to 5%. My maximum loss could be ₹50,000. Some stocks may be in profit and their positions may have been trailed; others may be losing. If a stop-loss is hit, I book the loss. So what is my cumulative risk at any given time? You should review this bigger picture every day. Yes. I have a daily risk-review process. I look at the charts and check which stop-losses need updating during market hours. As I showed on the chart, I simply trail the stop-loss and the system updates it automatically. If I've taken a new position, my total risk changes. I need to see whether my risk is falling as my profits increase, or whether I'm taking on more leverage and risk. When panic hits, that's when you realise how important this is. Before the market opens, I should know my maximum risk and the worst-case loss I'm prepared to accept. Show us how that figure appears in your tool. Inside the tool, we can define the cumulative risk curve. I need to know my risk and how it's trending. If I take new positions as my profits increase, is my risk rising or falling? For example, if I use more leverage for short-term trades, how much does that increase my risk? In the early days of my trading, I used to make profits, but then I would give them all back. That wasn't sustainable. You really need to maintain this risk curve. Is the risk curve an absolute number? Yes, I use an absolute value. It can also be shown as a percentage. This percentage represents the portfolio's risk. Here I've compared the risk planned at a particular point in time. If all my stop-losses were hit, what would the loss be? That's my worst-case scenario. The reference point is the stop-loss. Of course, if the market falls 20%, your actual risk could be higher, but this assumes that you'll be able to exit at your stop-loss. There are different ways to analyse this. If a stock has a high weighting in my portfolio, I need to examine that strategy-wise too. We've already discussed the overall equity curve. Ashwin sir taught me to draw a trend line on the equity curve and check whether it is breaking. That can help me decide how to reduce positions. This next part is especially important to me. As a swing trader, I review this every week. I use a five-day period and compare my performance with the Nifty 500. I want to know which stocks are generating alpha, which are moving in line with the market, and which are lagging. I also want to identify where capital is being tied up without generating returns. That helps me rotate capital. For example, I might take half the capital out of two stocks and use it to build a new position. What's the formula? I simply give it the parameters: I'm a swing trader and I want an analysis every five days. Compare my returns with the index over that five-day period, then define the results for me. Okay. Where is this data stored? In a database? There are two options. You can simply ask it to create a folder locally. I'm using the desktop app so I can save everything locally. Alternatively, you can connect Google Drive and save the latest data there. And if you want historical data, you can retrieve that too. The old market data is already coming through Dhan's API. So you're connected to the internet whenever you're doing an analysis? Yes. I think Dhan's API provides around five years of data. Whenever you request analytics, it fetches the data through the API, even over the weekend. So you don't have to maintain your own database? I do maintain my own data as well. We could also map and store the historical data once, but that's a little technical. We'll need Hrithik's help with that. Hrithik, are you online? Friends, let's bring him in. Okay, this is where my weekend analysis begins. Nice. There's one more thing we missed in the architecture. My returns may be paid out at multiple points in time. How should the system account for that? I've already built that into the architecture. You can enter those details here too. I'm not sure, but the broker may also provide pay-in and pay-out details. That information may be available through the API. It's part of the ledger, right? Yes, the ledger provides it. So you can assemble all these parameters and build your own dashboard. Now comes the most interesting part: how to talk to Claude. This is where we'll get into the highly personalised part of the journey. Let's do it. You don't have to ask vague questions such as, 'Can you make this strategy better?' Be a little more specific. For example, give it your observations from the market. My stop-loss was hit, but I stayed in the trade for another two or three per cent. Let's analyse how often that happened over the last six months. My stop-loss was 5%, but I stayed in the trade for an additional 3%. Bring me those instances. These small lapses are where your major mistakes will show up. You need to spend five or ten minutes reviewing them yourself. Make a list of them. Ask one question at a time. After a couple of days, decide whether it's a mistake you keep repeating and whether it needs a rule in your daily rulebook. So start asking it questions. We can ask, 'What are the common mistakes I'm making in my trading?' Yes, we can do that. Let's start with a general question. Let's enter: 'What are the common mistakes I'm making in my trading?' This will analyse the data I'm using here, right? Yes, let's ask it to list ten trades as well. We can continue asking questions in the same thread. The answer it gives becomes part of that thread. Think of it as one ongoing conversation. You can continue the discussion there and ask follow-up questions. Got it. If you want to map this systematically, I've called this section 'Mind'. You can customise it to show the data you want, such as your common mistakes. You may want to see losses by strategy, a leaderboard, or the biggest losers. This is a generic setup, but you can customise it. I once heard that some traders only trade stocks with a daily volume of ₹50 crore or ₹100 crore. I simply ran an analysis: what happens to my P&L when I trade stocks with less than ₹10 crore in volume? It immediately showed me whether I was losing money in those stocks. That's a filter you could apply. Ashwin bhai also uses a minimum average daily volume, around ₹50 crore, perhaps even ₹100 crore. So you've told it to build your brain. From now on, you can have these conversations through this interface rather than the earlier screen. If there's a question you want to ask repeatedly, turn it into a rulebook. That's your personal journey towards improvement. Nikhil bhai, I hope a few people have stayed with us until the end. This is valuable knowledge. If you've stayed until the end, congratulations. You deserve a pat on the back. Today's video is very interesting, though some people may find it boring. That's fine. It should be a little boring. Now it's showing common trading mistakes. It's asking to read a folder on your device to find your trade data. This isn't dummy data; it's the data I saved on my desktop. It has merged partial entries across 66 positions. It shows a loss of ₹48,000 after 32 trades. These are the charges. Now let's look at the risk. It says the position size jumps without a clear reason, and that I keep returning to stocks that have already hurt me. These should go into the rulebook. It also flags overtrading during bad market phases and trades that aren't properly tagged. That's why personalisation is so important. The important inputs are your setups, strategies and mistakes. If you want to add something to the rulebook, just enter it under the relevant category. There are some parameters that need to be viewed from a different perspective or through a different lens. I've prepared prompts for these, which I'll share. Start with one parameter. For example: 'Is your list of mistakes shrinking month over month? Are you actually improving?' You can track whether your karma points are improving, increasing or declining month by month. If you want this in your rulebook, ask it to add the metric. Ask one question, get the answer, and let the next question emerge from that section. Don't ask everything at once. Take one thing at a time. Start with the mistakes you've made in your trading journey. We've already discussed the basic strategy-wise P&L. There's another important, slightly advanced concept: Maximum Favorable Excursion and Maximum Adverse Excursion, or MFE and MAE. If a trade moves in my favour, how high did it go before I booked it? If it's a losing trade, how much further did it fall before I exited? I use these two metrics every month. I check how much of a stock's potential move I actually captured. On average, it can show me that I book only 15% profit in a particular strategy, even though the stock may have moved much further. In the current market, perhaps stocks aren't moving more than 10%, while in a stronger market they may move at least 25%. You need to adjust your trailing rules to the market scenario. That's an advanced feature I think you should build. Just provide the MAE and MFE data, and it can generate the analysis. You can also ask why a particular mistake keeps happening. If it's in your rulebook, you can review its action pointer and decide what needs to change so you can rewire your behaviour. The next and final thing we'll discuss is simulation. We've identified our mistakes and strategies, but what can we do with those mistakes? The system has given me four pointers. I can select one mistake and run a simulation. For example, suppose my risk limit is 5%. If I had booked every trade that exceeded 5% loss exactly at that 5% level, how much would my profit have improved? You can test different scenarios. My actual profit here is ₹4.82 lakh. If I had held my winning trades for two more days, it would have improved to ₹6.1 lakh. This is scenario analysis through simulation, using the MAE and MFE factors we discussed. You can create simulations for the other parameters I've listed here too. Can I ask these questions inside the AI assistant I've built? Yes, but you're asking how the simulation appears in the live tool. A simulation means I tick a condition in my journal and see how all my results would change based on that condition. You can ask Claude to create a Simulation section in the journal. That's what I did: I first asked Claude for the answer, then asked for the simulation regularly, daily or weekly, and added it to the rulebook. So we've created a memory book for our holdings, trading journal and chart visualisations. It records the parameters we need. There are thousands of possible parameters. You have to decide what's important for you and then create your own rulebook. Ultimately, all of this can be built with a $20 subscription. But after that, you need to develop the habit. Let me share my personal routine. I start after the market closes. First, I tag all my trades with their respective strategies. Then I write down the mistakes behind my biggest losses: what went wrong and what went right. I also record what I did well in my winning trades. Both are important. That's my journaling process. After entering the data, I review my research and bring all my trades together in one place. At night, I check what my journal is telling me about the actions I need to take the next day. Before the market opens the next morning, I review the risk across my entire portfolio, using the risk curve we discussed. The overnight process also updates my stop-losses automatically, so I know my overall risk. I also have a pre-market dashboard that highlights the recent mistakes I've made, including those that keep recurring. Before the market opens, I need to know my maximum risk and the mistakes I've made recently. I don't want to discover those during market hours. You need to rehearse these lessons. If you don't, they won't sink in. After making the same mistake a few times in different ways, you'll begin to understand it. If I'm taking another trade in a stock that has repeatedly hurt me, I sometimes check its history. I don't do this for every trade, but I've built a few such checks. Then there's a weekly analysis that I must do without fail. Even if I miss some of the small daily tasks, I check which stocks are tying up my capital and where I need to make changes. I also review where I've made the most mistakes. You should conduct a monthly audit too. With a month's worth of data, you can run the MAE, MFE and simulation analyses. This overall routine needs to become a habit. You can add these habits inside your trading journal and tick them off every day. Yes, definitely. Tracking matters: did I do the monthly review, did I do the weekly review? It becomes more like a task manager. You can even track something as simple as whether you drank enough water. Interesting, very interesting. There are one or two more points I'd like to cover. Beyond journaling, I prefer to isolate myself a little during market hours so I can execute my rules precisely. Sometimes news about a stock can make you biased. Staying focused helps you avoid that. After trading hours, my friends and I spend time together. We live in the same society and go for evening walks, often with our children. Having a trading buddy you can discuss things with is invaluable. You've done personal stock introspection, but having a trading buddy with a similar style is even better. I have friends such as Aman, Jay and Gaurav. We discuss our positions almost every day. I explain how I entered a trade, and I get useful insights from their perspectives. Drawdowns will happen and keep happening. During those periods, it's important to understand what someone with a similar approach did better and learn from them. Trading can be a very lonely journey if you don't have that support. Everyone should try to build it. If I need advice, my guru is still just a phone call away. I can discuss things with him too. So AI is useful, but you still need people around you? Absolutely. Human involvement is very important for managing emotions. That's where community becomes critical to success. That's a fair point. Amazing. I really enjoyed this. We'll take several things from you, starting with the initial prompt and the Memory setup. We'll also share some prompts so people can get started. But my advice is to build this according to your own needs. Don't simply copy the prompt or Memory we provide. The important thing is to develop the mindset of creating your own trading journal and gradually adding all the components you need. I think you've understood that very well. Thank you for coming all the way from Indore just to record this. That's very much appreciated. Keep going with your trading journey. People often ask me how to build the right mindset. Trading is all about building the right mindset, not just about strategies. This is one way to build that mindset. Your tool becomes your second brain, helping you navigate it. Give it a try. If you like the video, leave a kind comment below saying, 'Thank you, Nikhil. I've done something good for myself because of you.' If anyone has questions, they can DM me on Twitter. I'm not very active there, but we'll share his Twitter ID below. Send him a message and have a sensible conversation. Also tell him what you've learnt or built, because he may learn something new too. That will help him improve, and I'll improve too. Thank you so much, Nikhil. It was lovely talking to you. Thank you, sir. Thank you. See you very soon. If you enjoyed this video, please share it with as many people as possible. And comment below if you know anyone doing excellent work in AI, whether in financial markets or non-financial fields. I'd be happy to learn from that person. Leave a comment or email me. You can write to vivek@stockedge.com. My team will connect with them, and we'll all learn together. Thank you. Bye. Jai Hind. Investments in the securities market are subject to market risks. Read all the related documents carefully before investing.
